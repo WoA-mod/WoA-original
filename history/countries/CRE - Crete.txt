@@ -1,13 +1,12 @@
 ﻿capital = 182
 
-oob = "CRE"
+#oob = "CRE"
 
-set_research_slots = 3
+set_research_slots = 2
 
 set_technology = {
 	### MOD ###
 	### General ###
-	shipbuild_basics = 1
 	### Navy ###
 	transport = 1
 	### Tanks ###
@@ -41,10 +40,10 @@ set_politics = {
 		social_democrat = {
 			popularity = 4
 		}
-                liberal = {
-                        popularity = 13 
+        liberal = {
+            popularity = 13 
                 }
-		social_conservative = {
+		conservative = {
 			popularity = 12
 		}
 		authoritarian_democrat = {
@@ -56,9 +55,9 @@ set_politics = {
 		national_populist = {
 			popularity = 8
 		}
-                antiqurian_nationalist = {
-                        popularity = 1
-
+        antiquarian_nationalist = {
+            popularity = 1
+		}
 	}
 
 	ruling_party = authoritarian_democrat
@@ -68,17 +67,21 @@ set_politics = {
 }
 
 create_country_leader = {
-        name = "Georg Franz Joseph Luitpold Maria"
-        desc = ""
-        picture = "Portrait_Georg_of_Bavaria.tga"
-        ideology = authoritarian_democrat
-        traits = {}
+        name = "Georgios Petrakis"
+        #picture = "Portrait_CRE_Georgios_Petrakis.tga"
+        expire = "1965.1.1"
+        ideology = paternal_autocrat_subtype
+        traits = {
+
+        }
 }
 
 create_country_leader = {
-        name = "Georgios Petrakis"
-        desc = ""
-        picture = "Portrait_Cre_Georgios_Petrakis"
-        ideology = paternal_autocrat
-        traits = {}
+        name = "Georg Franz Joseph Luitpold Maria"
+        #picture = "Portrait_CRE_Georg_of_Bavaria.tga"
+        expire = "1965.1.1"
+        ideology = authoritarian_democrat_subtype
+        traits = {
+        
+        }
 }
