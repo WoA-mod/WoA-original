@@ -1,0 +1,84 @@
+﻿capital = 182
+
+oob = "CRE"
+
+set_research_slots = 3
+
+set_technology = {
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### Navy ###
+	transport = 1
+	### Tanks ###
+	### INF ###
+	infantry_weapons = 1
+        gw_artillery = 1
+	### AIR ###
+}
+
+set_convoys = 30
+
+
+add_ideas = {
+	#medium_economy
+	limited_conscription
+
+}
+
+set_politics = {
+
+	parties = {
+		utopianism = {
+			popularity = 0
+		}
+		council_communist = {
+			popularity = 0
+		}
+		socialist = {
+			popularity = 2
+		}
+		social_democrat = {
+			popularity = 4
+		}
+                liberal = {
+                        popularity = 13 
+                }
+		social_conservative = {
+			popularity = 12
+		}
+		authoritarian_democrat = {
+			popularity = 36
+		}
+		paternal_autocrat = {
+			popularity = 24
+		}
+		national_populist = {
+			popularity = 8
+		}
+                antiqurian_nationalist = {
+                        popularity = 1
+
+	}
+
+	ruling_party = authoritarian_democrat
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+        name = "Georg Franz Joseph Luitpold Maria"
+        desc = ""
+        picture = "Portrait_Georg_of_Bavaria.tga"
+        ideology = authoritarian_democrat
+        traits = {}
+}
+
+create_country_leader = {
+        name = "Georgios Petrakis"
+        desc = ""
+        picture = "Portrait_Cre_Georgios_Petrakis"
+        ideology = paternal_autocrat
+        traits = {}
+}
