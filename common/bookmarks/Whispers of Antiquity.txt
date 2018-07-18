@@ -103,8 +103,13 @@ bookmarks = {
 			ideology = social_democrat
 			ideas = {
 				SWI_armed_neutrality
+				SWI_german_french_tensions
+				SWI_army_upkeep
 			}
 			focuses = {
+				SWI_focus_armed_neutrality
+				SWI_militia_focus
+				SWI_henri_guisan_plan
 			}
 		}
 		"ARG"={

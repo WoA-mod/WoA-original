@@ -50,6 +50,8 @@ set_politics = {
 
 add_ideas = {
 	SWI_armed_neutrality
+	SWI_german_french_tensions
+	SWI_army_upkeep
 	#service_by_requirement
 	#GEN_Francesco_Esposito_hog_mli
 	#GEN_Antonello_D_Angelo_for_mli

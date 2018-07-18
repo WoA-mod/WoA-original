@@ -20,6 +20,15 @@ ideas = {
 			}
 		}
 		
+		SWI_german_french_tensions = {
+			picture = SWI_german_french_tensions
+			modifier = {
+				stability_factor = -0.15
+			}
+		}
+		SWI_army_upkeep = {
+			picture = SWI_army_upkeep
+		}
 		SWI_bank_act = {
 			picture = generic_constitutional_guarantee
 			modifier = {
@@ -27,6 +36,6 @@ ideas = {
 				political_power_gain = -0.03
 			}
 		}
-	
+		
 	}
 }

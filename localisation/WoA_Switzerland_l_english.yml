@@ -31,12 +31,19 @@ SWI_bank_act:0 "Swiss Banking Act"
 #SWI_bank_act_desc:0 "Signed on December 1st 1933, the Swiss Banking Act was created in an effort to secure the assets of account holders within Switzerland. The act was a reactionary measure against the French intervention in the Rhineland, which saw many foreign assets in the region shut down and their profits siezed. The Banking Act has made it a criminal offense for a bank to reveal the name of an account holder, and proved very effective when both the French and German governments pressed the Swiss to reveal the names of certain accounts which had ties to the industrial Rhine region."
 ###
 SWI_armed_neutrality:0 "Armed Neutrality"
-#SWI_armed_neutrality_desc:0
+SWI_armed_neutrality_desc:0 "Ever since the Treaty of Paris in 1815, Switzerland has had the policy of neutrality, which meant not partaking part in any military alliances unless they themselves are attacked and to not allow foreign armies movement through it's land. Despite this, Switzerland is highly militarized and almost every citizen is trained and ready to rise up and defend the nation, in order to make invading it a really unattractive option to most aggressors and maintain Swiss independence."
+###
+SWI_german_french_tensions:0 "Swiss German-French Tensions"
+SWI_german_french_tensions_desc:0 "The continued Swiss Germanization has caused a rift between our German-speaking population and French-speaking population: we must be careful on how to manage this issue."
+
+###
+SWI_army_upkeep:0 "Army Upkeep"
+SWI_army_upkeep_desc:0 "Our highly trained and huge military for a nation our size comes at a cost- during the Guerra Mondiale, keeping our army mobilized and paying all the soldiers caused huge economic problems, and we must be careful not to cause them again- either by limiting our army size, expanding our industry or passing reforms to guarantee economical stability. \nAt the moment, we have no army upkeep costs."
 
 #### Focuses #### #Revisit Descriptions.
 
-SWI_armed_neutrality:0 "Continuation of Armed Neutrality"
-SWI_armed_neutrality_desc:0 "Our nation firmly believes in the policy of Armed Neutrality: not getting involved in other country affairs and ensuring that our neutrality is respected with strong military and defence policies."
+SWI_focus_armed_neutrality:0 "Continuation of Armed Neutrality"
+SWI_focus_armed_neutrality_desc:0 "Our nation firmly believes in the policy of Armed Neutrality: not getting involved in other country affairs and ensuring that our neutrality is respected with strong military and defence policies."
 ###
 SWI_national_redoubt:0 "National Redoubt Plan"
 SWI_national_redoubt_desc:0 ""
