@@ -38,13 +38,13 @@ set_politics = {
 			popularity = 5
 		}
 		authoritarian_democrat = {
-			popularity = 35
+			popularity = 40
 		}
 		paternal_autocrat = {
 			popularity = 20
 		}
 		national_populist = {
-			popularity = 0
+			popularity = 5
 		}
 		antiquarian_nationalist = {
 			popularity = 0
@@ -59,13 +59,65 @@ set_politics = {
 }
 
 create_country_leader = {
-    name = "Yuri Gaven"
+    name = "Ivan Akulov"
     #desc = ""
-    picture = ""
+    picture = "Portrait_Generico.tga"
     expire = "1965.1.1"
     ideology = utopianism_subtype 
     traits = {
         
+    }
+}
+
+create_country_leader = {
+    name = "Ivan Akulov"
+    #desc = ""
+    picture = "Portrait_Generico.tga"
+    expire = "1965.1.1"
+    ideology = council_communist_subtype 
+    traits = {
+        
+    }
+}
+
+create_country_leader = {
+    name = "Ivan Akulov"
+    #desc = ""
+    picture = "Portrait_Generico.tga"
+    expire = "1965.1.1"
+    ideology = socialist_subtype 
+    traits = {
+        
+    }
+}
+
+create_country_leader = {
+    name = "Coalition Government"
+    picture = "Portrait_Crimea_Coalition.tga"
+    expire = "1965.1.1"
+    ideology = liberal_subtype 
+    traits = {
+        popular_figurehead
+    }
+}
+
+create_country_leader = {
+    name = "Coalition Government"
+    picture = "Portrait_Crimea_Coalition.tga"
+    expire = "1965.1.1"
+    ideology = social_democrat_subtype 
+    traits = {
+        popular_figurehead
+    }
+}
+
+create_country_leader = {
+    name = "Coalition Government"
+    picture = "Portrait_Crimea_Coalition.tga"
+    expire = "1965.1.1"
+    ideology = conservative_subtype 
+    traits = {
+        popular_figurehead
     }
 }
 
@@ -76,6 +128,15 @@ create_country_leader = {
     ideology = paternal_autocrat_subtype 
     traits = {
         dictator
+    }
+}
+
+create_country_leader = {
+    name = "Bekir Coban-zade"
+    picture = "Portrait_Bekir_Coban_Zade.tga"
+    expire = "1965.1.1"
+    ideology = national_populist_subtype 
+    traits = {
     }
 }
 

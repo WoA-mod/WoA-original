@@ -13,5 +13,19 @@ spriteTypes = {
 		name = "GFX_idea_SWI_army_upkeep"
 		texturefile = "gfx/interface/ideas/ideas/SWI_army_upkeep.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_idea_SWI_army_upkeep"
+		texturefile = "gfx/interface/ideas/ideas/SWI_army_upkeep.dds"
+	}
+
+	############
+	# England Ideas
+	############
+
+	SpriteType = {
+		name = "GFX_idea_ENG_british_crown"
+		texturefile = "gfx/interface/ideas/ideas/ENG_british_crown.dds"
+	}
 	
 }
