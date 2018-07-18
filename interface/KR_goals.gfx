@@ -2625,6 +2625,10 @@ spriteTypes = {
 		name = "GFX_goal_NOR_orkney_shetland"
 		texturefile = "gfx/interface/goals/goal_NOR_orkney_shetland.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_army_guy"
+		texturefile = "gfx/interface/goals/goal_army_guy.dds"
+	}
 	### Generals added through focus ###
 	spriteType = {
 		name = "GFX_NOR_Jonas_Lie"
@@ -3480,8 +3484,6 @@ spriteTypes = {
 	
 	
 	
-	
-	
 	SpriteType = {
 		name = "GFX_goal_FRA_Cut_Off_Capitalists"
 		texturefile = "gfx/interface/goals/FRA_Cut_Off_Capitalists.tga"
@@ -3806,11 +3808,25 @@ spriteTypes = {
 		name = "GFX_ITA_latin_republic"
 		texturefile = "gfx/interface/goals/GFX_ITA_latin_republic.dds"
 	}
+	###Switzerland
+	SpriteType = {
+		name = "GFX_goal_SWI_flagship"
+		texturefile = "gfx/interface/goals/goal_SWI_flagship.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SWI_defense"
+		texturefile = "gfx/interface/goals/goal_SWI_defense.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SWI_reduit"
+		texturefile = "gfx/interface/goals/goal_SWI_reduit.dds"
+	}
 	###Rhineland
 	SpriteType = {
 		name = "GFX_RHI_independence"
 		texturefile = "gfx/interface/goals/RHI_independence.dds"
 	}
+	
 	SpriteType = {
 		name = "GFX_RHI_autonomy"
 		texturefile = "gfx/interface/goals/RHI_autonomy.dds"
@@ -3849,5 +3865,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_president_carlos"
 		texturefile = "gfx/interface/goals/goal_president_carlos.dds"
-	}	
+	}
+	
 }

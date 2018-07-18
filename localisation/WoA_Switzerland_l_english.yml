@@ -1,0 +1,119 @@
+﻿l_english:
+
+#### Political Parties ####
+
+SWI_vanguardist_party:0 "ESP"
+SWI_vanguardist_party_long:0 "Eidgenössische Sozialistische Partei"
+SWI_collectivist_party:0 "PCA"
+SWI_collectivist_party_long:0 "Bundes Syndikalische Partei der Schweiz"
+SWI_libertarian_socialist_party:0 "FS"
+SWI_libertarian_socialist_party_long:0 "Freie Sozialisten"
+SWI_social_democrat_party:0 "SPS"
+SWI_social_democrat_party_long:0 "Sozialdemokratische Partei der Schweiz"
+SWI_social_liberal_party:0 "NUu"
+SWI_social_liberal_party_long:0 "Nationale Unabhängigkeitsunion"
+SWI_market_liberal_party:0 "LdU"
+SWI_market_liberal_party_long:0 "Liberaldemokratische Union"
+SWI_social_conservative_party:0 "BCDA"
+SWI_social_conservative_party_long:0 "Bundes Christlich-Demokratische Allianz"
+SWI_authoritarian_democrat_party:0 "SDVp"
+SWI_authoritarian_democrat_party_long:0 "Schweizer Demokratisch Volkspartei"
+SWI_paternal_autocrat_party:0 "SNR"
+SWI_paternal_autocrat_party_long:0 "Schweizer National Republikaner"
+SWI_national_populist_party:0 "VL"
+SWI_national_populist_party_long:0 "Vaterländischer Liga"
+SWI_valkist_party:0 "DV"
+SWI_valkist_party_long:0 "Deutsch-schweizerische Valkistenpartei"
+
+#### Ideas ####
+
+SWI_bank_act:0 "Swiss Banking Act"
+#SWI_bank_act_desc:0 "Signed on December 1st 1933, the Swiss Banking Act was created in an effort to secure the assets of account holders within Switzerland. The act was a reactionary measure against the French intervention in the Rhineland, which saw many foreign assets in the region shut down and their profits siezed. The Banking Act has made it a criminal offense for a bank to reveal the name of an account holder, and proved very effective when both the French and German governments pressed the Swiss to reveal the names of certain accounts which had ties to the industrial Rhine region."
+###
+SWI_armed_neutrality:0 "Armed Neutrality"
+#SWI_armed_neutrality_desc:0
+
+#### Focuses #### #Revisit Descriptions.
+
+SWI_armed_neutrality:0 "Continuation of Armed Neutrality"
+SWI_armed_neutrality_desc:0 "Our nation firmly believes in the policy of Armed Neutrality: not getting involved in other country affairs and ensuring that our neutrality is respected with strong military and defence policies."
+###
+SWI_national_redoubt:0 "National Redoubt Plan"
+SWI_national_redoubt_desc:0 ""
+###
+SWI_people_mobilization:0 "Swiss Army"
+
+###
+SWI_army_modernization:0 "Army Modernization"
+SWI_army_modernization_desc:0 "With the world once again under a threat of a major war, we must make sure our army equipment is ready for use in modern times."
+###
+SWI_army_mobilization:0 "We Must Always Be Prepared"
+
+###
+SWI_war_games:0 "War Games"
+
+###
+SWI_standing_army:0 "A Standing Army"
+
+###
+SWI_henri_guisan_plan:0 "Henri Guisan's Plan"
+
+###
+SWI_flexible_conscription_policy:0 "Stronger Conscription Policy"
+
+###
+SWI_guerilla_fighting:0 "Guerilla Warfare"
+
+###
+SWI_resistance_policy:0 "Never Surrender!"
+
+###
+SWI_jakob_labhardt_plan:0 "Jakob Labhardt's Plan"
+
+###
+SWI_defensive_artillery:0 "Strong Artillery Defenses"
+
+###
+SWI_field_medics:0 "No Soldier left without Care"
+
+###
+SWI_special_forces:0 "Swiss Special Forces"
+
+###
+SWI_liaison_conference:0 "Liaison Conference"
+
+###
+SWI_establish_intelligence_department:0 "Establish Intelligence Department"
+
+###
+SWI_grand_counter_attack_plan:0 "The Grand Counter-Attack Plan"
+
+SWI_mario_martinoni_plan:0 "Mario Martinoni's Plan"
+
+###
+SWI_militia_focus:0 "Militia-Based Army"
+
+###
+SWI_emergency_procedures:0 "Mobilization Law Reforms"
+SWI_emergency_procedures_desc:0 "Our people must always be prepared to answer the call to arms if need be, and cutting the proccess should allow us to do it more easily."
+
+###
+SWI_prepared_at_any_time:0 "Quick Responses"
+
+###
+SWI_expanded_militia_equipment:0 "Militia Expansion"
+
+###
+SWI_accounting_for_cost:0 "Accounting for the Upkeep Costs"
+
+###
+SWI_mass_recruitment:0 "Mass Recruitment"
+
+###
+SWI_wartime_preparations:0 "Wartime Preparations"
+
+###
+SWI_economic_question:0 "The Economic Question"
+
+#
+

@@ -1,0 +1,32 @@
+###################
+#SWITZERLAND IDEAS#
+###################
+
+#########################################################
+#Coded by AirHunter, do not touch without his permission#
+#########################################################
+ideas = {
+
+	country = {
+
+		SWI_armed_neutrality = {
+			picture = generic_pp_unity_bonus
+			modifier = {
+				generate_wargoal_tension = 1.00
+				ai_focus_aggressive_factor = -1.00
+				ai_get_ally_desire_factor = -1000
+				conscription = 0.02
+				mobilization_speed = 0.10
+			}
+		}
+		
+		SWI_bank_act = {
+			picture = generic_constitutional_guarantee
+			modifier = {
+				consumer_goods_factor = -0.05
+				political_power_gain = -0.03
+			}
+		}
+	
+	}
+}

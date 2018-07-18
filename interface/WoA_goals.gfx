@@ -1,5 +1,16 @@
 spriteTypes = {
-
+	
+	###Generic
+	
+	
+	###Switzerland
+	SpriteType = {
+		name = "GFX_SWI_armed_neutrality"
+		texturefile = "gfx/interface/goals/SWI_armed_neutrality.dds"
+	}
+	
+	
+	###Russia
 	SpriteType = {
 		name = "GFX_RUS_belarus_question"
 		texturefile = "gfx/interface/goals/RUS_belarus_question.tga"
