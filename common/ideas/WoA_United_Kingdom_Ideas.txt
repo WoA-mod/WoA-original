@@ -4,7 +4,7 @@
 ideas = {
 	country = {
 	ENG_a_kingdom_without_a_king = {
-	picture = britishcrown
+	picture = ENG_british_crown
 	modifier = {
 	stability_factor = -0.10
 	}
