@@ -3,7 +3,7 @@ state={
 	id=544
 	name="STATE_544"
 	resources={
-		oil=8.000
+		oil=6.000
 	}
 
 	history={
@@ -12,27 +12,15 @@ state={
 			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 1
-			8245 = {
-				naval_base = 3
-
-			}
-			2123 = {
-				naval_base = 3
-
-			}
-
-		}
-		victory_points = {
-			8245 1 
 		}
 		add_core_of = MZB
 
 	}
 
 	provinces={
-		2120 2123 2159 2180 2193 2202 2217 5155 5164 5177 5212 8245 10972 12935 12950 12971 
+		2120 2193 5155 5177 5212 12935 
 	}
-	manpower=4125000
+	manpower=1125000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
