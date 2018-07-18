@@ -82,6 +82,8 @@ puppet = RAJ
 
 puppet = GMY
 
+puppet = CRE
+
 set_research_slots = 4
 set_convoys = 200
 set_stability = 0.8
