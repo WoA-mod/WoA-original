@@ -229,8 +229,8 @@ FER = {
 	color_ui = rgb { 0 127 14 }
 }
 RHO = {
-    color = rgb { 0 150 190 } #May toy around with other blue colours.
-    color_ui = rgb { 0 150 190 }
+    color = rgb { 93 138 168 } #May toy around with other blue colours.
+    color_ui = rgb { 93 138 168 }
 }
 CHI = {
 	color = rgb { 70 130 180 } #old one was 200 215 99
