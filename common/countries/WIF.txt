@@ -1,0 +1,5 @@
+graphical_culture = commonwealth_gfx
+graphical_culture_2d = commonwealth_2d
+
+color = { 66 66 150 } #Temporary, originally 66 134 244 but that was too similar to USA.
+ 

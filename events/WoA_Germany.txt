@@ -1,0 +1,172 @@
+﻿#########################################################
+#Coded by AirHunter, do not touch without his permission#
+#########################################################
+add_namespace = ger
+
+#### Introduction event
+
+	country_event = {
+		id = ger.1
+		title = ger.1.t
+		desc = ger.1.d
+		#picture =
+
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = ger.1.a
+		}
+	}
+
+#### Austerity/Reform Focus Tree event
+
+	country_event = {
+		id = ger.3
+		title = ger.3.t
+		desc = ger.3.d
+		#picture =
+
+		is_triggered_only = yes
+
+		option = {
+			name = ger.3.a
+			set_country_flag = GER_chosen_austerity
+		}
+		option = {
+			name = ger.3.b
+			set_country_flag = GER_chosen_reforms
+		}
+	}
+
+#### Report events
+
+	country_event = {
+		id = ger.10
+		title = ger.10.t
+		desc = ger.10.d
+		#picture =
+
+		is_triggered_only = yes
+
+		option = {
+			name = ger.10.a
+		}
+	}
+
+	country_event = {
+		id = ger.11
+		title = ger.11.t
+		desc = ger.11.d
+		#picture =
+
+		is_triggered_only = yes
+
+		option = {
+			name = ger.11.a
+		}
+	}
+
+	country_event = {
+		id = ger.12
+		title = ger.12.t
+		desc = ger.12.d
+		#picture =
+
+		is_triggered_only = yes
+
+		option = {
+			name = ger.12.a
+		}
+	}
+
+	country_event = {
+		id = ger.13
+		title = ger.13.t
+		desc = ger.13.d
+		#picture =
+
+		is_triggered_only = yes
+
+		option = {
+			name = ger.13.a
+		}
+	}
+
+	country_event = {
+		id = ger.14
+		title = ger.14.t
+		desc = ger.14.d
+		#picture =
+
+		is_triggered_only = yes
+
+		option = {
+			name = ger.14.a
+		}
+	}
+
+	country_event = {
+		id = ger.15
+		title = ger.15.t
+		desc = ger.15.d
+		#picture =
+
+		is_triggered_only = yes
+
+		option = {
+			name = ger.15.a
+		}
+	}
+
+	country_event = {
+		id = ger.16
+		title = ger.16.t
+		desc = ger.16.d
+		#picture =
+
+		is_triggered_only = yes
+
+		option = {
+			name = ger.16.a
+		}
+	}
+
+	country_event = {
+		id = ger.17
+		title = ger.17.t
+		desc = ger.17.d
+		#picture =
+
+		is_triggered_only = yes
+
+		option = {
+			name = ger.17.a
+		}
+	}
+
+	country_event = {
+		id = ger.18
+		title = ger.18.t
+		desc = ger.18.d
+		#picture =
+
+		is_triggered_only = yes
+
+		option = {
+			name = ger.18.a
+		}
+	}
+
+	country_event = {
+		id = ger.19
+		title = ger.19.t
+		desc = ger.19.d
+		#picture =
+
+		is_triggered_only = yes
+
+		option = {
+			name = ger.19.a
+		}
+	}

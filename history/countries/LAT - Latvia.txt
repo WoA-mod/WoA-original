@@ -1,0 +1,150 @@
+﻿capital = 757
+
+add_ideas = {
+	limited_conscription
+	GEN_Louis_Martin_hog_sde
+	GEN_Charles_Granet_for_sde
+	GEN_Adam_Duret_eco_sde
+	GEN_Robin_Trudeau_sec_sde
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_fighter = 1
+	early_submarine = 1
+}
+
+set_research_slots = 3
+set_stability = 0.68
+set_war_support = 0.28
+set_convoys = 15
+
+set_politics = {
+
+	parties = {
+		antiquarian_nationalist = {
+			popularity = 3
+		}
+		paternal_autocrat = {
+			popularity = 4
+		}
+		authoritarian_democrat = {
+			popularity = 13
+		}
+		socialist = {
+			popularity = 20
+		}
+		utopianism = {
+			popularity = 20
+		}
+		council_communist = {
+			popularity = 20
+		}
+		social_democrat = {
+			popularity = 20
+		}
+		liberal = {
+			popularity = 0
+		}
+		conservative = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = socialist
+	last_election = "1935.1.1"
+	election_frequency = 108
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Edward O'Rourke"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Alberts_Kviesis.tga"
+	expire = "1965.1.1"
+	ideology = antiquarian_nationalist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Marģers Skujenieks"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Alberts_Kviesis.tga"
+	expire = "1965.1.1"
+	ideology = utopianism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Zigmas Angarietis"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Alberts_Kviesis.tga"
+	expire = "1965.1.1"
+	ideology = council_communist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Alberts Kviesis"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Alberts_Kviesis.tga"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Steponas Kairys"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Alberts_Kviesis.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Jānis Čakste"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Alberts_Kviesis.tga"
+	expire = "1965.1.1"
+	ideology = liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Antanas Smetona"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Alberts_Kviesis.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Georg von Bayern"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Alberts_Kviesis.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Jānis Balodis"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Alberts_Kviesis.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}

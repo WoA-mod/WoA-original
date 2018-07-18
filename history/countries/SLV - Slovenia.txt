@@ -1,0 +1,50 @@
+﻿capital = 102
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+
+set_politics = {
+
+	parties = {
+		social_democrat = {
+			popularity = 0
+		}
+		conservative = {
+			popularity = 45
+		}
+		authoritarian_democrat = {
+			popularity = 22
+		}
+		paternal_autocrat = {
+			popularity = 15
+		}
+	}
+	
+	ruling_party = conservative
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+create_country_leader = {
+	name = "Mihály Károlyi"
+	desc = "POLITICS_MIHALY_KAROLYI_DESC"
+	picture = "Portrait_HUN_SocDem.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+	}
+}

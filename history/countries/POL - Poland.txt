@@ -1,0 +1,252 @@
+﻿capital = 10
+
+#country_event = { id = poland.1 days = 1 }
+set_research_slots = 3
+set_stability = 0.40
+set_war_support = 0.45
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 2
+	motorised_infantry = 1
+	tech_mountaineers = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	electronic_mechanical_engineering = 1
+}
+
+set_politics = {
+
+	parties = {
+		antiquarian_nationalist = {
+			popularity = 0
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		socialist = {
+			popularity = 9
+		}
+		utopianism = {
+			popularity = 12
+		}
+		council_communist = {
+			popularity = 9
+		}
+		social_democrat = {
+			popularity = 10
+		}
+		liberal = {
+			popularity = 35
+		}
+		conservative = {
+			popularity = 25
+		}
+		national_populist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = liberal
+	last_election = "1935.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Jan Mosdorf"
+	desc = "POLITICS_FRANCISZEK_RADZIWILL_DESC"
+	picture = "Portrait_Poland_Franciszek_Janusz_Radziwill.dds"
+	expire = "1965.1.1"
+	ideology = antiquarian_nationalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Edward Rydz-Śmigły"
+	desc = "POLITICS_FRANCISZEK_RADZIWILL_DESC"
+	picture = "Portrait_Poland_Franciszek_Janusz_Radziwill.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Stanisław Grabski"
+	desc = "POLITICS_FRANCISZEK_RADZIWILL_DESC"
+	picture = "Portrait_Poland_Franciszek_Janusz_Radziwill.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ignacy Mościcki"
+	desc = "POLITICS_FRANCISZEK_RADZIWILL_DESC"
+	picture = "Portrait_Poland_Franciszek_Janusz_Radziwill.dds"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hanna Chrzanowska"
+	desc = "POLITICS_FRANCISZEK_RADZIWILL_DESC"
+	picture = "Portrait_Poland_Franciszek_Janusz_Radziwill.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Zdzisław Lubomirski"
+	desc = "POLITICS_FRANCISZEK_RADZIWILL_DESC"
+	picture = "Portrait_Poland_Franciszek_Janusz_Radziwill.dds"
+	expire = "1965.1.1"
+	ideology = liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Józef Piłsudski"
+	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
+	picture = "Portrait_Poland_Boleslaw_Piasecki.dds"
+	expire = "1965.1.1"
+	ideology = utopianism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Stanisław Wojciechowski"
+	desc = "POLITICS_ADOLF_WARSKI_DESC"
+	picture = "Portrait_Poland_Adolf_Warski.dds"
+	expire = "1965.1.1"
+	ideology = council_communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Edward Rydz-Śmigły"
+	picture = "Portrait_Poland_Edward_Rydz_Smigly.dds"
+	traits = { inflexible_strategist media_personality politically_connected thorough_planner }
+	skill = 3
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 4
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Tadeusz Kasprzycki"
+	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Józef Piłsudski"
+	picture = "Portrait_Poland_Jozef_Pilsudski.dds"
+	traits = { fast_planner inspirational_leader war_hero media_personality }
+	id = 1867
+	skill = 6
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Bolesław Roja"
+	picture = "Portrait_Poland_Boleslaw_Roja.dds"
+	traits = { trait_reckless }
+	skill = 1
+	attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Stanisław Burhardt Bukacki"
+	picture = "Portrait_Poland_Stanislaw_Burhardt_Bukacki.dds"
+	traits = { infantry_leader }
+	skill = 2
+	attack_skill = 2
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Lucjan Żeligowski"
+	picture = "Portrait_Poland_Lucjan_Zeligowski.dds"
+	traits = { trickster commando expert_improviser }
+	skill = 2
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Stanisław Maczek"
+	picture = "Portrait_Poland_Stanislaw_Maczek.dds"
+	traits = { panzer_leader hill_fighter }
+	skill = 2
+	attack_skill = 3
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Władysław Sikorski"
+	picture = "Portrait_Poland_Wladyslaw_Sikorski_2.dds"
+	traits = { media_personality politically_connected brilliant_strategist }
+	id = 1881
+	skill = 3
+	attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+
+create_equipment_variant = {
+	name = "PZL P.24"
+	type = fighter_equipment_0
+	upgrades = {
+		plane_gun_upgrade = 3
+		plane_range_upgrade = 0  
+		plane_engine_upgrade = 1
+		plane_reliability_upgrade = 3
+	}
+}

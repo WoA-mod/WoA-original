@@ -1,0 +1,36 @@
+﻿capital = 459
+set_research_slots = 2
+set_stability = 0.55
+set_war_support = 0.51
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_politics = {
+
+	parties = {
+		social_democrat = {
+			popularity = 15
+		}
+		liberal = {
+			popularity = 15
+		}
+		conservative = {
+			popularity = 12
+		}
+		authoritarian_democrat = {
+			popularity = 20
+		}
+		paternal_autocrat = {
+			popularity = 4
+		}
+	}
+	
+	ruling_party = authoritarian_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}

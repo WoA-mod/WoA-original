@@ -1,0 +1,88 @@
+﻿###########################
+# Alt History Book Events
+###########################
+
+add_namespace = alt_history
+
+# Balticreich (The Second Commonwealth)
+country_event = {
+	id = alt_history.1
+	title = alt_history.1.t
+	desc = alt_history.1.d
+
+	trigger = {
+		is_ai = no
+		date > 1939.1.1
+		NOT = { has_global_flag = althistory_is_cool }
+#		OR = {
+#			has_global_flag = All_News_Events
+#			has_global_flag = Important_News_Events
+#		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	immediate = { set_global_flag = althistory_is_cool }
+
+	option = {
+		name = alt_history.1.a
+	}
+}
+
+# Emu Reich
+country_event = {
+	id = alt_history.2
+	title = alt_history.2.t
+	desc = alt_history.2.d
+
+	trigger = {
+		is_ai = no
+		date > 1939.1.1
+		NOT = { has_global_flag = althistory_is_cool }
+#		OR = {
+#			has_global_flag = All_News_Events
+#			has_global_flag = Important_News_Events
+#		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	immediate = { set_global_flag = althistory_is_cool }
+
+	option = {
+		name = alt_history.2.a
+	}
+}
+
+#Hearts of Gold (add later with fully done localization)
+#country_event = {
+#	id = alt_history.3
+#	title = alt_history.3.t
+#	desc = alt_history.3.d
+#
+#	trigger = {
+#		is_ai = no
+#		date > 1939.1.1
+#		NOT = { has_global_flag = althistory_is_cool }
+#		OR = {
+#			has_global_flag = All_News_Events
+#			has_global_flag = Important_News_Events
+#		}
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 6
+#	}
+#
+#	immediate = { set_global_flag = althistory_is_cool }
+#
+#	option = {
+#		name = alt_history.3.a
+#	}
+#}
+
+#The Last Bastion (to be added later when SilverScorpion has the event text)

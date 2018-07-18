@@ -1,0 +1,103 @@
+bookmarks = {
+	bookmark = {
+		name = "WHISPERS_OF_ANTIQUITY_NAME"
+		desc = "WHISPERS_OF_ANTIQUITY_DESC"
+		date = 1936.1.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "ITA"
+		default = yes
+
+		"USA"={
+			history = "USA_FUHRERREICH_DESC"
+			ideology = liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+
+		"ENG"={
+			history = "ENG_FUHRERREICH_DESC"
+			ideology = antiquarian_nationalist
+			ideas = {
+				ENG_a_kingdom_without_a_king
+				ENG_military_government
+				ENG_legacy_of_the_guerra_mondiale
+				ENG_british_constitutionalism
+			}
+			focuses = {
+
+			}
+		}
+
+		"GER"={
+			history = "GER_CAESARREICH_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				GER_victor_of_the_guerra_mondiale
+				GER_cost_of_1919
+				GER_bulwark_of_the_status_quo
+			}
+			focuses = {
+			}
+		}
+
+		"FRA"={
+			history = "FRA_FUHRERREICH_DESC"
+			ideology = conservative
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"ITA"={
+			history = "ITA_FUHRERREICH_DESC"
+			ideology = antiquarian_nationalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"DAN"={
+			history = "DAN_FUHRERREICH_DESC"
+			ideology = council_communist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"JAP"={
+			history = "JAP_FUHRERREICH_DESC"
+			ideology = liberal
+			ideas = {
+			}
+			focuses = {
+
+			}
+}
+		#Others
+
+		"---"={
+			history = "OTHER_WHISPERS_OF_ANTIQUITY_DESC"
+		}
+
+		# minors
+
+		"ARG"={
+			minor = yes
+			history = "ARG_FUHRERREICH_DESC"
+			ideology = liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

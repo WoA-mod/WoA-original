@@ -1,0 +1,24 @@
+state={
+	id=945
+	name="STATE_945"
+	history={
+		owner = CRI
+		add_core_of = CRI
+		add_claim_by = SOV
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			719 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+	}
+	provinces={
+		719 750 3760 6741 11668 11729 
+	}
+	manpower=439998 #A very rough estimate.
+	buildings_max_level_factor=1.000
+	state_category=city
+}

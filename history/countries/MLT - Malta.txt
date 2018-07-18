@@ -1,0 +1,56 @@
+﻿capital = 116 # Malta
+
+set_research_slots = 2
+set_stability = 0.80
+set_war_support = 0.30
+
+set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	early_fighter = 1
+	gwtank = 1
+	basic_light_tank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+}
+
+set_politics = {
+
+	parties = {
+		social_democrat = {
+			popularity = 20
+		}
+		liberal = {
+			popularity = 35
+		}
+		conservative = {
+			popularity = 25
+		}
+		authoritarian_democrat = {
+			popularity = 10
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = conservative
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+create_country_leader = {
+    name = "PLACEHOLDER"
+    desc = "POLITICS_PALCEHOLDER_DESC"
+    picture = ""
+    expire = "1965.1.1"
+    ideology = conservative_subtype
+    traits = {
+        #
+    }
+}

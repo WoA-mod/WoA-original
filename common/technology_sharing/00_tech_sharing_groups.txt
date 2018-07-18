@@ -1,0 +1,37 @@
+
+technology_sharing_group = {
+
+	id = continuous_tech_share
+	name = continuous_tech_share_group_name
+	desc = continuous_tech_share_group_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.1
+	is_faction_sharing = yes
+
+    available = {
+        is_in_faction = yes
+    }
+
+}
+
+#Example from FR on how they used it: Fede would be proud.
+
+#technology_sharing_group = { #South American Socialist Research Pact (Argie)
+#	id = argsoc_research
+#	name = argsoc_research_name
+#	desc = argsoc_research_desc
+#	picture = GFX_technology_sharing_default
+#
+#	research_sharing_per_country_bonus = 0.1
+#
+#	available = {
+#		OR = {
+#			is_in_faction_with = ARG
+#			is_subject_of = ARG
+#		}
+#		OR = {
+#			has_government = socialist
+#		}
+#	}
+#}

@@ -1,0 +1,34 @@
+###########################
+# Generic Focus Tree
+###########################
+#To be coded. Deleted the FR one due to errors.
+###########################
+
+focus_tree = {
+	id = generic_focus
+	
+	country = {
+		factor = 1
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+
+	#Military Branch
+	focus = {
+		id = generic_army_effort
+		icon = GFX_goal_planning_bonus
+		x = 3
+		y = 0
+		cost = 10
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+}

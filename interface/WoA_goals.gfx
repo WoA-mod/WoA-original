@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_RUS_belarus_question"
+		texturefile = "gfx/interface/goals/RUS_belarus_question.tga"
+	}
+}

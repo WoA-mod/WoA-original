@@ -1,0 +1,75 @@
+﻿capital = 554
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+}
+
+set_research_slots = 3
+set_convoys = 30
+set_stability = 0.50
+set_war_support = 0.50
+
+add_ideas = {
+	GEN_Francesco_Esposito_hog_mli
+	GEN_Antonello_D_Angelo_for_mli
+	GEN_Eros_Berna_eco_mli
+	GEN_Fleano_Carideo_sec_mli
+}
+
+set_politics = {
+
+	parties = {
+		social_democrat = {
+			popularity = 21
+		}
+		liberal = {
+			popularity = 23
+		}
+		conservative = {
+			popularity = 18
+		}
+		authoritarian_democrat = {
+			popularity = 7
+		}
+		paternal_autocrat = {
+			popularity = 5
+		}
+	}
+	ruling_party = liberal
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Moshe Sharet"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chaim Weizmann"
+	desc = ""
+	picture = "Portrait_ISR_Chaim_Weizmann.dds"
+	ideology = liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Itzhak Gaster"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}

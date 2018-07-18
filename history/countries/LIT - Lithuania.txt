@@ -1,0 +1,150 @@
+﻿capital = 11
+
+set_research_slots = 3
+
+add_ideas = {
+	limited_conscription
+	GEN_Oscar_Jensen_hog_pau
+	GEN_Lucas_Friberg_for_pau
+	GEN_William_Ostberg_eco_pau
+	GEN_Mats_Holmgren_sec_pau
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_fighter = 1
+}
+
+set_convoys = 20
+set_stability = 0.1
+set_war_support = 0.1
+
+set_politics = {
+
+	parties = {
+		antiquarian_nationalist = {
+			popularity = 11
+		}
+		paternal_autocrat = {
+			popularity = 52
+		}
+		authoritarian_democrat = {
+			popularity = 28
+		}
+		socialist = {
+			popularity = 4
+		}
+		utopianism = {
+			popularity = 3
+		}
+		council_communist = {
+			popularity = 1
+		}
+		social_democrat = {
+			popularity = 0
+		}
+		liberal = {
+			popularity = 0
+		}
+		conservative = {
+			popularity = 1
+		}
+	}
+	
+	ruling_party = paternal_autocrat
+	last_election = "1926.5.8"
+	election_frequency = 120
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Morta II"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Erich_Ludendorff.tga"
+	expire = "1965.1.1"
+	ideology = antiquarian_nationalist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Vladas Niunka"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Erich_Ludendorff.tga"
+	expire = "1965.1.1"
+	ideology = utopianism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Mečys Gedvilas"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Erich_Ludendorff.tga"
+	expire = "1965.1.1"
+	ideology = council_communist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Antanas Sniečkus"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Erich_Ludendorff.tga"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Gabrielė Petkevičaitė"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Erich_Ludendorff.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Pranas Dovydaitis"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Erich_Ludendorff.tga"
+	expire = "1965.1.1"
+	ideology = liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Aleksandras Stulginskis"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Erich_Ludendorff.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Erich Ludendorff"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Erich_Ludendorff.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Augustinas Voldemaras"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Erich_Ludendorff.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}

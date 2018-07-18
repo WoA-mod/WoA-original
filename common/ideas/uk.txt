@@ -1,0 +1,46 @@
+###UK IDEAS###
+#Toby's work, do not go messing#
+
+ideas = {
+	country = {
+	ENG_a_kingdom_without_a_king = {
+	picture = britishcrown
+	modifier = {
+	stability_factor = -0.10
+	}
+	}
+
+	ENG_military_government = {
+	picture = generic_reserve_divisions
+	modifier = {
+	army_org_factor = 0.05
+	planning_speed = 0.25
+	conscription_factor = -0.75
+	}
+	research_bonus = {
+				land_doctrine = 0.15
+			}
+	}
+	
+
+	ENG_legacy_of_the_guerra_mondiale = {
+	picture = generic_disjointed_gov
+	modifier = {
+	consumer_goods_factor = 0.30
+	production_factory_max_efficiency_factor = -0.15
+	political_power_gain = -0.5
+	}
+	}
+
+	ENG_british_constitutionalism = {
+	picture = generic_democratic_drift_bonus
+	modifier = {
+	conservative_drift = 0.01
+	liberal_drift = 0.01
+	social_democrat_drift = 0.01
+	}
+	}
+
+	}
+
+}

@@ -1,0 +1,115 @@
+﻿capital = 439
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	transport = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	CAS1 = 1
+	
+}
+
+add_ideas = {
+	GEN_Paul_Muller_hog_npo
+	GEN_Petre_Radu_for_npo
+	GEN_Mihail_Galca_eco_npo
+	GEN_Boian_Petrescu_sec_npo
+}
+
+set_convoys = 20
+set_stability = 0.6
+set_war_support = 0.6
+
+set_cosmetic_tag = IND_revolt # Indian Revolt
+
+set_politics = {
+
+parties = {
+		social_democrat = {
+			popularity = 17
+		}
+		liberal = {
+			popularity = 15
+		}
+		conservative = {
+			popularity = 4
+		}
+		authoritarian_democrat = {
+			popularity = 1
+		}
+		paternal_autocrat = {
+			popularity = 89
+		}
+	}
+	
+	ruling_party = paternal_autocrat
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+#declare_war_on = {
+#	target = RAJ
+#	type = annex_everything
+#}
+
+add_ideas = {
+}
+
+# REVISIT Unclear if appropriate for this ideology
+create_country_leader = {
+	name = "V. D. Savarkar"
+	desc = "POLITICS_VD_SAVARKAR_DESC"
+	picture = "Veer_Savarkar.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "B. P. Sitaramayya"
+	desc = "POLITICS_B_P_SITARAMAYYA_DESC"
+	picture = "GFX_RAJ_pattabhi_sitaramayya"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Provisional Government"
+	desc = "POLITICS_DELHI_PROVISIONAL_DESC"
+	picture = "Secretariat_building.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_field_marshal = {
+	name = "Subhash Chandra Bose"
+	picture = "Chandra_Bose.tga"
+	id = 1000
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_navy_leader = {
+	name = "Herbert Fitzherbert"
+	gfx = "GFX_RAJ_herbert_fitzherbert"
+	traits = { }
+	skill = 3
+}

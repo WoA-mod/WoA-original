@@ -1,0 +1,25 @@
+
+state={
+	id=811
+	name="STATE_811"
+
+	history={
+		owner = NEP
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_claim_by = INC
+		add_claim_by = RAJ
+		add_claim_by = IND
+		add_claim_by = HYD
+		add_core_of = NEP
+	}
+
+	provinces={
+		1656 4459 10878 
+	}
+	manpower=242300
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,68 @@
+﻿
+capital = 543
+
+set_stability = 0.67
+set_war_support = 0.22
+
+# Starting tech
+	set_technology = {
+		infantry_weapons = 1
+
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+	}
+
+add_ideas = {
+	volunteer_only
+}
+
+set_politics = {
+
+	parties = {
+		social_democrat = {
+			popularity = 4
+		}
+		liberal = {
+			popularity = 12
+		}
+		conservative = {
+			popularity = 30
+		}
+		authoritarian_democrat = {
+			popularity = 1
+		}
+		paternal_autocrat = {
+			popularity = 50
+		}
+	}
+	
+	ruling_party = paternal_autocrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+create_country_leader = {
+	name = "AirHunter, the Great Placeholder"
+	desc = ""
+	picture = "Portrait_MOR_Edgard_de_Larminat.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,47 @@
+﻿capital = 329
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+}
+
+set_stability = 0.50
+set_war_support = 0.50
+
+set_politics = {
+
+	parties = {
+		social_democrat = {
+			popularity = 5
+		}
+		conservative = {
+			popularity = 0
+		}
+		authoritarian_democrat = {
+			popularity = 5
+		}
+		paternal_autocrat = {
+			popularity = 40
+		}
+	}
+	
+	ruling_party = paternal_autocrat
+	last_election = "1935.9.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Donduk Kuular"
+	desc = ""
+	picture = "Portrait_TAN_Donduk_Kuular.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}

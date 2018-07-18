@@ -1,0 +1,50 @@
+﻿l_english:
+
+SOV_FUHRERREICH_DESC:0 ""
+#PARTIES
+
+SOV_vanguardist_party:0 "RAV"
+SOV_vanguardist_party_long:0 "SOVskaya avangardnaya vecherinka"
+SOV_collectivist_party:0 "RKP"
+SOV_collectivist_party_long:0 "Rossiyskaya kollektivistskaya partiya"
+SOV_libertarian_socialist_party:0 "NPR"
+SOV_libertarian_socialist_party_long:0 "Narodnaya progressivnaya partiya dlya Rossii"
+SOV_social_democrat_party:0 "SR"
+SOV_social_democrat_party_long:0 "Sotsialisticheskiye reformatory"
+SOV_social_liberal_party:0 "NLP"
+SOV_social_liberal_party_long:0 "Narodnaya liberal'naya partiya"
+SOV_market_liberal_party:0 "UDP"
+SOV_market_liberal_party_long:0 "Umerennaya demokraticheskaya partiya"
+SOV_social_conservative_party:0 "Konservativnyy al'yans Rossii"
+SOV_social_conservative_party_long:0 "KAR" 
+SOV_authoritarian_democrat_party:0 "OARN"
+SOV_authoritarian_democrat_party_long:0 "Ob"yedinennyy al'yans SOVskogo naroda"
+SOV_paternal_autocrat_party:0 "PRY"
+SOV_paternal_autocrat_party_long:0 "Partiya SOVskogo yedinstva"
+SOV_national_populist_party:0 "IRP"
+SOV_national_populist_party_long:0 "Istinnaya SOVskaya partiya"
+SOV_valkist_party:0 "SSV"
+SOV_valkist_party_long:0 "Soyuz slavyanskikh vecherinok"
+
+#############
+### IDEAS ###
+#############
+
+SOV_civil_war:0 "SOVsian Civil War"
+SOV_civil_war_desc:0 "All of SOVsia has been thrown once more into a brutal and bloody civil war, and the white forces have all united under a common banner. While this is sure not to last, we must take advantage of the unified forces to kick socialism out of SOVsia once and for all!"
+
+SOV_strife:0 "Internal Strife"
+SOV_strife_desc:0 ""
+
+##############
+### EVENTS ###
+##############
+
+SOVsia.1.t:0 "The SOVsian Civil War"
+SOVsia.1.d:0 "The time has come to liberate all of SOVsia from the yoke of socialism. This war will be long and hard, but we must come out victorious, for the preservation of the SOVsian state as we know it."
+SOVsia.1.a:0 "Raise the White banners!"
+###
+SOVsia.2.t:0 "End of the SOVsian Civil War"
+SOVsia.2.d:0 "The red forces are defeated, and we are in control of both Moscow and Petrograd. We have ushered in a new age of SOVsian history, and we will write it."
+SOVsia.2.a:0 "For the Republic!"
+###

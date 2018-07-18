@@ -1,0 +1,65 @@
+focus_tree = {
+	id = WoA_rus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 20
+			tag = RUS
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = RUS_Belarus_Question
+		icon = GFX_RUS_belarus_question
+		x = 5
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+	}
+
+	focus = {
+		id = RUS_Belarus_Reconquer
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = RUS_Belarus_Question }
+		x = -2
+		y = 2
+		relative_position_id = RUS_Belarus_Question
+		cost = 5
+		ai_will_do = {
+			factor = 10
+			}
+		}
+
+	focus = {
+		id = RUS_Belarus_Deal
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = RUS_Belarus_Question }
+		x = 0
+		y = 2
+		relative_position_id = RUS_Belarus_Question
+		cost = 5
+		ai_will_do = {
+			factor = 10
+			}
+		}
+
+	focus = {
+		id = RUS_Belarus_Recognition
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = RUS_Belarus_Question }
+		x = 2
+		y = 2
+		relative_position_id = RUS_Belarus_Question
+		cost = 5
+		ai_will_do = {
+			factor = 10
+			}
+		}

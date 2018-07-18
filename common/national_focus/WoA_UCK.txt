@@ -1,0 +1,475 @@
+###########################
+# Generic Focus Tree
+###########################
+#Currently coded by AirHunter since Octavian is a lazy bastard
+###########################
+
+focus_tree = {
+	id = uck_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TRK
+		}
+	}
+	continuous_focus_position = { x = -1700 y = 120 }
+	focus = {
+		id = UCK_meeting_of_the_emirs
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 3
+		y = 0
+		cost = 10
+	}
+
+#The Khan Remains (but Air's sanity doesn't) path
+
+	focus = {
+		id = UCK_the_khan_remains
+		icon = GFX_focus_rom_royal_dictatorship
+		relative_position_id = UCK_meeting_of_the_emirs
+		prerequisite = { focus = UCK_meeting_of_the_emirs }
+		mutually_exclusive { focus = UCK_the_military_asserts_itself focus = UCK_khiva_instills_democracy focus = UCK_the_count_stands_triumphant }
+		x = -9
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_reign_in_khiva
+		icon = GFX_goal_continuous_restrict_freedom
+		relative_position_id = UCK_the_khan_remains
+		prerequisite = { focus = UCK_the_khan_remains }
+		x = 0
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_the_generals_must_go
+		icon = GFX_focus_hun_assassinate_horthy
+		relative_position_id = UCK_reign_in_khiva
+		prerequisite = { focus = UCK_reign_in_khiva }
+		mutually_exclusive = { focus = UCK_incentives_for_loyalty }
+		x = -1
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_incentives_for_loyalty
+		icon = GFX_goal_generic_intelligence_exchange
+		relative_position_id = UCK_reign_in_khiva
+		prerequisite = { focus = UCK_reign_in_khiva }
+		mutually_exclusive = { focus = UCK_the_generals_must_go }
+		x = 1
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_cull_the_immigrants
+		icon = GFX_goal_rhineland
+		relative_position_id = UCK_the_generals_must_go
+		prerequisite = { focus = UCK_the_generals_must_go focus = UCK_incentives_for_loyalty }
+		x = 1
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_consolidate_the_new_military
+		icon = GFX_focus_generic_military_academy
+		relative_position_id = UCK_cull_the_immigrants
+		prerequisite = { focus = UCK_cull_the_immigrants }
+		x = -1
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_create_a_loyal_police
+		icon = GFX_focus_generic_military_academy
+		relative_position_id = UCK_cull_the_immigrants
+		prerequisite = { focus = UCK_cull_the_immigrants }
+		x = 1
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_dismiss_the_emirs
+		icon = GFX_focus_prc_infiltration
+		relative_position_id = UCK_consolidate_the_new_military
+		prerequisite = { focus = UCK_consolidate_the_new_military }
+		prerequisite = { focus = UCK_create_a_loyal_police }
+		x = 0
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_bolster_islam
+		icon = GFX_focus_generic_concessions
+		relative_position_id = UCK_consolidate_the_new_military
+		prerequisite = { focus = UCK_consolidate_the_new_military }
+		prerequisite = { focus = UCK_create_a_loyal_police }
+		x = 2
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_islamic_cabinet
+		icon = GFX_focus_generic_support_the_left_right
+		relative_position_id = UCK_dismiss_the_emirs
+		prerequisite = { focus = UCK_dismiss_the_emirs }
+		prerequisite = { focus = UCK_bolster_islam }
+		x = 1
+		y = 1
+		cost = 10
+	}
+
+#The Military Asserts Itself path
+
+	focus = {
+		id = UCK_the_military_asserts_itself
+		icon = GFX_focus_generic_strike_at_democracy1
+		relative_position_id = UCK_meeting_of_the_emirs
+		prerequisite { focus = UCK_meeting_of_the_emirs }
+		mutually_exclusive { focus = UCK_the_khan_remains focus = UCK_khiva_instills_democracy focus = UCK_the_count_stands_triumphant }
+		x = -3
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_create_the_development_bureau
+		icon = GFX_goal_generic_construction2
+		relative_position_id = UCK_the_military_asserts_itself
+		prerequisite = { focus = UCK_the_military_asserts_itself }
+		x = 0
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_empower_the_bureau
+		icon = GFX_goal_generic_construction
+		relative_position_id = UCK_create_the_development_bureau
+		prerequisite = { focus = UCK_create_the_development_bureau }
+		x = 0
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_employ_more_workers
+		icon = GFX_goal_generic_national_unity
+		relative_position_id = UCK_create_the_development_bureau
+		prerequisite = { focus = UCK_create_the_development_bureau }
+		x = -2
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_army_corp_assistance
+		icon = GFX_goal_generic_construct_infrastructure
+		relative_position_id = UCK_create_the_development_bureau
+		prerequisite = { focus = UCK_create_the_development_bureau }
+		x = 2
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_send_in_the_slaves
+		icon = GFX_goal_generic_secret_weapon
+		relative_position_id = UCK_empower_the_bureau
+		prerequisite = { focus = UCK_empower_the_bureau }
+		prerequisite = { focus = UCK_employ_more_workers }
+		prerequisite = { focus = UCK_army_corp_assistance }
+		x = 0
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_establish_bukharan_arsenal
+		icon = GFX_focus_generic_rubber
+		relative_position_id = UCK_send_in_the_slaves
+		prerequisite = { focus = UCK_send_in_the_slaves }
+		x = 0
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_mic_support
+		icon = GFX_goal_generic_construct_mil_factory
+		relative_position_id = UCK_establish_bukharan_arsenal
+		prerequisite = { focus = UCK_establish_bukharan_arsenal }
+		x = -1
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_state_arms_company
+		icon = GFX_focus_RAJ_indian_gentlemen_offcers
+		relative_position_id = UCK_establish_bukharan_arsenal
+		prerequisite = { focus = UCK_establish_bukharan_arsenal }
+		x = 1
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_begin_our_ascension
+		icon = GFX_focus_generic_license_production
+		relative_position_id = UCK_state_arms_company
+		prerequisite = { focus = UCK_state_arms_company focus = UCK_mic_support }
+		x = -1
+		y = 1
+		cost = 10
+	}
+
+
+#Khiva Instills Democracy path
+
+	focus = {
+		id = UCK_khiva_instills_democracy
+		icon = GFX_goal_support_democracy
+		relative_position_id = UCK_meeting_of_the_emirs
+		prerequisite { focus = UCK_meeting_of_the_emirs }
+		mutually_exclusive { focus = UCK_the_khan_remains focus = UCK_the_military_asserts_itself focus = UCK_the_count_stands_triumphant }
+		x = 3
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_keep_alims_son
+		icon = GFX_focus_hun_elect_a_king
+		relative_position_id = UCK_khiva_instills_democracy
+		prerequisite = { focus = UCK_khiva_instills_democracy }
+		x = -1
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_abolish_bukhara
+		icon = GFX_goal_tfv_sever_ties_with_uk
+		relative_position_id = UCK_khiva_instills_democracy
+		prerequisite = { focus = UCK_khiva_instills_democracy }
+		x = 1
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_instate_federal_parliament
+		icon = GFX_goal_tripartite_pact
+		relative_position_id = UCK_keep_alims_son
+		prerequisite = { focus = UCK_keep_alims_son }
+		prerequisite = { focus = UCK_abolish_bukhara }
+		x = 1
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_the_conservatives
+		icon = GFX_focus_generic_support_the_left_right
+		relative_position_id = UCK_instate_federal_parliament
+		prerequisite = { focus = UCK_instate_federal_parliament }
+		mutually_exclusive = { focus = UCK_the_liberals focus = UCK_the_social_democrats }
+		x = -2
+		y = 1
+		cost = 10
+	}
+		focus = {
+			id = UCK_the_state_religion_remains
+			icon = GFX_focus_generic_treaty
+			relative_position_id = UCK_the_conservatives
+			prerequisite = { focus = UCK_the_conservatives }
+			x = 0
+			y = 1
+			cost = 10
+		}
+		focus = {
+			id = UCK_a_nation_of_morals
+			icon = GFX_focus_generic_self_management
+			relative_position_id = UCK_the_state_religion_remains
+			prerequisite = { focus = UCK_the_state_religion_remains }
+			x = 0
+			y = 1
+			cost = 10
+		}
+
+	focus = {
+		id = UCK_the_liberals
+		icon = GFX_focus_generic_the_giant_wakes
+		relative_position_id = UCK_instate_federal_parliament
+		prerequisite = { focus = UCK_instate_federal_parliament }
+		mutually_exclusive = { focus = UCK_the_conservatives focus = UCK_the_social_democrats }
+		x = 0
+		y = 1
+		cost = 10
+	}
+		focus = {
+			id = UCK_co_state_religions
+			icon = GFX_goal_tripartite_pact
+			relative_position_id = UCK_the_liberals
+			prerequisite = { focus = UCK_the_liberals }
+			x = 0
+			y = 1
+			cost = 10
+		}
+		focus = {
+			id = UCK_the_liberal_economy
+			icon = GFX_goal_generic_consumer_goods
+			relative_position_id = UCK_co_state_religions
+			prerequisite = { focus = UCK_co_state_religions }
+			x = 0
+			y = 1
+			cost = 10
+		}
+
+	focus = {
+		id = UCK_the_social_democrats
+		icon = GFX_goal_generic_soviet_construction
+		relative_position_id = UCK_instate_federal_parliament
+		prerequisite = { focus = UCK_instate_federal_parliament }
+		mutually_exclusive = { focus = UCK_the_conservatives focus = UCK_the_liberals }
+		x = 2
+		y = 1
+		cost = 10
+	}
+		focus = {
+			id = UCK_a_secular_state
+			icon = GFX_focus_YUG_pan_slavic_congress
+			relative_position_id = UCK_the_social_democrats
+			prerequisite = { focus = UCK_the_social_democrats }
+			x = 0
+			y = 1
+			cost = 10
+		}
+		focus = {
+			id = UCK_new_usury_laws
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = UCK_a_secular_state
+			prerequisite = { focus = UCK_a_secular_state }
+			x = 0
+			y = 1
+			cost = 10
+		}
+
+	focus = {
+			id = UCK_the_goals_of_our_democracy
+			icon = GFX_goal_continuous_def_against_influence
+			relative_position_id = UCK_new_usury_laws
+			prerequisite = { focus = UCK_new_usury_laws focus = UCK_the_liberal_economy focus = UCK_a_nation_of_morals }
+			x = -2
+			y = 1
+			cost = 10
+		}
+
+#The Count Stands Triumphant path
+
+	focus = {
+		id = UCK_the_count_stands_triumphant
+		icon = GFX_focus_prc_agrarian_socialism
+		relative_position_id = UCK_meeting_of_the_emirs
+		prerequisite = { focus = UCK_meeting_of_the_emirs }
+		mutually_exclusive { focus = UCK_the_khan_remains focus = UCK_the_military_asserts_itself focus = UCK_khiva_instills_democracy }
+		x = 9
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_those_who_resist
+		icon = GFX_goal_generic_war_with_comintern
+		relative_position_id = UCK_the_count_stands_triumphant
+		prerequisite = { focus = UCK_the_count_stands_triumphant }
+		x = 0
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_decimation_anew
+		icon = GFX_focus_ger_bulwark_against_bolshevism
+		relative_position_id = UCK_those_who_resist
+		prerequisite = { focus = UCK_those_who_resist }
+		x = 0
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_crack_the_devils_skull
+		icon = GFX_goal_anti_comintern_pact
+		relative_position_id = UCK_decimation_anew
+		prerequisite = { focus = UCK_decimation_anew }
+		x = 0
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_the_old_bases
+		icon = GFX_goal_generic_construct_military
+		relative_position_id = UCK_crack_the_devils_skull
+		prerequisite = { focus = UCK_crack_the_devils_skull }
+		x = -1
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_the_old_estates
+		icon = GFX_focus_generic_socialist_science
+		relative_position_id = UCK_crack_the_devils_skull
+		prerequisite = { focus = UCK_crack_the_devils_skull }
+		x = 1
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_the_new_industry
+		icon = GFX_goal_generic_construct_civ_factory
+		relative_position_id = UCK_the_old_bases
+		prerequisite = { focus = UCK_the_old_bases }
+		x = 0
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_the_new_universities
+		icon = GFX_focus_generic_soviet_politics
+		relative_position_id = UCK_the_old_estates
+		prerequisite = { focus = UCK_the_old_estates }
+		x = 0
+		y = 1
+		cost = 10
+	}
+
+	focus = {
+		id = UCK_socialism_on_the_world_state
+		icon = GFX_focus_ger_great_red_menace
+		relative_position_id = UCK_the_new_industry
+		prerequisite = { focus = UCK_the_new_industry }
+		prerequisite = { focus = UCK_the_new_universities }
+		x = 1
+		y = 1
+		cost = 10
+	}
+
+}

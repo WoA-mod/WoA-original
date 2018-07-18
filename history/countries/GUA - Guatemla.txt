@@ -1,0 +1,57 @@
+﻿capital = 313
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+
+set_convoys = 5
+set_stability = 0.66
+set_war_support = 0.24
+
+add_ideas = {
+	GEN_Mathias_Hansen_hog_lis
+	GEN_Edgar_Hovda_for_lis
+	GEN_Karl_Mork_eco_lis
+	GEN_Lars_Egner_sec_lis
+}
+
+set_politics = {
+
+	parties = {
+		social_democrat = {
+			popularity = 16
+		}
+		liberal = {
+			popularity = 53
+		}
+		conservative = {
+			popularity = 0
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = liberal
+	last_election = "1931.2.8"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+create_country_leader = {
+	name = "Antonio Díaz Soto y Gama"
+	desc = "GAMA_DESC"
+	picture = "Antonio_Diaz_Soto_y_Gama.dds"
+	expire = "1965.1.1"
+	ideology = liberal_subtype
+	traits = {
+		#
+	}
+}

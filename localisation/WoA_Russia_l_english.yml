@@ -1,0 +1,145 @@
+﻿#########################################################
+#NO TOUCHY DE FILES without TheCaptain157#0073's consent
+#he coded this
+#why is he speaking in third person
+#########################################################
+
+l_english:
+
+RUS_Whispers_Desc:0 "russia, find this text in WoA_russia_l_english.ym"
+
+#### Traits ####
+popular_figurehead:0 "Popular Figurehead"
+
+#### Political Parties ####
+
+RUS_utopianist_party:0 "Bolsheviks" 
+RUS_utopianist_party_long:0 "Bolshevik Faction of the RSDLP" 
+RUS_council_communist_party:0 "Bolsheviks"
+RUS_council_communist_long:0 "Bolshevik Faction of the RSDLP"
+RUS_socialist_party:0 "Bolsheviks" 
+RUS_socialist_party_long:0 "Bolshevik Faction of the RSDLP" 
+RUS_social_democrat_party:0 "Mensheviks"
+RUS_social_democrat_party_long:0 "Menshevik Faction of the RSDLP"
+RUS_liberal_party:0 "Kadets"
+RUS_liberal_party_long:0 "Konstitutsionno-Demokraticheskaya Partiya"
+RUS_conservative_party:0 "Octobrists"
+RUS_conservative_party_long:0 "Uninon of October 17"
+RUS_authoritarian_democrat_party:0 "Military Junta"
+RUS_authoritarian_democrat_party_long:0 "Military Junta"
+RUS_paternal_autocrat_party:0 "Tsarist Loyalists"
+RUS_paternal_autocrat_party_long:0 "Tsarist Loyalists"
+RUS_national_populist_party:0 "TBD"
+RUS_national_populist_party_long:0 "TBD"
+RUS_antiquarian_nationalist_party:0 "Tsarist Restorationists"
+RUS_antiquarian_nationalist_party_long:0 "Tsarist Restorationists"
+
+###############
+#### IDEAS ####
+###############
+
+SOV_Bread:0 "Bread!"
+SOV_Bread_desc:0 "The first ideal of our nation is that of bread. We shall respect the welfare and freedoms of our people."
+###
+SOV_Peace:0 "Peace!"
+SOV_Peace_desc:0 "The second ideal of our nation is that of peace. No longer shall the Soviet war machine turn, for the good of the people and the state."
+###
+SOV_Labour:0 "Labour!"
+SOV_Labour_desc:0 "The third ideal of our nation is that of labour. The Soviet Union is still in a sorry undeveloped state due to weak industry. We shall build our nation with welfare-based 5 Year Plans and industrialize into a modern nation."
+###
+SOV_legacy_red_calvary:0 "Legacy of the Red Calvary"
+SOV_legacy_red_calvary_desc:0 "The Red Calvary no longer plays a small role in our military, but their legacy lives on and inspires our men."
+SOV_red_knights:0 "Red Knights"
+###
+SOV_ukraine_unrest:0 "Ukrainian Independance Movement"
+SOV_ukraine_unrest_desc:0 "The Ukrainian government has begun to take steps towards independance, and are refusing to enter negotiations with us. We may have to allow Ukraine to go on their own if we are to avoid a war with our fellow socialists."
+###
+SOV_centralize_union:0 "Centralize the Union"
+SOV_centralize_union_desc:0 ""
+###
+SOV_decentralize_union:0 "Decentralize the Union"
+SOV_decentralize_union_desc:0 ""
+###
+AZR_sov_influence:0 "Soviet Influence in our politics"
+###
+SOV_west_shield:0 "Western Shield"
+SOV_west_shield_desc:0 "The Russian Détente policy has awarded our nation more self rule. We now have the opputunity to develop socialism that best deals with the specific issues that the average [GetAdjective] citizen faces."
+###
+SOV_south_hegemony:0 "Participating in Islamic Socialism Council"
+SOV_south_hegemony_desc:0 ""
+###
+SOV_less_union:0 "Dencralization of the Union"
+SOV_less_union_desc:0 ""
+###
+SOV_red_fin:0 "Legacy of Finnish SSR"
+SOV_red_fin_desc:0 ""
+###
+SOV_recovery_plan:0 "Collapse of the Union"
+SOV_recovery_plan_desc:0 "The USSR is facing total political collapse, we must take drastic measures if we are to avoid the end of socialism in Russia."
+###
+SOV_eternal:0 "A Union Eternal"
+SOV_eternal_desc:0 ""
+###
+SOV_industry_focus:0 "Industrial Focus"
+SOV_industry_focus_desc:0 ""
+###
+SOV_industry_focus2:0 "Industrial Focus"
+SOV_industry_focus2_desc:0 ""
+###
+SOV_industry_focus3:0 "Industrial Focus"
+SOV_industry_focus3_desc:0 ""
+###
+SOV_civil_war:0 "Russian Civil War"
+SOV_civil_war_desc:0 "The Tratiorous white forces have risen up in rebellion against us, we must rally together our scattered forces if we are to have a chance at victory."
+###
+SOV_rally_people:0 "Rally the people"
+SOV_rally_people_desc:0 ""
+###
+SOV_russian_intergration:0 "Russian Intergration"
+SOV_russian_intergration_desc:0 ""
+
+###############
+### FOCUSES ###
+###############
+
+RUS_Belarus_Question:0 "The Belarussian Question"
+RUS_Belarus_Question_desc:0 "Belarus has been in a state of constant revolt since the Guerre Mondiale.  Though our governments have maintained a mutual respect for one another, our recent failed attept to reconquer Belarus has soured relations.  As well, it fueled radical sentiment, and gave rise to more extreme parties in the Assembly.  It is time to address the question of Belarus."
+###
+RUS_Belarus_Reconquer:0 "The Second Invasion"
+RUS_Belarus_Reconquer_desc:0 "Though our previous attempt may have failed, the Russian Nation must not surrender to this petty revolt!  We will emerge victorious over all those who oppose us!  Authorize a second invasion of Belarus!"
+###
+RUS_Belarus_Deal:0 "A Deal with Belarus"
+RUS_Belarus_Deal_desc:0 "Our poorly-planned invasion has shown war is not the way.  Many young, innocent men died during that war, and nobody wishes to see it repeated.  We shall approach Belarus with an offer.  What kind has yet to be determined, but we know we do not want a war, and we know we do not want to give in."
+###
+RUS_Belarus_Recognition:0 "Recognize Belarus"
+RUS_Belarus_Recognition_desc:0 "Belarus has proven to be a somewhat powerful foe.  We do not wish to needlessly waste lives and time.  As such, we are recognizing the long-autonomous, long-independently-functioning government of Belarus as a sovereign nation, and give up all claims to the land it controls."
+###
+
+
+#### events ####
+###
+russia.1.t:0 "Russia in 1936"
+russia.1.d:0 "Following the abdication of Tsar Nicholas and his subsequent escape to Britain in 1917, Russia was ruled by the Provisional Government.  The Petrograd Soviet, who held most allegiances and the real power in Russia, pledged support to the new Provisional Government if they granted certain civil rights to the people and promised to call a constituent assembly to rewrite the constitution.  The Germans denied Lenin’s request to return to the motherland as communism was on the rise in Danubia.  After a four month general-strike-turned-armed-revolt protesting the ongoing war, and under pressure from the Petrograd Soviet, the Duma ruled to make peace with the Germans.  The Treaty of Pinsk saw Russia lose Ukraine, the Baltics, Finland, Poland, and Kamchatka, and in the subsequent turmoil Belarus and Turkestan.  Russia, without the antagonizing force of Lenin, stabilized, and in 1920 a constituent assembly was called to redraw the constitution.  Russia is now ruled by the its president and the Joint Assembly, a two house parliament composed of the Duma and Grand Soviet, successor to the Petrograd Soviet.  The 1925 Assembly election would determine the future of Russia in no small part.  The Bolshevik rhetoric had been largely discredited as many Bolsheviks served in the first Assembly, Duma and Soviet.  Their most prominent leader, Lenin, remained in Switzerland under house arrest.  The fall of the Bolsheviks saw the rise of the more moderate Kadets and Mensheviks, led by an aging Trotsky.  1930 bought similar yields, however many still hold secret allegiances to the Bolshevik faction that are not being shown in this time of relative peace.  The Soviet does most of the day-to-day running of the country, and the Duma handles larger policy decisions, like multi-year infrastructure expansion projects.  Free speech is relatively well known by 1936, as there is almost always someone in government who has your opinions and will make sure they are protected.  Many tsarists must hid their allegiances, however.  Labor unions flourish and have their own seats on the Soviet.  Many more radical reforms have been stopped in the Duma, however, as they remain more conservative.  The 1935 elections have brought the winds of change.  Following the second Byelorussian war, Russia has seen a radicalization of politics, and both Bolsheviks and Populists are on the rise.  More moderate parties attempt to hold steadfast as Russia enters a new age.  How will you guide the motherland through this troublesome time?"
+russia.1.a:0 "Into the New Age!"
+
+###################
+# custom tooltips #
+###################
+
+sov_congress_tip:0 "The Council will discuss the future of the union over the next few days, and a resolution will be announced soon."
+sov_collapse:0 "We will have to take drastic measures to ensure the Soviet Union does not collapse completely."
+sov_militia:0 "Several Ukrainian militia divisions will be formed and transfered to our army."
+sov_bel_air:0 "Several Belarusian air wings will be tranfered to the red air force."
+sov_annex_rude:0 "The SSRs may fight back against such a direct takeover"
+soviet_war_warning:0 "§RIf measures are not taken to stabalize and preserve the union, we may find ourselves engulfed in another terrible civil war like the one we faced 20 years ago.§!\n"
+sov_civil_war:0 "Many states and territories will break away to form a White Russian government."
+
+#####################
+# Opinion modifiers #
+#####################
+
+FIN_soviet_cool:0 "Reunification of Finland"
+
+#########
+# OOB's #
+#########

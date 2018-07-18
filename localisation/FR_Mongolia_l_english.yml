@@ -1,0 +1,103 @@
+﻿l_english:
+
+
+#Parties
+
+#Mongolian Revolutionary Party
+MON_vanguardist_party:0 "MKN"
+MON_vanguardist_party_long:0 "Mongolyn Khuvisgalt Nam" 
+#Communist party of Mongolia
+MON_collectivist_party:0 "MZN"
+MON_collectivist_party_long:0 "Mongol Zövlöltiin Nam"
+#Socialist Party
+MON_libertarian_socialist_party:0 "Sotsialist Nam"
+MON_libertarian_socialist_party_long:0 "Sotsialist Nam"
+#Democratic Party
+MON_social_democrat_party:0 "Ardchilsan Nam"
+MON_social_democrat_party_long:0 "Ardchilsan Nam"
+#Social Liberal Party
+MON_social_liberal_party:0 "Niigmiin Libyeri nam"
+MON_social_liberal_party_long:0 "Niigmiin Libyeri Nam"
+#Market Liberal Party
+MON_market_liberal_party:0 "Zakh Zeeliin Libyeral Nam"
+MON_market_liberal_party_long:0 "Zakh Zeeliin Libyeral Nam"
+#Social Conservative Party
+MON_social_conservative_party:0 "Ardchilsan Nam"
+MON_social_conservative_party_long:0 "Ardchilsan Nam"
+#Mongolian Unity Party
+MON_authoritarian_democrat_party:0 "Mongolyn Ev Negdliin Nam"
+MON_authoritarian_democrat_party_long:0 "Mongolyn Ev Negdliin Nam"
+MON_paternal_autocrat_party:0 "Mongolyn Ev Negdliin Nam"
+MON_paternal_autocrat_party_long:0 "Mongolyn Ev Negdliin Nam"
+#Mongol Restoration Party
+MON_national_populist_party:0 "MDSN"
+MON_national_populist_party_long:0 "Mongol Dakhi Sergeeltiin Nam"
+#Mongolian Valkist Party
+MON_antiquarian_nationalist_party:0 "Sternberg's Party"
+MON_antiquarian_nationalist_long:0 "The Party of Roman von Ungern Sternberg"
+
+#Ideas
+MON_without_khan:0 "A Khanate Without a Khan"
+MON_without_khan_desc:0 "Since the death of Bogd Khan, our great nation has been without a leader. This has caused our nation to freeze in its tracks, as the reforms of Bogd Khan were never finished. Still, the spirit of our great leader can be felt throughout the land, giving strength to our population in these harsh times."
+MON_tuva_nationalism:0 "Tuvan Nationalism"
+MON_tuva_nationalism_desc:0 "Tuvan Nationalism"
+MON_political_opposition_bogd:0 "Political Opposition to the Khan"
+MON_political_opposition_bogd_desc:0 "As our Khan is a child, he does not know much about ruling a country. Many political parties are trying to take advantage of this and opposition has beome the most vocal it has been in decades. Our Khanate is unstable and it is a massive political battleground. The Khanate could fall to another political party at any time. We must be wary of our opposition."
+Xinjiang_Nationalism:0 "Han and Turkic Nationalism"
+Xinjiang_Nationalism_desc:0 "Our lands in Dzungaria are full of ethnic Chinese people and ethnic Dzungars. Chinese Nationalists and Dzungar Nationalists seek independence or to join the warlord state of Xinjiang to the South."
+MON_sternberg_one:0 "The Mad Baron"
+MON_sternberg_one_desc:0 "The ruler of Mongolia, Baron Roman von Ungern Sternberg, is known for his aggressiveness, earning him his title. Will he lead Mongolia to a new age or will he see it fall?"
+
+#National Focuses
+MON_Status_Quo:0 "Stay With the Khan"
+MON_Status_Quo_desc:0 "Our Khan may be young and weak, but in time, he will grow to become a man capable of ruling. We must keep him as our ruler and nurture him."
+MON_Protect_the_Khan_statusquo:0 "Protect the Khan"
+MON_Protect_the_Khan_statusquo_desc:0 "The Khan lacks protection - he might be hurt or kidnapped by our political opposition at any minute. We must take action to ensure this does not happen."
+MON_Educate_The_Khan:0 "Educate the Khan"
+MON_Educate_The_Khan_desc:0 "The Khan lacks education - we must ensure that he is educated well so that he may lead our country."
+MON_Freedom_of_Speech:0 "Freedom of Speech"
+MON_Freedom_of_Speech_desc:0 "We must allow Freedom of Speech among the populace. It is no use keeping our opposition underground so that they may undermine us under our noses."
+MON_Recognize_Minorities:0 "Recognize Ethnic Minorities"
+MON_Recognize_Minorities_desc:0 "Recognizing ethnic minorities in the Khanate is an important step in ensuring our prosperity. It ensures the happiness of the minorities so that they do not revolt against us."
+MON_Hold_Tuva:0 "Keep Tuva"
+MON_Hold_Tuva_desc:0 "Tannu Tuva is rightful Mongolian land. We must not see it fall into the hands of others, let alone make it independent. It must stay with the Khanate."
+MON_Return_Dzungaria:0 "Return Dzungaria"
+MON_Return_Dzungaria_desc:0 "Dzungaria is of no use to the Khanate. Keeping it will only cause problems. Besides, if we return Dzungaria to Xinjiang or make it independent, it gives us a better reputation diplomatically."
+MON_Tuvan_Freedom:0 "Grant Tuva Freedom"
+MON_Tuvan_Freedom_desc:0 "Tannu Tuva was never really part of Mongolia. We must look to them as friends and equals and grant them independence. The Tuvans are closely related to the Mongols, and it will remain so even though we will be different countries."
+MON_Keep_Dzungaria:0 "Keep Dzungaria"
+MON_Keep_Dzungaria_desc:0 "Dzungaria is an important part of the Khanate. It must be held on to at all costs. We cannot afford to lose it, lest we lose our foothold in China."
+MON_University_of_Ulaanbataar:0 "Develop the University of Khuree"
+MON_University_of_Ulaanbataar_desc:0 "We must develop our Universities for a better-educated populace. The University of Khuree would be a good place to start."
+MON_Khan_Guard:0 "The Khan's Bodyguards"
+MON_Khan_Guard_desc:0 "The Khan requires a personal guard to keep him safe. Attempts on couping him have already been made. We do not want him to fall into the hands of the enemy."
+MON_Remove_IM_Claims:0 "Relinquish Claims on Inner Mongolia"
+MON_Remove_IM_Claims_desc:0 "Inner Mongolia is a rightful part of China. There is no use in taking it back. We must maintain good relations with our Chinese brothers."
+MON_Ask_For_IM:0 "Demand Inner Mongolia"
+MON_Ask_For_IM:0 "Inner Mongolia belongs to us, the Bogd Khanate. Without it, Mongolia is not whole. Many ethnic mongolians live there and we must liberate them from the Chinese."
+MON_Preach_Buddhism:0 "The Khan Preaches"
+MON_Preach_Buddhism_desc:0 "The Khan is going to learn how to speak. Then, he shall preach the word of the Jebtsundamba Khutughtu to the people."
+MON_Our_Sovereignty:0 "Our Sovereign Nation"
+MON_Our_Sovereignty_desc:0 "Mongolia is a sovereign nation. We will not let the Chinese say otherwise. Our great land must be protected. For the Shine Monggol Ulus!"
+MON_Genghis_Khan_II:0 "A Second Genghis Khan"
+MON_Genghis_Khan_II_desc:0 "A new, promising leader has recently arrived in Mongolia - The Mad Baron, Roman von Ungern-Sternberg. We will try inviting him to the government and see if he holds up his promises of rebuilding the Mongol Empire."
+MON_Communist_Path:0 "A Try at Socialism"
+MON_Communist_Path_Desc:0 "The Khanate has failed. Socialism promises equality for all people and a prosperous future. We must at least try it out. Socialism shall bring Mongolia to glory!"
+MON_Growing_Economy:0 "A Developing Economy"
+MON_Growing_Economy_desc:0 "As a weak economy, we must find ways to develop ourselves to find our place in the economic giants of the world."
+MON_civ_effort:0 "Encourage Urbanization"
+MON_civ_effort_desc:0 "A great majority of our population consists of nomadic peoples who roam the Gobi desert. We must promote Urbanization and have them move to our cities to kickstart the economy."
+MON_mil_effort:0 "Expand Military Factories"
+MON_mil_effort_desc:0 "Mongolia is weak and barely has any military production. We must fix that to supply our army, growing in strength by the day."
+MON_infrastructure_effort:0 "Expand the Railway System"
+MON_infrastructure_effort_desc:0 "Consisting of mostly desert, Mongolian railroads connect the cities. We must expand these railways for easier transportation across the desert and steppes of Mongolia."
+MON_infrastruccture_effort:0 "Develop the Urga Railway"
+MON_infrastruccture_effort_desc:0 "The Urga Railway is one of the most important railways crossing Mongolia. We must develop this if we are to improve our infrastructure."
+MON_civv_effort:0 "Support new businesses"
+MON_civv_effort_desc:0 "New businesses are springing up all around the Khanate. We must help them grow and develop to help our economy."
+MON_civvv_effort:0 "Develop Khuree"
+MON_civvv_effort_desc:0 "Our capital, Khuree, is sorely lacking of factories. We must ride upon the waves of the Industrial Revolution and help our capital grow."
+MON_mill_effort:0 "Increase Equipment Production"
+MON_mill_effort_desc:0 "Our army is in need of equipment. In order to supply them, we need to expand our military industry."
+MON_milll_effort:0 "Grow the military industry"
+MON_milll_effort:0 "Etruscan Boar Vessel, 600-500 B.C., Etruscan, Ceramic"
