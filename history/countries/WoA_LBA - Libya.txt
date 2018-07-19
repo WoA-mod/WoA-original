@@ -61,7 +61,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Idris Senussi"
 	desc = "IDRIS_SENUSSI_DESC"
-	picture = "Portrait_Arabia_Generic_land_3.dds"
+	picture = "KingIdrisII.tga"
 	ideology = paternal_autocrat_subtype
 	traits = {
 	}
@@ -70,7 +70,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Idris Senussi"
 	desc = "IDRIS_SENUSSI_DESC"
-	picture = "Portrait_Arabia_Generic_land_3.dds"
+	picture = "KingIdrisII.tga"
 	ideology = authoritarian_democrat_subtype
 	traits = {
 	}
