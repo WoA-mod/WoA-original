@@ -22,17 +22,9 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-add_ideas = {
-	RHO_breadbasket_of_africa
-	RHO_royal_rhodesia_flying_corps
-	RHO_rhodesians_never_die
-	RHO_poor_higher_education
-	RHO_tribal_divisions
-}
-
-set_convoys = 10
-set_stability = 0.30
-set_war_support = 0.40
+set_convoys = 25
+set_stability = 0.62
+set_war_support = 0.55
 
 set_politics = {
 	parties = {

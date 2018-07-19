@@ -28,32 +28,4 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas/ENG_british_crown.dds"
 	}
 	
-	####################
-	###Rhodesia Ideas###
-	####################
-
-	SpriteType = {
-		name = "GFX_idea_RHO_generic_agrarian_reform"
-		texturefile = "gfx/interface/ideas/ideas/RHO_generic_agrarian_reform.tga"
-	}
-
-	SpriteType = {
-		name = "GFX_idea_RHO_ast_abandon_the_westminster_system"
-		texturefile = "gfx/interface/ideas/ideas/RHO_ast_abandon_the_westminster_system.tga"
-	}	
-
-	SpriteType = {
-		name = "GFX_idea_RHO_saf_history_of_segregation"
-		texturefile = "gfx/interface/ideas/ideas/RHO_saf_history_of_segregation.tga"
-	}
-
-	SpriteType = {
-		name = "GFX_idea_RHO_generic_air_research"
-		texturefile = "gfx/interface/ideas/ideas/RHO_generic_air_research.tga"
-	}
-
-	SpriteType = {
-		name = "GFX_idea_RHO_chi_incompetent_officers"
-		texturefile = "gfx/interface/ideas/ideas/RHO_chi_incompetent_officers.tga"
-	}
 }
