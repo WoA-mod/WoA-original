@@ -635,3 +635,28 @@ jet_aircraft_manufacturer:0 "Jet Aircraft Manufacturer"
 
 independent_war:0 "Independent War"
 independent_war_desc:0 "This country is currently in a independent war. It does not want other countries to get involved directly in the war."
+
+### Generic Focuses ###
+generic_examine_the_army:0 "Examine the Army"
+
+generic_study_unique_doctrines:0 "Study Unique Doctrines"
+
+generic_study_the_guerra_mondiale:0 "Study the Guerra Mondiale"
+
+generic_expand_the_arms_industry:0 "Expand the Arms Industry"
+
+generic_expand_aviation:0 "Expand Aviation"
+
+generic_prioritize_fighters:0 "Prioritize Fighters"
+
+generic_prioritize_bombers:0 "Prioritize Bombers"
+
+generic_expand_air_defense:0 "Expand Air Defense"
+
+generic_strengthen_the_navy:0 "Strengthen the Navy"
+
+generic_heavy_fleet:0 "Heavy Fleet"
+
+generic_light_fleet:0 "Light Fleet"
+
+generic_establish_a_merchant_marine:0 "Establish a Merchant Marine"
