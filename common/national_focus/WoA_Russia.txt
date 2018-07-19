@@ -12,10 +12,11 @@ focus_tree = {
 	
 	default = no
 
+	#belarus top level paths
 	focus = {
 		id = RUS_Belarus_Question
 		icon = GFX_RUS_belarus_question
-		x = 5
+		x = 15
 		y = 1
 		cost = 5
 		ai_will_do = {
@@ -29,22 +30,112 @@ focus_tree = {
 		id = RUS_Belarus_Reconquer
 		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = RUS_Belarus_Question }
-		x = -2
-		y = 2
+		mutually_exclusive = { focus = RUS_Belarus_Deal focus = RUS_Belarus_Recognition }
+		x = -3
+		y = 1
 		relative_position_id = RUS_Belarus_Question
 		cost = 5
 		ai_will_do = {
 			factor = 10
 			}
-		}
+	}
 
 	focus = {
 		id = RUS_Belarus_Deal
 		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = RUS_Belarus_Question }
+		mutually_exclusive = { focus = RUS_Belarus_Reconquer focus = RUS_Belarus_Recognition }
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = RUS_Belarus_Question
+		cost = 5
+		ai_will_do = {
+			factor = 10
+			}
+	}
+
+	focus = {
+		id = RUS_Belarus_Recognition
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = RUS_Belarus_Question }
+		mutually_exclusive = { focus = RUS_Belarus_Deal focus = RUS_Belarus_Reconquer }
+		x = 3
+		y = 1
+		relative_position_id = RUS_Belarus_Question
+		cost = 5
+		ai_will_do = {
+			factor = 10
+			}
+	}
+
+		###war path
+
+		##propaganda section
+
+	focus = {
+		id = RUS_BR_Propaganda
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = RUS_Belarus_Reconquer }
+		x = -2
+		y = 1
+		relative_position_id = RUS_Belarus_Reconquer
+		cost = 5
+		ai_will_do = {
+			factor = 10
+			}
+	}
+
+		#industry portion
+
+	focus = {
+		id = RUS_BRp_Encourage_Industry
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = RUS_BR_Propaganda }
+		x = 2
+		y = 1
+		relative_position_id = RUS_BR_Propaganda
+		cost = 5
+		ai_will_do = {
+			factor = 10
+			}
+	}
+
+	focus = {
+		id = RUS_BRp_Mil_Factories
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = RUS_BR_Propaganda }
+		x = 0
+		y = 1
+		relative_position_id = RUS_BR_Propaganda
+		cost = 5
+		ai_will_do = {
+			factor = 10
+			}
+	}
+
+	focus = {
+		id = RUS_BRp_War_Bonds
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = RUS_BRp_Mil_Factories }
+		prerequisite = { focus = RUS_BRp_Encourage_Industry }
+		x = 1
+		y = 2
+		relative_position_id = RUS_BR_Propaganda
+		cost = 5
+		ai_will_do = {
+			factor = 10
+			}
+	}
+
+		#noise portion
+
+	focus = {
+		id = RUS_BRp_Kick_up_Support
+		icon = GFX_focus_generic_little_entente
+		prerequisite = { focus = RUS_BR_Propaganda }
+		x = -2
+		y = 1
+		relative_position_id = RUS_BR_Propaganda
 		cost = 5
 		ai_will_do = {
 			factor = 10
@@ -52,14 +143,44 @@ focus_tree = {
 		}
 
 	focus = {
-		id = RUS_Belarus_Recognition
-		icon = GFX_goal_generic_major_war
-		prerequisite = { focus = RUS_Belarus_Question }
-		x = 2
+		id = RUS_BRp_The_National_Effort
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = RUS_BRp_Kick_up_Support }
+		x = -1
 		y = 2
-		relative_position_id = RUS_Belarus_Question
+		relative_position_id = RUS_BR_Propaganda
 		cost = 5
 		ai_will_do = {
 			factor = 10
 			}
 		}
+
+	focus = {
+		id = RUS_BRp_United_We_Stand
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = RUS_BRp_Kick_up_Support }
+		x = -3
+		y = 2
+		relative_position_id = RUS_BR_Propaganda
+		cost = 5
+		ai_will_do = {
+			factor = 10
+			}
+		}
+
+	focus = {
+		id = RUS_BRp_The_Great_Russian_Victory
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = RUS_BRp_United_We_Stand }
+		prerequisite = { focus = RUS_BRp_The_National_Effort }
+		prerequisite = { focus = RUS_BRp_War_Bonds }
+		x = 0
+		y = 3
+		relative_position_id = RUS_BR_Propaganda
+		cost = 5
+		ai_will_do = {
+			factor = 10
+			}
+		}
+}
+	

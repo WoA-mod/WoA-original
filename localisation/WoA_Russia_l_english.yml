@@ -114,7 +114,44 @@ RUS_Belarus_Deal_desc:0 "Our poorly-planned invasion has shown war is not the wa
 RUS_Belarus_Recognition:0 "Recognize Belarus"
 RUS_Belarus_Recognition_desc:0 "Belarus has proven to be a somewhat powerful foe.  We do not wish to needlessly waste lives and time.  As such, we are recognizing the long-autonomous, long-independently-functioning government of Belarus as a sovereign nation, and give up all claims to the land it controls."
 ###
-
+RUS_BR_Propaganda:0 "Propaganda for the War"
+RUS_BR_Propaganda_desc:0 "The assembly has come upon the issue of war propaganda.  During this month they debate how it should be implemented."
+###
+RUS_BRp_Encourage_Industry:0 "Fund Independent Industry"
+RUS_BRp_Encourage_Industry_desc:0 "By funding indepenent industry, we can supplement many of the consumer goods lost through the conversion of civilian factories into military ones."
+###
+RUS_BRp_Mil_Factories:0 "Build Arms Factories"
+RUS_BRp_Mil_Factories_desc:0 "Our nation must increase the production of weapons for the ongoing war.  It will also server to stir up the economy, especially in places where it is stagnating."
+###
+RUS_BRp_War_Bonds:0 "Issue War Bonds"
+RUS_BRp_War_Bonds_desc:0 "The Russian people have faith in us.  We can offer an investment program in our nation, where the people give us funds now and we pay them back more in dividends after the war is over.  This not only provides us funding, but encourages patriotism and support for the war.  Keep our boys firing!"
+###
+RUS_BRp_Kick_up_Support:0 "Drum Up Support"
+RUS_BRp_Kick_up_Support_desc:0 "We should put up posters and run ads regarding enlistment and the purchase of war bonds.  This will increase patriotism and provide us with more men to send to the front."
+###
+RUS_BRp_The_National_Effort:0 "The National Effort"
+RUS_BRp_The_National_Effort_desc:0 "The whole nation must come together in this grand national effort.  We will overcome the rebels and restore Russia!  For the motherland!"
+###
+RUS_BRp_United_We_Stand:0 "United We Stand"
+RUS_BRp_United_We_Stand_desc:0 "Together we shall do this!  We are one people, one nation, one force!  United we shall stand an conquer our foes!"
+###
+RUS_BRp_The_Great_Russian_Victory:0 "The Great Russian Victory"
+RUS_BRp_The_Great_Russian_Victory_desc:0 "Victory is ours!  We have won the day in Belarus!  Though we must soon address how to deal with this new territory, tonight we feast on the spoils of war!"
+###
+RUS_:0 ""
+RUS__desc:0 ""
+###
+RUS_:0 ""
+RUS__desc:0 ""
+###
+RUS_:0 ""
+RUS__desc:0 ""
+###
+RUS_:0 ""
+RUS__desc:0 ""
+###
+RUS_:0 ""
+RUS__desc:0 ""
 
 #### events ####
 ###
