@@ -35,29 +35,11 @@ focus_tree = {
 			army_experience = 10
 		}
 	}
-	## Switzerland National Redoubt Tree
-		focus = {
-			id = SWI_national_redoubt
-			icon = GFX_goal_generic_position_armies
-			x = 0
-			y = 2
-			cost = 5
-			prerequisite = { focus = SWI_focus_armed_neutrality }
-			relative_position_id = SWI_focus_armed_neutrality
-			#ai_will_do = {
-			#	factor = 100
-			#}
-
-			completion_reward = {
-				#add_idea = fortification bonus
-				#allow the recruitment of a defence fortification minister
-			}
-		}
 	## Switzerland Military Tree
 		focus = {
 			id = SWI_people_mobilization
 			icon = GFX_focus_chi_army_reform
-			x = -5
+			x = -9
 			y = 1
 			cost = 5
 			prerequisite = { focus = SWI_focus_armed_neutrality }
@@ -417,8 +399,8 @@ focus_tree = {
 			}
 		}
 		focus = {
-			id = SWI_establish_intelligence_department
-			icon = GFX_goal_secret_police
+			id = SWI_extensive_drilling_programs
+			icon = GFX_goal_SWI_defense
 			x = 0
 			y = 1
 			cost = 5
@@ -429,7 +411,7 @@ focus_tree = {
 			#}
 
 			completion_reward = {
-				#Gives every general a +1 planning bonus OR +1 supply bonus.
+				#Gives a Organization bonus and increases training time.
 			}
 		}
 		focus = {
@@ -438,8 +420,8 @@ focus_tree = {
 			x = 0
 			y = 1
 			cost = 5
-			prerequisite = { focus = SWI_establish_intelligence_department }
-			relative_position_id = SWI_establish_intelligence_department
+			prerequisite = { focus = SWI_extensive_drilling_programs }
+			relative_position_id = SWI_extensive_drilling_programs
 			#ai_will_do = {
 			#	factor = 100
 			#}
@@ -448,15 +430,285 @@ focus_tree = {
 				#Oh boi, this gives you a big event with a lot of choices, mostly buffing your attack and giving decisions.
 			}
 		}
-	## Switzerland War Economics Tree
+	## Switzerland National Redoubt Tree
+	
 		focus = {
-			id = SWI_economic_question
-			icon = GFX_goal_state_economy #Replace with a unique icon.	
-			x = 5
+			id = SWI_national_redoubt
+			icon = GFX_goal_generic_position_armies
+			x = 0
 			y = 1
 			cost = 5
 			prerequisite = { focus = SWI_focus_armed_neutrality }
 			relative_position_id = SWI_focus_armed_neutrality
+			#ai_will_do = {
+			#	factor = 100
+			#}
+
+			completion_reward = {
+				#add_idea = fortification bonus
+				#allow the recruitment of a defence fortification minister
+			}
+		}
+		
+		focus = {
+			id = SWI_focus_on_the_alps
+			icon = GFX_goal_nested_fortifications
+			x = -1
+			y = 1
+			cost = 5
+			prerequisite = { focus = SWI_national_redoubt }
+			relative_position_id = SWI_national_redoubt
+			mutually_exclusive = { focus = SWI_focus_on_the_outskirts }
+			#ai_will_do = {
+			#	factor = 100
+			#}
+
+			completion_reward = {
+				#Adds forts to the Alps, more bonuses related to being there in other focuses.
+			}
+		}
+		
+		focus = {
+			id = SWI_focus_on_the_outskirts
+			icon = GFX_goal_generic_fortify_city
+			x = 1
+			y = 1
+			cost = 5
+			prerequisite = { focus = SWI_national_redoubt }
+			relative_position_id = SWI_national_redoubt
+			mutually_exclusive = { focus = SWI_focus_on_the_alps }
+			#ai_will_do = {
+			#	factor = 100
+			#}
+
+			completion_reward = {
+				#Adds some forts to the borders, later can take a focus for a grand line against one of it's neighbours.
+			}
+		}
+		
+		focus = {
+			id = SWI_initial_mountain_fortifications
+			icon = GFX_goal_nested_fortifications
+			x = -1
+			y = 1
+			cost = 5
+			prerequisite = {
+				focus = SWI_focus_on_the_alps 
+				focus = SWI_focus_on_the_outskirts
+			}
+			relative_position_id = SWI_focus_on_the_alps
+			#ai_will_do = {
+			#	factor = 100
+			#}
+
+			completion_reward = {
+				#Adds forts to the Alps.
+			}
+		}
+		
+		focus = {
+			id = SWI_extended_mountain_fortifications
+			icon = GFX_goal_nested_fortifications
+			x = 1
+			y = 1
+			cost = 5
+			prerequisite = { focus = SWI_initial_mountain_fortifications }
+			relative_position_id = SWI_initial_mountain_fortifications
+			#ai_will_do = {
+			#	factor = 100
+			#}
+
+			completion_reward = {
+				#Adds forts to the Alps.
+			}
+		}
+		
+		focus = {
+			id = SWI_initial_border_fortifications
+			icon = GFX_goal_generic_fortify_city
+			x = 1
+			y = 1
+			cost = 5
+			prerequisite = { 
+				focus = SWI_focus_on_the_alps 
+				focus = SWI_focus_on_the_outskirts
+			}
+			relative_position_id = SWI_focus_on_the_outskirts
+			#ai_will_do = {
+			#	factor = 100
+			#}
+
+			completion_reward = {
+				#Adds forts to every border province.
+			}
+		}
+		
+		focus = {
+			id = SWI_extended_border_fortifications
+			icon = GFX_goal_generic_fortify_city
+			x = -1
+			y = 1
+			cost = 5
+			prerequisite = { focus = SWI_initial_border_fortifications }
+			relative_position_id = SWI_initial_border_fortifications
+			#ai_will_do = {
+			#	factor = 100
+			#}
+
+			completion_reward = {
+				#Adds forts to every border province.
+			}
+		}
+		
+		focus = {
+			id = SWI_flexible_defense
+			icon = GFX_goal_generic_fortify_city
+			x = -1
+			y = 1
+			cost = 5
+			prerequisite = { focus = SWI_extended_border_fortifications }
+			prerequisite = { focus = SWI_extended_mountain_fortifications }
+			relative_position_id = SWI_extended_border_fortifications
+			#ai_will_do = {
+			#	factor = 100
+			#}
+
+			completion_reward = {
+				#Adds a general fort building bonus.
+			}
+		}
+
+		
+		focus = {
+			id = SWI_scorched_earth
+			icon = GFX_goal_generic_fortify_city
+			x = -1
+			y = 2
+			cost = 5
+			prerequisite = { focus = SWI_extended_mountain_fortifications }
+			relative_position_id = SWI_extended_mountain_fortifications
+			#ai_will_do = {
+			#	factor = 100
+			#}
+
+			completion_reward = {
+				#Adds Scorched Earth decisions.
+			}
+		}
+		
+		focus = {
+			id = SWI_fortification_decision
+			icon = GFX_goal_SWI_reduit
+			x = 1
+			y = 2
+			cost = 5
+			prerequisite = { focus = SWI_extended_border_fortifications }
+			relative_position_id = SWI_extended_border_fortifications
+			mutually_exclusive = { focus = SWI_german_line focus = SWI_french_line }
+			#ai_will_do = {
+			#	factor = 100
+			#}
+
+			completion_reward = {
+				#Adds 10 level forts to the border of the respective country.
+			}
+		}
+		
+		focus = {
+			id = SWI_italian_line
+			icon = GFX_goal_generic_fortify_city
+			x = 0
+			y = 1
+			cost = 5
+			prerequisite = { focus = SWI_fortification_decision }
+			relative_position_id = SWI_fortification_decision
+			mutually_exclusive = { focus = SWI_german_line focus = SWI_french_line }
+			#ai_will_do = {
+			#	factor = 100
+			#}
+
+			completion_reward = {
+				#Adds 10 level forts to the border of the respective country.
+			}
+		}
+		
+		focus = {
+			id = SWI_german_line
+			icon = GFX_goal_generic_fortify_city
+			x = 2
+			y = 1
+			cost = 5
+			prerequisite = { focus = SWI_fortification_decision }
+			relative_position_id = SWI_fortification_decision
+			mutually_exclusive = { focus = SWI_italian_line focus = SWI_french_line }
+			#ai_will_do = {
+			#	factor = 100
+			#}
+
+			completion_reward = {
+				#Adds 10 level forts to the border of the respective country.
+			}
+		}
+		
+		focus = {
+			id = SWI_french_line
+			icon = GFX_goal_generic_fortify_city
+			x = -2
+			y = 1
+			cost = 5
+			prerequisite = { focus = SWI_fortification_decision }
+			relative_position_id = SWI_fortification_decision
+			mutually_exclusive = { focus = SWI_german_line focus = SWI_italian_line }
+			#ai_will_do = {
+			#	factor = 100
+			#}
+
+			completion_reward = {
+				#Adds 10 level forts to the border of the respective country.
+			}
+		}
+		
+	## Switzerland War Economics Tree
+		focus = {
+			id = SWI_economic_question
+			icon = GFX_goal_state_economy #Replace with a unique icon.	
+			x = 7
+			y = 1
+			cost = 5
+			prerequisite = { focus = SWI_focus_armed_neutrality }
+			relative_position_id = SWI_focus_armed_neutrality
+			#ai_will_do = {
+			#	factor = 100
+			#}
+
+			completion_reward = {
+			}
+		}
+		
+		focus = {
+			id = SWI_railroads
+			icon = GFX_goal_generic_construct_infrastructure
+			x = -2
+			y = 1
+			cost = 5
+			prerequisite = { focus = SWI_economic_question }
+			relative_position_id = SWI_economic_question
+			#ai_will_do = {
+			#	factor = 100
+			#}
+
+			completion_reward = {
+			}
+		}
+		
+		focus = {
+			id = SWI_expand_steel_works
+			icon = GFX_focus_generic_steel	
+			x = 1
+			y = 1
+			cost = 5
+			prerequisite = { focus = SWI_economic_question }
+			relative_position_id = SWI_economic_question
 			#ai_will_do = {
 			#	factor = 100
 			#}
