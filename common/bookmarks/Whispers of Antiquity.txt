@@ -100,7 +100,7 @@ bookmarks = {
 		"SWI"={
 			minor = yes
 			history = "SWI_WHISPERS_OF_ANTIQUITY_DESC"
-			ideology = social_democrat
+			ideology = liberal
 			ideas = {
 				SWI_armed_neutrality
 				SWI_german_french_tensions
