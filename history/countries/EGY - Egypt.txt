@@ -40,6 +40,9 @@ set_politics = {
 		national_populist = {
 			popularity = 10
 		}
+		antiquarian_nationalist = {
+			popularity = 0
+		}
 	}
 	
 	ruling_party = authoritarian_democrat

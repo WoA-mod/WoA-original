@@ -16,23 +16,38 @@ set_war_support = 0.80
 
 set_politics = {
 
-    parties = {
-        social_democrat = {
-            popularity = 6
-        }
-        liberal = {
-            popularity = 21
-        }
-        conservative = {
-            popularity = 20
-        }
-        authoritarian_democrat = {
-            popularity = 41
-        }
-        paternal_autocrat = {
-            popularity = 12
-        }
-    }
+	parties = {
+		utopianism = {
+		   popularity = 0
+		}
+		council_communist = {
+		    popularity = 0
+		}
+		socialist = {
+		    popularity = 1
+		}
+		social_democrat = {
+			popularity = 12
+		}
+		liberal = {
+			popularity = 17
+		}
+		conservative = {
+			popularity = 20
+		}
+		authoritarian_democrat = {
+			popularity = 41
+		}
+		paternal_autocrat = {
+			popularity = 9
+		}
+		national_populist = {
+			popularity = 0
+		}
+		antiquarian_nationalist = {
+			popularity = 0
+		}
+	}
 	
 	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
