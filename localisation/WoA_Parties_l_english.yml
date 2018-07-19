@@ -1,0 +1,42 @@
+﻿l_english:
+utopianism_noun:0 "Utopianism"
+council_communist_noun:0 "Council Communism"
+socialist_noun:0 "Radical Socialism"
+social_democrat_noun:0 "Social Democracy"
+liberal_noun:0 "Liberalism"
+conservative_noun:0 "Social Conservatism"
+authoritarian_democrat_noun:0 "Authoritarian Dem."
+paternal_autocrat_noun:0 "Paternal Autocracy"
+national_populist_noun:0 "National Populism"
+antiquarian_nationalist_noun:0 "Antiquarian Nat."
+
+utopianism_desc:0 "Utopianist"
+council_communist_desc:0 "Council Communist"
+socialist_desc:0 "Radical Socialist"
+social_democrat_desc:0 "Social Democrat"
+liberal_desc:0 "Liberalist"
+social_conservative_desc:0 "Social Conservative"
+authoritarian_democrat_desc:0 "Authoritarian Democrat"
+paternal_autocrat_desc:0 "Paternal Autocrat"
+national_populist_desc:0 "National Populist"
+antiquarian_nationalist_desc:0 "Antiquarian Nationalist"
+
+utopianism_subtype_desc:0 "Utopianism is the most authoritarian of the Communist ideologies, and its leaders will stop at nothing to destroy the subversives who seek to undermine their nation’s path towards a worker’s utopia."
+
+council_communist_subtype_desc:0 "The most prevalent form of Marxist thought around the world, Council Communism favors federations of workers to minimize ethnic tension amongst the proletariat. Emphasizing the will of the people and the need to protect the workers state, Council Communist nations are largely authoritarian states with one party elections."
+
+socialist_subtype_desc:0 "A broad category of leftism, it describes leftists who are further left than Social Democrats, but are either less authoritarian or less leftist than Utopianism or Council Communism. Radical Socialists are usually more decentralized than Council Communists, and are sometimes more willing to engage in dialogue with capitalists, but still seek revolution rather than reform."
+
+social_democrat_subtype_desc:0 "Social Democracy is an ideology whose goal is to reform capitalism and humanize it by aligning it with the ethical ideals of social welfare while maintaining the capitalist mode of production, rather than creating an alternative socialist economic system. While usually promoting a plutocratic form of government and a heavily regulated market economy, some more radical streams exist."
+
+liberal_subtype_desc:0 "Liberalism is a political and moral ideology based on liberty and equality. There is a huge amount of ways this ideology comes into fruition, but they generally support civil rights, democracy, secularism, gender and race equality, internationalism and the freedoms of speech, the press, religion and markets."
+
+social_conservative_subtype_desc:0 "Conservatism is a political ideology which can vary greatly depending on the political history of the region or nation. Nonetheless, it is normally centred on preserving traditional beliefs, attitudes and philosophy as well as the traditional power dynamic of society while using the democratic system. Opposed to both radical and moderate changes to the status quo, conservatives want to keep society in order and stable. Most conservative societies usually promote a regulated market economy and favour economic protectionism."
+
+authoritarian_democrat_subtype_desc:0 "Authoritarian Democracy is an ideology that combines a strong executive power with a representative parliament and a partial democratic political system. Authoritarian Democratic regimes often take a conservative stance on social issues, favour centralization and typically have Hawkish sentiments in-government; although isolationist branches of this ideology are not unheard of. The aim of these regimes is to maintain national stability and provide the people both a popular and responsible government."
+
+paternal_autocrat_subtype_desc:0 "Paternal Autocracy is not a political ideology in the normal sense of the word, but rather a general term for the attitude that these governments hold towards their citizens: The people are all subjects of the leader, either a king or a dictator, and it is the leader's job and duty to lead the state and society towards the righteous and best path while uniting the people of under his benevolent protection. These countries usually have a very authoritarian government, conservative social views and a state controlled economy."
+
+national_populist_subtype_desc:0 "Encompassing a variety of ultra-nationalist and militaristic movements, National Populism typically venerates devotion to the state, uniting the people under a strong leader and a corporate economy. Diplomatically, National Populists typically emphasize Expansionist, Hawkish, and Revanchist policies when appropriate or relevant to the given Nation. Often espousing racial politics and violent rhetoric, National Populism is vehemently opposed by most other political parties."
+
+antiquarian_nationalist_subtype_desc:0 "Antiquarian Nationalism seeks to revive the cultural and traditions of ancient times, rather than protect that of the present. Antiquarian Nationalists view the existence of ancient empires as enough basis to ‘reclaim’ that territory should the empire be revived. Antiquarian Nationalist countries are often ruled similarly to Paternal Autocrat ones, though on a rare basis, that can vary."

@@ -41,7 +41,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_democrat
+	ruling_party = liberal
 	last_election = "1934.10.27"
 	election_frequency = 36
 	elections_allowed = yes
