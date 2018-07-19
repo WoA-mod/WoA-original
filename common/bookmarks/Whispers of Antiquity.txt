@@ -112,6 +112,16 @@ bookmarks = {
 				SWI_henri_guisan_plan
 			}
 		}
+		"RHO"={
+			minor = yes
+			history = "RHO_WHISPERS_OF_ANTIQUITY_DESC"
+			ideology = conservative
+			ideas = {
+				RHO_rhodesians_never_die
+				RHO_breadbasket_of_africa
+				RHO_tribal_divisions
+			}
+		}
 		"ARG"={
 			minor = yes
 			history = "ARG_FUHRERREICH_DESC"
