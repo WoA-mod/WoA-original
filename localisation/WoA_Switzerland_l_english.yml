@@ -90,7 +90,7 @@ SWI_special_forces:0 "Swiss Special Forces"
 SWI_liaison_conference:0 "Liaison Conference"
 
 ###
-SWI_establish_intelligence_department:0 "Establish Intelligence Department"
+SWI_extensive_drilling_programs:0 "Extensive Drilling Programs"
 
 ###
 SWI_grand_counter_attack_plan:0 "The Grand Counter-Attack Plan"
@@ -120,7 +120,46 @@ SWI_mass_recruitment:0 "Mass Recruitment"
 SWI_wartime_preparations:0 "Wartime Preparations"
 
 ###
+SWI_focus_on_the_alps:0 "Focus on the Alps"
+
+###
+SWI_focus_on_the_outskirts:0 "Focus on the Outskirts"
+
+###
+SWI_initial_mountain_fortifications:0 "Initial Mountain Fortifications"
+
+###
+SWI_extended_mountain_fortifications:0 "Extended Mountain Fortifications"
+
+###
+SWI_initial_border_fortifications:0 "Initial Border Fortifications"
+
+###
+SWI_extended_border_fortifications:0 "Extended Border Fortifications"
+
+###
+SWI_flexible_defense:0 "Flexible Defense"
+
+###
+SWI_scorched_earth:0 "Scorched Earth: The Last Defense"
+
+###
+SWI_fortification_decision:0 "Protection against a Bigger Threat"
+
+###
+SWI_italian_line:0 "Italian Line"
+
+###
+SWI_german_line:0 "German Line"
+
+###
+SWI_french_line:0 "French Line"
+
+###
 SWI_economic_question:0 "The Economic Question"
 
-#
+###
+SWI_railroads:0 "Expand our Railroad System"
 
+###
+SWI_expand_steel_works:0 "Expand Steel Works"
