@@ -68,7 +68,7 @@ set_politics = {
 
 create_country_leader = {
         name = "Georgios Petrakis"
-        picture = "Portrait_CRE_Georgios_Petrakis.tga"
+        #picture = "Portrait_CRE_Georgios_Petrakis.tga"
         expire = "1965.1.1"
         ideology = paternal_autocrat_subtype
         traits = {
@@ -78,7 +78,7 @@ create_country_leader = {
 
 create_country_leader = {
         name = "Georg Franz Joseph Luitpold Maria"
-        picture = "gfx/leaders/CRE/Portrait_CRE_Georg_of_Bavaria.tga"
+        #picture = "Portrait_CRE_Georg_of_Bavaria.tga"
         expire = "1965.1.1"
         ideology = authoritarian_democrat_subtype
         traits = {
