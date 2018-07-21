@@ -4,8 +4,8 @@ set_research_slots = 3
 
 add_ideas = {
 	# Situational
-	TUR_sick_man_of_europe
-	TUR_opda_idea
+	#TUR_sick_man_of_europe
+	#TUR_opda_idea
 	# Laws
 	civilian_economy
 	export_focus
