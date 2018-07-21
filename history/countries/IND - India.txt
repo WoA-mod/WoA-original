@@ -25,71 +25,57 @@ set_convoys = 20
 set_stability = 0.6
 set_war_support = 0.6
 
-set_cosmetic_tag = IND_revolt # Indian Revolt
 
 set_politics = {
 
-parties = {
-		social_democrat = {
-			popularity = 17
+	parties = {
+		utopianism = { 
+			popularity = 0
 		}
-		liberal = {
+		council_communist = { 
+			popularity = 0
+		}
+		socialist = { 
+			popularity = 5
+		}
+		social_democrat = { 
 			popularity = 15
 		}
-		conservative = {
-			popularity = 4
+		liberal = { 
+			popularity = 35
 		}
-		authoritarian_democrat = {
-			popularity = 1
+		conservative = { 
+			popularity = 20
+		}
+		authoritarian_democrat = { 
+			popularity = 10
 		}
 		paternal_autocrat = {
-			popularity = 89
+			popularity = 5
+		}
+		national_populist = {
+			popularity = 0
+		}
+		antiquarian_nationalist = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = liberal
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-#declare_war_on = {
-#	target = RAJ
-#	type = annex_everything
-#}
-
 add_ideas = {
 }
 
-# REVISIT Unclear if appropriate for this ideology
 create_country_leader = {
-	name = "V. D. Savarkar"
-	desc = "POLITICS_VD_SAVARKAR_DESC"
-	picture = "Veer_Savarkar.tga"
+	name = "Lala Lajpat Raj"
+	desc = ""
+	picture = "Lala_Lajpat_Raj.tga"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "B. P. Sitaramayya"
-	desc = "POLITICS_B_P_SITARAMAYYA_DESC"
-	picture = "GFX_RAJ_pattabhi_sitaramayya"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Provisional Government"
-	desc = "POLITICS_DELHI_PROVISIONAL_DESC"
-	picture = "Secretariat_building.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = liberal_subtype
 	traits = {
 		
 	}

@@ -1,4 +1,4 @@
-﻿capital = 439
+﻿capital = 425
 
 # Starting tech
 set_technology = {
@@ -31,21 +31,36 @@ set_war_support = 0.22
 
 set_politics = {
 
-parties = {
-		social_democrat = {
+	parties = {
+		utopianism = { 
+			popularity = 2
+		}
+		council_communist = { 
+			popularity = 4
+		}
+		socialist = { 
+			popularity = 3
+		}
+		social_democrat = { 
 			popularity = 7
 		}
-		liberal = {
-			popularity = 12
+		liberal = { 
+			popularity = 15
 		}
-		conservative = {
-			popularity = 10
+		conservative = { 
+			popularity = 16
 		}
-		authoritarian_democrat = {
-			popularity = 64
+		authoritarian_democrat = { 
+			popularity = 46
 		}
 		paternal_autocrat = {
-			popularity = 2
+			popularity = 7
+		}
+		national_populist = {
+			popularity = 0
+		}
+		antiquarian_nationalist = {
+			popularity = 0
 		}
 	}
 	
@@ -60,9 +75,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Lord Linlithgow"
-	desc = "POLITICS_LORD_LINLITHGOW_DESC"
-	picture = "Portrait_Lord_Linlithgow.tga"
+	name = "Alexander von Falkenhausen"
+	desc = ""
+	picture = "Alexander_V_Falkenhausen.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -71,11 +86,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "B. P. Sitaramayya"
-	desc = "POLITICS_B_P_SITARAMAYYA_DESC"
-	picture = "GFX_RAJ_pattabhi_sitaramayya"
+	name = "Alexander von Falkenhausen"
+	desc = ""
+	picture = "Alexander_V_Falkenhausen.tga"
 	expire = "1965.1.1"
-	ideology = social_democrat_subtype
+	ideology = paternal_autocrat_subtype
 	traits = {
 		
 	}

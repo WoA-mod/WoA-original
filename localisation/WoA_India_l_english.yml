@@ -1,0 +1,36 @@
+﻿l_english:
+
+##### INDIA
+
+
+#####Ideas#####
+
+#####Decisions#####
+
+
+#### Factions ####
+
+#####Events#####
+
+#####Parties#####
+
+IND_utopianism_party:0 "All-India Union of Syndicates"
+IND_utopianism_party_long:0 "All-India Union of Syndicates"
+IND_council_communist_party:0 "Communist Party of India"
+IND_council_communist_party_long:0 "Communist Party of India"
+IND_socialist_party:0 "Indian Socialist League"
+IND_socialist_party_long:0 "Indian Socialist League"
+IND_social_democrat_party:0 "Social Democratic and Labour Party"
+IND_social_democrat_party_long:0 "Social Democratic and Labour Party"
+IND_liberal_party:0 "Indian National Congress"
+IND_liberal_party_long:0 "Indian National Congress"
+IND_conservative_party:0 "National Republican Party"
+IND_conservative_party_long:0 "National Republican Partys"
+IND_authoritarian_democrat_party:0 "New India Party"
+IND_authoritarian_democrat_party_long:0 "New India Party"
+IND_paternal_autocrat_party:0 "Party of National Salvation"
+IND_paternal_autocrat_party_long:0 "Party of National Salvation"
+IND_national_populist_party:0 "National Patriotic Organisation"
+IND_national_populist_party_long:0 "National Patriotic Organisation"
+IND_antiquarian_nationalist_party:0 "All-India Dharmic League"
+IND_antiquarian_nationalist_party_long:0 "All-India Dharmic League"
