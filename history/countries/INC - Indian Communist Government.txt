@@ -20,25 +20,40 @@ set_war_support = 0.4
 
 set_politics = {
 
-parties = {
-		social_democrat = {
+	parties = {
+		utopianism = { 
+			popularity = 17
+		}
+		council_communist = { 
+			popularity = 40
+		}
+		socialist = { 
+			popularity = 25
+		}
+		social_democrat = { 
+			popularity = 12
+		}
+		liberal = { 
 			popularity = 6
 		}
-		liberal = {
-			popularity = 26
-		}
-		conservative = {
+		conservative = { 
 			popularity = 0
 		}
-		authoritarian_democrat = {
+		authoritarian_democrat = { 
 			popularity = 0
 		}
 		paternal_autocrat = {
 			popularity = 0
 		}
+		national_populist = {
+			popularity = 0
+		}
+		antiquarian_nationalist = {
+			popularity = 0
+		}
 	}
 	
-	ruling_party = liberal
+	ruling_party = council_communist
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
@@ -48,11 +63,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Shripad Amrit Dange"
-	desc = "POLITICS_SHRIPAD_AMRIT_DESC"
-	picture = "Shripad_Amrit_Dange.tga"
+	name = "M.N Roy"
+	desc = ""
+	picture = "Mn_Roy.tga"
 	expire = "1965.1.1"
-	ideology = liberal_subtype
+	ideology = council_communist_subtype
 	traits = {
 		
 	}

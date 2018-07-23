@@ -18,22 +18,40 @@ set_convoys = 50
 
 set_politics = {
 
-parties = {
-		social_democrat = {
-			popularity = 6
+	parties = {
+		utopianism = { 
+			popularity = 1
 		}
-		conservative = {
-			popularity = 14
+		council_communist = { 
+			popularity = 2
 		}
-		authoritarian_democrat = {
-			popularity = 0
+		socialist = { 
+			popularity = 1
+		}
+		social_democrat = { 
+			popularity = 2
+		}
+		liberal = { 
+			popularity = 8 
+		}
+		conservative = { 
+			popularity = 65
+		}
+		authoritarian_democrat = { 
+			popularity = 10
 		}
 		paternal_autocrat = {
-			popularity = 56
+			popularity = 5
+		}
+		national_populist = {
+			popularity = 6
+		}
+		antiquarian_nationalist = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = conservative
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
@@ -43,11 +61,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Sadeq Mohammad Khan V"
-	desc = "POLITICS_SADEQ_KHAN_DESC"
-	picture = "Sadeq_Mohammad_Khan_V.tga"
+	name = "Muhammad Ali Jinnah"
+	desc = ""
+	picture = "Jinnah.tga"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = conservative_subtype
 	traits = {
 		
 	}
