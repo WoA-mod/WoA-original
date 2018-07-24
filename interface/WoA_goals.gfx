@@ -23,4 +23,14 @@ spriteTypes = {
 		name = "GFX_goal_RUS_belarus_question"
 		texturefile = "gfx/interface/goals/RUS_belarus_question.tga"
 	}
+	
+	###Argentina 
+	SpriteType = {
+		name = "GFX_ARG_focus_autonomous_region_of_uruguay"
+		texturefile= "gfx/interface/goals/ARG_focus_autonomous_region_of_uruguay.dds"
+	}
+	SpriteType = {
+		name = "GFX_ARG_focus_confederation_of_the_river_plate"
+		texturefile= "gfx/interface/goals/ARG_focus_confederation_of_the_river_plate.dds"
+	}
 }
