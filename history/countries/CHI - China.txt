@@ -14,7 +14,7 @@ set_technology = {
 
 #Events
 
-#country_event = { id = kmt.1 days = 30 }
+country_event = { id = kmt.1 days = 30 }
 
 
 #add_ideas = {

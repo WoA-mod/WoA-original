@@ -243,7 +243,7 @@ GER_anti_armor = {
 
 GER_artillery_production = {
     enable = {
-        #has_country_flag = GER_ill_be_bock
+        has_country_flag = GER_ill_be_bock
         original_tag = GER
     }
 

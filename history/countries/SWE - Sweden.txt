@@ -195,17 +195,17 @@ create_corps_commander = {
 	id = 3005
 }
 
-#create_corps_commander = {
-#	name = "Erik af Edholm"
-#	portrait_path = "gfx/leaders/SWE/Portrait_SWE_Erik_af_Edholm.tga"
-#	traits = { trickster bearer_of_artillery }
-#	skill = 1
-#	attack_skill = 2
-#    defense_skill = 2
-#    planning_skill = 1
-#    logistics_skill = 2
-#	id = 3006
-#}
+create_corps_commander = {
+	name = "Erik af Edholm"
+	portrait_path = "gfx/leaders/SWE/Portrait_SWE_Erik_af_Edholm.tga"
+	traits = { trickster bearer_of_artillery }
+	skill = 1
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 2
+	id = 3006
+}
 
 create_corps_commander = {
 	name = "Carl August Ehrensvärd"

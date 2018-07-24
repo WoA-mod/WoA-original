@@ -35,12 +35,6 @@ focus_tree = {
 		y = 1
 		relative_position_id = RUS_Belarus_Question
 		cost = 5
-		completion_reward = {
-		create_wargoal = {
- 			type = puppet_wargoal_focus
-    		target = BLR
-    			}
-    		}
 		ai_will_do = {
 			factor = 10
 			}

@@ -740,9 +740,9 @@ ITA_paternal_autocrat_DEF:0 "The Greater Italian State"
 ITA_national_populist:0 "Mediterranean Empire"
 ITA_national_populist_ADJ:0 "Italian"
 ITA_national_populist_DEF:0 "The Mediterranean Empire"
-ITA_antiquarian_nationalist:0 "Nova Roma"
-ITA_antiquarian_nationalist_ADJ:0 "Romano"
-ITA_antiquarian_nationalist_DEF:0 "Nova Roma"
+ITA_antiquarian_nationalist:0 "Regno d'Italia"
+ITA_antiquarian_nationalist_ADJ:0 "Italiano"
+ITA_antiquarian_nationalist_DEF:0 "Il Regno d'Italia"
 
 #Bulgaria
 BUL_utopianism:0 "Bulgarian Socialist Republic"

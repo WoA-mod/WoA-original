@@ -133,30 +133,30 @@ create_country_leader = {
 	}
 }
 
-#create_equipment_variant = {
-#	name = "Jacob van Heemskerck Class"
-#	type = heavy_cruiser_pre
-#	parent_version = 0
-#	upgrades = {
-#		ship_reliability_upgrade = 1
-#		ship_engine_upgrade = 0
-#		ship_armor_upgrade = 0
-#		ship_gun_upgrade = 1
-#	}
-#	obsolete = yes
-#}
-#create_equipment_variant = {
-#	name = "Soerabaja Class"
-#	type = heavy_cruiser_pre
-#	parent_version = 0
-#	upgrades = {
-#		ship_reliability_upgrade = 1
-#		ship_engine_upgrade = 0
-#		ship_armor_upgrade = 1
-#		ship_gun_upgrade = 2
-#	}
-#	obsolete = yes
-#}
+create_equipment_variant = {
+	name = "Jacob van Heemskerck Class"
+	type = heavy_cruiser_pre
+	parent_version = 0
+	upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 0
+		ship_armor_upgrade = 0
+		ship_gun_upgrade = 1
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Soerabaja Class"
+	type = heavy_cruiser_pre
+	parent_version = 0
+	upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 0
+		ship_armor_upgrade = 1
+		ship_gun_upgrade = 2
+	}
+	obsolete = yes
+}
 create_equipment_variant = {
 	name = "Van Galen Class"
 	type = destroyer_1
