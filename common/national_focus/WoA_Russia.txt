@@ -18,7 +18,7 @@ focus_tree = {
 		icon = GFX_goal_RUS_belarus_question
 		x = 15
 		y = 1
-		cost = 5
+		cost = 15
 		ai_will_do = {
 			factor = 1
 		}
@@ -36,9 +36,9 @@ focus_tree = {
 		relative_position_id = RUS_Belarus_Question
 		cost = 5
 		completion_reward = {
-		create_wargoal = {
- 			type = puppet_wargoal_focus
-    		target = BLR
+			create_wargoal = {
+ 				type = puppet_wargoal_focus
+    			target = BLR
     			}
     		}
 		ai_will_do = {
@@ -101,6 +101,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = RUS_BR_Propaganda
 		cost = 5
+		#completion_reward = {
+		#	production_speed_industrial_complex_factor = 0.05
+		#	}
 		ai_will_do = {
 			factor = 10
 			}
@@ -114,6 +117,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = RUS_BR_Propaganda
 		cost = 5
+		#completion_reward = {
+		#	production_speed_arms_factory_factor = 0.05
+		#	}
 		ai_will_do = {
 			factor = 10
 			}
@@ -128,6 +134,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = RUS_BR_Propaganda
 		cost = 5
+		#completion_reward = {
+		#	political_power_gain = 0.25
+		#	}
 		ai_will_do = {
 			factor = 10
 			}
@@ -142,6 +151,9 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = RUS_BR_Propaganda
+		completion_reward = {
+			add_war_support = 0.1
+		}
 		cost = 5
 		ai_will_do = {
 			factor = 10
@@ -156,6 +168,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = RUS_BR_Propaganda
 		cost = 5
+		completion_reward = {
+			add_manpower = 10000
+			}
 		ai_will_do = {
 			factor = 10
 			}
@@ -169,6 +184,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = RUS_BR_Propaganda
 		cost = 5
+		completion_reward = {
+			add_stability = 0.1
+			}
 		ai_will_do = {
 			factor = 10
 			}

@@ -84,8 +84,8 @@ country_event = {
 		country_event = {
 			id = russia.4
 			days = 0
-		ai_chance = { factor = 100 }
 		}
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -108,8 +108,8 @@ country_event = {
 		country_event = {
 			id = russia.5
 			days = 3
-		ai_chance = { factor = 10 }
 		}
+		ai_chance = { factor = 10 }
 	}
 	option = {
 		name = russia.4.b
@@ -120,8 +120,8 @@ country_event = {
 		country_event = {
 			id = russia.5
 			days = 3
-		ai_chance = { factor = 80 }
 		}
+		ai_chance = { factor = 80 }
 	}
 	option = {
 		name = russia.4.c
@@ -132,8 +132,8 @@ country_event = {
 		country_event = {
 			id = russia.5
 			days = 3
-		ai_chance = { factor = 10 }
 		}
+		ai_chance = { factor = 10 }
 	}
 }
 
@@ -292,6 +292,18 @@ country_event = {
 
 	option = {
 		name = russia.9.a
+		set_variable = {
+			var = war
+		 	value = 0
+			}
+		set_variable = {
+			var = deal
+		 	value = 0
+			}
+		set_variable = {
+			var = recognize
+		 	value = 0
+			}
 		complete_national_focus = RUS_Belarus_Reconquer
 		ai_chance = { factor = 100 }
 	}
@@ -318,6 +330,18 @@ country_event = {
 
 	option = {
 		name = russia.10.a
+		set_variable = {
+			var = war
+		 	value = 0
+			}
+		set_variable = {
+			var = deal
+		 	value = 0
+			}
+		set_variable = {
+			var = recognize
+		 	value = 0
+			}
 		complete_national_focus = RUS_Belarus_Deal
 		ai_chance = { factor = 100 }
 	}
@@ -344,6 +368,18 @@ country_event = {
 
 	option = {
 		name = russia.11.a
+		set_variable = {
+			var = war
+		 	value = 0
+			}
+		set_variable = {
+			var = deal
+		 	value = 0
+			}
+		set_variable = {
+			var = recognize
+		 	value = 0
+			}
 		complete_national_focus = RUS_Belarus_Recognition
 		ai_chance = { factor = 100 }
 	}
