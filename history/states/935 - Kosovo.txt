@@ -19,7 +19,7 @@ state={
 	provinces={
 		6913 6940 9849 9874 
 	}
-	manpower=200000
+	manpower=552064 #From 1931 census on Kosovo.
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

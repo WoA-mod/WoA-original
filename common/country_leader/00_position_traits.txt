@@ -34,19 +34,15 @@ leader_traits = {
 # Political ideologies
 #####################
 
-	totalist = {}
-	radical_socialist = {}
-	syndicalist = {}
-	vanguardist = {}
-	libertarian_socialist = {}
-	collectivist = {}
+	utopianism = {}
+	council_communist = {}
+	socialist = {}
 	social_democrat = {}
-	social_liberal = {}
-	market_liberal = {}
-	social_conservative = {}
+	liberal = {}
+	conservative = {}
 	authoritarian_democrat = {}
 	paternal_autocrat = {}
 	national_populist = {}
-	valkist = {}
+	antiquarian_nationalist = {}
 
 }
