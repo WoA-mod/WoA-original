@@ -36,6 +36,15 @@ add_ideas = {
 set_politics = {
 
 	parties = {
+		utopianism = { 
+			popularity = 0
+		}
+		council_communist = { 
+			popularity = 0
+		}
+		socialist = { 
+			popularity = 0
+		}
 		social_democrat = {
 			popularity = 6
 		}
@@ -50,6 +59,12 @@ set_politics = {
 		}
 		paternal_autocrat = {
 			popularity = 1
+		}
+		national_populist = {
+			popularity = 0
+		}
+		antiquarian_nationalist = {
+			popularity = 0
 		}
 	}
 	

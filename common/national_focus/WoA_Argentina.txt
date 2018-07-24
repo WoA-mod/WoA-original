@@ -1,0 +1,865 @@
+###############
+#Coded by Fede#
+###############
+
+focus_tree = {
+
+	id = WoA_arg
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ARG
+		}
+	}
+
+	continuous_focus_position = { x = -800 y = 120 }	
+	
+###Uruguayan Question Branch###
+
+	focus = {
+	
+		id = ARG_the_uruguayan_question
+		
+		x = 3
+		y = 0
+		
+		icon = GFX_goal_generic_neutrality_focus 
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 80
+		}
+		
+		bypass = {
+			OR = {
+				OR = {
+					ARG = { has_war = yes }
+					URG = { has_war = yes }
+				}	
+				300 = {
+					AND = {
+						is_core_of = ARG
+						is_owned_and_controlled_by = ARG
+					}
+				}
+			}
+		}
+		
+		available = {
+			AND = {
+				has_war = no
+				OR = {
+					URG = { is_puppet_of = ARG }
+					300 = { is_owned_and_controlled_by = ARG }
+				}
+			}
+		}
+		
+		completion_reward = { add_political_power = 100 }	
+	}
+	
+	focus = {
+	
+		id = ARG_restore_their_economy
+		
+		relative_position_id = ARG_the_uruguayan_question
+		x = 0
+		y = 1
+		
+		icon = GFX_goal_generic_consumer_goods
+		
+		cost = 15
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_the_uruguayan_question }
+		
+		bypass = {
+			OR = {
+				OR = {
+					ARG = { has_war = yes }
+					URG = { has_war = yes }
+				}	
+				300 = {
+					AND = {
+						is_core_of = ARG
+						is_owned_and_controlled_by = ARG
+					}
+				}
+			}
+		}
+		
+		available = {
+			AND = {
+				has_war = no
+				OR = {
+					URG = { is_puppet_of = ARG }
+					300 = { is_owned_and_controlled_by = ARG }
+				}
+			}
+		}
+
+		completion_reward = { }
+	}
+	
+	focus = {
+	
+		id = ARG_to_undo_imperialism
+		
+		relative_position_id = ARG_restore_their_economy
+		x = -3
+		y = 1
+		
+		icon = GFX_goal_tfv_burn_the_royal_portraits
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_restore_their_economy }
+		
+		mutually_exclusive = { focus = ARG_to_unite_our_nation focus = ARG_to_stop_our_common_enemy focus = ARG_to_enforce_our_hegemony }
+		
+		bypass = {
+			OR = {
+				OR = {
+					ARG = { has_war = yes }
+					URG = { has_war = yes }
+				}	
+				300 = {
+					AND = {
+						is_core_of = ARG
+						is_owned_and_controlled_by = ARG
+					}
+				}
+			}
+		}
+		
+		available = {
+			AND = {
+				has_war = no
+				OR = {
+					has_government = utopianism
+					has_government = council_communist
+					has_government = socialist
+				}	
+				OR = {
+					URG = { is_puppet_of = ARG }
+					300 = { is_owned_and_controlled_by = ARG }
+				}
+			}
+		}
+
+		completion_reward = { }
+	}
+	
+		focus = {
+	
+		id = ARG_to_unite_our_nation
+		
+		relative_position_id = ARG_restore_their_economy
+		x = -1
+		y = 1
+		
+		icon = GFX_goal_generic_national_unity
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_restore_their_economy }
+		
+		mutually_exclusive = { focus = ARG_to_stop_our_common_enemy focus = ARG_to_undo_imperialism focus = ARG_to_enforce_our_hegemony }
+		
+		bypass = {
+			OR = {
+				OR = {
+					ARG = { has_war = yes }
+					URG = { has_war = yes }
+				}	
+				300 = {
+					AND = {
+						is_core_of = ARG
+						is_owned_and_controlled_by = ARG
+					}
+				}
+			}
+		}
+		
+		available = {
+			AND = {
+				has_war = no
+				has_government = antiquarian_nationalist	
+				OR = {
+					URG = { is_puppet_of = ARG }
+					300 = { is_owned_and_controlled_by = ARG }
+				}
+			}
+		}
+
+		completion_reward = { }
+	}
+	
+	focus = {
+	
+		id = ARG_to_enforce_our_hegemony
+		
+		relative_position_id = ARG_restore_their_economy
+		x = 1
+		y = 1
+		
+		icon = GFX_goal_generic_political_pressure
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_restore_their_economy }
+		
+		mutually_exclusive = { focus = ARG_to_stop_our_common_enemy focus = ARG_to_undo_imperialism focus = ARG_to_unite_our_nation }
+		
+		bypass = {
+			OR = {
+				OR = {
+					ARG = { has_war = yes }
+					URG = { has_war = yes }
+				}	
+				300 = {
+					AND = {
+						is_core_of = ARG
+						is_owned_and_controlled_by = ARG
+					}
+				}
+			}
+		}
+		
+		available = {
+			AND = {
+				has_war = no
+				OR = {
+					has_government = national_populist
+					has_government = paternal_autocrat
+				}	
+				OR = {
+					URG = { is_puppet_of = ARG }
+					300 = { is_owned_and_controlled_by = ARG }
+				}
+			}
+		}
+
+		completion_reward = { }
+	}
+	
+	focus = {
+	
+		id = ARG_to_stop_our_common_enemy
+		
+		relative_position_id = ARG_restore_their_economy
+		x = 3
+		y = 1
+		
+		icon = GFX_goal_generic_military_sphere
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_restore_their_economy }
+		
+		mutually_exclusive = { focus = ARG_to_unite_our_nation focus = ARG_to_undo_imperialism focus = ARG_to_enforce_our_hegemony }
+		
+		bypass = {
+			OR = {
+				OR = {
+					ARG = { has_war = yes }
+					URG = { has_war = yes }
+				}	
+				300 = {
+					AND = {
+						is_core_of = ARG
+						is_owned_and_controlled_by = ARG
+					}
+				}
+			}
+		}
+		
+		available = {
+			AND = {
+				has_war = no
+				OR = {
+					has_government = authoritarian_democrat
+					has_government = conservative
+					has_government = liberal
+					has_government = social_democrat
+				}	
+				OR = {
+					URG = { is_puppet_of = ARG }
+					300 = { is_owned_and_controlled_by = ARG }
+				}
+			}
+		}
+
+		completion_reward = { }
+	}
+	
+	focus = {
+	
+		id = ARG_denounce_british_favouritism
+		
+		relative_position_id = ARG_to_undo_imperialism
+		x = 1
+		y = 1
+		
+		icon = GFX_goal_generic_propaganda
+		
+		cost = 2
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_to_unite_our_nation focus = ARG_to_undo_imperialism }
+		
+		bypass = {
+			OR = {
+				OR = {
+					ARG = { has_war = yes }
+					URG = { has_war = yes }
+				}	
+				300 = {
+					AND = {
+						is_core_of = ARG
+						is_owned_and_controlled_by = ARG
+					}
+				}
+			}
+		}
+		
+		available = {
+			AND = {
+				has_war = no
+				OR = {
+					has_government = antiquarian_nationalist
+					has_government = utopianism
+					has_government = council_communist
+					has_government = socialist
+				}	
+				OR = {
+					URG = { is_puppet_of = ARG }
+					300 = { is_owned_and_controlled_by = ARG }
+				}
+			}
+		}
+
+		completion_reward = { }
+	}
+	
+		focus = {
+	
+		id = ARG_denounce_brazilian_imperialism
+		
+		relative_position_id = ARG_to_stop_our_common_enemy
+		x = -1
+		y = 1
+		
+		icon = GFX_goal_generic_propaganda
+		
+		cost = 2
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_to_stop_our_common_enemy focus = ARG_to_enforce_our_hegemony }
+		
+		bypass = {
+			OR = {
+				OR = {
+					ARG = { has_war = yes }
+					URG = { has_war = yes }
+				}	
+				300 = {
+					AND = {
+						is_core_of = ARG
+						is_owned_and_controlled_by = ARG
+					}
+				}
+			}
+		}
+		
+		available = {
+			AND = {
+				has_war = no
+				OR = {
+					has_government = national_populist
+					has_government = paternal_autocrat	
+					has_government = authoritarian_democrat
+					has_government = conservative
+					has_government = liberal
+					has_government = social_democrat
+				}	
+				OR = {
+					URG = { is_puppet_of = ARG }
+					300 = { is_owned_and_controlled_by = ARG }
+				}
+			}
+		}
+
+		completion_reward = { }
+	}
+	
+	focus = {
+	
+		id = ARG_uruguayan_workers_congress
+		
+		relative_position_id = ARG_denounce_british_favouritism
+		x = -1
+		y = 1
+		
+		icon = GFX_focus_YUG_pan_slavic_congress
+		
+		cost = 4
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_to_undo_imperialism }
+		prerequisite = { focus = ARG_denounce_british_favouritism }
+		
+		bypass = {
+			OR = {
+				OR = {
+					ARG = { has_war = yes }
+					URG = { has_war = yes }
+				}	
+				300 = {
+					AND = {
+						is_core_of = ARG
+						is_owned_and_controlled_by = ARG
+					}
+				}
+			}
+		}
+		
+		available = {
+			AND = {
+				has_war = no
+				OR = {
+					has_government = utopianism
+					has_government = council_communist
+					has_government = socialist
+				}	
+				OR = {
+					URG = { is_puppet_of = ARG }
+					300 = { is_owned_and_controlled_by = ARG }
+				}
+			}
+		}
+
+		completion_reward = { }
+	}
+	
+	focus = {
+	
+		id = ARG_two-country_nation_theory
+		
+		relative_position_id = ARG_denounce_british_favouritism
+		x = 1
+		y = 1
+		
+		icon = GFX_goal_generic_dangerous_deal
+		
+		cost = 4
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_to_unite_our_nation }
+		prerequisite = { focus = ARG_denounce_british_favouritism }
+		
+		bypass = {
+			OR = {
+				OR = {
+					ARG = { has_war = yes }
+					URG = { has_war = yes }
+				}	
+				300 = {
+					AND = {
+						is_core_of = ARG
+						is_owned_and_controlled_by = ARG
+					}
+				}
+			}
+		}
+		
+		available = {
+			AND = {
+				has_war = no
+				has_government = antiquarian_nationalist	
+				OR = {
+					URG = { is_puppet_of = ARG }
+					300 = { is_owned_and_controlled_by = ARG }
+				}
+			}
+		}
+
+		completion_reward = { }
+	}
+	
+	focus = {
+	
+		id = ARG_purge_the_traitors
+		
+		relative_position_id = ARG_denounce_brazilian_imperialism
+		x = -1
+		y = 1
+		
+		icon = GFX_goal_generic_attack_allies	
+		
+		cost = 4
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_denounce_brazilian_imperialism }
+		prerequisite = { focus = ARG_to_enforce_our_hegemony }
+		
+		bypass = {
+			OR = {
+				OR = {
+					ARG = { has_war = yes }
+					URG = { has_war = yes }
+				}	
+				300 = {
+					AND = {
+						is_core_of = ARG
+						is_owned_and_controlled_by = ARG
+					}
+				}
+			}
+		}
+		
+		available = {
+			AND = {
+				has_war = no
+				OR = {
+					has_government = national_populist
+					has_government = paternal_autocrat
+				}	
+				OR = {
+					URG = { is_puppet_of = ARG }
+					300 = { is_owned_and_controlled_by = ARG }
+				}
+			}
+		}
+
+		completion_reward = { }
+	}
+	
+		focus = {
+	
+		id = ARG_economical_and_financial_unity
+		
+		relative_position_id = ARG_denounce_brazilian_imperialism
+		x = 1
+		y = 1
+		
+		icon = GFX_goal_generic_intelligence_exchange
+		
+		cost = 4
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_denounce_brazilian_imperialism }
+		prerequisite = { focus = ARG_to_stop_our_common_enemy }
+		
+		bypass = {
+			OR = {
+				OR = {
+					ARG = { has_war = yes }
+					URG = { has_war = yes }
+				}	
+				300 = {
+					AND = {
+						is_core_of = ARG
+						is_owned_and_controlled_by = ARG
+					}
+				}
+			}
+		}
+		
+		available = {
+			AND = {
+				has_war = no
+				OR = {
+					has_government = authoritarian_democrat
+					has_government = conservative
+					has_government = liberal
+					has_government = social_democrat
+				}	
+				OR = {
+					URG = { is_puppet_of = ARG }
+					300 = { is_owned_and_controlled_by = ARG }
+				}
+			}
+		}
+
+		completion_reward = { }
+	}
+	
+	focus = {
+	
+		id = ARG_autonomous_region_of_uruguay
+		
+		relative_position_id = ARG_uruguayan_workers_congress
+		x = 0
+		y = 1
+		
+		icon = GFX_ARG_focus_autonomous_region_of_uruguay
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_uruguayan_workers_congress }
+		
+		bypass = {
+			OR = {
+				OR = {
+					ARG = { has_war = yes }
+					URG = { has_war = yes }
+				}	
+				300 = {
+					AND = {
+						is_core_of = ARG
+						is_owned_and_controlled_by = ARG
+					}
+				}
+			}
+		}
+		
+		available = {
+			AND = {
+				has_war = no
+				OR = {
+					has_government = utopianism
+					has_government = council_communist
+					has_government = socialist
+				}	
+				OR = {
+					URG = { is_puppet_of = ARG }
+					300 = { is_owned_and_controlled_by = ARG }
+				}
+			}
+		}
+
+		completion_reward = { }
+	}
+	
+	focus = {
+	
+		id = ARG_reestablish_the_banda_oriental
+		
+		relative_position_id = ARG_two-country_nation_theory
+		x = 0
+		y = 1
+		
+		icon = GFX_goal_generic_position_armies
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_two-country_nation_theory }
+		
+		bypass = {
+			OR = {
+				OR = {
+					ARG = { has_war = yes }
+					URG = { has_war = yes }
+				}	
+				300 = {
+					AND = {
+						is_core_of = ARG
+						is_owned_and_controlled_by = ARG
+					}
+				}
+			}
+		}
+		
+		available = {
+			AND = {
+				has_war = no
+				has_government = antiquarian_nationalist	
+				OR = {
+					URG = { is_puppet_of = ARG }
+					300 = { is_owned_and_controlled_by = ARG }
+				}
+			}
+		}
+		
+		completion_reward = { }
+	}
+		
+		focus = {
+	
+		id = ARG_create_the_province_of_uruguay
+		
+		relative_position_id = ARG_purge_the_traitors
+		x = 0
+		y = 1
+		
+		icon = GFX_goal_generic_territory_or_war	
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_purge_the_traitors }
+		
+		bypass = {
+			OR = {
+				OR = {
+					ARG = { has_war = yes }
+					URG = { has_war = yes }
+				}	
+				300 = {
+					AND = {
+						is_core_of = ARG
+						is_owned_and_controlled_by = ARG
+					}
+				}
+			}
+		}
+		
+		available = {
+			AND = {
+				has_war = no
+				OR = {
+					has_government = national_populist
+					has_government = paternal_autocrat
+				}	
+				OR = {
+					URG = { is_puppet_of = ARG }
+					300 = { is_owned_and_controlled_by = ARG }
+				}
+			}
+		}
+
+		completion_reward = { }
+	}
+	
+		focus = {
+	
+		id = ARG_confederation_of_the_river_plate
+		
+		relative_position_id = ARG_economical_and_financial_unity
+		x = 0
+		y = 1
+		
+		icon = GFX_ARG_focus_confederation_of_the_river_plate
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_economical_and_financial_unity }
+		
+		bypass = {
+			OR = {
+				OR = {
+					ARG = { has_war = yes }
+					URG = { has_war = yes }
+				}	
+				300 = {
+					AND = {
+						is_core_of = ARG
+						is_owned_and_controlled_by = ARG
+					}
+				}
+			}
+		}
+		
+		available = {
+			AND = {
+				has_war = no
+				OR = {
+					has_government = authoritarian_democrat
+					has_government = conservative
+					has_government = liberal
+					has_government = social_democrat
+				}	
+				OR = {
+					URG = { is_puppet_of = ARG }
+					300 = { is_owned_and_controlled_by = ARG }
+				}
+			}
+		}
+		
+		completion_reward = { }
+	}
+	
+	focus = {
+	
+		id = ARG_final_stabilization
+		
+		relative_position_id = ARG_reestablish_the_banda_oriental
+		x = 1
+		y = 1
+		
+		icon = GFX_focus_generic_support_the_left_right
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_autonomous_region_of_uruguay focus = ARG_reestablish_the_banda_oriental focus = ARG_confederation_of_the_river_plate focus = ARG_create_the_province_of_uruguay }
+		
+		bypass = {
+			OR = {
+				ARG = { has_war = yes }
+				URG = { has_war = yes }
+			}	
+		}
+		
+		available = {
+			AND = {
+				has_war = no	
+				OR = {
+					URG = { is_puppet_of = ARG }
+					300 = { is_owned_and_controlled_by = ARG }
+				}
+			}
+		}
+		
+		completion_reward = { }
+	}
+}
