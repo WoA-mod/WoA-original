@@ -121,8 +121,8 @@ EST = {
 	color_ui = rgb { 120 120 120 }
 }
 LAT = {
-	color = rgb { 255 40 40 }
-	color_ui = rgb { 255 40 40 }
+	color = rgb { 75 77 146 }
+	color_ui = rgb { 10 40 170 }
 }
 UBD = {
 	color = rgb { 122 142 138 }
@@ -856,7 +856,19 @@ GRP = {
 	color_ui = rgb { 143 147 155 }
 }
 
-#New Caesarreich tags
+#Kept here to not cause errors.
+
+WGR = {
+	color = rgb { 73 73 73 }
+	color_ui = rgb { 80 90 100 } 
+}
+
+SPR = {
+	color = rgb { 73 73 73 }
+	color_ui = rgb { 80 90 100 } 
+}
+
+#New Whispers of Antiquity Tags tags
 
 CRI = {
 	color = rgb { 120 120 120 }
