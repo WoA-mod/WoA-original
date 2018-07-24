@@ -28,14 +28,12 @@ state={
 		}
 		add_core_of = ARG
 		victory_points = {
-			12364 20 #CABA
+			12364 10 
 		}
 		victory_points = {
-			12379 2 #La Plata
+			7621 1 
 		}
-		victory_points = {
-			1639 1 #Bahía Blanca
-		}
+
 	}
 
 	provinces={

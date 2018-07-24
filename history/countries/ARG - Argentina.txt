@@ -1,8 +1,4 @@
-﻿###############
-#Coded by Fede#
-###############
-
-capital = 278
+﻿capital = 278
 
 puppet = URG
 
@@ -10,8 +6,8 @@ set_research_slots = 3
 add_ideas = {
 	civilian_economy
 	export_focus
-	limited_conscription
-	low_popularity
+	volunteer_only
+	normal_popularity
 }
 
 # Starting tech
@@ -107,6 +103,7 @@ create_country_leader = {
 		#
 	}
 }
+
 
 create_country_leader = {
 	name = "Alfredo Palacios"

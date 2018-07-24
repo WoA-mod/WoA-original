@@ -124,7 +124,7 @@ bookmarks = {
 		}
 		"ARG"={
 			minor = yes
-			history = "ARG_WoA_DESC"
+			history = "ARG_FUHRERREICH_DESC"
 			ideology = liberal
 			ideas = {
 			}

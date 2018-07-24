@@ -18,7 +18,7 @@ state={
 			arms_factory = 1
 		}
 		victory_points = {
-			7500 3 #Rosario
+			7500 1 
 		}
 		add_core_of = ARG
 	}

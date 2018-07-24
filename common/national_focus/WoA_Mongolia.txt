@@ -44,7 +44,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 120
 			set_country_flag = MON_bogd_khanate
-#			country_event = mon.1000
+			country_event = mon.1000
 #			add_ideas = mon_political_opposition_bogd
 			add_stability = 0.1
 		}
@@ -67,7 +67,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 30
-#			country_event = mon.1001
+			country_event = mon.1001
 			add_stability = 0.05
 		}
 	}
@@ -89,7 +89,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 30
-#			country_event = mon.1002
+			country_event = mon.1002
 		}
 	}
 
@@ -154,7 +154,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-#			country_event = mon.1004
+			country_event = mon.1004
 #			remove_ideas = tuvan_nationalism
 		}
 	}
@@ -175,7 +175,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-#			country_event = mon.1005
+			country_event = mon.1005
 		}
 	}
 
@@ -199,7 +199,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-#			country_event = mon.1006
+			country_event = mon.1006
 #			remove_ideas = Xinjiang_Nationalism
 		}
 	}
@@ -220,7 +220,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-#			country_event = mon.1006
+			country_event = mon.1006
 #			remove_ideas = Xinjiang_Nationalism
 		}
 	}
@@ -261,7 +261,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-#			country_event = mon.1007
+			country_event = mon.1007
 			add_stability = 0.05
 		}
 	}
@@ -286,7 +286,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-#			country_event = mon.1008
+			country_event = mon.1008
 		}
 	}
 
@@ -306,7 +306,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-#			country_event = mon.1009
+			country_event = mon.1009
 		}
 	}
 
@@ -327,7 +327,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-#			country_event = mon.1010
+			country_event = mon.1010
 			add_political_power = 50
 			add_popularity = {
 				ideology = authoritarian_democrat
@@ -357,7 +357,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-#			country_event = mon.1009
+			country_event = mon.1009
 		}
 	}
 
@@ -380,7 +380,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 120
 			set_country_flag = MON_sternberg
-#			country_event = mon.2000
+			country_event = mon.2000
 #			add_ideas = mon_sternberg_one
 			add_stability = 0.2
 		}
@@ -400,7 +400,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 120
 			set_country_flag = MON_utopianist
-#			country_event = mon.3000
+			country_event = mon.3000
 #			add_ideas = mon_unstable_regime
 			add_stability = -0.1
 		}
