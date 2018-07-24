@@ -101,9 +101,12 @@ focus_tree = {
 		y = 1
 		relative_position_id = RUS_BR_Propaganda
 		cost = 5
-		#completion_reward = {
-		#	production_speed_industrial_complex_factor = 0.05
-		#	}
+		completion_reward = {
+			add_timed_idea = {
+				idea = RUS_Civ_Fac_Bonus
+				days = 180
+				}
+			}
 		ai_will_do = {
 			factor = 10
 			}
@@ -117,9 +120,12 @@ focus_tree = {
 		y = 1
 		relative_position_id = RUS_BR_Propaganda
 		cost = 5
-		#completion_reward = {
-		#	production_speed_arms_factory_factor = 0.05
-		#	}
+		completion_reward = {
+			add_timed_idea = {
+				idea = RUS_Mil_Fac_Bonus
+				days = 180
+				}
+			}
 		ai_will_do = {
 			factor = 10
 			}
@@ -134,9 +140,12 @@ focus_tree = {
 		y = 2
 		relative_position_id = RUS_BR_Propaganda
 		cost = 5
-		#completion_reward = {
-		#	political_power_gain = 0.25
-		#	}
+		completion_reward = {
+			add_timed_idea = {
+				idea = RUS_War_Bonds
+				days = 180
+				}
+			}
 		ai_will_do = {
 			factor = 10
 			}
