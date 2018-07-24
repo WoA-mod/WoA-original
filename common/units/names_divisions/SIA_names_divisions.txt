@@ -118,9 +118,9 @@ SIA_MLT_01 =
 
 	for_countries = { SIA }
 
-	can_use = {
-		SIA = { has_completed_focus = SIA_taharpran }
-	}
+	#can_use = {
+	#	SIA = { has_completed_focus = SIA_taharpran }
+	#}
 
 	division_types = { "militia" }
 
@@ -170,9 +170,9 @@ SIA_MLT_03 =
 
 	for_countries = { SIA }
 
-	can_use = {
-		SIA = { has_completed_focus = SIA_yuwachontaharn }
-	}
+	#can_use = {
+	#	SIA = { has_completed_focus = SIA_yuwachontaharn }
+	#}
 
 	division_types = { "militia" }
 
@@ -313,9 +313,9 @@ SIA_CAV_03 =
 
 	for_countries = { SIA }
 
-	can_use = {
-		SIA = { has_completed_focus = SIA_phaopoliceintegration }
-	}
+	#can_use = {
+	#	SIA = { has_completed_focus = SIA_phaopoliceintegration }
+	#}
 
 	division_types = { "cavalry" }
 

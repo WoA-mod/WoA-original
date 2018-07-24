@@ -643,4 +643,10 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
 	
+	spriteType = {		
+		name = "GFX_leader_marshal_unknown"		
+		textureFile = "gfx/leaders/leader_marshal_unknown.dds"		
+		legacy_lazy_load = no
+	}
+	
 }
