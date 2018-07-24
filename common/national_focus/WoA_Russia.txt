@@ -15,7 +15,7 @@ focus_tree = {
 	#belarus top level paths
 	focus = {
 		id = RUS_Belarus_Question
-		icon = GFX_RUS_belarus_question
+		icon = GFX_goal_RUS_belarus_question
 		x = 15
 		y = 1
 		cost = 5

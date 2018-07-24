@@ -1,4 +1,4 @@
-﻿capital = 439
+﻿capital = 439 ###edit this
 
 # Starting tech
 set_technology = {
@@ -20,21 +20,36 @@ set_war_support = 0.5
 
 set_politics = {
 
-parties = {
-		social_democrat = {
-			popularity = 6
-		}
-		liberal = {
-			popularity = 15
-		}
-		conservative = {
-			popularity = 14
-		}
-		authoritarian_democrat = {
+	parties = {
+		utopianism = { 
 			popularity = 0
 		}
+		council_communist = { 
+			popularity = 1
+		}
+		socialist = { 
+			popularity = 1
+		}
+		social_democrat = { 
+			popularity = 6
+		}
+		liberal = { 
+			popularity = 14
+		}
+		conservative = { 
+			popularity = 14
+		}
+		authoritarian_democrat = { 
+			popularity = 23
+		}
 		paternal_autocrat = {
-			popularity = 56
+			popularity = 36
+		}
+		national_populist = {
+			popularity = 0
+		}
+		antiquarian_nationalist = {
+			popularity = 5
 		}
 	}
 	
@@ -53,6 +68,17 @@ create_country_leader = {
 	picture = "Osman_Ali_Khan.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Osman Ali Khan"
+	desc = "POLITICS_ALI_KHAN_DESC"
+	picture = "Osman_Ali_Khan.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		
 	}

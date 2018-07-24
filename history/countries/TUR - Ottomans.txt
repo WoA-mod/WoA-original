@@ -45,32 +45,35 @@ set_politics = {
 		   popularity = 1
 		}
 		council_communist = {
-		    popularity = 3
+		    popularity = 2
 		}
 		socialist = {
-		    popularity = 3
+		    popularity = 2
 		}
 		social_democrat = {
 			popularity = 2
 		}
 		liberal = {
-			popularity = 34
+			popularity = 31
 		}
 		conservative = {
-			popularity = 9
+			popularity = 20
 		}
 		authoritarian_democrat = {
-			popularity = 36
+			popularity = 33
 		}
 		paternal_autocrat = {
-			popularity = 9
+			popularity = 6
 		}
 		national_populist = {
 			popularity = 3
 		}
+		antiquarian_nationalist = {
+			popularity = 0
+		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = conservative
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -111,6 +114,17 @@ create_country_leader = {
 	picture = "Portrait_Turkey_Abdulmecid.tga"
 	expire = "1965.1.1"
 	ideology = liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Abdülmecid II"
+	desc = "POLITICS_ABDULMECID_DESC"
+	picture = "Portrait_Turkey_Abdulmecid.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
 	traits = {
 		
 	}

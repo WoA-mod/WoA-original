@@ -16,23 +16,38 @@ set_war_support = 0.80
 
 set_politics = {
 
-    parties = {
-        social_democrat = {
-            popularity = 6
-        }
-        liberal = {
-            popularity = 21
-        }
-        conservative = {
-            popularity = 20
-        }
-        authoritarian_democrat = {
-            popularity = 41
-        }
-        paternal_autocrat = {
-            popularity = 13
-        }
-    }
+	parties = {
+		utopianism = {
+		   popularity = 0
+		}
+		council_communist = {
+		    popularity = 0
+		}
+		socialist = {
+		    popularity = 1
+		}
+		social_democrat = {
+			popularity = 12
+		}
+		liberal = {
+			popularity = 17
+		}
+		conservative = {
+			popularity = 20
+		}
+		authoritarian_democrat = {
+			popularity = 41
+		}
+		paternal_autocrat = {
+			popularity = 9
+		}
+		national_populist = {
+			popularity = 0
+		}
+		antiquarian_nationalist = {
+			popularity = 0
+		}
+	}
 	
 	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
@@ -61,7 +76,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Idris Senussi"
 	desc = "IDRIS_SENUSSI_DESC"
-	picture = "Portrait_Arabia_Generic_land_3.dds"
+	picture = "KingIdrisII.tga"
 	ideology = paternal_autocrat_subtype
 	traits = {
 	}
@@ -70,7 +85,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Idris Senussi"
 	desc = "IDRIS_SENUSSI_DESC"
-	picture = "Portrait_Arabia_Generic_land_3.dds"
+	picture = "KingIdrisII.tga"
 	ideology = authoritarian_democrat_subtype
 	traits = {
 	}

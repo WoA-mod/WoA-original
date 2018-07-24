@@ -23,21 +23,39 @@ set_war_support = 0.54
 set_politics = {
 
 	parties = {
+		utopianism = {
+		   popularity = 0
+		}
+		council_communist = {
+		    popularity = 15
+		}
+		socialist = {
+		    popularity = 5
+		}
 		social_democrat = {
-			popularity = 3
+			popularity = 20
+		}
+		liberal = {
+			popularity = 15
 		}
 		conservative = {
-			popularity = 11
+			popularity = 17
 		}
 		authoritarian_democrat = {
-			popularity = 40
+			popularity = 20
 		}
 		paternal_autocrat = {
-			popularity = 8
+			popularity = 4
+		}
+		national_populist = {
+			popularity = 0
+		}
+		antiquarian_nationalist = {
+			popularity = 4
 		}
 	}
 
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -49,21 +67,32 @@ add_ideas = {
 	#PER_oil_fields
 }
 
+#create_country_leader = {
+#	name = "Soleyman Mirza Eskandari"
+#	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
+#	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+#	expire = "1965.1.1"
+#	ideology = socialist_subtype
+#	traits = {
+		#
+#	}
+#}
+
 create_country_leader = {
-	name = "Soleyman Mirza Eskandari"
-	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	name = "Mohammad Hassan Mirza"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = "Muhammed_Mizra_Shah.tga"
 	expire = "1965.1.1"
-	ideology = socialist_subtype
+	ideology = paternal_autocrat_subtype
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Abdolhossein Teymourtash"
-	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
-	picture = "PER_SOCDEM.tga"
+	name = "Mohammad Hassan Mirza"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = "Muhammed_Mizra_Shah.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -72,35 +101,39 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ahmad Shah Qajar"
-	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
-	picture = "PER_AUTDEM.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-		#
-	}
-}
-create_country_leader = {
 	name = "Mohammad Hassan Mirza"
 	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
-	picture = "PER_PATAUT.tga"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Ahmad Qavam"
-	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
-	picture = "PER_SOCCON.tga"
+	picture = "Muhammed_Mizra_Shah.tga"
 	expire = "1965.1.1"
 	ideology = liberal_subtype
 	traits = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Mohammad Hassan Mirza"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = "Muhammed_Mizra_Shah.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mohammad Hassan Mirza"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = "Muhammed_Mizra_Shah.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+
 create_country_leader = {
 	name = "Davud Monshizadeh"
 	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"

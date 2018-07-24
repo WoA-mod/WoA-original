@@ -6,7 +6,7 @@ set_technology = {
 	gwtank = 1
 }
 
-set_convoys = 20
+set_convoys = 40
 set_stability = 0.50
 set_war_support = 0.50
 
@@ -14,30 +14,33 @@ set_politics = {
 
 	parties = {
 		utopianism = {
-		   popularity = 1
+		   popularity = 0
 		}
 		council_communist = {
-		    popularity = 0
+		    popularity = 3
 		}
 		socialist = {
 		    popularity = 0
 		}
 		social_democrat = {
-			popularity = 5
+			popularity = 1
 		}
 		liberal = {
-			popularity = 21
+			popularity = 28
 		}
 		conservative = {
-			popularity = 21
+			popularity = 27
 		}
 		authoritarian_democrat = {
-			popularity = 41
+			popularity = 26
 		}
 		paternal_autocrat = {
-			popularity = 11
+			popularity = 5
 		}
 		national_populist = {
+			popularity = 10
+		}
+		antiquarian_nationalist = {
 			popularity = 0
 		}
 	}
@@ -71,7 +74,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Abbas II"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	picture = "Abbas_Hamil_II.tga"
 	ideology = paternal_autocrat_subtype
 	traits = {
 		#
@@ -80,7 +83,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Abbas II"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	picture = "Abbas_Hamil_II.tga"
 	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
