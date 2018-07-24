@@ -5,8 +5,8 @@ state={
 		12857 
 	}
 	history = {
-	 owner = SPM
-	 add_core_of = SPM
+		owner = SPM
+		add_core_of = SPM
 	}
 	state_category=city
 	manpower=2 #add manpower here later, detracting from 462
