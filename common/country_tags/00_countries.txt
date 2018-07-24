@@ -197,11 +197,13 @@ MLT = "countries/Malta.txt"
 NFA = "countries/NFA.txt"
 NFQ = "countries/NFQ.txt"
 
-
+#Kept here to not cause errors.
+WGR = "countries/West Germany.txt"
+SPR = "countries/Spain.txt"
 
 RUS = "countries/Russia.txt"
 
-#New Caesarreich tags
+#New Whispers of Antiquity tags
 
 CRI = "countries/Crimea.txt"
 DAN = "countries/Danubia.txt"

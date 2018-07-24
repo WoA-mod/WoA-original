@@ -14,15 +14,15 @@ popular_figurehead:0 "Popular Figurehead"
 #### Political Parties ####
 
 RUS_utopianist_party:0 "Bolsheviks" 
-RUS_utopianist_party_long:0 "Bolshevik Faction of the RSDLP" 
+RUS_utopianist_party_long:0 "Utopianist of the RSDLP" 
 RUS_council_communist_party:0 "Bolsheviks"
-RUS_council_communist_long:0 "Bolshevik Faction of the RSDLP"
+RUS_council_communist_long:0 "Council Communist Faction of the RSDLP"
 RUS_socialist_party:0 "Bolsheviks" 
-RUS_socialist_party_long:0 "Bolshevik Faction of the RSDLP" 
-RUS_social_democrat_party:0 "Mensheviks"
-RUS_social_democrat_party_long:0 "Menshevik Faction of the RSDLP"
+RUS_socialist_party_long:0 "Radicalist Faction of the RSDLP" 
+RUS_social_democrat_party:0 "New Mensheviks"
+RUS_social_democrat_party_long:0 "Democratic Socialist Party"
 RUS_liberal_party:0 "Kadets"
-RUS_liberal_party_long:0 "Konstitutsionno-Demokraticheskaya Partiya"
+RUS_liberal_party_long:0 "Constitutional Democratic Party"
 RUS_conservative_party:0 "Octobrists"
 RUS_conservative_party_long:0 "Uninon of October 17"
 RUS_authoritarian_democrat_party:0 "Military Junta"
@@ -158,6 +158,55 @@ RUS__desc:0 ""
 russia.1.t:0 "Russia in 1936"
 russia.1.d:0 "Following the abdication of Tsar Nicholas and his subsequent escape to Britain in 1917, Russia was ruled by the Provisional Government.  The Petrograd Soviet, who held most allegiances and the real power in Russia, pledged support to the new Provisional Government if they granted certain civil rights to the people and promised to call a constituent assembly to rewrite the constitution.  The Germans denied Lenin’s request to return to the motherland as communism was on the rise in Danubia.  After a four month general-strike-turned-armed-revolt protesting the ongoing war, and under pressure from the Petrograd Soviet, the Duma ruled to make peace with the Germans.  The Treaty of Pinsk saw Russia lose Ukraine, the Baltics, Finland, Poland, and Kamchatka, and in the subsequent turmoil Belarus and Turkestan.  Russia, without the antagonizing force of Lenin, stabilized, and in 1920 a constituent assembly was called to redraw the constitution.  Russia is now ruled by the its president and the Joint Assembly, a two house parliament composed of the Duma and Grand Soviet, successor to the Petrograd Soviet.  The 1925 Assembly election would determine the future of Russia in no small part.  The Bolshevik rhetoric had been largely discredited as many Bolsheviks served in the first Assembly, Duma and Soviet.  Their most prominent leader, Lenin, remained in Switzerland under house arrest.  The fall of the Bolsheviks saw the rise of the more moderate Kadets and Mensheviks, led by an aging Trotsky.  1930 bought similar yields, however many still hold secret allegiances to the Bolshevik faction that are not being shown in this time of relative peace.  The Soviet does most of the day-to-day running of the country, and the Duma handles larger policy decisions, like multi-year infrastructure expansion projects.  Free speech is relatively well known by 1936, as there is almost always someone in government who has your opinions and will make sure they are protected.  Many tsarists must hid their allegiances, however.  Labor unions flourish and have their own seats on the Soviet.  Many more radical reforms have been stopped in the Duma, however, as they remain more conservative.  The 1935 elections have brought the winds of change.  Following the second Byelorussian war, Russia has seen a radicalization of politics, and both Bolsheviks and Populists are on the rise.  More moderate parties attempt to hold steadfast as Russia enters a new age.  How will you guide the motherland through this troublesome time?"
 russia.1.a:0 "Into the New Age!"
+#
+russia.2.t:0 "The Menshevik-Kadet Position"
+russia.2.d:0 "The Menshevik-Kadet Coalition was the ruling coalition during the Second Belarussian War, and its main proponent.  As the debate over Belarus once again flairs, the coalition's position has been called into question.  Should they advocate for another invasion?  Total recognition?  Perhaps a middle-ground, a deal with Belarus?  Or will the debate tear the coalition apart?"
+russia.2.a:0 "Decisive arguments for another invasion"
+russia.2.b:0 "Decisive arguments for a deal with Belarus"
+russia.2.c:0 "Decisive arguments for Belarussian recognition"
+russia.2.e:0 "The debate tears the coalition apart!"
+#
+russia.3.t:0 "The Coalition Dissolves!"
+russia.3.d:0 "The great Belarussian debate has proved fatal for the Menshevik-Kadet coalition, as disagreements over their unified position force it to dissolve.  The Kadets and Mensheviks are on their own now, free to make their own decisions.  Party satements are expected to arrive any minute."
+russia.3.a:0 "The end of an era in Russian politics"
+#
+russia.4.t:0 "The Kadet Position"
+russia.4.d:0 "The Constiutional Democratic Party, or Kadet Party, was the more conservative wing of the late coalition.  Many within the party support striking a deal with the makeshif Belarussian government, however their stance could change."
+russia.4.a:0 "The Kadets come out for another invasion!"
+russia.4.b:0 "The Kadets vote for a deal"
+russia.4.c:0 "The Kadets resolve to recognize Belarus!"
+#
+russia.5.t:0 "The Menshevik Position"
+russia.5.d:0 "The Democratic Socialist Party, so-called New Mensheviks, the successors of the late Menshevik branch of the RSDLP, have traditionally been the more liberal and radical half of the Kadet-Menshevik coaltion.  Most in the party want to take Belarus by force, but there are other alternatives."
+russia.5.a:0 "The Mensheviks vote for war!"
+russia.5.b:0 "The Mensheviks emerge supporting a deal"
+russia.5.c:0 "The Mensheviks decide to recognize Belarus"
+#
+russia.6.t:0 "The Populist Position"
+russia.6.d:0 "The National Popular Front, more commonly known as the Populists, is a party founded on the security of the Russian Nation.  As such, they are the second party to announce their position on this threat.  Most have supported eradicating the rebels, but there are more moderate streams.  None moderate enough to recognize them, however."
+russia.6.a:0 "The Populists vote for war."
+russia.6.b:0 "The Populists agree to a deal."
+#
+russia.7.t:0 "The Octobrist Position"
+russia.7.d:0 "The Union of October 17, named after the Tsar's October 17th declaration that a Duma would meet, more commonly known as the Octobrists, are the conservative faction in Russian politics.  They generally favor diplomacy and peace, and have a let's-not-be-too-hasty attidute.  Most support striking a deal with the rebels, while some support recognizing their independence.  None want a war."
+russia.7.a:0 "The Octobrists come out for a deal."
+russia.7.b:0 "The Octobrists decide to recognize Belarus."
+#
+russia.8.t:0 "The Bolshevik Position"
+russia.8.d:0 "The RSDLP, formerly the prominent socialist party in Russia, has been reduced to its Bolshevik Faction, which has change radically from 1917.  Gone are the days of widespread urban support, and now the Bolsheviks draw their voter primarily from rural areas, where the Mensheviks have been unsuccessful in their reforms.  They are extremely hostile, and though opinions differ internally, they all agree that the rebels must be taken care of, once and for all."
+russia.8.a:0 "The Bolsheviks announce support for an invasion!"
+#
+russia.9.t:0 "The Assembly Votes for War!"
+russia.9.d:0 "In a decision that will be remembered for years to come, the Duma and Grand Soviet have both voted to send a military force to eradicate the rebels in Belarus.  The parties' decisions on their positions leading up to this vote have played a crucial role in this decision."
+russia.9.a:0 "To War! For Russia!"
+#
+russia.10.t:0 "The Assembly Votes for a Deal!"
+russia.10.d:0 "In a decision that will be remembered for years to come, the Duma and Grand Soviet have both voted to strike a deal with the rebelling factions in Belarus.  What kind has yet to be decided, as negotiation with the rebel leaders begin.  The parties' decisions on their positions leading up to this vote have played a crucial role in this decision."
+russia.10.a:0 "Let the negotiations be favorable."
+#
+russia.11.t:0 "The Assembly Votes for Recognition!"
+russia.11.d:0 "In a decision that will be remembered for years to come, the Duma and Grand Soviet have both voted to recognize the government of Belarus as an independent nation.  Diplomatic ties are already being established, and borders being drawn.  The parties' decisions on their positions leading up to this vote have played a crucial role in this decision."
+russia.11.a:0 "A decision long in the making."
 
 ###################
 # custom tooltips #

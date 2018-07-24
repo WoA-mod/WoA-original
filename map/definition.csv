@@ -13211,13 +13211,14 @@
 13210;255;127;39;land;false;plains;1
 13211;127;127;127;land;false;plains;1
 13212;195;195;195;land;false;plains;1
-13213;237;28;36;land;false;plains;1
+13213;237;28;36;land;false;forest;1
 13214;70;102;53;land;false;plains;1
 13215;23;78;237;land;true;mountain;1
 13216;194;225;216;land;false;mountain;1
 13217;82;224;220;land;false;mountain;1
 13218;133;139;252;land;false;plains;1
-13219;224;118;28;land;false;plains;0
+	13219;224;118;28;land;false;plains;0
 13220;53;63;188;land;false;unknown;0
 13221;179;22;232;land;false;unknown;0
 13222;102;62;108;land;false;unknown;0
+
