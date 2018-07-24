@@ -856,7 +856,19 @@ GRP = {
 	color_ui = rgb { 143 147 155 }
 }
 
-#New Caesarreich tags
+#Kept here to not cause errors.
+
+WGR = {
+	color = rgb { 73 73 73 }
+	color_ui = rgb { 80 90 100 } 
+}
+
+SPR = {
+	color = rgb { 73 73 73 }
+	color_ui = rgb { 80 90 100 } 
+}
+
+#New Whispers of Antiquity Tags tags
 
 CRI = {
 	color = rgb { 120 120 120 }
