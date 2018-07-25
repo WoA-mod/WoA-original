@@ -1,0 +1,49 @@
+#Russia Ideas
+#Code of TheCaptain157#0073
+#no touchy
+
+
+ideas = {
+
+	country = {
+
+		RUS_Second_Belarussian_War = {
+			picture = tfv_can_conscription_crisis
+			modifier = {
+				utopianism_drift = 0.01
+				council_communist_drift = 0.01
+				socialist_drift = 0.01
+				national_populist_drift = 0.01
+			}
+		}
+
+		RUS_Assembly_Divisions = {
+			picture = generic_pp_unity_bonus
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.25
+			}
+		}
+
+		RUS_Mil_Fac_Bonus = {
+			picture = guns_shield
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+			}
+		}
+
+		RUS_Civ_Fac_Bonus = {
+			picture = generic_goods_red_bonus
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+
+		RUS_War_Bonds = {
+			picture = generic_intel_bonus
+			modifier = {
+				political_power_gain = 0.25
+			}
+		}
+	}
+}

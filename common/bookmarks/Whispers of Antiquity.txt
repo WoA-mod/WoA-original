@@ -71,7 +71,7 @@ bookmarks = {
 		}
 		
 		"RUS"={
-			history = "RUS_FUHRERREICH_DESC"
+			history = "RUS_WHISPERS_DESC"
 			ideology = social_democrat
 			ideas = {
 			}
