@@ -52,15 +52,15 @@ country_event = {
 		set_variable = {
 			var = deal
 			value = 45
+		}
 		ai_chance = { factor = 20 }
-	}
 	option = {
 		name = russia.2.c
 		set_variable = {
 			var = recognize
 			value = 45
+		}
 		ai_chance = { factor = 10 }
-	}
 	option = {
 		name = russia.2.e
 		country_event = {
@@ -84,8 +84,8 @@ country_event = {
 		country_event = {
 			id = russia.4
 			days = 0
-		ai_chance = { factor = 100 }
 		}
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -108,8 +108,8 @@ country_event = {
 		country_event = {
 			id = russia.5
 			days = 3
-		ai_chance = { factor = 10 }
 		}
+		ai_chance = { factor = 10 }
 	}
 	option = {
 		name = russia.4.b
@@ -120,8 +120,8 @@ country_event = {
 		country_event = {
 			id = russia.5
 			days = 3
-		ai_chance = { factor = 80 }
 		}
+		ai_chance = { factor = 80 }
 	}
 	option = {
 		name = russia.4.c
@@ -132,8 +132,8 @@ country_event = {
 		country_event = {
 			id = russia.5
 			days = 3
-		ai_chance = { factor = 10 }
 		}
+		ai_chance = { factor = 10 }
 	}
 }
 
@@ -161,7 +161,7 @@ country_event = {
 		add_to_variable = {
 				var = deal
 				value = 23
-		}
+			}
 		ai_chance = { factor = 80 }
 		}
 	option = {
@@ -169,7 +169,7 @@ country_event = {
 		add_to_variable = {
 				var = recognize
 				value = 23
-		}
+			}
 		ai_chance = { factor = 10 }
 		}
 }
