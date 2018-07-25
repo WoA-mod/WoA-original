@@ -6,7 +6,7 @@
 
 l_english:
 
-RUS_Whispers_Desc:0 "russia, find this text in WoA_russia_l_english.ym"
+RUS_WHISPERS_DESC:0 "Russia is a defeated nation in 1936.  Having lost many of its holdings in the Treaty of Pinsk, the Tsar found himself increasingly unpopular.  He abdicated and fled to Britain, while a provisional government was created back home.  The socialists pledged support for the new government, and together they wrote a new constitution.  Russia is now facing the reprecussions of a poorly-planned invasion to rebellious Belarus, and more radical parties are once again on the rise."
 
 #### Traits ####
 popular_figurehead:0 "Popular Figurehead"
@@ -38,21 +38,20 @@ RUS_antiquarian_nationalist_party_long:0 "Tsarist Restorationists"
 #### IDEAS ####
 ###############
 
-SOV_Bread:0 "Bread!"
-SOV_Bread_desc:0 "The first ideal of our nation is that of bread. We shall respect the welfare and freedoms of our people."
+RUS_Assembly_Divisions:0 "Divisions in the Assembly"
+RUS_Assembly_Divisions_desc:0 "The “Dual Power” of 1917 has remained largely unchanged in Russia to the present day, resulting in bureaucratic inefficiency and electoral gridlock."
 ###
-SOV_Peace:0 "Peace!"
-SOV_Peace_desc:0 "The second ideal of our nation is that of peace. No longer shall the Soviet war machine turn, for the good of the people and the state."
+RUS_Second_Belarussian_War:0 "The Second Belarussian War"
+RUS_Second_Belarussian_War_desc:0 "Belarus has been a revolting part of the Republic since the days of the Tsar, retaining substantial autonomy and unilateral independence.  In 1934, Belarus attempted to gain international recognition by waging a war with Russia to get us to recognize them.  While Belorussian gains were small, the poor performance of our government has given rise to many more radical parties."
 ###
-SOV_Labour:0 "Labour!"
-SOV_Labour_desc:0 "The third ideal of our nation is that of labour. The Soviet Union is still in a sorry undeveloped state due to weak industry. We shall build our nation with welfare-based 5 Year Plans and industrialize into a modern nation."
+RUS_Mil_Fac_Bonus:0 "Factories Built"
+RUS_Mil_Fac_Bonus_desc:0 "Our efforts have been fruitful, and our military factory expansions successful.  Let us swim in the arms we shall produce!"
 ###
-SOV_legacy_red_calvary:0 "Legacy of the Red Calvary"
-SOV_legacy_red_calvary_desc:0 "The Red Calvary no longer plays a small role in our military, but their legacy lives on and inspires our men."
-SOV_red_knights:0 "Red Knights"
+RUS_Civ_Fac_Bonus:0 "Industry Encouraged"
+RUS_Civ_Fav_Bonus_Desc:0 "We have successfully encourage private industry.  Let us reap the rewards!"
 ###
-SOV_ukraine_unrest:0 "Ukrainian Independance Movement"
-SOV_ukraine_unrest_desc:0 "The Ukrainian government has begun to take steps towards independance, and are refusing to enter negotiations with us. We may have to allow Ukraine to go on their own if we are to avoid a war with our fellow socialists."
+RUS_War_Bonds:0 "War Bonds Issued"
+RUS_War_Bonds:0 "We have issued war bonds.  This has increased patriotism and faith in our government, allowing us to more easily maneuver politically."
 ###
 SOV_centralize_union:0 "Centralize the Union"
 SOV_centralize_union_desc:0 ""
