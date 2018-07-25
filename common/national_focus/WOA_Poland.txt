@@ -1,774 +1,756 @@
 focus_tree = {
-		id = WoA_pol
+							id = WoA_pol
 
-		country = {
-			    factor= 0
-			    modifier = {
-					 add = 10
-					 tag = POL
-			  }
-	     }
+							country = {
+													factor= 0
+			    								modifier = {
+					 								add = 10
+					 								tag = POL
+													 					 }
+	     										}
 
 	     continuous_focus_position = { x = -800 y = 120 }
 
 	#Focus for A Divided State
-		focus = { 
-			 id = POL_a_divided_state 
-			 icon = GFX_focus_ger_oppose_hitler 
- 			 x = 13 
- 			 y = 0 
- 		 	 cost = 0 
-		         bypass = {has_country_flag = the_right_wing
-				   has_country_flag = the_left_wing
-				   has_country_flag = the_clipped_wing
-				  } 
-			 available = { has_country_flag = the_wings }
- 		 	 ai_will_do = { factor = 0 }  
- 		 	 completion_reward = {  } 
- 			}
+		focus = {
+							id = POL_a_divided_state
+							icon = GFX_focus_ger_oppose_hitler
+							x = 13
+							y = 0
+							cost = 0
+							bypass = {has_country_flag = the_right_wing
+												has_country_flag = the_left_wing
+												has_country_flag = the_clipped_wing
+											 }
+							available = { has_country_flag = the_wings }
+							ai_will_do = { factor = 0 }
+							completion_reward = {  }
+						}
 
-	#Focus for Real Polish Politics 
-		focus = { 
-			 id = POL_real_polish_politics  
-			 icon = GFX_focus_ger_oppose_hitler 
-		         bypass = {has_country_flag = the_right_wing} 
- 		 	 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_a_divided_state
- 			 x = -8 
- 			 y = 1 
-		 	 prerequisite = { focus = POL_a_divided_state } 
- 		 	 cost = 0
-			 bypass = { has_country_flag = the_right_wing }   
- 		 	 completion_reward = { 
- 			 			add_political_power = 50 
- 					     } 
- 			}
+	#Focus for Real Polish Politics
+		focus = {
+							id = POL_real_polish_politics
+							icon = GFX_focus_ger_oppose_hitler
+							bypass = {has_country_flag = the_right_wing}
+							relative_position_id = POL_a_divided_state
+							x = -8
+							y = 1
+							prerequisite = { focus = POL_a_divided_state }
+							cost = 0
+							bypass = { has_country_flag = the_right_wing }
+							completion_reward = {
+																		add_political_power = 50
+ 					     										}
+ 						}
 
-	#Focus for Partner, Not Client 
-		focus = { 
-		  	 id = POL_partner_not_client 
-			 icon = GFX_focus_prc_social_democracy 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_real_polish_politics  
- 			 x = -1 
- 			 y = 1 
- 			 mutually_exclusive = { focus = POL_german_commonwealth } 
- 			 prerequisite = { focus = POL_real_polish_politics } 
- 			 available = { is_in_faction_with = GER
-				       is_puppet_of = GER 
-				     } 
- 			 cost = 6  
-			 completion_reward = { 
- 						set_politics = { 
- 								 ruling_party = conservative
- 								 elections_allowed = no  
- 								}
-						end_puppet = POL 
-					     } 
- 			}
+	#Focus for Partner, Not Client
+		focus = {
+							id = POL_partner_not_client
+							icon = GFX_focus_prc_social_democracy
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_real_polish_politics
+							x = -1
+							y = 1
+							mutually_exclusive = { focus = POL_german_commonwealth }
+							prerequisite = { focus = POL_real_polish_politics }
+							available = { is_in_faction_with = GER
+														is_puppet_of = GER
+													}
+						  cost = 6
+							completion_reward = {
+																		set_politics = {
+																										ruling_party = conservative
+																										elections_allowed = no
+																									 }
+																		end_puppet = POL
+																	}
+						}
 
-	#Focus for Mine For Metals 
-		focus = { 
-	 		 id = POL_mine_for_metals  
-			 icon = GFX_goal_generic_construct_civilian 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_partner_not_client 
- 			 x = 0
- 			 y = 3
-  			 prerequisite = { focus = POL_partner_not_client} 
-			 cost = 6  
- 			 completion_reward = { 
- 						add_resource= {  
- 								type = steel  
- 								amount = 8  
- 								state = 10  
-							      }	 
-					     } 
- 			}
+	#Focus for Mine For Metals
+		focus = {
+							id = POL_mine_for_metals
+							icon = GFX_goal_generic_construct_civilian
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_partner_not_client
+							x = 0
+							y = 3
+							prerequisite = { focus = POL_partner_not_client}
+							cost = 6
+							completion_reward = {
+																		add_resource= {
+																										type = steel
+																										amount = 8
+																										state = 10
+																									}
+																	}
+						}
 
-	#Focus for Trade And Colonial League 
-		focus = { 
-			 id = POL_trade_and_colonial_league  
-		 	 icon = GFX_goal_molotov_ribbentrop_pact 
-			 ai_will_do = { factor = 0 }
-			 relative_position_id = POL_partner_not_client 
- 			 x = -2 
- 			 y = 3 
- 			 prerequisite = { focus = POL_partner_not_client} 
-			 cost = 6  
- 			  
- 			 completion_reward = { 
-						add_equipment_to_stockpile = { 
-  										type = convoy_1  
- 										amount = 50  
- 										producer = POL 
- 									     } 
- 					     } 
- 			}
+	#Focus for Trade And Colonial League
+		focus = {
+							id = POL_trade_and_colonial_league
+							icon = GFX_goal_molotov_ribbentrop_pact
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_partner_not_client
+							x = -2
+							y = 3
+							prerequisite = { focus = POL_partner_not_client}
+							cost = 6
+							completion_reward = {
+																		add_equipment_to_stockpile = {
+																																	type = convoy_1
+																																	amount = 50
+																																	producer = POL
+																																 }
+																	}
+							}
 
-	#Focus for Brazilian Opportunity 
-		focus = { 
-			 id = POL_brazilian_opportunity  
-			 icon = GFX_focus_rom_parties_end 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_partner_not_client 
-			 x = -4 
- 			 y = 4 
- 			 prerequisite = { focus = POL_trade_and_colonial_league } 
- 			 cost = 6  
-  			 completion_reward = { 
- 						 country_event = { 
- 								   days = 1  
- 								   id = poland.10  
- 								 } 
- 					     } 
- 			}
+	#Focus for Brazilian Opportunity
+		focus = {
+						 id = POL_brazilian_opportunity
+						 icon = GFX_focus_rom_parties_end
+						 ai_will_do = { factor = 0 }
+						 relative_position_id = POL_partner_not_client
+						 x = -4
+						 y = 4
+						 prerequisite = { focus = POL_trade_and_colonial_league }
+						 cost = 6
+						 completion_reward = {
+						 											#country_event = {
+																										#days = 1
+																										#id = poland.10
+																										#}
+																 }
+						}
 
-	#Focus for Interest In Madagascar 
-		focus = { 
-		 	 id = POL_interest_in_madagascar
-		 	 icon = GFX_goal_generic_cavalry 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_partner_not_client 
- 			 x = -2 
- 			 y = 4 
- 			 prerequisite = { focus = POL_trade_and_colonial_league } 
- 			 cost = 6  
-			}
+	#Focus for Interest In Madagascar
+		focus = {
+							id = POL_interest_in_madagascar
+							icon = GFX_goal_generic_cavalry
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_partner_not_client
+							x = -2
+							y = 4
+							prerequisite = { focus = POL_trade_and_colonial_league }
+							cost = 6
+						}
 
-	#Focus for AGH University 
-		focus = { 
-			 id = POL_agh_university
-			 icon = GFX_goal_tfv_generic_tech_sharing 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_real_polish_politics  
- 			 x = 0 
- 			 y = 2 
- 			 prerequisite = { focus = POL_german_commonwealth
-			 		  focus = POL_partner_not_client
-					} 
- 			cost = 6  
- 			completion_reward = { 
- 					      add_to_tech_sharing_group = mittleuropa 
- 					      add_research_slot = 1 
- 					    } 
-			}
+	#Focus for AGH University
+		focus = {
+							id = POL_agh_university
+							icon = GFX_goal_tfv_generic_tech_sharing
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_real_polish_politics
+							x = 0
+							y = 2
+							prerequisite = { focus = POL_german_commonwealth
+															 focus = POL_partner_not_client
+														 }
+							cost = 6
+							completion_reward = {
+																		add_to_tech_sharing_group = mittleuropa
+																		add_research_slot = 1
+																	}
+						}
 
-	#Focus for Managing The Debt 
-		focus = { 
-			 id = POL_managing_the_debt 
-		 	 icon = GFX_focus_SAF_colonialist_crusade 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_real_polish_politics 
- 			 x = 0 
- 			 y = 3 
- 			 prerequisite = { focus = POL_agh_university} 
-			 cost = 6  
-			 completion_reward = { add_political_power = 50 } 
-			 }
+	#Focus for Managing The Debt
+		focus = {
+							id = POL_managing_the_debt
+							icon = GFX_focus_SAF_colonialist_crusade
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_real_polish_politics
+							x = 0
+							y = 3
+							prerequisite = { focus = POL_agh_university}
+							cost = 6
+							completion_reward = { add_political_power = 50 }
+						}
 
-	#Focus for German Commonwealth 
-		focus = { 
-			 id = POL_german_commonwealth 
-			 icon = GFX_focus_chi_mission_to_germany 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_real_polish_politics  
- 			 x = 1 
-			 y = 1 
-			 mutually_exclusive = { focus = POL_partner_not_client} 
-			 prerequisite = { focus = POL_real_polish_politics } 
-			 available = { is_puppet_of = GER 
-				       is_in_faction_with = GER 
-				     } 
- 			 cost = 6  
-			 completion_reward = { 
- 					      set_politics = { 
-					      ruling_party = liberal
- 					      elections_allowed = no  
- 							     } 
- 					     } 
- 			}
+	#Focus for German Commonwealth
+		focus = {
+							id = POL_german_commonwealth
+							icon = GFX_focus_chi_mission_to_germany
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_real_polish_politics
+							x = 1
+							y = 1
+							mutually_exclusive = { focus = POL_partner_not_client}
+							prerequisite = { focus = POL_real_polish_politics }
+							available = { is_puppet_of = GER
+														is_in_faction_with = GER
+													}
+							cost = 6
+							completion_reward = {
+																		set_politics = {
+																										ruling_party = liberal
+																										elections_allowed = no
+																									 }
+																	}
+						}
 
-	#Focus for Attracting The Junkers 
-		focus = { 
-		id = POL_attracting_the_junkers  
-		icon = GFX_focus_rom_coup 
-		ai_will_do = { factor = 0 } 
-		relative_position_id = POL_german_commonwealth 
-		x = 3 
-		y = 3 
- 		prerequisite = { focus = POL_german_commonwealth} 
- 		cost = 6  
- 		completion_reward = { 
- 				     add_opinion_modifier= { target =  GER 
- 							     modifier = medium_increase
- 							   }
-				     every_state = { add_extra_state_shared_building_slots = 2 } 
- 									      
- 				     } 
-			   }
+	#Focus for Attracting The Junkers
+		focus = {
+							id = POL_attracting_the_junkers
+							icon = GFX_focus_rom_coup
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_german_commonwealth
+							x = 3
+							y = 3
+							prerequisite = { focus = POL_german_commonwealth}
+							cost = 6
+							completion_reward = {
+																		add_opinion_modifier= { target =  GER
+																														modifier = medium_increase
+																													}
+																		every_state = { add_extra_state_shared_building_slots = 2 }
+																	}
+						}
 
- 	#Focus for Rebuilding The Railways 
-		focus = { 
-			 id = POL_rebuilding_the_railways  
-			 icon = GFX_goal_generic_construct_infrastructure 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_german_commonwealth 
- 			 x = 5 
- 			 y = 4 
- 			 prerequisite = { focus = POL_attracting_the_junkers } 
- 			 cost = 6
-			 completion_reward = {10 = {
-					   	    if = {
-						    limit = { is_controlled_by = ROOT }
-						     add_building_construction = {
-								                  type = infrastructure
-										  level = 10
-										  instant_build = yes
-										  }
-							 }
-					     	   }
-					     }
-				    
- 			}
-	#Focus for True Luxury Service 
-		focus = { 
-			 id = POL_true_luxury_service  
-			 icon = GFX_goal_generic_construct_mil_factory 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_german_commonwealth 
-			 x = 3 
-			 y = 4
-			 prerequisite = { focus = POL_attracting_the_junkers } 
- 			 cost = 6  
-			 }
+ 	#Focus for Rebuilding The Railways
+		focus = {
+							id = POL_rebuilding_the_railways
+							icon = GFX_goal_generic_construct_infrastructure
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_german_commonwealth
+							x = 5
+							y = 4
+							prerequisite = { focus = POL_attracting_the_junkers }
+							cost = 6
+							completion_reward = {10 = {
+																					if = {
+																								limit = { is_controlled_by = ROOT }
+																								add_building_construction = {	type = infrastructure
+																																							level = 10
+																																							instant_build = yes
+																																						}
+																							}
+																				}
+																	}
+						}
 
+	#Focus for True Luxury Service
+		focus = {
+							id = POL_true_luxury_service
+							icon = GFX_goal_generic_construct_mil_factory
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_german_commonwealth
+							x = 3
+							y = 4
+							prerequisite = { focus = POL_attracting_the_junkers }
+							cost = 6
+						}
 
  	#Focus for Feeding The Empire
-		focus = { 
-			 id = POL_feeding_the_empire
-			 icon = GFX_goal_generic_construct_infrastructure 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_german_commonwealth 
- 			 x = 1
- 		  	 y = 3 
- 		 	 prerequisite = { focus = POL_german_commonwealth} 
- 			 cost = 6
-			 completion_reward = {random_owned_controlled_state = {
-									limit = {
-										 free_building_slots = {
-													building = industrial_complex
-													size > 0
-													include_locked = yes
-													}
-										}
-										add_extra_state_shared_building_slots = 3
-										add_building_construction = {
-													     type = industrial_complex
-													     level = 3
-													     instant_build = yes
-													    }
-										set_state_flag = poland_farm
-										}
-						
-					     }
- 			 }
+		focus = {
+							id = POL_feeding_the_empire
+							icon = GFX_goal_generic_construct_infrastructure
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_german_commonwealth
+							x = 1
+							y = 3
+							prerequisite = { focus = POL_german_commonwealth}
+							cost = 6
+							completion_reward = {random_owned_controlled_state = {
+																																		limit = {	free_building_slots = {
+																																																			building = industrial_complex
+																																																			size > 0
+																																																			include_locked = yes
+																																																		}
+																																						}
+																																		add_extra_state_shared_building_slots = 3
+																																		add_building_construction = {
+																																																	type = industrial_complex
+																																																	level = 3
+																																																	instant_build = yes
+																																																}
+																																		set_state_flag = poland_farm
+																																	 }
+																	 }
+						}
 
-	#Focus for The Pole Splinters 
-		focus = { 
-			 id = POL_the_pole_splinters  
-		 	 icon = GFX_focus_renounce_the_treaty_of_triannon 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_a_divided_state
- 			 x = 0 
- 			 y = 1 
- 			 prerequisite = { focus = POL_a_divided_state} 
- 			 cost = 0  
- 			}
+	#Focus for The Pole Splinters
+		focus = {
+							id = POL_the_pole_splinters
+							icon = GFX_focus_renounce_the_treaty_of_triannon
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_a_divided_state
+							x = 0
+							y = 1
+							prerequisite = { focus = POL_a_divided_state}
+							cost = 0
+						}
 
-	#Focus for The Stagnation Of Democracy 
-		focus = { 
-			 id = POL_the_stagnation_of_democracy
-			 icon = GFX_focus_cze_german_puppet 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_the_pole_splinters  
- 			 x = 0 
-			 y = 3 
-			 prerequisite = { focus = POL_the_pole_splinters } 
-			 cost = 0  
- 			}
+	#Focus for The Stagnation Of Democracy
+		focus = {
+							id = POL_the_stagnation_of_democracy
+							icon = GFX_focus_cze_german_puppet
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_the_pole_splinters
+							x = 0
+							y = 3
+							prerequisite = { focus = POL_the_pole_splinters }
+							cost = 0
+						}
+
 	#Focus for The Second People's Republic
-		focus = { 
-			 id = POL_the_second_peoples_republic  
-			 icon = GFX_goal_generic_attack_allies 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_the_pole_splinters  
- 			 x = 0 
- 			 y = 5 
- 			 prerequisite = { focus = POL_the_stagnation_of_democracy}
-			 prerequisite = { focus = POL_northern_orders}
-			 prerequisite = { focus = POL_southern_guns}
-			 prerequisite = { focus = POL_eastern_warlords} 
- 			 cost = 6  
- 			}
+		focus = {
+							id = POL_the_second_peoples_republic
+							icon = GFX_goal_generic_attack_allies
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_the_pole_splinters
+							x = 0
+							y = 5
+							prerequisite = { focus = POL_the_stagnation_of_democracy}
+							prerequisite = { focus = POL_northern_orders}
+							prerequisite = { focus = POL_southern_guns}
+							prerequisite = { focus = POL_eastern_warlords}
+							cost = 0
+						}
 
+	#Focus for A Second Council
+		focus = {
+							id = POL_a_second_council
+							icon = GFX_focus_generic_polish_deal
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_true_luxury_service
+							x = 0
+							y = 1
+							prerequisite = { focus = POL_the_second_peoples_republic }
+							prerequisite = { focus = POL_true_luxury_service }
+							cost = 6
+						}
 
-	#Focus for A Second Council 
-		focus = { 
-			 id = POL_a_second_council
-			 icon = GFX_focus_generic_polish_deal 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_true_luxury_service  
- 			 x = 0 
- 			 y = 1 
- 			 prerequisite = { focus = POL_the_second_peoples_republic } 
-			 prerequisite = { focus = POL_true_luxury_service }
- 			 cost = 6   
- 			}
+	#Focus for The First King
+		focus = {
+							id = POL_the_first_king
+							icon = GFX_focus_ger_revive_kaiserreich
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_a_second_council
+			 				x = 0
+			 				y = 1
+ 			 				mutually_exclusive = { }
+			 				prerequisite = { focus = POL_a_second_council}
+							cost = 6
+   					}
 
-	#Focus for The First King 
-		focus = { 
-			 id = POL_the_first_king 
-			 icon = GFX_focus_ger_revive_kaiserreich 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_a_second_council 
-			 x = 0 
-			 y = 1 
- 			 mutually_exclusive = { } 
-			 prerequisite = { focus = POL_a_second_council}
-  
-			 cost = 6  
-   			}
+	#Focus for The Art of Artillery
+		focus = {
+							id = POL_the_art_of_artillery
+			 				icon = GFX_goal_generic_army_artillery2
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_a_second_council
+ 			 				x = -1
+			 				y = 2
+			 				prerequisite = { focus = POL_the_first_king}
+ 			 				cost = 6
+						}
 
-	#Focus for The Art of Artilery 
-		focus = { 
-			 id = POL_the_art_of_artilery  
-			 icon = GFX_goal_generic_army_artillery2 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_a_second_council 
- 			 x = -1 
-			 y = 2 
-			 prerequisite = { focus = POL_the_first_king} 
- 			 cost = 6  
-			}
+	#Focus for The Successor To Austria
+		focus = {
+							id = POL_the_successor_to_austria
+			 				icon = GFX_goal_tfv_strengthen_commonwealth_ties
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_a_second_council
+ 			 				x = 1
+			 				y = 2
+			 				prerequisite = { focus = POL_the_first_king}
+			 				cost = 6
+						}
 
-	#Focus for The Successor To Austria 
-		focus = { 
-			 id = POL_the_successor_to_austria  
-			 icon = GFX_goal_tfv_strengthen_commonwealth_ties 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_a_second_council 
- 			 x = 1 
-			 y = 2 
-			 prerequisite = { focus = POL_the_first_king} 
-			 cost = 6  
-			}
+	#Focus for  Pro Fide, Lege, Et Rege
+		focus = {
+							id = POL_pro_fide_lege_et_rege
+							icon = GFX_goal_generic_support_fascism
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_the_pole_splinters
+							x = 0
+							y = 7
+							prerequisite = { focus = POL_the_second_peoples_republic }
+							cost = 6
+						}
 
-	#Focus for  Pro Fide, Lege, Et Rege  
-		focus = { 
-			 id = POL_pro_fide_lege_et_rege 
-			 icon = GFX_goal_generic_support_fascism 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_the_pole_splinters  
- 			 x = 0
- 			 y = 7 	
-			 prerequisite = { focus = POL_the_second_peoples_republic } 
- 			 cost = 6  
- 			}
+	#Focus for Consolidate The Eastern Armies
+		focus = {
+							id = POL_consolidate_the_eastern_armies
+							icon = GFX_goal_tfv_can_compromise_with_quebec
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_the_pole_splinters
+							x = 0
+							y = 9
+							prerequisite = { focus = POL_pro_fide_lege_et_rege}
+							cost = 6
+						}
 
-	#Focus for Consolidate The Eastern Armies 
-		focus = { 
-			 id = POL_consolidate_the_eastern_armies 
-			 icon = GFX_goal_tfv_can_compromise_with_quebec 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_the_pole_splinters 
- 			 x = 0 
- 	 		 y = 9 
-			 prerequisite = { focus = POL_pro_fide_lege_et_rege} 
-			 cost = 6  
- 			}
+	#Focus for The Winged Hussar's Arrive
+		focus = {
+							id = POL_the_winged_hussars_arrive
+						 	icon = GFX_goal_generic_CAS
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_protectors_of_the_proletariat
+ 			 				x = 3
+ 			 				y = 3
+			 				prerequisite = { focus = POL_the_best_defense}
+ 			 				prerequisite = { focus = POL_the_men_in_the_machines}
+ 			 				prerequisite = { focus = POL_pro_fide_lege_et_rege}
+			 				cost = 6
+						}
 
-	#Focus for The Winged Hussar's Arrive 
-		focus = { 
-			 id = POL_the_winged_hussars_arrive 
-			 icon = GFX_goal_generic_CAS 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_protectors_of_the_proletariat 
- 			 x = 3 
- 			 y = 3 
-			 prerequisite = { focus = POL_the_best_defense} 
- 			 prerequisite = { focus = POL_the_men_in_the_machines} 
- 			 prerequisite = { focus = POL_pro_fide_lege_et_rege} 
-			 cost = 6  
-			}
+	#Focus for Legacy Of Lublin
+		focus = {
+							id = POL_legacy_of_lublin
+							icon = GFX_goal_support_fourth_int
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_the_second_peoples_republic
+							x = 4
+							y = 1
+							prerequisite = { focus = POL_the_second_peoples_republic }
+							cost = 6
+						}
 
-	#Focus for Legacy Of Lublin 
-		focus = { 
-			 id = POL_legacy_of_lublin  
-			 icon = GFX_goal_support_fourth_int 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_the_second_peoples_republic 
-			 x = 4 
-			 y = 1 
-			 prerequisite = { focus = POL_the_second_peoples_republic } 
-			 cost = 6  
- 			}
+	#Focus for Joining The International
+		focus = {
+							id = POL_joining_the_international
+							icon = GFX_goal_tfv_burn_the_royal_portraits
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_legacy_of_lublin
+							x = -1
+							y = 1
+			 				prerequisite = { focus = POL_legacy_of_lublin }
+			 				cost = 6
+						}
 
-	#Focus for Joining The International 
-		focus = { 
-			 id = POL_joining_the_international  
-			 icon = GFX_goal_tfv_burn_the_royal_portraits 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_legacy_of_lublin  
-			 x = -1
-			 y = 1 
-			 prerequisite = { focus = POL_legacy_of_lublin } 
-			 cost = 6  
-			}
+	#Focus for Protectors of The Proletariat
+		focus = {
+							id = POL_protectors_of_the_proletariat
+							icon = GFX_goal_generic_defence
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_legacy_of_lublin
+							x = 1
+							y = 1
+							mutually_exclusive = { focus = POL_joining_the_international }
+							prerequisite = { focus = POL_legacy_of_lublin }
+							cost = 6
+						}
 
-	#Focus for Protectors of The Proletariat 
-		focus = { 
-			 id = POL_protectors_of_the_proletariat  
-			 icon = GFX_goal_generic_defence 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_legacy_of_lublin  
-			 x = 1 
-			 y = 1 
-			 mutually_exclusive = { focus = POL_joining_the_international } 
-			 prerequisite = { focus = POL_legacy_of_lublin } 
-			 cost = 6  
-   			}
+	#Focus for A Truly Polish Future
+		focus = {
+							id = POL_a_truly_polish_future
+			 				icon = GFX_focus_rom_preserve_romania
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_legacy_of_lublin
+ 			 				x = 0
+ 			 				y = 2
+			 				prerequisite = { focus = POL_joining_the_international }
+ 			 				prerequisite = { focus = POL_protectors_of_the_proletariat }
+			 				cost = 6
+						}
 
-	#Focus for A Truely Polish Future 
-		focus = { 
-			 id = POL_a_truely_polish_future  
-			 icon = GFX_focus_rom_preserve_romania 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_legacy_of_lublin  
- 			 x = 0 
- 			 y = 2 
-			 prerequisite = { focus = POL_joining_the_international } 
- 			 prerequisite = { focus = POL_protectors_of_the_proletariat } 
-			 cost = 6  
-			}
+	#Focus for Stronnictwo Narodowe
+		focus = {
+							id = POL_stronnictwo_narodowe
+							icon = GFX_focus_generic_polish_deal
+							ai_will_do = { factor = 0 }
+							relative_position_id = POL_a_divided_state
+							x = 9
+							y = 1
+							prerequisite = { focus = POL_a_divided_state}
+							cost = 0
+						}
 
+	#Focus for Stab In The Back
+		focus = {
+							id = POL_stab_in_the_back
+			 				icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_stronnictwo_narodowe
+							x = -5
+			 				y = 1
+			 				prerequisite = { focus = POL_stronnictwo_narodowe }
+			 				cost = 6
+						}
 
-	#Focus for Stronnictwo Narodowe 
-		focus = { 
-			 id = POL_stronnictwo_narodowe  
-			 icon = GFX_focus_generic_polish_deal 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_a_divided_state
- 			 x = 9 
- 			 y = 1 
- 			 prerequisite = { focus = POL_a_divided_state} 
- 			 cost = 0   
- 			}
+	#Focus for Northern Orders
+		focus = {
+			 				id = POL_northern_orders
+			 				icon = GFX_goal_generic_attack_allies
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_stab_in_the_back
+			 				x = -2
+			 				y = 1
+			 				prerequisite = { focus = POL_stab_in_the_back}
+			 				cost = 6
+						}
 
-	#Focus for Stab In The Back 
-		focus = { 
-			 id = POL_stab_in_the_back 
-			 icon = GFX_focus_ger_break_anglo_french_colonial_hegemony 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_stronnictwo_narodowe  
-			 x = -5 
-			 y = 1 
-			 prerequisite = { focus = POL_stronnictwo_narodowe } 
-			 cost = 6  
-			}
+	#Focus for Eastern Warlords
+		focus = {
+			 				id = POL_eastern_warlords
+			 				icon = GFX_goal_generic_attack_allies
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_stab_in_the_back
+			 				x = 0
+							y = 1
+			 				prerequisite = { focus = POL_stab_in_the_back}
+			 				cost = 6
 
-	#Focus for Northern Orders 
-		focus = { 
-			 id = POL_northern_orders 
-			 icon = GFX_goal_generic_attack_allies 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_stab_in_the_back
-			 x = -2 
-			 y = 1 
-			 prerequisite = { focus = POL_stab_in_the_back} 
-			 cost = 6  
-			}
+						}
 
-	#Focus for Eastern Warlords 
-		focus = { 
-			 id = POL_eastern_warlords 
-			 icon = GFX_goal_generic_attack_allies 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_stab_in_the_back
-			 x = 0 
-			 y = 1 
-			 prerequisite = { focus = POL_stab_in_the_back} 
-			 cost = 6  
-   			}
-	#Focus for Southern Guns 
-		focus = { 
-			 id = POL_southern_guns 
-			 icon = GFX_goal_generic_attack_allies 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_stab_in_the_back
-			 x = 2 
-			 y = 1 
-			 prerequisite = { focus = POL_stab_in_the_back} 
-			 cost = 6   
-			}
+	#Focus for Southern Guns
+		focus = {
+			 				id = POL_southern_guns
+			 				icon = GFX_goal_generic_attack_allies
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_stab_in_the_back
+			 				x = 2
+			 				y = 1
+			 				prerequisite = { focus = POL_stab_in_the_back}
+			 				cost = 6
+						}
 
-	#Focus for Polish Utopia 
-		focus = { 
-			 id = POL_polish_utopia 
-			 icon = GFX_focus_jap_manchurian_project 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_stronnictwo_narodowe  
-			 x = 0 
- 			 y = 1 
-			 mutually_exclusive = { } 
-			 prerequisite = { focus = POL_stronnictwo_narodowe } 
-			 cost = 6  
-   			}
+	#Focus for Polish Utopia
+		focus = {
+							id = POL_polish_utopia
+			 				icon = GFX_focus_jap_manchurian_project
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_stronnictwo_narodowe
+			 				x = 0
+ 			 				y = 1
+			 				prerequisite = { focus = POL_stronnictwo_narodowe }
+			 				cost = 6
+   					}
 
-	#Focus for Arm The Meek 
-		focus = { 
-			 id = POL_arm_the_meek  
-			 icon = GFX_goal_generic_small_arms 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_polish_utopia
-			 x = -1 
-			 y = 1 
-			 mutually_exclusive = { } 
-			 prerequisite = { focus = POL_polish_utopia} 
-			 cost = 6  
-   			}
+	#Focus for Arm The Meek
+		focus = {
+			 				id = POL_arm_the_meek
+			 				icon = GFX_goal_generic_small_arms
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_polish_utopia
+			 				x = -1
+			 				y = 1
+			 			 	prerequisite = { focus = POL_polish_utopia}
+			 		 		cost = 6
+   					}
 
-	#Focus for Introduce The Zloty 
-		focus = { 
-			 id =  POL_introduce_the_zloty 
-			 icon = GFX_focus_generic_concessions 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_polish_utopia
-			 x = 1 
-			 y = 1 
-			 mutually_exclusive = { } 
-			 prerequisite = { focus = POL_polish_utopia} 
-			 cost = 6 
-   			}
+	#Focus for Introduce The Zloty
+		focus = {
+							id =  POL_introduce_the_zloty
+			 				icon = GFX_focus_generic_concessions
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_polish_utopia
+			 				x = 1
+			 				y = 1
+						 	prerequisite = { focus = POL_polish_utopia}
+			 				cost = 6
+   					}
 
-	#Focus for Junk The Junkers 
-		focus = { 
-			 id = POL_junk_the_junkers  
-			 icon = GFX_focus_generic_military_academy 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_polish_utopia
- 			 x = 0 
-			 y = 2 
-			 mutually_exclusive = { } 
-			 prerequisite = { focus = POL_arm_the_meek } 
- 			 prerequisite = { focus =  POL_introduce_the_zloty} 
-			 cost = 6  
-   			}
+	#Focus for Junk The Junkers
+		focus = {
+			 				id = POL_junk_the_junkers
+			 				icon = GFX_focus_generic_military_academy
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_polish_utopia
+ 			 				x = 0
+			 				y = 2
+			 			 	prerequisite = { focus = POL_arm_the_meek }
+ 			 				prerequisite = { focus =  POL_introduce_the_zloty}
+			 				cost = 6
+   					}
 
-	#Focus for Reform From Within 
-		focus = { 
-			 id = POL_thorn_in_the_side 
-			 icon = GFX_focus_generic_self_management 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_stronnictwo_narodowe  
-	 		 x = 5 
-			 y = 1 
-	 		 mutually_exclusive = { focus = POL_stab_in_the_back} 
-			 prerequisite = { focus = POL_stronnictwo_narodowe } 
-			 cost = 6 
-   			}
-	#Focus for Rebuild Riga 
-		focus = { 
-			 id = POL_rebuild_riga 
-			 icon = GFX_goal_generic_position_armies 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_thorn_in_the_side
-			 x = 0 
-			 y = 1 
-			 mutually_exclusive = { } 
-			 prerequisite = { focus = POL_thorn_in_the_side} 
-			 cost = 6  
-   			}
+	#Focus for Reform From Within
+		focus = {
+			 				id = POL_thorn_in_the_side
+			 				icon = GFX_focus_generic_self_management
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_stronnictwo_narodowe
+	 		 				x = 5
+			 				y = 1
+	 		 				mutually_exclusive = { focus = POL_stab_in_the_back}
+			 				prerequisite = { focus = POL_stronnictwo_narodowe }
+			 				cost = 6
+   					}
 
-	#Focus for Revolutionary Refugees 
-		focus = { 
-			 id = POL_revolutionary_refugees 
-			 icon = GFX_focus_yug_pan_slavic_congress 
-		 	 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_thorn_in_the_side
-			 x = -2 
-			 y = 1 
-			 mutually_exclusive = { } 
-			 prerequisite = { focus = POL_thorn_in_the_side} 
-			 cost = 6  
- 			}
+	#Focus for Rebuild Riga
+		focus = {
+			 				id = POL_rebuild_riga
+			 				icon = GFX_goal_generic_position_armies
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_thorn_in_the_side
+			 				x = 0
+			 				y = 1
+			 				mutually_exclusive = { }
+			 				prerequisite = { focus = POL_thorn_in_the_side}
+			 				cost = 6
+   					}
 
-	#Focus for Revitalize The State 
-		focus = { 
-			 id = POL_revitalize_the_state 
-			 icon = GFX_goal_generic_construct_mil_factory 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_thorn_in_the_side
-			 x = 2 
-			 y = 1 
-			 mutually_exclusive = { } 
-			 prerequisite = { focus = POL_thorn_in_the_side} 
-			 cost = 6  
-   			}
+	#Focus for Revolutionary Refugees
+		focus = {
+			 				id = POL_revolutionary_refugees
+			 				icon = GFX_focus_yug_pan_slavic_congress
+		 					ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_thorn_in_the_side
+			 				x = -2
+			 				y = 1
+			 				mutually_exclusive = { }
+			 				prerequisite = { focus = POL_thorn_in_the_side}
+			 				cost = 6
+ 						}
 
-	#Focus for Rose of The Empire 
-		focus = { 
-			 id = POL_rose_of_the_empire 
-			 icon = GFX_focus_rom_royal_dictatorship 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_thorn_in_the_side
-			 x = 0 
-			 y = 2 
-			 mutually_exclusive = { } 
-			 prerequisite = { focus = POL_revitalize_the_state} 
- 			 prerequisite = { focus = POL_revolutionary_refugees} 
- 			 prerequisite = { focus = POL_rebuild_riga} 
-			 cost = 6   
- 			}
+	#Focus for Revitalize The State
+		focus = {
+			 				id = POL_revitalize_the_state
+			 				icon = GFX_goal_generic_construct_mil_factory
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_thorn_in_the_side
+			 				x = 2
+			 				y = 1
+			 			 	prerequisite = { focus = POL_thorn_in_the_side}
+			 				cost = 6
+   					}
 
-	#Fixing Our Mistakes 
-		focus = { 
-			 id = POL_fixing_our_mistakes  
-			 icon = GFX_focus_secret_rearmament 
-			 ai_will_do = { factor = 0 } 
- 			 x = 35 
- 			 y = 0 
- 			 mutually_exclusive = { } 
- 			 prerequisite = { } 
- 			 cost = 6  
-  		 	}
+	#Focus for Rose of The Empire
+		focus = {
+							id = POL_rose_of_the_empire
+			 				icon = GFX_focus_rom_royal_dictatorship
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_thorn_in_the_side
+			 				x = 0
+			 				y = 2
+			 				prerequisite = { focus = POL_revitalize_the_state}
+ 			 				prerequisite = { focus = POL_revolutionary_refugees}
+ 			 				prerequisite = { focus = POL_rebuild_riga}
+			 				cost = 6
+ 						}
 
-	#Focus for The New Calvary 
-		focus = { 
-			 id = POL_the_new_calvary 
-			 icon = GFX_goal_generic_army_motorized 
-			 ai_will_do = { factor = 0 }
-			 relative_position_id = POL_fixing_our_mistakes  
-			 x = -2 
-			 y = 1 
-			 mutually_exclusive = { } 
-			 prerequisite = { focus = POL_fixing_our_mistakes } 
-			 cost = 6  
-   			}
+	#Fixing Our Mistakes
+		focus = {
+			 				id = POL_fixing_our_mistakes
+			 				icon = GFX_focus_secret_rearmament
+			 				ai_will_do = { factor = 0 }
+ 			 				x = 35
+ 			 				y = 0
+ 			 				cost = 6
+  		 			}
 
-	#Focus for Crush The Enemy 
-		focus = { 
-			 id = POL_crush_the_enemy 
-			 icon = GFX_goal_continuous_armor_production 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_the_new_calvary
-			 x = -2 
-			 y = 1 
-			 mutually_exclusive = { focus = POL_steel_and_rubber} 
-			 prerequisite = { focus = POL_the_new_calvary} 
-			 cost = 6  
-   			}
-	#Focus for Striking Lightning 
-		focus = { 
-			 id = POL_striking_lightning 
-			 icon = GFX_goal_generic_army_tanks 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_the_new_calvary
-			 x = -2 
-			 y = 3 
-			 mutually_exclusive = { } 
-			 prerequisite = { focus = POL_crush_the_enemy} 
-			 cost = 6  
-   			}
+	#Focus for The New Calvary
+		focus = {
+			 				id = POL_the_new_calvary
+			 				icon = GFX_goal_generic_army_motorized
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_fixing_our_mistakes
+			 				x = -2
+			 				y = 1
+			 				mutually_exclusive = { POL_a_more_loyal_army }
+			 				prerequisite = { focus = POL_fixing_our_mistakes }
+			 				cost = 6
+   					}
 
-	#Focus for The Best Defense 
-		focus = { 
-			 id = POL_the_best_defense 
-			 icon = GFX_focus_chi_whampoa_military_academy 
-			 ai_will_do = { factor = 0 }
-			 relative_position_id = POL_the_new_calvary
-			 x = -2 
-			 y = 5 
-			 mutually_exclusive = { } 
-			 prerequisite = { focus = POL_striking_lightning} 
-			 cost = 6   
- 			}
+	#Focus for Crush The Enemy
+		focus = {
+			 				id = POL_crush_the_enemy
+			 				icon = GFX_goal_continuous_armor_production
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_the_new_calvary
+			 				x = -2
+			 				y = 1
+			 				mutually_exclusive = { focus = POL_steel_and_rubber}
+			 				prerequisite = { focus = POL_the_new_calvary}
+			 				cost = 6
+   					}
 
-	#Focus for  Ironing Out The Kinks 
-		focus = { 
-			 id = POL_ironing_out_the_kinks 
-			 icon = GFX_focus_generic_steel 
-			 ai_will_do = { factor = 0 }
-			 relative_position_id = POL_the_new_calvary
-			 x = 0
-			 y = 3 
-			 mutually_exclusive = { } 
-			 prerequisite = { focus = POL_steel_and_rubber  focus = POL_crush_the_enemy} 
-			 cost = 6  
-   			}
+	#Focus for Striking Lightning
+		focus = {
+			 				id = POL_striking_lightning
+			 				icon = GFX_goal_generic_army_tanks
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_the_new_calvary
+			 				x = -2
+			 				y = 3
+			 				prerequisite = { focus = POL_crush_the_enemy}
+			 				cost = 6
+   					}
 
-	#Focus for Road Repair Projects 
-		focus = { 
-			 id = POL_road_repair_projects 
-			 icon = GFX_goal_generic_fortify_city 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_the_new_calvary
-			 x = 0 
-			 y = 4 
-			 mutually_exclusive = { } 
-			 prerequisite = { focus = POL_ironing_out_the_kinks} 
-			 cost = 6  
-   			}
+	#Focus for The Best Defense
+		focus = {
+			 				id = POL_the_best_defense
+			 				icon = GFX_focus_chi_whampoa_military_academy
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_the_new_calvary
+			 				x = -2
+			 				y = 5
+			 				prerequisite = { focus = POL_striking_lightning}
+			 				cost = 6
+ 						}
 
-	#Focus for Steel And Rubber 
-		focus = { 
-			 id = POL_steel_and_rubber 
-			 icon = GFX_focus_generic_rubber 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_the_new_calvary
-			 x = 2
-			 y = 1 
-			 mutually_exclusive = { focus = POL_crush_the_enemy} 
-			 prerequisite = { focus = POL_the_new_calvary} 
-			 cost = 6  
-   			}
-	#Focus for Rolling Thunder 
-		focus = { 
-			 id = POL_rolling_thunder 
-			 icon = GFX_goal_generic_army_motorized 
-			 ai_will_do = { factor = 0 } 
-			 relative_position_id = POL_the_new_calvary
-			 x = 2 
-			 y = 3 
-			 mutually_exclusive = { } 
-			 prerequisite = { focus = POL_steel_and_rubber} 
-			 cost = 6  
-   			}
-	#Focus for The Men In The Machines 
-		focus = { 
-			 id = POL_the_men_in_the_machines 
-			 icon = GFX_goal_generic_allies_build_infantry 
-			 ai_will_do = { factor = 0 }
-			 relative_position_id = POL_the_new_calvary 
-			 x = 2
-			 y = 5 
-			 mutually_exclusive = { } 
-			 prerequisite = { focus = POL_rolling_thunder} 
-			 cost = 6  
-   			}
+	#Focus for  Ironing Out The Kinks
+		focus = {
+			 				id = POL_ironing_out_the_kinks
+			 				icon = GFX_focus_generic_steel
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_the_new_calvary
+			 				x = 0
+			 				y = 3
+			 		 		prerequisite = { focus = POL_steel_and_rubber  focus = POL_crush_the_enemy}
+			 				cost = 6
+   					}
 
-	#Focus for A More Loyal Army 
-		focus = { 
-			 id = POL_a_more_loyal_army 
-			 icon = GFX_focus_generic_strike_at_democracy1 
-			 ai_will_do = { factor = 0 }
-			 relative_position_id = POL_fixing_our_mistakes  
-			 x = 2 
-			 y = 1 
-			 mutually_exclusive = { } 
-			 prerequisite = { focus = POL_fixing_our_mistakes } 
-			 cost = 6  
-   			}
-#End of focuses 
+	#Focus for Road Repair Projects
+		focus = {
+			 				id = POL_road_repair_projects
+			 				icon = GFX_goal_generic_fortify_city
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_the_new_calvary
+			 				x = 0
+			 				y = 4
+					 		prerequisite = { focus = POL_ironing_out_the_kinks}
+			 				cost = 6
+   					}
+
+	#Focus for Steel And Rubber
+		focus = {
+			 				id = POL_steel_and_rubber
+			 				icon = GFX_focus_generic_rubber
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_the_new_calvary
+			 				x = 2
+			 				y = 1
+			 				mutually_exclusive = { focus = POL_crush_the_enemy}
+			 				prerequisite = { focus = POL_the_new_calvary}
+			 				cost = 6
+   					}
+
+	#Focus for Rolling Thunder
+		focus = {
+			 				id = POL_rolling_thunder
+			 				icon = GFX_goal_generic_army_motorized
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_the_new_calvary
+			 				x = 2
+			 				y = 3
+			 				prerequisite = { focus = POL_steel_and_rubber}
+			 				cost = 6
+   					}
+
+	#Focus for The Men In The Machines
+		focus = {
+			 				id = POL_the_men_in_the_machines
+			 				icon = GFX_goal_generic_allies_build_infantry
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_the_new_calvary
+			 				x = 2
+			 				y = 5
+			 				prerequisite = { focus = POL_rolling_thunder}
+			 				cost = 6
+   					}
+
+	#Focus for A More Loyal Army
+		focus = {
+			 				id = POL_a_more_loyal_army
+			 				icon = GFX_focus_generic_strike_at_democracy1
+			 				ai_will_do = { factor = 0 }
+			 				relative_position_id = POL_fixing_our_mistakes
+			 				x = 2
+			 				y = 1
+			 				prerequisite = { focus = POL_fixing_our_mistakes }
+			 				cost = 6
+   					}
+
+#End of focuses
 }
-
