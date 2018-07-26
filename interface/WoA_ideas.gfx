@@ -34,26 +34,26 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_idea_RHO_generic_agrarian_reform"
-		texturefile = "gfx/interface/ideas/ideas/RHO_generic_agrarian_reform.tga"
+		texturefile = "gfx/interface/ideas/ideas/RHO_generic_agrarian_reform.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_idea_RHO_ast_abandon_the_westminster_system"
-		texturefile = "gfx/interface/ideas/ideas/RHO_ast_abandon_the_westminster_system.tga"
+		texturefile = "gfx/interface/ideas/ideas/RHO_ast_abandon_the_westminster_system.dds"
 	}	
 
 	SpriteType = {
 		name = "GFX_idea_RHO_saf_history_of_segregation"
-		texturefile = "gfx/interface/ideas/ideas/RHO_saf_history_of_segregation.tga"
+		texturefile = "gfx/interface/ideas/ideas/RHO_saf_history_of_segregation.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_idea_RHO_generic_air_research"
-		texturefile = "gfx/interface/ideas/ideas/RHO_generic_air_research.tga"
+		texturefile = "gfx/interface/ideas/ideas/RHO_generic_air_research.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_idea_RHO_chi_incompetent_officers"
-		texturefile = "gfx/interface/ideas/ideas/RHO_chi_incompetent_officers.tga"
+		texturefile = "gfx/interface/ideas/ideas/RHO_chi_incompetent_officers.dds"
 	}
 }
