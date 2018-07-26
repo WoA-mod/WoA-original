@@ -54,6 +54,7 @@ country_event = {
 			value = 45
 		}
 		ai_chance = { factor = 20 }
+	}
 	option = {
 		name = russia.2.c
 		set_variable = {
@@ -61,6 +62,7 @@ country_event = {
 			value = 45
 		}
 		ai_chance = { factor = 10 }
+	}
 	option = {
 		name = russia.2.e
 		country_event = {
