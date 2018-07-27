@@ -114,12 +114,7 @@ focus_tree = {
 						 y = 4
 						 prerequisite = { focus = POL_trade_and_colonial_league }
 						 cost = 6
-						 completion_reward = {
-						 											#country_event = {
-																										#days = 1
-																										#id = poland.10
-																										#}
-																 }
+						 completion_reward = {}
 						}
 
 	#Focus for Interest In Madagascar
@@ -637,7 +632,6 @@ focus_tree = {
 			 				relative_position_id = POL_fixing_our_mistakes
 			 				x = -2
 			 				y = 1
-			 				mutually_exclusive = { POL_a_more_loyal_army }
 			 				prerequisite = { focus = POL_fixing_our_mistakes }
 			 				cost = 6
    					}
@@ -749,6 +743,7 @@ focus_tree = {
 			 				x = 2
 			 				y = 1
 			 				prerequisite = { focus = POL_fixing_our_mistakes }
+							mutually_exclusive = { focus = POL_the_new_calvary }
 			 				cost = 6
    					}
 
