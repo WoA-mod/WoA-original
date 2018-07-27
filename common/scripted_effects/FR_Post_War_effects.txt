@@ -259,7 +259,7 @@ france_capitulates = {
 					is_in_faction = yes
 					is_faction_leader = no
 				}
-				country_event = fra.exile.2
+				#country_event = fra.exile.2
 			}
 		}
 	}

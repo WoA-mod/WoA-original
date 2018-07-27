@@ -14,12 +14,13 @@ state={
 		add_claim_by = IND
 		add_claim_by = HYD
 		add_core_of = NEP
+
 	}
 
 	provinces={
-		1656 4459 10878 
+		1656 7475 10361 10878 
 	}
-	manpower=242300
+	manpower=2090000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

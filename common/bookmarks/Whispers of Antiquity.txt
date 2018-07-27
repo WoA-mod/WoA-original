@@ -6,31 +6,25 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "ITA"
 		default = yes
-
-		"USA"={
-			history = "USA_FUHRERREICH_DESC"
-			ideology = liberal
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-
-
-		"ENG"={
-			history = "ENG_FUHRERREICH_DESC"
+		
+		"ITA"={
+			history = "ITA_FUHRERREICH_DESC"
 			ideology = antiquarian_nationalist
 			ideas = {
-				ENG_a_kingdom_without_a_king
-				ENG_military_government
-				ENG_legacy_of_the_guerra_mondiale
-				ENG_british_constitutionalism
 			}
 			focuses = {
-
 			}
 		}
-
+		
+		"DAN"={
+			history = "DAN_FUHRERREICH_DESC"
+			ideology = council_communist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
 		"GER"={
 			history = "GER_CAESARREICH_DESC"
 			ideology = authoritarian_democrat
@@ -51,24 +45,6 @@ bookmarks = {
 			focuses = {
 			}
 		}
-
-		"ITA"={
-			history = "ITA_FUHRERREICH_DESC"
-			ideology = antiquarian_nationalist
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-
-		"DAN"={
-			history = "DAN_FUHRERREICH_DESC"
-			ideology = council_communist
-			ideas = {
-			}
-			focuses = {
-			}
-		}
 		
 		"RUS"={
 			history = "RUS_WHISPERS_DESC"
@@ -77,6 +53,31 @@ bookmarks = {
 			}
 			focuses = {
 
+			}
+		}
+		
+		"ENG"={
+			history = "ENG_FUHRERREICH_DESC"
+			ideology = antiquarian_nationalist
+			ideas = {
+				ENG_a_kingdom_without_a_king
+				ENG_military_government
+				ENG_legacy_of_the_guerra_mondiale
+				ENG_british_constitutionalism
+			}
+			focuses = {
+
+			}
+		}
+
+		
+	
+		"USA"={
+			history = "USA_FUHRERREICH_DESC"
+			ideology = liberal
+			ideas = {
+			}
+			focuses = {
 			}
 		}
 		

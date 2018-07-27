@@ -3,9 +3,9 @@ state={
 	id=426
 	name="STATE_426"
 	resources={
-		steel=31.0
-		chromium=26.0
-		aluminium=1.0
+		steel=31.000
+		chromium=26.000
+		aluminium=1.000
 	}
 
 	history={
@@ -19,10 +19,11 @@ state={
 		add_claim_by = RAJ
 		add_claim_by = INC
 		add_claim_by = IND
+
 	}
 
 	provinces={
-		1579 1622 7090 9946 10060 10088 10116 10428 10469 11924 11978 12462 12490 
+		1579 1622 7090 9946 10116 10469 11924 11978 12462 12490 
 	}
 	manpower=14520100
 	buildings_max_level_factor=1.000

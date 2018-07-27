@@ -13,10 +13,11 @@ state={
 		add_claim_by = RAJ
 		add_claim_by = INC
 		add_claim_by = IND
+
 	}
 
 	provinces={
-		4557 4883 7619 10030 12781 12854 
+		4557 4883 4950 7619 10030 12781 12799 12854 
 	}
 	manpower=4000310
 	buildings_max_level_factor=1.000

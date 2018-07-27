@@ -21,10 +21,11 @@ state={
 		add_claim_by = INC
 		add_claim_by = IND
 		add_claim_by = HYD
+
 	}
 
 	provinces={
-		1228 1344 1430 4321 4365 4420 7297 7310 7340 7436 10152 10259 10278 10296 10756 12180 12779 
+		1344 1430 4321 4365 4420 7310 7436 10152 10259 10278 10296 10756 12180 12779 
 	}
 	manpower=15791700
 	buildings_max_level_factor=1.000
