@@ -1,0 +1,260 @@
+focus_tree = {
+							id = WoA_lit
+
+							country = {
+													factor= 0
+			    								modifier = {
+					 								add = 10
+					 								tag = LIT
+													 					 }
+	     										}
+
+	     continuous_focus_position = { x = -800 y = 120 }
+
+       #Focus for Permanent Occupation
+        focus = {
+                  id = LIT_permanent_occupation
+                  icon = GFX_goal_generic_political_pressure
+									ai_will_do = { factor = 50 }
+									x = 6
+                  y = 0
+                  cost = 6
+                  completion_reward = { add_political_power = 50 }
+                }
+
+				#Focus for Enforced Germanization
+					focus = {
+								   id = LIT_enforced_germanization
+								   icon = GFX_goal_government_icon
+								   relative_position_id = LIT_permanent_occupation
+								   x = 0
+								   y = 1
+									 prerequisite = { focus = LIT_permanent_occupation }
+								   cost = 6
+								   ai_will_do = { factor = 100 }
+								   completion_reward = { add_to_tech_sharing_group = mittleuropa }
+								  }
+
+				#Focus for Lingua Germania
+					focus = {
+				            id = LIT_lingua_germania
+				            icon = GFX_goal_generic_scientific_exchange
+				            relative_position_id = LIT_permanent_occupation
+				            x = -1
+				            y = 2
+										prerequisite = { focus = LIT_enforced_germanization }
+				            cost = 6
+				            ai_will_do = { factor = 100 }
+				            completion_reward = { add_manpower = 100000  }
+				           }
+
+				#Focus for Fealty To The Kaiser
+					focus = {
+					 				  id = LIT_fealty_to_the_kaiser
+					 				  icon = GFX_focus_generic_home_defense
+					 				  relative_position_id = LIT_permanent_occupation
+					 				  x = 1
+					 				  y = 2
+										prerequisite = { focus = LIT_enforced_germanization }
+					 				  cost = 6
+					 				  ai_will_do = { factor = 100 }
+					 				  completion_reward = { add_equipment_to_stockpile = {
+    																																		type = infantry_equipment
+    																																		amount = 100
+    																																		producer = GER
+																																				}
+																				}
+					 				 }
+
+				#Focus for The Singular State
+					focus = {
+					 					id = LIT_the_singular_state
+					 					icon = GFX_goal_generic_construct_mil_factory
+					 					relative_position_id = LIT_permanent_occupation
+					 					x = 0
+					 					y = 3
+										prerequisite = { focus = LIT_lingua_germania
+																		 focus = LIT_fealty_to_the_kaiser
+										 							 }
+					 					cost = 6
+					 					ai_will_do = { factor = 100 }
+					 					completion_reward = {random_owned_controlled_state = {
+																																					limit = {	free_building_slots = {
+																																																						building = industrial_complex
+																																																						size > 0
+																																																						include_locked = yes
+																																																					}
+																																									}
+																																					add_extra_state_shared_building_slots = 3
+																																					add_building_construction = {
+																																																				type = industrial_complex
+																																																				level = 3
+																																																				instant_build = yes
+																																																			}
+																																					set_state_flag = poland_farm
+																																				 }
+																				 	}
+									}
+
+				#Focus for Heil dir im Siegerkranz
+					focus = {
+										id = LIT_heil_dir_im_siegerkranz
+										icon = GFX_focus_generic_home_defense
+										relative_position_id = LIT_permanent_occupation
+										x = 0
+										y = 4
+										prerequisite = { focus = LIT_the_singular_state }
+										cost = 6
+										ai_will_do = { factor = 100 }
+										completion_reward = { division_template = {
+    																														name = "Test"
+    																														regiments = {
+        																																			infantry = { x = 0 y = 0 }
+        																																			infantry = { x = 0 y = 1 }
+        																																			infantry = { x = 0 y = 2 }
+        																																			infantry = { x = 0 y = 3 }
+    																																				}
+    																														support = {
+        																												military_police = { x = 0 y = 0 }
+    																																			}
+																															}
+																				}
+									}
+
+				#Focus for A Commonwealth Solution
+					focus = {
+										id = LIT_a_commonwealth_solution
+										icon = GFX_goal_generic_national_unity
+										ai_will_do = { factor = 50 }
+										x = 13
+										y = 0
+										cost = 6
+										mutually_exclusive = { focus = LIT_permanent_occupation }
+										completion_reward = { add_political_power = 50 }
+									}
+
+				#Focus for Multi-ethnic Councils
+					focus = {
+										id = LIT_multi_ethnic_councils
+										icon = GFX_goal_government_icon
+										relative_position_id = LIT_a_commonwealth_solution
+										x = 0
+										y = 1
+										prerequisite = { focus = LIT_a_commonwealth_solution }
+										cost = 6
+										ai_will_do = { factor = 100 }
+										completion_reward = { add_stability = 0.5 }
+									}
+
+				#Focus for The Duchy of Lithuania
+					focus = {
+										id = LIT_the_duchy_of_lithuania
+										icon = GFX_goal_government_icon
+										relative_position_id = LIT_a_commonwealth_solution
+										x = -2
+										y = 2
+										prerequisite = { focus = LIT_multi_ethnic_councils }
+										cost = 6
+										ai_will_do = { factor = 100 }
+										completion_reward = {	189 = {
+																								if = {
+																											limit = { is_controlled_by = ROOT }
+																											add_building_construction = {	type = infrastructure
+																																										level = 10
+																																										instant_build = yes
+																																									}
+																										}
+																							}
+
+																							11 = {
+																																					if = {
+																																								limit = { is_controlled_by = ROOT }
+																																								add_building_construction = {	type = infrastructure
+																																																							level = 10
+																																																							instant_build = yes
+																																																						}
+																																							}
+																																				}
+																				}
+									}
+
+				#Focus for The Duchy of Curonia
+										focus = {
+															id = LIT_the_duchy_of_Curonia
+															icon = GFX_goal_government_icon
+															relative_position_id = LIT_a_commonwealth_solution
+															x = 2
+															y = 2
+															prerequisite = { focus = LIT_multi_ethnic_councils }
+															cost = 6
+															ai_will_do = { factor = 100 }
+															completion_reward = {	189 = {
+																													if = {
+																																limit = { is_controlled_by = ROOT }
+																																add_building_construction = {	type = infrastructure
+																																															level = 10
+																																															instant_build = yes
+																																														}
+																															}
+																												}
+
+																												190 = {
+																																										if = {
+																																													limit = { is_controlled_by = ROOT }
+																																													add_building_construction = {	type = infrastructure
+																																																												level = 10
+																																																												instant_build = yes
+																																																											}
+																																												}
+																																									}
+																									}
+														}
+
+				#Focus for Preserving Baltic Cultures
+					focus = {
+					         	id = LIT_preserving_baltic_cultures
+										icon = GFX_focus_generic_socialist_science
+										ai_will_do = { factor = 100 }
+										relative_position_id = LIT_a_commonwealth_solution
+										x = 0
+										y = 2
+										prerequisite = { focus = LIT_multi_ethnic_councils }
+										cost = 6
+										completion_reward = { add_research_slot = 1 }
+									}
+
+				#Focus for Kingdom Of The Future
+					focus = {
+										id = LIT_kingdom_of_the_future
+										icon = GFX_focus_generic_diplomatic_treaty
+										relative_position_id = LIT_a_commonwealth_solution
+										x = 0
+										y = 3
+										prerequisite = { focus = LIT_the_duchy_of_Curonia
+																		 focus = LIT_preserving_baltic_cultures
+																		 focus = LIT_the_duchy_of_lithuania
+																	 }
+										cost = 6
+										ai_will_do = { factor = 100 }
+										completion_reward = {add_tech_bonus = {
+    																												bonus = 0.5
+    																												uses = 1
+    																												category = radar_tech
+																													}
+																				}
+									}
+
+				#Focus for Formalities of Nations
+					focus = {
+										id = LIT_formalities_of_nations
+										icon = GFX_goal_generic_territory_or_war
+										relative_position_id = LIT_heil_dir_im_siegerkranz
+										x = 3
+										y = 1
+										prerequisite = { focus = LIT_kingdom_of_the_future
+																		 focus = LIT_heil_dir_im_siegerkranz
+										 							 }
+										cost = 6
+										ai_will_do = { factor = 100 }
+										completion_reward = {}
+									}
