@@ -51,7 +51,7 @@ set_politics = {
 			popularity = 1
 		}
 	}
-	
+
 	ruling_party = paternal_autocrat
 	last_election = "1926.5.8"
 	election_frequency = 120
@@ -129,9 +129,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Erich Ludendorff"
+	name = "Fedor von Bock"
 	desc = "POLITICS_KARL_SARE_DESC"
-	picture = "Portrait_Erich_Ludendorff.tga"
+	picture = "Portrait_Fedor_von_Bock.png"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
