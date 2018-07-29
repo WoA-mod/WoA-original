@@ -1,9 +1,9 @@
 state={
-	id=644
-	name="STATE_644"
+	id=954
+	name="STATE_954"
 
 	history={
-		owner = RUS
+		owner = KCH
 		buildings = {
 			infrastructure = 1
 			13204 ={
@@ -16,9 +16,9 @@ state={
 	}
 
 	provinces={
-		1722 1745 1819 2853 2877 3184 4006 4229 4455 4878 6211 12549 12592 12634 13061 13062
+		4744 5264 13063 13204
 	}
-	manpower=68364
+	manpower=6836
 	buildings_max_level_factor=1
 	state_category="wasteland"
 }
