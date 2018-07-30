@@ -1,7 +1,6 @@
 ﻿l_english:
 
 ### Focus ###
-
 LIT_permanent_occupation:0 "Permanent Occupation"
 LIT_permanent_occupation_desc:0 ""
 LIT_enforced_germanization:0 "Enforced Germanization"
@@ -10,12 +9,10 @@ LIT_lingua_germania:0 "Lingua Germania"
 LIT_lingua_germania_desc:0 ""
 LIT_fealty_to_the_kaiser:0 "Fealty to the Kaiser"
 LIT_fealty_to_the_kaiser_desc:0 ""
-LIT_the_singular_state:0 ""
+LIT_the_singular_state:0 "The Singular State"
 LIT_the_singular_state_desc:0 ""
 LIT_heil_dir_im_siegerkranz:0 "Heil Dir Im Siegerkranz"
 LIT_heil_dir_im_siegerkranz_desc:0 ""
-LIT_the_singular_state:0 "The Singular State"
-LIT_the_singular_state_desc:0 ""
 LIT_a_commonwealth_solution:0 "A Commonwealth Solution"
 LIT_a_commonwealth_solution_desc:0 ""
 LIT_multi_ethnic_councils:0 "Multi-Ethnic Councils"
@@ -25,8 +22,14 @@ LIT_the_duchy_of_lithuania_desc:0 ""
 LIT_the_duchy_of_Curonia:0 "The Duchy of Curonia"
 LIT_the_duchy_of_Curonia_desc:0 ""
 LIT_preserving_baltic_cultures:0 "Preserving Baltic Cultures"
-LIT_preserving_baltic_cultures_desc:0
+LIT_preserving_baltic_cultures_desc:0 ""
 LIT_kingdom_of_the_future:0 "Kingdom of the Future"
 LIT_kingdom_of_the_future_desc:0 ""
 LIT_formalities_of_nations:0 "Formalities of Nations"
 LIT_formalities_of_nations_desc:0 ""
+LIT_all_hail_the-general:0 "All Hail The General"
+LIT_all_hail_the-general_desc:0
+LIT_appease_saxony:0 "Appease Saxony"
+LIT_appease_saxony_desc:0 ""
+LIT_house_of_hohenzollern:0 "House_of Hohenzollern"
+LIT_house_of_hohenzollern_desc:0 ""

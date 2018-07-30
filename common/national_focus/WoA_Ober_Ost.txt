@@ -258,3 +258,66 @@ focus_tree = {
 										ai_will_do = { factor = 100 }
 										completion_reward = {}
 									}
+
+				#Focus for All Hail The General
+					focus = {
+										id = LIT_all_hail_the-general
+										icon = GFX_goal_generic_secret_weapon
+										relative_position_id = LIT_formalities_of_nations
+										x = 0
+										y = 1
+										prerequisite = { focus = LIT_formalities_of_nations
+																	 }
+										cost = 6
+										mutually_exclusive = { focus = LIT_appease_saxony
+																					 focus = LIT_house_of_hohenzollern
+																				 }
+										ai_will_do = { factor = 100 }
+										completion_reward = {set_politics = {
+																													ruling_party = paternal_autocrat
+																													elections_allowed = no
+																	 											}
+																				}
+									}
+
+				#Focus for Appease Saxony
+					focus = {
+										id = LIT_appease_saxony
+										icon = GFX_goal_generic_national_unity
+										relative_position_id = LIT_formalities_of_nations
+										x = -2
+										y = 1
+										prerequisite = { focus = LIT_formalities_of_nations
+																	 }
+										cost = 6
+										mutually_exclusive = { focus = LIT_all_hail_the-general
+																				 	 focus = LIT_house_of_hohenzollern
+																				 }
+										ai_will_do = { factor = 100 }
+										completion_reward = {set_politics = {
+																													ruling_party = 	national_populist
+																													elections_allowed = no
+																	 											}
+																				}
+									}
+
+				#Focus for House of Hohenzollern
+					focus = {
+										id = LIT_house_of_hohenzollern
+										icon = GFX_focus_generic_strike_at_democracy1
+										relative_position_id = LIT_formalities_of_nations
+										x = 2
+										y = 1
+										prerequisite = { focus = LIT_formalities_of_nations
+																	 }
+										cost = 6
+										mutually_exclusive = { focus = LIT_all_hail_the-general
+																					 focus = LIT_appease_saxony
+																			 	 }
+										ai_will_do = { factor = 100 }
+										completion_reward = {set_politics = {
+																													ruling_party = 	authoritarian_democrat
+																													elections_allowed = no
+																												}
+																				}
+										}
