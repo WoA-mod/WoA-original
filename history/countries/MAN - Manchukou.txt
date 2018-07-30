@@ -27,6 +27,8 @@ set_technology = {
 	
 }
 
+puppet = FER
+
 add_ideas = {
 	GEN_Szymon_Kowalski_hog_ade
 	GEN_Jozef_Korczak_eco_ade

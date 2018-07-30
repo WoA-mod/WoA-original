@@ -95,6 +95,12 @@ puppet = WIF
 
 puppet = PHI
 
+puppet = KCH
+
+puppet = CAN
+
+puppet = QUE
+
 create_country_leader = {
 	name = "Quentin Roosevelt"
 	desc = "POLITICS_FRANKLIN_ROOSEVELT_DESC"
