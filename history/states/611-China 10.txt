@@ -7,9 +7,10 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = SHX
+		owner = MAN
 		add_core_of = SHX
 		add_core_of = KMT
+		add_core_of = MAN
 		add_core_of = MAN
 		buildings = {
 			infrastructure = 3

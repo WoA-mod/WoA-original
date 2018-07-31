@@ -141,8 +141,8 @@ BOS = {
 	color_ui = rgb { 190 190 120 }
 }
 SWI = {
-	color = rgb { 150 15 15 }
-	color_ui = rgb { 193 81 81 }
+	color = rgb { 200 200 220 }
+	color_ui = rgb { 200 200 220 }
 }
 TUR = {
 	color = rgb { 130 0 20 }
@@ -407,8 +407,8 @@ IND = {
 }
 
 CRO = {
-	color = rgb { 190  0  190 } #BLURPLE, may change
-	color_ui = rgb { 190 0 190 }
+	color = rgb { 100 45 180 } #BLURPLE, may change
+	color_ui = rgb { 100 45 180 }
 }
 
 PRC = {
