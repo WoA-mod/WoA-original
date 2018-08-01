@@ -11,6 +11,8 @@ focus_tree = {
 		factor = 1
 	}
 	
+	continuous_focus_position = { x = -400 y = 800 }
+	
 	default = yes
 	reset_on_civilwar = no
 
@@ -38,7 +40,7 @@ focus_tree = {
 	focus = {
 		id = generic_study_unique_doctrines
 		icon = GFX_focus_RAJ_indian_gentlemen_offcers
-		x = -2
+		x = -5
 		y = 1
 		cost = 10
 		prerequisite = { focus = generic_examine_the_army }
@@ -57,9 +59,253 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = generic_army_motorization_effort
+		icon = GFX_goal_generic_army_motorized
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_study_unique_doctrines}
+		relative_position_id = generic_study_unique_doctrines
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.75
+				technology = motorised_infantry
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_army_mechanization_effort
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_army_motorization_effort }
+		relative_position_id = generic_army_motorization_effort
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 0.5
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_army_armor_effort
+		icon = GFX_goal_generic_army_tanks
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_army_mechanization_effort }
+		relative_position_id = generic_army_mechanization_effort
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 2
+				category = armor
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_army_mobilization	
+		icon = GFX_goal_conscription
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_study_unique_doctrines}
+		relative_position_id = generic_study_unique_doctrines
+		completion_reward = {
+			add_ideas = generic_idea_army_mobilization
+		}
+	}
+	
+	focus = {
+		id = generic_army_mandatory_conscription
+		icon = GFX_goal_ideology_paternal_autocrat
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_army_mobilization }
+		relative_position_id = generic_army_mobilization
+		completion_reward = {
+			swap_ideas = { add_idea = generic_idea_army_reforms remove_idea = generic_idea_army_mobilization }
+		}
+	}
+	
+	focus = {
+		id = generic_army_produce_infantry_weapons
+		icon = GFX_goal_generic_small_arms
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_army_mandatory_conscription }
+		relative_position_id = generic_army_mandatory_conscription
+		completion_reward = {
+			add_ideas = generic_idea_infantry_weapon_production
+		}
+	}
+	
+	focus = {
+		id = generic_army_exercises
+		icon = GFX_goal_conscription
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_study_unique_doctrines }
+		relative_position_id = generic_study_unique_doctrines
+		completion_reward = {
+			army_experience = 50
+		}
+	}
+	
+	focus = {
+		id = generic_army_new_textbooks
+		icon = GFX_goal_generic_army_doctrines
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_army_exercises }
+		relative_position_id = generic_army_exercises
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				technology = mass_assault
+				technology = mobile_warfare
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_army_continued_doctrine_effort
+		icon = GFX_goal_generic_army_doctrines
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_army_new_textbooks }
+		relative_position_id = generic_army_new_textbooks
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 2
+				technology = mass_assault
+				technology = mobile_warfare
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_army_a_new_modern_army
+		icon = GFX_goal_rhineland
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_army_produce_infantry_weapons }
+		prerequisite = { focus = generic_army_armor_effort }
+		prerequisite = { focus = generic_army_continued_doctrine_effort }
+		relative_position_id = generic_army_continued_doctrine_effort
+		completion_reward = {
+			army_experience = 25
+			add_ideas = generic_idea_a_modern_army
+		}
+	}
+	
+	focus = {
+		id = generic_expand_the_arms_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 0
+		y = 2
+		cost = 10
+		prerequisite = { focus = generic_study_the_guerra_mondiale focus = generic_study_unique_doctrines }
+		relative_position_id = generic_examine_the_army
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_expand_the_arms_industry2
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_expand_the_arms_industry }
+		relative_position_id = generic_expand_the_arms_industry
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_new_production_methods
+		icon = GFX_goal_generic_construct_mil_factory
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_expand_the_arms_industry }
+		relative_position_id = generic_expand_the_arms_industry
+		completion_reward = {
+			add_ideas = generic_idea_efficient_production
+		}
+	}
+	
+	focus = {
+		id = generic_expand_the_arms_industry3
+		icon = GFX_goal_generic_construct_mil_factory
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_expand_the_arms_industry2 }
+		prerequisite = { focus = generic_new_production_methods }
+		relative_position_id = generic_expand_the_arms_industry2
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_room_for_improvement
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_expand_the_arms_industry3 }
+		relative_position_id = generic_expand_the_arms_industry3
+		completion_reward = {
+			add_ideas = generic_idea_military_factory_plans 
+		}
+	}
+	
+	focus = {
 		id = generic_study_the_guerra_mondiale
 		icon = GFX_focus_RAJ_lions_of_the_great_war
-		x = 2
+		x = 5
 		y = 1
 		cost = 10
 		prerequisite = { focus = generic_examine_the_army }
@@ -77,23 +323,158 @@ focus_tree = {
 		}
 	}
 	
+	
 	focus = {
-		id = generic_expand_the_arms_industry
-		icon = GFX_goal_generic_construct_mil_factory
+		id = generic_army_grand_battleplan
+		icon = GFX_goal_planning_bonus
 		x = 0
-		y = 2
+		y = 1
 		cost = 10
-		prerequisite = { focus = generic_study_the_guerra_mondiale focus = generic_study_unique_doctrines }
-		relative_position_id = generic_examine_the_army
-		mutually_exclusive = { focus = generic_study_unique_doctrines }
+		prerequisite = { focus = generic_study_the_guerra_mondiale }
+		relative_position_id = generic_study_the_guerra_mondiale
 		completion_reward = {
-			random_owned_controlled_state = {
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
+			add_ideas = generic_idea_planning_bonus
+		}
+	}
+	
+	focus = {
+		id = generic_army_experienced_generals
+		icon = GFX_focus_generic_little_entente
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_army_grand_battleplan }
+		relative_position_id = generic_army_grand_battleplan
+		completion_reward = {
+			swap_ideas = { add_idea = generic_idea_high_command remove_idea = generic_idea_planning_bonus }
+		}
+	}
+	
+	focus = {
+		id = generic_army_supply_effort
+		icon = GFX_goal_generic_consumer_goods
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_army_experienced_generals }
+		relative_position_id = generic_army_experienced_generals
+		completion_reward = {
+			every_army_leader = {
+				add_logistics = 1
 			}
+		swap_ideas = { add_idea = generic_idea_high_command2 remove_idea = generic_idea_high_command }
+		}
+	}
+	
+	focus = {
+		id = generic_army_modern_artillery
+		icon = GFX_goal_generic_army_artillery2
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_study_the_guerra_mondiale }
+		relative_position_id = generic_study_the_guerra_mondiale
+		completion_reward = {
+			add_tech_bonus = {
+				#name = 
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_army_modern_weapons
+		icon = GFX_goal_generic_small_arms
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_army_modern_artillery }
+		relative_position_id = generic_army_modern_artillery
+		completion_reward = {
+			add_tech_bonus = {
+				#name = 
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = artillery
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_army_every_soldier_is_valuable
+		icon = GFX_focus_generic_military_mission
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_army_modern_weapons }
+		relative_position_id = generic_army_modern_weapons
+		completion_reward = {
+			add_ideas = generic_idea_produce_support_equipment
+		}
+	}
+	
+	focus = {
+		id = generic_army_larger_army
+		icon = GFX_goal_conscription
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_study_the_guerra_mondiale }
+		relative_position_id = generic_study_the_guerra_mondiale
+		completion_reward = {
+			add_ideas = generic_idea_larger_army
+		}
+	}
+	
+	focus = {
+		id = generic_army_professional_drills
+		icon = GFX_goal_generic_drill_soldiers
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_army_larger_army }
+		relative_position_id = generic_army_larger_army
+		completion_reward = {
+			add_ideas = generic_idea_professional_drills
+		}
+	}
+	
+	focus = {
+		id = generic_army_study_from_success
+		icon = GFX_goal_generic_army_doctrines
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_army_professional_drills }
+		relative_position_id = generic_army_professional_drills
+		completion_reward = {
+			army_experience = 25
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.75
+				uses = 2
+				technology = trench_warfare
+				technology = superior_firepower
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_army_a_professional_army
+		icon = GFX_goal_rhineland
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_army_study_from_success }
+		prerequisite = { focus = generic_army_supply_effort }
+		prerequisite = { focus = generic_army_every_soldier_is_valuable }
+		relative_position_id = generic_army_study_from_success
+		completion_reward = {
+			add_ideas = generic_idea_a_professional_army
 		}
 	}
 	
@@ -104,9 +485,12 @@ focus_tree = {
 	focus = {
 		id = generic_expand_aviation
 		icon = GFX_goal_generic_build_airforce
-		x = 13
+		x = 18
 		y = 0
 		cost = 10
+		available = {
+			has_country_flag = air_has_actually_done_this_part_of_tree
+		}
 		completion_reward = {
 			air_experience = 25
 			add_tech_bonus = {
@@ -126,6 +510,24 @@ focus_tree = {
 		prerequisite = { focus = generic_expand_aviation }
 		relative_position_id = generic_expand_aviation
 		mutually_exclusive = { focus = generic_prioritize_bombers }
+		completion_reward = {
+			air_experience = 10
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = light_fighter
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_air_cas_innovations
+		icon = GFX_goal_generic_CAS
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_prioritize_fighters }
+		relative_position_id = generic_prioritize_fighters
 		completion_reward = {
 			air_experience = 10
 			add_tech_bonus = {
@@ -177,9 +579,12 @@ focus_tree = {
 	focus = {
 		id = generic_strengthen_the_navy
 		icon = GFX_goal_generic_build_navy
-		x = 23
+		x = 30
 		y = 0
 		cost = 10
+		available = {
+			has_country_flag = air_has_actually_done_this_part_of_tree
+		}
 		completion_reward = {
 		
 		}

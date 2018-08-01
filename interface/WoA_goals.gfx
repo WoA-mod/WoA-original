@@ -6,6 +6,11 @@ spriteTypes = {
 		name = "GFX_goal_generic_drill_soldiers"
 		texturefile = "gfx/interface/goals/goal_generic_drill_soldiers.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_goal_WIP2"
+		texturefile = "gfx/interface/goals/goal_WIP2.dds"
+	}
 
 	###Switzerland
 	
@@ -13,6 +18,7 @@ spriteTypes = {
 		name = "GFX_goal_SWI_armed_neutrality"
 		texturefile = "gfx/interface/goals/SWI_armed_neutrality.dds"
 	}
+	
 	SpriteType = {
 		name = "GFX_goal_SWI_restore_the_old_confederacy"
 		texturefile = "gfx/interface/goals/SWI_restore_the_old_confederacy.dds"

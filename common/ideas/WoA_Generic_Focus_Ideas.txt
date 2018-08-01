@@ -1,0 +1,120 @@
+###################
+###GENERIC IDEAS###
+###################
+
+#########################################################
+#Coded by AirHunter, do not touch without his permission#
+#########################################################
+ideas = {
+
+	country = {
+
+		generic_idea_army_mobilization = {
+			picture = generic_pp_unity_bonus
+			modifier = {
+				mobilization_speed = 0.10
+				training_time_factor = -0.10
+			}
+		}
+		
+		generic_idea_army_reforms = {
+			picture = generic_license_production
+			modifier = {
+				conscription = 0.03
+				mobilization_speed = 0.10
+				training_time_factor = -0.10
+			}
+		}
+		
+		generic_idea_infantry_weapon_production = {
+			picture = ast_volunteer_defence_corps
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+		
+		generic_idea_a_modern_army = {
+			picture = generic_infantry_bonus
+			modifier = {
+				army_morale_factor = 0.15
+				conscription = 0.05
+			}
+		}
+		
+		generic_idea_efficient_production = {
+			picture = generic_production_bonus
+			modifier = {
+				production_factory_max_efficiency_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.10
+			}
+		}
+		
+		generic_idea_military_factory_plans = {
+			picture = generic_infantry_bonus
+			modifier = {
+				production_speed_arms_factory_factor = 0.15
+			}
+		}
+		
+		generic_idea_planning_bonus = {
+			picture = general_staff
+			modifier = {
+				max_planning = 0.20
+			}
+		}
+		
+		generic_idea_high_command = {
+			picture = general_staff
+			modifier = {
+				max_planning = 0.20
+				max_command_power = 15
+			}
+		}
+		
+		generic_idea_high_command2 = {
+			picture = general_staff
+			modifier = {
+				max_planning = 0.20
+				max_command_power = 15
+				supply_consumption_factor = -0.10
+			}
+		}
+		
+		generic_idea_produce_support_equipment = {
+			picture = generic_morale_bonus
+			equipment_bonus = {
+				support_equipment = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+			}
+		}
+		
+		generic_idea_larger_army = {
+			picture = generic_manpower_bonus
+			modifier = {
+				conscription = 0.03
+			}
+		}
+		
+		generic_idea_professional_drills = {
+			picture = FRA_national_mobilization_focus
+			modifier = {
+				training_time_factor = 0.05
+				planning_speed = 0.15
+			}
+		}
+		
+		generic_idea_a_professional_army = {
+			picture = generic_infantry_bonus
+			modifier = {
+				max_dig_in = 1
+				land_reinforce_rate = 0.10
+				army_org_factor = 0.10
+			}
+		}
+	}
+}
