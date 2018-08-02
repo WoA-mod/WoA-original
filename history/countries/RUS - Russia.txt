@@ -86,8 +86,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Vladimir Purishkevich"
-	picture = "Portrait_Soviet_Generic_1.dds"
+	name = "Nikolai Vissarionovich Nekrasov"
+	picture = "Portrait_Nikolai_Vissarionovich_Nekrasov.dds"
 	expire = "1953.3.1"
 	ideology = social_democrat_subtype
 	traits = {
