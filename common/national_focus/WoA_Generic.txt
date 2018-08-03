@@ -488,16 +488,12 @@ focus_tree = {
 	focus = {
 		id = generic_expand_aviation
 		icon = GFX_goal_generic_build_airforce
-		x = 18
+		x = 15
 		y = 0
 		cost = 10
-		available = {
-			has_country_flag = air_has_actually_done_this_part_of_tree
-		}
 		completion_reward = {
-			air_experience = 25
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 0.75
 				uses = 1
 				category = air_doctrine
 			}
@@ -514,9 +510,8 @@ focus_tree = {
 		relative_position_id = generic_expand_aviation
 		mutually_exclusive = { focus = generic_prioritize_bombers }
 		completion_reward = {
-			air_experience = 10
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 0.75
 				uses = 1
 				category = light_fighter
 			}
@@ -526,17 +521,98 @@ focus_tree = {
 	focus = {
 		id = generic_air_cas_innovations
 		icon = GFX_goal_generic_CAS
-		x = -2
+		x = -1
 		y = 1
 		cost = 10
 		prerequisite = { focus = generic_prioritize_fighters }
 		relative_position_id = generic_prioritize_fighters
 		completion_reward = {
-			air_experience = 10
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 0.75
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_air_fighter_innovations
+		icon = GFX_goal_generic_air_fighter
+		x = 0
+		y = 2
+		cost = 10
+		prerequisite = { focus = generic_prioritize_fighters }
+		relative_position_id = generic_prioritize_fighters
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
 				uses = 1
 				category = light_fighter
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_air_battlefield_support
+		icon = GFX_goal_generic_air_doctrine
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_air_fighter_innovations }
+		prerequisite = { focus = generic_air_cas_innovations }
+		relative_position_id = generic_air_fighter_innovations
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = battlefield_support_tree
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_air_battlefield_support2
+		icon = GFX_goal_generic_air_doctrine
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_air_battlefield_support }
+		relative_position_id = generic_air_battlefield_support
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = battlefield_support_tree
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_air_new_models
+		icon = GFX_goal_generic_air_doctrine
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_air_fighter_innovations }
+		relative_position_id = generic_air_fighter_innovations
+		completion_reward = {
+			air_experience = 50
+		}
+	}
+	
+	focus = {
+		id = generic_air_paratroopers
+		icon = GFX_focus_generic_paratrooper
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_air_new_models }
+		relative_position_id = generic_air_new_models
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = para_tech
 			}
 		}
 	}
@@ -551,11 +627,111 @@ focus_tree = {
 		relative_position_id = generic_expand_aviation
 		mutually_exclusive = { focus = generic_prioritize_fighters }
 		completion_reward = {
-			air_experience = 10
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = tactical_bomber
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_air_heavy_fighter_innovations
+		icon = GFX_goal_generic_air_fighter2
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_prioritize_bombers }
+		relative_position_id = generic_prioritize_bombers
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = cat_heavy_fighter
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_air_bomber_innovations
+		icon = GFX_goal_generic_air_bomber
+		x = 0
+		y = 2
+		cost = 10
+		prerequisite = { focus = generic_prioritize_bombers }
+		relative_position_id = generic_prioritize_bombers
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = tactical_bomber
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_air_bomber_doctrines
+		icon = GFX_goal_generic_air_doctrine
+		x = 0
+		y = 2
+		cost = 10
+		prerequisite = { focus = generic_air_heavy_fighter_innovations }
+		prerequisite = { focus = generic_air_bomber_innovations }
+		relative_position_id = generic_air_heavy_fighter_innovations
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = strategic_destruction_tree
+				category = operational_integrity_tree
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_air_bomber_doctrines2
+		icon = GFX_goal_generic_air_doctrine
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_air_bomber_doctrines }
+		relative_position_id = generic_air_bomber_doctrines
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = strategic_destruction_tree
+				category = operational_integrity_tree
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_air_experienced_bombers
+		icon = GFX_goal_generic_air_doctrine
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_air_bomber_innovations }
+		relative_position_id = generic_air_bomber_innovations
+		completion_reward = {
+			air_experience = 50
+		}
+	}
+	
+	focus = {
+		id = generic_air_nav
+		icon = GFX_goal_generic_air_naval_bomber
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_air_experienced_bombers }
+		relative_position_id = generic_air_experienced_bombers
+		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
 				uses = 1
-				category = tactical_bomber
+				category = naval_air
 			}
 		}
 	}
@@ -569,9 +745,47 @@ focus_tree = {
 		prerequisite = { focus = generic_prioritize_fighters focus = generic_prioritize_bombers }
 		relative_position_id = generic_expand_aviation
 		completion_reward = {
-			#random_owned_controlled_state = {
-			#}
+			random_owned_controlled_state = {
+				limit = {
+					NOT = {
+						anti_air_building > 4
+					}
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					NOT = {
+						anti_air_building > 4
+					}
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
 			#Anti-Air defense idea bonus or just air-defenses in random states?
+		}
+	}
+	
+	focus = {
+		id = generic_air_production
+		icon =GFX_goal_generic_build_airforce
+		x = 0
+		y = 1
+		cost = 10
+		available = {
+			has_country_flag = air_has_actually_done_this_part_of_tree
+		}
+		prerequisite = { focus = generic_expand_air_defense }
+		relative_position_id = generic_expand_air_defense
+		completion_reward = {
+			#Add decisions to buy planes/focus on producing them.
 		}
 	}
 	
@@ -582,7 +796,7 @@ focus_tree = {
 	focus = {
 		id = generic_strengthen_the_navy
 		icon = GFX_goal_generic_build_navy
-		x = 30
+		x = 25
 		y = 0
 		cost = 10
 		available = {
