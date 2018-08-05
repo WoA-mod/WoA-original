@@ -1,0 +1,84 @@
+ideas = {
+	country = {
+		BOL_syndicalist_council = {
+			
+			allowed = {
+				TAG = BOL
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_collectivism_rising
+			
+			modifier = {
+			council_communist_drift = 0.02
+			}
+		}
+		
+	   BOL_chilean_economic_restrictions = {
+			
+			allowed = {
+				TAG = BOL
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = denbts
+			
+			modifier = {
+			consumer_goods_factor = 0.03
+			production_factory_max_efficiency_factor = -0.1
+			}
+		}
+		
+		BOL_chilean_military_restrictions = {
+			
+			allowed = {
+				TAG = BOL
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_populism_banned
+			
+			modifier = {
+			conscription = -0.03
+			max_planning = -0.1
+			}
+		}
+		
+		BOL_viva_la_internacional = {
+			
+			allowed = {
+				TAG = BOL
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = UoB_militia_idea
+			
+			modifier = {
+			army_core_attack_factor = 0.25
+			attrition = -0.15
+			supply_consumption_factor = -0.10
+			army_org_factor = -0.05
+			}
+		}
+	}
+}	
