@@ -116,5 +116,15 @@ ideas = {
 				army_org_factor = 0.10
 			}
 		}
+		
+		generic_idea_establish_a_merchant_marine = {
+			picture = generic_infantry_bonus
+			equipment_bonus = {
+				convoy = {
+					build_cost_ic = -0.25
+					instant = yes
+				}
+			}
+		}
 	}
 }

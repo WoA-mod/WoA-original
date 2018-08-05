@@ -11,6 +11,31 @@ spriteTypes = {
 		name = "GFX_goal_WIP2"
 		texturefile = "gfx/interface/goals/goal_WIP2.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_goal_generic_air_doctrine2"
+		texturefile = "gfx/interface/goals/goal_generic_air_doctrine2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_generic_air_bomber2"
+		texturefile = "gfx/interface/goals/goal_generic_air_bomber2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_generic_air_fighter3"
+		texturefile = "gfx/interface/goals/goal_generic_air_fighter3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_generic_new_bombers"
+		texturefile = "gfx/interface/goals/goal_generic_new_bombers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_generic_new_planes"
+		texturefile = "gfx/interface/goals/goal_generic_new_planes.dds"
+	}
 
 	###Switzerland
 	
