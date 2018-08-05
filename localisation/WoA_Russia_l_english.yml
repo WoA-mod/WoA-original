@@ -13,12 +13,12 @@ popular_figurehead:0 "Popular Figurehead"
 
 #### Political Parties ####
 
-RUS_utopianist_party:0 "Bolsheviks" 
-RUS_utopianist_party_long:0 "Utopianist of the RSDLP" 
-RUS_council_communist_party:0 "Bolsheviks"
-RUS_council_communist_long:0 "Council Communist Faction of the RSDLP"
+RUS_utopianist_party:0 "SRs" 
+RUS_utopianist_party_long:0 "Social Reformist Party" 
+RUS_council_communist_party:0 "SRs"
+RUS_council_communist_long:0 "Social Reformist Party"
 RUS_socialist_party:0 "Bolsheviks" 
-RUS_socialist_party_long:0 "Radicalist Faction of the RSDLP" 
+RUS_socialist_party_long:0 "RSDLP" 
 RUS_social_democrat_party:0 "New Mensheviks"
 RUS_social_democrat_party_long:0 "Democratic Socialist Party"
 RUS_liberal_party:0 "Kadets"
@@ -29,8 +29,8 @@ RUS_authoritarian_democrat_party:0 "Military Junta"
 RUS_authoritarian_democrat_party_long:0 "Military Junta"
 RUS_paternal_autocrat_party:0 "Tsarist Loyalists"
 RUS_paternal_autocrat_party_long:0 "Tsarist Loyalists"
-RUS_national_populist_party:0 "TBD"
-RUS_national_populist_party_long:0 "TBD"
+RUS_national_populist_party:0 "Populists"
+RUS_national_populist_party_long:0 "National Defense Front"
 RUS_antiquarian_nationalist_party:0 "Tsarist Restorationists"
 RUS_antiquarian_nationalist_party_long:0 "Tsarist Restorationists"
 
@@ -182,7 +182,7 @@ russia.5.b:0 "The Mensheviks emerge supporting a deal"
 russia.5.c:0 "The Mensheviks decide to recognize Belarus"
 #
 russia.6.t:0 "The Populist Position"
-russia.6.d:0 "The National Popular Front, more commonly known as the Populists, is a party founded on the security of the Russian Nation.  As such, they are the second party to announce their position on this threat.  Most have supported eradicating the rebels, but there are more moderate streams.  None moderate enough to recognize them, however."
+russia.6.d:0 "The National Defense Front, more commonly known as the Populists, is a party founded on the security of the Russian Nation.  As such, they are the second party to announce their position on this threat.  Most have supported eradicating the rebels, but there are more moderate streams.  None moderate enough to recognize them, however."
 russia.6.a:0 "The Populists vote for war."
 russia.6.b:0 "The Populists agree to a deal."
 #
@@ -206,6 +206,12 @@ russia.10.a:0 "Let the negotiations be favorable."
 russia.11.t:0 "The Assembly Votes for Recognition!"
 russia.11.d:0 "In a decision that will be remembered for years to come, the Duma and Grand Soviet have both voted to recognize the government of Belarus as an independent nation.  Diplomatic ties are already being established, and borders being drawn.  The parties' decisions on their positions leading up to this vote have played a crucial role in this decision."
 russia.11.a:0 "A decision long in the making."
+#
+russia.12.t:0 "The Social Reformist Position"
+russia.12.d:0 "The Social Reform Party, formerly the Socialist Revolutionary Party and more commonly known as the SRs, is an agrarian socialist party which appeals to the poor farmers of rural Russia.  Though diminished in power, it still holds significant prominence.  A big tent party, the SRs could lean any direction."
+russia.12.a:0 "The SRs vote for war!"
+russia.12.b:0 "The SRs vote for a deal!"
+russia.12.c:0 "The SRs vote for recognition!"
 
 ###################
 # custom tooltips #

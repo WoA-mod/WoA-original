@@ -29,10 +29,11 @@ focus_tree = {
 	focus = {
 		id = RUS_Belarus_Reconquer
 		icon = GFX_goal_generic_major_war
+		available = { has_country_flag = Trollololololololol}
 		prerequisite = { focus = RUS_Belarus_Question }
-		mutually_exclusive = { focus = RUS_Belarus_Deal focus = RUS_Belarus_Recognition }
+		mutually_exclusive = { focus = RUS_Belarus_Recognition }
 		x = -3
-		y = 1
+		y = 2
 		relative_position_id = RUS_Belarus_Question
 		cost = 5
 		completion_reward = {
@@ -50,7 +51,7 @@ focus_tree = {
 		id = RUS_Belarus_Deal
 		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = RUS_Belarus_Question }
-		mutually_exclusive = { focus = RUS_Belarus_Reconquer focus = RUS_Belarus_Recognition }
+		available = { has_country_flag = Trollololololololol }
 		x = 0
 		y = 1
 		relative_position_id = RUS_Belarus_Question
@@ -64,9 +65,10 @@ focus_tree = {
 		id = RUS_Belarus_Recognition
 		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = RUS_Belarus_Question }
-		mutually_exclusive = { focus = RUS_Belarus_Deal focus = RUS_Belarus_Reconquer }
+		available = { has_country_flag = Trollololololololol }
+		mutually_exclusive = { focus = RUS_Belarus_Reconquer }
 		x = 3
-		y = 1
+		y = 2
 		relative_position_id = RUS_Belarus_Question
 		cost = 5
 		ai_will_do = {

@@ -267,7 +267,7 @@ country_event = {
 		name = russia.8.a
 		add_to_variable = {
 				var = war
-				value = 18
+				value = 2
 		}
 		ai_chance = { factor = 100 }
 	}
@@ -348,5 +348,48 @@ country_event = {
 		name = russia.11.a
 		complete_national_focus = RUS_Belarus_Recognition
 		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = russia.12
+	title = russia.12.t
+	desc = russia.12.d
+	#picture = 
+
+	trigger = {
+		tag = RUS
+		focus_progress = {
+			focus = RUS_Belarus_Question
+			progress > 0.9
+			}
+	}
+	
+	is_triggered_only = no
+	fire_only_once = yes
+
+	option = {
+		name = russia.12.a
+		add_to_variable = {
+				var = war
+				value = 16
+		}
+		ai_chance = { factor = 33 }
+	}
+	option = {
+		name = russia.12.b
+		add_to_variable = {
+				var = deal
+				value = 16
+		}
+		ai_chance = { factor = 33 }
+	}
+	option = {
+		name = russia.12.c
+		add_to_variable = {
+				var = recognize
+				value = 16
+		}
+		ai_chance = { factor = 34 }
 	}
 }
