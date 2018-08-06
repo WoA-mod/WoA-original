@@ -212,6 +212,18 @@ russia.12.d:0 "The Social Reform Party, formerly the Socialist Revolutionary Par
 russia.12.a:0 "The SRs vote for war!"
 russia.12.b:0 "The SRs vote for a deal!"
 russia.12.c:0 "The SRs vote for recognition!"
+#
+russia.13.t:0 "Negotiations fall through!"
+russia.13.d:0 "For one reason or another, the negotiations have ended without a deal being made.  Both Belarus and ourselves have left with a bitter taste in our mouths, and soon we shall see how the Assembly deals with the rebels."
+russia.13.a:0 "They shall soon face the consequences."
+#
+russia.14.t:0 "Negotiations Begin!"
+russia.14.d:0 "Belarus has agreed to enter negotiations.  The first issue that has arised is how much autonomy Belarus shall be afforded.  The Belarussians want full independence, of course, but they will agree to limited autonomy if we ask them nicely.  Most in our government want Belarus to be given a fair share of autonomy, but not full self-rule.  Some argue that we should only handle their foreign affairs, while still others say that Belarus should be annexxed!"
+russia.14.a:0 "We will only handle their foreign affairs."
+russia.14.b:0 "Limited autonomy"
+russia.14.c:0 "Full annexation"
+#
+
 
 ###################
 # custom tooltips #
@@ -234,3 +246,21 @@ FIN_soviet_cool:0 "Reunification of Finland"
 #########
 # OOB's #
 #########
+
+#############
+# Decisions #
+#############
+
+###
+#Categories
+###
+
+RUS_Deal:0 "The Deal with Belarus"
+RUS_Deal_desc:0 "Here are things we can do regarding the negotiations with Belarus."
+
+###
+#Decisions
+###
+
+RUS_Withdraw:0 "Withdraw from the Negotiations"
+RUS_Withdraw_desc:0 "We shall withdraw from the negotiations with Belarus, whether it be for their outrageous demands, or our change of heart."

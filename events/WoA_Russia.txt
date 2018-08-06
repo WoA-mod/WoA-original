@@ -393,3 +393,54 @@ country_event = {
 		ai_chance = { factor = 34 }
 	}
 }
+
+country_event = {
+	id = russia.13
+	title = russia.13.t
+	desc = russia.13.d
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = russia.13.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = russia.14
+	title = russia.14.t
+	desc = russia.14.d
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = russia.14.a
+		ai_chance = { factor = 10 }
+		country_event = {
+			id = bel.2
+			days = 5
+		}
+	}
+	option = {
+		name = russia.14.b
+		ai_chance = { factor = 80 }
+		country_event = {
+			id = bel.3
+			days = 5
+		}
+	}
+	option = {
+		name = russia.14.c
+		ai_chance = { factor = 10 }
+		country_event = {
+			id = bel.4
+			days = 5
+		}
+	}
+}
+

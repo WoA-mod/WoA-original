@@ -1,0 +1,55 @@
+﻿add_namespace = Belarus
+
+country_event = {
+	id = bel.1
+	title = bel.1.t
+	desc = bel.1.d
+	#picture = 
+	
+	is_triggered_only = no
+	fire_only_once = yes
+
+	trigger = {
+		tag = BLR
+		focus_progress = {
+			focus = RUS_Negotations
+			progress > 0.1
+			}
+	}
+	
+	option = { 
+		name = bel.1.a
+		ai_chance = { factor = 100 }
+		country_event = {
+			id = russia.14
+			days = 0
+		}
+	}
+	option = { 
+		name = bel.1.b
+		ai_chance = { factor = 0 }
+		country_event = {
+			id = russia.13
+			days = 0
+		}
+	}
+}
+
+country_event = {
+	id = bel.2
+	title = bel.2.t
+	desc = bel.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { 
+		name = bel.2.a
+		ai_chance = { factor = 0 }
+		}
+	option = { 
+		name = bel.2.b
+		ai_chance = { factor = 100 }
+		}
+}

@@ -1,0 +1,81 @@
+﻿#########################################################
+#Initial coding by TheCaptain157#0073
+#Most coding should be done by BouncyKnight#4431
+#########################################################
+
+l_english:
+
+BLR_BELARUS_DESC:0 "BLRsia is a defeated nation in 1936.  Having lost many of its holdings in the Treaty of Pinsk, the Tsar found himself increasingly unpopular.  He abdicated and fled to Britain, while a provisional government was created back home.  The socialists pledged support for the new government, and together they wrote a new constitution.  BLRsia is now facing the reprecussions of a poorly-planned invasion to rebellious BelaBLR, and more radical parties are once again on the rise."
+
+#### Traits ####
+popular_figurehead:0 "Popular Figurehead"
+
+#### Political Parties ####
+
+#BLR_utopianist_party:0 "SRs" 
+#BLR_utopianist_party_long:0 "Social Reformist Party" 
+#BLR_council_communist_party:0 "SRs"
+#BLR_council_communist_long:0 "Social Reformist Party"
+#BLR_socialist_party:0 "Bolsheviks" 
+#BLR_socialist_party_long:0 "RSDLP" 
+#BLR_social_democrat_party:0 "New Mensheviks"
+#BLR_social_democrat_party_long:0 "Democratic Socialist Party"
+#BLR_liberal_party:0 "Kadets"
+#BLR_liberal_party_long:0 "Constitutional Democratic Party"
+#BLR_conservative_party:0 "Octobrists"
+#BLR_conservative_party_long:0 "Uninon of October 17"
+#BLR_authoritarian_democrat_party:0 "Military Junta"
+#BLR_authoritarian_democrat_party_long:0 "Military Junta"
+#BLR_paternal_autocrat_party:0 "Tsarist Loyalists"
+#BLR_paternal_autocrat_party_long:0 "Tsarist Loyalists"
+#BLR_national_populist_party:0 "Populists"
+#BLR_national_populist_party_long:0 "National Defense Front"
+#BLR_antiquarian_nationalist_party:0 "Tsarist Restorationists"
+#BLR_antiquarian_nationalist_party_long:0 "Tsarist Restorationists"
+
+###############
+#### IDEAS ####
+###############
+
+BLR_:0 ""
+BLR__desc:0 ""
+###
+BLR_:0 ""
+BLR__desc:0 ""
+###
+BLR_:0 ""
+BLR__desc:0 ""
+###
+BLR_:0 ""
+BLR__desc:0 ""
+###
+BLR_:0 ""
+BLR__desc:0 ""
+
+#### events ####
+###
+bel.1.t:0 "The Russians offer a deal"
+bel.1.d:0 "We have been following developments in Russia closely, and over the past months the Russian assembly has been in hot debate over what to do regarding us.  They have come to the conclusion that we should be negotiated with.  Do we enter the negotiations?"
+bel.1.a:0 "Yes"
+bel.1.b:0 "No"
+#
+bel.2.t:0 "The Russians offer to handle our foreign affairs"
+bel.2.d:0 "Russia has agreed to give up full autonomy, while they will handle our foreign affairs.  Everyone in government is overjoyed, however we could still decline."
+bel.2.a:0 "Demand full independence!"
+brl.2.b:0 "A fantastic offer!"
+
+
+###################
+# custom tooltips #
+###################
+
+
+#####################
+# Opinion modifiers #
+#####################
+
+
+
+#########
+# OOB's #
+#########

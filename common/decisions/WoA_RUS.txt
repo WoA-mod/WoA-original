@@ -1,0 +1,31 @@
+RUS_Deal = {
+	RUS_withdraw = {
+		#visible = {
+		#}
+		
+		icon = generic_prepare_civil_war
+		
+		#available = {
+		#}
+		
+		cost = 50
+		
+		#days_re_enable = 
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				check_variable = { russia = 1 }
+				factor = 20
+			}
+		}
+		
+		complete_effect = {
+		}
+		
+		#remove_effect = {
+		#	###load_oob = "SWI_militia"
+		#	add_manpower = 100000
+		#}
+	}
+}

@@ -29,7 +29,7 @@ focus_tree = {
 	focus = {
 		id = RUS_Belarus_Reconquer
 		icon = GFX_goal_generic_major_war
-		available = { has_country_flag = Trollololololololol}
+		available = { has_country_flag = Debate_Over }
 		prerequisite = { focus = RUS_Belarus_Question }
 		mutually_exclusive = { focus = RUS_Belarus_Recognition }
 		x = -3
@@ -51,7 +51,7 @@ focus_tree = {
 		id = RUS_Belarus_Deal
 		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = RUS_Belarus_Question }
-		available = { has_country_flag = Trollololololololol }
+		available = { has_country_flag = Debate_Over }
 		x = 0
 		y = 1
 		relative_position_id = RUS_Belarus_Question
@@ -65,7 +65,7 @@ focus_tree = {
 		id = RUS_Belarus_Recognition
 		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = RUS_Belarus_Question }
-		available = { has_country_flag = Trollololololololol }
+		available = { has_country_flag = Debate_Over }
 		mutually_exclusive = { focus = RUS_Belarus_Reconquer }
 		x = 3
 		y = 2
@@ -217,5 +217,4 @@ focus_tree = {
 			factor = 10
 			}
 		}
-}
-	
+}	
