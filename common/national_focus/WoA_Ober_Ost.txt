@@ -91,7 +91,6 @@ focus_tree = {
 																																																				level = 3
 																																																				instant_build = yes
 																																																			}
-																																					set_state_flag = poland_farm
 																																				 }
 																				 	}
 									}
@@ -261,7 +260,7 @@ focus_tree = {
 
 				#Focus for All Hail The General
 					focus = {
-										id = LIT_all_hail_the-general
+										id = LIT_all_hail_the_general
 										icon = GFX_goal_generic_secret_weapon
 										relative_position_id = LIT_formalities_of_nations
 										x = 0
@@ -280,6 +279,58 @@ focus_tree = {
 																				}
 									}
 
+									#Focus for Prepare For War
+										focus = {
+															id = LIT_prepare_for_war
+															icon = GFX_goal_generic_secret_weapon
+															relative_position_id = LIT_all_hail_the_general
+															x = 0
+															y = 1
+															prerequisite = {  focus = LIT_all_hail_the_general
+																						 }
+															cost = 6
+															ai_will_do = { factor = 100 }
+															completion_reward = {every_state = { add_building_construction = {
+																																																type = bunker
+																																																level = 10
+																																																instant_build = yes
+																																																province = {
+																																																						all_provinces = yes
+																																																						limit_to_border = yes
+																																													 									}
+																																																}
+																																	}
+																									}
+														}
+
+									#Focus for Machine of The State
+										focus = {
+															id = LIT_machine_of_the_state
+															icon = GFX_goal_generic_secret_weapon
+															relative_position_id = LIT_all_hail_the_general
+															x = 0
+															y = 2
+															prerequisite = { focus = LIT_prepare_for_war
+																						 }
+															cost = 6
+															ai_will_do = { factor = 100 }
+															completion_reward = {random_owned_controlled_state = {
+																																										limit = {	free_building_slots = {
+																																																											building = arms_factory
+																																																											size > 0
+																																																											include_locked = yes
+																																																										}
+																																														}
+																																										add_extra_state_shared_building_slots = 3
+																																										add_building_construction = {
+																																																									type = arms_factory
+																																																									level = 3
+																																																									instant_build = yes
+																																																								}
+																																									 }
+																									}
+														}
+
 				#Focus for Appease Saxony
 					focus = {
 										id = LIT_appease_saxony
@@ -290,7 +341,7 @@ focus_tree = {
 										prerequisite = { focus = LIT_formalities_of_nations
 																	 }
 										cost = 6
-										mutually_exclusive = { focus = LIT_all_hail_the-general
+										mutually_exclusive = { focus = LIT_all_hail_the_general
 																				 	 focus = LIT_house_of_hohenzollern
 																				 }
 										ai_will_do = { factor = 100 }
@@ -300,6 +351,65 @@ focus_tree = {
 																	 											}
 																				}
 									}
+
+			#Focus for National Reawakening
+				focus = {
+									id = LIT_national_reawakening
+									icon = GFX_goal_generic_national_unity
+				  				relative_position_id = LIT_appease_saxony
+									x = 0
+									y = 1
+									prerequisite = { focus = LIT_appease_saxony
+																 }
+									cost = 6
+									ai_will_do = { factor = 100 }
+									completion_reward = {add_stability = 0.3
+																			}
+								}
+
+			#Focus for Building Our Myth
+				focus = {
+									id = LIT_building_our_myth
+									icon = GFX_goal_generic_national_unity
+				  				relative_position_id = LIT_appease_saxony
+									x = 0
+									y = 2
+			 						prerequisite = { focus = LIT_national_reawakening
+																 }
+									cost = 6
+									ai_will_do = { factor = 100 }
+									completion_reward = {random_owned_controlled_state = {
+																																				limit = {	free_building_slots = {
+																																																					building = industrial_complex
+																																																					size > 0
+																																																					include_locked = yes
+																																																				}
+																																								}
+																																				add_extra_state_shared_building_slots = 3
+																																				add_building_construction = {
+																																																			type = industrial_complex
+																																																			level = 3
+																																																			instant_build = yes
+																																																		}
+																																			 }
+																				random_owned_controlled_state = {
+																																															limit = {	free_building_slots = {
+																																																																building = industrial_complex
+																																																																size > 0
+																																																																include_locked = yes
+																																																															}
+																																																			}
+																																															add_extra_state_shared_building_slots = 3
+																																															add_building_construction = {
+																																																														type = industrial_complex
+																																																														level = 3
+																																																														instant_build = yes
+																																																													}
+																																				}
+																			}
+								}
+
+
 
 				#Focus for House of Hohenzollern
 					focus = {
@@ -311,7 +421,7 @@ focus_tree = {
 										prerequisite = { focus = LIT_formalities_of_nations
 																	 }
 										cost = 6
-										mutually_exclusive = { focus = LIT_all_hail_the-general
+										mutually_exclusive = { focus = LIT_all_hail_the_general
 																					 focus = LIT_appease_saxony
 																			 	 }
 										ai_will_do = { factor = 100 }
@@ -321,3 +431,87 @@ focus_tree = {
 																												}
 																				}
 										}
+
+				#Focus for Emulate The Fatherland
+					focus = {
+										id = LIT_emulate_the_fatherland
+										icon = GFX_focus_generic_strike_at_democracy1
+										relative_position_id = LIT_house_of_hohenzollern
+										x = 0
+										y = 1
+										prerequisite = { focus = LIT_house_of_hohenzollern
+																	 }
+										cost = 6
+										mutually_exclusive = { focus = LIT_all_hail_the_general
+																					 focus = LIT_appease_saxony
+																			 	 }
+										ai_will_do = { factor = 100 }
+										completion_reward = {load_oob = kaiser_troops
+																				}
+									}
+
+			 #Focus for Protecting Our Prince
+					focus = {
+										id = LIT_protecting_our_prince
+										icon = GFX_focus_generic_strike_at_democracy1
+										relative_position_id = LIT_house_of_hohenzollern
+										x = 0
+										y = 2
+										prerequisite = { focus = LIT_emulate_the_fatherland
+																	 }
+										cost = 6
+										ai_will_do = { factor = 100 }
+										completion_reward = {army_experience = 30
+																				##country_event = {
+    																											##id = lit.1
+    																											##days = 1
+    																											##}
+																				}
+										}
+
+################################Baltic Politics################################################################################################
+
+			#Focus for Dealing With The Neighbors
+				focus = {
+									id = LIT_dealing_with_the_neighbors
+									icon = GFX_focus_generic_air_defense
+									relative_position_id = LIT_permanent_occupation
+									x = 20
+									y = 0
+									cost = 6
+									ai_will_do = { factor = 100 }
+									completion_reward = {}
+								}
+
+
+			#Focus for Ending The Rebellion
+				focus = {
+									id = LIT_ending_the_rebellion
+									icon = GFX_goal_generic_small_arms
+									relative_position_id = LIT_dealing_with_the_neighbors
+									x = -2
+									y = 1
+									prerequisite = { focus = LIT_dealing_with_the_neighbors
+																 }
+									cost = 6
+									ai_will_do = { factor = 100 }
+									completion_reward = {add_opinion_modifier = {
+    																														target = LAT
+    																														modifier = LIT_RIGA_THREAT
+																															}
+																			}
+								}
+
+			#Focus for Flipping The Smugglers
+				focus = {
+									id = LIT_flipping_the_smugglers
+									icon = GFX_goal_generic_dangerous_deal
+									relative_position_id = LIT_dealing_with_the_neighbors
+									x = -2
+									y = 2
+									prerequisite = { focus = LIT_dealing_with_the_neighbors
+																 }
+									cost = 6
+									ai_will_do = { factor = 100 }
+									completion_reward = {}
+								}
