@@ -971,9 +971,8 @@
 		x = 2
 		y = 1
 		cost = 10
-		prerequisite = { focus = generic_navy_heavy_navy_doctrine }
+		prerequisite = { focus = generic_navy_heavy_navy_doctrine focus = generic_navy_light_navy_doctrine}
 		prerequisite = { focus = generic_navy_establish_a_merchant_marine }
-		prerequisite = { focus = generic_navy_light_navy_doctrine }
 		relative_position_id = generic_navy_heavy_navy_doctrine
 		completion_reward = {
 			add_tech_bonus = {
@@ -981,6 +980,826 @@
 				ahead_reduction = 1
 				uses = 1
 				category = tp_tech
+			}
+		}
+	}
+	
+	#######################
+	### ECONOMIC BRANCH ###
+	#######################
+	
+	shared_focus = {
+		id = generic_state_of_the_economy
+		icon = GFX_goal_production
+		x = 3
+		y = 6
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.50
+				uses = 1
+				category = industry
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_autarky #Autarky is focused more on being self sufficient, less resources to market and synthetic focuses.
+		icon = GFX_goal_HOL_progressive_tax
+		prerequisite = { focus = generic_state_of_the_economy }
+		relative_position_id = generic_state_of_the_economy
+		mutually_exclusive = { focus = generic_economy_protectionism focus = generic_economy_free_trade }
+		x = -5
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_ideas = generic_idea_autarky
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_autarky_industrial_innovations
+		icon = GFX_goal_construction_engineering
+		prerequisite = { focus = generic_economy_autarky }
+		relative_position_id = generic_economy_autarky
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.50
+				uses = 1
+				category = industry
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_autarky_infrastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = generic_economy_autarky_industrial_innovations }
+		relative_position_id = generic_economy_autarky_industrial_innovations
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_autarky_civilian_factories
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = generic_economy_autarky_infrastructure }
+		relative_position_id = generic_economy_autarky_infrastructure
+		x = -2
+		y = 1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_autarky_civilian_factories2
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = generic_economy_autarky_civilian_factories }
+		relative_position_id = generic_economy_autarky_civilian_factories
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_autarky_infrastructure2
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = generic_economy_autarky_infrastructure }
+		relative_position_id = generic_economy_autarky_infrastructure
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_autarky_land_clearance
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = generic_economy_autarky_infrastructure2 }
+		relative_position_id = generic_economy_autarky_infrastructure2
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_autarky_synthetic_research
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = { focus = generic_economy_autarky_infrastructure }
+		relative_position_id = generic_economy_autarky_infrastructure
+		x = 2
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.50
+				uses = 2
+				category = synth_resources
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_autarky_synthetic_factories
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = { focus = generic_economy_autarky_synthetic_research }
+		relative_position_id = generic_economy_autarky_synthetic_research
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_protectionism #Protectionism hurts trade relations. Gives more civilian factories than other trees and some stability.
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = generic_state_of_the_economy }
+		relative_position_id = generic_state_of_the_economy
+		mutually_exclusive = { focus = generic_economy_free_trade focus = generic_economy_autarky }
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_stability = 0.05
+			add_ideas = { generic_idea_protectionism }
+			add_ideas = { limited_exports }
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_protecting_our_factories
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = generic_economy_protectionism }
+		relative_position_id = generic_economy_protectionism
+		x = -1
+		y = 1
+		cost = 10
+		completion_reward = {
+			if = {
+				limit = { has_idea = generic_idea_protectionism }
+				swap_ideas = {
+					add_idea = generic_idea_protectionism2
+					remove_idea = generic_idea_protectionism
+				}
+			}
+			else = {
+				swap_ideas = {
+					add_idea = generic_idea_protectionism4
+					remove_idea = generic_idea_protectionism3
+				}
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_guarantee_local_businesses
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = generic_economy_protectionism }
+		relative_position_id = generic_economy_protectionism
+		x = 1
+		y = 1
+		cost = 10
+		completion_reward = {
+			if = {
+				limit = { has_idea = generic_idea_protectionism2 }
+				swap_ideas = {
+					add_idea = generic_idea_protectionism4
+					remove_idea = generic_idea_protectionism2
+				}
+			}
+			else = {
+				swap_ideas = {
+					add_idea = generic_idea_protectionism3
+					remove_idea = generic_idea_protectionism
+				}
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_land_reforms
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = generic_economy_protecting_our_factories }
+		prerequisite = { focus = generic_economy_guarantee_local_businesses }
+		relative_position_id = generic_economy_protecting_our_factories
+		x = 1
+		y = 1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_expand_local_factories
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = generic_economy_protecting_our_factories }
+		relative_position_id = generic_economy_land_reforms
+		x = -1
+		y = 1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_expand_local_factories2
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = generic_economy_protecting_our_factories }
+		relative_position_id = generic_economy_land_reforms
+		x = 1
+		y = 1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_our_own_companies
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = generic_economy_land_reforms }
+		relative_position_id = generic_economy_land_reforms
+		x = 0
+		y = 2
+		cost = 10
+		completion_reward = {
+			add_political_power = 150 #For now, let the damn player pick it himself. Am too lazy to add the event at this moment.
+			#Gives an event that lets you decide which company to pick.
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_expand_local_factories3
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = generic_economy_our_own_companies }
+		relative_position_id = generic_economy_our_own_companies
+		x = -1
+		y = 1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_resource_excavation
+		icon = GFX_all_resource
+		prerequisite = { focus = generic_economy_our_own_companies }
+		relative_position_id = generic_economy_our_own_companies
+		x = 1
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.50
+				uses = 2
+				category = excavation_tech
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_free_trade #Focuses on free trade, giving a lot of off-map buildings. Forces you to switch to Free Trade policy though.
+		icon = GFX_goal_generic_trade
+		prerequisite = { focus = generic_state_of_the_economy }
+		relative_position_id = generic_state_of_the_economy
+		mutually_exclusive = { focus = generic_economy_protectionism focus = generic_economy_autarky }
+		x = 5
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_ideas = { free_trade }
+			add_ideas { generic_idea_free_trade }
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_free_trade_the_flow
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = generic_economy_free_trade }
+		relative_position_id = generic_economy_free_trade
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			swap_ideas = {
+				add_idea = generic_idea_free_trade2
+				remove_idea = generic_idea_free_trade
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_free_trade_investures_abroad
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = generic_economy_free_trade_the_flow }
+		relative_position_id = generic_economy_free_trade_the_flow
+		x = -1
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_free_trade_investures_abroad2
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = generic_economy_free_trade_investures_abroad }
+		relative_position_id = generic_economy_free_trade_investures_abroad
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_free_trade_investures_abroad3
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = generic_economy_free_trade_investures_abroad2 }
+		relative_position_id = generic_economy_free_trade_investures_abroad2
+		x = -1
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_free_trade_securing_our_industry
+		icon = GFX_goal_munitions_factories
+		prerequisite = { focus = generic_economy_free_trade_investures_abroad2 }
+		prerequisite = { focus = generic_economy_free_trade_idea_sharing }
+		relative_position_id = generic_economy_free_trade_investures_abroad2
+		available = {
+			has_country_flag = air_has_actually_done_this_part_of_tree
+		}
+		x = 1
+		y = 1
+		cost = 10
+		completion_reward = {
+			#Gives decisions to convert your factories to off-map factories.
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_free_trade_goods_at_home
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = generic_economy_free_trade_the_flow }
+		relative_position_id = generic_economy_free_trade_the_flow
+		x = 1
+		y = 1
+		cost = 10
+		completion_reward = {
+			swap_ideas = {
+				add_idea = generic_idea_free_trade3
+				remove_idea = generic_idea_free_trade2
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_free_trade_idea_sharing
+		icon = GFX_focus_generic_the_giant_wakes #Unique icon needed.
+		prerequisite = { focus = generic_economy_free_trade_goods_at_home }
+		relative_position_id = generic_economy_free_trade_goods_at_home
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			swap_ideas = {
+				add_idea = generic_idea_free_trade4
+				remove_idea = generic_idea_free_trade3
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_economy_free_trade_productivity
+		icon = GFX_goal_generic_production2
+		prerequisite = { focus = generic_economy_free_trade_idea_sharing }
+		relative_position_id = generic_economy_free_trade_idea_sharing
+		x = 1
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_timed_idea = {
+				idea = generic_idea_free_trade_productivity
+				days = 730
+			}
+		}
+	}
+	
+	
+	
+	#######################
+	## POLITICAL BRANCH ###
+	#######################
+	
+	shared_focus = {
+		id = generic_modern_politics
+		icon = GFX_goal_government_icon
+		x = 18
+		y = 6
+		cost = 10
+		available = {
+			has_country_flag = air_has_actually_done_this_part_of_tree
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_centrism
+		icon = GFX_goal_support_democracy #Replace with a unique icon
+		prerequisite = { focus = generic_modern_politics }
+		available = {
+			OR = {
+				has_government = liberal
+				has_government = conservative
+				has_government = social_democrat
+			}
+		}
+		relative_position_id = generic_modern_politics
+		mutually_exclusive = { focus = generic_politics_leftism focus = generic_politics_rightism }
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_leftism
+		icon = GFX_goal_anarcho_communism #Replace with a unique icon
+		prerequisite = { focus = generic_modern_politics }
+		available = {
+			OR = {
+				has_government = socialist
+				has_government = council_communist
+				has_government = utopianism
+			}
+		}
+		relative_position_id = generic_modern_politics
+		mutually_exclusive = { focus = generic_politics_centrism focus = generic_politics_rightism }
+		x = -2
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_rightism
+		icon = GFX_goal_authoritarian #Replace with a unique icon
+		prerequisite = { focus = generic_modern_politics }
+		available = {
+			OR = {
+				has_government = authoritarian_democrat
+				has_government = paternal_autocrat
+				has_government = national_populist
+				has_government = antiquarian_nationalist
+			}
+		}
+		relative_position_id = generic_modern_politics
+		mutually_exclusive = { focus = generic_politics_leftism focus = generic_politics_centrism }
+		x = 2
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	#######################
+	# GREAT POWER BRANCH ##
+	#######################
+	
+	shared_focus = {
+		id = generic_our_place_in_the_world
+		icon = GFX_goal_generic_our_place_in_the_world
+		allow_branch = {
+			has_country_flag = generic_became_a_major
+		}
+		x = 34
+		y = 0
+		cost = 10
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	shared_focus = {
+		id = generic_major_economic_boom
+		icon = GFX_goal_gold_up
+		prerequisite = { focus = generic_our_place_in_the_world }
+		relative_position_id = generic_our_place_in_the_world
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_timed_idea = {
+				idea = generic_idea_economic_boom
+				days = 365
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_major_rails_of_tomorrow
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = generic_major_economic_boom }
+		relative_position_id = generic_major_economic_boom
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_ideas = generic_idea_rails_of_tomorrow
+		}
+	}
+	
+	shared_focus = {
+		id = generic_major_expanded_civilian_factories
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = generic_major_rails_of_tomorrow }
+		relative_position_id = generic_major_rails_of_tomorrow
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_major_expanded_military_factories
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = generic_major_expanded_civilian_factories }
+		relative_position_id = generic_major_expanded_civilian_factories
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_major_research_institution
+		icon = GFX_focus_research4
+		prerequisite = { focus = generic_our_place_in_the_world }
+		relative_position_id = generic_our_place_in_the_world
+		x = -4
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	
+	shared_focus = {
+		id = generic_major_further_research_funding
+		icon = GFX_focus_research
+		prerequisite = { focus = generic_major_research_institution }
+		relative_position_id = generic_major_research_institution
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			IF = {
+				limit = {
+					NOT = { original_research_slots > 3 }
+				}
+				add_research_slot = 1
+			}
+			else = {
+				add_ideas = generic_idea_research_funding
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_major_our_sphere_of_influence
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = generic_our_place_in_the_world }
+		relative_position_id = generic_our_place_in_the_world
+		x = 2
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_political_power = 50
+			ROOT = {
+				set_rule = {
+					can_create_factions = yes
+				}
+			}
+		}
+	}
+	
+	
+	shared_focus = {
+		id = generic_major_expand_dockyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = { focus = generic_our_place_in_the_world }
+		relative_position_id = generic_our_place_in_the_world
+		x = -2
+		y = 1
+		cost = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_major_rocketry
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = generic_our_place_in_the_world }
+		relative_position_id = generic_our_place_in_the_world
+		x = 4
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.50
+				uses = 1
+				category = rocketry
+			}
+		}
+	}
+
+	shared_focus = {
+		id = generic_major_doomsday_weapons
+		icon = GFX_focus_wonderweapons
+		prerequisite = { focus = generic_major_rocketry }
+		relative_position_id = generic_major_rocketry
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.50
+				ahead_reduction = 1
+				uses = 1
+				category = nuclear
 			}
 		}
 	}

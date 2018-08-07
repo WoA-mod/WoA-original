@@ -14,6 +14,11 @@ spriteTypes = {
 		name = "GFX_focus_empty_coffers"
 		texturefile = "gfx/interface/goals/empty_coffers.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_goal_gold_up"
+		texturefile = "gfx/interface/goals/goal_gold_up.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_focus_AUS_agriculture"

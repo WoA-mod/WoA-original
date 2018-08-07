@@ -11,7 +11,7 @@ focus_tree = {
 		factor = 1
 	}
 	
-	continuous_focus_position = { x = -400 y = 800 }
+	continuous_focus_position = { x = -400 y = 1800 }
 	
 	default = yes
 	reset_on_civilwar = no
@@ -19,6 +19,9 @@ focus_tree = {
 	shared_focus = generic_examine_the_army
 	shared_focus = generic_expand_aviation
 	shared_focus = generic_strengthen_the_navy
+	#shared_focus = generic_modern_politics
+	shared_focus = generic_state_of_the_economy
+	shared_focus = generic_our_place_in_the_world
 
 
 }

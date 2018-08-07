@@ -36,6 +36,11 @@ spriteTypes = {
 		name = "GFX_goal_generic_new_planes"
 		texturefile = "gfx/interface/goals/goal_generic_new_planes.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_goal_generic_our_place_in_the_world"
+		texturefile = "gfx/interface/goals/goal_generic_our_place_in_the_world.dds"
+	}
 
 	###Switzerland
 	

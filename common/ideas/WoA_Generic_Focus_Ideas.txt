@@ -30,7 +30,7 @@ ideas = {
 			picture = ast_volunteer_defence_corps
 			equipment_bonus = {
 				infantry_equipment = {
-					build_cost_ic = -0.1
+					build_cost_ic = -0.075
 					instant = yes
 				}
 			}
@@ -39,7 +39,7 @@ ideas = {
 		generic_idea_a_modern_army = {
 			picture = generic_infantry_bonus
 			modifier = {
-				army_morale_factor = 0.15
+				army_morale_factor = 0.05
 				conscription = 0.05
 			}
 		}
@@ -55,30 +55,30 @@ ideas = {
 		generic_idea_military_factory_plans = {
 			picture = generic_infantry_bonus
 			modifier = {
-				production_speed_arms_factory_factor = 0.15
+				production_speed_arms_factory_factor = 0.10
 			}
 		}
 		
 		generic_idea_planning_bonus = {
 			picture = general_staff
 			modifier = {
-				max_planning = 0.20
+				max_planning = 0.10
 			}
 		}
 		
 		generic_idea_high_command = {
 			picture = general_staff
 			modifier = {
-				max_planning = 0.20
-				max_command_power = 15
+				max_planning = 0.10
+				max_command_power = 10
 			}
 		}
 		
 		generic_idea_high_command2 = {
 			picture = general_staff
 			modifier = {
-				max_planning = 0.20
-				max_command_power = 15
+				max_planning = 0.10
+				max_command_power = 10
 				supply_consumption_factor = -0.10
 			}
 		}
@@ -112,13 +112,12 @@ ideas = {
 			picture = generic_infantry_bonus
 			modifier = {
 				max_dig_in = 1
-				land_reinforce_rate = 0.10
 				army_org_factor = 0.10
 			}
 		}
 		
 		generic_idea_establish_a_merchant_marine = {
-			picture = generic_infantry_bonus
+			picture = generic_navy
 			equipment_bonus = {
 				convoy = {
 					build_cost_ic = -0.25
@@ -126,5 +125,112 @@ ideas = {
 				}
 			}
 		}
+		
+		generic_idea_research_funding = {
+			picture = jap_supremacy_of_technology
+			modifier = {
+				research_time_factor = -0.03
+			}
+		}
+		
+		generic_idea_rails_of_tomorrow = {
+			picture = generic_build_infrastructure
+			modifier = {
+				production_speed_infrastructure_factor = 0.20
+			}
+		}
+		
+		generic_idea_economic_boom = {
+			picture = generic_goods_red_bonus
+			modifier = {
+				consumer_goods_factor = -0.10
+				industrial_capacity_factory = 0.10
+			}
+		}
+		
+		generic_idea_autarky = {
+			picture = generic_central_management
+			modifier = {
+				min_export = -0.10
+			}
+		}
+		
+		generic_idea_free_trade = {
+			picture = generic_trade
+			modifier = {
+				trade_opinion_factor = 0.10
+			}
+		}
+		
+		generic_idea_free_trade2 = {
+			picture = generic_trade
+			modifier = {
+				industrial_capacity_factory = 0.10
+				trade_opinion_factor = 0.10
+			}
+		}
+		
+		generic_idea_free_trade3 = {
+			picture = generic_trade
+			modifier = {
+				industrial_capacity_factory = 0.10
+				consumer_goods_factor = -0.05
+				trade_opinion_factor = 0.10
+			}
+		}
+		
+		generic_idea_free_trade4 = {
+			picture = generic_trade
+			modifier = {
+				industrial_capacity_factory = 0.10
+				consumer_goods_factor = -0.05
+				trade_opinion_factor = 0.10
+			}
+			research_bonus = { industry = 0.10 }
+		}
+		
+		generic_idea_free_trade_productivity = {
+			picture = generic_goods_red_bonus
+			modifier = {
+				industrial_capacity_factory = 0.07
+			}
+		}
+		
+		generic_idea_protectionism = {
+			picture = YUG_federal_defense_council
+			modifier = {
+				trade_opinion_factor = -0.25
+				industrial_capacity_factory = 0.025
+			}
+		}
+		
+		generic_idea_protectionism2 = {
+			picture = YUG_federal_defense_council
+			modifier = {
+				trade_opinion_factor = -0.25
+				industrial_capacity_factory = 0.025
+				industry_air_damage_factor = -0.20
+			}
+		}
+		
+		generic_idea_protectionism3 = {
+			picture = YUG_federal_defense_council
+			modifier = {
+				trade_opinion_factor = -0.25
+				industrial_capacity_factory = 0.025
+				industry_free_repair_factor = 0.15
+			}
+		}
+		
+		generic_idea_protectionism4 = {
+			picture = YUG_federal_defense_council
+			modifier = {
+				trade_opinion_factor = -0.25
+				industrial_capacity_factory = 0.025
+				industry_air_damage_factor = -0.20
+				industry_free_repair_factor = 0.15
+			}
+		}
+		
 	}
 }
