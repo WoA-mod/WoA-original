@@ -3,6 +3,8 @@ foreign_politics = {
 		#visible = {
 		#}
 		
+		icon = generic_world
+		
 		available = {
 			num_of_factories > 50
 		}

@@ -1510,12 +1510,9 @@
 	shared_focus = {
 		id = generic_modern_politics
 		icon = GFX_goal_government_icon
-		x = 18
+		x = 19
 		y = 6
 		cost = 10
-		available = {
-			has_country_flag = air_has_actually_done_this_part_of_tree
-		}
 		completion_reward = {
 			add_political_power = 100
 		}
@@ -1538,7 +1535,214 @@
 		y = 1
 		cost = 10
 		completion_reward = {
+			if = {
+				limit = { has_government = liberal }
+				add_popularity = { ideology = liberal popularity = 0.10 }
+			}
+			else_if = {
+				limit = { has_government = conservative }
+				add_popularity = { ideology = conservative popularity = 0.10 }
+			}
+			else_if = {
+				limit = { has_government = social_democrat }
+				add_popularity = { ideology = social_democrat popularity = 0.10 }
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_political_free_press
+		icon = GFX_goal_big_news
+		prerequisite = { focus = generic_politics_centrism }
+		available = {
+			OR = {
+				has_government = liberal
+				has_government = conservative
+				has_government = social_democrat
+			}
+		}
+		relative_position_id = generic_politics_centrism
+		x = -2
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_representative_government
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = generic_politics_centrism }
+		available = {
+			OR = {
+				has_government = liberal
+				has_government = conservative
+				has_government = social_democrat
+			}
+		}
+		relative_position_id = generic_politics_centrism
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_stability = 0.075
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_citizen_rights
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = generic_politics_representative_government }
+		available = {
+			OR = {
+				has_government = liberal
+				has_government = conservative
+				has_government = social_democrat
+			}
+		}
+		relative_position_id = generic_politics_representative_government
+		x = -1
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_political_freedom
+		icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = generic_politics_representative_government }
+		available = {
+			OR = {
+				has_government = liberal
+				has_government = conservative
+				has_government = social_democrat
+			}
+		}
+		relative_position_id = generic_politics_representative_government
+		x = 1
+		y = 1
+		cost = 10
+		completion_reward = {
 			add_political_power = 100
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_a_strong_constitution
+		icon = GFX_goal_constitutional_guarantees
+		prerequisite = { focus = generic_politics_political_freedom }
+		available = {
+			OR = {
+				has_government = liberal
+				has_government = conservative
+				has_government = social_democrat
+			}
+		}
+		relative_position_id = generic_politics_political_freedom
+		x = 1
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_promote_our_party
+		icon = GFX_goal_generic_propaganda #Replace with a unique icon
+		prerequisite = { focus = generic_politics_political_freedom focus = generic_politics_citizen_rights }
+		available = {
+			OR = {
+				has_government = liberal
+				has_government = conservative
+				has_government = social_democrat
+			}
+		}
+		relative_position_id = generic_politics_political_freedom
+		x = -1
+		y = 1
+		cost = 10
+		completion_reward = {
+			if = {
+				limit = { has_government = liberal }
+				add_popularity = { ideology = liberal popularity = 0.10 }
+			}
+			else_if = {
+				limit = { has_government = conservative }
+				add_popularity = { ideology = conservative popularity = 0.10 }
+			}
+			else_if = {
+				limit = { has_government = social_democrat }
+				add_popularity = { ideology = social_democrat popularity = 0.10 }
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_academic_sponsoring
+		icon = GFX_focus_research4
+		prerequisite = { focus = generic_politics_citizen_rights }
+		available = {
+			OR = {
+				has_government = liberal
+				has_government = conservative
+				has_government = social_democrat
+			}
+		}
+		relative_position_id = generic_politics_political_freedom
+		x = -3
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_timed_idea = {
+				idea = generic_idea_academic_sponsoring
+				days = 365
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_the_light_of_democracy
+		icon = GFX_focus_generic_the_giant_wakes
+		prerequisite = { focus = generic_politics_promote_our_party }
+		prerequisite = { focus = generic_politics_academic_sponsoring }
+		prerequisite = { focus = generic_politics_a_strong_constitution }
+		available = {
+			OR = {
+				has_government = liberal
+				has_government = conservative
+				has_government = social_democrat
+			}
+		}
+		relative_position_id = generic_politics_promote_our_party
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_ideas = generic_idea_light_of_democracy
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_democracy_research
+		icon = GFX_focus_research
+		prerequisite = { focus = generic_politics_centrism }
+		available = {
+			OR = {
+				has_government = liberal
+				has_government = conservative
+				has_government = social_democrat
+			}
+		}
+		relative_position_id = generic_politics_centrism
+		x = 2
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_research_slot = 1
 		}
 	}
 	
@@ -1555,11 +1759,205 @@
 		}
 		relative_position_id = generic_modern_politics
 		mutually_exclusive = { focus = generic_politics_centrism focus = generic_politics_rightism }
+		x = -6
+		y = 1
+		cost = 10
+		completion_reward = {
+			if = {
+				limit = { has_government = socialist }
+				add_popularity = { ideology = socialist popularity = 0.10 }
+			}
+			else_if = {
+				limit = { has_government = council_communist }
+				add_popularity = { ideology = council_communist popularity = 0.10 }
+			}
+			else_if = {
+				limit = { has_government = utopianism }
+				add_popularity = { ideology = utopianism popularity = 0.10 }
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_collectivization
+		icon = GFX_focus_prc_agrarian_socialism
+		prerequisite = { focus = generic_politics_leftism }
+		available = {
+			OR = {
+				has_government = socialist
+				has_government = council_communist
+				has_government = utopianism
+			}
+		}
+		relative_position_id = generic_politics_leftism
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_ideas = generic_idea_collectivization
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_a_workers_state
+		icon = GFX_goal_generic_soviet_construction
+		prerequisite = { focus = generic_politics_leftism }
+		available = {
+			OR = {
+				has_government = socialist
+				has_government = council_communist
+				has_government = utopianism
+			}
+		}
+		relative_position_id = generic_politics_leftism
+		x = 2
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_timed_idea = {
+				idea = generic_idea_a_workers_state
+				days = 365
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_internationalism
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = generic_politics_collectivization }
+		available = {
+			OR = {
+				has_government = socialist
+				has_government = council_communist
+				has_government = utopianism
+			}
+		}
+		relative_position_id = generic_politics_collectivization
 		x = -2
 		y = 1
 		cost = 10
 		completion_reward = {
+			add_war_support = 0.075
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_spreading_the_revolution
+		icon = GFX_goal_red_star
+		prerequisite = { focus = generic_politics_internationalism }
+		available = {
+			OR = {
+				has_government = socialist
+				has_government = council_communist
+				has_government = utopianism
+			}
+		}
+		relative_position_id = generic_politics_internationalism
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_ideas = generic_idea_spreading_the_revolution
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_secret_police
+		icon = GFX_goal_secret_police
+		prerequisite = { focus = generic_politics_collectivization }
+		available = {
+			OR = {
+				has_government = socialist
+				has_government = council_communist
+				has_government = utopianism
+			}
+		}
+		relative_position_id = generic_politics_collectivization
+		x = 2
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_ideas = generic_idea_secret_police
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_crack_down_on_resistance
+		icon = GFX_goal_generic_moon_spy
+		prerequisite = { focus = generic_politics_secret_police }
+		available = {
+			OR = {
+				has_government = socialist
+				has_government = council_communist
+				has_government = utopianism
+			}
+		}
+		relative_position_id = generic_politics_secret_police
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_stability = 0.075
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_incorporating_trade_unions
+		icon = GFX_goal_syndicalist_industry
+		prerequisite = { focus = generic_politics_collectivization }
+		available = {
+			OR = {
+				has_government = socialist
+				has_government = council_communist
+				has_government = utopianism
+			}
+		}
+		relative_position_id = generic_politics_collectivization
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
 			add_political_power = 100
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_socialist_commitee
+		icon = GFX_goal_commune_politics 
+		prerequisite = { focus = generic_politics_incorporating_trade_unions }
+		available = {
+			OR = {
+				has_government = socialist
+				has_government = council_communist
+				has_government = utopianism
+			}
+		}
+		relative_position_id = generic_politics_incorporating_trade_unions
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_stability = 0.075
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_socialist_education
+		icon = GFX_focus_generic_socialist_science
+		prerequisite = { focus = generic_politics_socialist_commitee }
+		available = {
+			OR = {
+				has_government = socialist
+				has_government = council_communist
+				has_government = utopianism
+			}
+		}
+		relative_position_id = generic_politics_socialist_commitee
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_research_slot = 1
 		}
 	}
 	
@@ -1577,11 +1975,216 @@
 		}
 		relative_position_id = generic_modern_politics
 		mutually_exclusive = { focus = generic_politics_leftism focus = generic_politics_centrism }
+		x = 6
+		y = 1
+		cost = 10
+		completion_reward = {
+			if = {
+				limit = { has_government = authoritarian_democrat }
+				add_popularity = { ideology = authoritarian_democrat popularity = 0.10 }
+			}
+			else_if = {
+				limit = { has_government = paternal_autocrat }
+				add_popularity = { ideology = paternal_autocrat popularity = 0.10 }
+			}
+			else_if = {
+				limit = { has_government = national_populist }
+				add_popularity = { ideology = national_populist popularity = 0.10 }
+			}
+			else_if = {
+				limit = { has_government = antiquarian_nationalist }
+				add_popularity = { ideology = antiquarian_nationalist popularity = 0.10 }
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_a_strong_state
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = generic_politics_rightism }
+		available = {
+			OR = {
+				has_government = authoritarian_democrat
+				has_government = paternal_autocrat
+				has_government = national_populist
+				has_government = antiquarian_nationalist
+			}
+		}
+		relative_position_id = generic_politics_rightism
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_stability = 0.075
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_a_strong_police
+		icon = GFX_goal_demand_sudetenland
+		prerequisite = { focus = generic_politics_a_strong_state }
+		available = {
+			OR = {
+				has_government = authoritarian_democrat
+				has_government = paternal_autocrat
+				has_government = national_populist
+				has_government = antiquarian_nationalist
+			}
+		}
+		relative_position_id = generic_politics_a_strong_state
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_stability = 0.075
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_a_strong_country
+		icon = GFX_goal_generic_occupy_states_ongoing_war #Replace with a unique icon
+		prerequisite = { focus = generic_politics_a_strong_police }
+		available = {
+			OR = {
+				has_government = authoritarian_democrat
+				has_government = paternal_autocrat
+				has_government = national_populist
+				has_government = antiquarian_nationalist
+			}
+		}
+		relative_position_id = generic_politics_a_strong_police
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_stability = 0.10
+			add_political_power = 75
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_patriotism
+		icon = GFX_focus_generic_support_the_left_right
+		prerequisite = { focus = generic_politics_rightism }
+		available = {
+			OR = {
+				has_government = authoritarian_democrat
+				has_government = paternal_autocrat
+				has_government = national_populist
+				has_government = antiquarian_nationalist
+			}
+		}
+		relative_position_id = generic_politics_rightism
+		x = -2
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_war_support = 0.075
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_promote_militarism
+		icon = GFX_focus_generic_little_entente
+		prerequisite = { focus = generic_politics_patriotism }
+		available = {
+			OR = {
+				has_government = authoritarian_democrat
+				has_government = paternal_autocrat
+				has_government = national_populist
+				has_government = antiquarian_nationalist
+			}
+		}
+		relative_position_id = generic_politics_patriotism
+		x = -1
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_war_support = 0.075
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_our_right_to_conquest
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = generic_politics_promote_militarism }
+		available = {
+			OR = {
+				has_government = authoritarian_democrat
+				has_government = paternal_autocrat
+				has_government = national_populist
+				has_government = antiquarian_nationalist
+			}
+		}
+		relative_position_id = generic_politics_promote_militarism
+		x = 1
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_ideas = generic_idea_our_right_to_conquest
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_press_censorship
+		icon = GFX_focus_red_constitution #Replace with a unique icon
+		prerequisite = { focus = generic_politics_rightism }
+		available = {
+			OR = {
+				has_government = authoritarian_democrat
+				has_government = paternal_autocrat
+				has_government = national_populist
+				has_government = antiquarian_nationalist
+			}
+		}
+		relative_position_id = generic_politics_rightism
 		x = 2
 		y = 1
 		cost = 10
 		completion_reward = {
+			add_ideas = generic_idea_press_censorship
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_surpress_opponents
+		icon = GFX_goal_secret_agents
+		prerequisite = { focus = generic_politics_press_censorship }
+		available = {
+			OR = {
+				has_government = authoritarian_democrat
+				has_government = paternal_autocrat
+				has_government = national_populist
+				has_government = antiquarian_nationalist
+			}
+		}
+		relative_position_id = generic_politics_press_censorship
+		x = 1
+		y = 1
+		cost = 10
+		completion_reward = {
 			add_political_power = 100
+		}
+	}
+	
+	shared_focus = {
+		id = generic_politics_authoritarian_research
+		icon = GFX_focus_research #Replace with a unique icon
+		prerequisite = { focus = generic_politics_surpress_opponents }
+		available = {
+			OR = {
+				has_government = authoritarian_democrat
+				has_government = paternal_autocrat
+				has_government = national_populist
+				has_government = antiquarian_nationalist
+			}
+		}
+		relative_position_id = generic_politics_surpress_opponents
+		x = -1
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_research_slot = 1
 		}
 	}
 	

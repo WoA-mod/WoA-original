@@ -19,7 +19,12 @@ spriteTypes = {
 		name = "GFX_goal_gold_up"
 		texturefile = "gfx/interface/goals/goal_gold_up.dds"
 	}
-
+	
+	SpriteType = {
+		name = "GFX_goal_big_news"
+		texturefile = "gfx/interface/goals/goal_big_news.dds"
+	}
+	
 	SpriteType = {
 		name = "GFX_focus_AUS_agriculture"
 		texturefile = "gfx/interface/goals/AUS_agriculture.dds"
@@ -64,7 +69,8 @@ spriteTypes = {
 		name = "GFX_goal_continuous_def_against_influence"
 		texturefile = "gfx/interface/goals/goal_continuous_def_against_influence.dds"
 	}
-
+	
+	
 	SpriteType = {
 		name = "GFX_goal_continuous_research"
 		texturefile = "gfx/interface/goals/goal_continuous_research.dds"

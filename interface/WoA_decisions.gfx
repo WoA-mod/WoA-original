@@ -4,4 +4,9 @@ spriteTypes = {
 
 	### decision icons
 
+	spriteType = {
+		name = "GFX_decision_generic_world"
+		texturefile = "gfx/interface/decisions/decision_generic_world.dds"
+	}
+	
 }

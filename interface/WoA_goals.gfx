@@ -41,6 +41,12 @@ spriteTypes = {
 		name = "GFX_goal_generic_our_place_in_the_world"
 		texturefile = "gfx/interface/goals/goal_generic_our_place_in_the_world.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_goal_generic_moon_spy"
+		texturefile = "gfx/interface/goals/goal_generic_moon_spy.dds"
+	}
+	
 
 	###Switzerland
 	

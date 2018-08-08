@@ -19,7 +19,7 @@ focus_tree = {
 	shared_focus = generic_examine_the_army
 	shared_focus = generic_expand_aviation
 	shared_focus = generic_strengthen_the_navy
-	#shared_focus = generic_modern_politics
+	shared_focus = generic_modern_politics
 	shared_focus = generic_state_of_the_economy
 	shared_focus = generic_our_place_in_the_world
 

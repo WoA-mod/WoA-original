@@ -232,5 +232,70 @@ ideas = {
 			}
 		}
 		
+		generic_idea_our_right_to_conquest = {
+			picture = guns_shield
+			modifier = {
+				generate_wargoal_tension = -0.10
+				justify_war_goal_time = -0.10
+			}
+		}
+		
+		generic_idea_press_censorship = {
+			picture = HUN_treaty_of_triannon
+			modifier = {
+				utopianism_drift = -0.01
+				council_communist_drift = -0.01
+				socialist_drift = -0.01
+				social_democrat_drift = -0.01
+				liberal_drift = -0.01
+				conservative_drift = -0.01
+			}
+		}
+		
+		generic_idea_academic_sponsoring = {
+			picture = jap_supremacy_of_technology
+			modifier = {
+				research_time_factor = -0.05
+			}
+		}
+		
+		generic_idea_light_of_democracy = {
+			picture = generic_democratic_drift_bonus
+			modifier = {
+				political_power_gain = 0.25
+			}
+		}
+		
+		generic_idea_collectivization = {
+			picture = ast_all_in
+			modifier = {
+				industrial_capacity_factory = 0.05
+			}
+		}
+		
+		generic_idea_secret_police = {
+			picture = generic_spy_intel
+			modifier = {
+				decryption_factor = 0.05
+				enemy_partisan_effect = -0.10
+			}
+		}
+		
+		generic_idea_spreading_the_revolution = {
+			picture = generic_syndicalist_manpower
+			modifier = {
+				send_volunteers_tension = -0.75
+				send_volunteer_divisions_required = -0.50
+			}
+		}
+		
+		generic_idea_a_workers_state = {
+			picture = generic_syndicalist_manpower
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.15
+			}
+		}
+		
 	}
 }
