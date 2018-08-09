@@ -862,4 +862,72 @@ focus_tree = {
 		
 		completion_reward = { }
 	}
+	
+###Armed Forces Branch###
+
+	focus = {
+	
+		id = ARG_ffaa
+		
+		x = 20
+		y = 0
+		
+		icon = GFX_goal_generic_army_doctrines
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		available = { }
+		
+		completion_reward = { }
+	}
+	
+	focus = {
+	
+		id = ARG_fuerza_aerea
+		
+		relative_position_id = ARG_ffaa
+		x = -5
+		y = 1
+		
+		icon = GFX_goal_generic_air_fighter2
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_ffaa }
+
+		available = { }
+		
+		completion_reward = { }
+	}
+	
+	focus = {
+	
+		id = ARG_ejercito
+		
+		relative_position_id = ARG_ffaa
+		x = 0
+		y = 1
+		
+		icon = GFX_goal_rhineland
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		prerequisite = { focus = ARG_ffaa }
+
+		available = { }
+		
+		completion_reward = { }
+	}
 }

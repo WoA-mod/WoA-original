@@ -4,7 +4,7 @@
 
 l_english:
 
-ARG_WoA_DESC:0 "After siding with the Central Powers in the Guerra Mondiale it seemed that the future of Argentina was one of economic growth and glorious peace. However after a long struggle against the Brazilo-Paraguayan alliance in the 1926-1930 Gran Guerra Suramericana, Argentina now suffers immense political and economical instability, which is only worsened that Argentine support is the only reason that Uruguay hasn't collapsed into absolute anarchy yet. With the centrist parties losing support to more radical ideologies, it seems like almost anyone could get to power; be it by being democratically elected in the upcoming 1937 elections, or in a violent revolution."
+ARG_WoA_DESC:0 "After siding with the Central Powers in the Guerra Mondiale it seemed that the future of Argentina was one of economic growth and glorious peace. However after a long struggle against the Brazilo-Paraguayan alliance in the 1926-1930 Gran Guerra Suramericana, Argentina now suffers immense political and economical instability, only worsened by the fact that Argentine support is the only reason that Uruguay hasn't collapsed into absolute anarchy yet. With the centrist parties losing support to more radical ideologies, it seems like almost anyone could get to power; be it by being democratically elected in the upcoming 1937 elections, or in a violent revolution."
 
 ###Parties###
 
@@ -89,6 +89,16 @@ ARG_confederation_of_the_river_plate_desc:0 "By forming a Confederation with Uru
 
 ARG_final_stabilization:0 "Final Stabilization"
 ARG_final_stabilization_desc:0 "Now that we have integrated Uruguay we must ensure the stability of the region, lest its economy goes into crisis again or the people lose faith in us."
+
+ARG_ffaa:0 "FFAA: The Armed Forces"
+ARG_ffaa_desc:0 "Fede is a lazy fuck"
+
+ARG_fuerza_aerea:0 "La Fuerza Aérea"
+ARG_fuerza_aerea_desc:0 "Fede is a lazy fuck"
+
+ARG_ejercito:0 "El Ejército"
+ARG_ejercito_desc:0 "Fede is a lazy fuck"
+
 ###Events###
 
 
