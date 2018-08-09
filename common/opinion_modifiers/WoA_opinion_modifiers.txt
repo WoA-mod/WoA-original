@@ -10,6 +10,9 @@
 
 opinion_modifiers = {
 
+##Generic
+	GEN_FRIEND = { value = 50}
+
 ##Ober Ost##
 	LIT_RIGA_THREAT = { value = -20 }
 }
