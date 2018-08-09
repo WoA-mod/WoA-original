@@ -44,6 +44,71 @@ set_politics = {
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = no
+
+}
+
+create_country_leader = {
+	name = "Karol Smidke"
+	desc = "POLITICS_KAROL_SMIDKE_DESC"
+	picture = "Portrait_Slovakia_Karol_Smidke.dds"
+	expire = "1965.1.1"
+	ideology = utopianist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vladimir Clementis"
+	desc = "POLITICS_VLADIMIR_CLEMENTIS_DESC"
+	picture = "Portrait_Slovakia_Vladimir_Clementis.dds"
+	expire = "1965.1.1"
+	ideology = council_communist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Antonin Janousek"
+	desc = "POLITICS_ANTONIN_JANOUSEK_DESC"
+	picture = "Portrait_Slovakia_Antonin_Janousek.dds"
+	expire = "1965.1.1"
+	ideology = socialis_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ivan Derer"
+	desc = "POLITICS_IVAN_DERER_DESC"
+	picture = "Portrait_Slovakia_Ivan_Derer.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+	
+}
+
+create_country_leader = {
+	name = "Milan Hodza"
+	desc = "POLITICS_MILAN_HODZA_DESC"
+	picture = "Portrait_Slovakia_Milan_Hodza.dds"
+	expire = "1965.1.1"
+	ideology = l_subtype
+	traits = {
+	}
+}
+
+}
+
+create_country_leader = {
+	name = "Stefan Osusky"
+	desc = "POLITICS_STEFAN_OSUSKY_DESC"
+	picture = "Portrait_Slovakia_Stefan_Osusky.dds"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+	}
 }
 
 create_country_leader = {
@@ -51,8 +116,37 @@ create_country_leader = {
 	desc = "POLITICS_JOZEF_TISO_DESC"
 	picture = "Portrait_Slovakia_Jozef_Tiso.dds"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = paternal_autocrat_subtype
 	traits = {
 		#
+	}
+}
+
+create_country_leader = {
+	name = "Andrej Hlinka"
+	desc = "POLITICS_ANDREJ_HLINKA_DESC"
+	picture = "Portrait_Slovakia_Andrej_Hlinka.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Mach"
+	desc = "POLITICS_ALEXANDER_MACH_DESC"
+	picture = "Portrait_Slovakia_Alexander_Mach.dds"
+	expire = "1965.1.1"
+	ideology = national_pop_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Mach"
+	desc = "POLITICS_ALEXANDER_MACH_DESC"
+	picture = "Portrait_Slovakia_Alexander_Mach.dds"
+	expire = "1965.1.1"
+	ideology = antiq_pop_subtype
 	}
 }
