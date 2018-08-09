@@ -1,0 +1,30 @@
+###########################
+# Generic Focus Tree
+###########################
+#Coded by AirHunter. LA parts coded and designed by Fede.
+###########################
+
+focus_tree = {
+	id = generic_la_focus
+	
+	country = {
+		factor = 1
+		modifier = {
+			add = 1
+		 	tag = BRA #insert a Latin America tag here for testing Fede, and feel free to add more
+		}
+	}
+	
+	continuous_focus_position = { x = -400 y = 1800 }
+	
+	default = no #not the generic fallback tree, just the generic for LA.
+	reset_on_civilwar = no
+
+	shared_focus = generic_examine_the_army
+	shared_focus = generic_expand_aviation
+	shared_focus = generic_strengthen_the_navy
+	shared_focus = generic_our_place_in_the_world
+	
+	#Feel free to ignore the shared focuses here as they are the shared paths- make your own paths here, though remember to change the Y position to be down. Wsy down.
+
+}
