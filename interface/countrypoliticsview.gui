@@ -449,26 +449,27 @@ guiTypes = {
 			Orientation = "LOWER_LEFT"
 		}
 		
+
 		iconType = {
 			name = "rules"
 			spriteType = "GFX_rules_sum_icon"
 			position = { x = 460 y = 7 }
 		}
 		
-		#buttonType = {
-		#	name = "manage_occupied_button"
-		#	position = { x = -500 y = -43 }
-		#	quadTextureSprite = "GFX_button_221x34"
-		#	buttonFont = "hoi_16mbs"
-		#	Orientation = "LOWER_RIGHT"
-		#	buttonText = "MANAGE_OCCUPIED_TERRITORIES"
-		#}
+		buttonType = {
+			name = "manage_occupied_button"
+			position = { x = -500 y = -43 }
+			quadTextureSprite = "GFX_button_221x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "LOWER_RIGHT"
+			buttonText = "MANAGE_OCCUPIED_TERRITORIES"
+		}
 		
 		
 
 		buttonType = {
 			name = "show_subjects_button"
-			position = { x = -390 y = -43 }
+			position = { x = -250 y = -43 }
 			quadTextureSprite = "GFX_button_221x34"
 			buttonFont = "hoi_16mbs"
 			Orientation = "LOWER_RIGHT"
