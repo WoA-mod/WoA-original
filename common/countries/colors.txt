@@ -397,13 +397,13 @@ SLO = {
 	color_ui = rgb { 255 255 255 }
 }
 RAJ = {
-	color = rgb { 158 50 50 }
-	color_ui = rgb { 158 50 50 }
+	color = rgb { 104 106 119 }
+	color_ui = rgb { 104 106 119 }
 }
 
 IND = {
-	color = rgb { 255 72 0 } #more colorful one is 255 72 0
-	color_ui = rgb { 255 72 0 } #Old one is 255 103 48
+	color = rgb { 159 44 82 } #original is 255 72 0
+	color_ui = rgb { 159 44 82} #Old one is 255 103 48
 }
 
 CRO = {
@@ -787,8 +787,8 @@ MAD = {
 }
 
 HYD = {
-	color = rgb { 170 85 107 }
-	color_ui = rgb { 200 88 127 }
+	color = rgb { 185 150 3 } ## Old color 170 85 107
+	color_ui = rgb { 185 150 3 }
 }
 
 ORI = {
