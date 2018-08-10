@@ -9,6 +9,7 @@ state={
 
 		}
 		add_core_of = DAN
+		add_core_of = SLO
 	}
 	
 	provinces={
