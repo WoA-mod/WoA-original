@@ -1,7 +1,8 @@
 ﻿l_english:
 
 #Description
-FRA_FUHRERREICH_DESC:0 "Victorious, but at what cost? Many Frenchmen found themselves asking this in the aftermath of the Great War. France had reclaimed its rightful land, and established a protectorate over the Rheinland to prevent the Germans from ever threatening La Patrie ever again. However as the 1930s come to an end, France's position in Europe and the world is increasingly threatened, with a hostile British Empire threatening France's colonies and a increasingly belligerent Soviet Union, but perhaps of the greatest concern is a resurgent Germany. France will need cunning, bravery, and excellent diplomacy to emerge from the coming storm unscathed."
+FRA_FUHRERREICH_DESC:0 "Following their disastrous loss in the Guerra Mondiale, France was forced into an economic union with Germany, whom also retained a tight control over the politics and government of the nation. This led to a socialist revolt in February 1919, and while it was swiftly crushed, the scars of war have still never left France. The year is now 1936. After the war a government was formed under war hero Philippe Petain and the Democratic Alliance party, which has kept a tenous peace, however as the ailing Prussian giant grows weaker by the day, France may soon find itself in yet another war they just cant win..."
+
 
 #Research Groups
 continental_entente_research_name:0 "Entente Institute of Research"
@@ -9,28 +10,26 @@ continental_entente_research_desc:0 "The Entente Institute of Research, or simpl
 
 #### Political Parties ####
 
-FRA_vanguardist_party:0 "UC" #Révolutionnaires
-FRA_vanguardist_party_long:0 "Union Collectiviste"
-FRA_collectivist_party:0 "PCF" #Collectivistes
-FRA_collectivist_party_long:0 "Parti Collectiviste Français"
-FRA_libertarian_socialist_party:0 "SFIO" ##Travailleurs
-FRA_libertarian_socialist_party_long:0 "Section Française de l'Internationale Ouvrière"
-FRA_social_democrat_party:0 "PRS" # Socialistes
-FRA_social_democrat_party_long:0 "Parti Républicain-Socialiste"
-FRA_social_liberal_party:0 "PR" #Radicaux
-FRA_social_liberal_party_long:0 "Parti Radical"
-FRA_market_liberal_party:0 "ARD" #ADR
-FRA_market_liberal_party_long:0 "Alliance Républicaine Démocratique" 
-FRA_social_conservative_party:0 "FR" #Conservateurs
-FRA_social_conservative_party_long:0 "Fédération Républicaine"
-FRA_authoritarian_democrat_party:0 "Gouvernement Militaire"
-FRA_authoritarian_democrat_party_long:0 "Gouvernement Militaire"
-FRA_paternal_autocrat_party:0 "Action Française"
-FRA_paternal_autocrat_party_long:0 "Action Française"
-FRA_national_populist_party:0 "PSF" #Nationalistes
-FRA_national_populist_party_long:0 "Parti Social Français"
-FRA_valkist_party:0 "RNP"
-FRA_valkist_party_long:0 "Rassemblement National Populaire"
+FRA_utopianism_party:0 "PS"
+FRA_utopianism_party_long:0 "Sorellian People's Front"
+FRA_council_communist_party:0 "SFIO (Radical)"
+FRA_council_communist_party_long:0 "French Section of the Workers' Internationale (Radical)"
+FRA_socialist_party:0 "SFIO"
+FRA_socialist_party_long:0 "French Section of the Workers' Internationale"
+FRA_social_democrat_party:0 "PRRRS"
+FRA_social_democrat_party_long:0 "Republican, Radical and Radical Socialist Party"
+FRA_liberal_party:0 "PNR"
+FRA_liberal_party_long:0 "New Radical Party"
+FRA_conservative_party:0 "AD"
+FRA_conservative_party_long:0 "Democratic Alliance"
+FRA_authoritarian_democrat_party:0 "FR"
+FRA_authoritarian_democrat_party_long:0 "Republican Federation"
+FRA_paternal_autocrat_party:0 "AF"
+FRA_paternal_autocrat_party_long:0 "French Action"
+FRA_national_populist_party:0 "PSN"
+FRA_national_populist_party_long:0 "National Socialist Party"
+FRA_antiquarian_nationalist_party:0 "AAC"
+FRA_antiquarian_nationalist_party_long:0 "Antiquarian Catholic Action"
 
 #### TRAITS ####
 cia:0 "Head of the CIA"
@@ -64,72 +63,72 @@ FRA_grant_autonomy:0 "Granted Autonomy"
 
 #### Ideas ####
 
-FRA_great_war_victors:0 "Victors of The Great War"
-FRA_great_war_victors_desc:0 "When the dust had finally settled at the end of the war, we, alongside a multitude of other countries, have emerged victorious over the butchered Central Powers. Our victory has been a huge source of national pride, albeit our people are weary of the notion of another prolonged conflict."
+#FRA_great_war_victors:0 "Victors of The Great War"
+#FRA_great_war_victors_desc:0 "When the dust had finally settled at the end of the war, we, alongside a multitude of other countries, have emerged victorious over the butchered Central Powers. Our victory has been a huge source of national pride, albeit our people are weary of the notion of another prolonged conflict."
+#
+#FRA_rhineland_coal:0 "Coal from The Rhineland"
+#FRA_rhineland_coal_desc:0 "With the acquisition of the Rhineland from Germany after the Great War, we have seen a surplus of Coal, a resource badly needed for French Industries. As long as we remain in control of the Rhineland, we can ensure profits are at an all time high."
+#
+#FRA_infantry_equipment_production:0 "Standardization of Armaments"
+#FRA_infantry_equipment_production_desc:0 "Conscripting more men into the Land Forces means more guns will be required in order to supply them all. The production of infantry equipment has been emphasized by our armament factories... But a problem is we simply could be doing a better job producing one Armament. Why do we need all these petty things like Submachineguns and Shotguns? We will halt production on any small-arms that aren't Rifles."
+#
+#FRA_conscription_idea:0 "Compulsory Service"
+#FRA_conscription_idea_desc:0 "The new draft has made it so that a large portion of the able-bodied French population will fight to defend la mère patrie."
 
-FRA_rhineland_coal:0 "Coal from The Rhineland"
-FRA_rhineland_coal_desc:0 "With the acquisition of the Rhineland from Germany after the Great War, we have seen a surplus of Coal, a resource badly needed for French Industries. As long as we remain in control of the Rhineland, we can ensure profits are at an all time high."
+#FRA_militarization_idea:0 "Industrial Militarization"
+#FRA_militarization_idea_desc:0 "In order to produce additional weapons at a rapid pace, the government has decided to extend the policy of dirigisme and take direct control of the vast majority of military factories."
+#
+#FRA_military_academy_idea:0 "Military Academies"
+#FRA_military_academy_idea_desc:0 "Every officer within the Land Army will be required to be educated from a wide array of military academies to ensure that we have the best and brightest minds within our officer corps."
+#
+#FRA_motorized_research:0 "Motorized Infantry Research"
+#FRA_motorized_research_desc:0 "Researching and adopting new tactics for the Land Army will be quite the ordeal. However, progress is being made to better prepare the Land Army to enact the new doctrine."
+#
+#FRA_offensive_army:0 "Offensive Army"
+#FRA_offensive_army_desc:0 "No longer shall the Land Army use the forts of the Alsace-Rhine Line to intimidate the German menace. We shall use the might of our soldiers, and the discipline of our men, to ensure the German menace never rises again!"
+#
+#FRA_fighter_focus_idea:0 "Fighter Industry"
+#FRA_fighter_focus_idea_desc:0 "Fighter planes, able to maintain both air superiority and wreak havoc on enemy planes, are essential for the reformation of the Air Army."
+#
+#FRA_bomber_focus_idea:0 "Bomber Industry"
+#FRA_bomber_focus_idea_desc:0 "Bomber planes, able to destroy enemy supply lines, are essential for the reformation of the Air Army."
 
-FRA_infantry_equipment_production:0 "Standardization of Armaments"
-FRA_infantry_equipment_production_desc:0 "Conscripting more men into the Land Forces means more guns will be required in order to supply them all. The production of infantry equipment has been emphasized by our armament factories... But a problem is we simply could be doing a better job producing one Armament. Why do we need all these petty things like Submachineguns and Shotguns? We will halt production on any small-arms that aren't Rifles."
-
-FRA_conscription_idea:0 "Compulsory Service"
-FRA_conscription_idea_desc:0 "The new draft has made it so that a large portion of the able-bodied French population will fight to defend la mère patrie."
-
-FRA_militarization_idea:0 "Industrial Militarization"
-FRA_militarization_idea_desc:0 "In order to produce additional weapons at a rapid pace, the government has decided to extend the policy of dirigisme and take direct control of the vast majority of military factories."
-
-FRA_military_academy_idea:0 "Military Academies"
-FRA_military_academy_idea_desc:0 "Every officer within the Land Army will be required to be educated from a wide array of military academies to ensure that we have the best and brightest minds within our officer corps."
-
-FRA_motorized_research:0 "Motorized Infantry Research"
-FRA_motorized_research_desc:0 "Researching and adopting new tactics for the Land Army will be quite the ordeal. However, progress is being made to better prepare the Land Army to enact the new doctrine."
-
-FRA_offensive_army:0 "Offensive Army"
-FRA_offensive_army_desc:0 "No longer shall the Land Army use the forts of the Alsace-Rhine Line to intimidate the German menace. We shall use the might of our soldiers, and the discipline of our men, to ensure the German menace never rises again!"
-
-FRA_fighter_focus_idea:0 "Fighter Industry"
-FRA_fighter_focus_idea_desc:0 "Fighter planes, able to maintain both air superiority and wreak havoc on enemy planes, are essential for the reformation of the Air Army."
-
-FRA_bomber_focus_idea:0 "Bomber Industry"
-FRA_bomber_focus_idea_desc:0 "Bomber planes, able to destroy enemy supply lines, are essential for the reformation of the Air Army."
-
-FRA_bomber_focus_idea2:0 "Bomber Industry"
-FRA_bomber_focus_idea2_desc:0 "Both bomber planes and naval aircraft are essential to aid the reformation of the National Navy and the Air Army."
-
-FRA_our_place_in_the_sun:0 "Our place in the Sun"
-FRA_our_place_in_the_sun_desc:0 "With the end of the Great War, France affirmed herself as the clear victor of the Great War and Hegemon of Europe. However, our position at the top of Europe has caused us to grow far too comfortable for our own good."
-
-FRA_army_reformation_idea:0 "Reformation of the Military"
-FRA_army_reformation_idea_desc:0 "After successfully implementing our massive reforms, updating our doctrine, supplying our soldiers, and bringing morale to an all time high, the French Military is a proper fighting force once more, and ready to take on any obstacle within its path."
-
-FRA_capital_ship_bonus:0 "Naval Production"
-FRA_capital_ship_bonus_desc:0 "With our battleships ruling the seas, and our destroyers guiding them, we shall ensure that France remains a dominant naval power for centuries to come!"
-
-FRA_naval_range_idea:0 "Power Projection"
-FRA_naval_range_idea_desc:0 "While Britain may claim to rule the seas, we know that our navy can properly guard our shores and maritime borders if need be."
-
-FRA_artillery_production_idea:0 "Common Components"
-FRA_artillery_production_idea_desc:0 "Since the new doctrine doctrine of the Land Army is heavily dependent on the production of artillery, it is only natural that we increase our artillery production. However, we will need to undertake a more innovative approach to do this. We shall ensure the Artillery and Anti-tank weapons share common componets for maximum efficiency."
-
-FRA_reduced_conscription_idea:0 "Reduced Conscription"
-FRA_reduced_conscription_idea_desc:0 "With a compromise finally reached between some of the more left-leaning members of our nation, we have managed to keep the policy of conscription — despite it being greaty reduced."
-
-FRA_defend_the_republic:0 "In Defence of the Fatherland"
-FRA_defend_the_republic_desc:0 "We have fought the Germans and have beat them before! We have fought the English and sent them back to their island! We have fought the Spanish, the Dutch, the Italians and we have won over and over! France loves her sons, and her sons will do anything to see her outlast all whom defy her wishes!"
-
-FRA_airforce_decline:0 "Declining Airforce"
-FRA_airforce_decline_desc:0 "Over the period of the Interwar; the French Airforce has steadily been declining in numbers and quality in comparison to the German and British Airforces. Additionally, our Air staff have been bickering over whether we should focus on building our Airforce around Bombers or Fighters."
-
-FRA_british_tariffs:0 "British Tariffs"
-FRA_british_tariffs_desc:0 "Unrelenting British Economic protectionism continues to hurt us to this day. Harsh tariffs on French goods hurt our firms and inhibit our economic growth. This has forced some of our firms to drastically lower prices in an attempt to find ways to sell their products and materials to other nations in order to maintain business."
-
-FRA_political_bickering:0 "Political Bickering"
-FRA_political_bickering_desc:0 "Over the period of Laval's government, various groups of people in our nation have become discontent. Internally, Laval barely holds a majority whilst various conservative movements seem to be abstaining from the elections due to reorganisation or decline and hardline Communists aren't pleased with how SFIO is more moderate than they'd prefer. It is needless to say, some citizens don't feel they are properly being represented."
-
-FRA_research_subsidies:0 "Research Subsidies"
-
-FRA_lsmc:0 "London Stock Market Crash"
+#FRA_bomber_focus_idea2:0 "Bomber Industry"
+#FRA_bomber_focus_idea2_desc:0 "Both bomber planes and naval aircraft are essential to aid the reformation of the National Navy and the Air Army."
+#
+#FRA_our_place_in_the_sun:0 "Our place in the Sun"
+#FRA_our_place_in_the_sun_desc:0 "With the end of the Great War, France affirmed herself as the clear victor of the Great War and Hegemon of Europe. However, our position at the top of Europe has caused us to grow far too comfortable for our own good."
+#
+#FRA_army_reformation_idea:0 "Reformation of the Military"
+#FRA_army_reformation_idea_desc:0 "After successfully implementing our massive reforms, updating our doctrine, supplying our soldiers, and bringing morale to an all time high, the French Military is a proper fighting force once more, and ready to take on any obstacle within its path."
+#
+#FRA_capital_ship_bonus:0 "Naval Production"
+#FRA_capital_ship_bonus_desc:0 "With our battleships ruling the seas, and our destroyers guiding them, we shall ensure that France remains a dominant naval power for centuries to come!"
+#
+#FRA_naval_range_idea:0 "Power Projection"
+#FRA_naval_range_idea_desc:0 "While Britain may claim to rule the seas, we know that our navy can properly guard our shores and maritime borders if need be."
+#
+#FRA_artillery_production_idea:0 "Common Components"
+#FRA_artillery_production_idea_desc:0 "Since the new doctrine doctrine of the Land Army is heavily dependent on the production of artillery, it is only natural that we increase our artillery production. However, we will need to undertake a more innovative approach to do this. We shall ensure the Artillery and Anti-tank weapons share common componets for maximum efficiency."
+#
+#FRA_reduced_conscription_idea:0 "Reduced Conscription"
+#FRA_reduced_conscription_idea_desc:0 "With a compromise finally reached between some of the more left-leaning members of our nation, we have managed to keep the policy of conscription — despite it being greaty reduced."
+#
+#FRA_defend_the_republic:0 "In Defence of the Fatherland"
+#FRA_defend_the_republic_desc:0 "We have fought the Germans and have beat them before! We have fought the English and sent them back to their island! We have fought the Spanish, the Dutch, the Italians and we have won over and over! France loves her sons, and her sons will do anything to see her outlast all whom defy her wishes!"
+#
+#FRA_airforce_decline:0 "Declining Airforce"
+#FRA_airforce_decline_desc:0 "Over the period of the Interwar; the French Airforce has steadily been declining in numbers and quality in comparison to the German and British Airforces. Additionally, our Air staff have been bickering over whether we should focus on building our Airforce around Bombers or Fighters."
+#
+#FRA_british_tariffs:0 "British Tariffs"
+#FRA_british_tariffs_desc:0 "Unrelenting British Economic protectionism continues to hurt us to this day. Harsh tariffs on French goods hurt our firms and inhibit our economic growth. This has forced some of our firms to drastically lower prices in an attempt to find ways to sell their products and materials to other nations in order to maintain business."
+#
+#FRA_political_bickering:0 "Political Bickering"
+#FRA_political_bickering_desc:0 "Over the period of Laval's government, various groups of people in our nation have become discontent. Internally, Laval barely holds a majority whilst various conservative movements seem to be abstaining from the elections due to reorganisation or decline and hardline Communists aren't pleased with how SFIO is more moderate than they'd prefer. It is needless to say, some citizens don't feel they are properly being represented."
+#
+#FRA_research_subsidies:0 "Research Subsidies"
+#
+#FRA_lsmc:0 "London Stock Market Crash"
 
 FRA_lower_colonial_budget:0 "Reduced Colonial Maintenance"
 
