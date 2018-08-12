@@ -15,20 +15,20 @@ set_technology = {
 }
 
 set_convoys = 50
-set_stability = 0.5
-set_war_support = 0.4
+set_stability = 0.3
+set_war_support = 0.6
 
 set_politics = {
 
 	parties = {
 		utopianism = { 
-			popularity = 17
+			popularity = 30
 		}
 		council_communist = { 
-			popularity = 40
+			popularity = 30
 		}
 		socialist = { 
-			popularity = 25
+			popularity = 20
 		}
 		social_democrat = { 
 			popularity = 12
@@ -37,10 +37,10 @@ set_politics = {
 			popularity = 6
 		}
 		conservative = { 
-			popularity = 0
+			popularity = 1
 		}
 		authoritarian_democrat = { 
-			popularity = 0
+			popularity = 1
 		}
 		paternal_autocrat = {
 			popularity = 0
@@ -73,13 +73,3 @@ create_country_leader = {
 	}
 }
 
-create_field_marshal = {
-	name = "Subhash Chandra Bose"
-	picture = "Chandra_Bose.tga"
-	traits = { }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 4
-}
