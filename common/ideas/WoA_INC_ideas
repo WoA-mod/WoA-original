@@ -1,0 +1,62 @@
+#by @a_toothbrush w/o images
+
+ideas = {
+	country = {
+	
+		INC_utopianopposition = {
+		
+			allowed = {
+			
+				orginal_tag = INC 
+			
+			}
+			
+			removal_cost = 1
+			modifer = {
+			
+				conscription_factor = -0.2
+				research_time_factor = -0.05
+				stability_factor = -0.15
+				production_speed_buildings_factor = -0.02
+				political_power_factor = -0.3
+			
+			}
+			}
+			INC_incompletelandreform = {
+				modifer = {
+					conscription_factor = -0.1
+					stability_factor = -0.1
+					political_power_factor = -0.1
+			`	}
+			}
+			INC_fiercepatriotism = {
+				modifer = {
+					army_org_factor = 0.2
+					conscription_factor = 0.15
+					army_morale_factor = 0.2
+					army_core_defense_factor = 0.2
+				}
+			}
+			INC_adventuristarmy = {
+				modifer = {
+					encyrption_factor = -0.1
+					army_org_factor = -0.1
+					offense = -0.1
+				}
+			}
+			
+			INC_decentralisedplanning = {
+				modifer = {
+					production_factory_efficiency_gain_factor = -0.2
+					consumer_goods_factor = -0.15
+					industrial_capacity_factor = -0.1
+				}
+			
+			}
+			
+			
+			
+		
+		}
+	
+	}
