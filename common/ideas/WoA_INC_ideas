@@ -3,13 +3,15 @@
 ideas = {
 	country = {
 	
-		INC_utopianopposition = {
-		
-			allowed = {
+	allowed = {
 			
 				orginal_tag = INC 
 			
 			}
+			
+	
+		INC_utopianopposition = {
+		
 			
 			removal_cost = 1
 			modifer = {
@@ -23,6 +25,8 @@ ideas = {
 			}
 			}
 			INC_incompletelandreform = {
+			
+			removal_cost = 1
 				modifer = {
 					conscription_factor = -0.1
 					stability_factor = -0.1
@@ -30,6 +34,8 @@ ideas = {
 			`	}
 			}
 			INC_fiercepatriotism = {
+			
+			removal_cost = 1
 				modifer = {
 					army_org_factor = 0.2
 					conscription_factor = 0.15
@@ -38,6 +44,8 @@ ideas = {
 				}
 			}
 			INC_adventuristarmy = {
+			
+			removal_cost = 1
 				modifer = {
 					encyrption_factor = -0.1
 					army_org_factor = -0.1
@@ -46,6 +54,8 @@ ideas = {
 			}
 			
 			INC_decentralisedplanning = {
+			
+			removal_cost = 1
 				modifer = {
 					production_factory_efficiency_gain_factor = -0.2
 					consumer_goods_factor = -0.15
