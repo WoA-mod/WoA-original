@@ -1,0 +1,215 @@
+﻿###EVENTS FOR THE INDIAN COMMUNE, by @a_toothbrush
+
+#XXXOP = Option
+
+add_namespace = indcom
+
+	#EVENT1: STATE OF INDIA COMMUNE
+country_event = {	
+	id = indcom.001
+	
+	title = indcom.001.t
+	
+	desc = indcom.001.d
+	
+	picture = event_test
+	
+	
+	
+	trigger = {
+	
+		tag = INC
+		
+		date > 1936.1.1
+	
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+	
+		name = indcom.001OP
+	
+	}
+}
+#EVENT Utopian Gen Strike
+
+news_event = {
+
+		id = indcom.002
+	
+		title = indcom.002.t
+		
+		desc = indcom.002.d 
+		
+		picture  = event_test #CHANGE
+	
+	trigger = {
+	
+		tag = INC
+		
+		#DATES MAY BE SUBJECT TO CHANGE LATER ON DEPENDING ON TESTING AND FEEDBACK
+		
+		date > 1936.2.10 
+		
+		date < 1936.5.10 
+		
+		has_government = council_communist
+		
+		has_idea = INC_utopianopposition
+		
+	}
+	
+	option = {
+	
+		name = indcom.utopiangenstrikeOP
+		
+		add_stability = -0.05
+		
+		add_political_power = -25
+		
+		add_popularity = {
+	
+		ideology = utopianism
+		
+		popularity = 0.05
+		
+		}
+	
+	}
+
+}
+
+#EVENT Utopian Coup De Etat Begins#
+
+country_event = {
+
+		id = indcom.003
+	
+		title = indcom.003.t
+	
+		desc = indcom.003.d
+	
+		fire_only_once = yes
+	
+		picture = event_test #CHANGE
+	
+	trigger = {
+	
+		tag = INC
+		
+		has_idea = INC_utopianopposition
+		has_stability < 0.1
+		
+		utopianism > 0.6
+		
+	}
+	
+	option = {
+	
+		name = indcom.utopiancoupstartA
+		
+		news_event = { id = indcom.004 days = 1 }
+		
+		
+		
+		}
+		
+	option = {
+	
+		name = indcom.utopiancoupstartB
+		
+		news_event = { id = indcom.005 days = 1  }
+		
+	}
+	}
+	
+news_event = {
+
+		id = indcom.004
+		
+		title = indcom.004.t
+		
+		desc = indcom.004.d
+		
+		is_triggered_only = yes
+
+
+	trigger = {
+	
+			tag = INC
+	
+	}
+	
+	option = {
+	
+		name = indcom.utopiancoupOP
+		
+		set_politics = {
+		
+		parties = {
+		
+		utopianism = { 
+			popularity = 80
+		}
+
+		council_communist = {
+			popularity = 20
+		}
+			
+	}
+	
+	ruling_party = utopianism
+   }
+		
+		create_faction = The Utopian Bloc
+		
+		
+			if = {
+					limit = {
+						has_idea = INC_utopianopposition
+					}
+					remove_ideas = INC_utopianopposition
+					
+					add_ideas = INC_a_utopian_commune
+	
+	}
+	}
+	}
+	
+news_event = {
+
+		id = indcom.005
+		
+		title = indcom.005.t
+		
+		desc = indcom.005.t
+		
+		is_triggered_only = yes
+		
+		trigger = {
+		
+			tag = INC
+			
+		}
+		
+		option = {
+		
+		name = indcom.utopiancoupfailOP
+		
+		remove_ideas = INC_utopianopposition
+		
+		add_ideas = INC_councilcomcrackdown
+		
+		add_stability = 0.15
+		
+		}
+		
+
+}
+
+
+
+
+	
+	
