@@ -6,8 +6,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = YUN
-		add_core_of = YUN
+		owner = VIN
 		add_core_of = LAO
 		add_core_of = VIN
 		buildings = {
