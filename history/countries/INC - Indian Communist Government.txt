@@ -22,10 +22,10 @@ set_politics = {
 
 	parties = {
 		utopianism = { 
-			popularity = 30
+			popularity = 25
 		}
 		council_communist = { 
-			popularity = 30
+			popularity = 35
 		}
 		socialist = { 
 			popularity = 20
@@ -60,6 +60,11 @@ set_politics = {
 }
 
 add_ideas = {
+    INC_utopianopposition
+    INC_incompletelandreform
+    INC_fiercepatriotism
+    INC_adventuristarmy
+    INC_decentralisedplanning
 }
 
 create_country_leader = {
