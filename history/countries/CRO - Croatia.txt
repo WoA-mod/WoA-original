@@ -22,18 +22,36 @@ set_war_support = 0.21
 set_politics = {
 
 	parties = {
+		utopianism = {
+			popularity = 5
+		}
+		council_communism = {
+			popularity = 8
+		}
+		socialist = {
+			popularity = 7
+		}
         social_democrat = {
-            popularity = 10
+            popularity = 23
         }
         liberal = {
-            popularity = 0
+            popularity = 15
         }
+	 	conservative = {
+	        popularity = 16
+	    }
         authoritarian_democrat = {
             popularity = 0
         }
-	 	conservative = {
-	        popularity = 60
-	    }
+		paternal_autocrat = {
+			popularity = 17
+		}
+		national_populist = {
+			popularity = 4
+		}
+		antiquarian_nationalist = {
+			popularity = 5
+		}
 	}   
 	
 	ruling_party = liberal
@@ -123,7 +141,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Croatian Regency"
 	desc = "POLITICS_CROATIAN_REGENCY_DESC"
-	picture = "gfx/leaders/ALB/Portrait_Albania_Ferdinand_I.dds"
+	picture = "gfx/leaders/CRO/PLACEHOLDER.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
