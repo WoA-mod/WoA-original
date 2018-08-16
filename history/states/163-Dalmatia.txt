@@ -1,20 +1,22 @@
 state=
 {
 	id=163
-	name="STATE_163" #Srijem (Syrmia)
-	manpower = 437200
+	name="STATE_163"
+	manpower = 18000
 	
 	state_category = pastoral
 	
 	history={
 		owner = CRO
 		add_core_of = CRO
-		add_core_of = SER
 		buildings = {
 			infrastructure = 5
+			3943 = {
+				naval_base = 1
+			}
 		}
 	} 
 	provinces={	
-		11577 11580
+		3943 
 	}
 }
