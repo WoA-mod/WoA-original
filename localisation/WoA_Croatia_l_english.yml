@@ -1,4 +1,30 @@
-﻿l_english:
+﻿######################################################################################
+# Croatia Localization - by Fraaz (seriously, who else would want to touch Croatia?) #
+######################################################################################
+
+l_english:
+ #Parties
+ CRO_utopianism_party:0 "SKH"
+ CRO_utopianism_party_long:0 "Savez Komunista Hrvatske (Utopianist section)"
+ CRO_council_communist_party:0 "SKH"
+ CRO_council_communist_party_long:0 "Savez Komunista Hrvatske (Council Communist section)"
+ CRO_socialist_party:0 "SKH"
+ CRO_socialist_party_long:0 "Savez Komunista Hrvatske (Radical Socialist section)"
+ CRO_social_democrat_party:0 "SSH"
+ CRO_social_democrat_party_long:0 "Socijaldemokratska Stranka Hrvatske"
+ CRO_liberal_party:0 "HSS"
+ CRO_liberal_party_long:0 "Hrvatska Seljačka Stranka"
+ CRO_conservative_party:0 "HPS"
+ CRO_conservative_party_long:0 "Hrvatska Pučka Stranka"
+ CRO_authoritarian_democrat_party:0 "Military Junta"
+ CRO_authoritarian_democrat_party_long:0 "Military Junta"
+ CRO_paternal_autocrat_party:0 "Regency Council"
+ CRO_paternal_autocrat_party_long:0 "Regency Council"
+ CRO_national_populist_party:0 "Ustaša"
+ CRO_national_populist_party_long:0 "Ustaša - Hrvatski Revolucionarni Pokret"
+ CRO_antiquarian_nationalist_party:0 "IP"
+ CRO_antiquarian_nationalist_party_long:0 "Ilirski Pokret"
+ 
  #Focii
  CRO_elections_1936:0 "The Elections of 1936"
  CRO_elections_1936_desc:0 "These elections are the most important ones in our history. The people have lost faith in the liberal and conservative parties, who ran our country since its creation. The Social Democrats are strong and are gaining consensus, and they are the ones that will most likely win."

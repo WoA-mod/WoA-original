@@ -25,7 +25,7 @@ set_politics = {
 		utopianism = {
 			popularity = 5
 		}
-		council_communism = {
+		council_communist = {
 			popularity = 8
 		}
 		socialist = {
@@ -120,7 +120,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Petar Grgec"
 	desc = "POLITICS_PETAR_GRGEC_DESC"
-	picture = "gfx/leaders/CRO/PLACEHOLDER.dds"
+	picture = "gfx/leaders/CRO/CRO_Petar_Grgec.dds"
 	expire = "1965.1.1"
 	ideology = conservative_subtype
 	traits = {
