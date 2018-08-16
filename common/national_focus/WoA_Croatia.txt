@@ -1,0 +1,1085 @@
+focus_tree = {
+	id = croatia_focus
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 20
+			tag = CRO
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 2000	}
+
+	#Elections!
+	focus = {
+		id = CRO_elections_1936
+		icon = GFX_goal_support_democracy
+		x = 13
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+		}
+	}
+	#Republic survives!
+	focus = {
+		id = CRO_republic_survives
+		icon = GFX_goal_generic_improve_relations
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_elections_1936
+		x = -11
+		y = 1
+		cost = 1
+		prerequisite = {
+		 focus = CRO_elections_1936
+		}
+	}
+##############################################
+#	Conservative tree
+##############################################
+	#Popular Party victory!
+	focus = {
+		id = CRO_popular_party_victory
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		mutually_exclusive = {
+			focus = CRO_socdem_victory
+			focus = CRO_peasant_party_victory
+		}
+		relative_position_id = CRO_republic_survives
+		x = -2
+		y = 1
+		cost = 1
+		prerequisite = {
+		 focus = CRO_republic_survives
+		}
+	}
+	#build a few civs
+	focus = {
+		id = CRO_industrial_subsidies
+		icon = GFX_goal_generic_construct_civ_factory
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_popular_party_victory
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+		 focus = CRO_popular_party_victory
+		}
+	}
+#	ask germany for guarantee
+#	focus = {
+#		id = CRO_seek_german_protection
+#		icon = PLACEHOLDER
+#		available = {
+#			always = no
+#		}
+#		relative_position_id = CRO_popular_party_victory
+#		x = 0
+#		y = 2
+#		cost = 1
+#		prerequisite = {
+#			focus = CRO_industrial_subsidies
+#		}
+#	}
+	#partition bosnia
+	focus = {
+		id = CRO_settle_bosnian_question
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_popular_party_victory
+		x = 0
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = CRO_industrial_subsidies
+		}
+	}
+	#stability and recruitable population boost, gain defense and attack on core buff
+	focus = {
+		id = CRO_republic_for_all_croats
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_popular_party_victory
+		x = 0
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = CRO_settle_bosnian_question
+		}
+	}
+##############################################
+#	Liberal tree
+##############################################
+	#Peasant party victory!
+	focus = {
+		id = CRO_peasant_party_victory
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		mutually_exclusive = {
+			focus = CRO_socdem_victory
+			focus = CRO_popular_party_victory
+		}
+		relative_position_id = CRO_republic_survives
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+		 focus = CRO_republic_survives
+		}
+	}
+	#factory output boost
+	focus = {
+		id = CRO_economic_liberalisation
+		icon = GFX_goal_generic_positive_trade_relations
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_peasant_party_victory
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+		 focus = CRO_peasant_party_victory
+		}
+	}
+	#invite all balkan countries in, +2% consumer goods +3% factory output for each member that accepts
+	focus = {
+		id = CRO_balkan_economic_cooperation
+		icon = GFX_goal_generic_consumer_goods
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_peasant_party_victory
+		x = 0
+		y = 2
+		cost = 1
+		prerequisite = {
+		 focus = CRO_economic_liberalisation
+		}
+	}
+	#change in popularity, 5% 
+	focus = {
+		id = CRO_monument_to_radic
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_peasant_party_victory
+		x = 0
+		y = 3
+		cost = 1
+		prerequisite = {
+		 focus = CRO_balkan_economic_cooperation
+		}
+	}
+	#shared between conservaive and liberal, removes lack of trust and adds a small daily increase to lib and con popularities
+	focus = {
+		id = CRO_trust_in_system
+		icon = GFX_focus_generic_the_giant_wakes
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_peasant_party_victory
+		x = -1
+		y = 4
+		cost = 1
+		prerequisite = {
+			focus = CRO_republic_for_all_croats
+			focus = CRO_monument_to_radic
+		}
+	}
+##############################################
+#	SocDem tree
+##############################################
+	focus = {
+		id = CRO_socdem_victory
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		mutually_exclusive = {
+			focus = CRO_popular_party_victory
+			focus = CRO_peasant_party_victory
+		}
+		relative_position_id = CRO_republic_survives
+		x = 2
+		y = 1
+		cost = 1
+		prerequisite = {
+		 focus = CRO_republic_survives
+		}
+	}
+	#gain stability, 5% party popularity, 0.5% recruitable pop and 10% monthly pop
+	focus = {
+		id = CRO_feed_the_poor
+		icon = GFX_focus_generic_concessions
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_socdem_victory
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+		 focus = CRO_socdem_victory
+		}
+	}
+	#Gain stability, 3% party popularity for each commie type
+	focus = {
+		id = CRO_lift_ban_communism
+		icon = GFX_focus_generic_soviet_politics
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_socdem_victory
+		x = 0
+		y = 2
+		cost = 1
+		prerequisite = {
+		 focus = CRO_feed_the_poor
+		}
+	}
+	#Seek danubian protection
+	focus = {
+		id = CRO_ties_to_danubia
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_socdem_victory
+		x = 0
+		y = 3
+		cost = 1
+		prerequisite = {
+		 focus = CRO_lift_ban_communism
+		}
+	}
+	#remove debuffs from pissed italians and serbs, gains more stability
+	focus = {
+		id = CRO_autonomy_for_minorities
+		icon = GFX_goal_generic_national_unity
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_socdem_victory
+		x = 0
+		y = 4
+		cost = 1
+		prerequisite = {
+		 focus = CRO_ties_to_danubia
+		}
+	}
+##############################################
+	#Monarchist coup!
+	focus = {
+		id = CRO_monarchist_coup
+		icon = GFX_focus_YUG_banovina_of_croatia
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_elections_1936
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+		 focus = CRO_elections_1936
+		}
+	}
+	#Elect a king
+	focus = {
+		id = CRO_elect_king
+		icon = GFX_focus_generic_home_defense
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_monarchist_coup
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+		 focus = CRO_monarchist_coup
+		}
+	}
+##############################################
+#	King Sandor's Tree (National Populist)
+##############################################
+	#A nationalist king!
+	focus = {
+		id = CRO_king_sandor
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_elect_king
+		x = 5
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = CRO_elect_king
+		}
+	}
+	#RISE OF CROATIA
+	#Recruitable population +3%, war support +10%, justify time -15%
+	focus = {
+		id = CRO_rise_of_croatia
+		icon = GFX_focus_generic_strike_at_democracy1
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_sandor
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = CRO_king_sandor
+		}
+	}
+	#BOSNIA WILL BE OURS!
+	#Demand Bosnian annexation. Likely to succeed but will piss powers off and generate tension.
+	focus = {
+		id = CRO_bosnia_will_be_ours
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_sandor
+		x = 0
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = CRO_rise_of_croatia
+		}
+	}
+	#THE KING'S LEADERSHIP
+	#Core Croatian Bosnia. Gain Serbian and Bosniak opposition debuffs. Add 15% atk and def on core territory. Add 10% stability. Unlock decisions to "Croatify" Bosniaks and Serbs.
+	focus = {
+		id = CRO_kings_leadership
+		icon = GFX_focus_rom_royal_dictatorship
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_sandor
+		x = 0
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = CRO_bosnia_will_be_ours
+		}
+	}
+	#SLOVENIAN BROTHERS
+	#Claims on Slovenia, Istria, Friuli. Political power +150. Opinion lowered with Roma and Danubia. World Tension rises by 3.
+	focus = {
+		id = CRO_slovenian_brothers
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_sandor
+		x = 0
+		y = 4
+		cost = 1
+		prerequisite = {
+			focus = CRO_kings_leadership
+		}
+	}
+	#DEMAND SLOVENIA
+	#Ultimatum to Danubia (or Slovenia if they got independence). Will accept if they're in a big war or collapsing in Danubia's case, Slovenia will almost always accept unless they're nationalist or stronger than Croatia.
+	focus = {
+		id = CRO_demand_slovenia
+		icon = GFX_goal_generic_territory_or_war
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_slovenian_brothers
+		x = -1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = CRO_slovenian_brothers
+		}
+	}
+	#DEMAND VENEZIA-GIULIA
+	#Ultimatum to Italy for Istria and Friuli. Will almost always be refused.
+	focus = {
+		id = CRO_demand_venezia_giulia
+		icon = GFX_goal_generic_territory_or_war
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_slovenian_brothers
+		x = 1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = CRO_slovenian_brothers
+		}
+	}
+	#GREATER CROATIA
+	#Core Istria and Slovenia, boost italian opposition debuff, gain buff +15% atk and def on core territory, 10% division org, 5% recruitable pop, political power gain +20%
+	focus = {
+		id = CRO_greater_croatia_sandor
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_slovenian_brothers
+		x = 0
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = CRO_demand_slovenia
+		}
+		prerequisite = {
+			focus = CRO_demand_venezia_giulia
+		}
+	}
+##############################################
+#	King Karoly's Tree - Democratic
+##############################################
+	#A democratic king!
+	focus = {
+		id = CRO_king_karoly
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_elect_king
+		x = -5
+		y = 1
+		cost = 1
+		prerequisite = {
+		 focus = CRO_elect_king
+		}
+	}
+	#RESTORE DEMOCRACY
+	#Holds elections. It does not unlock the other tree, but it forms your Croatia's government while still under the King's leadership.
+	focus = {
+		id = CRO_restore_democracy
+		icon = GFX_goal_support_democracy
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_karoly
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+		 focus = CRO_king_karoly
+		}
+	}
+	#LOYALTY TO THE KINGDOM
+	#2% recruitable pop, 10% stability
+	focus = {
+		id = CRO_loyalty_to_the_kingdom
+		icon = GFX_focus_generic_military_mission
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_karoly
+		x = 0
+		y = 2
+		cost = 1
+		prerequisite = {
+		 focus = CRO_restore_democracy
+		}
+	}
+	#ENEMIES ON ALL SIDES
+	#KR reference because why not. Gives a buff of 25% defense and attack on cores.
+	focus = {
+		id = CRO_enemies_on_all_sides
+		icon = GFX_goal_generic_political_pressure
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_karoly
+		x = 0
+		y = 3
+		cost = 1
+		prerequisite = {
+		 focus = CRO_loyalty_to_the_kingdom
+		}
+	}
+	#THE COMMUNIST THREAT
+	#Builds level 4 forts on the danubian border.
+	focus = {
+		id = CRO_commie_threat
+		icon = GFX_focus_ger_bulwark_against_bolshevism
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_karoly
+		x = -2
+		y = 4
+		cost = 1
+		prerequisite = {
+		 focus = CRO_enemies_on_all_sides
+		}
+	}
+	#PROTECT BOSNIA
+	#Offers Bosnia protection in exchange for ethnic croatian parts. Bosnia is given the option to get a guarantee or get puppeted. AI will almost always choose the latter.
+	focus = {
+		id = CRO_protect_bosnia
+		icon = GFX_goal_generic_improve_relations
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_karoly
+		x = 0
+		y = 4
+		cost = 1
+		prerequisite = {
+		 focus = CRO_enemies_on_all_sides
+		}
+	}
+	#ITALIAN IMPERIALISTS
+	#Fortifies the coast with level-2 forts. If present, fortifies the border with level 4 forts.
+	focus = {
+		id = CRO_italian_imperialists
+		icon = GFX_focus_generic_italy_first
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_karoly
+		x = 2
+		y = 4
+		cost = 1
+		prerequisite = {
+		 focus = CRO_enemies_on_all_sides
+		}
+	}
+	#OUR OLDEST ENEMY
+	#Lowers relations with Serbia, lowers stability but keeps bonia united.
+	focus = {
+		id = CRO_oldest_enemy
+		icon = GFX_goal_generic_forceful_treaty
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_karoly
+		x = 1
+		y = 5
+		cost = 1
+		mutually_exclusive = {
+			focus = CRO_serbs_belong_in_serbia
+		}
+		prerequisite = {
+		 focus = CRO_protect_bosnia
+		}
+	}
+	#SERBS BELONG IN SERBIA
+	#Serbia and Croatia start guaranteeing each other. Serbia acquires Serbian Bosnia and a croatian puppet Bosniak republic is established in the muslim parts. Will also show a decision for a population exchange with Serbia, removing the spirit of Serb resistance.
+	focus = {
+		id = CRO_serbs_belong_in_serbia
+		icon = GFX_goal_generic_dangerous_deal
+		available = {
+			always = no
+		}
+		mutually_exclusive = {
+			focus = CRO_oldest_enemy
+		}
+		relative_position_id = CRO_king_karoly
+		x = -1
+		y = 5
+		cost = 1
+		prerequisite = {
+		 focus = CRO_protect_bosnia
+		}
+	}
+##############################################
+#	King Antun's Tree - Paternal Autocrat
+##############################################
+	#A Yugoslavist king!
+	focus = {
+		id = CRO_king_antun
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_elect_king
+		x = 1
+		y = 1
+		cost = 1
+		prerequisite = {
+		 focus = CRO_elect_king
+		}
+	}
+	#THE DREAM OF YUGOSLAVIA
+	#Claim all South Slavic land, gives an extra 3% recruitable population and political power gain +0.50. Gives negative opinion against all other South Slavic countries.
+	focus = {
+		id = CRO_yugoslavia_dream
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_antun
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+		 focus = CRO_king_antun
+		}
+	}
+	#FREE BOSNIA
+	#Ultimatum to Bosnia demanding full annexation. Sarkotic will always refuse, and so will every nationalist.
+	focus = {
+		id = CRO_free_bosnia
+		icon = GFX_goal_generic_territory_or_war
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_antun
+		x = 0
+		y = 2
+		cost = 1
+		prerequisite = {
+		 focus = CRO_yugoslavia_dream
+		}
+	}
+	#A STEP TOWARDS UNITY
+	#Core all of Bosnia, gain 5 stability and 15 war support.
+	focus = {
+		id = CRO_a_step_towards_unity
+		icon = GFX_goal_generic_national_unity
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_antun
+		x = 0
+		y = 3
+		cost = 1
+		prerequisite = {
+		 focus = CRO_free_bosnia
+		}
+	}
+	#STRIKE AT THE SERBS
+	#Gain CB against Serbia.
+	focus = {
+		id = CRO_strike_serbia
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_antun
+		x = 0
+		y = 4
+		cost = 1
+		prerequisite = {
+		 focus = CRO_a_step_towards_unity
+		}
+	}
+	#ULTIMATUM TO MONTENEGRO
+	#Demand annexation of Montenegro. They'll likely give in to the request, given that nobody is guaranteeing them or that they are not in a faction.
+	focus = {
+		id = CRO_ultimatum_montenegro
+		icon = GFX_goal_generic_territory_or_war
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_antun
+		x = 0
+		y = 5
+		cost = 1
+		prerequisite = {
+		 focus = CRO_strike_serbia
+		}
+	}
+	#DOWN WITH THE FAKE TSAR
+	#Gain CB against Bulgaria.
+	focus = {
+		id = CRO_down_with_fake_tsar
+		icon = GFX_goal_generic_major_war
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_antun
+		x = 0
+		y = 6
+		cost = 1
+		prerequisite = {
+		 focus = CRO_ultimatum_montenegro
+		}
+	}
+	#YUGOSLAVIA IS UNITED!
+	#Gain core on all conquered lands. Gain 5% atk and def on core territory, remove serbian resistance debuff.
+	focus = {
+		id = CRO_united_yugoslavia
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_antun
+		x = 0
+		y = 7
+		cost = 1
+		prerequisite = {
+		 focus = CRO_down_with_fake_tsar
+		}
+	}
+	#FREE SLOVENIA
+	#Gain core on Istria and Slovenia. Gain claim on Venetia-Giulia. Unlocks decisions to demand the land.
+	focus = {
+		id = CRO_free_slovenia
+		icon = GFX_goal_generic_demand_territory
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_antun
+		x = 0
+		y = 9
+		cost = 1
+		prerequisite = {
+		 focus = CRO_united_yugoslavia
+		}
+	}
+	#SERBIAN GENERALS
+	#Unlocks decisions about whether keep or not Serbian generals.
+	focus = {
+		id = CRO_serbian_generals
+		icon = GFX_focus_generic_military_mission
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_antun
+		x = 1
+		y = 8
+		cost = 1
+		prerequisite = {
+		 focus = CRO_united_yugoslavia
+		}
+	}
+	#BULGARIAN GENERALS
+	#Unlocks decisions about whether keep or not Bulgarian generals.
+	focus = {
+		id = CRO_bulgarian_generals
+		icon = GFX_focus_generic_military_mission
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_antun
+		x = -1
+		y = 8
+		cost = 1
+		prerequisite = {
+		 focus = CRO_united_yugoslavia
+		}
+	}
+######################################################
+#	King August Wilhelm tree - Authoritarian Democrat
+#####################################################
+	#A German prince!
+	focus = {
+		id = CRO_king_willy
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_elect_king
+		x = -1
+		y = 1
+		cost = 1
+		prerequisite = {
+		 focus = CRO_elect_king
+		}
+	}
+	#TIES WITH GERMANY
+	#Germany guarantees Croatia, gain 100 PP and opinion modifier with Germany +50
+	focus = {
+		id = CRO_ties_with_germany
+		icon = GFX_goal_tripartite_pact
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_willy
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+		 focus = CRO_king_willy
+		}
+	}
+	#BOSNIAN ANNEXATION
+	#Annex Bosnia, gain core on Bosniak and Croat area.
+	focus = {
+		id = CRO_bosnian_annexation
+		icon = GFX_goal_generic_position_armies
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_willy
+		x = 0
+		y = 2
+		cost = 1
+		prerequisite = {
+		 focus = CRO_ties_with_germany
+		}
+	}
+	#MITTELEUROPA MEMBERSHIP
+	#Joins Mitteleuropa.
+	focus = {
+		id = CRO_join_mitteleuropa
+		icon = GFX_goal_generic_alliance
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_willy
+		x = 0
+		y = 3
+		cost = 1
+		prerequisite = {
+		 focus = CRO_bosnian_annexation
+		}
+	}
+	#GERMAN RESEARCH
+	#Enable and join faction research.
+	focus = {
+		id = CRO_german_research
+		icon = GFX_goal_tfv_generic_tech_sharing
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_willy
+		x = 0
+		y = 4
+		cost = 1
+		prerequisite = {
+		 focus = CRO_join_mitteleuropa
+		}
+	}
+	#GERMAN MILITARY ADVISORS
+	#Gain land experience, maybe some more?
+	focus = {
+		id = CRO_german_advisors
+		icon = GFX_goal_generic_intelligence_exchange
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_king_willy
+		x = 0
+		y = 5
+		cost = 1
+		prerequisite = {focus = CRO_german_research}
+	}
+######################################################
+#	Ante Pavelic tree
+#####################################################
+	#Ustasha coup
+	focus = {
+		id = CRO_ustasa_coup
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_elections_1936
+		x = 11
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = CRO_elections_1936
+		}
+	}
+	#CONSOLIDATION OF POWER
+	#pp +100, stability +10%
+	focus = {
+		id = CRO_consolidation_of_power
+		icon = GFX_goal_generic_political_pressure
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_ustasa_coup
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = CRO_ustasa_coup
+		}
+	}
+	#PURGE LEFTISTS
+	#pp -100, stability -10%, SocDem popularity -10%, all commies -10%
+	focus = {
+		id = CRO_purge_leftists
+		icon = GFX_goal_generic_war_with_comintern
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_ustasa_coup
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = CRO_consolidation_of_power
+		}
+	}
+	#DESTROY INTERNAL OPPOSITION
+	#pp -150, stability -15%, SocDem popularity -10%, all commies -10%
+	focus = {
+		id = CRO_purge_opposition
+		icon = GFX_goal_generic_attack_allies
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_ustasa_coup
+		x = 0
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = CRO_purge_leftists
+		}
+	}
+	#CURTAIL THE ILLYRIAN MOVEMENT
+	#pp +100, stability +20%, AntNat popularity -20%, get event about execution of Racic
+	focus = {
+		id = CRO_purge_illyrians
+		icon = GFX_goal_generic_secret_weapon
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_ustasa_coup
+		x = 0
+		y = 4
+		cost = 5
+		prerequisite = {
+			focus = CRO_purge_opposition
+		}
+	}
+	#THE LEGACY OF KING ZVONIMIR
+	#pp +50, stability +10%, NatPop popularity +5% gain buff +5% recruitable pop
+	focus = {
+		id = CRO_zvonimir_legacy
+		icon = GFX_focus_generic_strike_at_democracy1
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_ustasa_coup
+		x = 0
+		y = 5
+		cost = 5
+		prerequisite = {
+			focus = CRO_purge_illyrians
+		}
+	}
+	#FIRES IN BOSNIA
+	#Core Bosniak and Croat Bosnia. Deman annexation
+	focus = {
+		id = CRO_fires_in_bosnia
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_ustasa_coup
+		x = 0
+		y = 6
+		cost = 5
+		prerequisite = {
+			focus = CRO_zvonimir_legacy
+		}
+	}
+	#DEMAND KOTOR
+	#Demand Kotor from Montenegro. Claim it. Given that it's small, any non-nationalistic government without foreign protection will give in.
+	focus = {
+		id = CRO_demand_kotor
+		icon = GFX_goal_generic_territory_or_war
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_ustasa_coup
+		x = -2
+		y = 6
+		cost = 5
+		prerequisite = {
+			focus = CRO_zvonimir_legacy
+		}
+	}
+	#DEMAND LANDS IN SERBIA
+	#Demand Bačka and Syrmia from Serbia. Gain claim on them.
+	focus = {
+		id = CRO_demands_serbia
+		icon = GFX_goal_generic_territory_or_war
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_ustasa_coup
+		x = 2
+		y = 6
+		cost = 5
+		prerequisite = {
+			focus = CRO_zvonimir_legacy
+		}
+	}
+	#THE SERBIAN QUESTION
+	#pp +100, gain debuff of -1 weekly stability, which you can fix through special decisions unlocked by this focus. Once decisions are enacted, you core Kotor, Bačka and Syrmia.
+	focus = {
+		id = CRO_purge_serbs
+		icon = GFX_goal_generic_forceful_treaty
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_ustasa_coup
+		x = 0
+		y = 7
+		cost = 5
+		prerequisite = {
+			focus = CRO_demand_kotor
+		}
+		prerequisite = {
+			focus = CRO_demands_serbia
+		}
+		prerequisite = {
+			focus = CRO_fires_in_bosnia
+		}
+	}
+	#CONVERSION OR DEATH
+	#Lose manpower, gain stability. Gain national spirit "One faith" which adds 2% recruitable pop, 10% stability.
+	focus = {
+		id = CRO_purge_muslims
+		icon = GFX_focus_ger_strike_at_the_source
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_ustasa_coup
+		x = 0
+		y = 8
+		cost = 5
+		prerequisite = {
+			focus = CRO_purge_serbs
+		}
+	}
+	#ANYTHING FOR THE NATION
+	#5% recruitable pop, +25% recruitable pop, +25 defense and atk on core.
+	focus = {
+		id = CRO_anything_for_the_nation
+		icon = GFX_focus_generic_military_mission
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_ustasa_coup
+		x = 0
+		y = 9
+		cost = 5
+		prerequisite = {
+			focus = CRO_purge_muslims
+		}
+	}
+}
