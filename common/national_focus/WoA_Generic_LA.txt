@@ -1,17 +1,17 @@
 ###########################
 # Generic Focus Tree
 ###########################
-#Coded by AirHunter. LA parts coded and designed by Fede.
+#Coded by AirHunter. LA parts coded by Fede.
 ###########################
 
 focus_tree = {
 	id = generic_la_focus
 	
 	country = {
-		factor = 1
+		factor = 0
 		modifier = {
-			add = 1
-		 	tag = BRA #insert a Latin America tag here for testing Fede, and feel free to add more
+			add = 2
+		 	tag = { URG BRA PAR BOL CHL PRU ECU COL VEN DOM HAI CUB MEX GUA ELS HON NIC PAN}
 		}
 	}
 	
@@ -25,6 +25,6 @@ focus_tree = {
 	shared_focus = generic_strengthen_the_navy
 	shared_focus = generic_our_place_in_the_world
 	
-	#Feel free to ignore the shared focuses here as they are the shared paths- make your own paths here, though remember to change the Y position to be down. Wsy down.
-
+	
+###Economy branch###
 }
