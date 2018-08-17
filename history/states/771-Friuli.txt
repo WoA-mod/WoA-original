@@ -1,3 +1,4 @@
+
 state={
 	id=771
 	name="STATE_771"
@@ -7,31 +8,25 @@ state={
 		victory_points = {
 			13214 10 
 		}
-
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 3
 			arms_factory = 2
 			dockyard = 1
-			11584 = {
+			628 = {
 				naval_base = 5
 
 			}
 
-			#13214 = {
-			#	naval_base = 8
-			#}
-			
 		}
 		add_core_of = ITA
 
 	}
 
-
 	provinces={
-		11584 13214 
+		628 3657 9613 
 	}
-	manpower=712600
+	manpower=782200
 	buildings_max_level_factor=1.000
 	state_category=city
 }

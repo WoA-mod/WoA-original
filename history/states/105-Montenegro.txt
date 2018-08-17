@@ -3,8 +3,8 @@ state={
 	id=105
 	name="STATE_105"
 	resources={
-		chromium=26.0
-		aluminium=80.0
+		chromium=26.000
+		aluminium=80.000
 	}
 
 	history={
@@ -21,15 +21,15 @@ state={
 
 		}
 		victory_points = {
-			9809 1 
+			9809 10 
 		}
 
 	}
 
 	provinces={
-		 937 3922 9809 9821  11858 
+		937 3922 9809 11858 
 	}
-	manpower=895500 #Redo manpower according to the 935 state.
+	manpower=888000
 	buildings_max_level_factor=1.000
 	state_category=town
 }
