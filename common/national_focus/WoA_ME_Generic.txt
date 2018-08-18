@@ -780,7 +780,7 @@ focus = {
 	
 					focus = {
 		id = generic_me_promote_islamic_values
-		icon = GFX_Promote_Islam
+		icon = GFX_goal_promote_islam
 		x = 26
 		y = 9
 		cost = 10

@@ -27,8 +27,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_army_guy_2.tga"
 	}
 		SpriteType = {
-		name = "GFX_goal_great_science." ### adopted from KR, poor child 
-		texturefile = "gfx/interface/goals/GFX_goal_great_science.tga"
+		name = "GFX_goal_great_science" ### adopted from KR, poor child 
+		texturefile = "gfx/interface/goals/goal_great_science.tga"
 	}
 	
 	SpriteType = {
@@ -108,7 +108,7 @@ spriteTypes = {
 	}
 	
 			SpriteType = {
-		name = "Promote_Islam" 
+		name = "GFX_goal_promote_islam" 
 		texturefile = "gfx/interface/goals/Promote_Islam.tga"
 	}
 	
