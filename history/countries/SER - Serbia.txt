@@ -19,8 +19,8 @@ set_technology = {
 	early_submarine = 1
 }
 
-set_stability = 0.60
-set_war_support = 0.35
+set_stability = 0.40
+set_war_support = 0.50
 set_convoys = 0
 
 add_ideas = {
@@ -32,30 +32,44 @@ add_ideas = {
 
 set_politics = {
 
-    parties = {
-        social_democrat = {
-            popularity = 2
-        }
-        conservative = {
-            popularity = 18
-        }
-        authoritarian_democrat = {
-            popularity = 13
-        }
-        paternal_autocrat = {
-            popularity = 51
-        }
-    }
+	parties = {
+		utopianism = { 
+			popularity = 10
+		}
+		council_communist = { 
+			popularity = 6
+		}
+		socialist = { 
+			popularity = 7
+		}
+		social_democrat = { 
+			popularity = 15
+		}
+		liberal = { 
+			popularity = 13
+		}
+		conservative = { 
+			popularity = 32
+		}
+		authoritarian_democrat = { 
+			popularity = 5
+		}
+		paternal_autocrat = {
+			popularity = 11
+		}
+		national_populist = {
+			popularity = 1
+		}
+		antiquarian_nationalist = {
+			popularity = 0
+		}
+	}
 
-    ruling_party = paternal_autocrat
+    ruling_party = conservative
     last_election = "1935.9.8"
     election_frequency = 36
     elections_allowed = no
 }
-
-set_stability = 0.70
-
-
 
 create_country_leader = {
 	name = "Dragiša Vasić"
@@ -85,6 +99,17 @@ create_country_leader = {
 	picture = "Portrait_Serbia_Alexander.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+        name = "Alexander I"
+	desc = "POLITICS_ALEXANDER_I_DESC"
+	picture = "Portrait_Serbia_Alexander.dds"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
 	traits = {
 		#
 	}
