@@ -154,7 +154,7 @@
 	
 	shared_focus = {
 		id = generic_army_new_textbooks
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_generic_military_textbook
 		x = 0
 		y = 1
 		cost = 10
@@ -763,17 +763,20 @@
 	
 	shared_focus = {
 		id = generic_air_production
-		icon =GFX_goal_generic_build_airforce
+		icon = GFX_goal_generic_build_airforce
 		x = 0
 		y = 1
 		cost = 10
 		available = {
-			has_country_flag = air_has_actually_done_this_part_of_tree
+			has_country_flag = air_has_completed_this_focus
 		}
 		prerequisite = { focus = generic_expand_air_defense }
 		relative_position_id = generic_expand_air_defense
 		completion_reward = {
-			#Add decisions to buy planes/focus on producing them.
+			unlock_decision_tooltip = generic_decision_fighter_production
+			unlock_decision_tooltip = generic_decision_bomber_production
+			unlock_decision_tooltip = generic_decision_look_for_fighter_sellers
+			unlock_decision_tooltip = generic_decision_look_for_bomber_sellers
 		}
 	}
 	
@@ -1442,14 +1445,12 @@
 		prerequisite = { focus = generic_economy_free_trade_investures_abroad2 }
 		prerequisite = { focus = generic_economy_free_trade_idea_sharing }
 		relative_position_id = generic_economy_free_trade_investures_abroad2
-		available = {
-			has_country_flag = air_has_actually_done_this_part_of_tree
-		}
 		x = 1
 		y = 1
 		cost = 10
 		completion_reward = {
-			#Gives decisions to convert your factories to off-map factories.
+			unlock_decision_tooltip = generic_decision_move_civilian_factory_offshore
+			unlock_decision_tooltip = generic_decision_move_arms_factory_offshore
 		}
 	}
 	
@@ -2127,7 +2128,7 @@
 	
 	shared_focus = {
 		id = generic_politics_press_censorship
-		icon = GFX_focus_red_constitution #Replace with a unique icon
+		icon = GFX_goal_generic_press_censorship
 		prerequisite = { focus = generic_politics_rightism }
 		available = {
 			OR = {

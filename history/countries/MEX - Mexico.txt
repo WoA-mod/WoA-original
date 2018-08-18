@@ -21,21 +21,16 @@ set_research_slots = 3
 set_politics = {
 
 	parties = {
-		social_democrat = {
-			popularity = 10
-		}
-		liberal = {
-			popularity = 3
-		}
-		conservative = {
-			popularity = 8
-		}
+	socialist = {
+		popularity = 20
+	}
 		authoritarian_democrat = {
-			popularity = 0
+			popularity = 50
 		}
-		paternal_autocrat = {
-			popularity = 16
+		national_populist = {
+			popularity = 30
 		}
+
 	}
 
 	ruling_party = authoritarian_Democrat
@@ -45,9 +40,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Lázaro Cárdenas"
+	name = "Alvaro Obregon"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
-	picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
+	picture = "Portrait_Alvaro_Obregon.png"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {

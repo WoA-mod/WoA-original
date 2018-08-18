@@ -19,20 +19,35 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		social_democrat = {
-			popularity = 6
+		utopianism = { 
+			popularity = 5
 		}
-		liberal = {
-			popularity = 16
+		council_communist = { 
+			popularity = 11
 		}
-		conservative = {
-			popularity = 20
+		socialist = { 
+			popularity = 5
 		}
-		authoritarian_democrat = {
+		social_democrat = { 
+			popularity = 17
+		}
+		liberal = { 
+			popularity = 3
+		}
+		conservative = { 
+			popularity = 15
+		}
+		authoritarian_democrat = { 
 			popularity = 6
 		}
 		paternal_autocrat = {
-			popularity = 19
+			popularity = 37
+		}
+		national_populist = {
+			popularity = 1
+		}
+		antiquarian_nationalist = {
+			popularity = 0
 		}
 	}
 	
@@ -90,9 +105,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ferdinand I"
-	desc = "POLITICS_KING_FERDINAND_DESC"
-	picture = "gfx/leaders/ALB/Portrait_Albania_Ferdinand_I.dds"
+	name = "Wilhelm I zu Vied"
+	desc = "POLITICS_Wilhelm_I_zu_DESC"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
