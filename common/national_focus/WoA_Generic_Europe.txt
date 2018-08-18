@@ -1093,9 +1093,9 @@ focus = {
 	}
 }
 
-# Focus For Ballot Struggle
+# Focus For Free and Fair Elections
 focus = {
-	id =  generic_europe_ballot_struggle
+	id =  generic_europe_free_and_fair_elections
 	icon = GFX_goal_support_democracy
 	prerequisite = { focus = generic_europe_the_future_of_our_country }
 	relative_position_id = generic_europe_the_future_of_our_country
@@ -1111,8 +1111,8 @@ focus = {
 focus = {
 	id = generic_europe_the_will_of_the_people
 	icon = GFX_goal_support_democracy
-	prerequisite = { focus = generic_europe_ballot_struggle }
-	relative_position_id = generic_europe_ballot_struggle
+	prerequisite = { focus = generic_europe_free_and_fair_elections }
+	relative_position_id = generic_europe_free_and_fair_elections
 	x = -1
 	y = 2
 	cost = 6
@@ -1125,8 +1125,8 @@ focus = {
 focus = {
 	id = generic_europe_check_and_balance
 	icon = GFX_goal_support_democracy
-	prerequisite = { focus = generic_europe_ballot_struggle }
-	relative_position_id = generic_europe_ballot_struggle
+	prerequisite = { focus = generic_europe_free_and_fair_elections }
+	relative_position_id = generic_europe_free_and_fair_elections
 	x = 1
 	y = 2
 	cost = 6
@@ -1141,7 +1141,7 @@ focus = {
 	icon = GFX_goal_support_democracy
 	prerequisite = { focus = generic_europe_the_will_of_the_people
 	 								 focus = generic_europe_check_and_balance}
-	relative_position_id = generic_europe_ballot_struggle
+	relative_position_id = generic_europe_free_and_fair_elections
 	x = 0
 	y = 4
 	cost = 6
@@ -1163,7 +1163,7 @@ focus = {
 	id = generic_europe_liberalize_society
 	icon = GFX_goal_support_democracy
 	prerequisite = { focus = generic_europe_electoral_success }
-	relative_position_id = generic_europe_ballot_struggle
+	relative_position_id = generic_europe_free_and_fair_elections
 	x = -1
 	y = 5
 	cost = 6
@@ -1182,7 +1182,7 @@ focus = {
 	id = generic_europe_approach_conservatively
 	icon = GFX_goal_support_communism
 	prerequisite = { focus = generic_europe_electoral_success }
-	relative_position_id = generic_europe_ballot_struggle
+	relative_position_id = generic_europe_free_and_fair_elections
 	x = 1
 	y = 5
 	cost = 6
@@ -1202,7 +1202,7 @@ focus = {
 	icon = GFX_goal_support_communism
 	prerequisite = { focus = generic_europe_electoral_success
 									 focus = generic_europe_lead_the_charge}
-	relative_position_id = generic_europe_ballot_struggle
+	relative_position_id = generic_europe_free_and_fair_elections
 	x = 3
 	y = 5
 	cost = 6
@@ -1220,9 +1220,9 @@ focus = {
 focus = {
 	id = generic_europe_we_stand_with_europa
 	icon = GFX_goal_generic_national_unity
-	prerequisite = { focus = generic_europe_ballot_struggle
-	 								 focus = generic_europe_our_struggle}
-	relative_position_id = generic_europe_ballot_struggle
+	prerequisite = { focus = generic_europe_free_and_fair_elections
+	 								 focus = generic_europe_national_superiority}
+	relative_position_id = generic_europe_free_and_fair_elections
 	x = 3
 	y = 2
 	cost = 6
@@ -1238,7 +1238,7 @@ focus = {
 	id = generic_europe_the_mark_standard
 	icon = GFX_goal_generic_national_unity
 	prerequisite = { focus = generic_europe_we_stand_with_europa }
-	relative_position_id = generic_europe_ballot_struggle
+	relative_position_id = generic_europe_free_and_fair_elections
 	x = 3
 	y = 3
 	cost = 6
@@ -1252,7 +1252,7 @@ focus = {
 	id = generic_join_the_einracht
 	icon = GFX_goal_generic_national_unity
 	prerequisite = { focus = generic_europe_the_mark_standard }
-	relative_position_id = generic_europe_ballot_struggle
+	relative_position_id = generic_europe_free_and_fair_elections
 	x = 3
 	y = 4
 	cost = 6
@@ -1261,9 +1261,9 @@ focus = {
 	}
 }
 
-# Focus For Our Struggle
+# Focus For National Superiority
 focus = {
-	id =  generic_europe_our_struggle
+	id =  generic_europe_national_superiority
 	icon = GFX_goal_support_fascism
 	prerequisite = { focus = generic_europe_the_future_of_our_country }
 	relative_position_id = generic_europe_the_future_of_our_country
@@ -1279,8 +1279,8 @@ focus = {
 focus = {
 	id = generic_europe_establish_dominance
 	icon = GFX_goal_support_fascism
-	prerequisite = { focus = generic_europe_our_struggle }
-	relative_position_id = generic_europe_our_struggle
+	prerequisite = { focus = generic_europe_national_superiority }
+	relative_position_id = generic_europe_national_superiority
 	x = -1
 	y = 2
 	cost = 6
@@ -1293,8 +1293,8 @@ focus = {
 focus = {
 	id = generic_europe_organize_miltias
 	icon = GFX_goal_support_fascism
-	prerequisite = { focus = generic_europe_our_struggle }
-	relative_position_id = generic_europe_our_struggle
+	prerequisite = { focus = generic_europe_national_superiority }
+	relative_position_id = generic_europe_national_superiority
 	x = 1
 	y = 2
 	cost = 6
@@ -1309,7 +1309,7 @@ focus = {
 	icon = GFX_goal_support_fascism
 	prerequisite = { focus = generic_europe_establish_dominance
 	 								 focus = generic_europe_organize_miltias}
-	relative_position_id = generic_europe_our_struggle
+	relative_position_id = generic_europe_national_superiority
 	x = 0
 	y = 4
 	cost = 6
@@ -1326,17 +1326,17 @@ focus = {
 	}
 }
 
-# Focus For Coronation Ceremonyy
+# Focus For Lead the Way
 focus = {
-	id = generic_europe_coronation_ceremony
+	id = generic_europe_lead_the_way
 	icon = GFX_goal_support_fascism
 	prerequisite = { focus = generic_europe_lead_the_charge }
-	relative_position_id = generic_europe_our_struggle
+	relative_position_id = generic_europe_national_superiority
 	x = -2
 	y = 5
 	cost = 6
 	mutually_exclusive = { focus = generic_europe_popular_state
-												 focus = generic_europe_the_old_ways
+												 focus = generic_europe_coronation_ceremony
 												 focus = generic_europe_a_firm_hand_on_society}
 	completion_reward = {set_politics = {
 																				ruling_party = paternal_autocrat
@@ -1350,12 +1350,12 @@ focus = {
 	id = generic_europe_popular_state
 	icon = GFX_goal_support_fascism
 	prerequisite = { focus = generic_europe_lead_the_charge }
-	relative_position_id = generic_europe_our_struggle
+	relative_position_id = generic_europe_national_superiority
 	x = 0
 	y = 5
 	cost = 6
-	mutually_exclusive = { focus = generic_europe_coronation_ceremony
-												 focus = generic_europe_the_old_ways
+	mutually_exclusive = { focus = generic_europe_lead_the_way
+												 focus = generic_europe_coronation_ceremony
 												 focus = generic_europe_a_firm_hand_on_society}
 	completion_reward = {set_politics = {
 																				ruling_party = national_populist
@@ -1364,16 +1364,16 @@ focus = {
 	}
 }
 
-# Focus For The Old Ways
+# Focus For Coronation Ceremony
 focus = {
-	id = generic_europe_the_old_ways
+	id = generic_europe_coronation_ceremony
 	icon = GFX_goal_support_fascism
 	prerequisite = { focus = generic_europe_lead_the_charge }
-	relative_position_id = generic_europe_our_struggle
+	relative_position_id = generic_europe_national_superiority
 	x = 2
 	y = 5
 	cost = 6
-	mutually_exclusive = { focus = generic_europe_coronation_ceremony
+	mutually_exclusive = { focus = generic_europe_lead_the_way
 												 focus = generic_europe_popular_state
 												 focus = generic_europe_a_firm_hand_on_society}
 	completion_reward = {set_politics = {
@@ -1387,8 +1387,8 @@ focus = {
 focus = {
 	id = generic_europe_we_stand_for_rome
 	icon = GFX_goal_support_communism
-	prerequisite = { focus = generic_europe_our_struggle }
-	relative_position_id = generic_europe_our_struggle
+	prerequisite = { focus = generic_europe_national_superiority }
+	relative_position_id = generic_europe_national_superiority
 	x = 3
 	y = 2
 	cost = 6
@@ -1404,8 +1404,8 @@ focus = {
 focus = {
 	id = generic_europe_international_legions
 	icon = GFX_goal_support_communism
-	prerequisite = { focus = generic_europe_our_struggle }
-	relative_position_id = generic_europe_our_struggle
+	prerequisite = { focus = generic_europe_national_superiority }
+	relative_position_id = generic_europe_national_superiority
 	x = 3
 	y = 3
 	cost = 6
@@ -1418,7 +1418,7 @@ focus = {
 	id = generic_europe_SPQR
 	icon = GFX_goal_support_communism
 	prerequisite = { focus = generic_europe_international_legions }
-	relative_position_id = generic_europe_our_struggle
+	relative_position_id = generic_europe_national_superiority
 	x = 3
 	y = 4
 	cost = 6
