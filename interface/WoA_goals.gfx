@@ -1,10 +1,34 @@
 spriteTypes = {
 	
 	###Generic
-	
+
 	SpriteType = {
 		name = "GFX_goal_generic_drill_soldiers"
 		texturefile = "gfx/interface/goals/goal_generic_drill_soldiers.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_goal_KTG_Bookstack" ### adopted from KR, poor child 
+		texturefile = "gfx/interface/goals/GFX_goal_KTG_Bookstack.dds"
+	}
+	
+			SpriteType = {
+		name = "GFX_Arabian_Peninsula" 
+		texturefile = "gfx/interface/goals/Arabian_Peninsula.tga"
+	}
+	
+			SpriteType = {
+		name = "GFX_goal_purge_opposition" ### adopted from KR, poor child 
+		texturefile = "gfx/interface/goals/goal_purge_opposition.tga"
+	}
+	
+			SpriteType = {
+		name = "GFX_goal_army_guy_2" ### adopted from KR, poor child 
+		texturefile = "gfx/interface/goals/goal_army_guy_2.tga"
+	}
+		SpriteType = {
+		name = "GFX_goal_great_science." ### adopted from KR, poor child 
+		texturefile = "gfx/interface/goals/GFX_goal_great_science.tga"
 	}
 	
 	SpriteType = {
@@ -75,4 +99,17 @@ spriteTypes = {
 		name = "GFX_ARG_focus_confederation_of_the_river_plate"
 		texturefile= "gfx/interface/goals/ARG_focus_confederation_of_the_river_plate.dds"
 	}
+	
+	### Middle East
+	
+				SpriteType = {
+		name = "GFX_goal_Islamic_Government" 
+		texturefile = "gfx/interface/goals/goal_Islamic_Government.tga"
+	}
+	
+			SpriteType = {
+		name = "Promote_Islam" 
+		texturefile = "gfx/interface/goals/Promote_Islam.tga"
+	}
+	
 }
