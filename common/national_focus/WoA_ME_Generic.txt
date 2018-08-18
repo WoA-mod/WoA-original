@@ -874,7 +874,7 @@ focus = {
 		x = 32
 		y = 10
 		cost = 10
-		prerequisite = { focus = generic_me_a_moral_nation }
+		prerequisite = { focus = generic_me_islamic_courts focus = generic_me_raise_police_budget }
 		ai_will_do = {
 			factor = 10
 		}
