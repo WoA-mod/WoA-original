@@ -1,855 +1,25 @@
-
-
 focus_tree = {
-	id = generic_europe_focus_europe
+	id = generic_eu_focus
 
 	country = {
-							factor= 0
-							modifier = {
-							add = 10
-							tag = LAT
-												 }
-							}
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LAT
+		}
+	}
 
 
-	continuous_focus_position = { x = -400 y = 800 }
+	continuous_focus_position = { x = -400 y = 1800 }
 
 	default = yes
 	reset_on_civilwar = no
-
-	#######################
-	### MILITARY BRANCH ###
-	#######################
-
-	focus = {
-		id = generic_europe_examine_the_army
-		icon = GFX_goal_generic_axis_build_infantry
-		x = 3
-		y = 0
-		cost = 10
-		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 0.5
-				uses = 1
-				category = land_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_study_unique_doctrines
-		icon = GFX_focus_RAJ_indian_gentlemen_offcers
-		x = -5
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_examine_the_army }
-		relative_position_id = generic_europe_examine_the_army
-		mutually_exclusive = { focus = generic_europe_study_the_guerra_mondiale }
-		completion_reward = {
-			army_experience = 10
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 0.5
-				uses = 1
-				technology = mass_assault
-				technology = mobile_warfare
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_motorization_effort
-		icon = GFX_goal_generic_army_motorized
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_study_unique_doctrines}
-		relative_position_id = generic_europe_study_unique_doctrines
-		completion_reward = {
-			add_tech_bonus = {
-				name = motorized_bonus
-				bonus = 0.75
-				technology = motorised_infantry
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_mechanization_effort
-		icon = GFX_goal_generic_build_tank
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_army_motorization_effort }
-		relative_position_id = generic_europe_army_motorization_effort
-		completion_reward = {
-			army_experience = 10
-			add_tech_bonus = {
-				name = motorized_bonus
-				ahead_reduction = 0.5
-				uses = 1
-				category = motorized_equipment
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_armor_effort
-		icon = GFX_goal_generic_army_tanks
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_army_mechanization_effort }
-		relative_position_id = generic_europe_army_mechanization_effort
-		completion_reward = {
-			add_tech_bonus = {
-				name = armor_bonus
-				bonus = 0.5
-				uses = 2
-				category = armor
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_mobilization
-		icon = GFX_goal_conscription
-		x = -2
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_study_unique_doctrines}
-		relative_position_id = generic_europe_study_unique_doctrines
-		completion_reward = {
-			add_ideas = generic_idea_army_mobilization
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_mandatory_conscription
-		icon = GFX_goal_ideology_paternal_autocrat
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_army_mobilization }
-		relative_position_id = generic_europe_army_mobilization
-		completion_reward = {
-			swap_ideas = { add_idea = generic_idea_army_reforms remove_idea = generic_idea_army_mobilization }
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_produce_infantry_weapons
-		icon = GFX_goal_generic_small_arms
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_army_mandatory_conscription }
-		relative_position_id = generic_europe_army_mandatory_conscription
-		completion_reward = {
-			add_ideas = generic_idea_infantry_weapon_production
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_exercises
-		icon = GFX_goal_conscription
-		x = 2
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_study_unique_doctrines }
-		relative_position_id = generic_europe_study_unique_doctrines
-		completion_reward = {
-			army_experience = 50
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_new_textbooks
-		icon = GFX_goal_generic_army_doctrines
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_army_exercises }
-		relative_position_id = generic_europe_army_exercises
-		completion_reward = {
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 0.5
-				uses = 1
-				technology = mass_assault
-				technology = mobile_warfare
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_continued_doctrine_effort
-		icon = GFX_goal_generic_army_doctrines
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_army_new_textbooks }
-		relative_position_id = generic_europe_army_new_textbooks
-		completion_reward = {
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 0.5
-				uses = 2
-				technology = mass_assault
-				technology = mobile_warfare
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_a_new_modern_army
-		icon = GFX_goal_rhineland
-		x = -2
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_army_produce_infantry_weapons }
-		prerequisite = { focus = generic_europe_army_armor_effort }
-		prerequisite = { focus = generic_europe_army_continued_doctrine_effort }
-		relative_position_id = generic_europe_army_continued_doctrine_effort
-		completion_reward = {
-			army_experience = 25
-			add_ideas = generic_idea_a_modern_army
-		}
-	}
-
-	focus = {
-		id = generic_europe_expand_the_arms_industry
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 0
-		y = 2
-		cost = 10
-		prerequisite = { focus = generic_europe_study_the_guerra_mondiale focus = generic_europe_study_unique_doctrines }
-		relative_position_id = generic_europe_examine_the_army
-		completion_reward = {
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_expand_the_arms_industry2
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 1
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_expand_the_arms_industry }
-		relative_position_id = generic_europe_expand_the_arms_industry
-		completion_reward = {
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_new_production_methods
-		icon = GFX_goal_production
-		x = -1
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_expand_the_arms_industry }
-		relative_position_id = generic_europe_expand_the_arms_industry
-		completion_reward = {
-			add_ideas = generic_idea_efficient_production
-		}
-	}
-
-	focus = {
-		id = generic_europe_expand_the_arms_industry3
-		icon = GFX_goal_generic_construct_mil_factory
-		x = -1
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_expand_the_arms_industry2 }
-		prerequisite = { focus = generic_europe_new_production_methods }
-		relative_position_id = generic_europe_expand_the_arms_industry2
-		completion_reward = {
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_room_for_improvement
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_expand_the_arms_industry3 }
-		relative_position_id = generic_europe_expand_the_arms_industry3
-		completion_reward = {
-			add_ideas = generic_idea_military_factory_plans
-		}
-	}
-
-	focus = {
-		id = generic_europe_study_the_guerra_mondiale
-		icon = GFX_focus_RAJ_lions_of_the_great_war
-		x = 5
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_examine_the_army }
-		relative_position_id = generic_europe_examine_the_army
-		mutually_exclusive = { focus = generic_europe_study_unique_doctrines }
-		completion_reward = {
-			army_experience = 10
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 0.5
-				uses = 1
-				technology = trench_warfare
-				technology = superior_firepower
-			}
-		}
-	}
-
-
-	focus = {
-		id = generic_europe_army_grand_battleplan
-		icon = GFX_goal_planning_bonus
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_study_the_guerra_mondiale }
-		relative_position_id = generic_europe_study_the_guerra_mondiale
-		completion_reward = {
-			add_ideas = generic_idea_planning_bonus
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_experienced_generals
-		icon = GFX_focus_generic_little_entente
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_army_grand_battleplan }
-		relative_position_id = generic_europe_army_grand_battleplan
-		completion_reward = {
-			swap_ideas = { add_idea = generic_idea_high_command remove_idea = generic_idea_planning_bonus }
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_supply_effort
-		icon = GFX_goal_generic_consumer_goods
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_army_experienced_generals }
-		relative_position_id = generic_europe_army_experienced_generals
-		completion_reward = {
-			every_army_leader = {
-				add_logistics = 1
-			}
-		swap_ideas = { add_idea = generic_idea_high_command2 remove_idea = generic_idea_high_command }
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_modern_artillery
-		icon = GFX_goal_generic_army_artillery2
-		x = 2
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_study_the_guerra_mondiale }
-		relative_position_id = generic_europe_study_the_guerra_mondiale
-		completion_reward = {
-			add_tech_bonus = {
-				#name =
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = infantry_weapons
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_modern_weapons
-		icon = GFX_goal_generic_small_arms
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_army_modern_artillery }
-		relative_position_id = generic_europe_army_modern_artillery
-		completion_reward = {
-			add_tech_bonus = {
-				#name =
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = artillery
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_every_soldier_is_valuable
-		icon = GFX_focus_generic_military_mission
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_army_modern_weapons }
-		relative_position_id = generic_europe_army_modern_weapons
-		completion_reward = {
-			add_ideas = generic_idea_produce_support_equipment
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_larger_army
-		icon = GFX_goal_conscription
-		x = -2
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_study_the_guerra_mondiale }
-		relative_position_id = generic_europe_study_the_guerra_mondiale
-		completion_reward = {
-			add_ideas = generic_idea_larger_army
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_professional_drills
-		icon = GFX_goal_generic_drill_soldiers
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_army_larger_army }
-		relative_position_id = generic_europe_army_larger_army
-		completion_reward = {
-			add_ideas = generic_idea_professional_drills
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_study_from_success
-		icon = GFX_goal_generic_army_doctrines
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_army_professional_drills }
-		relative_position_id = generic_europe_army_professional_drills
-		completion_reward = {
-			army_experience = 25
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 0.75
-				uses = 2
-				technology = trench_warfare
-				technology = superior_firepower
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_army_a_professional_army
-		icon = GFX_goal_rhineland
-		x = 2
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_army_study_from_success }
-		prerequisite = { focus = generic_europe_army_supply_effort }
-		prerequisite = { focus = generic_europe_army_every_soldier_is_valuable }
-		relative_position_id = generic_europe_army_study_from_success
-		completion_reward = {
-			add_ideas = generic_idea_a_professional_army
-		}
-	}
-
-	#######################
-	###### AIR BRANCH #####
-	#######################
-
-	focus = {
-		id = generic_europe_expand_aviation
-		icon = GFX_goal_generic_build_airforce
-		x = 15
-		y = 0
-		cost = 10
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.75
-				uses = 1
-				category = air_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_prioritize_fighters
-		icon = GFX_goal_generic_air_fighter
-		x = -2
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_expand_aviation }
-		relative_position_id = generic_europe_expand_aviation
-		mutually_exclusive = { focus = generic_europe_prioritize_bombers }
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.75
-				uses = 1
-				category = light_fighter
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_air_cas_innovations
-		icon = GFX_goal_generic_CAS
-		x = -1
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_prioritize_fighters }
-		relative_position_id = generic_europe_prioritize_fighters
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.75
-				uses = 1
-				category = cas_bomber
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_air_fighter_innovations
-		icon = GFX_goal_generic_air_fighter
-		x = 0
-		y = 2
-		cost = 10
-		prerequisite = { focus = generic_europe_prioritize_fighters }
-		relative_position_id = generic_europe_prioritize_fighters
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.75
-				uses = 1
-				category = light_fighter
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_air_battlefield_support
-		icon = GFX_goal_generic_air_doctrine
-		x = -1
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_air_fighter_innovations }
-		prerequisite = { focus = generic_europe_air_cas_innovations }
-		relative_position_id = generic_europe_air_fighter_innovations
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.75
-				uses = 1
-				category = battlefield_support_tree
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_air_battlefield_support2
-		icon = GFX_goal_generic_air_doctrine
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_air_battlefield_support }
-		relative_position_id = generic_europe_air_battlefield_support
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.75
-				uses = 1
-				category = battlefield_support_tree
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_air_new_models
-		icon = GFX_goal_generic_air_doctrine
-		x = 1
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_air_fighter_innovations }
-		relative_position_id = generic_europe_air_fighter_innovations
-		completion_reward = {
-			air_experience = 50
-		}
-	}
-
-	focus = {
-		id = generic_europe_air_paratroopers
-		icon = GFX_focus_generic_paratrooper
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_air_new_models }
-		relative_position_id = generic_europe_air_new_models
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.75
-				uses = 1
-				category = para_tech
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_prioritize_bombers
-		icon = GFX_goal_generic_air_bomber
-		x = 2
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_expand_aviation }
-		relative_position_id = generic_europe_expand_aviation
-		mutually_exclusive = { focus = generic_europe_prioritize_fighters }
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.75
-				uses = 1
-				category = tactical_bomber
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_air_heavy_fighter_innovations
-		icon = GFX_goal_generic_air_fighter2
-		x = 1
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_prioritize_bombers }
-		relative_position_id = generic_europe_prioritize_bombers
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.75
-				uses = 1
-				category = cat_heavy_fighter
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_air_bomber_innovations
-		icon = GFX_goal_generic_air_bomber
-		x = 0
-		y = 2
-		cost = 10
-		prerequisite = { focus = generic_europe_prioritize_bombers }
-		relative_position_id = generic_europe_prioritize_bombers
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.75
-				uses = 1
-				category = tactical_bomber
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_air_bomber_doctrines
-		icon = GFX_goal_generic_air_doctrine
-		x = 0
-		y = 2
-		cost = 10
-		prerequisite = { focus = generic_europe_air_heavy_fighter_innovations }
-		prerequisite = { focus = generic_europe_air_bomber_innovations }
-		relative_position_id = generic_europe_air_heavy_fighter_innovations
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.75
-				uses = 1
-				category = strategic_destruction_tree
-				category = operational_integrity_tree
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_air_bomber_doctrines2
-		icon = GFX_goal_generic_air_doctrine
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_air_bomber_doctrines }
-		relative_position_id = generic_europe_air_bomber_doctrines
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.75
-				uses = 1
-				category = strategic_destruction_tree
-				category = operational_integrity_tree
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_air_experienced_bombers
-		icon = GFX_goal_generic_air_doctrine
-		x = -1
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_air_bomber_innovations }
-		relative_position_id = generic_europe_air_bomber_innovations
-		completion_reward = {
-			air_experience = 50
-		}
-	}
-
-	focus = {
-		id = generic_europe_air_nav
-		icon = GFX_goal_generic_air_naval_bomber
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_air_experienced_bombers }
-		relative_position_id = generic_europe_air_experienced_bombers
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 1
-				category = naval_air
-			}
-		}
-	}
-
-	focus = {
-		id = generic_europe_expand_air_defense
-		icon = GFX_focus_generic_air_defense
-		x = 0
-		y = 2
-		cost = 10
-		prerequisite = { focus = generic_europe_prioritize_fighters focus = generic_europe_prioritize_bombers }
-		relative_position_id = generic_europe_expand_aviation
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					NOT = {
-						anti_air_building > 4
-					}
-				}
-				add_building_construction = {
-					type = anti_air_building
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					NOT = {
-						anti_air_building > 4
-					}
-				}
-				add_building_construction = {
-					type = anti_air_building
-					level = 1
-					instant_build = yes
-				}
-			}
-			#Anti-Air defense idea bonus or just air-defenses in random states?
-		}
-	}
-
-	focus = {
-		id = generic_europe_air_production
-		icon =GFX_goal_generic_build_airforce
-		x = 0
-		y = 1
-		cost = 10
-		available = {
-			has_country_flag = air_has_actually_done_this_part_of_tree
-		}
-		prerequisite = { focus = generic_europe_expand_air_defense }
-		relative_position_id = generic_europe_expand_air_defense
-		completion_reward = {
-			#Add decisions to buy planes/focus on producing them.
-		}
-	}
-
-	#######################
-	##### NAVY BRANCH #####
-	#######################
-
-	focus = {
-		id = generic_europe_strengthen_the_navy
-		icon = GFX_goal_generic_build_navy
-		x = 25
-		y = 0
-		cost = 10
-		available = {
-			has_country_flag = air_has_actually_done_this_part_of_tree
-		}
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = generic_europe_heavy_fleet
-		icon = GFX_goal_generic_navy_battleship
-		x = -2
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_strengthen_the_navy }
-		relative_position_id = generic_europe_strengthen_the_navy
-		mutually_exclusive = { focus = generic_europe_light_fleet }
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = generic_europe_light_fleet
-		icon = GFX_goal_generic_navy_submarine
-		x = 2
-		y = 1
-		cost = 10
-		prerequisite = { focus = generic_europe_strengthen_the_navy }
-		relative_position_id = generic_europe_strengthen_the_navy
-		mutually_exclusive = { focus = generic_europe_heavy_fleet }
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = generic_europe_establish_a_merchant_marine
-		icon = GFX_goal_generic_sea_focused_navy
-		x = 0
-		y = 2
-		cost = 10
-		prerequisite = { focus = generic_europe_heavy_fleet focus = generic_europe_light_fleet }
-		relative_position_id = generic_europe_strengthen_the_navy
-		completion_reward = {
-			#Yeah, navy tree is empty for now, too lazy to add effects Haruhi.
-		}
-	}
-
-
+	
+	shared_focus = generic_examine_the_army
+	shared_focus = generic_expand_aviation
+	shared_focus = generic_strengthen_the_navy
+	shared_focus = generic_our_place_in_the_world
+	
 ###########Politics##############
 
 
@@ -857,8 +27,8 @@ focus_tree = {
 focus = {
 	id = generic_europe_the_future_of_our_country
 	icon = GFX_focus_generic_support_the_left_right
-	x = 40
-	y = 0
+	x = 6
+	y = 6
 	cost = 6
 	completion_reward = {
 		add_political_power = 50
@@ -868,7 +38,7 @@ focus = {
 # Focus For Class Struggle
 focus = {
 	id =  generic_europe_class_struggle
-	icon = GFX_goal_support_communism
+	icon = GFX_focus_prc_agrarian_socialism
 	prerequisite = { focus = generic_europe_the_future_of_our_country }
 	relative_position_id = generic_europe_the_future_of_our_country
 	x = -7
@@ -882,7 +52,7 @@ focus = {
 # Focus For We Stand By The People
 focus = {
 	id = generic_europe_we_stand_by_the_people
-	icon = GFX_goal_support_communism
+	icon = GFX_goal_generic_national_unity_red
 	prerequisite = { focus = generic_europe_class_struggle }
 	relative_position_id = generic_europe_class_struggle
 	x = -3
@@ -899,7 +69,7 @@ focus = {
 # Focus For Smuggle In Supplies
 focus = {
 	id = generic_europe_smuggle_in_supplies
-	icon = GFX_goal_support_communism
+	icon = GFX_focus_secret_rearmament_red
 	prerequisite = { focus = generic_europe_class_struggle }
 	relative_position_id = generic_europe_class_struggle
 	x = -3
@@ -912,7 +82,7 @@ focus = {
 # Focus For Support The International
 focus = {
 	id = generic_europe_support_the_international
-	icon = GFX_goal_support_communism
+	icon = GFX_goal_generic_war_with_comintern
 	prerequisite = { focus = generic_europe_smuggle_in_supplies }
 	relative_position_id = generic_europe_class_struggle
 	x = -3
@@ -926,7 +96,7 @@ focus = {
 # Focus For Building Mass Movements
 focus = {
 	id = generic_europe_building_mass_movements
-	icon = GFX_goal_support_communism
+	icon = GFX_goal_red_star_soldier
 	prerequisite = { focus = generic_europe_class_struggle }
 	relative_position_id = generic_europe_class_struggle
 	x = -1
@@ -940,7 +110,7 @@ focus = {
 # Focus For Sabotage The Oppressors
 focus = {
 	id = generic_europe_sabotage_the_oppressors
-	icon = GFX_goal_support_communism
+	icon = GFX_focus_prc_infiltration
 	prerequisite = { focus = generic_europe_class_struggle }
 	relative_position_id = generic_europe_class_struggle
 	x = 1
@@ -954,7 +124,7 @@ focus = {
 # Focus For Seize The Means
 focus = {
 	id = generic_europe_seize_the_means
-	icon = GFX_goal_support_communism
+	icon = GFX_goal_socialist_industry
 	prerequisite = { focus = generic_europe_building_mass_movements
 	 								 focus = generic_europe_sabotage_the_oppressors}
 	relative_position_id = generic_europe_class_struggle
@@ -977,7 +147,7 @@ focus = {
 # Focus For The Danubian Model
 focus = {
 	id = generic_europe_the_danubian_model
-	icon = GFX_goal_support_communism
+	icon = GFX_goal_agrarian_reform
 	prerequisite = { focus = generic_europe_seize_the_means }
 	relative_position_id = generic_europe_class_struggle
 	x = -2
@@ -996,7 +166,7 @@ focus = {
 # Focus For All Stripes Of Socialist
 focus = {
 	id = generic_europe_all_stripes_of_socialist
-	icon = GFX_goal_support_communism
+	icon = GFX_goal_red_star_central
 	prerequisite = { focus = generic_europe_seize_the_means }
 	relative_position_id = generic_europe_class_struggle
 	x = 0
@@ -1015,7 +185,7 @@ focus = {
 # Focus For Eternal Class War
 focus = {
 	id = generic_europe_eternal_class_war
-	icon = GFX_goal_support_communism
+	icon = GFX_goal_rev_militia2
 	prerequisite = { focus = generic_europe_seize_the_means }
 	relative_position_id = generic_europe_class_struggle
 	x = 2
@@ -1034,7 +204,7 @@ focus = {
 # Focus For Social Compromise
 focus = {
 	id = generic_europe_social_compromise
-	icon = GFX_goal_support_communism
+	icon = GFX_goal_ideology_social_democrat
 	prerequisite = { focus = generic_europe_seize_the_means
 									 focus = generic_europe_electoral_success}
 	relative_position_id = generic_europe_class_struggle
@@ -1054,7 +224,7 @@ focus = {
 # Focus For We Stand Alone
 focus = {
 	id = generic_europe_we_stand_alone
-	icon = GFX_goal_generic_national_unity
+	icon = GFX_goal_generic_demand_territory
 	prerequisite = { focus = generic_europe_the_future_of_our_country }
 	relative_position_id = generic_europe_class_struggle
 	x = 4
@@ -1082,7 +252,7 @@ focus = {
 # Focus For Fortress Nation
 focus = {
 	id = generic_europe_fortress_nation
-	icon = GFX_goal_generic_national_unity
+	icon = GFX_goal_generic_fortify_city
 	prerequisite = { focus = generic_europe_splendid_isolation }
 	relative_position_id = generic_europe_class_struggle
 	x = 4
@@ -1096,7 +266,7 @@ focus = {
 # Focus For Free and Fair Elections
 focus = {
 	id =  generic_europe_free_and_fair_elections
-	icon = GFX_goal_support_democracy
+	icon = GFX_goal_generic_elections
 	prerequisite = { focus = generic_europe_the_future_of_our_country }
 	relative_position_id = generic_europe_the_future_of_our_country
 	x = 0
@@ -1124,7 +294,7 @@ focus = {
 # Focus For Check And Balance
 focus = {
 	id = generic_europe_check_and_balance
-	icon = GFX_goal_support_democracy
+	icon = GFX_focus_generic_concessions
 	prerequisite = { focus = generic_europe_free_and_fair_elections }
 	relative_position_id = generic_europe_free_and_fair_elections
 	x = 1
@@ -1138,7 +308,7 @@ focus = {
 # Focus For Electoral Success
 focus = {
 	id = generic_europe_electoral_success
-	icon = GFX_goal_support_democracy
+	icon = GFX_focus_generic_treaty
 	prerequisite = { focus = generic_europe_the_will_of_the_people
 	 								 focus = generic_europe_check_and_balance}
 	relative_position_id = generic_europe_free_and_fair_elections
@@ -1180,7 +350,7 @@ focus = {
 # Focus For Approach Conservatively
 focus = {
 	id = generic_europe_approach_conservatively
-	icon = GFX_goal_support_communism
+	icon = GFX_goal_ideology_social_conservative
 	prerequisite = { focus = generic_europe_electoral_success }
 	relative_position_id = generic_europe_free_and_fair_elections
 	x = 1
@@ -1199,7 +369,7 @@ focus = {
 # Focus For A Firm Hand On Society
 focus = {
 	id = generic_europe_a_firm_hand_on_society
-	icon = GFX_goal_support_communism
+	icon = GFX_goal_ideology_authoritarian_democrat
 	prerequisite = { focus = generic_europe_electoral_success
 									 focus = generic_europe_lead_the_charge}
 	relative_position_id = generic_europe_free_and_fair_elections
@@ -1219,7 +389,7 @@ focus = {
 # Focus For We Stand With Europa
 focus = {
 	id = generic_europe_we_stand_with_europa
-	icon = GFX_goal_generic_national_unity
+	icon = GFX_focus_ger_revive_kaiserreich
 	prerequisite = { focus = generic_europe_free_and_fair_elections
 	 								 focus = generic_europe_national_superiority}
 	relative_position_id = generic_europe_free_and_fair_elections
@@ -1236,7 +406,7 @@ focus = {
 # Focus For The Mark Standard
 focus = {
 	id = generic_europe_the_mark_standard
-	icon = GFX_goal_generic_national_unity
+	icon = GFX_goal_pile_of_money
 	prerequisite = { focus = generic_europe_we_stand_with_europa }
 	relative_position_id = generic_europe_free_and_fair_elections
 	x = 3
@@ -1250,7 +420,7 @@ focus = {
 # Focus For Join The Einracht
 focus = {
 	id = generic_join_the_einracht
-	icon = GFX_goal_generic_national_unity
+	icon = GFX_focus_ger_return_of_the_kaiser
 	prerequisite = { focus = generic_europe_the_mark_standard }
 	relative_position_id = generic_europe_free_and_fair_elections
 	x = 3
@@ -1264,7 +434,7 @@ focus = {
 # Focus For National Superiority
 focus = {
 	id =  generic_europe_national_superiority
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_national_populism
 	prerequisite = { focus = generic_europe_the_future_of_our_country }
 	relative_position_id = generic_europe_the_future_of_our_country
 	x = 7
@@ -1278,7 +448,7 @@ focus = {
 # Focus For Establish Dominance
 focus = {
 	id = generic_europe_establish_dominance
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_demand_sudetenland
 	prerequisite = { focus = generic_europe_national_superiority }
 	relative_position_id = generic_europe_national_superiority
 	x = -1
@@ -1292,7 +462,7 @@ focus = {
 # Focus For Organize Miltias
 focus = {
 	id = generic_europe_organize_miltias
-	icon = GFX_goal_support_fascism
+	icon = GFX_focus_generic_little_entente
 	prerequisite = { focus = generic_europe_national_superiority }
 	relative_position_id = generic_europe_national_superiority
 	x = 1
@@ -1306,7 +476,7 @@ focus = {
 # Focus For Lead The Charge
 focus = {
 	id = generic_europe_lead_the_charge
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_generic_major_war
 	prerequisite = { focus = generic_europe_establish_dominance
 	 								 focus = generic_europe_organize_miltias}
 	relative_position_id = generic_europe_national_superiority
@@ -1329,7 +499,7 @@ focus = {
 # Focus For Lead the Way
 focus = {
 	id = generic_europe_lead_the_way
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_ideology_paternal_autocrat
 	prerequisite = { focus = generic_europe_lead_the_charge }
 	relative_position_id = generic_europe_national_superiority
 	x = -2
@@ -1348,7 +518,7 @@ focus = {
 # Focus For Popular State
 focus = {
 	id = generic_europe_popular_state
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_ideology_national_populist
 	prerequisite = { focus = generic_europe_lead_the_charge }
 	relative_position_id = generic_europe_national_superiority
 	x = 0
@@ -1367,7 +537,7 @@ focus = {
 # Focus For Coronation Ceremony
 focus = {
 	id = generic_europe_coronation_ceremony
-	icon = GFX_goal_support_fascism
+	icon = GFX_focus_hun_elect_a_king
 	prerequisite = { focus = generic_europe_lead_the_charge }
 	relative_position_id = generic_europe_national_superiority
 	x = 2
@@ -1386,7 +556,7 @@ focus = {
 # Focus For We Stand for rome
 focus = {
 	id = generic_europe_we_stand_for_rome
-	icon = GFX_goal_support_communism
+	icon = GFX_goal_authority
 	prerequisite = { focus = generic_europe_national_superiority }
 	relative_position_id = generic_europe_national_superiority
 	x = 3
@@ -1403,7 +573,7 @@ focus = {
 # Focus For International Legions
 focus = {
 	id = generic_europe_international_legions
-	icon = GFX_goal_support_communism
+	icon = GFX_goal_volunteer_alliance
 	prerequisite = { focus = generic_europe_national_superiority }
 	relative_position_id = generic_europe_national_superiority
 	x = 3
@@ -1416,7 +586,7 @@ focus = {
 # Focus For SPQR
 focus = {
 	id = generic_europe_SPQR
-	icon = GFX_goal_support_communism
+	icon = GFX_Secret_Rearmament
 	prerequisite = { focus = generic_europe_international_legions }
 	relative_position_id = generic_europe_national_superiority
 	x = 3
