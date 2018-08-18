@@ -6,7 +6,7 @@ set_research_slots = 3
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
 	tech_military_police = 1
@@ -45,25 +45,41 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		social_democrat = {
-			popularity = 16
+	utopianism = {
+		popularity = 3
+	}
+	council_communist = {
+		popularity = 3
+	}
+	socialist = {
+		popularity = 4
+	}
+	social_democrat = {
+		popularity = 9
+	}
+	liberal = {
+		popularity = 31
+	}
+	conservative = {
+		popularity = 17
+	}
+	antiquarian_nationalist = {
+		popularity = 0
+	}
+	authoritarian_democrat = {
+		popularity = 20
 		}
-		liberal = {
-			popularity = 6
-		}
-		conservative = {
-			popularity = 61
-		}
-		authoritarian_democrat = {
-			popularity = 1
-		}
-		paternal_autocrat = {
-			popularity = 0
-		}
+	paternal_autocrat = {
+		popularity = 2
+	}
+	national_populist = {
+		popularity = 11
+	}
+
 	}
 
 
-	ruling_party = conservative
+	ruling_party = liberal
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = no
@@ -80,21 +96,11 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Lord Tweedsmuir"
-	desc = "POLITICS_JOHN_BUCHAN_DESC"
-	picture = "Portrait_John_Bucan.tga"
-	expire = "1965.1.1"
-	ideology = liberal_subtype
-	traits = {
-		#
-	}
-}
 
 create_country_leader = {
-	name = "Lord Tweedsmuir"
+	name = "Thomas Crerarr"
 	desc = "POLITICS_JOHN_BUCHAN_DESC"
-	picture = "Portrait_John_Bucan.tga"
+	picture = "Portrait_Thomas_Crerar.png"
 	expire = "1965.1.1"
 	ideology = liberal_subtype
 	traits = {
@@ -152,7 +158,7 @@ create_field_marshal = {
 	name = "Andrew McNaughton"
 	desc = "CAN_Gen_McNaughton_DESC"
 	picture = "Portrait_Andrew_McNaughton.tga"
-	traits = { 
+	traits = {
 		logistics_wizard
 		armor_officer
 		trait_reckless
@@ -168,7 +174,7 @@ create_field_marshal = {
 	name = "Arthur Currie"
 	desc = "CAN_Gen_Currie_DESC"
 	picture = "Portrait_Arthur_Currie.tga"
-	traits = { 
+	traits = {
 		brilliant_strategist
 		offensive_doctrine
 		war_hero
@@ -186,7 +192,7 @@ create_corps_commander = {
 	name = "Charles Foulkes"
 	desc = "CAN_Gen_Foulkes_DESC"
 	picture = "Portrait_Charles_Foulkes.tga" #gfx = "GFX_CAN_charles_foulkes" < This is the vanilla one.
-	traits = { 
+	traits = {
 		career_officer
 		infantry_officer
 		trait_engineer
@@ -203,7 +209,7 @@ create_corps_commander = {
 	name = "Harry Crerar"
 	desc = "CAN_Gen_Crerar_DESC"
 	picture = "Portrait_Harry_Crerar.tga"
-	traits = { 
+	traits = {
 		inflexible_strategist
 		old_guard
 		trait_cautious
@@ -252,7 +258,7 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Leonard W. Murray"
 	gfx = "GFX_CAN_leonard_warren_murray"
-	traits = { 
+	traits = {
 		#
 	}
 	skill = 4
