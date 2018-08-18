@@ -882,7 +882,7 @@ focus_tree = {
 		cost = 1
 		prerequisite = {focus = CRO_german_research}
 	}
-######################################################
+#####################################################
 #	Ante Pavelic tree
 #####################################################
 	#Ustasha coup
@@ -1013,7 +1013,7 @@ focus_tree = {
 		}
 	}
 	#DEMAND LANDS IN SERBIA
-	#Demand Bačka and Syrmia from Serbia. Gain claim on them.
+	#Demand Bačka from Serbia. Gain claim on them.
 	focus = {
 		id = CRO_demands_serbia
 		icon = GFX_goal_generic_territory_or_war
@@ -1077,6 +1077,38 @@ focus_tree = {
 		relative_position_id = CRO_ustasa_coup
 		x = 0
 		y = 9
+		cost = 5
+		prerequisite = {
+			focus = CRO_purge_muslims
+		}
+	}
+##############################################
+#	Economic tree
+#	pls end my miserable life
+##############################################
+	#THE STATUS OF THE ECONOMY
+	#+100 pp, x2 +25% research for Industry 
+	focus = {
+		id = CRO_economy
+		icon = GFX_goal_generic_production
+		available = {
+			always = no
+		}
+		x = 2
+		y = 7
+		cost = 5
+	}
+	#ANYTHING FOR THE NATION
+	#5% recruitable pop, +25% recruitable pop, +25 defense and atk on core.
+	focus = {
+		id = CRO_protectionism
+		icon = GFX_focus_generic_military_mission
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_economy
+		x = -1
+		y = 1
 		cost = 5
 		prerequisite = {
 			focus = CRO_purge_muslims
