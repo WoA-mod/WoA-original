@@ -1098,20 +1098,60 @@ focus_tree = {
 		y = 7
 		cost = 5
 	}
-	#ANYTHING FOR THE NATION
-	#5% recruitable pop, +25% recruitable pop, +25 defense and atk on core.
+	#Protectionism
+	#Must NOT be Liberal.
 	focus = {
 		id = CRO_protectionism
-		icon = GFX_focus_generic_military_mission
+		icon = GFX_goal_generic_defence
 		available = {
 			always = no
 		}
 		relative_position_id = CRO_economy
-		x = -1
+		x = -2
 		y = 1
 		cost = 5
 		prerequisite = {
-			focus = CRO_purge_muslims
+			focus = CRO_economy
+		}
+		mutually_exclusive = {
+			focus = CRO_free_market
+		}
+	}
+	#Protectionism
+	#Must NOT be Liberal.
+	focus = {
+		id = CRO_free_market
+		icon = GFX_goal_generic_trade
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_economy
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = CRO_economy
+		}
+		mutually_exclusive = {
+			focus = CRO_protectionism
+		}
+	}
+	#Protectionism
+	#Must NOT be Liberal.
+	focus = {
+		id = CRO_ft
+		icon = GFX_goal_generic_trade
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_economy
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = CRO_economy
+		}
+		mutually_exclusive = {
 		}
 	}
 }
