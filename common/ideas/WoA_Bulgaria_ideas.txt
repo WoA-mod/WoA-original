@@ -1,0 +1,44 @@
+################
+#Bulgaria IDEAS#
+################
+
+##############################################################
+#Coded by Silverscorpion, do not touch without his permission#
+##############################################################	
+ideas = {
+		
+	country = {	
+
+
+	BUL_Weak_Economy = {
+			picture = ROM_king_carol_emptied_accounts
+			modifier = {
+				production_factory_max_efficiency_factor = -0.05
+				industrial_capacity_factory = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+			}
+
+		}
+		
+		BUL_high_military_budget  = {
+			#on_add = {log = "[GetDateText]: [Root.GetName]: add idea BUL_high_military_buget"}
+			picture = generic_war_preparation
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+		
+		BUL_socialism_rising = {
+			#on_add = {log = "[GetDateText]: [Root.GetName]: add idea BUL_socialism_rising"}
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+				stability_weekly = -0.01
+				war_support_factor = -0.05
+				utopianism_drift = 0.01
+				council_communist_drift = 0.01
+				socialist_drift = 0.01
+			}
+		}
+		
+		}
+	}
