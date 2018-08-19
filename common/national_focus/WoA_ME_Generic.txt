@@ -1174,6 +1174,9 @@ focus = {
 			factor = 10
 		}
 		
+		mutually_exclusive = { 
+			focus = generic_me_preserve_what_we_have
+		}
 		available = {
 		}
 
@@ -1269,6 +1272,9 @@ focus = {
 			factor = 10
 		}
 		
+		mutually_exclusive = { 
+			focus = generic_me_The_Dream_of_Pan_Arabia
+		}
 		available = {
 		}
 
