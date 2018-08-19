@@ -23,9 +23,9 @@ focus_tree = {
 ###########Politics##############
 
 
-# Focus For The Future Of Our Country
+# The Future Of Our Country
 focus = {
-	id = generic_europe_the_future_of_our_country
+	id = gen_eu_politics
 	icon = GFX_focus_generic_support_the_left_right
 	x = 6
 	y = 6
@@ -35,565 +35,273 @@ focus = {
 	}
 }
 
-# Focus For Class Struggle
+# Democracy Path
 focus = {
-	id =  generic_europe_class_struggle
-	icon = GFX_focus_prc_agrarian_socialism
-	prerequisite = { focus = generic_europe_the_future_of_our_country }
-	relative_position_id = generic_europe_the_future_of_our_country
-	x = -7
-	y = 1
-	cost = 6
-	completion_reward = {
-		add_political_power = 50
-	}
-}
-
-# Focus For We Stand By The People
-focus = {
-	id = generic_europe_we_stand_by_the_people
-	icon = GFX_goal_generic_national_unity_red
-	prerequisite = { focus = generic_europe_class_struggle }
-	relative_position_id = generic_europe_class_struggle
-	x = -3
-	y = 2
-	cost = 6
-	completion_reward = {
-	add_opinion_modifier = {
-													target = DAN
-													modifier = GEN_FRIEND
-												 }
-	}
-}
-
-# Focus For Smuggle In Supplies
-focus = {
-	id = generic_europe_smuggle_in_supplies
-	icon = GFX_focus_secret_rearmament_red
-	prerequisite = { focus = generic_europe_class_struggle }
-	relative_position_id = generic_europe_class_struggle
-	x = -3
-	y = 3
-	cost = 6
-	completion_reward = {#spirithere
-											}
-}
-
-# Focus For Support The International
-focus = {
-	id = generic_europe_support_the_international
-	icon = GFX_goal_generic_war_with_comintern
-	prerequisite = { focus = generic_europe_smuggle_in_supplies }
-	relative_position_id = generic_europe_class_struggle
-	x = -3
-	y = 4
-	cost = 6
-	completion_reward = {
-	add_to_faction = International
-	}
-}
-
-# Focus For Building Mass Movements
-focus = {
-	id = generic_europe_building_mass_movements
-	icon = GFX_goal_red_star_soldier
-	prerequisite = { focus = generic_europe_class_struggle }
-	relative_position_id = generic_europe_class_struggle
-	x = -1
-	y = 2
-	cost = 6
-	completion_reward = {
-	#ideologyspirit
-	}
-}
-
-# Focus For Sabotage The Oppressors
-focus = {
-	id = generic_europe_sabotage_the_oppressors
-	icon = GFX_focus_prc_infiltration
-	prerequisite = { focus = generic_europe_class_struggle }
-	relative_position_id = generic_europe_class_struggle
-	x = 1
-	y = 2
-	cost = 6
-	completion_reward = {
-	#ideologyspirit
-	}
-}
-
-# Focus For Seize The Means
-focus = {
-	id = generic_europe_seize_the_means
-	icon = GFX_goal_socialist_industry
-	prerequisite = { focus = generic_europe_building_mass_movements
-	 								 focus = generic_europe_sabotage_the_oppressors}
-	relative_position_id = generic_europe_class_struggle
-	x = 0
-	y = 4
-	cost = 6
-	completion_reward = {
-	add_political_power = 50
-	random_owned_controlled_state = {
-		add_extra_state_shared_building_slots = 1
-		add_building_construction = {
-			type = arms_factory
-			level = 1
-			instant_build = yes
-		}
-	}
-	}
-}
-
-# Focus For The Danubian Model
-focus = {
-	id = generic_europe_the_danubian_model
-	icon = GFX_goal_agrarian_reform
-	prerequisite = { focus = generic_europe_seize_the_means }
-	relative_position_id = generic_europe_class_struggle
-	x = -2
-	y = 5
-	cost = 6
-	mutually_exclusive = { focus = generic_europe_all_stripes_of_socialist
-												 focus = generic_europe_eternal_class_war
-												 focus = generic_europe_social_compromise}
-	completion_reward = {set_politics = {
-																				ruling_party = council_communist
-																				elections_allowed = no
-																			}
-	}
-}
-
-# Focus For All Stripes Of Socialist
-focus = {
-	id = generic_europe_all_stripes_of_socialist
-	icon = GFX_goal_red_star_central
-	prerequisite = { focus = generic_europe_seize_the_means }
-	relative_position_id = generic_europe_class_struggle
-	x = 0
-	y = 5
-	cost = 6
-	mutually_exclusive = { focus = generic_europe_the_danubian_model
-												 focus = generic_europe_eternal_class_war
-												 focus = generic_europe_social_compromise}
-	completion_reward = {set_politics = {
-																				ruling_party = socialist
-																				elections_allowed = no
-																			}
-	}
-}
-
-# Focus For Eternal Class War
-focus = {
-	id = generic_europe_eternal_class_war
-	icon = GFX_goal_rev_militia2
-	prerequisite = { focus = generic_europe_seize_the_means }
-	relative_position_id = generic_europe_class_struggle
-	x = 2
-	y = 5
-	cost = 6
-	mutually_exclusive = { focus = generic_europe_the_danubian_model
-												 focus = generic_europe_all_stripes_of_socialist
-												 focus = generic_europe_social_compromise}
-	completion_reward = {set_politics = {
-																				ruling_party = utopianism
-																				elections_allowed = no
-																			}
-	}
-}
-
-# Focus For Social Compromise
-focus = {
-	id = generic_europe_social_compromise
-	icon = GFX_goal_ideology_social_democrat
-	prerequisite = { focus = generic_europe_seize_the_means
-									 focus = generic_europe_electoral_success}
-	relative_position_id = generic_europe_class_struggle
-	x = 4
-	y = 5
-	cost = 6
-	mutually_exclusive = { focus = generic_europe_the_danubian_model
-												 focus = generic_europe_all_stripes_of_socialist
-												 focus = generic_europe_eternal_class_war}
-	completion_reward = {set_politics = {
-																				ruling_party = social_democrat
-																				elections_allowed = no
-																			}
-	}
-}
-
-# Focus For We Stand Alone
-focus = {
-	id = generic_europe_we_stand_alone
-	icon = GFX_goal_generic_demand_territory
-	prerequisite = { focus = generic_europe_the_future_of_our_country }
-	relative_position_id = generic_europe_class_struggle
-	x = 4
-	y = 2
-	cost = 6
-	completion_reward = {
-		add_political_power = 50
-	}
-}
-
-# Focus For Splendid Isolation
-focus = {
-	id = generic_europe_splendid_isolation
-	icon = GFX_goal_generic_national_unity
-	prerequisite = { focus = generic_europe_we_stand_alone }
-	relative_position_id = generic_europe_class_struggle
-	x = 4
-	y = 3
-	cost = 6
-	completion_reward = {
-		add_political_power = 50
-	}
-}
-
-# Focus For Fortress Nation
-focus = {
-	id = generic_europe_fortress_nation
-	icon = GFX_goal_generic_fortify_city
-	prerequisite = { focus = generic_europe_splendid_isolation }
-	relative_position_id = generic_europe_class_struggle
-	x = 4
-	y = 4
-	cost = 6
-	completion_reward = {
-		add_political_power = 50
-	}
-}
-
-# Focus For Free and Fair Elections
-focus = {
-	id =  generic_europe_free_and_fair_elections
-	icon = GFX_goal_generic_elections
-	prerequisite = { focus = generic_europe_the_future_of_our_country }
-	relative_position_id = generic_europe_the_future_of_our_country
+	id = gen_eu_democracy
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_politics }
+	relative_position_id = gen_eu_politics
 	x = 0
 	y = 1
 	cost = 6
 	completion_reward = {
-		add_political_power = 50
 	}
 }
 
-# Focus For The Will of The People
+# Democratic Economy
 focus = {
-	id = generic_europe_the_will_of_the_people
-	icon = GFX_goal_support_democracy
-	prerequisite = { focus = generic_europe_free_and_fair_elections }
-	relative_position_id = generic_europe_free_and_fair_elections
-	x = -1
-	y = 2
-	cost = 6
-	completion_reward = {
-	#ideologyspirit
-	}
-}
-
-# Focus For Check And Balance
-focus = {
-	id = generic_europe_check_and_balance
-	icon = GFX_focus_generic_concessions
-	prerequisite = { focus = generic_europe_free_and_fair_elections }
-	relative_position_id = generic_europe_free_and_fair_elections
-	x = 1
-	y = 2
-	cost = 6
-	completion_reward = {
-	#ideologyspirit
-	}
-}
-
-# Focus For Electoral Success
-focus = {
-	id = generic_europe_electoral_success
-	icon = GFX_focus_generic_treaty
-	prerequisite = { focus = generic_europe_the_will_of_the_people
-	 								 focus = generic_europe_check_and_balance}
-	relative_position_id = generic_europe_free_and_fair_elections
-	x = 0
-	y = 4
-	cost = 6
-	completion_reward = {
-	add_political_power = 50
-	random_owned_controlled_state = {
-		add_extra_state_shared_building_slots = 1
-		add_building_construction = {
-			type = arms_factory
-			level = 1
-			instant_build = yes
-		}
-	}
-	}
-}
-
-# Focus For Liberalize Society
-focus = {
-	id = generic_europe_liberalize_society
-	icon = GFX_goal_support_democracy
-	prerequisite = { focus = generic_europe_electoral_success }
-	relative_position_id = generic_europe_free_and_fair_elections
-	x = -1
-	y = 5
-	cost = 6
-	mutually_exclusive = { focus = generic_europe_approach_conservatively
-												 focus = generic_europe_a_firm_hand_on_society
-												 focus = generic_europe_social_compromise}
-	completion_reward = {set_politics = {
-																				ruling_party = liberal
-																				elections_allowed = no
-																			}
-	}
-}
-
-# Focus For Approach Conservatively
-focus = {
-	id = generic_europe_approach_conservatively
-	icon = GFX_goal_ideology_social_conservative
-	prerequisite = { focus = generic_europe_electoral_success }
-	relative_position_id = generic_europe_free_and_fair_elections
-	x = 1
-	y = 5
-	cost = 6
-	mutually_exclusive = { focus = generic_europe_liberalize_society
-												 focus = generic_europe_a_firm_hand_on_society
-												 focus = generic_europe_social_compromise}
-	completion_reward = {set_politics = {
-																				ruling_party = conservative
-																				elections_allowed = no
-																			}
-	}
-}
-
-# Focus For A Firm Hand On Society
-focus = {
-	id = generic_europe_a_firm_hand_on_society
-	icon = GFX_goal_ideology_authoritarian_democrat
-	prerequisite = { focus = generic_europe_electoral_success
-									 focus = generic_europe_lead_the_charge}
-	relative_position_id = generic_europe_free_and_fair_elections
-	x = 3
-	y = 5
-	cost = 6
-	mutually_exclusive = { focus = generic_europe_liberalize_society
-												 focus = generic_europe_approach_conservatively
-												 focus = generic_europe_social_compromise}
-	completion_reward = {set_politics = {
-																				ruling_party = authoritarian_democrat
-																				elections_allowed = no
-																			}
-	}
-}
-
-# Focus For We Stand With Europa
-focus = {
-	id = generic_europe_we_stand_with_europa
-	icon = GFX_focus_ger_revive_kaiserreich
-	prerequisite = { focus = generic_europe_free_and_fair_elections
-	 								 focus = generic_europe_national_superiority}
-	relative_position_id = generic_europe_free_and_fair_elections
-	x = 3
-	y = 2
-	cost = 6
-	completion_reward = {	add_opinion_modifier = {
-														target = GER
-														modifier = GEN_FRIEND
-													 }
-	}
-}
-
-# Focus For The Mark Standard
-focus = {
-	id = generic_europe_the_mark_standard
-	icon = GFX_goal_pile_of_money
-	prerequisite = { focus = generic_europe_we_stand_with_europa }
-	relative_position_id = generic_europe_free_and_fair_elections
-	x = 3
-	y = 3
-	cost = 6
-	completion_reward = {
-		add_political_power = 50
-	}
-}
-
-# Focus For Join The Einracht
-focus = {
-	id = generic_join_the_einracht
-	icon = GFX_focus_ger_return_of_the_kaiser
-	prerequisite = { focus = generic_europe_the_mark_standard }
-	relative_position_id = generic_europe_free_and_fair_elections
-	x = 3
-	y = 4
-	cost = 6
-	completion_reward = {
-		add_political_power = 50
-	}
-}
-
-# Focus For National Superiority
-focus = {
-	id =  generic_europe_national_superiority
-	icon = GFX_goal_national_populism
-	prerequisite = { focus = generic_europe_the_future_of_our_country }
-	relative_position_id = generic_europe_the_future_of_our_country
-	x = 7
+	id = gen_eu_dem_econ
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_democracy }
+	relative_position_id = gen_eu_democracy
+	x = 4
 	y = 1
 	cost = 6
 	completion_reward = {
-		add_political_power = 50
 	}
 }
 
-# Focus For Establish Dominance
+# Free Market
 focus = {
-	id = generic_europe_establish_dominance
-	icon = GFX_goal_demand_sudetenland
-	prerequisite = { focus = generic_europe_national_superiority }
-	relative_position_id = generic_europe_national_superiority
+	id = gen_eu_free_market
+	icon = GFX_focus_generic_support_the_left_right
+	mutually_exclusive = { focus = gen_eu_interventionism }
+	prerequisite = { focus = gen_eu_dem_econ }
+	relative_position_id = gen_eu_dem_econ
 	x = -1
-	y = 2
+	y = 1
 	cost = 6
 	completion_reward = {
-	#ideologyspirit
 	}
 }
 
-# Focus For Organize Miltias
+# Encourage Local Business
 focus = {
-	id = generic_europe_organize_miltias
-	icon = GFX_focus_generic_little_entente
-	prerequisite = { focus = generic_europe_national_superiority }
-	relative_position_id = generic_europe_national_superiority
+	id = gen_eu_dem_civ_fac
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_free_market }
+	relative_position_id = gen_eu_free_market
+	x = 0
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+# Military Contracts
+focus = {
+	id = gen_eu_dem_mil_fac
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_dem_civ_fac }
+	relative_position_id = gen_eu_dem_civ_fac
+	x = 0
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+# Interventionism
+focus = {
+	id = gen_eu_interventionism
+	icon = GFX_focus_generic_support_the_left_right
+	mutually_exclusive = { focus = gen_eu_free_market }
+	prerequisite = { focus = gen_eu_dem_econ }
+	relative_position_id = gen_eu_dem_econ
 	x = 1
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+# Counsumer Goods Subsidies
+focus = {
+	id = gen_eu_subsidies
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_interventionism }
+	relative_position_id = gen_eu_interventionism
+	x = 0
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+# Military Factories
+focus = {
+	id = gen_eu_arms
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_subsidies }
+	relative_position_id = gen_eu_subsidies
+	x = 0
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+# Democracy for All
+focus = {
+	id = gen_eu_democracy_for_all
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_democracy }
+	relative_position_id = gen_eu_democracy
+	x = 0
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+# Faith in Government
+focus = {
+	id = gen_eu_faith_in_gov
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_democracy_for_all }
+	mutually_exclusive = { focus = gen_eu_minorities }
+	relative_position_id = gen_eu_democracy_for_all
+	x = -1
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+# Minority Treatment
+focus = {
+	id = gen_eu_minorities
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_democracy_for_all }
+	mutually_exclusive = { focus = gen_eu_faith_in_gov }
+	relative_position_id = gen_eu_democracy_for_all
+	x = 1
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+# A New Constitution
+focus = {
+	id = gen_eu_constitution
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_faith_in_gov focus = gen_eu_minorities }
+	relative_position_id = gen_eu_democracy_for_all
+	x = 0
 	y = 2
 	cost = 6
 	completion_reward = {
-	#ideologyspirit
 	}
 }
 
-# Focus For Lead The Charge
+# Democracy Abroad
 focus = {
-	id = generic_europe_lead_the_charge
-	icon = GFX_goal_generic_major_war
-	prerequisite = { focus = generic_europe_establish_dominance
-	 								 focus = generic_europe_organize_miltias}
-	relative_position_id = generic_europe_national_superiority
+	id = gen_eu_democracy_abroad
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_democracy }
+	relative_position_id = gen_eu_democracy
+	x = -4
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+# Freedom Corps
+focus = {
+	id = gen_eu_freedom_corps
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_democracy_abroad }
+	relative_position_id = gen_eu_democracy_abroad
+	x = -1
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+# Safeguard for Liberty
+focus = {
+	id = gen_eu_liberty_safeguard
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_freedom_corps }
+	relative_position_id = gen_eu_freedom_corps
 	x = 0
-	y = 4
+	y = 1
 	cost = 6
 	completion_reward = {
-	add_political_power = 50
-	random_owned_controlled_state = {
-		add_extra_state_shared_building_slots = 1
-		add_building_construction = {
-			type = arms_factory
-			level = 1
-			instant_build = yes
-		}
-	}
 	}
 }
 
-# Focus For Lead the Way
+# Democratic Friends
 focus = {
-	id = generic_europe_lead_the_way
-	icon = GFX_goal_ideology_paternal_autocrat
-	prerequisite = { focus = generic_europe_lead_the_charge }
-	relative_position_id = generic_europe_national_superiority
-	x = -2
-	y = 5
+	id = gen_eu_dem_friends
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_democracy_abroad }
+	relative_position_id = gen_eu_democracy_abroad
+	x = 1
+	y = 1
 	cost = 6
-	mutually_exclusive = { focus = generic_europe_popular_state
-												 focus = generic_europe_coronation_ceremony
-												 focus = generic_europe_a_firm_hand_on_society}
-	completion_reward = {set_politics = {
-																				ruling_party = paternal_autocrat
-																				elections_allowed = no
-																			}
+	completion_reward = {
 	}
 }
 
-# Focus For Popular State
+# Choose our Allies
 focus = {
-	id = generic_europe_popular_state
-	icon = GFX_goal_ideology_national_populist
-	prerequisite = { focus = generic_europe_lead_the_charge }
-	relative_position_id = generic_europe_national_superiority
+	id = gen_eu_dem_allies
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_dem_friends }
+	relative_position_id = gen_eu_dem_friends
 	x = 0
-	y = 5
-	cost = 6
-	mutually_exclusive = { focus = generic_europe_lead_the_way
-												 focus = generic_europe_coronation_ceremony
-												 focus = generic_europe_a_firm_hand_on_society}
-	completion_reward = {set_politics = {
-																				ruling_party = national_populist
-																				elections_allowed = no
-																			}
-	}
-}
-
-# Focus For Coronation Ceremony
-focus = {
-	id = generic_europe_coronation_ceremony
-	icon = GFX_focus_hun_elect_a_king
-	prerequisite = { focus = generic_europe_lead_the_charge }
-	relative_position_id = generic_europe_national_superiority
-	x = 2
-	y = 5
-	cost = 6
-	mutually_exclusive = { focus = generic_europe_lead_the_way
-												 focus = generic_europe_popular_state
-												 focus = generic_europe_a_firm_hand_on_society}
-	completion_reward = {set_politics = {
-																				ruling_party = antiquarian_nationalist
-																				elections_allowed = no
-																			}
-	}
-}
-
-# Focus For We Stand for rome
-focus = {
-	id = generic_europe_we_stand_for_rome
-	icon = GFX_goal_authority
-	prerequisite = { focus = generic_europe_national_superiority }
-	relative_position_id = generic_europe_national_superiority
-	x = 3
-	y = 2
+	y = 1
 	cost = 6
 	completion_reward = {
-												add_opinion_modifier = {
-																								target = ITA
-																								modifier = GEN_FRIEND
-																							 }
 	}
 }
 
-# Focus For International Legions
+# Spread Our Own Light
 focus = {
-	id = generic_europe_international_legions
-	icon = GFX_goal_volunteer_alliance
-	prerequisite = { focus = generic_europe_national_superiority }
-	relative_position_id = generic_europe_national_superiority
-	x = 3
-	y = 3
-	cost = 6
-	completion_reward = {#spirithere
-											}
-}
-
-# Focus For SPQR
-focus = {
-	id = generic_europe_SPQR
-	icon = GFX_Secret_Rearmament
-	prerequisite = { focus = generic_europe_international_legions }
-	relative_position_id = generic_europe_national_superiority
-	x = 3
-	y = 4
+	id = gen_eu_dem_independent
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_dem_allies }
+	mutually_exclusive = { focus = gen_eu_dem_eintracht }
+	mutually_exclusive = { focus = gen_eu_dem_us_russia_allies }
+	relative_position_id = gen_eu_dem_allies
+	x = -3
+	y = 1
 	cost = 6
 	completion_reward = {
-	add_to_faction = International
+	}
+}
+
+# Democratic Alliance
+focus = {
+	id = gen_eu_dem_us_russia_allies
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_dem_allies }
+	mutually_exclusive = { focus = gen_eu_dem_independent }
+	mutually_exclusive = { focus = gen_eu_dem_eintracht }
+	relative_position_id = gen_eu_dem_allies
+	x = -1
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+# Eintracht
+focus = {
+	id = gen_eu_dem_eintracht
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = gen_eu_dem_allies }
+	mutually_exclusive = { focus = gen_eu_dem_us_russia_allies }
+	mutually_exclusive = { focus = gen_eu_dem_independent }
+	relative_position_id = gen_eu_dem_allies
+	x = 1
+	y = 1
+	cost = 6
+	completion_reward = {
 	}
 }
 
