@@ -2,6 +2,7 @@
 # Middle East Generic Focus Tree
 ###########################
 #Coded by CrusaderKing, and Silverscorpion with AirHunter's help.
+#Fraaz cleaned up Crusader's tree
 ###########################
 
 focus_tree = {
@@ -25,7 +26,7 @@ focus_tree = {
 	shared_focus = generic_strengthen_the_navy
 	shared_focus = generic_our_place_in_the_world
 	
-	#Start coding in your focuses from here, here is a basic template just in case you need it
+	#Here start's Crusader's tree
 	
 	focus = {
 		id = generic_me_dealing_with_the_economy
@@ -46,17 +47,17 @@ focus_tree = {
 	}
 
 
-focus = {
+	focus = {
 		id = generic_me_new_agrarian_policies
 		icon = GFX_focus_AUS_agriculture
-		x = 0
-		y = 8
+		relative_position_id = generic_me_dealing_with_the_economy
+		x = -1
+		y = 1
 		cost = 10
 
 		ai_will_do = {
 			factor = 10
 		}
-
 		available = {
 		}
 
@@ -66,11 +67,12 @@ focus = {
 		}
 	}
 
-focus = {
+	focus = {
 		id = generic_me_ensure_tax_efficiency
 		icon = GFX_goal_generic_neutrality_focus
-		x = 2
-		y = 8
+		relative_position_id = generic_me_dealing_with_the_economy
+		x = 1
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -86,11 +88,12 @@ focus = {
 		}
 	}
 	
-focus = {
+	focus = {
 		id = generic_me_invest_in_industry
 		icon = GFX_goal_generic_construct_civ_factory
+		relative_position_id = generic_me_new_agrarian_policies
 		x = 0
-		y = 9
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -109,8 +112,9 @@ focus = {
 focus = {
 		id = generic_me_literacy_programs
 		icon = GFX_goal_KTG_Bookstack
-		x = 2
-		y = 9
+		relative_position_id = generic_me_ensure_tax_efficiency
+		x = 0
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -129,8 +133,9 @@ focus = {
 	focus = {
 		id = generic_me_reformed_legal_code
 		icon = GFX_goal_HOL_sustain_neutrality
-		x = 2
-		y = 10
+		relative_position_id = generic_me_literacy_programs
+		x = 0
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -149,8 +154,9 @@ focus = {
 	focus = {
 		id = generic_me_attract_western_investment
 		icon = GFX_goal_generic_intelligence_exchange
+		relative_position_id = generic_me_invest_in_industry
 		x = 0
-		y = 10
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -169,8 +175,9 @@ focus = {
 	focus = {
 		id = generic_me_finalise_reforms
 		icon = GFX_goal_continuous_political
+		relative_position_id = generic_me_attract_western_investment
 		x = 1
-		y = 11
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -190,8 +197,9 @@ focus = {
 	focus = {
 		id = generic_me_military_investments
 		icon = GFX_goal_generic_construct_mil_factory
-		x = -3
-		y = 8
+		relative_position_id = generic_me_dealing_with_the_economy
+		x = -5
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -210,8 +218,9 @@ focus = {
 	focus = {
 		id = generic_me_clear_the_land
 		icon = GFX_goal_generic_construct_infrastructure
-		x = -3
-		y = 9
+		relative_position_id = generic_me_military_investments
+		x = 1
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -230,8 +239,9 @@ focus = {
 	focus = {
 		id = generic_me_continue_military_expansion
 		icon = GFX_goal_generic_construct_mil_factory
-		x = -3
-		y = 10
+		relative_position_id = generic_me_clear_the_land
+		x = 0
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -250,8 +260,9 @@ focus = {
 	focus = {
 		id = generic_me_take_to_the_seas
 		icon = GFX_goal_generic_coastal_navy
-		x = -5
-		y = 9
+		relative_position_id = generic_me_military_investments
+		x = -1
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -270,8 +281,9 @@ focus = {
 		focus = {
 		id = generic_me_continue_dock_expansions
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = -5
-		y = 10
+		relative_position_id = generic_me_take_to_the_seas
+		x = 0
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -290,8 +302,9 @@ focus = {
 	focus = {
 		id = generic_me_supporting_our_army
 		icon = GFX_goal_generic_construction
-		x = -3
-		y = 11
+		relative_position_id = generic_me_continue_military_expansion
+		x = 0
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -311,11 +324,12 @@ focus = {
 		}
 	}
 
-			focus = {
+	focus = {
 		id = generic_me_stick_with_what_we_know
 		icon = GFX_goal_agrarian_reform
-		x = 5
-		y = 8
+		relative_position_id = generic_me_dealing_with_the_economy
+		x = 4
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -340,11 +354,12 @@ focus = {
 		}
 	}
 	
-			focus = {
+	focus = {
 		id = generic_me_the_road_to_modernity
 		icon = GFX_goal_generic_forceful_treaty
-		x = 7
-		y = 8
+		relative_position_id = generic_me_dealing_with_the_economy
+		x = 6
+		y = 1
 		cost = 10
 		prerequisite = { focus = generic_me_dealing_with_the_economy }
 				
@@ -363,11 +378,12 @@ focus = {
 		}
 	}
 	
-		focus = {
+	focus = {
 		id = generic_me_promote_traditional_systems
 		icon = GFX_goal_generic_defence
-		x = 5
-		y = 9
+		relative_position_id = generic_me_stick_with_what_we_know
+		x = 0
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -389,8 +405,9 @@ focus = {
 		focus = {
 		id = generic_me_prospect_for_oil
 		icon = GFX_goal_generic_oil_refinery
-		x = 7
-		y = 9
+		relative_position_id = generic_me_the_road_to_modernity
+		x = 0
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -412,8 +429,9 @@ focus = {
 		focus = {
 		id = generic_me_agrarian_primacy
 		icon = GFX_goal_agriculture
-		x = 5
-		y = 10
+		relative_position_id = generic_me_promote_traditional_systems
+		x = 0
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -437,8 +455,9 @@ focus = {
 	focus = {
 		id = generic_me_electrification_projects
 		icon = GFX_goal_generic_consumer_goods
-		x = 7
-		y = 10
+		relative_position_id = generic_me_prospect_for_oil
+		x = 0
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -460,8 +479,9 @@ focus = {
 		focus = {
 		id = generic_me_clear_economic_model
 		icon = GFX_focus_generic_self_management
-		x = 6
-		y = 11
+		relative_position_id = generic_me_agrarian_primacy
+		x = 1
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -484,8 +504,9 @@ focus = {
 	focus = {
 		id = generic_me_economic_prosperity
 		icon = GFX_focus_generic_industry_3
-		x = 1
-		y = 12
+		relative_position_id = generic_me_finalise_reforms
+		x = 0
+		y = 1
 		cost = 10
 
 		ai_will_do = {
