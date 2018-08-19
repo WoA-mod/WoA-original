@@ -1117,8 +1117,8 @@ focus_tree = {
 			focus = CRO_free_market
 		}
 	}
-	#Protectionism
-	#Must NOT be Liberal.
+	#Free Trade
+	#Must NOT be Natpop or Conservative.
 	focus = {
 		id = CRO_free_market
 		icon = GFX_goal_generic_trade
@@ -1144,12 +1144,12 @@ focus_tree = {
 		available = {
 			always = no
 		}
-		relative_position_id = CRO_economy
+		relative_position_id = CRO_protectionism
 		x = 2
 		y = 1
 		cost = 5
 		prerequisite = {
-			focus = CRO_economy
+			focus = CRO_protectionism
 		}
 		mutually_exclusive = {
 		}
