@@ -54,10 +54,10 @@ set_politics = {
 		conservative = {
 			popularity = 0
 		}
-		
+
 	}
-	
-	ruling_party = antiquarian_nationalist
+
+	ruling_party = council_communist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no

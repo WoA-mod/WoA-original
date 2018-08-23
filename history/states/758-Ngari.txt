@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = LAT
+		owner = LIV
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -15,13 +15,14 @@ state={
 			air_base = 7
 
 		}
+		add_core_of = LIV
 		add_core_of = LAT
 		add_core_of = EST
 
 	}
 
 	provinces={
-		222 233 310 341 6459 7482 9275 11358 
+		222 310 341 6459 7482 9275
 	}
 	manpower=90500
 	buildings_max_level_factor=1.000
