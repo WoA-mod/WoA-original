@@ -3,6 +3,8 @@
 ###########################
 #Coded by CrusaderKing, and Silverscorpion with AirHunter's help.
 #Fraaz cleaned up Crusader's tree
+#Note from AirHunter: Not enough cleaning up, still needs more cleaning up, organizing code and adding effects. CRUSADER.
+#Disabled this tree too for now due to having no effects. Remove the commented out modifier if you want it to work again.
 ###########################
 
 focus_tree = {
@@ -10,10 +12,10 @@ focus_tree = {
 	
 	country = {
 		factor = 0
-		modifier = {
-			add = 2
-			tag = TUR #temporary tag for testing, add more ME tags here
-		}
+		#modifier = {
+		#	add = 2
+		#	tag = TUR #temporary tag for testing, add more ME tags here
+		#}
 	}
 	
 	continuous_focus_position = { x = -400 y = 1800 }
@@ -109,7 +111,7 @@ focus_tree = {
 		}
 	}
 	
-focus = {
+	focus = {
 		id = generic_me_literacy_programs
 		icon = GFX_goal_KTG_Bookstack
 		relative_position_id = generic_me_ensure_tax_efficiency
@@ -343,7 +345,7 @@ focus = {
 		prerequisite = { focus = generic_me_dealing_with_the_economy }
 		
 		mutually_exclusive = { 
-			focus = TUR_the_road_to_modernity
+			focus = generic_me_the_road_to_modernity
 		}
 		
 	
@@ -391,7 +393,7 @@ focus = {
 		}
 
 		prerequisite = { 
-		focus = generic_me_stick_with_what_we_know
+			focus = generic_me_stick_with_what_we_know
 		}
 	
 	
@@ -415,7 +417,7 @@ focus = {
 		}
 
 		prerequisite = { 
-		focus = generic_me_the_road_to_modernity
+			focus = generic_me_the_road_to_modernity
 		}
 	
 	
@@ -439,7 +441,7 @@ focus = {
 		}
 
 		prerequisite = { 
-		focus = generic_me_promote_traditional_systems
+			focus = generic_me_promote_traditional_systems
 		}
 	
 	
@@ -476,7 +478,7 @@ focus = {
 		}
 	}
 	
-		focus = {
+	focus = {
 		id = generic_me_clear_economic_model
 		icon = GFX_focus_generic_self_management
 		relative_position_id = generic_me_agrarian_primacy
@@ -489,8 +491,8 @@ focus = {
 		}
 
 		prerequisite = { 
-		focus = generic_me_agrarian_primacy
-		focus = generic_me_electrification_projects
+			focus = generic_me_agrarian_primacy
+			focus = generic_me_electrification_projects
 		}
 	
 	
