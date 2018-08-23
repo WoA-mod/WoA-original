@@ -1,7 +1,11 @@
 foreign_politics = {
+
 	generic_decision_our_place_in_the_world = {
-		#visible = {
-		#}
+		visible = {
+			OR = {
+				has_focus_tree = generic_focus
+			}
+		}
 		
 		icon = generic_world
 		
@@ -26,4 +30,162 @@ foreign_politics = {
 			}
 		}
 	}
+}
+economy_decisions = {	
+	generic_decision_fighter_production = {
+		visible = {
+			has_completed_focus = generic_air_production
+		}
+		
+		icon = generic_air_production
+		
+		#available = {
+		#}
+		
+		cost = 100
+		
+		days_remove = 90
+		
+		#days_re_enable = 90
+		
+		#ai_will_do = {
+		#	factor = 100
+		#}
+	}
+	generic_decision_bomber_production = {
+		visible = {
+			has_completed_focus = generic_air_production
+		}
+		
+		icon = generic_bomber_production
+		
+		#available = {
+		#}
+		
+		cost = 100
+		
+		days_remove = 90
+		
+		#days_re_enable = 90
+		
+		#ai_will_do = {
+		#	factor = 100
+		#}
+	}
+	generic_decision_look_for_fighter_sellers = {
+		visible = {
+			has_completed_focus = generic_air_production
+		}
+		
+		icon = generic_air_trading
+		
+		#available = {
+		#}
+		
+		cost = 150
+		
+		days_remove = 90
+		
+		#days_re_enable = 90
+		
+		#ai_will_do = {
+		#	factor = 100
+		#}
+	}
+	generic_decision_look_for_bomber_sellers = {
+		visible = {
+			has_completed_focus = generic_air_production
+		}
+		
+		icon = generic_bomber_trading
+		
+		#available = {
+		#}
+		
+		cost = 150
+		
+		days_remove = 90
+		
+		#days_re_enable = 90
+		
+		#ai_will_do = {
+		#	factor = 100
+		#}
+	}
+	generic_decision_move_arms_factory_offshore = {
+		visible = {
+			has_completed_focus = generic_economy_free_trade_securing_our_industry
+		}
+		
+		icon = generic_move_industry_offshore
+		
+		available = {
+			industrial_complex > 0
+		}
+		
+		cost = 50
+		
+		days_remove = 30
+		
+		#days_re_enable = 90
+		
+		complete_effect = {
+			random_owned_controlled_state = {
+				limit = { industrial_complex > 0 }
+				remove_building  = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+		
+		remove_effect = {
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+		#ai_will_do = {
+		#	factor = 100
+		#}
+	}
+	generic_decision_move_civilian_factory_offshore = {
+		visible = {
+			has_completed_focus = generic_economy_free_trade_securing_our_industry
+		}
+		
+		icon = generic_move_industry_offshore
+		
+		available = {
+			arms_factory > 0
+		}
+		
+		cost = 50
+		
+		days_remove = 30
+		
+		#days_re_enable = 90
+		
+		complete_effect = {
+			random_owned_controlled_state = {
+				limit = { arms_factory > 0 }
+				remove_building  = {
+					type = arms_factory
+					level = 1
+				}
+			}
+		}
+		
+		remove_effect = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 1
+			}
+		}
+		
+		#ai_will_do = {
+		#	factor = 100
+		#}
+	}
+	
 }
