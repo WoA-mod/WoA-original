@@ -22,7 +22,7 @@ EGY = {
 }
 EGL = {
 	color = rgb { 140 0 0 } #135 13 24
-	color_ui = rgb { 145 13 24 } 
+	color_ui = rgb { 145 13 24 }
 }
 ERM = {
 	color = rgb { 33 37 130 }
@@ -30,11 +30,11 @@ ERM = {
 }
 SCO = {
 	color = rgb { 5 60 175 }
-	color_ui = rgb { 5 60 175 } 
+	color_ui = rgb { 5 60 175 }
 }
 WAL = {
 	color = rgb { 20 120 70 }
-	color_ui = rgb { 5 160 5 } 
+	color_ui = rgb { 5 160 5 }
 }
 SOV = {
 	color = rgb { 0 100 60 }
@@ -80,7 +80,7 @@ LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 }
-BEL = { 
+BEL = {
 	color = rgb { 213 191 28 } #193 171 8
 	color_ui = rgb { 251 222 10 }
 	  }
@@ -114,7 +114,7 @@ ASR = {
 }
 LIT = {
 	color = rgb { 120 120 90 }
-	color_ui = rgb { 120 120 90 } 
+	color_ui = rgb { 120 120 90 }
 }
 EST = {
 	color = rgb { 120 120 120 }
@@ -205,7 +205,7 @@ BHU = {
 	color_ui = rgb { 172 122 88 }
 }
 BOL = {
-	color = rgb { 129  201  77 } 
+	color = rgb { 129  201  77 }
 	color_ui = rgb { 119  174  77 }
 }
 BRA = {
@@ -237,7 +237,7 @@ CHI = {
 	color_ui = rgb { 70 130 180 }
 }
 CHL = {
-	color = rgb { 206  118  30 } 
+	color = rgb { 206  118  30 }
 	color_ui = rgb { 206  118  30 }
 }
 COL = {
@@ -397,13 +397,13 @@ SLO = {
 	color_ui = rgb { 255 255 255 }
 }
 RAJ = {
-	color = rgb { 104 106 119 }
-	color_ui = rgb { 104 106 119 }
+	color = rgb { 158 50 50 }
+	color_ui = rgb { 158 50 50 }
 }
 
 IND = {
-	color = rgb { 159 44 82 } #original is 255 72 0
-	color_ui = rgb { 159 44 82} #Old one is 255 103 48
+	color = rgb { 255 72 0 } #more colorful one is 255 72 0
+	color_ui = rgb { 255 72 0 } #Old one is 255 103 48
 }
 
 CRO = {
@@ -468,7 +468,7 @@ ICE = {
 
 UKR = {
 	color = rgb { 150 90 0 }
-	color_ui = rgb { 150 90 0 }	
+	color_ui = rgb { 150 90 0 }
 }
 
 FRP = {
@@ -579,7 +579,7 @@ DDR = {
 }
 KOR = {
 	color = rgb { 125 13 24 } #25 30 177 is the original Korean blue.
-	color_ui = rgb { 125 13 24 }	
+	color_ui = rgb { 125 13 24 }
 }
 ISR = {
 	color = rgb {164 184 229}
@@ -787,8 +787,8 @@ MAD = {
 }
 
 HYD = {
-	color = rgb { 185 150 3 } ## Old color 170 85 107
-	color_ui = rgb { 185 150 3 }
+	color = rgb { 170 85 107 }
+	color_ui = rgb { 200 88 127 }
 }
 
 ORI = {
@@ -847,7 +847,7 @@ GUO = {
 }
 
 SPM = {
-	color = rgb { 222 205 94 } #222 205 94 is much more tame. 242 205 94 
+	color = rgb { 222 205 94 } #222 205 94 is much more tame. 242 205 94
 	color_ui = rgb { 239 220 44 }
 }
 
@@ -860,12 +860,12 @@ GRP = {
 
 WGR = {
 	color = rgb { 73 73 73 }
-	color_ui = rgb { 80 90 100 } 
+	color_ui = rgb { 80 90 100 }
 }
 
 SPR = {
 	color = rgb { 73 73 73 }
-	color_ui = rgb { 80 90 100 } 
+	color_ui = rgb { 80 90 100 }
 }
 
 #New Whispers of Antiquity Tags tags
@@ -922,4 +922,14 @@ BUR = {
 GMY = {
 	color = rgb { 98 98 98 }
 	color_ui = rgb { 134 134 134 }
+}
+
+COU = {
+	color = rgb { 96  49  40 }
+	color_ui = rgb { 80 90 100}
+}
+
+LIV = {
+	color = rgb { 112  90  87 }
+	color_ui = rgb { 80 90 100 }
 }

@@ -6,7 +6,7 @@ state={
 	history={
 		owner = EST
 		victory_points = {
-			9221 1 
+			9221 1
 		}
 		buildings = {
 			infrastructure = 4
@@ -21,7 +21,7 @@ state={
 	}
 
 	provinces={
-		415 592 4640 6099 6178 6408 9221 11057 11443 13127 13213
+		4640 6099 11057 11443 13127
 	}
 	manpower=376400
 	buildings_max_level_factor=1.000

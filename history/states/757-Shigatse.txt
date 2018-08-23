@@ -6,13 +6,13 @@ state={
 	resources={
 		steel=7.0
 	}
-	
+
 	state_category = city
-	
+
 	history={
-		owner = LAT
+		owner = LIV
 		victory_points = {
-			9340 10 
+			9340 10
 		}
 		buildings = {
 			infrastructure = 2
@@ -23,11 +23,12 @@ state={
 				naval_base = 3
 			}
 		}
+		add_core_of = LIV
 		add_core_of = LAT
 		add_core_of = EST
 	}
 
 	provinces={
-		265 3255 3525 6222 6342 9240 9317 9340 10323 10493 11222 11302 
+		9240 9317 9340 10323 10493 11222 11302
 	}
 }
