@@ -23,5 +23,4 @@ focus_tree = {
 	shared_focus = generic_state_of_the_economy
 	shared_focus = generic_our_place_in_the_world
 
-
 }

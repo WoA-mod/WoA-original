@@ -9,4 +9,29 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_generic_world.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_generic_air_production"
+		texturefile = "gfx/interface/decisions/decision_generic_air_production.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_generic_air_trading"
+		texturefile = "gfx/interface/decisions/decision_generic_air_trading.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_generic_bomber_production"
+		texturefile = "gfx/interface/decisions/decision_generic_bomber_production.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_generic_bomber_trading"
+		texturefile = "gfx/interface/decisions/decision_generic_bomber_trading.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_generic_move_industry_offshore"
+		texturefile = "gfx/interface/decisions/decision_generic_move_industry_offshore.dds"
+	}
+	
 }

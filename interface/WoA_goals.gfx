@@ -71,7 +71,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_generic_moon_spy.dds"
 	}
 	
-
+	SpriteType = {
+		name = "GFX_goal_generic_military_textbook"
+		texturefile = "gfx/interface/goals/goal_generic_military_textbook.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_generic_press_censorship"
+		texturefile = "gfx/interface/goals/goal_generic_press_censorship.dds"
+	}
+	
 	###Switzerland
 	
 	SpriteType = {
