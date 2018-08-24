@@ -1,0 +1,30 @@
+
+state={
+	id=768
+	name="STATE_768"
+
+	history={
+		owner = BOS
+		victory_points = {
+			11572 10 
+		}
+		victory_points = {
+			6799 10 
+		}
+		victory_points = {
+			606 10 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = BOS
+
+	}
+
+	provinces={
+		606 6799 9591 9922 11572 11574 
+	}
+	manpower=525160
+	buildings_max_level_factor=1.000
+	state_category=town
+}
