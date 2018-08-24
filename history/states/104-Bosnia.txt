@@ -9,7 +9,7 @@ state={
 	history={
 		owner = BOS
 		victory_points = {
-			11899 5 
+			11899 20 
 		}
 		buildings = {
 			infrastructure = 5
@@ -17,15 +17,14 @@ state={
 			air_base = 3
 
 		}
-	add_core_of = BOS
+		add_core_of = BOS
+
 	}
-
-
 
 	provinces={
-		606 982 6799 9588 9591 11572 11574 11741 11899 
+		953 982 11741 11899 
 	}
-	manpower=1807400
+	manpower=1050291
 	buildings_max_level_factor=1.000
 	state_category=town
 }
