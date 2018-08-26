@@ -3,21 +3,30 @@
 #### Political Parties ####
 SLO_utopianism_party:0 "Komunistická Strana Slovenska (Utopianist Faction)"
 SLO_utopianism_party_long:0 "Komunistická Strana Slovenska (Utopianist Faction)"
+
 SLO_council_communist_party:0 "Komunistická Strana Slovenska (Council-Communist Faction)"
 SLO_council_communist_party_long:0 "Komunistická Strana Slovenska (Council-Communist Faction)"
+
 SLO_socialist_party:0 "Socialistický Strana Slovenska"
 SLO_socialist_party_long:0 "Socialistický Strana Slovenska"
+
 SLO_social_democrat_party:0 "Sociálnodemokratická Strana Slovenska"
 SLO_social_democrat_party_long:0 "Sociálnodemokratická Strana Slovenska"
+
 SLO_liberal_party:0 "Republikánska Strana Zemedelského A Maloroľníckeho ľudu"
 SLO_liberal_party_long:0 "Republikánska Strana Zemedelského A Maloroľníckeho ľudu"
+
 SLO_conservative_party:0 "Slovenská Národná Strana"
 SLO_conservative_party_long:0 "Slovenská Národná Strana"
+
 SLO_authoritarian_democrat_party:0 "Slovenská ľudová Strana (Democratic Faction)"
 SLO_authoritarian_democrat_party_long:0 "Slovenská ľudová Strana (Democratic Faction)"
+
 SLO_paternal_autocrat_party:0 "Slovenská ľudová Strana (Conservative Faction)"
 SLO_paternal_autocrat_party_long:0 "Slovenská ľudová Strana (Conservative Faction)"
+
 SLO_national_populist_party:0 "Slovenská ľudová Strana (Radical Faction)"
 SLO_national_populist_party_long:0 "Slovenská ľudová Strana (Radical Faction)"
+
 SLO_antiquarian_nationalist_party:0 "Slovenská ľudová Strana (Esoteric Faction)"
 SLO_antiquarian_nationalist_party_long:0 "Slovenská ľudová Strana (Esoteric Faction)"
