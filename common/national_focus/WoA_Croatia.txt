@@ -1085,73 +1085,66 @@ focus_tree = {
 ##############################################
 #	Economic tree
 #	pls end my miserable life
+#	if Crusader didn't make this for me...
 ##############################################
-	#THE STATUS OF THE ECONOMY
-	#+100 pp, x2 +25% research for Industry 
+	#THE CROATIAN ECONOMY
+	#x3 +15% research for Industry 
 	focus = {
 		id = CRO_economy
 		icon = GFX_goal_generic_production
 		available = {
 			always = no
 		}
-		x = 2
-		y = 7
+		x = 30
+		y = 0
 		cost = 5
 	}
-	#Protectionism
-	#Must NOT be Liberal.
+	#SPECIALIZE TRADITIONAL INDUSTRIES
+	#add 2 building slots in Slavonia and Dalmatia, +25% research for industry
 	focus = {
-		id = CRO_protectionism
+		id = CRO_specialize_industries
 		icon = GFX_goal_generic_defence
 		available = {
 			always = no
 		}
 		relative_position_id = CRO_economy
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = CRO_economy
+		}
+	}
+	#GO WITH CORN
+	#Add national spirit "Corn production focus", which grants 5% monthly pop, 5% production retention, out of supply -20%
+	focus = {
+		id = CRO_corn
+		icon = GFX_goal_generic_defence
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_specialize_industries
 		x = -2
 		y = 1
 		cost = 5
 		prerequisite = {
-			focus = CRO_economy
-		}
-		mutually_exclusive = {
-			focus = CRO_free_market
+			focus = CRO_specialize_industries
 		}
 	}
-	#Free Trade
-	#Must NOT be Natpop or Conservative.
+	#FOCUS ON LIVESTOCK
+	#Jesus jeff
 	focus = {
-		id = CRO_free_market
-		icon = GFX_goal_generic_trade
+		id = CRO_livestock
+		icon = GFX_goal_generic_defence
 		available = {
 			always = no
 		}
-		relative_position_id = CRO_economy
+		relative_position_id = CRO_specialize_industries
 		x = 2
 		y = 1
 		cost = 5
 		prerequisite = {
-			focus = CRO_economy
-		}
-		mutually_exclusive = {
-			focus = CRO_protectionism
-		}
-	}
-	#Protectionism
-	#Must NOT be Liberal.
-	focus = {
-		id = CRO_ft
-		icon = GFX_goal_generic_trade
-		available = {
-			always = no
-		}
-		relative_position_id = CRO_protectionism
-		x = 2
-		y = 1
-		cost = 5
-		prerequisite = {
-			focus = CRO_protectionism
-		}
-		mutually_exclusive = {
+			focus = CRO_specialize_industries
 		}
 	}
 }
