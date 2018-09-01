@@ -1,0 +1,408 @@
+focus_tree = {
+	id = china_generic
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			#tag = SIK
+		}
+	}
+	
+	continuous_focus_position = { x = -400 y = 1800 }
+	
+	default = no
+	reset_on_civilwar = no
+
+	shared_focus = generic_examine_the_army
+	shared_focus = generic_expand_aviation
+	shared_focus = generic_strengthen_the_navy
+	shared_focus = generic_our_place_in_the_world
+
+	focus = {
+		id = china_generic_our_stance_in_the_war
+		icon = GFX_goal_unkown
+		x = 16
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_the_fengtian
+		icon = GFX_goal_unkown
+		x = 7
+		y = 7
+		cost = 10
+		prerequisite = { focus = china_generic_our_stance_in_the_war }
+		mutually_exclusive = { focus = china_generic_the_kuomintang }
+		mutually_exclusive = { focus = china_generic_the_zhili }
+		mutually_exclusive = { focus = china_generic_opposition }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_neutral_no_more
+		icon = GFX_goal_unkown
+		x = 7
+		y = 8
+		cost = 10
+		prerequisite = { focus = china_generic_the_fengtian }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_denounce_the_beiyang_traitors
+		icon = GFX_goal_unkown
+		x = 7
+		y = 9
+		cost = 10
+		prerequisite = { focus = china_neutral_no_more }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_denounce_the_republicans
+		icon = GFX_goal_unkown
+		x = 7
+		y = 10
+		cost = 10
+		prerequisite = { focus = china_denounce_the_beiyang_traitors }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_compete_with_the_warlords
+		icon = GFX_goal_unkown
+		x = 7
+		y = 11
+		cost = 10
+		prerequisite = { focus = china_denounce_the_republicans }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_pledge_allegiance_to_hsinking
+		icon = GFX_goal_unkown
+		x = 5
+		y = 8
+		cost = 10
+		prerequisite = { focus = china_generic_the_fengtian }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_learn_from_the_fengtian
+		icon = GFX_goal_unkown
+		x = 9
+		y = 8
+		cost = 10
+		prerequisite = { focus = china_generic_the_fengtian }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_combined_research_group
+		icon = GFX_goal_unkown
+		x = 9
+		y = 9
+		cost = 10
+		prerequisite = { focus = china_generic_learn_from_the_fengtian }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_military_techniques
+		icon = GFX_goal_unkown
+		x = 9
+		y = 10
+		cost = 10
+		prerequisite = { focus = china_generic_combined_research_group }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_equipment_research
+		icon = GFX_goal_unkown
+		x = 9
+		y = 11
+		cost = 10
+		prerequisite = { focus = china_generic_military_techniques }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_anti_opposition_raids
+		icon = GFX_goal_unkown
+		x = 5
+		y = 9
+		cost = 10
+		prerequisite = { focus = china_generic_pledge_allegiance_to_hsinking }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_fengtian_espionage
+		icon = GFX_goal_unkown
+		x = 5
+		y = 10
+		cost = 10
+		prerequisite = { focus = china_generic_anti_opposition_raids }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_sway_the_foreigners
+		icon = GFX_goal_unkown
+		x = 5
+		y = 11
+		cost = 10
+		prerequisite = { focus = china_generic_fengtian_espionage }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_join_the_fengtian
+		icon = GFX_goal_unkown
+		x = 7
+		y = 12
+		cost = 10
+		prerequisite = { focus = china_generic_sway_the_foreigners }
+		prerequisite = { focus = china_compete_with_the_warlords }
+		prerequisite = { focus = china_generic_equipment_research }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_the_kuomintang
+		icon = GFX_goal_unkown
+		x = 19
+		y = 7
+		cost = 10
+		prerequisite = { focus = china_generic_our_stance_in_the_war }
+		mutually_exclusive = { focus = china_generic_the_fengtian }
+		mutually_exclusive = { focus = china_generic_the_zhili }
+		mutually_exclusive = { focus = china_generic_opposition }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_the_zhili
+		icon = GFX_goal_unkown
+		x = 13
+		y = 7
+		cost = 10
+		prerequisite = { focus = china_generic_our_stance_in_the_war }
+		mutually_exclusive = { focus = china_generic_the_fengtian }
+		mutually_exclusive = { focus = china_generic_the_kuomintang }
+		mutually_exclusive = { focus = china_generic_opposition }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_looking_inwards
+		icon = GFX_goal_unkown
+		x = 15
+		y = 8
+		cost = 10
+		prerequisite = { focus = china_generic_the_zhili }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_economic_growth
+		icon = GFX_goal_unkown
+		x = 15
+		y = 9
+		cost = 10
+		prerequisite = { focus = china_generic_looking_inwards }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_encourage_workers
+		icon = GFX_goal_unkown
+		x = 15
+		y = 10
+		cost = 10
+		prerequisite = { focus = china_generic_economic_growth }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_prepare_for_the_war
+		icon = GFX_goal_unkown
+		x = 15
+		y = 11
+		cost = 10
+		prerequisite = { focus = china_generic_encourage_workers }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_join_zhili
+		icon = GFX_goal_unkown
+		x = 13
+		y = 12
+		cost = 10
+		prerequisite = { focus = china_generic_prepare_for_the_war }
+		prerequisite = { focus = china_generic_german_advisors }
+		prerequisite = { focus = china_generic_arms_race }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_german_protection
+		icon = GFX_goal_unkown
+		x = 13
+		y = 8
+		cost = 10
+		prerequisite = { focus = china_generic_the_zhili }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_legacy_of_feng_guozhang
+		icon = GFX_goal_unkown
+		x = 11
+		y = 8
+		cost = 10
+		prerequisite = { focus = china_generic_the_zhili }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_study_the_anhui_wars
+		icon = GFX_goal_unkown
+		x = 11
+		y = 9
+		cost = 10
+		prerequisite = { focus = china_generic_legacy_of_feng_guozhang }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_research_agreement
+		icon = GFX_goal_unkown
+		x = 11
+		y = 10
+		cost = 10
+		prerequisite = { focus = china_generic_study_the_anhui_wars }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_arms_race
+		icon = GFX_goal_unkown
+		x = 11
+		y = 11
+		cost = 10
+		prerequisite = { focus = china_generic_research_agreement }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_copy_designs
+		icon = GFX_goal_unkown
+		x = 13
+		y = 9
+		cost = 10
+		prerequisite = { focus = china_generic_german_protection }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_profits_from_shandong
+		icon = GFX_goal_unkown
+		x = 13
+		y = 10
+		cost = 10
+		prerequisite = { focus = china_generic_copy_designs }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_german_advisors
+		icon = GFX_goal_unkown
+		x = 13
+		y = 11
+		cost = 10
+		prerequisite = { focus = china_generic_profits_from_shandong }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = china_generic_opposition
+		icon = GFX_goal_unkown
+		x = 25
+		y = 7
+		cost = 10
+		prerequisite = { focus = china_generic_our_stance_in_the_war }
+		mutually_exclusive = { focus = china_generic_the_fengtian }
+		mutually_exclusive = { focus = china_generic_the_kuomintang }
+		mutually_exclusive = { focus = china_generic_the_zhili }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
