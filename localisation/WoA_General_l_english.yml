@@ -835,95 +835,88 @@ generic_major_doomsday_weapons_desc:0 ""
 
 generic_eu_politics:0 "The Future of our Country"
 
-#Democracy
+generic_eu_democracy:0 "Turn to Liberty"
 
-generic_eu_democracy:0 "Free and Fair Elections"
+generic_eu_lib:0 "Liberalism"
 
-generic_eu_dem_econ:0 "Debate the Economy"
+generic_eu_con:0 "Conservatism"
 
-generic_eu_free_market:0 "Free Market"
+generic_eu_capitalism:0 "Stick with Capitalism"
 
-generic_eu_dem_civ_fac:0 "Encourage Local Business"
+generic_eu_collectivize:0 "Collectivize some of the Economy"
 
-generic_eu_dem_mil_fac:0 "Military Contracts"
+generic_eu_nationalize:0 "Nationalize some of the Economy"
 
-generic_eu_interventionism:0 "Interventionism"
+generic_eu_dem_way:0 "The Democratic Way"
 
-generic_eu_subsidies:0 "Consumer Goods Subsidies"
+generic_eu_reduce_ethnic_tensions:0 "Reduce Ethnic Tensions"
 
-generic_eu_arms:0 "Build Arms Factories"
+generic_eu_class_mobility:0 "Class Mobility"
 
-generic_eu_democracy_for_all:0 "Democracy For All"
+generic_eu_power_sep:0 "Separation of Powers"
 
-generic_eu_faith_in_gov:0 "Faith in our Government"
+generic_eu_better_rep:0 "Better Representation"
 
-generic_eu_minorities:0 "Minority Treatment"
+generic_eu_dem_rep_gov:0 "A Truly Fair Government"
 
-generic_eu_constitution:0 "A new Constitution"
+generic_eu_econ_help:0 "Help the Economy Along"
+
+generic_eu_small_bus_sub:0 "Small Business Subsidies"
+
+generic_eu_consumer_goods_regulations:0 "Consumer Goods Regulations"
+
+generic_eu_industry_auth:0 "Industry Authority"
+
+generic_eu_national_transportation:0 "National Transportation"
+
+generic_eu_agrarian_reform:0 "Agrarian Reform"
+
+generic_eu_mark_econ:0 "Market Economy"
+
+generic_eu_gov_contracts:0 "Arms Contracts"
+
+generic_eu_mod_services:0 "Moderate Services"
+
+generic_eu_protect_private_property:0 "Protect Private Property"
+
+generic_eu_ensure_stability:0 "Ensure Stability"
+
+generic_eu_laissez_faire:0 "Laissez Faire"
+
+generic_eu_ensure_equality:0 "Ensure Equality"
+
+generic_eu_in_business:0 "In business"
+
+generic_eu_flat_tax:0 "Flat Tax"
+
+generic_eu_in_life:0 "In Life"
+
+generic_eu_services_for_all:0 "Services for All"
+
+generic_eu_safe_in_equality:0 "Safe in Equality"
 
 generic_eu_democracy_abroad:0 "Democracy Abroad"
 
-generic_eu_freedom_corps:0 "Freedom Corps"
+generic_eu_true_liberty:0 "Support only True Liberty"
 
-generic_eu_liberty_safeguard:0 "Safeguard for Liberty"
+generic_eu_moderate_democracy:0 "A More Moderate View on Democracy"
 
-generic_eu_dem_friends:0 "Democratic Friends"
+generic_eu_choose_our_allies:0 "Choose our Allies"
 
-generic_eu_dem_allies:0 "Choose our Allies"
+generic_eu_choose_eintracht:0 "Pick the Eintracht"
 
-generic_eu_dem_independent:0 "Spread our own Light"
+generic_eu_berlin_connections:0 "Connections to Berlin"
 
-generic_eu_dem_us_russia_allies:0 "Democratic Alliance"
+generic_eu_go_with_alliance:0 "Go with the Alliance"
 
-generic_eu_dem_eintracht:0 "Join the Eintracht"
+generic_eu_moscow_connections:0 "Connections to Moscow"
 
-#Communism
+generic_eu_alone:0 "The Sole Beacon of Democracy"
 
-generic_eu_communism:0 "Class Struggle"
+generic_eu_expeditions:0 "Expeditionary Forces"
 
-generic_eu_com_econ:0 "The Situation in the Factories"
+generic_eu_dem_intervention:0 "Intervene on Behalf of Democracy"
 
-generic_eu_cooperate:0 "Work with the old Regime"
-
-generic_eu_transition:0 "Peaceful Transition"
-
-generic_eu_fight:0 "Down with the Oppressors"
-
-generic_eu_seize:0 "Seize the Means of Production"
-
-generic_eu_soc_econ:0 "Socialist Economy"
-
-generic_eu_communes:0 "Local Communes"
-
-generic_eu_soc_goods:0 "Socialist Goods"
-
-generic_eu_com_mil_fac:0 "Military Expansion"
-
-generic_eu_red_fort:0 "Red Fortress"
-
-generic_eu_com_fopo:0 "International Workers"
-
-generic_eu_com_independent:0 "We are the True Socialists"
-
-generic_eu_com_faction:0 "Workers' Group"
-
-generic_eu_com_internationalism:0 "Look to the World"
-
-generic_eu_com_international:0 "Join the International"
-
-generic_eu_com_others:0 "Alternate Factions"
-
-generic_eu_com_spread:0 "Spread the Revolution"
-
-generic_eu_com_militias:0 "Workers' Militias"
-
-generic_eu_com_mandate:0 "Popular Mandate"
-
-generic_eu_soc_for_all:0 "Socialism for All"
-
-generic_eu_com_propoganda:0 "Propoganda"
-
-generic_eu_com_brand:0 "Our Brand of Socialism"
 
 
 ### Generic Ideas ###
@@ -960,3 +953,4 @@ generic_idea_free_trade_productivity:0 "Free Trade Productivity"
 generic_decision_our_place_in_the_world:0 "Our Place in the World"
 generic_decision_our_place_in_the_world_desc:0 "For too long we have been considered to be insignificant compared to other nations in the world- well, no more. From this day on, our nation will be considered a major power and we will secure our place in the world!"
 generic_become_a_major_tt:0 "§Y[Root.GetName]§! will become a major and unlock new §Yfocuses§!."
+

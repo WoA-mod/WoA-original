@@ -77,6 +77,7 @@ focus = {
 	id = generic_eu_capitalism
 	icon = GFX_focus_generic_support_the_left_right
 	prerequisite = { focus = generic_eu_democracy }
+	mutually_exclusive = { focus = generic_eu_collectivize focus = generic_eu_nationalize }
 	relative_position_id = generic_eu_democracy
 	x = 0
 	y = 2
@@ -89,6 +90,7 @@ focus = {
 	id = generic_eu_collectivize
 	icon = GFX_focus_generic_support_the_left_right
 	prerequisite = { focus = generic_eu_lib }
+	mutually_exclusive = { focus = generic_eu_capitalism }
 	relative_position_id = generic_eu_lib
 	x = -4
 	y = 1
@@ -101,6 +103,7 @@ focus = {
 	id = generic_eu_nationalize
 	icon = GFX_focus_generic_support_the_left_right
 	prerequisite = { focus = generic_eu_con }
+	mutually_exclusive = { focus = generic_eu_capitalism }
 	relative_position_id = generic_eu_con
 	x = 4
 	y = 1
@@ -115,7 +118,7 @@ focus = {
 	prerequisite = { focus = generic_eu_lib }
 	relative_position_id = generic_eu_lib
 	x = -2
-	y = 1
+	y = 2
 	cost = 6
 	completion_reward = {
 	}
@@ -181,4 +184,831 @@ focus = {
 	completion_reward = {
 	}
 }
+
+focus = {
+	id = generic_eu_econ_help
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_lib }
+	prerequisite = { focus = generic_eu_capitalism }
+	relative_position_id = generic_eu_lib
+	x = 2
+	y = 2
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_small_bus_sub
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_econ_help }
+	relative_position_id = generic_eu_econ_help
+	x = -1
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_consumer_goods_regulations
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_small_bus_sub }
+	relative_position_id = generic_eu_small_bus_sub
+	x = 0
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_industry_auth
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_econ_help }
+	relative_position_id = generic_eu_econ_help
+	x = 1
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_national_transportation
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_industry_auth }
+	relative_position_id = generic_eu_industry_auth
+	x = 0
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_agrarian_reform
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_econ_help }
+	relative_position_id = generic_eu_econ_help
+	x = 0
+	y = 3
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_mark_econ
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_con }
+	prerequisite = { focus = generic_eu_capitalism }
+	relative_position_id = generic_eu_con
+	x = -2
+	y = 2
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_gov_contracts
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_mark_econ }
+	relative_position_id = generic_eu_mark_econ
+	x = -1
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_mod_services
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_gov_contracts }
+	relative_position_id = generic_eu_gov_contracts
+	x = 0
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_protect_private_property
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_mark_econ }
+	relative_position_id = generic_eu_mark_econ
+	x = 1
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_ensure_stability
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_protect_private_property }
+	relative_position_id = generic_eu_protect_private_property
+	x = 0
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_laissez_faire
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_mod_services }
+	prerequisite = { focus = generic_eu_ensure_stability }
+	relative_position_id = generic_eu_ensure_stability
+	x = -1
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_ensure_equality
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_con }
+	relative_position_id = generic_eu_con
+	x = 2
+	y = 2
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_in_business
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_ensure_equality }
+	relative_position_id = generic_eu_ensure_equality
+	x = -1
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_flat_tax
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_in_business }
+	relative_position_id = generic_eu_in_business
+	x = 0
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_in_life
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_ensure_equality }
+	relative_position_id = generic_eu_ensure_equality
+	x = 1
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_services_for_all
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_in_life }
+	relative_position_id = generic_eu_in_life
+	x = 0
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_safe_in_equality
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_services_for_all }
+	prerequisite = { focus = generic_eu_flat_tax }
+	relative_position_id = generic_eu_flat_tax
+	x = 1
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_democracy_abroad
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_democracy }
+	relative_position_id = generic_eu_democracy
+	x = 0
+	y = 7
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_true_liberty
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_democracy_abroad }
+	mutually_exclusive = { focus = generic_eu_moderate_democracy }
+	relative_position_id = generic_eu_democracy_abroad
+	x = -2
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_moderate_democracy
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_democracy_abroad }
+	mutually_exclusive = { focus = generic_eu_true_liberty }
+	relative_position_id = generic_eu_democracy_abroad
+	x = 2
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_choose_our_allies
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_democracy_abroad }
+	relative_position_id = generic_eu_democracy_abroad
+	x = 0
+	y = 2
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_choose_eintracht
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_choose_our_allies }
+	relative_position_id = generic_eu_choose_our_allies
+	x = -1
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_berlin_connections
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_choose_eintracht }
+	relative_position_id = generic_eu_choose_eintracht
+	x = 0
+	y = 2
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_go_with_alliance
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_choose_our_allies }
+	relative_position_id = generic_eu_choose_our_allies
+	x = 1
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_moscow_connections
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_go_with_alliance }
+	relative_position_id = generic_eu_go_with_alliance
+	x = 0
+	y = 2
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_alone
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_choose_our_allies }
+	relative_position_id = generic_eu_choose_our_allies
+	x = 0
+	y = 2
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_expeditions
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_alone focus = generic_eu_moscow_connections focus = generic_eu_berlin_connections }
+	relative_position_id = generic_eu_alone
+	x = 0
+	y = 2
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_dem_intervention
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_expeditions }
+	relative_position_id = generic_eu_expeditions
+	x = 0
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+#Communism Path
+
+focus = {
+    	id = generic_eu_worker_struggle
+    	icon = goal_unknown
+    	prerequisite = {
+    	focus =
+    	}
+    	x = 9
+    	y = 6
+    	cost = 6
+    	ai_will_do = {
+        	factor = 100
+    	}
+    	completion_reward = {
+    	}
+    }
+
+
+    focus = {
+    	id = generic_eu_nationalist_economy
+    	icon = goal_unknown
+    	prerequisite = {
+    	focus = generic_eu_worker_struggle
+    	}
+    	x = 4
+    	y = 7
+    	cost = 6
+    	ai_will_do = {
+        	factor = 100
+    	}
+    	completion_reward = {
+    	}
+    }
+
+            }
+
+           focus = {
+    	id = generic_eu_socialist_education
+    	icon = goal_unknown
+    	prerequisite = {
+    	focus = generic_eu_nationalist_economy
+    	}
+    	x = 5
+    	y = 9
+    	cost = 6
+    	ai_will_do = {
+        	factor = 100
+    	}
+    	completion_reward = {
+    	}
+    }
+	focus = {
+    	id = generic_eu_secret_police
+    	icon = goal_unknown
+    	prerequisite = {
+    	focus =  generic_eu_socialist_education
+    	}
+    	x = 5
+    	y =  10
+    	cost = 6
+    	ai_will_do = {
+        	factor = 100
+    	}
+    	completion_reward = {
+    	}
+    }
+
+	focus = {
+    	id = generic_eu_crush_the_unions
+    	icon = goal_unknown
+    	prerequisite = {
+    	focus =  generic_eu_nationalist_economy
+    	}
+    	x = 3
+    	y =  9
+    	cost = 6
+    	ai_will_do = {
+        	factor = 100
+    	}
+    	completion_reward = {
+    	}
+    }
+
+	focus = {
+    	id = generic_eu_a_single_union
+    	icon = goal_unknown
+    	prerequisite = {
+    	focus =  generic_eu_crush_the_unions
+    	}
+    	x = 3
+    	y =  10
+    	cost = 6
+    	ai_will_do = {
+        	factor = 100
+    	}
+    	completion_reward = {
+    	}
+    }
+
+	focus = {
+    	id = generic_eu_national_propaganda
+    	icon = goal_unknown
+    	prerequisite = {
+    	focus =  generic_eu_a_single_union
+	focus = generic_eu_secret_police
+    	}
+    	x = 4
+    	y =  11
+    	cost = 6
+    	ai_will_do = {
+        	factor = 100
+    	}
+    	completion_reward = {
+    	}
+    }
+
+	focus = {
+	id = generic_eu_mechanization
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_nationalist_economy
+	}
+	mutually_exculsive = {
+	focus = generic_eu_worker_no_help
+	}
+	x = 2
+	y = 8
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_arbitary_agricultural_divisions
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_mechanization
+	}
+	x = 1
+	y = 9
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_farm_machinery
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_mechanization
+	}
+	x = 1
+	y = 10
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_automate_factories
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_mechanization
+	}
+	x = 3
+	y = 9
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_construction_machinery
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_mechanization
+	}
+	x = 3
+	y = 10
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_obiliteration_of_the_laborer
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_construction_machinery
+	focus = generic_eu_farm_machinery
+	}
+	x = 2
+	y = 11
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_worker_no_help
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_nationalist_economy
+	}
+	x = 7
+	y = 8
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_worker_empower
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_worker_no_help
+	}
+	x = 6
+	y = 9
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_expand_factory
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_worker_empower
+	}
+	x = 6
+	y = 10
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_agrian_patriotism
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_worker_no_help
+	}
+	x = 8
+	y = 9
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_national_farms
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_agrian_patriotism
+	}
+	x = 8
+	y = 10
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_one_laborer_one_nation
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_national_farms
+	focus = generic_eu_worker_empower
+	}
+	x = 7
+	y = 11
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_our_great_utopia
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_obiliteration_of_the_laborer
+	focus = generic_eu_national_propaganda
+	}
+	x = 2
+	y = 12
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_expand_goods_and_facilities
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_our_great_utopia
+	}
+	x = 1
+	y = 13
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+	focus = {
+	id = generic_eu_railroads_for_our_people
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_expand_goods_and_facilities
+	}
+	x = 1
+	y = 14
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_a_higher_standard_of_living
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_expand_goods_and_facilities
+	}
+	x = 2
+	y = 13
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_attract_immigrants
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_a_higher_standard_of_living
+	}
+	x = 2
+	y = 14
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_attract_immigrants
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_a_higher_standard_of_living
+	}
+	x = 2
+	y = 14
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+	focus = {
+	id = generic_eu_civilian_guard
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_our_great_utopia
+	}
+	x = 3
+	y = 13
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+focus = {
+	id = generic_eu_civilian_defense
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_civilian_guard
+	}
+	x = 3
+	y = 14
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+
+
+	
+
+
+	
+
+	
+
+
+	
+
+
+	
+	
+
+
+	
+
+	
+
+	
+	
+
+
 
