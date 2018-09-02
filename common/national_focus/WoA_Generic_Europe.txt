@@ -49,156 +49,8 @@ focus = {
 	}
 }
 
-# Democratic Economy
 focus = {
-	id = generic_eu_dem_econ
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_democracy }
-	relative_position_id = generic_eu_democracy
-	x = 4
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Free Market
-focus = {
-	id = generic_eu_free_market
-	icon = GFX_focus_generic_support_the_left_right
-	mutually_exclusive = { focus = generic_eu_interventionism }
-	prerequisite = { focus = generic_eu_dem_econ }
-	relative_position_id = generic_eu_dem_econ
-	x = -1
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Encourage Local Business
-focus = {
-	id = generic_eu_dem_civ_fac
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_free_market }
-	relative_position_id = generic_eu_free_market
-	x = 0
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Military Contracts
-focus = {
-	id = generic_eu_dem_mil_fac
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_dem_civ_fac }
-	relative_position_id = generic_eu_dem_civ_fac
-	x = 0
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Interventionism
-focus = {
-	id = generic_eu_interventionism
-	icon = GFX_focus_generic_support_the_left_right
-	mutually_exclusive = { focus = generic_eu_free_market }
-	prerequisite = { focus = generic_eu_dem_econ }
-	relative_position_id = generic_eu_dem_econ
-	x = 1
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Counsumer Goods Subsidies
-focus = {
-	id = generic_eu_subsidies
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_interventionism }
-	relative_position_id = generic_eu_interventionism
-	x = 0
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Military Factories
-focus = {
-	id = generic_eu_arms
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_subsidies }
-	relative_position_id = generic_eu_subsidies
-	x = 0
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Democracy for All
-focus = {
-	id = generic_eu_democracy_for_all
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_democracy }
-	relative_position_id = generic_eu_democracy
-	x = 0
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Faith in Government
-focus = {
-	id = generic_eu_faith_in_gov
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_democracy_for_all }
-	mutually_exclusive = { focus = generic_eu_minorities }
-	relative_position_id = generic_eu_democracy_for_all
-	x = -1
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Minority Treatment
-focus = {
-	id = generic_eu_minorities
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_democracy_for_all }
-	mutually_exclusive = { focus = generic_eu_faith_in_gov }
-	relative_position_id = generic_eu_democracy_for_all
-	x = 1
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# A New Constitution
-focus = {
-	id = generic_eu_constitution
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_faith_in_gov focus = generic_eu_minorities }
-	relative_position_id = generic_eu_democracy_for_all
-	x = 0
-	y = 2
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Democracy Abroad
-focus = {
-	id = generic_eu_democracy_abroad
+	id = generic_eu_lib
 	icon = GFX_focus_generic_support_the_left_right
 	prerequisite = { focus = generic_eu_democracy }
 	relative_position_id = generic_eu_democracy
@@ -209,38 +61,71 @@ focus = {
 	}
 }
 
-# Freedom Corps
 focus = {
-	id = generic_eu_freedom_corps
+	id = generic_eu_con
 	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_democracy_abroad }
-	relative_position_id = generic_eu_democracy_abroad
-	x = -1
+	prerequisite = { focus = generic_eu_democracy }
+	relative_position_id = generic_eu_democracy
+	x = 4
 	y = 1
 	cost = 6
 	completion_reward = {
 	}
 }
 
-# Safeguard for Liberty
 focus = {
-	id = generic_eu_liberty_safeguard
+	id = generic_eu_capitalism
 	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_freedom_corps }
-	relative_position_id = generic_eu_freedom_corps
+	prerequisite = { focus = generic_eu_democracy }
+	relative_position_id = generic_eu_democracy
 	x = 0
+	y = 2
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_collectivize
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_lib }
+	relative_position_id = generic_eu_lib
+	x = -4
 	y = 1
 	cost = 6
 	completion_reward = {
 	}
 }
 
-# Democratic Friends
 focus = {
-	id = generic_eu_dem_friends
+	id = generic_eu_nationalize
 	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_democracy_abroad }
-	relative_position_id = generic_eu_democracy_abroad
+	prerequisite = { focus = generic_eu_con }
+	relative_position_id = generic_eu_con
+	x = 4
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_dem_way
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_lib }
+	relative_position_id = generic_eu_lib
+	x = -2
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_reduce_ethnic_tensions
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_dem_way }
+	relative_position_id = generic_eu_dem_way
 	x = 1
 	y = 1
 	cost = 6
@@ -248,12 +133,11 @@ focus = {
 	}
 }
 
-# Choose our Allies
 focus = {
-	id = generic_eu_dem_allies
+	id = generic_eu_class_mobility
 	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_dem_friends }
-	relative_position_id = generic_eu_dem_friends
+	prerequisite = { focus = generic_eu_reduce_ethnic_tensions }
+	relative_position_id = generic_eu_reduce_ethnic_tensions
 	x = 0
 	y = 1
 	cost = 6
@@ -261,29 +145,11 @@ focus = {
 	}
 }
 
-# Spread Our Own Light
 focus = {
-	id = generic_eu_dem_independent
+	id = generic_eu_power_sep
 	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_dem_allies }
-	mutually_exclusive = { focus = generic_eu_dem_eintracht }
-	mutually_exclusive = { focus = generic_eu_dem_us_russia_allies }
-	relative_position_id = generic_eu_dem_allies
-	x = -3
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Democratic Alliance
-focus = {
-	id = generic_eu_dem_us_russia_allies
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_dem_allies }
-	mutually_exclusive = { focus = generic_eu_dem_independent }
-	mutually_exclusive = { focus = generic_eu_dem_eintracht }
-	relative_position_id = generic_eu_dem_allies
+	prerequisite = { focus = generic_eu_dem_way }
+	relative_position_id = generic_eu_dem_way
 	x = -1
 	y = 1
 	cost = 6
@@ -291,14 +157,24 @@ focus = {
 	}
 }
 
-# Eintracht
 focus = {
-	id = generic_eu_dem_eintracht
+	id = generic_eu_better_rep
 	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_dem_allies }
-	mutually_exclusive = { focus = generic_eu_dem_us_russia_allies }
-	mutually_exclusive = { focus = generic_eu_dem_independent }
-	relative_position_id = generic_eu_dem_allies
+	prerequisite = { focus = generic_eu_power_sep }
+	relative_position_id = generic_eu_power_sep
+	x = 0
+	y = 1
+	cost = 6
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_dem_rep_gov
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = generic_eu_better_rep }
+	prerequisite = { focus = generic_eu_class_mobility }
+	relative_position_id = generic_eu_better_rep
 	x = 1
 	y = 1
 	cost = 6
@@ -306,309 +182,3 @@ focus = {
 	}
 }
 
-###Communism
-
-# Commie Path
-focus = {
-	id = generic_eu_communism
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_politics }
-	relative_position_id = generic_eu_politics
-	x = -12
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# The Situation in the Factories
-focus = {
-	id = generic_eu_com_econ
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_communism }
-	relative_position_id = generic_eu_communism
-	x = 0
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Work with the Old Regime
-focus = {
-	id = generic_eu_cooperate
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_com_econ }
-	mutually_exclusive = { focus = generic_eu_fight }
-	relative_position_id = generic_eu_com_econ
-	x = -1
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Transition
-focus = {
-	id = generic_eu_transition
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_cooperate }
-	relative_position_id = generic_eu_cooperate
-	x = 0
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Down with the Oppressors
-focus = {
-	id = generic_eu_fight
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_com_econ }
-	mutually_exclusive = { focus = generic_eu_cooperate }
-	relative_position_id = generic_eu_com_econ
-	x = 1
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Seize the Means of Production
-focus = {
-	id = generic_eu_seize
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_fight }
-	relative_position_id = generic_eu_fight
-	x = 0
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Socialist Economy
-focus = {
-	id = generic_eu_soc_econ
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_seize focus = generic_eu_transition }
-	relative_position_id = generic_eu_seize
-	x = -1
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Local Communes
-focus = {
-	id = generic_eu_communes
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_soc_econ }
-	relative_position_id = generic_eu_soc_econ
-	x = -1
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Socialist Goods
-focus = {
-	id = generic_eu_soc_goods
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_communes }
-	relative_position_id = generic_eu_communes
-	x = 0
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Military Expansion
-focus = {
-	id = generic_eu_com_mil_fac
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_soc_econ }
-	relative_position_id = generic_eu_soc_econ
-	x = 1
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Red Fortress
-focus = {
-	id = generic_eu_red_fort
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_com_mil_fac }
-	relative_position_id = generic_eu_com_mil_fac
-	x = 0
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# International Workers
-focus = {
-	id = generic_eu_com_fopo
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_communism }
-	relative_position_id = generic_eu_communism
-	x = -5
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# We are the True Socialists
-focus = {
-	id = generic_eu_com_independent
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_com_fopo }
-	mutually_exclusive = { focus = generic_eu_com_internationalism }
-	relative_position_id = generic_eu_com_fopo
-	x = 1
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Workers' Group
-focus = {
-	id = generic_eu_com_faction
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_com_independent }
-	relative_position_id = generic_eu_com_independent
-	x = 1
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Look to the World
-focus = {
-	id = generic_eu_com_internationalism
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_com_fopo }
-	mutually_exclusive = { focus = generic_eu_com_independent }
-	relative_position_id = generic_eu_com_fopo
-	x = -1
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Join the International
-focus = {
-	id = generic_eu_com_international
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_com_internationalism }
-	relative_position_id = generic_eu_com_internationalism
-	x = 1
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Alternate Factions
-focus = {
-	id = generic_eu_com_others
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_com_internationalism }
-	relative_position_id = generic_eu_com_internationalism
-	x = -1
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Spread the Revolution
-focus = {
-	id = generic_eu_com_spread
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_com_internationalism focus = generic_eu_com_faction }
-	relative_position_id = generic_eu_com_international
-	x = 0
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Workers' Militias
-focus = {
-	id = generic_eu_com_militias
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_com_spread }
-	relative_position_id = generic_eu_com_spread
-	x = 0
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Popular Mandate
-focus = {
-	id = generic_eu_com_mandate
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_communism }
-	relative_position_id = generic_eu_communism
-	x = 3
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Socialism for All
-focus = {
-	id = generic_eu_soc_for_all
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_com_mandate }
-	relative_position_id = generic_eu_com_mandate
-	x = 0
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Propoganda
-focus = {
-	id = generic_eu_com_propoganda
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_soc_for_all }
-	relative_position_id = generic_eu_soc_for_all
-	x = 0
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-# Our Brand of Socialism
-focus = {
-	id = generic_eu_com_brand
-	icon = GFX_focus_generic_support_the_left_right
-	prerequisite = { focus = generic_eu_com_propoganda }
-	relative_position_id = generic_eu_com_propoganda
-	x = 0
-	y = 1
-	cost = 6
-	completion_reward = {
-	}
-}
-
-}
