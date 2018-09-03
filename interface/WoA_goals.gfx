@@ -7,26 +7,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_generic_drill_soldiers.dds"
 	}
 	
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_goal_KTG_Bookstack" ### adopted from KR, poor child 
 		texturefile = "gfx/interface/goals/GFX_goal_KTG_Bookstack.dds"
 	}
 	
-			SpriteType = {
+	SpriteType = {
 		name = "GFX_Arabian_Peninsula" 
 		texturefile = "gfx/interface/goals/Arabian_Peninsula.tga"
 	}
 	
-			SpriteType = {
+	SpriteType = {
 		name = "GFX_goal_purge_opposition" ### adopted from KR, poor child 
 		texturefile = "gfx/interface/goals/goal_purge_opposition.tga"
 	}
 	
-			SpriteType = {
+	SpriteType = {
 		name = "GFX_goal_army_guy_2" ### adopted from KR, poor child 
 		texturefile = "gfx/interface/goals/goal_army_guy_2.tga"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_goal_great_science" ### adopted from KR, poor child 
 		texturefile = "gfx/interface/goals/goal_great_science.tga"
 	}
@@ -81,6 +81,146 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_generic_press_censorship.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_goal_generic_cooperate_with_danubia"
+		texturefile = "gfx/interface/goals/goal_generic_cooperate_with_danubia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_generic_cooperate_with_italy"
+		texturefile = "gfx/interface/goals/goal_generic_cooperate_with_italy.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_generic_islamic_monarchy"
+		texturefile = "gfx/interface/goals/goal_generic_islamic_monarchy.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_generic_revolution"
+		texturefile = "gfx/interface/goals/goal_generic_revolution.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_goal_generic_revolution2"
+		texturefile = "gfx/interface/goals/goal_generic_revolution2.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_goal_generic_revolution3"
+		texturefile = "gfx/interface/goals/goal_generic_revolution3.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_goal_generic_revolution4"
+		texturefile = "gfx/interface/goals/goal_generic_revolution4.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_goal_generic_revolution5"
+		texturefile = "gfx/interface/goals/goal_generic_revolution5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_generic_satanize_marx"
+		texturefile = "gfx/interface/goals/goal_generic_satanize_marx.dds"
+	}
+	
+	###Britanny
+	
+	SpriteType = {
+		name = "GFX_goal_BRI_breton_flag"
+		texturefile = "gfx/interface/goals/BRI_breton_flag.dds"
+	}
+	
+	###Croatia
+	
+	SpriteType = {
+		name = "GFX_goal_CRO_bosnian_question"
+		texturefile = "gfx/interface/goals/CRO_bosnian_question.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_CRO_croatia_flag"
+		texturefile = "gfx/interface/goals/CRO_croatia_flag.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_CRO_monument_to_radic"
+		texturefile = "gfx/interface/goals/CRO_monument_to_radic.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_CRO_proclaim_yugoslavia"
+		texturefile = "gfx/interface/goals/CRO_proclaim_yugoslavia.dds"
+	}
+	
+	###England
+	
+	SpriteType = {
+		name = "GFX_goal_ENG_anglo_saxon_scouting_bands"
+		texturefile = "gfx/interface/goals/ENG_anglo_saxon_scouting_bands.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_ENG_choose_king_edward_viii"
+		texturefile = "gfx/interface/goals/ENG_choose_king_edward_viii.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_ENG_choose_king_harold_iii"
+		texturefile = "gfx/interface/goals/ENG_choose_king_harold_iii.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_ENG_create_new_earls"
+		texturefile = "gfx/interface/goals/ENG_create_new_earls.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_ENG_end_the_anglo_saxon_revival"
+		texturefile = "gfx/interface/goals/ENG_end_the_anglo_saxon_revival.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_ENG_mosley_institutes_the_commonwealth"
+		texturefile = "gfx/interface/goals/ENG_mosley_institutes_the_commonwealth.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_ENG_traditional_religion"
+		texturefile = "gfx/interface/goals/ENG_traditional_religion.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_ENG_witangemot"
+		texturefile = "gfx/interface/goals/ENG_witangemot.dds"
+	}
+	
+	###France
+	
+	SpriteType = {
+		name = "GFX_goal_FRA_french_wine"
+		texturefile = "gfx/interface/goals/FRA_french_wine.dds"
+	}
+	
+	###Slovakia
+	
+	SpriteType = {
+		name = "GFX_goal_SLO_comrade_janousek_leads_the_way"
+		texturefile = "gfx/interface/goals/SLO_comrade_janousek_leads_the_way.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_SLO_execute_janousek"
+		texturefile = "gfx/interface/goals/SLO_execute_janousek.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_SLO_the_slovak_republic"
+		texturefile = "gfx/interface/goals/SLO_the_slovak_republic.dds"
+	}
+	
 	###Switzerland
 	
 	SpriteType = {
@@ -91,6 +231,59 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_SWI_restore_the_old_confederacy"
 		texturefile = "gfx/interface/goals/SWI_restore_the_old_confederacy.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_SWI_we_shall_fight_on_the_mountains"
+		texturefile = "gfx/interface/goals/SWI_we_shall_fight_on_the_mountains.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_SWI_revolution"
+		texturefile = "gfx/interface/goals/SWI_revolution.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_SWI_revolution2"
+		texturefile = "gfx/interface/goals/SWI_revolution2.dds"
+	}
+	
+	###Turkey
+	
+	SpriteType = {
+		name = "GFX_goal_TUR_fap_victory"
+		texturefile = "gfx/interface/goals/TUR_fap_victory.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_TUR_kazim_pasha"
+		texturefile = "gfx/interface/goals/TUR_kazim_pasha.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_TUR_mustafa_kemal"
+		texturefile = "gfx/interface/goals/TUR_mustafa_kemal.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_TUR_ottoman_economic_success"
+		texturefile = "gfx/interface/goals/TUR_ottoman_economic_success.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_TUR_sabahaddin"
+		texturefile = "gfx/interface/goals/TUR_sabahaddin.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_TUR_vizier"
+		texturefile = "gfx/interface/goals/TUR_vizier.dds"
+	}
+	###Germany
+	
+	SpriteType = {
+		name = "GFX_goal_GER_continuation_of_weltpolitik"
+		texturefile = "gfx/interface/goals/GER_continuation_of_weltpolitik.dds"
 	}
 	
 	###Russia
@@ -111,12 +304,12 @@ spriteTypes = {
 	
 	### Middle East
 	
-				SpriteType = {
+	SpriteType = {
 		name = "GFX_goal_Islamic_Government" 
 		texturefile = "gfx/interface/goals/goal_Islamic_Government.tga"
 	}
 	
-			SpriteType = {
+	SpriteType = {
 		name = "GFX_goal_promote_islam" 
 		texturefile = "gfx/interface/goals/Promote_Islam.tga"
 	}
