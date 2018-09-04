@@ -16,7 +16,8 @@ focus_tree = {
 		id = CRO_elections_1936
 		icon = GFX_goal_support_democracy
 		x = 13
-		y = 0
+		#y = 0
+		y = 40
 		cost = 1
 		ai_will_do = {
 			factor = 1
@@ -1091,11 +1092,12 @@ focus_tree = {
 	#x3 +15% research for Industry 
 	focus = {
 		id = CRO_economy
-		icon = GFX_goal_generic_production
+		icon = GFX_focus_generic_the_giant_wakes
 		available = {
 			always = no
 		}
-		x = 30
+		#x = 30
+		x = 8
 		y = 0
 		cost = 5
 	}
@@ -1103,7 +1105,7 @@ focus_tree = {
 	#add 2 building slots in Slavonia and Dalmatia, +25% research for industry
 	focus = {
 		id = CRO_specialize_industries
-		icon = GFX_goal_generic_defence
+		icon = GFX_goal_generic_construction2
 		available = {
 			always = no
 		}
@@ -1116,10 +1118,10 @@ focus_tree = {
 		}
 	}
 	#GO WITH CORN
-	#Add national spirit "Corn production focus", which grants 5% monthly pop, 5% production retention, out of supply -20%
+	#Add national spirit "Corn production focus", which grants 5% monthly pop, out of supply -20%
 	focus = {
 		id = CRO_corn
-		icon = GFX_goal_generic_defence
+		icon = GFX_goal_agrarian_reform
 		available = {
 			always = no
 		}
@@ -1132,7 +1134,7 @@ focus_tree = {
 		}
 	}
 	#FOCUS ON LIVESTOCK
-	#Jesus jeff
+	#Add national spirit "Livestock production focus", which grants 1.5% recruitable pop and +5%infantry attack
 	focus = {
 		id = CRO_livestock
 		icon = GFX_goal_generic_defence
@@ -1146,5 +1148,494 @@ focus_tree = {
 		prerequisite = {
 			focus = CRO_specialize_industries
 		}
+	}
+	#KEEP THE MIX
+	#Add national spirit "Mixed production focus" which grants +5% inf attack, +5% monthly pop,
+	focus = {
+		id = CRO_keep_mix
+		icon = GFX_goal_generic_neutrality_focus
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_specialize_industries
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = CRO_specialize_industries
+		}
+	}
+	#ECONOMIC CLARITY
+	#Remove national spirit economic chaos
+	focus = {
+		id = CRO_economic_clarity
+		icon = GFX_goal_generic_consumer_goods
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_keep_mix
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = CRO_keep_mix
+			focus = CRO_corn
+			focus = CRO_livestock
+		}
+	}
+	#ENCOURAGE USE OF MODERN FARMING TOOLS
+	#x3 +25% research for industry
+	focus = {
+		id = CRO_modern_tools
+		icon = GFX_goal_generic_production
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_economic_clarity
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = CRO_economic_clarity
+		}
+	}
+	#FOCUS ON SLAVONIAN SILK EXPORTS
+	#Add 2 civ factories in slavonia
+	focus = {
+		id = CRO_slavonian_silk
+		icon = GFX_goal_generic_positive_trade_relations
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_economic_clarity
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = CRO_economic_clarity
+		}
+	}
+	#OPEN THE ZAGREB UNIVERSITY
+	#add 1 research slot
+	focus = {
+		id = CRO_zagreb_university
+		icon = GFX_focus_research
+		available = {
+			always = no
+		}
+		relative_position_id = CRO_modern_tools
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = CRO_modern_tools
+		}
+		prerequisite = {
+			focus = CRO_slavonian_silk
+		}
+	}
+	#BUILD THE ZAGREB-SPLIT LINE
+	#add 2 infrastructures in all states except fiume
+	focus = {
+		id = CRO_zagreb_split_line
+		icon = GFX_goal_generic_construct_infrastructure
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_economy
+		}
+		relative_position_id = CRO_economy
+		x = -6
+		y = 1
+		cost = 5
+	}
+	#FINISH THE PROJECT
+	#add 3 infrastructures and 1 building slot in all states except fiume
+	focus = {
+		id = CRO_finish_the_project
+		icon = GFX_goal_generic_construction2
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_zagreb_split_line
+		}
+		relative_position_id = CRO_zagreb_split_line
+		x = -1
+		y = 1
+		cost = 5
+	}
+	#CONNECT RURAL DALMATIA
+	#add 2 infrastructures in all dalmatia, and add 2 buildings slots
+	focus = {
+		id = CRO_connect_rural_dalmatia
+		icon = GFX_focus_generic_industry_3
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_zagreb_split_line
+		}
+		relative_position_id = CRO_zagreb_split_line
+		x = 1
+		y = 1
+		cost = 5
+	}
+	#EXPAND THE SPLIT DOCKYARDS
+	#add 2 dockyards in split, add 2 building slots
+	focus = {
+		id = CRO_expand_split_dockyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_finish_the_project
+		}
+		prerequisite = {
+			focus = CRO_connect_rural_dalmatia
+		}
+		relative_position_id = CRO_finish_the_project
+		x = 1
+		y = 1
+		cost = 5
+	}
+	#INVEST IN DALMATIAN PORTS
+	#add 3 port levels in zara, ragusa, fiume, spalato
+	focus = {
+		id = CRO_invest_dalmatian_ports
+		icon = GFX_goal_generic_navy_battleship
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_expand_split_dockyards
+		}
+		relative_position_id = CRO_expand_split_dockyards
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#SUPPORTING OUR FLEET
+	#Add national spirit "Supporting our fleet" which grants +5% navy range
+	focus = {
+		id = CRO_supporting_our_fleet
+		icon = GFX_goal_generic_navy_battleship
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_expand_split_dockyards
+		}
+		relative_position_id = CRO_expand_split_dockyards
+		x = -2
+		y = 1
+		cost = 5
+	}
+	#REQUISITION OF FISHING VESSELS
+	#add national spirit "requisition of fishing vessels" +5% dockyard output +5% consumer goods
+	focus = {
+		id = CRO_fishing_vessels
+		icon = GFX_goal_generic_navy_battleship
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_expand_split_dockyards
+		}
+		relative_position_id = CRO_expand_split_dockyards
+		x = 2
+		y = 1
+		cost = 5
+	}
+	#FUND NAVAL RESEARCH
+	#x2 +50% research for any ship
+	focus = {
+		id = CRO_fund_naval_research
+		icon = GFX_goal_generic_navy_cruiser
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_invest_dalmatian_ports
+		}
+		relative_position_id = CRO_invest_dalmatian_ports
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#MASTER SHIPBUILDERS
+	#Add national spirit "Master shipbuilders" which grants +20% dockyard output
+	focus = {
+		id = CRO_master_shipbuilders
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_fund_naval_research
+		}
+		relative_position_id = CRO_fund_naval_research
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#INTO THE MODERN WORLD
+	#x1 +25% research bonus for industry
+	focus = {
+		id = CRO_into_modern_world
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_economy
+		}
+		relative_position_id = CRO_economy
+		x = 6
+		y = 1
+		cost = 5
+	}
+	#CONTINUE BUILDING MODEST FACTORIES
+	#+1 Civs +1 building slots in all states
+	focus = {
+		id = CRO_modest_factories
+		icon = GFX_goal_generic_construct_infrastructure
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_into_modern_world
+		}
+		relative_position_id = CRO_into_modern_world
+		x = -2
+		y = 1
+		cost = 5
+	}
+	#EXPAND INTO THE MILITARY INDUSTRIES
+	#+1 Mils +1 building slots in all states
+	focus = {
+		id = CRO_military_industries
+		icon = GFX_goal_generic_construct_mil_factory
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_modest_factories
+		}
+		relative_position_id = CRO_modest_factories
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#CONSTRUCT THE RIJEKA REFINERY
+	#+1 refinery +1 building slots in Fiume
+	focus = {
+		id = CRO_fiume_refineries
+		icon = GFX_goal_generic_oil_refinery
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_into_modern_world
+		}
+		relative_position_id = CRO_into_modern_world
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#FOUNDATION OF THE SISAK REFINERIES
+	#+1 refinery in slavonia +1 building slot
+	focus = {
+		id = CRO_sisak_refineries
+		icon = GFX_goal_generic_oil_refinery
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_fiume_refineries
+		}
+		relative_position_id = CRO_fiume_refineries
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#BUILD RURAL SCHOOLS
+	#Replace the Illitaracy national spirit with "Fighting illiteracy" which reduces its effects by 1/4
+	focus = {
+		id = CRO_rural_schools
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_into_modern_world
+		}
+		relative_position_id = CRO_into_modern_world
+		x = 2
+		y = 1
+		cost = 5
+	}
+	#MASS LITERACY PROGRAM
+	#Remove national spirit fighting illiteracy, add "Literacy programs" which lasts for 3 years and halvens the original debuff
+	focus = {
+		id = CRO_literacy_program
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_rural_schools
+		}
+		relative_position_id = CRO_rural_schools
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#LOAN FROM THE ITALIANS
+	#PLACEHOLDER
+	focus = {
+		id = CRO_loan_italians
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_sisak_refineries
+		}
+		prerequisite = {
+			focus = CRO_literacy_program
+		}
+		prerequisite = {
+			focus = CRO_military_industries
+		}
+		mutually_exclusive = {
+			focus = CRO_loan_germans
+		}
+		relative_position_id = CRO_sisak_refineries
+		x = -1
+		y = 1
+		cost = 5
+	}
+	#LOAN FROM THE GERMANS
+	#PLACEHOLDER
+	focus = {
+		id = CRO_loan_germans
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_sisak_refineries
+		}
+		prerequisite = {
+			focus = CRO_literacy_program
+		}
+		prerequisite = {
+			focus = CRO_military_industries
+		}
+		mutually_exclusive = {
+			focus = CRO_loan_germans
+		}
+		relative_position_id = CRO_sisak_refineries
+		x = 1
+		y = 1
+		cost = 5
+	}
+	#FOCUS ON THE MILITARY SECTOR
+	#Add national spirit "Military focus" which grants military factory construction speed +25%,  military output +10% as long as the loan stands
+	focus = {
+		id = CRO_military_sector
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_loan_italians
+			focus = CRO_loan_germans
+		}
+		relative_position_id = CRO_loan_italians
+		x = -1
+		y = 1
+		cost = 10
+	}
+	#FUND CONCRETE FACTORIES
+	#Add national spirit "Funding concrete factories" which grants fort construction speed +25% as long as the loan stands
+	focus = {
+		id = CRO_concrete_factories
+		icon = GFX_goal_generic_fortify_city
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_loan_italians
+			focus = CRO_loan_germans
+		}
+		relative_position_id = CRO_loan_italians
+		x = 1
+		y = 1
+		cost = 10
+	}
+	#RETAIN MODEST INDUSTRIAL MODEL
+	#Add national spirit "Modest industrial model" which grants +10% civilian factory construction speed as long as the loan stands
+	focus = {
+		id = CRO_modest_industrial_model
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_loan_italians
+			focus = CRO_loan_germans
+		}
+		relative_position_id = CRO_loan_germans
+		x = 1
+		y = 1
+		cost = 10
+	}
+	#A GOOD START
+	#Remove national spirit backwards economy
+	focus = {
+		id = CRO_a_good_start
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_concrete_factories
+		}
+		prerequisite = {
+			focus = CRO_modest_industrial_model
+		}
+		prerequisite = {
+			focus = CRO_military_sector
+		}
+		relative_position_id = CRO_concrete_factories
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#A LAUGHINGSTOCK NO LONGER
+	#Add national spirit "Economic Boom" which grants consumer goods -5%, factory output +10%, dockyard output +10%
+	focus = {
+		id = CRO_laughingstock_no_longer
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_zagreb_university
+		}
+		prerequisite = {
+			focus = CRO_a_good_start
+		}
+		prerequisite = {
+			focus = CRO_master_shipbuilders
+		}
+		relative_position_id = CRO_zagreb_university
+		x = 0
+		y = 2
+		cost = 5
 	}
 }

@@ -166,8 +166,10 @@ l_english:
  CRO_purge_muslims_desc:0 "Muslims are also a problen: they stand in the way of pure Croatian identity. However, many of them declared for our cause: we should give them the chance to convert."
  CRO_anything_for_the_nation:0 "Anything for the Nation"
  CRO_anything_for_the_nation_desc:0 "Croatia is united and pure. Our people's nationalistic zeal is absolute: they'd do anything for our Nation!"
+ CRO_economy:0 "The Croatian Economy"
+ CRO_economy_desc:0 ""
  
  #Events
  cr_croatia.1.t:0 "The Elections of 1936"
- cr_croatia.1.d:0 "This year's elections will happen in a particularly tense climate. The traditional conservative and liberal dualism no longer satisfies the electorate, with many turning to the Social Democrats as their alternative or even to illegal associations. The Ustaše have been gaining consensus, but the real threat to our republic are the monarchist, who now have more support than the mainstream parties. Many fear a coup d'etat. Most doubt someone would intervene against it."
- cr_croatia.1.a:0 "We'll see who wins."
+ cr_croatia.1.d:0 "This year's elections will happen in a particularly tense climate. The traditional conservative and liberal dualism no longer satisfies the electorate, with many turning to the Social Democrats as their alternative or even to illegal associations. The Ustaše have been gaining consensus, but the real threat to our republic are the monarchists, who now have more support than the mainstream parties. Many fear a coup d'etat. Most doubt someone would intervene against it."
+ cr_croatia.1.a:0 "We'll see who laughs last."
