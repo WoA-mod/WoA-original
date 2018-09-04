@@ -231,9 +231,9 @@ LIT_paternal_autocrat_DEF:0 "Ober Ost"
 LIT_national_populist:0 "Commonwealth"
 LIT_national_populist_ADJ:0 "Lithuanian"
 LIT_national_populist_DEF:0 "Commonwealth"
-LIT_antiquarian_nationalist:0 "Commonwealth"
+LIT_antiquarian_nationalist:0 "Kingdom Of Lithuania"
 LIT_antiquarian_nationalist_ADJ:0 "Lithuanian"
-LIT_antiquarian_nationalist_DEF:0 "Commonwealth"
+LIT_antiquarian_nationalist_DEF:0 "Kingdom Of Lithuania"
 
 #Livonia
 #Note, fix these later

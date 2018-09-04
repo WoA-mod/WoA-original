@@ -24,22 +24,22 @@ set_politics = {
 
 	parties = {
 		antiquarian_nationalist = {
-			popularity = 11
+			popularity = 78
 		}
 		paternal_autocrat = {
-			popularity = 52
+			popularity = 11
 		}
 		authoritarian_democrat = {
-			popularity = 28
+			popularity = 11
 		}
 		socialist = {
-			popularity = 4
+			popularity = 0
 		}
 		utopianism = {
-			popularity = 3
+			popularity = 0
 		}
 		council_communist = {
-			popularity = 1
+			popularity = 0
 		}
 		social_democrat = {
 			popularity = 0
@@ -48,11 +48,11 @@ set_politics = {
 			popularity = 0
 		}
 		conservative = {
-			popularity = 1
+			popularity = 0
 		}
 	}
 
-	ruling_party = authoritarian_democrat
+	ruling_party = antiquarian_nationalist
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no
@@ -63,7 +63,7 @@ create_country_leader = {
 	desc = "POLITICS_KARL_SARE_DESC"
 	picture = "Portrait_Antanas_Merkys.png"
 	expire = "1965.1.1"
-	ideology = antiquarian_nationalist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}
@@ -143,7 +143,7 @@ create_country_leader = {
 	desc = "POLITICS_KARL_SARE_DESC"
 	picture = "Portrait_Friedrich_Christian.png"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = antiquarian_nationalist_subtype
 	traits = {
 		#
 	}
