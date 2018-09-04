@@ -1083,6 +1083,8 @@ focus_tree = {
 			focus = CRO_purge_muslims
 		}
 	}
+
+
 ##############################################
 #	Economic tree
 #	pls end my miserable life
@@ -1125,6 +1127,10 @@ focus_tree = {
 		available = {
 			always = no
 		}
+		mutually_exclusive = {
+			focus = CRO_keep_mix
+			focus = CRO_livestock
+		}
 		relative_position_id = CRO_specialize_industries
 		x = -2
 		y = 1
@@ -1133,6 +1139,7 @@ focus_tree = {
 			focus = CRO_specialize_industries
 		}
 	}
+	
 	#FOCUS ON LIVESTOCK
 	#Add national spirit "Livestock production focus", which grants 1.5% recruitable pop and +5%infantry attack
 	focus = {
@@ -1140,6 +1147,10 @@ focus_tree = {
 		icon = GFX_goal_generic_defence
 		available = {
 			always = no
+		}
+		mutually_exclusive = {
+			focus = CRO_keep_mix
+			focus = CRO_corn
 		}
 		relative_position_id = CRO_specialize_industries
 		x = 2
@@ -1156,6 +1167,10 @@ focus_tree = {
 		icon = GFX_goal_generic_neutrality_focus
 		available = {
 			always = no
+		}
+		mutually_exclusive = {
+			focus = CRO_livestock
+			focus = CRO_corn
 		}
 		relative_position_id = CRO_specialize_industries
 		x = 0
@@ -1235,7 +1250,7 @@ focus_tree = {
 		}
 	}
 	#BUILD THE ZAGREB-SPLIT LINE
-	#add 2 infrastructures in all states except fiume
+	#add 2 infrastructures in all states except fiume. Add Infrastructure Focus, which grants consumer goods +20%
 	focus = {
 		id = CRO_zagreb_split_line
 		icon = GFX_goal_generic_construct_infrastructure
