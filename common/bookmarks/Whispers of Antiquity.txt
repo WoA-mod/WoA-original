@@ -132,6 +132,15 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"CRO"={
+			minor = yes
+			history = CRO_WHISPERS_OF_ANTIQUITY_DESC
+			ideology = liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

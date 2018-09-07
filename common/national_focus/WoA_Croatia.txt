@@ -1653,4 +1653,134 @@ focus_tree = {
 		y = 2
 		cost = 5
 	}
+##########################################################
+#	Kaiser Karl - Habsburgboos' wet dreams
+#	YEAH AIR FROM NOW ON I'LL FOLLOW THE STYLESHEET OK
+##########################################################
+	#THE RETURN OF THE KAISER
+	focus = {
+		id = CRO_kaiser_karl
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		x = 6
+		y = 0
+		cost = 5
+	}
+	#WE SHOULD HAVE STUCK TOGETHER
+	#PP + 100, claim all of Danubia, core austria
+	focus = {
+		id = CRO_we_should_have_stuck_together
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_kaiser_karl }
+		relative_position_id = CRO_kaiser_karl
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#THE KAISER'S ARMY
+	#Add national spirit Kaiser's Army, which grants 5.00% recruitable pop, division attack +5, division defense +5%
+	focus = {
+		id = CRO_kaisers_army
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_we_should_have_stuck_together }
+		relative_position_id = CRO_we_should_have_stuck_together
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#FORTIFY THE BORDER
+	#Add 2 forts on Danubian border, add 
+	focus = {
+		id = CRO_fortify_the_border
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_kaisers_army }
+		relative_position_id = CRO_kaisers_army
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#SEEK GERMAN HELP
+	#Offer Germany an anti-Danubian defensive pact: we'll start guaranteeing each other.
+	focus = {
+		id = CRO_german_help
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_kaisers_army }
+		relative_position_id = CRO_kaisers_army
+		x = -2
+		y = 1
+		cost = 5
+	}
+	#THE LOYAL MEN OF BOSNIA
+	#If Bosnia is led by Sarkotic or a pro-habsburg candidate, immediately annex and core. Otherwise, core all and gain CB.
+	focus = {
+		id = CRO_loyal_bosnia
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_kaisers_army }
+		relative_position_id = CRO_kaisers_army
+		x = 2
+		y = 1
+		cost = 5
+	}
+	#CONTACT HABSBURG RESTAURATIONISTS
+	#Unlock decision to give debuff to Danubia, can only be activated if at war with danubia.
+	focus = {
+		id = CRO_contact_restaurationists
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_fortify_the_border }
+		prerequisite = { focus = CRO_german_help }
+		prerequisite = { focus = CRO_loyal_bosnia }
+		relative_position_id = CRO_fortify_the_border
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#THE DRAVA INCIDENT
+	#Unlock decision to declare war on Danubia.
+	#Starts an event chain. Croatia will attempt to provoke Danubia into open warfare by doing military exercises next to the border. AI Danubia will fall for it always if they are Utopianists and only if stable if they are CounCom. If the player fails, They'll still have a decision to attack Danubia, though they'll do it alone. Danubia gets serious stability and Political Power losses for not attacking Croatia if they aren't RadSoc.
+	focus = {
+		id = CRO_drava_incident
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_contact_restaurationists }
+		relative_position_id = CRO_contact_restaurationists
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#CREATE THE TRIPLE MONARCHY
+	#Core all the Danubian provinces, gain cosmetic tag AHC
+	focus = {
+		id = CRO_triple_monarchy
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_drava_incident }
+		relative_position_id = CRO_drava_incident
+		x = 0
+		y = 1
+		cost = 5
+	}
 }

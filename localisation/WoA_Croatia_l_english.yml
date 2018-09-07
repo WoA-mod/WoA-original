@@ -3,6 +3,8 @@
 ######################################################################################
 
 l_english:
+ CRO_WHISPERS_OF_ANTIQUITY_DESC:0 "In 1917, Croatia-Slavonia's Ban Iván Skerlecz proclaimed independence, seized Dalmatia and formed a provisional government to carry the nation through the transition from monarchy to republicanism. His rule was however lacking popular support, and so he resigned and the country held free elections in 1918. The country was however under heavy German influence. A succession of impopular governments ruled the country, making the population lose faith in the two mainstream parties. It's 1936, and elections approach. Will the Republic survive, or collapse under the weight of its own mistakes?"
+ 
  #Parties
  CRO_utopianism_party:0 "SKH"
  CRO_utopianism_party_long:0 "Savez Komunista Hrvatske (Utopianist section)"
@@ -16,14 +18,19 @@ l_english:
  CRO_liberal_party_long:0 "Hrvatska Seljačka Stranka"
  CRO_conservative_party:0 "HPS"
  CRO_conservative_party_long:0 "Hrvatska Pučka Stranka"
+ CRO_conservative_party_desc:0 "The Popular Party of Croatia is one of the two \"establishment parties\" of Croatia. They represent the catholic and conservative rural masses. Their candidate is Petar Grgec.
  CRO_authoritarian_democrat_party:0 "Military Junta"
  CRO_authoritarian_democrat_party_long:0 "Military Junta"
+ CRO_authoritarian_democrat_party_desc:0 "The Croatian Army will step in to stop the country from collapsing into anarchy if needed. While many don't trust the Army to lead the country, if it descends into chaos they might have no other choice."
  CRO_paternal_autocrat_party:0 "Regency Council"
  CRO_paternal_autocrat_party_long:0 "Regency Council"
+ CRO_paternal_autocrat_party_desc:0 "Many, in the country, advocate for the establishment of a kingdom to replace the corrupt Republic."
  CRO_national_populist_party:0 "Ustaša"
  CRO_national_populist_party_long:0 "Ustaša - Hrvatski Revolucionarni Pokret"
+ CRO_national_populist_party_desc:0 "The Ustaša are an illegal movement created and led by Ante Pavelić, a Bosnian-born Croat that has been agitating the country against supposed "foreign influences". The party advocates the overthrowing of the Republic and the established of a new, nationalist and religious Croatia, and of course for the takeover of Bosnia-Herzegovina which, they claim, must be cleansed of all non-Croats."
  CRO_antiquarian_nationalist_party:0 "IP"
  CRO_antiquarian_nationalist_party_long:0 "Ilirski Pokret"
+ CRO_antiquarian_nationalist_party_desc:0 "The first Illyrian Movement was a literary movement that originated in the XIX century in southern parts of the Habsburg Empire, who eventually led to the rise of Slavic nationalism. It advocated the union of all Southern Slavs under the Illyrian name, language and culture. After the Croatian independence of 1917, Jakša Račić decided to recreate the movement, to represent the most radical pan-South-Slavists. Since Fassa's takeover in Italy, the Movement has been increasingly leaning towards pro-Roman policies. However, many inside the movement disagree, notably the prominent member and activist Niko Bartulović."
  
  #Leaders
  POLITICS_VLADIMIR_COPIC_DESC:0 "Vladimir \"Senjko\" Ćopić  is one of the historical leaders of the Communist Party of Croatia, a fervent Utopianist. Before that, he was active in the Austro-Hungarian Empire in the Social Democratic Party of Croatia and Slavonia, together with most current leftist leaders. Since the party was banned in 1921, he has continued underground, trying to gather as much support as possible for his cause, without much success. In the Croatian Civil War, he was the leader of the party, as he had the most military experience. He leads the Utopianist wing of the Communist Party. While all in the party agree that freeing the people of Croatia is not enough, there are disagreements on the means to achieve this. Senjko seeks to unite the workers of all South Slavic countries under a single Yugoslav identity."
@@ -33,8 +40,8 @@ l_english:
  POLITICS_VLADIMIR_MACEK_DESC:0 "Vladimir \"Vladko\" Maček was one of the most prominent members of the Peasant Party, Stjepan Radić's designated successor. He has been running in elections as the candidate since 1924, as Radić's health conditions worsened. He has led the country since 1930's elections, but his popularity has hit rock bottom since in 1935 his \"protector\" Stjepan Radić died."
  POLITICS_SLAVKO_KVATERNIK_DESC:0 "Slavko Kvaternik is one of the most influential generals of the nation. After the king had fled to Austria, he was chosen to lead the junta to carry the nation back into the republican system."
  POLITICS_CROATIAN_REGENCY_DESC:0 "We have seized power, and now we must choose a king."
- POLITICS_ANTE_PAVELIC_DESC:0 "Ante Pavelić was born in Bosnia-Herzegovina, at time part of Bosnia-Herzegovina, but moved to Croatia as soon as he was old enough to decide. Here, he has organized a far-right organization, the Ustaše, promising to unite all Croats and free them from foreign oppression. His movement has been gaining popularity especially since the failures of the last Maček government, and many see him as a real threat to democracy."
- POLITICS_JAKSA_RACIC_DESC:0 "Jakša Račić has been a real trouble for the Republic. During his studies in Prague he became fascinated with the \"Illyrian movement\", who had been the main cause of the rise of Croatian nationalism under Austria-Hungary. After the independence of Croatia, he traveled back to his country to resurrect this movement, under a new, more violent and more nationalistic lead. Since Marco Brescil's rise to power, Račić has been one of his most firm supporters outside Italy, believing in the need for all Illyrians to unite under their ancient ally Rome. This, however, wasn't liked by many members of his own movement, notably Niko Bartulović, who instead interpreted the word "Illyrian" as a mere name to rally together Slavic identites."
+ POLITICS_ANTE_PAVELIC_DESC:0 "Ante Pavelić was born in Bosnia-Herzegovina, at time part of the Habsburg Empire, but moved to Croatia as soon as he was old enough to decide. Here, he has organized a far-right organization, the Ustaše, promising to unite all Croats and free them from foreign oppression. His movement has been gaining popularity especially since the failures of the last Maček government, and many see him as a real threat to democracy."
+ POLITICS_JAKSA_RACIC_DESC:0 "Jakša Račić has been a real trouble for the Republic. Since the Croatian independence of 1917, he has been agitating the masses to unite Croatia with the other South Slavic countries, creating his own \"Illyrian Movement\". Fascinated with Fassa's ideas, he became more and more radical, eventually becoming convinced of the necessity for all Illyrians to unite under the protection of the Roman Empire."
  POLITICS_PETAR_GRGEC_DESC:0 "Petar Grgec has been a key figure in the politics of Crotia since the beginning of the Republic. His Popular Party saught to represent the interests of the conservative, deeply religious masses of the rural areas. As leader of \"the party of Catholics\", he has been guaranteed a place in the government for many years. However, the one term the Popular Party had was a failure, and many have been drifting away from Grgec, moving towards more radical organizations."
  
  #Focii
@@ -227,7 +234,7 @@ l_english:
  CRO_concrete_factories:0 "Fund Concrete Factories"
  CRO_concrete_factories_desc:0 "We can use this money to fund concrete factories to build up our forts."
  CRO_modest_industrial_model:0 "Retain Modest Industrial Model"
- CRO_modest_industrial_model_desc:0 "With the loan money, we can fund the small industries of our country so that they grow stronger and, hopefully, richer.
+ CRO_modest_industrial_model_desc:0 "With the loan money, we can fund the small industries of our country so that they grow stronger and, hopefully, richer."
  CRO_a_good_start:0 "A Good Start"
  CRO_a_good_start_desc:0 "We're on the path towards economic boom, now we just have to continue walking on it."
  
