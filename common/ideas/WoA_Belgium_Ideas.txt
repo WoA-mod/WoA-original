@@ -1,0 +1,38 @@
+Belgian Ideas, done by Lord Apple and Haruhi,
+
+ideas = {
+
+	country = {
+		
+		King_Albert_In_Exile = {
+			picture = ast_abandon_the_westminster_system
+			modifier = {
+			stability_factor = -0.30
+			}
+		}
+		
+		German_Influence = {
+			picture = triumphant_will
+			modifier = {
+			war_support_factor = -0.05
+			industrial_capacity_dockyard = -0.25
+			}
+		}
+		
+		Flemish_Wallonian_Divide_Start = {
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+			}
+		}
+		
+		Left_and_Right_Ideals_Rising = {
+			picture = generic_neutrality_drift_bonus
+			modifier = {
+			war_support_factor = -0.1
+				utopianism_drift = 0.01
+				national_populist_drift = 0.01
+			}
+		}
+		
+			}
+}

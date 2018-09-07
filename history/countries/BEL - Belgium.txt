@@ -15,30 +15,45 @@ set_technology = {
 }
 
 add_ideas = {
-#	GEN_James_Smith_hog_sco
-#	GEN_Charlie_Baker_for_sco
-#	GEN_Sam_Morris_eco_sco
-#	GEN_Oscar_Morgan_sec_sco
+King_Albert_In_Exile
+German_Influence
+Flemish_Wallonian_Divide_Start
+Left_and_Right_Ideals_Rising
 }
 
 
 set_politics = {
 
 	parties = {
-		social_democrat = {
-			popularity = 21
+		utopianism = { 
+			popularity = 2
 		}
-		liberal = {
-			popularity = 28
+		council_communist = { 
+			popularity = 2
 		}
-		conservative = {
-			popularity = 36
+		socialist = { 
+			popularity = 15
 		}
-		authoritarian_democrat = {
-			popularity = 6
+		social_democrat = { 
+			popularity = 11
+		}
+		liberal = { 
+			popularity = 25
+		}
+		conservative = { 
+			popularity = 32
+		}
+		authoritarian_democrat = { 
+			popularity = 5
 		}
 		paternal_autocrat = {
-			popularity = 3
+			popularity = 1
+		}
+		national_populist = {
+			popularity = 8
+		}
+		antiquarian_nationalist = {
+			popularity = 0
 		}
 	}
 	
@@ -52,12 +67,12 @@ set_politics = {
 
 set_convoys = 80
 set_stability = 0.70
-set_war_support = 0.30
+set_war_support = 0.40
 
 create_country_leader = {
-	name = "King Albert I"
+	name = "Victor De Laveleye"
 	desc = "POLITICS_ALBERT_I_DESC"
-	picture = "Portrait_Belgium_Albert_I.dds"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = liberal_subtype
 	traits = {
@@ -66,9 +81,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "King Albert I"
+	name = "Henri De Man"
 	desc = "POLITICS_ALBERT_I_DESC"
-	picture = "Portrait_Belgium_Albert_I.dds"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -77,9 +92,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "King Albert I"
+	name = "Paul Van Zeeland"
 	desc = "POLITICS_ALBERT_I_DESC"
-	picture = "Portrait_Belgium_Albert_I.dds"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = conservative_subtype
 	traits = {
