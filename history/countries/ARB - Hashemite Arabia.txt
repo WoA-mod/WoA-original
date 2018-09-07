@@ -1,4 +1,6 @@
-﻿capital = 292
+﻿country_event = { id = arabia.1 days = 1 }
+
+capital = 292
 
 # Starting tech
 set_technology = {

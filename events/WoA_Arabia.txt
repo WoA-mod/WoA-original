@@ -1,0 +1,22 @@
+﻿
+add_namespace = arabia
+
+#### Ikhwan Intro
+
+	country_event = {
+		id = arabia.1
+		title = arabia.1.t
+		desc = arabia.1.d
+		#picture = 
+
+		fire_only_once = yes
+
+		option = {
+			name = arabia.1.a
+		}
+		trigger = {
+			tag = ARB
+			date >1936.1.1
+		}
+	}
+

@@ -1,0 +1,193 @@
+﻿
+add_namespace = fra
+
+#### France Intro Event
+
+	country_event = {
+		id = fra.1
+		title = fra.1.t
+		desc = fra.1.d
+		picture = GFX_report_event_german_parade_paris
+
+		fire_only_once = yes
+
+		option = {
+			name = fra.1.a
+		}
+		trigger = {
+			tag = FRA
+			date >1936.1.1
+		}
+	}
+
+#### The Paris Strike
+
+	country_event = {
+		id = fra.2
+		title = fra.2.t
+		desc = fra.2.d
+		picture = strike
+
+		fire_only_once = yes
+		
+
+		option = {
+			name = fra.2.a
+			add_political_power = -10
+			country_event = { id = fra.3 days = 1 }
+		}
+		trigger = {
+			tag = FRA
+			date >1936.2.4
+		}
+	}
+	
+	#### A Turn for the Worst
+
+	country_event = {
+		id = fra.3
+		title = fra.3.t
+		desc = fra.3.d
+		picture = GFX_report_event_gathering_protest
+
+		fire_only_once = yes
+		is_triggered_only = yes
+
+		option = {
+			name = fra.3.a
+			add_political_power = -10
+			country_event = { id = fra.4 days = 1 }
+		}
+		option = {
+			name = fra.3.b
+			add_political_power = -10
+		}
+		trigger = {
+			tag = FRA
+			country_event = { id = fra.4 days = 1 }
+		}
+	}
+	
+	#### The Crackdown
+
+	country_event = {
+		id = fra.4
+		title = fra.4.t
+		desc = fra.4.d
+		picture = am_police
+
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+			name = fra.4.a
+			add_political_power = -20
+			add_popularity = {
+				ideology = council_communist
+				popularity = -0.01
+			}
+			add_popularity = {
+				ideology = antiquarian_nationalist
+				popularity = -0.01
+			}
+		}
+		trigger = {
+			tag = FRA
+			
+		}
+	}
+	
+		#### The Path of Most Resistance
+
+	country_event = {
+		id = fra.5
+		title = fra.5.t
+		desc = fra.5.d
+		picture = GFX_report_event_gathering_protest
+
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+			name = fra.5.a
+			country_event = { id = fra.4 days = 1 }
+		}
+		option = {
+			name = fra.5.b
+		}
+		trigger = {
+			tag = FRA
+			
+		}
+	}
+	
+			#### A Triumph of the Worker
+
+	country_event = {
+		id = fra.6
+		title = fra.6.t
+		desc = fra.6.d
+		picture = GFX_unhappygermans
+
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+			name = fra.6.a
+		}
+		
+		trigger = {
+			tag = FRA
+			
+		}
+	}
+	
+			#### In Defense of the Faith
+
+	country_event = {
+		id = fra.7
+		title = fra.7.t
+		desc = fra.7.d
+		picture = report_event_fascist_militia
+
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+			name = fra.5.a
+		}
+		
+		trigger = {
+			tag = FRA
+		}
+	}
+	
+			#### As Good As Can be Expected
+
+	country_event = {
+		id = fra.8
+		title = fra.8.t
+		desc = fra.8.d
+		picture = GFX_Two_years_later
+
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+			name = fra.8.a
+			add_political_power = 5
+			add_popularity = {
+				ideology = council_communist
+				popularity = -0.01
+			}
+			add_popularity = {
+				ideology = antiquarian_nationalist
+				popularity = -0.01
+			}
+		}
+		
+		trigger = {
+			tag = FRA
+			
+		}
+	}
