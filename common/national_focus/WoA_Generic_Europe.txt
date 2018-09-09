@@ -285,7 +285,7 @@ focus = {
 
 focus = {
 	id = generic_eu_mod_services
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_production
 	prerequisite = { focus = generic_eu_gov_contracts }
 	relative_position_id = generic_eu_gov_contracts
 	x = 0
@@ -297,7 +297,7 @@ focus = {
 
 focus = {
 	id = generic_eu_protect_private_property
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_wolf_pack
 	prerequisite = { focus = generic_eu_mark_econ }
 	relative_position_id = generic_eu_mark_econ
 	x = 1
@@ -309,7 +309,7 @@ focus = {
 
 focus = {
 	id = generic_eu_ensure_stability
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_political_pressure
 	prerequisite = { focus = generic_eu_protect_private_property }
 	relative_position_id = generic_eu_protect_private_property
 	x = 0
@@ -321,7 +321,7 @@ focus = {
 
 focus = {
 	id = generic_eu_laissez_faire
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_positive_trade_relations
 	prerequisite = { focus = generic_eu_mod_services }
 	prerequisite = { focus = generic_eu_ensure_stability }
 	relative_position_id = generic_eu_ensure_stability
@@ -334,7 +334,7 @@ focus = {
 
 focus = {
 	id = generic_eu_ensure_equality
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_neutrality_focus
 	prerequisite = { focus = generic_eu_con }
 	relative_position_id = generic_eu_con
 	x = 2
@@ -346,7 +346,7 @@ focus = {
 
 focus = {
 	id = generic_eu_in_business
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_molotov_ribbentrop_pact
 	prerequisite = { focus = generic_eu_ensure_equality }
 	relative_position_id = generic_eu_ensure_equality
 	x = -1
@@ -358,7 +358,7 @@ focus = {
 
 focus = {
 	id = generic_eu_flat_tax
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_HOL_sustain_neutrality
 	prerequisite = { focus = generic_eu_in_business }
 	relative_position_id = generic_eu_in_business
 	x = 0
@@ -370,7 +370,7 @@ focus = {
 
 focus = {
 	id = generic_eu_in_life
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_national_unity
 	prerequisite = { focus = generic_eu_ensure_equality }
 	relative_position_id = generic_eu_ensure_equality
 	x = 1
@@ -382,7 +382,7 @@ focus = {
 
 focus = {
 	id = generic_eu_services_for_all
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_tripartite_pact
 	prerequisite = { focus = generic_eu_in_life }
 	relative_position_id = generic_eu_in_life
 	x = 0
@@ -394,7 +394,7 @@ focus = {
 
 focus = {
 	id = generic_eu_safe_in_equality
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_improve_relations
 	prerequisite = { focus = generic_eu_services_for_all }
 	prerequisite = { focus = generic_eu_flat_tax }
 	relative_position_id = generic_eu_flat_tax
@@ -407,7 +407,7 @@ focus = {
 
 focus = {
 	id = generic_eu_democracy_abroad
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_liberty
 	prerequisite = { focus = generic_eu_democracy }
 	relative_position_id = generic_eu_democracy
 	x = 0
@@ -432,7 +432,7 @@ focus = {
 
 focus = {
 	id = generic_eu_moderate_democracy
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_improve_relations
 	prerequisite = { focus = generic_eu_democracy_abroad }
 	mutually_exclusive = { focus = generic_eu_true_liberty }
 	relative_position_id = generic_eu_democracy_abroad
@@ -445,7 +445,7 @@ focus = {
 
 focus = {
 	id = generic_eu_choose_our_allies
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_major_alliance
 	prerequisite = { focus = generic_eu_democracy_abroad }
 	relative_position_id = generic_eu_democracy_abroad
 	x = 0
@@ -457,7 +457,7 @@ focus = {
 
 focus = {
 	id = generic_eu_choose_eintracht
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_germany
 	prerequisite = { focus = generic_eu_choose_our_allies }
 	relative_position_id = generic_eu_choose_our_allies
 	x = -1
@@ -469,7 +469,7 @@ focus = {
 
 focus = {
 	id = generic_eu_berlin_connections
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_construct_infrastructure
 	prerequisite = { focus = generic_eu_choose_eintracht }
 	relative_position_id = generic_eu_choose_eintracht
 	x = 0
@@ -493,7 +493,7 @@ focus = {
 
 focus = {
 	id = generic_eu_moscow_connections
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_construct_infrastructure
 	prerequisite = { focus = generic_eu_go_with_alliance }
 	relative_position_id = generic_eu_go_with_alliance
 	x = 0
@@ -505,7 +505,7 @@ focus = {
 
 focus = {
 	id = generic_eu_alone
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_demand_territory
 	prerequisite = { focus = generic_eu_choose_our_allies }
 	relative_position_id = generic_eu_choose_our_allies
 	x = 0
@@ -517,7 +517,7 @@ focus = {
 
 focus = {
 	id = generic_eu_expeditions
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_anschluss
 	prerequisite = { focus = generic_eu_alone focus = generic_eu_moscow_connections focus = generic_eu_berlin_connections }
 	relative_position_id = generic_eu_alone
 	x = 0
@@ -529,7 +529,7 @@ focus = {
 
 focus = {
 	id = generic_eu_dem_intervention
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_demand_sudetenland
 	prerequisite = { focus = generic_eu_expeditions }
 	relative_position_id = generic_eu_expeditions
 	x = 0
@@ -574,9 +574,8 @@ focus = {
     	}
     }
 
-            }
 
-           focus = {
+    focus = {
     	id = generic_eu_socialist_education
     	icon = goal_unknown
     	prerequisite = {
@@ -591,6 +590,7 @@ focus = {
     	completion_reward = {
     	}
     }
+    
 	focus = {
     	id = generic_eu_secret_police
     	icon = goal_unknown
