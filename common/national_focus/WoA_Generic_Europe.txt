@@ -25,7 +25,7 @@ focus_tree = {
 # The Future Of Our Country
 focus = {
 	id = generic_eu_politics
-	icon = GFX_focus_generic_support_the_left_right
+	icon = generic_pp_unity_bonus
 	x = 18
 	y = 6
 	cost = 6
@@ -39,7 +39,7 @@ focus = {
 # Democracy Path
 focus = {
 	id = generic_eu_democracy
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_support_democracy
 	prerequisite = { focus = generic_eu_politics }
 	relative_position_id = generic_eu_politics
 	x = 0
@@ -51,7 +51,7 @@ focus = {
 
 focus = {
 	id = generic_eu_lib
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_major_alliance
 	prerequisite = { focus = generic_eu_democracy }
 	relative_position_id = generic_eu_democracy
 	x = -4
@@ -63,7 +63,7 @@ focus = {
 
 focus = {
 	id = generic_eu_con
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_government_icon
 	prerequisite = { focus = generic_eu_democracy }
 	relative_position_id = generic_eu_democracy
 	x = 4
@@ -75,7 +75,7 @@ focus = {
 
 focus = {
 	id = generic_eu_capitalism
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_construct_civ_factory
 	prerequisite = { focus = generic_eu_democracy }
 	mutually_exclusive = { focus = generic_eu_collectivize focus = generic_eu_nationalize }
 	relative_position_id = generic_eu_democracy
@@ -88,7 +88,7 @@ focus = {
 
 focus = {
 	id = generic_eu_collectivize
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_focus_generic_soviet_politics
 	prerequisite = { focus = generic_eu_lib }
 	mutually_exclusive = { focus = generic_eu_capitalism }
 	relative_position_id = generic_eu_lib
@@ -101,7 +101,7 @@ focus = {
 
 focus = {
 	id = generic_eu_nationalize
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_political_pressure
 	prerequisite = { focus = generic_eu_con }
 	mutually_exclusive = { focus = generic_eu_capitalism }
 	relative_position_id = generic_eu_con
@@ -114,7 +114,7 @@ focus = {
 
 focus = {
 	id = generic_eu_dem_way
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_improve_relations
 	prerequisite = { focus = generic_eu_lib }
 	relative_position_id = generic_eu_lib
 	x = -2
@@ -126,7 +126,7 @@ focus = {
 
 focus = {
 	id = generic_eu_reduce_ethnic_tensions
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_tripartite_pact
 	prerequisite = { focus = generic_eu_dem_way }
 	relative_position_id = generic_eu_dem_way
 	x = 1
@@ -150,7 +150,7 @@ focus = {
 
 focus = {
 	id = generic_eu_power_sep
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_anschluss
 	prerequisite = { focus = generic_eu_dem_way }
 	relative_position_id = generic_eu_dem_way
 	x = -1
@@ -162,7 +162,7 @@ focus = {
 
 focus = {
 	id = generic_eu_better_rep
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_improve_relations
 	prerequisite = { focus = generic_eu_power_sep }
 	relative_position_id = generic_eu_power_sep
 	x = 0
@@ -174,7 +174,7 @@ focus = {
 
 focus = {
 	id = generic_eu_dem_rep_gov
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_neutrality_focus
 	prerequisite = { focus = generic_eu_better_rep }
 	prerequisite = { focus = generic_eu_class_mobility }
 	relative_position_id = generic_eu_better_rep
@@ -187,7 +187,7 @@ focus = {
 
 focus = {
 	id = generic_eu_econ_help
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_production2
 	prerequisite = { focus = generic_eu_lib }
 	prerequisite = { focus = generic_eu_capitalism }
 	relative_position_id = generic_eu_lib
@@ -200,7 +200,7 @@ focus = {
 
 focus = {
 	id = generic_eu_small_bus_sub
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_air_production
 	prerequisite = { focus = generic_eu_econ_help }
 	relative_position_id = generic_eu_econ_help
 	x = -1
@@ -212,7 +212,7 @@ focus = {
 
 focus = {
 	id = generic_eu_consumer_goods_regulations
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_consumer_goods
 	prerequisite = { focus = generic_eu_small_bus_sub }
 	relative_position_id = generic_eu_small_bus_sub
 	x = 0
@@ -224,7 +224,7 @@ focus = {
 
 focus = {
 	id = generic_eu_industry_auth
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_construct_civ_factory
 	prerequisite = { focus = generic_eu_econ_help }
 	relative_position_id = generic_eu_econ_help
 	x = 1
@@ -236,7 +236,7 @@ focus = {
 
 focus = {
 	id = generic_eu_national_transportation
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_construct_infrastructure
 	prerequisite = { focus = generic_eu_industry_auth }
 	relative_position_id = generic_eu_industry_auth
 	x = 0
@@ -248,7 +248,7 @@ focus = {
 
 focus = {
 	id = generic_eu_agrarian_reform
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_national_unity
 	prerequisite = { focus = generic_eu_econ_help }
 	relative_position_id = generic_eu_econ_help
 	x = 0
@@ -260,7 +260,7 @@ focus = {
 
 focus = {
 	id = generic_eu_mark_econ
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_intelligence_exchange
 	prerequisite = { focus = generic_eu_con }
 	prerequisite = { focus = generic_eu_capitalism }
 	relative_position_id = generic_eu_con
