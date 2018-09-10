@@ -26,7 +26,7 @@ focus_tree = {
 focus = {
 	id = generic_eu_politics
 	icon = generic_pp_unity_bonus
-	x = 28
+	x = 38
 	y = 6
 	cost = 6
 	completion_reward = {
@@ -543,7 +543,7 @@ focus = {
 
 focus = {
 		id = generic_eu_worker_struggle
-		icon = goal_unknown
+		icon = GFX_focus_generic_join_comintern
 		prerequisite = {
 		focus = generic_eu_politics
 		}
@@ -561,7 +561,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_nationalist_economy
-		icon = goal_unknown
+		icon = GFX_focus_generic_support_the_left_right
 		prerequisite = {
 		focus = generic_eu_worker_struggle
 		}
@@ -1133,7 +1133,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_people_know_best
-		icon = goal_unknown
+		icon = GFX_goal_generic_national_unity
 		prerequisite = {
 		focus = generic_eu_worker_struggle
 		}
