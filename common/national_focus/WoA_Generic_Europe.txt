@@ -548,7 +548,7 @@ focus = {
 		focus = generic_eu_politics
 		}
 		relative_position_id = generic_eu_politics
-		x = -20
+		x = -30
 		y = 3
 		cost = 6
 		ai_will_do = {
@@ -1700,10 +1700,1531 @@ focus = {
 	}
 }
 
+#Nationalist Path
+
+focus = {
+		id = generic_eu_nationalist
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_democracy
+		}
+		relative_position_id = generic_eu_democracy
+		x = 35
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
 
 
+	focus = {
+		id = generic_eu_turn_to_our_people
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_nationalist
+		}
+		relative_position_id = generic_eu_nationalist
+		x = -10
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+	id = generic_eu_peoples_choice
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_turn_to_our_people
+	}
+	relative_position_id = generic_eu_turn_to_our_people
+	x = -5
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_allow_elections
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_peoples_choice
+	}
+	relative_position_id = generic_eu_peoples_choice
+	x = -1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_rep_of_the_people
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_allow_elections
+	}
+	relative_position_id = generic_eu_allow_elections
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_reintroduce_capitalism
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_peoples_choice
+	}
+	relative_position_id = generic_eu_peoples_choice
+	x = 1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_agrarian_reform_nat
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_reintroduce_capitalism
+	}
+	relative_position_id = generic_eu_reintroduce_capitalism
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_elected_dictator
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_rep_of_the_people
+	}
+	prerequisite = {
+	focus = generic_eu_agrarian_reform_nat
+	}
+	prerequisite = {
+	focus = generic_eu_allegiance_to_the_state
+	}
+	relative_position_id = generic_eu_agrarian_reform_nat
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_wealth_redistribution
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_elected_dictator
+	}
+	relative_position_id = generic_eu_elected_dictator
+	x = -2
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_appeal_to_the_masses
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_wealth_redistribution
+	}
+	relative_position_id = generic_eu_wealth_redistribution
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_national_railways_nat
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_elected_dictator
+	}
+	relative_position_id = generic_eu_elected_dictator
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_services_for_all_nat
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_national_railways_nat
+	}
+	relative_position_id = generic_eu_national_railways_nat
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_maximise_efficiency_nat
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_elected_dictator
+	}
+	relative_position_id = generic_eu_elected_dictator
+	x = 2
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_curtail_corruption
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_maximise_efficiency_nat
+	}
+	relative_position_id = generic_eu_maximise_efficiency_nat
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_popular_mandate
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_turn_to_our_people
+	}
+	mutually_exclusive = {
+        focus = generic_eu_peoples_choice
+    }
+	relative_position_id = generic_eu_turn_to_our_people
+	x = 5
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_peoples_leader_forever
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_popular_mandate
+	}
+	relative_position_id = generic_eu_popular_mandate
+	x = 1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_interpreting_the_will_of_the_people
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_peoples_leader_forever
+	}
+	relative_position_id = generic_eu_peoples_leader_forever
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_nationalize_industry_nat
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_popular_mandate
+	}
+	relative_position_id = generic_eu_popular_mandate
+	x = -1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_abolish_private_farmland
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_nationalize_industry_nat
+	}
+	relative_position_id = generic_eu_nationalize_industry_nat
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+	focus = {
+	id = generic_eu_faith_in_our_president
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_peoples_choice
+	focus = generic_eu_popular_mandate
+	}
+	relative_position_id = generic_eu_turn_to_our_people
+	x = 0
+	y = 2
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+focus = {
+	id = generic_eu_concentrate_power
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_faith_in_our_president
+	}
+	relative_position_id = generic_eu_faith_in_our_president
+	x = -1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_crack_down_on_opposition
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_faith_in_our_president
+	}
+	relative_position_id = generic_eu_faith_in_our_president
+	x = 1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_allegiance_to_the_state
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_crack_down_on_opposition
+	}
+	prerequisite = {
+	focus = generic_eu_concentrate_power
+	}
+	relative_position_id = generic_eu_faith_in_our_president
+	x = 0
+	y = 2
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+	focus = {
+	id = generic_eu_benevolent_dictator
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_abolish_private_farmland
+	}
+	prerequisite = {
+	focus = generic_eu_interpreting_the_will_of_the_people
+	}
+	prerequisite = {
+	focus = generic_eu_allegiance_to_the_state
+	}
+	relative_position_id = generic_eu_interpreting_the_will_of_the_people
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_nationalize_the_economy
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_benevolent_dictator
+	}
+	relative_position_id = generic_eu_benevolent_dictator
+	x = -2
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_government_in_everyday_life
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_nationalize_the_economy
+	}
+	relative_position_id = generic_eu_nationalize_the_economy
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+	focus = {
+	id = generic_eu_railways_for_our_troops
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_benevolent_dictator
+	}
+	relative_position_id = generic_eu_benevolent_dictator
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+focus = {
+	id = generic_eu_protect_our_people
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_railways_for_our_troops
+	}
+	relative_position_id = generic_eu_railways_for_our_troops
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+focus = {
+		id = generic_eu_assert_dominance
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_benevolent_dictator
+		}
+		relative_position_id = generic_eu_benevolent_dictator
+		x = 2
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = generic_eu_expand_our_army
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_assert_dominance
+		}
+		relative_position_id = generic_eu_assert_dominance
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	## Other Nationalist Side ##
+	
+	focus = {
+		id = generic_eu_turn_to_our_past
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_nationalist
+		}
+		relative_position_id = generic_eu_nationalist
+		x = 10
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = generic_eu_crown_a_king
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_turn_to_our_past
+		}
+		relative_position_id = generic_eu_turn_to_our_past
+		x = -5
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = generic_eu_one_of_our_own
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_crown_a_king
+		}
+		relative_position_id = generic_eu_crown_a_king
+		x = -1
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = generic_eu_monarchial_power
+		icon = goal_unknown
+		prerequisite = {
+		focus =  generic_eu_one_of_our_own
+		}
+		relative_position_id = generic_eu_one_of_our_own
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+	id = generic_eu_a_foreigner
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_crown_a_king
+	}
+	relative_position_id = generic_eu_crown_a_king
+	x = 1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_dynastic_ties
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_a_foreigner
+	}
+	relative_position_id = generic_eu_a_foreigner
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_a_modern_king
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_monarchial_power
+	}
+	prerequisite = {
+	focus = generic_eu_dynastic_ties
+	}
+	prerequisite = {
+	focus = generic_eu_allegiance_to_the_ruler
+	}
+	relative_position_id = generic_eu_dynastic_ties
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_an_economy_fit_for_haruhi
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_a_modern_king
+	}
+	relative_position_id = generic_eu_a_modern_king
+	x = -2
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_railway_for_our_patriarch
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_an_economy_fit_for_haruhi
+	}
+	relative_position_id = generic_eu_an_economy_fit_for_haruhi
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_crush_rival_claimants
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_a_modern_king
+	}
+	relative_position_id = generic_eu_a_modern_king
+	x = 2
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_assert_hegemony
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_crush_rival_claimants
+	}
+	relative_position_id = generic_eu_crush_rival_claimants
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+	focus = {
+	id = generic_eu_our_prestige_as_a_kingdom
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_a_modern_king
+	}
+	relative_position_id = generic_eu_a_modern_king
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_international_presence
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_our_prestige_as_a_kingdom
+	}
+	relative_position_id = generic_eu_our_prestige_as_a_kingdom
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_restore_our_glory
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_turn_to_our_past
+	}
+	mutually_exclusive = {
+        focus = generic_eu_crown_a_king
+    }
+	relative_position_id = generic_eu_turn_to_our_past
+	x = 5
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_our_former_prestige
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_restore_our_glory
+	}
+	relative_position_id = generic_eu_restore_our_glory
+	x = -1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_emulate_the_system
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_our_former_prestige
+	}
+	relative_position_id = generic_eu_our_former_prestige
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_the_past_is_here
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_restore_our_glory
+	}
+	relative_position_id = generic_eu_restore_our_glory
+	x = 1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_our_ancestors_solutions
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_the_past_is_here
+	}
+	relative_position_id = generic_eu_the_past_is_here
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_education_about_our_system
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_crown_a_king
+	focus = generic_eu_turn_to_our_past
+	focus = generic_eu_restore_our_glory
+	}
+	relative_position_id = generic_eu_turn_to_our_past
+	x = 0
+	y = 2
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_propaganda_office
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_education_about_our_system
+	}
+	relative_position_id = generic_eu_education_about_our_system
+	x = -1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+	focus = {
+	id = generic_eu_despotic_contract
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_education_about_our_system
+	}
+	relative_position_id = generic_eu_education_about_our_system
+	x = 1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_allegiance_to_the_ruler
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_propaganda_office
+	}
+	prerequisite = {
+	focus = generic_eu_despotic_contract
+	}
+	relative_position_id = generic_eu_education_about_our_system
+	x = 0
+	y = 2
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_antiquarian_nationalism
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_our_ancestors_solutions
+	}
+	prerequisite = {
+	focus = generic_eu_emulate_the_system
+	}
+	prerequisite = {
+	focus = generic_eu_allegiance_to_the_ruler
+	}
+	relative_position_id = generic_eu_emulate_the_system
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+	focus = {
+	id = generic_eu_armed_defense
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_antiquarian_nationalism
+	}
+	relative_position_id = generic_eu_antiquarian_nationalism
+	x = -2
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+focus = {
+	id = generic_eu_a_professional_army
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_armed_defense
+	}
+	relative_position_id = generic_eu_armed_defense
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+focus = {
+	id = generic_eu_industry_fit_for_a_titan
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_antiquarian_nationalism
+	}
+	relative_position_id = generic_eu_antiquarian_nationalism
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_rail_expansion_nat
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_industry_fit_for_a_titan
+	}
+	relative_position_id = generic_eu_industry_fit_for_a_titan
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_a_new_version_of_our_old_self
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_antiquarian_nationalism
+	}
+	relative_position_id = generic_eu_antiquarian_nationalism
+	x = 2
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_our_grandparents_would_be_proud
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_a_new_version_of_our_old_self
+	}
+	relative_position_id = generic_eu_a_new_version_of_our_old_self
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+### Middle of Nationalist Path ###
+
+	focus = {
+	id = generic_eu_our_people_in_the_world
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_nationalist
+	}
+	relative_position_id = generic_eu_nationalist
+	x = 0
+	y = 10
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_search_for_allies
+	icon = goal_unknown
+	mutually_exclusive = {
+        focus = generic_eu_our_people_stand_supreme
+    }
+	prerequisite = {
+	focus = generic_eu_our_people_in_the_world
+	}
+	relative_position_id = generic_eu_our_people_in_the_world
+	x = -6
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_allign_with_rome
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_search_for_allies
+	}
+	mutually_exclusive = {
+        focus = generic_eu_allign_with_germany
+    }
+	relative_position_id = generic_eu_search_for_allies
+	x = -2
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_defensive_pact
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_allign_with_rome
+	}
+	relative_position_id = generic_eu_allign_with_rome
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
 
 	
+	focus = {
+	id = generic_eu_roman_dominion
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_defensive_pact
+	}
+	relative_position_id = generic_eu_defensive_pact
+	x = -1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_roman_investments
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_roman_dominion
+	}
+	relative_position_id = generic_eu_roman_dominion
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_equal_status
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_defensive_pact
+	}
+	relative_position_id = generic_eu_defensive_pact
+	x = 1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+	focus = {
+	id = generic_eu_closer_ties
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_equal_status
+	}
+	relative_position_id = generic_eu_equal_status
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+focus = {
+	id = generic_eu_our_people_are_one
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_roman_investments
+	focus= generic_eu_closer_ties
+	}
+	relative_position_id = generic_eu_defensive_pact
+	x = 0
+	y = 3
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_allign_with_germany
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_search_for_allies
+	}
+	mutually_exclusive = {
+        focus = generic_eu_allign_with_rome
+    }
+	relative_position_id = generic_eu_search_for_allies
+	x = 2
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_eintracht_membership
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_allign_with_germany
+	}
+	relative_position_id = generic_eu_allign_with_germany
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+	focus = {
+	id = generic_eu_new_colonialism
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_eintracht_membership
+	}
+	relative_position_id = generic_eu_eintracht_membership
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_our_people_stand_supreme
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_our_people_in_the_world
+	}
+	mutually_exclusive = {
+        focus = generic_eu_search_for_allies
+    }
+	relative_position_id = generic_eu_our_people_in_the_world
+	x = 6
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_assist_conquered_lands
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_our_people_stand_supreme
+	}
+	relative_position_id = generic_eu_our_people_stand_supreme
+	x = -2
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+	focus = {
+	id = generic_eu_they_will_help_themselves
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_our_people_stand_supreme
+	}
+	mutually_exclusive = {
+        focus = generic_eu_assist_conquered_lands
+    }
+	relative_position_id = generic_eu_our_people_stand_supreme
+	x = 2
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+focus = {
+	id = generic_eu_trans_empire_railway
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_assist_conquered_lands
+	}
+	relative_position_id = generic_eu_assist_conquered_lands
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+		id = generic_eu_annexation_nat
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_they_will_help_themselves
+		focus = generic_eu_assist_conquered_lands
+		}
+		relative_position_id = generic_eu_our_people_stand_supreme
+		x = 0
+		y = 2
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = generic_eu_expansion_momentum
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_annexation_nat
+		}
+		relative_position_id = generic_eu_annexation_nat
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = generic_eu_war_bonds_nat
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_expansion_momentum
+		}
+		relative_position_id = generic_eu_expansion_momentum
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = generic_eu_war_economy_nat
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_expansion_momentum
+		}
+		relative_position_id = generic_eu_expansion_momentum
+		x = 2
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = generic_eu_war_propaganda
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_expansion_momentum
+		}
+		relative_position_id = generic_eu_expansion_momentum
+		x = 4
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = generic_eu_establish_a_foreign_legion
+		icon = goal_unknown
+		prerequisite = {
+		focus =  generic_eu_our_people_in_the_world
+		}
+		relative_position_id = generic_eu_our_people_in_the_world
+		x = 0
+		y = 2
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+	id = generic_eu_divisions_abroad
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_establish_a_foreign_legion
+	}
+	relative_position_id = generic_eu_establish_a_foreign_legion
+	x = -1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_prevent_defections
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_divisions_abroad
+	}
+	relative_position_id = generic_eu_divisions_abroad
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_keep_our_people_safe
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_establish_a_foreign_legion
+	}
+	relative_position_id = generic_eu_establish_a_foreign_legion
+	x = 1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_safeguard_our_technology
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_keep_our_people_safe
+	}
+	relative_position_id = generic_eu_keep_our_people_safe
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
 
 	
 

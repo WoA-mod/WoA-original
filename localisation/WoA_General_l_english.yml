@@ -917,6 +917,182 @@ generic_eu_expeditions:0 "Expeditionary Forces"
 
 generic_eu_dem_intervention:0 "Intervene on Behalf of Democracy"
 
+### Europe Politics - Nationalist Tree ###
+
+generic_eu_nationalist:0 "Nationalism"
+
+generic_eu_turn_to_our_people:0 "Turn to Our People"
+
+generic_eu_peoples_choice:0 "The People's Choice"
+
+generic_eu_allow_elections:0 "Allow Elections"
+
+generic_eu_rep_of_the_people:0 "Representative of the People"
+
+generic_eu_reintroduce_capitalism:0 "Reintroduce Capitalism"
+
+generic_eu_agrarian_reform_nat:0 "Agrarian Reform"
+
+generic_eu_elected_dictator:0 "An Elected Dictator"
+
+generic_eu_wealth_redistribution:0 "Wealth Redistribution"
+
+generic_eu_appeal_to_the_masses:0 "Appeal to the Masses"
+
+generic_eu_national_railways_nat:0 "National Railways"
+
+generic_eu_services_for_all_nat:0 "Services for All"
+
+generic_eu_maximise_efficiency_nat:0 "Maximize Efficiency"
+
+generic_eu_curtail_corruption:0 "Curtail Corruption"
+
+generic_eu_popular_mandate:0 "Popular Mandate"
+
+generic_eu_peoples_leader_forever:0 "People's Leader, Forever"
+
+generic_eu_interpreting_the_will_of_the_people:0 "Interpreting the Will of the People"
+
+generic_eu_nationalize_industry_nat:0 "Nationalize Industry"
+
+generic_eu_abolish_private_farmland:0 "Abolish Private Farmland"
+
+generic_eu_faith_in_our_president:0 "Faith in our President"
+
+generic_eu_concentrate_power:0 "Concentrate Power"
+
+generic_eu_crack_down_on_opposition:0 "Crack Down on Opposition"
+
+generic_eu_allegiance_to_the_state:0 "Allegiance to the State"
+
+generic_eu_benevolent_dictator:0 "A Benevolent Dictator"
+
+generic_eu_nationalize_the_economy:0 "Nationalize the Economy"
+
+generic_eu_government_in_everyday_life:0 "The Government in Everyday Life"
+
+generic_eu_railways_for_our_troops:0 "Railways for our Troops"
+
+generic_eu_protect_our_people:0 "Protect our People"
+
+generic_eu_assert_dominance:0 "Assert our Dominance"
+
+generic_eu_expand_our_army:0 "Expand our Army"
+
+generic_eu_turn_to_our_past:0 "Turn to our Past"
+
+generic_eu_crown_a_king:0 "Crown a King"
+
+generic_eu_one_of_our_own:0 "One of our Own"
+
+generic_eu_monarchial_power:0 "Monarchial Power"
+
+generic_eu_a_foreigner:0 "A Foreigner"
+
+generic_eu_dynastic_ties:0 "Dynastic Ties"
+
+generic_eu_a_modern_king:0 "A Modern King"
+
+generic_eu_an_economy_fit_for_haruhi:0 "An Economy Fit for a King"
+
+generic_eu_railway_for_our_patriarch:0 "A Railway for our Patriarch"
+
+generic_eu_crush_rival_claimants:0 "Crush Rival Claimants"
+
+generic_eu_assert_hegemony:0 "Assert Hegemony"
+
+generic_eu_our_prestige_as_a_kingdom:0 "Our Prestige as a Kingdom"
+
+generic_eu_international_presence:0 "International Presense"
+
+generic_eu_restore_our_glory:0 "Restore our Glory"
+
+generic_eu_our_former_prestige:0 "Our Former Prestige"
+
+generic_eu_emulate_the_system:0 "Emulate the System"
+
+generic_eu_the_past_is_here:0 "The Past is Here"
+
+generic_eu_our_ancestors_solutions:0 "Our Ancestor's Solutions"
+
+generic_eu_education_about_our_system:0 "Education about our System"
+
+generic_eu_propaganda_office:0 "Propaganda Office"
+
+generic_eu_despotic_contract:0 "Despotic Contract"
+
+generic_eu_allegiance_to_the_ruler:0 "Allegiance to the Ruler"
+
+generic_eu_antiquarian_nationalism:0 "Antiquarian Nationalism"
+
+generic_eu_armed_defense:0 "Armed Defense"
+
+generic_eu_a_professional_army:0 "Professional Army"
+
+generic_eu_industry_fit_for_a_titan:0 "Industry fit for a Titan"
+
+generic_eu_rail_expansion_nat:0 "Rail Expansion"
+
+generic_eu_a_new_version_of_our_old_self:0 "A New Version of our Old Self"
+
+generic_eu_our_grandparents_would_be_proud:0 "Our Grandparents Would be Proud"
+
+generic_eu_our_people_in_the_world:0 "Our People in the World"
+
+generic_eu_search_for_allies:0 "Search for Allies"
+
+generic_eu_allign_with_rome:0 "Allign with Rome"
+
+generic_eu_defensive_pact:0 "Defensive Pact"
+
+generic_eu_roman_dominion:0 "Roman Dominion"
+
+generic_eu_roman_investments:0 "Roman Investments"
+
+generic_eu_equal_status:0 "Equal Status"
+
+generic_eu_closer_ties:0 "Closer Ties"
+
+generic_eu_our_people_are_one:0 "Our People are One"
+
+generic_eu_allign_with_germany:0 "Allign with Germany"
+
+generic_eu_eintracht_membership:0 "Eintracht Membership"
+
+generic_eu_new_colonialism:0 "New Colonialism"
+
+generic_eu_our_people_stand_supreme:0 "Our People Stand Supreme"
+
+generic_eu_assist_conquered_lands:0 "Assist Conquered Lands"
+
+generic_eu_they_will_help_themselves:0 "They will help themselves"
+
+generic_eu_trans_empire_railway:0 "Trans-Imperical Railway"
+
+generic_eu_annexation_nat:0 "Annexation"
+
+generic_eu_expansion_momentum:0 "Expansion Momentum"
+
+generic_eu_war_bonds_nat:0 "War Bonds"
+
+generic_eu_war_economy_nat:0 "War Economy"
+
+generic_eu_war_propaganda:0 "War Propaganda"
+
+generic_eu_establish_a_foreign_legion:0 "Establish a Foreign Legion"
+
+generic_eu_divisions_abroad:0 "Divisions Abroad"
+
+generic_eu_prevent_defections:0 "Prevent Defections"
+
+generic_eu_keep_our_people_safe:0 "Keep our People Safe"
+
+generic_eu_safeguard_our_technology:0 "Safeguard our Technology"
+
+
+
+
+
 
 
 ### Generic Ideas ###
