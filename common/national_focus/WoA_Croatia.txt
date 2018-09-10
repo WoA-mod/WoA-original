@@ -16,8 +16,8 @@ focus_tree = {
 		id = CRO_elections_1936
 		icon = GFX_goal_support_democracy
 		x = 13
-		#y = 0
-		y = 40
+		y = 0
+		#y = 40
 		cost = 1
 		ai_will_do = {
 			factor = 1
@@ -1098,8 +1098,8 @@ focus_tree = {
 		available = {
 			always = no
 		}
-		#x = 30
-		x = 8
+		x = 35
+		#x = 8
 		y = 0
 		cost = 5
 	}
@@ -1562,7 +1562,7 @@ focus_tree = {
 	#Add national spirit "Military focus" which grants military factory construction speed +25%,  military output +10% as long as the loan stands
 	focus = {
 		id = CRO_military_sector
-		icon = PLACEHOLDER
+		icon = GFX_goal_generic_construct_mil_factory
 		available = {
 			always = no
 		}
@@ -1596,7 +1596,7 @@ focus_tree = {
 	#Add national spirit "Modest industrial model" which grants +10% civilian factory construction speed as long as the loan stands
 	focus = {
 		id = CRO_modest_industrial_model
-		icon = PLACEHOLDER
+		icon = GFX_goal_generic_construct_civ_factory
 		available = {
 			always = no
 		}
@@ -1664,8 +1664,10 @@ focus_tree = {
 		available = {
 			always = no
 		}
-		x = 6
-		y = 0
+		relative_position_id = CRO_elections_1936
+		x = -11
+		#y = 0
+		y = 7
 		cost = 5
 	}
 	#WE SHOULD HAVE STUCK TOGETHER
@@ -1700,7 +1702,7 @@ focus_tree = {
 	#Add 2 forts on Danubian border, add 
 	focus = {
 		id = CRO_fortify_the_border
-		icon = PLACEHOLDER
+		icon = GFX_goal_generic_construct_military
 		available = {
 			always = no
 		}
@@ -1770,7 +1772,7 @@ focus_tree = {
 		cost = 5
 	}
 	#CREATE THE TRIPLE MONARCHY
-	#Core all the Danubian provinces, gain cosmetic tag AHC
+	#Core all the Danubian provinces, tagswitch to AHC. AHC annexes and cores all of Croatia's cores.
 	focus = {
 		id = CRO_triple_monarchy
 		icon = PLACEHOLDER
@@ -1783,5 +1785,23 @@ focus_tree = {
 		y = 1
 		cost = 5
 	}
-	
+######################################################################
+#	Whispers of Antiquity - AntNat Path
+#	AKA "What if I don't purge? It's obviously the smartest choice!"
+#	"No debuffs, right?"
+######################################################################
+	#IDK YET
+	#PLACEHOLDER
+	focus = {
+		id = CRO_tmp
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_drava_incident }
+		relative_position_id = CRO_drava_incident
+		x = 0
+		y = 1
+		cost = 5
+	}
 }
