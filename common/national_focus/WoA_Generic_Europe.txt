@@ -26,7 +26,7 @@ focus_tree = {
 focus = {
 	id = generic_eu_politics
 	icon = generic_pp_unity_bonus
-	x = 18
+	x = 28
 	y = 6
 	cost = 6
 	completion_reward = {
@@ -457,7 +457,7 @@ focus = {
 
 focus = {
 	id = generic_eu_choose_eintracht
-	icon = GFX_goal_germany
+	icon = GFX_goal_generic_eintracht_alliance
 	prerequisite = { focus = generic_eu_choose_our_allies }
 	relative_position_id = generic_eu_choose_our_allies
 	x = -1
@@ -481,7 +481,7 @@ focus = {
 
 focus = {
 	id = generic_eu_go_with_alliance
-	icon = GFX_focus_generic_support_the_left_right
+	icon = GFX_goal_generic_russo_american_alliance
 	prerequisite = { focus = generic_eu_choose_our_allies }
 	relative_position_id = generic_eu_choose_our_allies
 	x = 1
@@ -542,119 +542,128 @@ focus = {
 #Communism Path
 
 focus = {
-    	id = generic_eu_worker_struggle
-    	icon = goal_unknown
-    	prerequisite = {
-    	focus =
-    	}
-    	x = 9
-    	y = 6
-    	cost = 6
-    	ai_will_do = {
-        	factor = 100
-    	}
-    	completion_reward = {
-    	}
-    }
+		id = generic_eu_worker_struggle
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_politics
+		}
+		relative_position_id = generic_eu_politics
+		x = -20
+		y = 3
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
 
-
-    focus = {
-    	id = generic_eu_nationalist_economy
-    	icon = goal_unknown
-    	prerequisite = {
-    	focus = generic_eu_worker_struggle
-    	}
-    	x = 4
-    	y = 7
-    	cost = 6
-    	ai_will_do = {
-        	factor = 100
-    	}
-    	completion_reward = {
-    	}
-    }
-
-
-    focus = {
-    	id = generic_eu_socialist_education
-    	icon = goal_unknown
-    	prerequisite = {
-    	focus = generic_eu_nationalist_economy
-    	}
-    	x = 5
-    	y = 9
-    	cost = 6
-    	ai_will_do = {
-        	factor = 100
-    	}
-    	completion_reward = {
-    	}
-    }
-    
-	focus = {
-    	id = generic_eu_secret_police
-    	icon = goal_unknown
-    	prerequisite = {
-    	focus =  generic_eu_socialist_education
-    	}
-    	x = 5
-    	y =  10
-    	cost = 6
-    	ai_will_do = {
-        	factor = 100
-    	}
-    	completion_reward = {
-    	}
-    }
 
 	focus = {
-    	id = generic_eu_crush_the_unions
-    	icon = goal_unknown
-    	prerequisite = {
-    	focus =  generic_eu_nationalist_economy
-    	}
-    	x = 3
-    	y =  9
-    	cost = 6
-    	ai_will_do = {
-        	factor = 100
-    	}
-    	completion_reward = {
-    	}
-    }
+		id = generic_eu_nationalist_economy
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_worker_struggle
+		}
+		relative_position_id = generic_eu_worker_struggle
+		x = -6
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
 
 	focus = {
-    	id = generic_eu_a_single_union
-    	icon = goal_unknown
-    	prerequisite = {
-    	focus =  generic_eu_crush_the_unions
-    	}
-    	x = 3
-    	y =  10
-    	cost = 6
-    	ai_will_do = {
-        	factor = 100
-    	}
-    	completion_reward = {
-    	}
-    }
+		id = generic_eu_socialist_education
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_nationalist_economy
+		}
+		relative_position_id = generic_eu_nationalist_economy
+		x = 1
+		y = 2
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
 
 	focus = {
-    	id = generic_eu_national_propaganda
-    	icon = goal_unknown
-    	prerequisite = {
-    	focus =  generic_eu_a_single_union
-	focus = generic_eu_secret_police
-    	}
-    	x = 4
-    	y =  11
-    	cost = 6
-    	ai_will_do = {
-        	factor = 100
-    	}
-    	completion_reward = {
-    	}
-    }
+		id = generic_eu_secret_police
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_socialist_education
+		}
+		relative_position_id = generic_eu_socialist_education
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = generic_eu_crush_the_unions
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_nationalist_economy
+		}
+		relative_position_id = generic_eu_nationalist_economy
+		x = -1
+		y = 2
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = generic_eu_a_single_union
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_crush_the_unions
+		}
+		relative_position_id = generic_eu_crush_the_unions
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = generic_eu_national_propaganda
+		icon = goal_unknown
+		prerequisite = {
+		focus =  generic_eu_a_single_union
+		}
+		prerequisite = {
+		focus = generic_eu_secret_police
+		}
+		relative_position_id = generic_eu_secret_police
+		x = -1
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
 
 	focus = {
 	id = generic_eu_mechanization
@@ -665,8 +674,9 @@ focus = {
 	mutually_exculsive = {
 	focus = generic_eu_worker_no_help
 	}
-	x = 2
-	y = 8
+	relative_position_id = generic_eu_nationalist_economy
+	x = -4
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -681,8 +691,9 @@ focus = {
 	prerequisite = {
 	focus = generic_eu_mechanization
 	}
-	x = 1
-	y = 9
+	relative_position_id = generic_eu_mechanization
+	x = -1
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -695,10 +706,11 @@ focus = {
 	id = generic_eu_farm_machinery
 	icon = goal_unknown
 	prerequisite = {
-	focus = generic_eu_mechanization
+	focus = generic_eu_arbitary_agricultural_divisions
 	}
-	x = 1
-	y = 10
+	relative_position_id = generic_eu_arbitary_agricultural_divisions
+	x = 0
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -713,8 +725,9 @@ focus = {
 	prerequisite = {
 	focus = generic_eu_mechanization
 	}
-	x = 3
-	y = 9
+	relative_position_id = generic_eu_mechanization
+	x = 1
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -727,10 +740,11 @@ focus = {
 	id = generic_eu_construction_machinery
 	icon = goal_unknown
 	prerequisite = {
-	focus = generic_eu_mechanization
+	focus = generic_eu_automate_factories
 	}
-	x = 3
-	y = 10
+	relative_position_id = generic_eu_automate_factories
+	x = 0
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -740,14 +754,17 @@ focus = {
 }
 
 	focus = {
-	id = generic_eu_obiliteration_of_the_laborer
+	id = generic_eu_obliteration_of_the_laborer
 	icon = goal_unknown
 	prerequisite = {
-	focus = generic_eu_construction_machinery
 	focus = generic_eu_farm_machinery
 	}
-	x = 2
-	y = 11
+	prerequisite = {
+	focus = generic_eu_construction_machinery
+	}
+	relative_position_id = generic_eu_construction_machinery
+	x = -1
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -762,8 +779,9 @@ focus = {
 	prerequisite = {
 	focus =  generic_eu_nationalist_economy
 	}
-	x = 7
-	y = 8
+	relative_position_id = generic_eu_nationalist_economy
+	x = 4
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -778,8 +796,9 @@ focus = {
 	prerequisite = {
 	focus =  generic_eu_worker_no_help
 	}
-	x = 6
-	y = 9
+	relative_position_id = generic_eu_worker_no_help
+	x = -1
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -794,8 +813,9 @@ focus = {
 	prerequisite = {
 	focus =  generic_eu_worker_empower
 	}
-	x = 6
-	y = 10
+	relative_position_id = generic_eu_worker_empower
+	x = 0
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -805,13 +825,14 @@ focus = {
 }
 
 	focus = {
-	id = generic_eu_agrian_patriotism
+	id = generic_eu_agrarian_patriotism
 	icon = goal_unknown
 	prerequisite = {
 	focus =  generic_eu_worker_no_help
 	}
-	x = 8
-	y = 9
+	relative_position_id = generic_eu_worker_no_help
+	x = 1
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -824,10 +845,11 @@ focus = {
 	id = generic_eu_national_farms
 	icon = goal_unknown
 	prerequisite = {
-	focus =  generic_eu_agrian_patriotism
+	focus = generic_eu_agrarian_patriotism
 	}
-	x = 8
-	y = 10
+	relative_position_id = generic_eu_agrarian_patriotism
+	x = 0
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -840,11 +862,14 @@ focus = {
 	id = generic_eu_one_laborer_one_nation
 	icon = goal_unknown
 	prerequisite = {
-	focus = generic_eu_national_farms
-	focus = generic_eu_worker_empower
+	focus = generic_eu_expand_factory
 	}
-	x = 7
-	y = 11
+	prerequisite = {
+	focus = generic_eu_national_farms
+	}
+	relative_position_id = generic_eu_expand_factory
+	x = 1
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -857,11 +882,14 @@ focus = {
 	id = generic_eu_our_great_utopia
 	icon = goal_unknown
 	prerequisite = {
-	focus = generic_eu_obiliteration_of_the_laborer
 	focus = generic_eu_national_propaganda
 	}
-	x = 2
-	y = 12
+	prerequisite = {
+	focus = generic_eu_obliteration_of_the_laborer
+	}
+	relative_position_id = generic_eu_national_propaganda
+	x = -2
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -876,8 +904,9 @@ focus = {
 	prerequisite = {
 	focus = generic_eu_our_great_utopia
 	}
-	x = 1
-	y = 13
+	relative_position_id = generic_eu_our_great_utopia
+	x = -3
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -893,8 +922,9 @@ focus = {
 	prerequisite = {
 	focus = generic_eu_expand_goods_and_facilities
 	}
-	x = 1
-	y = 14
+	relative_position_id = generic_eu_expand_goods_and_facilities
+	x = 0
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -907,10 +937,11 @@ focus = {
 	id = generic_eu_a_higher_standard_of_living
 	icon = goal_unknown
 	prerequisite = {
-	focus = generic_eu_expand_goods_and_facilities
+	focus = generic_eu_our_great_utopia
 	}
-	x = 2
-	y = 13
+	relative_position_id = generic_eu_our_great_utopia
+	x = -1
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -925,24 +956,9 @@ focus = {
 	prerequisite = {
 	focus = generic_eu_a_higher_standard_of_living
 	}
-	x = 2
-	y = 14
-	cost = 6
-	ai_will_do = {
-	factor = 100
-	}
-	completion_reward = {
-	}
-}
-
-	focus = {
-	id = generic_eu_attract_immigrants
-	icon = goal_unknown
-	prerequisite = {
-	focus = generic_eu_a_higher_standard_of_living
-	}
-	x = 2
-	y = 14
+	relative_position_id = generic_eu_a_higher_standard_of_living
+	x = 0
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -958,8 +974,9 @@ focus = {
 	prerequisite = {
 	focus = generic_eu_our_great_utopia
 	}
-	x = 3
-	y = 13
+	relative_position_id = generic_eu_our_great_utopia
+	x = 1
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -975,8 +992,46 @@ focus = {
 	prerequisite = {
 	focus = generic_eu_civilian_guard
 	}
+	relative_position_id = generic_eu_civilian_guard
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_our_struggle_as_workers
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_national_propaganda
+	}
+	prerequisite = {
+	focus = generic_eu_one_laborer_one_nation
+	}
+	relative_position_id = generic_eu_national_propaganda
+	x = 2
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_troop_infrastructure
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_our_struggle_as_workers
+	}
+	relative_position_id = generic_eu_our_struggle_as_workers
 	x = 3
-	y = 14
+	y = 1
 	cost = 6
 	ai_will_do = {
 	factor = 100
@@ -986,9 +1041,666 @@ focus = {
 }
 
 
+	focus = {
+	id = generic_eu_red_fortress
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_troop_infrastructure
+	}
+	relative_position_id = generic_eu_troop_infrastructure
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
 
+focus = {
+	id = generic_eu_expand_arms_production
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_our_struggle_as_workers
+	}
+	relative_position_id = generic_eu_our_struggle_as_workers
+	x = 1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_every_worker_a_fighter
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_expand_arms_production
+	}
+	relative_position_id = generic_eu_expand_arms_production
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+	focus = {
+	id = generic_eu_workers_militias
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_our_struggle_as_workers
+	}
+	relative_position_id = generic_eu_our_struggle_as_workers
+	x = -1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+focus = {
+	id = generic_eu_socialist_army
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_workers_militias
+	}
+	relative_position_id = generic_eu_workers_militias
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
 
 	
+#other side
+
+	focus = {
+		id = generic_eu_people_know_best
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_worker_struggle
+		}
+		relative_position_id = generic_eu_worker_struggle
+		x = 6
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = generic_eu_integrate_unions
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_people_know_best
+		}
+		relative_position_id = generic_eu_people_know_best
+		x = -1
+		y = 2
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = generic_eu_unions_in_government
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_integrate_unions
+		}
+		relative_position_id = generic_eu_integrate_unions
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = generic_eu_provide_the_seed
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_people_know_best
+		}
+		relative_position_id = generic_eu_people_know_best
+		x = 1
+		y = 2
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = generic_eu_improve_schools
+		icon = goal_unknown
+		prerequisite = {
+		focus = generic_eu_provide_the_seed
+		}
+		relative_position_id = generic_eu_provide_the_seed
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = generic_eu_stability_achieved
+		icon = goal_unknown
+		prerequisite = {
+		focus =  generic_eu_improve_schools
+		}
+		prerequisite = {
+		focus = generic_eu_unions_in_government
+		}
+		relative_position_id = generic_eu_unions_in_government
+		x = 1
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+	id = generic_eu_further_individual_freedoms
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_people_know_best
+	}
+	mutually_exculsive = {
+	focus = generic_eu_local_commune_authority
+	}
+	relative_position_id = generic_eu_people_know_best
+	x = -4
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_guarantee_civil_freedoms
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_further_individual_freedoms
+	}
+	relative_position_id = generic_eu_further_individual_freedoms
+	x = 1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_merit_based_assignments
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_guarantee_civil_freedoms
+	}
+	relative_position_id = generic_eu_guarantee_civil_freedoms
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_regulate_industry
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_further_individual_freedoms
+	}
+	relative_position_id = generic_eu_further_individual_freedoms
+	x = -1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_basic_income
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_regulate_industry
+	}
+	relative_position_id = generic_eu_regulate_industry
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = the_chains_are_broken
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_merit_based_assignments
+	}
+	prerequisite = {
+	focus = generic_eu_basic_income
+	}
+	relative_position_id = generic_eu_basic_income
+	x = 1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_local_commune_authority
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_people_know_best
+	}
+	relative_position_id = generic_eu_people_know_best
+	x = 4
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_agrarian_communes
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_local_commune_authority
+	}
+	relative_position_id = generic_eu_local_commune_authority
+	x = 1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_maximise_efficiency
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_agrarian_communes
+	}
+	relative_position_id = generic_eu_agrarian_communes
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_factory_management
+	icon = goal_unknown
+	prerequisite = {
+	focus =  generic_eu_local_commune_authority
+	}
+	relative_position_id = generic_eu_local_commune_authority
+	x = -1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_eliminate_squabbles
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_factory_management
+	}
+	relative_position_id = generic_eu_factory_management
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_autonomous_regions
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_maximise_efficiency
+	}
+	prerequisite = {
+	focus = generic_eu_eliminate_squabbles
+	}
+	relative_position_id = generic_eu_maximise_efficiency
+	x = -1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_free_elections
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_stability_achieved
+	}
+	prerequisite = {
+	focus = the_chains_are_broken
+	}
+	relative_position_id = generic_eu_stability_achieved
+	x = -2
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_market-based_decisions
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_free_elections
+	}
+	relative_position_id = generic_eu_free_elections
+	x = 3
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+	focus = {
+	id = generic_eu_moderate_capitalism
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_market-based_decisions
+	}
+	relative_position_id = generic_eu_market-based_decisions
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_civilian_subsidies
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_free_elections
+	}
+	relative_position_id = generic_eu_free_elections
+	x = 1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_arms_contracts
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_civilian_subsidies
+	}
+	relative_position_id = generic_eu_civilian_subsidies
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+	focus = {
+	id = generic_eu_class_mobility_com
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_free_elections
+	}
+	relative_position_id = generic_eu_free_elections
+	x = -1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+focus = {
+	id = generic_eu_our_people_equal
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_class_mobility_com
+	}
+	relative_position_id = generic_eu_class_mobility_com
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_council_power
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_stability_achieved
+	}
+	prerequisite = {
+	focus = generic_eu_autonomous_regions
+	}
+	relative_position_id = generic_eu_stability_achieved
+	x = 2
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_interregion_infrastructure
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_council_power
+	}
+	relative_position_id = generic_eu_council_power
+	x = -3
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+	focus = {
+	id = generic_eu_council_railroads
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_interregion_infrastructure
+	}
+	relative_position_id = generic_eu_interregion_infrastructure
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = generic_eu_further_autonomy
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_council_power
+	}
+	relative_position_id = generic_eu_council_power
+	x = -1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+	focus = {
+	id = generic_eu_united_in_difference
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_further_autonomy
+	}
+	relative_position_id = generic_eu_further_autonomy
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+	focus = {
+	id = generic_eu_army_reform
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_council_power
+	}
+	relative_position_id = generic_eu_council_power
+	x = 1
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+focus = {
+	id = generic_eu_local_militias
+	icon = goal_unknown
+	prerequisite = {
+	focus = generic_eu_army_reform
+	}
+	relative_position_id = generic_eu_army_reform
+	x = 0
+	y = 1
+	cost = 6
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
 
 
 	
