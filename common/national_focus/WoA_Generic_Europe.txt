@@ -548,8 +548,8 @@ focus = {
 		focus = generic_eu_politics
 		}
 		relative_position_id = generic_eu_politics
-		x = -30
-		y = 3
+		x = -27
+		y = 2
 		cost = 6
 		ai_will_do = {
 		factor = 100
@@ -566,7 +566,7 @@ focus = {
 		focus = generic_eu_worker_struggle
 		}
 		relative_position_id = generic_eu_worker_struggle
-		x = -6
+		x = -10
 		y = 1
 		cost = 6
 		ai_will_do = {
@@ -675,7 +675,7 @@ focus = {
 	focus = generic_eu_worker_no_help
 	}
 	relative_position_id = generic_eu_nationalist_economy
-	x = -4
+	x = -5
 	y = 1
 	cost = 6
 	ai_will_do = {
@@ -780,7 +780,7 @@ focus = {
 	focus =  generic_eu_nationalist_economy
 	}
 	relative_position_id = generic_eu_nationalist_economy
-	x = 4
+	x = 5
 	y = 1
 	cost = 6
 	ai_will_do = {
@@ -1138,7 +1138,7 @@ focus = {
 		focus = generic_eu_worker_struggle
 		}
 		relative_position_id = generic_eu_worker_struggle
-		x = 6
+		x = 10
 		y = 1
 		cost = 6
 		ai_will_do = {
@@ -1247,7 +1247,7 @@ focus = {
 	focus = generic_eu_local_commune_authority
 	}
 	relative_position_id = generic_eu_people_know_best
-	x = -4
+	x = -5
 	y = 1
 	cost = 6
 	ai_will_do = {
@@ -1352,7 +1352,7 @@ focus = {
 	focus =  generic_eu_people_know_best
 	}
 	relative_position_id = generic_eu_people_know_best
-	x = 4
+	x = 5
 	y = 1
 	cost = 6
 	ai_will_do = {
@@ -1706,11 +1706,11 @@ focus = {
 		id = generic_eu_nationalist
 		icon = goal_unknown
 		prerequisite = {
-		focus = generic_eu_democracy
+		focus = generic_eu_politics
 		}
-		relative_position_id = generic_eu_democracy
-		x = 35
-		y = 1
+		relative_position_id = generic_eu_politics
+		x = 27
+		y = 2
 		cost = 6
 		ai_will_do = {
 		factor = 100
@@ -2123,7 +2123,7 @@ focus = {
 	focus = generic_eu_allegiance_to_the_state
 	}
 	relative_position_id = generic_eu_interpreting_the_will_of_the_people
-	x = 0
+	x = -2
 	y = 1
 	cost = 6
 	ai_will_do = {
@@ -3003,8 +3003,11 @@ focus = {
 	prerequisite = {
 	focus = generic_eu_our_people_stand_supreme
 	}
+	mutually_exclusive = {
+        focus = generic_eu_they_will_help_themselves
+    }
 	relative_position_id = generic_eu_our_people_stand_supreme
-	x = -2
+	x = -1
 	y = 1
 	cost = 6
 	ai_will_do = {
@@ -3025,25 +3028,7 @@ focus = {
         focus = generic_eu_assist_conquered_lands
     }
 	relative_position_id = generic_eu_our_people_stand_supreme
-	x = 2
-	y = 1
-	cost = 6
-	ai_will_do = {
-	factor = 100
-	}
-	completion_reward = {
-	}
-}
-
-
-focus = {
-	id = generic_eu_trans_empire_railway
-	icon = goal_unknown
-	prerequisite = {
-	focus = generic_eu_assist_conquered_lands
-	}
-	relative_position_id = generic_eu_assist_conquered_lands
-	x = 0
+	x = 1
 	y = 1
 	cost = 6
 	ai_will_do = {
@@ -3054,7 +3039,7 @@ focus = {
 }
 
 	focus = {
-		id = generic_eu_annexation_nat
+		id = generic_eu_expansion_momentum
 		icon = goal_unknown
 		prerequisite = {
 		focus = generic_eu_they_will_help_themselves
@@ -3063,24 +3048,6 @@ focus = {
 		relative_position_id = generic_eu_our_people_stand_supreme
 		x = 0
 		y = 2
-		cost = 6
-		ai_will_do = {
-		factor = 100
-		}
-		completion_reward = {
-		}
-	}
-
-
-	focus = {
-		id = generic_eu_expansion_momentum
-		icon = goal_unknown
-		prerequisite = {
-		focus = generic_eu_annexation_nat
-		}
-		relative_position_id = generic_eu_annexation_nat
-		x = 0
-		y = 1
 		cost = 6
 		ai_will_do = {
 		factor = 100
@@ -3130,7 +3097,7 @@ focus = {
 		focus = generic_eu_expansion_momentum
 		}
 		relative_position_id = generic_eu_expansion_momentum
-		x = 4
+		x = -2
 		y = 1
 		cost = 6
 		ai_will_do = {

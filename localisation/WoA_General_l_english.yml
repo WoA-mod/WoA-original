@@ -923,9 +923,9 @@ generic_eu_nationalist:0 "Nationalism"
 
 generic_eu_turn_to_our_people:0 "Turn to Our People"
 
-generic_eu_peoples_choice:0 "The People's Choice"
+generic_eu_peoples_choice:0 "Recurring Elections"
 
-generic_eu_allow_elections:0 "Allow Elections"
+generic_eu_allow_elections:0 "Athenian Democracy"
 
 generic_eu_rep_of_the_people:0 "Representative of the People"
 
@@ -951,7 +951,7 @@ generic_eu_popular_mandate:0 "Popular Mandate"
 
 generic_eu_peoples_leader_forever:0 "People's Leader, Forever"
 
-generic_eu_interpreting_the_will_of_the_people:0 "Interpreting the Will of the People"
+generic_eu_interpreting_the_will_of_the_people:0 "Interpreting the Popular Will"
 
 generic_eu_nationalize_industry_nat:0 "Nationalize Industry"
 
@@ -1063,15 +1063,13 @@ generic_eu_new_colonialism:0 "New Colonialism"
 
 generic_eu_our_people_stand_supreme:0 "Our People Stand Supreme"
 
-generic_eu_assist_conquered_lands:0 "Assist Conquered Lands"
+generic_eu_assist_conquered_lands:0 "One People"
 
-generic_eu_they_will_help_themselves:0 "They will help themselves"
-
-generic_eu_trans_empire_railway:0 "Trans-Imperical Railway"
+generic_eu_they_will_help_themselves:0 "A Civilizing Force"
 
 generic_eu_annexation_nat:0 "Annexation"
 
-generic_eu_expansion_momentum:0 "Expansion Momentum"
+generic_eu_expansion_momentum:0 "Wartime"
 
 generic_eu_war_bonds_nat:0 "War Bonds"
 
@@ -1085,7 +1083,7 @@ generic_eu_divisions_abroad:0 "Divisions Abroad"
 
 generic_eu_prevent_defections:0 "Prevent Defections"
 
-generic_eu_keep_our_people_safe:0 "Keep our People Safe"
+generic_eu_keep_our_people_safe:0 "Safeguard our People"
 
 generic_eu_safeguard_our_technology:0 "Safeguard our Technology"
 
