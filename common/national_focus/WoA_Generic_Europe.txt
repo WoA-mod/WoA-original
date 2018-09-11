@@ -3192,11 +3192,505 @@ focus = {
 	}
 }
 
+#### Communist Abroad #Done By Haruhi#
 
+focus = {
+		id = generic_eu_workers_abroad
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_worker_struggle
+		}
+		relative_position_id = generic_eu_worker_struggle
+		x = 0
+		y = 10
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
 	
-
-
+	focus = {
+		id = generic_eu_internationalism
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_workers_abroad
+		}
+		mutually_exclusive = { focus = generic_eu_socialism_here }
+		relative_position_id = generic_eu_workers_abroad
+		x = -3
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
 	
+		focus = {
+		id = generic_eu_socialism_here
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_workers_abroad
+		}
+		mutually_exclusive = { focus = generic_eu_internationalism }
+		relative_position_id = generic_eu_workers_abroad
+		x = 3
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+	### Socialism Here Branch 
+	
+		focus = {
+		id = generic_eu_spread_socialism_ourselves
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_socialism_here
+		}
+		relative_position_id = generic_eu_socialism_here
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_eu_war_for_our_system
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_spread_socialism_ourselves
+		}
+		relative_position_id = generic_eu_spread_socialism_ourselves
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+		focus = {
+		id = generic_eu_defensive_expansion
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_socialism_here
+		}
+		relative_position_id = generic_eu_socialism_here
+		x = 2
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = generic_eu_offense_is_the_best_defense
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_defensive_expansion
+		}
+		relative_position_id = generic_eu_defensive_expansion
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_eu_improve_the_army
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_offense_is_the_best_defense
+		}
+		relative_position_id = generic_eu_offense_is_the_best_defense
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_eu_protect_our_system
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_defensive_expansion
+		}
+		relative_position_id = generic_eu_defensive_expansion
+		x = 2
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+				focus = {
+		id = generic_eu_decrypt_technology
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_protect_our_system
+		}
+		relative_position_id = generic_eu_protect_our_system
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+	### Internationalism Branch 
+
+		focus = {
+		id = generic_eu_global_socialism
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_internationalism
+		}
+		mutually_exclusive = { focus = generic_eu_stick_with_what_we_can_handle }
+		relative_position_id = generic_eu_internationalism
+		x = -3
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+		focus = {
+		id = generic_eu_apply_to_join_the_international
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_global_socialism
+		}
+		relative_position_id = generic_eu_global_socialism
+		x = -1
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_eu_fine_tune_our_system
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_apply_to_join_the_international
+		}
+		relative_position_id = generic_eu_apply_to_join_the_international
+		x = -1
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+				focus = {
+		id = generic_eu_work_with_the_international
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_apply_to_join_the_international
+		}
+		relative_position_id = generic_eu_apply_to_join_the_international
+		x = 1
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+				focus = {
+		id = generic_eu_specialist_industry
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_work_with_the_international
+		}
+		relative_position_id = generic_eu_work_with_the_international
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+				focus = {
+		id = generic_eu_destroy_corruption
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_fine_tune_our_system
+		}
+		relative_position_id = generic_eu_fine_tune_our_system
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+					focus = {
+		id = generic_eu_join_the_international
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_destroy_corruption
+		}
+				prerequisite = {
+		focus = generic_eu_specialist_industry
+		}
+		relative_position_id = generic_eu_specialist_industry
+		x = -1
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_eu_stick_with_what_we_can_handle
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_internationalism
+		}
+		mutually_exclusive = { focus = generic_eu_global_socialism }
+		relative_position_id = generic_eu_internationalism
+		x = 3
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+				focus = {
+		id = generic_eu_regional_economic_bloc
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_stick_with_what_we_can_handle
+		}
+		relative_position_id = generic_eu_stick_with_what_we_can_handle
+		x = 1
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+		focus = {
+		id = generic_eu_encourage_regional_socialism
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_regional_economic_bloc
+		}
+		relative_position_id = generic_eu_regional_economic_bloc
+		x = 1
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+		focus = {
+		id = generic_eu_defensive_pact_commie_edition
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_encourage_regional_socialism
+		}
+		relative_position_id = generic_eu_encourage_regional_socialism
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+		focus = {
+		id = generic_eu_develop_member_states
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_regional_economic_bloc
+		}
+		relative_position_id = generic_eu_regional_economic_bloc
+		x = -1
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_eu_inter_regional_railway
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_develop_member_states
+		}
+		relative_position_id = generic_eu_develop_member_states
+		x = 0
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_eu_establish_hegemony
+		icon = GFX_goal_WIP
+		prerequisite = { focus = generic_eu_inter_regional_railway }
+		prerequisite = { focus = generic_eu_defensive_pact_commie_edition }
+		relative_position_id = generic_eu_inter_regional_railway
+		x = 1
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+				focus = {
+		id = generic_eu_crush_opposition
+		icon = GFX_goal_WIP
+		prerequisite = { focus = generic_eu_establish_hegemony }
+		relative_position_id = generic_eu_establish_hegemony
+		x = 2
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+					focus = {
+		id = generic_eu_unite_the_faction
+		icon = GFX_goal_WIP
+		prerequisite = { focus = generic_eu_establish_hegemony }
+		relative_position_id = generic_eu_establish_hegemony
+		x = -2
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+		focus = {
+		id = generic_eu_establish_a_foreign_legion_commie_edition
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_internationalism
+		}
+		relative_position_id = generic_eu_internationalism
+		x = 0
+		y = 2
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_eu_technology_sharing
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_establish_a_foreign_legion_commie_edition
+		}
+		relative_position_id = generic_eu_establish_a_foreign_legion_commie_edition
+		x = -1
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_eu_information_sharing
+		icon = GFX_goal_WIP
+		prerequisite = {
+		focus = generic_eu_establish_a_foreign_legion_commie_edition
+		}
+		relative_position_id = generic_eu_establish_a_foreign_legion_commie_edition
+		x = 1
+		y = 1
+		cost = 6
+		ai_will_do = {
+		factor = 100
+		}
+		completion_reward = {
+		}
+	}
 
 
 	
