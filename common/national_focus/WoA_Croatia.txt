@@ -16,8 +16,8 @@ focus_tree = {
 		id = CRO_elections_1936
 		icon = GFX_goal_support_democracy
 		x = 13
-		y = 0
-		#y = 40
+		#y = 0
+		y = 40
 		cost = 1
 		ai_will_do = {
 			factor = 1
@@ -1790,17 +1790,96 @@ focus_tree = {
 #	AKA "What if I don't purge? It's obviously the smartest choice!"
 #	"No debuffs, right?"
 ######################################################################
-	#IDK YET
-	#PLACEHOLDER
+	#THE MOVEMENT TAKES OVER
 	focus = {
-		id = CRO_tmp
+		id = CRO_illyrian_takeover
 		icon = PLACEHOLDER
 		available = {
 			always = no
 		}
-		prerequisite = { focus = CRO_drava_incident }
-		relative_position_id = CRO_drava_incident
+		x = 6
+		y = 0
+		cost = 5
+	}
+	#OUR LEADERSHIP
+	#Gets the event to choose whether replace Racic with Bartulovic or not.
+	focus = {
+		id = CRO_illyrian_leadership
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_illyrian_takeover }
+		relative_position_id = CRO_illyrian_takeover
 		x = 0
+		y = 1
+		cost = 5
+	}
+	#ROMAN ALLEGIANCE
+	#Italy gets an event about Croatia offering an alliance. They can either:
+	# - "We welcome them as our equals in our nationalistic struggle"
+	#	If this path is chosen, Croatia will become Italy's ally. However, Italy will immediately after get an event to demand Dalmatia.
+	# - "They'll have to recognize Rome's supremacy."
+	#	Forces Croatia to become a puppet of Italy. Croatia gets back an event about accepting or not. If they don't accept, Racic retires and Bartulovic becomes leader. If they accept, they become a puppet, and short after they get an event chain about negotiating the fate of Dalmatia. Three outcomes: only Fiume, Fiume and Southern Dalmatia, all of the coast. The last one is the least likely.
+	# - "Rome has no friends, but rome itself."
+	#	Rome refuses. In Croatia, an event fires about Racic resigning and Bartulovic takes over.
+	focus = {
+		id = CRO_roman_allegiance
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_illyrian_leadership }
+		relative_position_id = CRO_illyrian_leadership
+		x = -1
+		y = 1
+		cost = 1
+	}
+	#SLAVIC IDENTITY
+	#Bartulovic takes over. Gets an event about the new political line of the party. Will be bypassed if Bartulovic takes over in the other way.
+	focus = {
+		id = CRO_slavic_allegiance
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_illyrian_leadership }
+		relative_position_id = CRO_illyrian_leadership
+		x = 1
+		y = 1
+		cost = 1
+	}
+	#RETAKE BOSNIA
+	#Bosnia gets an event about getting annexed by Croatia. Will refuse only with foreign backing, far left government, or nationalist government. Sarkotic becomes available as a general if he is still alive.
+	focus = {
+		id = CRO_retake_bosnia
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_roman_allegiance
+			focus = CRO_slavic_allegiance
+		}
+		relative_position_id = CRO_roman_allegiance
+		x = 1
+		y = 1
+		cost = 5
+	}
+	#RETAKE BOSNIA
+	#Bosnia gets an event about getting annexed by Croatia. Will refuse only with foreign backing, far left government, or nationalist government. Sarkotic becomes available as a general if he is still alive.
+	focus = {
+		id = CRO_retake_bosnia
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_roman_allegiance
+			focus = CRO_slavic_allegiance
+		}
+		relative_position_id = CRO_roman_allegiance
+		x = 1
 		y = 1
 		cost = 5
 	}

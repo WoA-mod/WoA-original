@@ -3,20 +3,21 @@
 # by Fraaz
 #############################
 
-add_namespace = cr_croatia
+add_namespace = croatia
 
-# The Elections of 1936
+# The State of Croatia in 1936
 country_event = {
-	id = cr_croatia.1
-	title = cr_croatia.1.t
-	desc = cr_croatia.1.d
+	id = croatia.1
+	title = croatia.1.t
+	desc = croatia.1.d
 	picture = GFX_report_event_soviet_soldiers
 	
 	is_triggered_only = yes
 	
-	option = { # Party will win
-		name = cr_croatia.1.a
+	option = {
+		name = croatia.1.a
 		CRO = {
 		}
 	}
 }
+#SocCon rally
