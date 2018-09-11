@@ -26,7 +26,7 @@ focus_tree = {
 focus = {
 	id = generic_eu_politics
 	icon = generic_pp_unity_bonus
-	x = 38
+	x = 48
 	y = 6
 	cost = 6
 	completion_reward = {
@@ -579,7 +579,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_socialist_education
-		icon = goal_unknown
+		icon = GFX_focus_generic_socialist_science
 		prerequisite = {
 		focus = generic_eu_nationalist_economy
 		}
@@ -596,7 +596,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_secret_police
-		icon = goal_unknown
+		icon = GFX_generic_spy_political
 		prerequisite = {
 		focus = generic_eu_socialist_education
 		}
@@ -613,7 +613,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_crush_the_unions
-		icon = goal_unknown
+		icon = GFX_goal_generic_attack_allies
 		prerequisite = {
 		focus = generic_eu_nationalist_economy
 		}
@@ -630,7 +630,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_a_single_union
-		icon = goal_unknown
+		icon = GFX_focus_generic_support_the_left_right
 		prerequisite = {
 		focus = generic_eu_crush_the_unions
 		}
@@ -647,7 +647,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_national_propaganda
-		icon = goal_unknown
+		icon = GFX_goal_generic_propaganda
 		prerequisite = {
 		focus =  generic_eu_a_single_union
 		}
@@ -667,7 +667,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_mechanization
-	icon = goal_unknown
+	icon = GFX_goal_generic_production2
 	prerequisite = {
 	focus = generic_eu_nationalist_economy
 	}
@@ -687,7 +687,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_arbitary_agricultural_divisions
-	icon = goal_unknown
+	icon = GFX_goal_generic_forceful_treaty
 	prerequisite = {
 	focus = generic_eu_mechanization
 	}
@@ -704,7 +704,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_farm_machinery
-	icon = goal_unknown
+	icon = GFX_goal_generic_production
 	prerequisite = {
 	focus = generic_eu_arbitary_agricultural_divisions
 	}
@@ -721,7 +721,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_automate_factories
-	icon = goal_unknown
+	icon = GFX_goal_generic_construct_civ_factory
 	prerequisite = {
 	focus = generic_eu_mechanization
 	}
@@ -738,7 +738,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_construction_machinery
-	icon = goal_unknown
+	icon = GFX_goal_generic_construct_infrastructure
 	prerequisite = {
 	focus = generic_eu_automate_factories
 	}
@@ -755,7 +755,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_obliteration_of_the_laborer
-	icon = goal_unknown
+	icon = GFX_goal_generic_soviet_construction
 	prerequisite = {
 	focus = generic_eu_farm_machinery
 	}
@@ -775,7 +775,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_worker_no_help
-	icon = goal_unknown
+	icon = GFX_goal_generic_political_pressure
 	prerequisite = {
 	focus =  generic_eu_nationalist_economy
 	}
@@ -792,7 +792,7 @@ focus = {
 
 focus = {
 	id = generic_eu_worker_empower
-	icon = goal_unknown
+	icon = GFX_goal_generic_demand_territory
 	prerequisite = {
 	focus =  generic_eu_worker_no_help
 	}
@@ -809,7 +809,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_expand_factory
-	icon = goal_unknown
+	icon = GFX_goal_generic_construct_mil_factory
 	prerequisite = {
 	focus =  generic_eu_worker_empower
 	}
@@ -826,7 +826,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_agrarian_patriotism
-	icon = goal_unknown
+	icon = GFX_focus_generic_support_the_left_right
 	prerequisite = {
 	focus =  generic_eu_worker_no_help
 	}
@@ -843,7 +843,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_national_farms
-	icon = goal_unknown
+	icon = GFX_goal_generic_construction2
 	prerequisite = {
 	focus = generic_eu_agrarian_patriotism
 	}
@@ -860,7 +860,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_one_laborer_one_nation
-	icon = goal_unknown
+	icon = GFX_goal_support_communism
 	prerequisite = {
 	focus = generic_eu_expand_factory
 	}
@@ -880,7 +880,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_our_great_utopia
-	icon = goal_unknown
+	icon = GFX_goal_generic_major_alliance
 	prerequisite = {
 	focus = generic_eu_national_propaganda
 	}
@@ -900,7 +900,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_expand_goods_and_facilities
-	icon = goal_unknown
+	icon = GFX_goal_generic_construction
 	prerequisite = {
 	focus = generic_eu_our_great_utopia
 	}
@@ -918,7 +918,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_railroads_for_our_people
-	icon = goal_unknown
+	icon = GFX_goal_generic_construct_infrastructure
 	prerequisite = {
 	focus = generic_eu_expand_goods_and_facilities
 	}
@@ -935,7 +935,7 @@ focus = {
 
 focus = {
 	id = generic_eu_a_higher_standard_of_living
-	icon = goal_unknown
+	icon = GFX_goal_generic_improve_relations
 	prerequisite = {
 	focus = generic_eu_our_great_utopia
 	}
@@ -952,7 +952,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_attract_immigrants
-	icon = goal_unknown
+	icon = GFX_goal_molotov_ribbentrop_pact
 	prerequisite = {
 	focus = generic_eu_a_higher_standard_of_living
 	}
@@ -970,7 +970,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_civilian_guard
-	icon = goal_unknown
+	icon = GFX_goal_demand_sudetenland
 	prerequisite = {
 	focus = generic_eu_our_great_utopia
 	}
@@ -988,7 +988,7 @@ focus = {
 
 focus = {
 	id = generic_eu_civilian_defense
-	icon = goal_unknown
+	icon = GFX_focus_generic_coastal_fort
 	prerequisite = {
 	focus = generic_eu_civilian_guard
 	}
@@ -1005,7 +1005,7 @@ focus = {
 
 focus = {
 	id = generic_eu_our_struggle_as_workers
-	icon = goal_unknown
+	icon = GFX_goal_generic_demand_territory
 	prerequisite = {
 	focus = generic_eu_national_propaganda
 	}
@@ -1025,7 +1025,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_troop_infrastructure
-	icon = goal_unknown
+	icon = GFX_goal_generic_army_motorized
 	prerequisite = {
 	focus = generic_eu_our_struggle_as_workers
 	}
@@ -1043,7 +1043,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_red_fortress
-	icon = goal_unknown
+	icon = GFX_goal_generic_construct_military
 	prerequisite = {
 	focus = generic_eu_troop_infrastructure
 	}
@@ -1060,7 +1060,7 @@ focus = {
 
 focus = {
 	id = generic_eu_expand_arms_production
-	icon = goal_unknown
+	icon = GFX_goal_generic_build_tank
 	prerequisite = {
 	focus = generic_eu_our_struggle_as_workers
 	}
@@ -1077,7 +1077,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_every_worker_a_fighter
-	icon = goal_unknown
+	icon = GFX_goal_generic_political_pressure
 	prerequisite = {
 	focus = generic_eu_expand_arms_production
 	}
@@ -1095,7 +1095,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_workers_militias
-	icon = goal_unknown
+	icon = GFX_goal_generic_small_arms
 	prerequisite = {
 	focus = generic_eu_our_struggle_as_workers
 	}
@@ -1113,7 +1113,7 @@ focus = {
 
 focus = {
 	id = generic_eu_socialist_army
-	icon = goal_unknown
+	icon = GFX_goal_generic_war_with_comintern
 	prerequisite = {
 	focus = generic_eu_workers_militias
 	}
