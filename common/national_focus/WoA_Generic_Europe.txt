@@ -596,7 +596,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_secret_police
-		icon = GFX_generic_spy_political
+		icon = GFX_generic_spy_intel
 		prerequisite = {
 		focus = generic_eu_socialist_education
 		}
@@ -1133,7 +1133,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_people_know_best
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_goal_generic_improve_relations
 		prerequisite = {
 		focus = generic_eu_worker_struggle
 		}
@@ -1151,7 +1151,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_integrate_unions
-		icon = goal_unknown
+		icon = GFX_goal_generic_national_unity
 		prerequisite = {
 		focus = generic_eu_people_know_best
 		}
@@ -1168,7 +1168,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_unions_in_government
-		icon = goal_unknown
+		icon = GFX_focus_generic_soviet_politics
 		prerequisite = {
 		focus = generic_eu_integrate_unions
 		}
@@ -1185,7 +1185,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_provide_the_seed
-		icon = goal_unknown
+		icon = GFX_goal_generic_propaganda
 		prerequisite = {
 		focus = generic_eu_people_know_best
 		}
@@ -1202,7 +1202,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_improve_schools
-		icon = goal_unknown
+		icon = GFX_goal_generic_construction2
 		prerequisite = {
 		focus = generic_eu_provide_the_seed
 		}
@@ -1219,7 +1219,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_stability_achieved
-		icon = goal_unknown
+		icon = GFX_goal_generic_defence
 		prerequisite = {
 		focus =  generic_eu_improve_schools
 		}
@@ -1239,7 +1239,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_further_individual_freedoms
-	icon = goal_unknown
+	icon = GFX_goal_support_democracy
 	prerequisite = {
 	focus = generic_eu_people_know_best
 	}
@@ -1259,7 +1259,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_guarantee_civil_freedoms
-	icon = goal_unknown
+	icon = GFX_goal_generic_improve_relations
 	prerequisite = {
 	focus = generic_eu_further_individual_freedoms
 	}
@@ -1276,7 +1276,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_merit_based_assignments
-	icon = goal_unknown
+	icon = GFX_goal_generic_production
 	prerequisite = {
 	focus = generic_eu_guarantee_civil_freedoms
 	}
@@ -1293,7 +1293,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_regulate_industry
-	icon = goal_unknown
+	icon = GFX_goal_generic_intelligence_exchange
 	prerequisite = {
 	focus = generic_eu_further_individual_freedoms
 	}
@@ -1310,7 +1310,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_basic_income
-	icon = goal_unknown
+	icon = GFX_goal_tripartite_pact
 	prerequisite = {
 	focus = generic_eu_regulate_industry
 	}
@@ -1327,7 +1327,7 @@ focus = {
 
 	focus = {
 	id = the_chains_are_broken
-	icon = goal_unknown
+	icon = GFX_goal_generic_demand_territory
 	prerequisite = {
 	focus = generic_eu_merit_based_assignments
 	}
@@ -1347,7 +1347,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_local_commune_authority
-	icon = goal_unknown
+	icon = GFX_goal_generic_position_armies
 	prerequisite = {
 	focus =  generic_eu_people_know_best
 	}
@@ -1364,7 +1364,7 @@ focus = {
 
 focus = {
 	id = generic_eu_agrarian_communes
-	icon = goal_unknown
+	icon = GFX_goal_generic_construction2
 	prerequisite = {
 	focus =  generic_eu_local_commune_authority
 	}
@@ -1381,7 +1381,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_maximise_efficiency
-	icon = goal_unknown
+	icon = GFX_goal_generic_production2
 	prerequisite = {
 	focus =  generic_eu_agrarian_communes
 	}
@@ -1398,7 +1398,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_factory_management
-	icon = goal_unknown
+	icon = GFX_goal_generic_construct_civ_factory
 	prerequisite = {
 	focus =  generic_eu_local_commune_authority
 	}
@@ -1415,7 +1415,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_eliminate_squabbles
-	icon = goal_unknown
+	icon = GFX_goal_generic_improve_relations
 	prerequisite = {
 	focus = generic_eu_factory_management
 	}
@@ -1432,7 +1432,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_autonomous_regions
-	icon = goal_unknown
+	icon = GFX_goal_generic_position_armies
 	prerequisite = {
 	focus = generic_eu_maximise_efficiency
 	}
@@ -1452,7 +1452,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_free_elections
-	icon = goal_unknown
+	icon = GFX_goal_DOM_Call_Special_Election
 	prerequisite = {
 	focus = generic_eu_stability_achieved
 	}
@@ -1472,7 +1472,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_market-based_decisions
-	icon = goal_unknown
+	icon = GFX_goal_generic_trade
 	prerequisite = {
 	focus = generic_eu_free_elections
 	}
@@ -1490,7 +1490,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_moderate_capitalism
-	icon = goal_unknown
+	icon = GFX_goal_generic_consumer_goods
 	prerequisite = {
 	focus = generic_eu_market-based_decisions
 	}
@@ -1507,7 +1507,7 @@ focus = {
 
 focus = {
 	id = generic_eu_civilian_subsidies
-	icon = goal_unknown
+	icon = GFX_goal_tripartite_pact
 	prerequisite = {
 	focus = generic_eu_free_elections
 	}
@@ -1524,7 +1524,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_arms_contracts
-	icon = goal_unknown
+	icon = GFX_goal_generic_military_sphere
 	prerequisite = {
 	focus = generic_eu_civilian_subsidies
 	}
@@ -1542,7 +1542,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_class_mobility_com
-	icon = goal_unknown
+	icon = GFX_focus_generic_support_the_left_right
 	prerequisite = {
 	focus = generic_eu_free_elections
 	}
@@ -1560,7 +1560,7 @@ focus = {
 
 focus = {
 	id = generic_eu_our_people_equal
-	icon = goal_unknown
+	icon = GFX_goal_generic_neutrality_focus
 	prerequisite = {
 	focus = generic_eu_class_mobility_com
 	}
@@ -1577,7 +1577,7 @@ focus = {
 
 focus = {
 	id = generic_eu_council_power
-	icon = goal_unknown
+	icon = GFX_goal_generic_national_unity
 	prerequisite = {
 	focus = generic_eu_stability_achieved
 	}
@@ -1597,7 +1597,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_interregion_infrastructure
-	icon = goal_unknown
+	icon = GFX_goal_rhineland
 	prerequisite = {
 	focus = generic_eu_council_power
 	}
@@ -1615,7 +1615,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_council_railroads
-	icon = goal_unknown
+	icon = GFX_goal_generic_construct_infrastructure
 	prerequisite = {
 	focus = generic_eu_interregion_infrastructure
 	}
@@ -1632,7 +1632,7 @@ focus = {
 
 focus = {
 	id = generic_eu_further_autonomy
-	icon = goal_unknown
+	icon = GFX_goal_generic_improve_relations
 	prerequisite = {
 	focus = generic_eu_council_power
 	}
@@ -1649,7 +1649,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_united_in_difference
-	icon = goal_unknown
+	icon = GFX_goal_generic_major_alliance
 	prerequisite = {
 	focus = generic_eu_further_autonomy
 	}
@@ -1667,7 +1667,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_army_reform
-	icon = goal_unknown
+	icon = GFX_goal_panzerwaffe
 	prerequisite = {
 	focus = generic_eu_council_power
 	}
@@ -1685,7 +1685,7 @@ focus = {
 
 focus = {
 	id = generic_eu_local_militias
-	icon = goal_unknown
+	icon = GFX_goal_generic_political_pressure
 	prerequisite = {
 	focus = generic_eu_army_reform
 	}
