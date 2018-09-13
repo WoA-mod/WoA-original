@@ -20,4 +20,3 @@ country_event = {
 		}
 	}
 }
-#SocCon rally

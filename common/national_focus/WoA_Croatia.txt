@@ -1866,20 +1866,18 @@ focus_tree = {
 		y = 1
 		cost = 5
 	}
-	#RETAKE BOSNIA
-	#Bosnia gets an event about getting annexed by Croatia. Will refuse only with foreign backing, far left government, or nationalist government. Sarkotic becomes available as a general if he is still alive.
+	#THE TRADITION OF SOMETHING
 	focus = {
-		id = CRO_retake_bosnia
+		id = CRO_test
 		icon = PLACEHOLDER
 		available = {
 			always = no
 		}
 		prerequisite = {
-			focus = CRO_roman_allegiance
-			focus = CRO_slavic_allegiance
+			focus = CRO_retake_bosnia
 		}
-		relative_position_id = CRO_roman_allegiance
-		x = 1
+		relative_position_id = CRO_retake_bosnia
+		x = -1
 		y = 1
 		cost = 5
 	}
