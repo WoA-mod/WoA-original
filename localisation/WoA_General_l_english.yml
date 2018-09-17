@@ -1219,23 +1219,66 @@ generic_eu_expand_goods_and_facilities:0 "Expand Goods and Factories"
  generic_eu_army_reform:0 "Army Reform"
  
  generic_eu_local_militias:0 "Local Militias"
- 
- 
- 
- 
- 
- 
- 
- 
- 
 
+ #commie foreign policy
 
+ generic_eu_workers_abroad:0 "Workers Abroad"
+ 
+ generic_eu_internationalism:0 "Internationalism"
 
+ generic_eu_socialism_here:0 "Socialism Here"
 
+ generic_eu_spread_socialism_ourselves:0 "Do it Ourselves"
 
+ generic_eu_war_for_our_system:0 "Socialism Stands Supreme"
 
+ generic_eu_defensive_expansion:0 "Defense Expansion"
 
+ generic_eu_offense_is_the_best_defense:0 "Offense is the best Defense"
 
+ generic_eu_improve_the_army:0 "An Army Ready to Break the Chains"
+
+ generic_eu_protect_our_system:0 "Protect our System"
+
+ generic_eu_decrypt_technology:0 "Make them Share"
+
+ generic_eu_global_socialism:0 "Global Communism"
+
+ generic_eu_apply_to_join_the_international:0 "Apply to join the International"
+
+ generic_eu_fine_tune_our_system:0 "Fine Tune the Government"
+
+ generic_eu_work_with_the_international:0 "Work with the International"
+
+ generic_eu_specialist_industry:0 "Specialist Industry"
+
+ generic_eu_destroy_corruption:0 "Crush Corruption"
+
+ generic_eu_join_the_international:0 "Join the International"
+
+ generic_eu_stick_with_what_we_can_handle:0 "Know our Limits"
+
+ generic_eu_regional_economic_bloc:0 "Regional Economic Bloc"
+
+ generic_eu_encourage_regional_socialism:0 "Local Socialism"
+
+ generic_eu_defensive_pact_commie_edition:0 "Defensive Pact"
+
+ generic_eu_develop_member_states:0 "Develop Member States"
+
+ generic_eu_inter_regional_railway:0 "Intra-Regional Railway"
+
+ generic_eu_establish_hegemony:0 "Establish Hegemony"
+
+ generic_eu_crush_opposition:0 "Crush Opposition"
+
+ generic_eu_unite_the_faction:0 "Unite the Faction"
+
+ generic_eu_establish_a_foreign_legion_commie_edition:0 "Establish a Foreign Legion"
+
+ generic_eu_technology_sharing:0 "Technology Sharing"
+
+ generic_eu_information_sharing:0 "Information Sharing"
 
 ### Generic Ideas ###
 

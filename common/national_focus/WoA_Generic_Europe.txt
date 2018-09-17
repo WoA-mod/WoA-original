@@ -596,7 +596,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_secret_police
-		icon = GFX_generic_spy_intel
+		icon = GFX_goal_generic_air_doctrine
 		prerequisite = {
 		focus = generic_eu_socialist_education
 		}
@@ -1452,7 +1452,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_free_elections
-	icon = GFX_goal_DOM_Call_Special_Election
+	icon = GFX_goal_government_icon
 	prerequisite = {
 	focus = generic_eu_stability_achieved
 	}
@@ -1704,7 +1704,7 @@ focus = {
 
 focus = {
 		id = generic_eu_nationalist
-		icon = goal_unknown
+		icon = GFX_goal_generic_political_pressure
 		prerequisite = {
 		focus = generic_eu_politics
 		}
@@ -1722,7 +1722,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_turn_to_our_people
-		icon = goal_unknown
+		icon = GFX_goal_generic_national_unity
 		prerequisite = {
 		focus = generic_eu_nationalist
 		}
@@ -1739,7 +1739,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_peoples_choice
-	icon = goal_unknown
+	icon = GFX_goal_generic_demand_territory
 	prerequisite = {
 	focus = generic_eu_turn_to_our_people
 	}
@@ -1756,7 +1756,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_allow_elections
-	icon = goal_unknown
+	icon = GFX_goal_support_democracy
 	prerequisite = {
 	focus = generic_eu_peoples_choice
 	}
@@ -1773,7 +1773,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_rep_of_the_people
-	icon = goal_unknown
+	icon = GFX_goal_generic_demand_territory
 	prerequisite = {
 	focus = generic_eu_allow_elections
 	}
@@ -1790,7 +1790,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_reintroduce_capitalism
-	icon = goal_unknown
+	icon = GFX_goal_generic_trade
 	prerequisite = {
 	focus = generic_eu_peoples_choice
 	}
@@ -1807,7 +1807,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_agrarian_reform_nat
-	icon = goal_unknown
+	icon = GFX_goal_generic_position_armies
 	prerequisite = {
 	focus = generic_eu_reintroduce_capitalism
 	}
@@ -1824,7 +1824,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_elected_dictator
-	icon = goal_unknown
+	icon = GFX_focus_generic_support_the_left_right
 	prerequisite = {
 	focus = generic_eu_rep_of_the_people
 	}
@@ -1847,7 +1847,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_wealth_redistribution
-	icon = goal_unknown
+	icon = GFX_goal_generic_major_alliance
 	prerequisite = {
 	focus =  generic_eu_elected_dictator
 	}
@@ -1864,7 +1864,7 @@ focus = {
 
 focus = {
 	id = generic_eu_appeal_to_the_masses
-	icon = goal_unknown
+	icon = GFX_goal_generic_national_unity
 	prerequisite = {
 	focus =  generic_eu_wealth_redistribution
 	}
@@ -1881,7 +1881,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_national_railways_nat
-	icon = goal_unknown
+	icon = GFX_goal_generic_construct_infrastructure
 	prerequisite = {
 	focus =  generic_eu_elected_dictator
 	}
@@ -1898,7 +1898,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_services_for_all_nat
-	icon = goal_unknown
+	icon = GFX_goal_generic_construct_civ_factory
 	prerequisite = {
 	focus =  generic_eu_national_railways_nat
 	}
@@ -1915,7 +1915,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_maximise_efficiency_nat
-	icon = goal_unknown
+	icon = GFX_goal_generic_production2
 	prerequisite = {
 	focus = generic_eu_elected_dictator
 	}
@@ -1932,7 +1932,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_curtail_corruption
-	icon = goal_unknown
+	icon = GFX_goal_generic_cavalry
 	prerequisite = {
 	focus = generic_eu_maximise_efficiency_nat
 	}
@@ -1949,7 +1949,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_popular_mandate
-	icon = goal_unknown
+	icon = GFX_goal_generic_demand_territory
 	prerequisite = {
 	focus = generic_eu_turn_to_our_people
 	}
@@ -1969,7 +1969,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_peoples_leader_forever
-	icon = goal_unknown
+	icon = GFX_goal_generic_dangerous_deal
 	prerequisite = {
 	focus = generic_eu_popular_mandate
 	}
@@ -1986,7 +1986,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_interpreting_the_will_of_the_people
-	icon = goal_unknown
+	icon = GFX_goal_generic_forceful_treaty
 	prerequisite = {
 	focus = generic_eu_peoples_leader_forever
 	}
@@ -2003,7 +2003,7 @@ focus = {
 
 focus = {
 	id = generic_eu_nationalize_industry_nat
-	icon = goal_unknown
+	icon = GFX_goal_generic_construct_civ_factory
 	prerequisite = {
 	focus = generic_eu_popular_mandate
 	}
@@ -2020,7 +2020,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_abolish_private_farmland
-	icon = goal_unknown
+	icon = GFX_goal_generic_construction2
 	prerequisite = {
 	focus = generic_eu_nationalize_industry_nat
 	}
@@ -2038,7 +2038,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_faith_in_our_president
-	icon = goal_unknown
+	icon = GFX_goal_tripartite_pact
 	prerequisite = {
 	focus = generic_eu_peoples_choice
 	focus = generic_eu_popular_mandate
@@ -2057,7 +2057,7 @@ focus = {
 
 focus = {
 	id = generic_eu_concentrate_power
-	icon = goal_unknown
+	icon = GFX_focus_generic_support_the_left_right
 	prerequisite = {
 	focus = generic_eu_faith_in_our_president
 	}
@@ -2074,7 +2074,7 @@ focus = {
 
 focus = {
 	id = generic_eu_crack_down_on_opposition
-	icon = goal_unknown
+	icon = GFX_goal_generic_secret_weapon
 	prerequisite = {
 	focus = generic_eu_faith_in_our_president
 	}
@@ -2091,7 +2091,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_allegiance_to_the_state
-	icon = goal_unknown
+	icon = GFX_goal_generic_major_alliance
 	prerequisite = {
 	focus = generic_eu_crack_down_on_opposition
 	}
@@ -2112,7 +2112,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_benevolent_dictator
-	icon = goal_unknown
+	icon = GFX_focus_generic_support_the_left_right
 	prerequisite = {
 	focus = generic_eu_abolish_private_farmland
 	}
@@ -2135,7 +2135,7 @@ focus = {
 
 focus = {
 	id = generic_eu_nationalize_the_economy
-	icon = goal_unknown
+	icon = GFX_goal_generic_consumer_goods
 	prerequisite = {
 	focus = generic_eu_benevolent_dictator
 	}
@@ -2152,7 +2152,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_government_in_everyday_life
-	icon = goal_unknown
+	icon = GFX_goal_generic_propaganda
 	prerequisite = {
 	focus = generic_eu_nationalize_the_economy
 	}
@@ -2170,7 +2170,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_railways_for_our_troops
-	icon = goal_unknown
+	icon = GFX_goal_generic_construct_infrastructure
 	prerequisite = {
 	focus = generic_eu_benevolent_dictator
 	}
@@ -2188,7 +2188,7 @@ focus = {
 
 focus = {
 	id = generic_eu_protect_our_people
-	icon = goal_unknown
+	icon = GFX_goal_generic_defence
 	prerequisite = {
 	focus = generic_eu_railways_for_our_troops
 	}
@@ -2206,7 +2206,7 @@ focus = {
 
 focus = {
 		id = generic_eu_assert_dominance
-		icon = goal_unknown
+		icon = GFX_goal_generic_military_deal
 		prerequisite = {
 		focus = generic_eu_benevolent_dictator
 		}
@@ -2224,7 +2224,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_expand_our_army
-		icon = goal_unknown
+		icon = GFX_goal_generic_army_tanks
 		prerequisite = {
 		focus = generic_eu_assert_dominance
 		}
@@ -2243,7 +2243,7 @@ focus = {
 	
 	focus = {
 		id = generic_eu_turn_to_our_past
-		icon = goal_unknown
+		icon = GFX_focus_generic_italy_first
 		prerequisite = {
 		focus = generic_eu_nationalist
 		}
@@ -2260,7 +2260,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_crown_a_king
-		icon = goal_unknown
+		icon = GFX_focus_generic_home_defense
 		prerequisite = {
 		focus = generic_eu_turn_to_our_past
 		}
@@ -2277,7 +2277,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_one_of_our_own
-		icon = goal_unknown
+		icon = GFX_goal_tripartite_pact
 		prerequisite = {
 		focus = generic_eu_crown_a_king
 		}
@@ -2294,7 +2294,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_monarchial_power
-		icon = goal_unknown
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		prerequisite = {
 		focus =  generic_eu_one_of_our_own
 		}
@@ -2311,7 +2311,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_a_foreigner
-	icon = goal_unknown
+	icon = GFX_focus_generic_diplomatic_treaty
 	prerequisite = {
 	focus = generic_eu_crown_a_king
 	}
@@ -2328,7 +2328,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_dynastic_ties
-	icon = goal_unknown
+	icon = GFX_goal_generic_improve_relations
 	prerequisite = {
 	focus = generic_eu_a_foreigner
 	}
@@ -2345,7 +2345,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_a_modern_king
-	icon = goal_unknown
+	icon = GFX_focus_generic_support_the_left_right
 	prerequisite = {
 	focus = generic_eu_monarchial_power
 	}
@@ -2368,7 +2368,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_an_economy_fit_for_haruhi
-	icon = goal_unknown
+	icon = GFX_goal_generic_construct_civ_factory
 	prerequisite = {
 	focus = generic_eu_a_modern_king
 	}
@@ -2385,7 +2385,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_railway_for_our_patriarch
-	icon = goal_unknown
+	icon = GFX_goal_generic_construct_infrastructure
 	prerequisite = {
 	focus = generic_eu_an_economy_fit_for_haruhi
 	}
@@ -2402,7 +2402,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_crush_rival_claimants
-	icon = goal_unknown
+	icon = GFX_goal_generic_demand_territory
 	prerequisite = {
 	focus = generic_eu_a_modern_king
 	}
@@ -2419,7 +2419,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_assert_hegemony
-	icon = goal_unknown
+	icon = GFX_goal_generic_position_armies
 	prerequisite = {
 	focus =  generic_eu_crush_rival_claimants
 	}
@@ -2435,7 +2435,7 @@ focus = {
 }
 	focus = {
 	id = generic_eu_our_prestige_as_a_kingdom
-	icon = goal_unknown
+	icon = GFX_goal_generic_cavalry
 	prerequisite = {
 	focus = generic_eu_a_modern_king
 	}
@@ -2452,7 +2452,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_international_presence
-	icon = goal_unknown
+	icon = GFX_goal_generic_position_armies
 	prerequisite = {
 	focus =  generic_eu_our_prestige_as_a_kingdom
 	}
@@ -2469,7 +2469,7 @@ focus = {
 
 focus = {
 	id = generic_eu_restore_our_glory
-	icon = goal_unknown
+	icon = GFX_focus_generic_support_the_left_right
 	prerequisite = {
 	focus =  generic_eu_turn_to_our_past
 	}
@@ -2489,7 +2489,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_our_former_prestige
-	icon = goal_unknown
+	icon = GFX_focus_generic_anti_fascist_diplomacy
 	prerequisite = {
 	focus =  generic_eu_restore_our_glory
 	}
@@ -2506,7 +2506,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_emulate_the_system
-	icon = goal_unknown
+	icon = GFX_goal_generic_neutrality_focus
 	prerequisite = {
 	focus =  generic_eu_our_former_prestige
 	}
@@ -2523,7 +2523,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_the_past_is_here
-	icon = goal_unknown
+	icon = GFX_goal_generic_major_alliance
 	prerequisite = {
 	focus = generic_eu_restore_our_glory
 	}
@@ -2540,7 +2540,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_our_ancestors_solutions
-	icon = goal_unknown
+	icon = GFX_goal_generic_military_deal
 	prerequisite = {
 	focus = generic_eu_the_past_is_here
 	}
@@ -2557,7 +2557,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_education_about_our_system
-	icon = goal_unknown
+	icon = GFX_goal_generic_scientific_exchange
 	prerequisite = {
 	focus = generic_eu_crown_a_king
 	focus = generic_eu_turn_to_our_past
@@ -2576,7 +2576,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_propaganda_office
-	icon = goal_unknown
+	icon = GFX_goal_generic_propaganda
 	prerequisite = {
 	focus = generic_eu_education_about_our_system
 	}
@@ -2594,7 +2594,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_despotic_contract
-	icon = goal_unknown
+	icon = GFX_focus_generic_diplomatic_treaty
 	prerequisite = {
 	focus = generic_eu_education_about_our_system
 	}
@@ -2611,7 +2611,7 @@ focus = {
 
 focus = {
 	id = generic_eu_allegiance_to_the_ruler
-	icon = goal_unknown
+	icon = GFX_goal_tripartite_pact
 	prerequisite = {
 	focus = generic_eu_propaganda_office
 	}
@@ -2631,7 +2631,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_antiquarian_nationalism
-	icon = goal_unknown
+	icon = GFX_focus_generic_italy_first
 	prerequisite = {
 	focus = generic_eu_our_ancestors_solutions
 	}
@@ -2655,7 +2655,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_armed_defense
-	icon = goal_unknown
+	icon = GFX_goal_generic_small_arms
 	prerequisite = {
 	focus = generic_eu_antiquarian_nationalism
 	}
@@ -2673,7 +2673,7 @@ focus = {
 
 focus = {
 	id = generic_eu_a_professional_army
-	icon = goal_unknown
+	icon = GFX_goal_generic_navy_doctrines_tactics
 	prerequisite = {
 	focus = generic_eu_armed_defense
 	}
@@ -2691,7 +2691,7 @@ focus = {
 
 focus = {
 	id = generic_eu_industry_fit_for_a_titan
-	icon = goal_unknown
+	icon = GFX_goal_generic_construct_civ_factory
 	prerequisite = {
 	focus =  generic_eu_antiquarian_nationalism
 	}
@@ -2708,7 +2708,7 @@ focus = {
 
 focus = {
 	id = generic_eu_rail_expansion_nat
-	icon = goal_unknown
+	icon = GFX_goal_generic_construct_infrastructure
 	prerequisite = {
 	focus =  generic_eu_industry_fit_for_a_titan
 	}
@@ -2725,7 +2725,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_a_new_version_of_our_old_self
-	icon = goal_unknown
+	icon = GFX_goal_generic_demand_territory
 	prerequisite = {
 	focus =  generic_eu_antiquarian_nationalism
 	}
@@ -2742,7 +2742,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_our_grandparents_would_be_proud
-	icon = goal_unknown
+	icon = GFX_goal_generic_improve_relations
 	prerequisite = {
 	focus =  generic_eu_a_new_version_of_our_old_self
 	}
@@ -2761,7 +2761,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_our_people_in_the_world
-	icon = goal_unknown
+	icon = GFX_goal_generic_position_armies
 	prerequisite = {
 	focus = generic_eu_nationalist
 	}
@@ -2778,7 +2778,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_search_for_allies
-	icon = goal_unknown
+	icon = GFX_goal_tripartite_pact
 	mutually_exclusive = {
         focus = generic_eu_our_people_stand_supreme
     }
@@ -2798,7 +2798,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_allign_with_rome
-	icon = goal_unknown
+	icon = GFX_focus_generic_italy_first
 	prerequisite = {
 	focus = generic_eu_search_for_allies
 	}
@@ -2818,7 +2818,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_defensive_pact
-	icon = goal_unknown
+	icon = GFX_goal_generic_defence
 	prerequisite = {
 	focus = generic_eu_allign_with_rome
 	}
@@ -2836,11 +2836,12 @@ focus = {
 	
 	focus = {
 	id = generic_eu_roman_dominion
-	icon = goal_unknown
+	icon = GFX_goal_generic_improve_relations
 	prerequisite = {
 	focus = generic_eu_defensive_pact
 	}
 	relative_position_id = generic_eu_defensive_pact
+	mutually_exclusive = { focus = eu_equal_status }
 	x = -1
 	y = 1
 	cost = 6
@@ -2853,7 +2854,7 @@ focus = {
 
 focus = {
 	id = generic_eu_roman_investments
-	icon = goal_unknown
+	icon = GFX_goal_generic_construct_mil_factory
 	prerequisite = {
 	focus = generic_eu_roman_dominion
 	}
@@ -2870,11 +2871,12 @@ focus = {
 
 	focus = {
 	id = generic_eu_equal_status
-	icon = goal_unknown
+	icon = GFX_goal_generic_improve_relations
 	prerequisite = {
 	focus = generic_eu_defensive_pact
 	}
 	relative_position_id = generic_eu_defensive_pact
+	mutually_exclusive = { focus = generic_eu_roman_dominion }
 	x = 1
 	y = 1
 	cost = 6
@@ -2888,7 +2890,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_closer_ties
-	icon = goal_unknown
+	icon = GFX_goal_tripartite_pact
 	prerequisite = {
 	focus = generic_eu_equal_status
 	}
@@ -2906,7 +2908,7 @@ focus = {
 
 focus = {
 	id = generic_eu_our_people_are_one
-	icon = goal_unknown
+	icon = GFX_goal_molotov_ribbentrop_pact
 	prerequisite = {
 	focus = generic_eu_roman_investments
 	focus= generic_eu_closer_ties
@@ -2924,7 +2926,7 @@ focus = {
 
 focus = {
 	id = generic_eu_allign_with_germany
-	icon = goal_unknown
+	icon = GFX_goal_generic_eintracht_alliance
 	prerequisite = {
 	focus = generic_eu_search_for_allies
 	}
@@ -2944,7 +2946,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_eintracht_membership
-	icon = goal_unknown
+	icon = GFX_focus_generic_diplomatic_treaty
 	prerequisite = {
 	focus = generic_eu_allign_with_germany
 	}
@@ -2962,7 +2964,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_new_colonialism
-	icon = goal_unknown
+	icon = GFX_focus_generic_support_the_left_right
 	prerequisite = {
 	focus = generic_eu_eintracht_membership
 	}
@@ -2979,7 +2981,7 @@ focus = {
 
 focus = {
 	id = generic_eu_our_people_stand_supreme
-	icon = goal_unknown
+	icon = GFX_goal_generic_demand_territory
 	prerequisite = {
 	focus = generic_eu_our_people_in_the_world
 	}
@@ -2999,7 +3001,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_assist_conquered_lands
-	icon = goal_unknown
+	icon = GFX_goal_generic_position_armies
 	prerequisite = {
 	focus = generic_eu_our_people_stand_supreme
 	}
@@ -3020,7 +3022,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_they_will_help_themselves
-	icon = goal_unknown
+	icon = GFX_goal_generic_political_pressure
 	prerequisite = {
 	focus = generic_eu_our_people_stand_supreme
 	}
@@ -3040,7 +3042,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_expansion_momentum
-		icon = goal_unknown
+		icon = GFX_goal_generic_major_war
 		prerequisite = {
 		focus = generic_eu_they_will_help_themselves
 		focus = generic_eu_assist_conquered_lands
@@ -3058,7 +3060,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_war_bonds_nat
-		icon = goal_unknown
+		icon = GFX_goal_generic_military_deal
 		prerequisite = {
 		focus = generic_eu_expansion_momentum
 		}
@@ -3075,7 +3077,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_war_economy_nat
-		icon = goal_unknown
+		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = {
 		focus = generic_eu_expansion_momentum
 		}
@@ -3092,7 +3094,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_war_propaganda
-		icon = goal_unknown
+		icon = GFX_goal_generic_propaganda
 		prerequisite = {
 		focus = generic_eu_expansion_momentum
 		}
@@ -3109,7 +3111,7 @@ focus = {
 
 	focus = {
 		id = generic_eu_establish_a_foreign_legion
-		icon = goal_unknown
+		icon = GFX_goal_molotov_ribbentrop_pact
 		prerequisite = {
 		focus =  generic_eu_our_people_in_the_world
 		}
@@ -3126,7 +3128,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_divisions_abroad
-	icon = goal_unknown
+	icon = GFX_goal_generic_political_pressure
 	prerequisite = {
 	focus = generic_eu_establish_a_foreign_legion
 	}
@@ -3143,7 +3145,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_prevent_defections
-	icon = goal_unknown
+	icon = GFX_goal_generic_defence
 	prerequisite = {
 	focus = generic_eu_divisions_abroad
 	}
@@ -3160,7 +3162,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_keep_our_people_safe
-	icon = goal_unknown
+	icon = GFX_goal_tripartite_pact
 	prerequisite = {
 	focus = generic_eu_establish_a_foreign_legion
 	}
@@ -3177,7 +3179,7 @@ focus = {
 
 	focus = {
 	id = generic_eu_safeguard_our_technology
-	icon = goal_unknown
+	icon = GFX_focus_research
 	prerequisite = {
 	focus = generic_eu_keep_our_people_safe
 	}
@@ -3196,7 +3198,7 @@ focus = {
 
 focus = {
 		id = generic_eu_workers_abroad
-		icon = GFX_goal_WIP
+		icon = GFX_goal_rhineland
 		prerequisite = {
 		focus = generic_eu_worker_struggle
 		}
@@ -3213,7 +3215,7 @@ focus = {
 	
 	focus = {
 		id = generic_eu_internationalism
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_improve_relations
 		prerequisite = {
 		focus = generic_eu_workers_abroad
 		}
@@ -3231,7 +3233,7 @@ focus = {
 	
 		focus = {
 		id = generic_eu_socialism_here
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_demand_territory
 		prerequisite = {
 		focus = generic_eu_workers_abroad
 		}
@@ -3251,7 +3253,7 @@ focus = {
 	
 		focus = {
 		id = generic_eu_spread_socialism_ourselves
-		icon = GFX_goal_WIP
+		icon = GFX_goal_demand_sudetenland
 		prerequisite = {
 		focus = generic_eu_socialism_here
 		}
@@ -3268,7 +3270,7 @@ focus = {
 	
 			focus = {
 		id = generic_eu_war_for_our_system
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_major_war
 		prerequisite = {
 		focus = generic_eu_spread_socialism_ourselves
 		}
@@ -3285,7 +3287,7 @@ focus = {
 	
 		focus = {
 		id = generic_eu_defensive_expansion
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_fortify_city
 		prerequisite = {
 		focus = generic_eu_socialism_here
 		}
@@ -3301,7 +3303,7 @@ focus = {
 	}
 		focus = {
 		id = generic_eu_offense_is_the_best_defense
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_small_arms
 		prerequisite = {
 		focus = generic_eu_defensive_expansion
 		}
@@ -3318,7 +3320,7 @@ focus = {
 	
 			focus = {
 		id = generic_eu_improve_the_army
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_military_deal
 		prerequisite = {
 		focus = generic_eu_offense_is_the_best_defense
 		}
@@ -3335,7 +3337,7 @@ focus = {
 	
 			focus = {
 		id = generic_eu_protect_our_system
-		icon = GFX_goal_WIP
+		icon = GFX_focus_generic_coastal_fort
 		prerequisite = {
 		focus = generic_eu_defensive_expansion
 		}
@@ -3352,7 +3354,7 @@ focus = {
 	
 				focus = {
 		id = generic_eu_decrypt_technology
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_radar
 		prerequisite = {
 		focus = generic_eu_protect_our_system
 		}
@@ -3371,7 +3373,7 @@ focus = {
 
 		focus = {
 		id = generic_eu_global_socialism
-		icon = GFX_goal_WIP
+		icon = GFX_goal_tripartite_pact
 		prerequisite = {
 		focus = generic_eu_internationalism
 		}
@@ -3389,7 +3391,7 @@ focus = {
 	
 		focus = {
 		id = generic_eu_apply_to_join_the_international
-		icon = GFX_goal_WIP
+		icon = GFX_focus_generic_soviet_politics
 		prerequisite = {
 		focus = generic_eu_global_socialism
 		}
@@ -3406,7 +3408,7 @@ focus = {
 	
 			focus = {
 		id = generic_eu_fine_tune_our_system
-		icon = GFX_goal_WIP
+		icon = GFX_goal_government_icon
 		prerequisite = {
 		focus = generic_eu_apply_to_join_the_international
 		}
@@ -3423,7 +3425,7 @@ focus = {
 	
 				focus = {
 		id = generic_eu_work_with_the_international
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_improve_relations
 		prerequisite = {
 		focus = generic_eu_apply_to_join_the_international
 		}
@@ -3440,7 +3442,7 @@ focus = {
 	
 				focus = {
 		id = generic_eu_specialist_industry
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_soviet_construction
 		prerequisite = {
 		focus = generic_eu_work_with_the_international
 		}
@@ -3457,7 +3459,7 @@ focus = {
 	
 				focus = {
 		id = generic_eu_destroy_corruption
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_territory_or_war
 		prerequisite = {
 		focus = generic_eu_fine_tune_our_system
 		}
@@ -3474,7 +3476,7 @@ focus = {
 	
 					focus = {
 		id = generic_eu_join_the_international
-		icon = GFX_goal_WIP
+		icon = GFX_goal_molotov_ribbentrop_pact
 		prerequisite = {
 		focus = generic_eu_destroy_corruption
 		}
@@ -3494,7 +3496,7 @@ focus = {
 	
 			focus = {
 		id = generic_eu_stick_with_what_we_can_handle
-		icon = GFX_goal_WIP
+		icon = GFX_focus_generic_support_the_left_right
 		prerequisite = {
 		focus = generic_eu_internationalism
 		}
@@ -3512,7 +3514,7 @@ focus = {
 	
 				focus = {
 		id = generic_eu_regional_economic_bloc
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_intelligence_exchange
 		prerequisite = {
 		focus = generic_eu_stick_with_what_we_can_handle
 		}
@@ -3529,7 +3531,7 @@ focus = {
 	
 		focus = {
 		id = generic_eu_encourage_regional_socialism
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_position_armies
 		prerequisite = {
 		focus = generic_eu_regional_economic_bloc
 		}
@@ -3546,7 +3548,7 @@ focus = {
 	
 		focus = {
 		id = generic_eu_defensive_pact_commie_edition
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_military_deal
 		prerequisite = {
 		focus = generic_eu_encourage_regional_socialism
 		}
@@ -3563,7 +3565,7 @@ focus = {
 	
 		focus = {
 		id = generic_eu_develop_member_states
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = {
 		focus = generic_eu_regional_economic_bloc
 		}
@@ -3580,7 +3582,7 @@ focus = {
 	
 			focus = {
 		id = generic_eu_inter_regional_railway
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {
 		focus = generic_eu_develop_member_states
 		}
@@ -3597,7 +3599,7 @@ focus = {
 	
 			focus = {
 		id = generic_eu_establish_hegemony
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_occupy_states_ongoing_war
 		prerequisite = { focus = generic_eu_inter_regional_railway }
 		prerequisite = { focus = generic_eu_defensive_pact_commie_edition }
 		relative_position_id = generic_eu_inter_regional_railway
@@ -3613,7 +3615,7 @@ focus = {
 	
 				focus = {
 		id = generic_eu_crush_opposition
-		icon = GFX_goal_WIP
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		prerequisite = { focus = generic_eu_establish_hegemony }
 		relative_position_id = generic_eu_establish_hegemony
 		x = 2
@@ -3628,7 +3630,7 @@ focus = {
 	
 					focus = {
 		id = generic_eu_unite_the_faction
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_improve_relations
 		prerequisite = { focus = generic_eu_establish_hegemony }
 		relative_position_id = generic_eu_establish_hegemony
 		x = -2
@@ -3643,7 +3645,7 @@ focus = {
 	
 		focus = {
 		id = generic_eu_establish_a_foreign_legion_commie_edition
-		icon = GFX_goal_WIP
+		icon = GFX_goal_molotov_ribbentrop_pact
 		prerequisite = {
 		focus = generic_eu_internationalism
 		}
@@ -3660,7 +3662,7 @@ focus = {
 	
 			focus = {
 		id = generic_eu_technology_sharing
-		icon = GFX_goal_WIP
+		icon = GFX_focus_generic_socialist_science
 		prerequisite = {
 		focus = generic_eu_establish_a_foreign_legion_commie_edition
 		}
@@ -3677,7 +3679,7 @@ focus = {
 	
 			focus = {
 		id = generic_eu_information_sharing
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_intelligence_exchange
 		prerequisite = {
 		focus = generic_eu_establish_a_foreign_legion_commie_edition
 		}
