@@ -1,33 +1,21 @@
+state = {
+	id = 345
+	name = "STATE_345"
 
-state={
-	id=345
-	name="STATE_345" # Mersin
-	manpower = 781798
-	resources={
-		chromium=35.0
-	}
-
-	state_category = rural
-
-	history={
-		owner = TUR
-		victory_points = {
-			1005 5 
-		}
-		victory_points = {
-			11746 1 
-		}
+	history = {
+		owner = OTT
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			1005 = {
-				naval_base = 5
-			}
+
 		}
-		add_core_of = TUR
+		add_core_of = OTT
+
 	}
 
-	provinces={
-		1122 4008 4124 4127 7026 7143 10056 11810 1005 1119 11746
+	provinces = {
+		919 933 3903 3935 3950 6919 6950 9761 9777 9900 9915
 	}
+	manpower = 1161024
+	buildings_max_level_factor = 1
+	state_category = rural
 }
