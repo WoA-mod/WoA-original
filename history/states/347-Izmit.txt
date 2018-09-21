@@ -1,26 +1,26 @@
-
-state={
-	id=347
-	name="STATE_347"
-	resources={
-		chromium=28.0
+state = {
+	id = 347
+	name = "STATE_347"
+	resources = {
+		chromium = 26.000
 	}
 
-	history={
+	history = {
 		owner = TUR
 		buildings = {
-			infrastructure = 6
-
+			infrastructure = 4
+			849 = {
+				coastal_bunker = 4
+				bunker = 2
+			}
 		}
 		add_core_of = TUR
+
 	}
 
-
-
-	provinces={
-		11811 11829 
+	provinces = {
+		849
 	}
-	manpower=597660
-	buildings_max_level_factor=1.000
-	state_category=town
+	manpower = 133214
+	state_category = town
 }

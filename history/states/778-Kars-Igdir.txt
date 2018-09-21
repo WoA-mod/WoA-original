@@ -1,0 +1,54 @@
+
+state={
+	id=778
+	name="STATE_778"
+
+	history={
+		owner = TUR
+		victory_points = {
+			10472 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			10472 = {
+				bunker = 3
+
+			}
+			12376 = {
+				bunker = 1
+
+			}
+			13671 = {
+				bunker = 1
+
+			}
+			13672 = {
+				bunker = 1
+
+			}
+			10403 = {
+				bunker = 2
+
+			}
+			789 = {
+				bunker = 1
+
+			}
+			6991 = {
+				bunker = 1
+
+			}
+
+		}
+		add_core_of = TUR
+
+	}
+
+	provinces={
+		652 789 6991 10403 10472 12376 13228 13229 
+	}
+	manpower=397595
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 779
+	name = "STATE_779"
+	manpower = 200000
+
+	state_category = pastoral
+
+	history = {
+		owner = TUR
+
+
+		buildings = {
+			infrastructure = 3
+			7454 = {
+				bunker = 2
+			}
+			11753 = {
+				bunker = 1
+			}
+
+		}
+		add_core_of = TUR
+	}
+
+	provinces = {
+		3714 7454 11753
+	}
+}

@@ -1,26 +1,28 @@
+state = {
+	id = 352
+	name = "STATE_352"
 
-state={
-	id=352
-	name="STATE_352" # Van
-	manpower = 395490
-
-	state_category = rural
-
-	history={
+	history = {
 		owner = TUR
-		victory_points = {
-			4512 5
-		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
+			7470 = {
+				bunker = 1
+			}
+			4583 = {
+				bunker = 1
+			}
+
 		}
 		add_core_of = TUR
 		add_core_of = KUR
-		add_claim_by = ARM
+
 	}
 
-	provinces={
-		1463 7530 10497 12318 12476 12387 4512 12416 11739 9858 11880 10399
+	provinces = {
+		864 1463 4583 6935 7470 7530 11880 12318 12476 13121
 	}
+	manpower = 270542
+	buildings_max_level_factor = 1
+	state_category = rural
 }

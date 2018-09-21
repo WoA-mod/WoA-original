@@ -1,0 +1,29 @@
+
+state={
+	id=776
+	name="STATE_776"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		victory_points = {
+			2089 1 
+		}
+		buildings = {
+			infrastructure = 2
+			2089 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		78 2089 5095 7977 12726 13224 13231 
+	}
+	manpower=615600
+	buildings_max_level_factor=1.000
+	state_category=city
+}

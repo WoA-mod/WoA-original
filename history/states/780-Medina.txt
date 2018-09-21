@@ -1,27 +1,26 @@
 
 state={
-	id=902
-	name="STATE_902"
+	id=780
+	name="STATE_780"
 
 	history={
 		owner = TUR
 		victory_points = {
-			7454 1 
+			10835 5 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 
 		}
-		add_core_of = TUR
-		add_core_of = GEO
+		add_claim_by = TUR
 
 	}
 
 	provinces={
-		1
+		1033 2027 2033 2095 8092 10835 11232 12101 
 	}
-	manpower=155725
+	manpower=234510
 	buildings_max_level_factor=1.000
 	state_category=town
 }
