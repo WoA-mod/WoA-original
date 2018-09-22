@@ -1,0 +1,27 @@
+state = {
+	id = 967
+	name = "STATE_967"
+	manpower = 145000
+
+	state_category = pastoral
+
+	history = {
+		owner = AZR
+		victory_points = {
+			1467 1
+		}
+
+		buildings = {
+			infrastructure = 2
+			1467 = {
+				bunker = 2
+			}
+
+		}
+		add_core_of = AZR
+	}
+
+	provinces = {
+		1467 9715
+	}
+}
