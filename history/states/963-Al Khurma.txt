@@ -1,0 +1,19 @@
+state = {
+	id = 963
+	name = "STATE_963"
+	manpower = 26547
+	state_category = rural
+
+	history = {
+		owner = ARB
+		add_claim_by = JBS
+		add_core_of = ARB
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		2090 10748
+	}
+}

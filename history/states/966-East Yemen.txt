@@ -1,6 +1,6 @@
 state = {
-	id = 348 #Actually, this is Hadhramut in Yemen
-	name = "STATE_348"
+	id = 966
+	name = "STATE_966"
 
 	history = {
 		owner = YEM

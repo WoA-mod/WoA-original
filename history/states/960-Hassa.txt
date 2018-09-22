@@ -1,7 +1,7 @@
 
 state={
-	id=658
-	name="STATE_658"
+	id=960
+	name="STATE_960"
 
 	history={
 		owner = ARB
@@ -9,19 +9,15 @@ state={
 		add_claim_by = ARB
 		buildings = {
 			infrastructure = 2
-			7960 = {
-				naval_base = 3
-
-			}
 
 		}
 
 	}
 
 	provinces={
-		2048 4932 4932 7960 8108 10904 
+		1955 10850 12749 13232 
 	}
-	manpower=108000
+	manpower=102129
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }

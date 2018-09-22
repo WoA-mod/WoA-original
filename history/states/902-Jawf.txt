@@ -1,0 +1,20 @@
+state = {
+	id = 902
+	name = "STATE_902"
+	manpower = 68189
+
+	state_category = rural
+
+	history = {
+		owner = ARB
+		add_core_of = ARB
+		add_claim_by = ARB
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		4974 5058 8101 10815 10901
+	}
+}
