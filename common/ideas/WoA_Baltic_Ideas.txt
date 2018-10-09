@@ -1,0 +1,42 @@
+###############
+#BALTIC IDEAS#
+###############
+
+#########################################################
+#Coded by AirHunter, do not touch without his permission#
+#########################################################
+ideas = {
+
+	country = {
+
+		LIT_army_with_a_state = {
+			picture = generic_manpower_bonus
+			modifier = {
+				conscription_factor = 0.10
+				army_org_Factor = 0.10
+				political_power_gain  = -0.75
+				production_speed_buildings_factor = -0.30
+			}
+		}
+		
+		UBD_stability_at_last = {
+			picture = UBD_stability_at_last
+			modifier = {
+				stability_factor = 0.30
+				conscription = -0.75
+				army_org_Factor = -0.25
+			}
+		}
+		
+		UBD_the_two_state_solution = {
+			picture = UBD_the_two_state_solution
+			modifier = {
+				stability_factor = 0.15
+				political_power_factor = 0.25
+			}
+			targeted_modifier = { tag = LIT mic_to_target_factor = 0.75 }
+		}
+		
+	}
+	
+}

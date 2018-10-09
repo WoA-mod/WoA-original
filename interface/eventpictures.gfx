@@ -1918,6 +1918,18 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_canada_ronnie.dds"
 	}
 	
+	
+	###Whispers of Antiquity Temporary
+	spriteType = {
+		name = "GFX_country_event_GER_reestablishment_of_OHL"
+		texturefile = "gfx/event_pictures/German Empire/GER_reestablishment_of_OHL.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_country_event_GER_OHL_requests_supplies"
+		texturefile = "gfx/event_pictures/German Empire/GER_OHL_requests_supplies.dds"
+	}
+	
 }
 	
 	
