@@ -7,7 +7,7 @@ state={
 	state_category = town
 	
 	history={
-		owner = LIT
+		owner = UBD
 		victory_points = {
 			3194 1 
 		}
@@ -20,7 +20,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = LIT
+		add_core_of = UBD
 	}
 
 	provinces={

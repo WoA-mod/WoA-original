@@ -1,8 +1,9 @@
-﻿capital = 11
+﻿capital = 96
 
 set_research_slots = 3
 
 add_ideas = {
+	LIT_army_with_a_state
 	limited_conscription
 	GEN_Oscar_Jensen_hog_pau
 	GEN_Lucas_Friberg_for_pau

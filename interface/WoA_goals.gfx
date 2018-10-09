@@ -286,7 +286,47 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GER_continuation_of_weltpolitik.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_goal_GER_return_of_the_supreme_command"
+		texturefile = "gfx/interface/goals/GER_return_of_the_supreme_command.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GER_ensure_crown_loyalty"
+		texturefile = "gfx/interface/goals/GER_ensure_crown_loyalty.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GER_section_IIIb"
+		texturefile = "gfx/interface/goals/GER_section_IIIb.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GER_ensure_military_discipline"
+		texturefile = "gfx/interface/goals/GER_ensure_military_discipline.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GER_war_doctrines"
+		texturefile = "gfx/interface/goals/GER_war_doctrines.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GER_reestablish_the_SKL"
+		texturefile = "gfx/interface/goals/GER_reestablish_the_SKL.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GER_guarantee_supplies"
+		texturefile = "gfx/interface/goals/GER_guarantee_supplies.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GER_convert_our_economy"
+		texturefile = "gfx/interface/goals/GER_convert_our_economy.dds"
+	}
 	###Russia
+	
 	SpriteType = {
 		name = "GFX_goal_RUS_belarus_question"
 		texturefile = "gfx/interface/goals/RUS_belarus_question.tga"
