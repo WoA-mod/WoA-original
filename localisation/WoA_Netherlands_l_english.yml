@@ -1,0 +1,24 @@
+﻿l_english:
+
+#### Political Parties ####
+
+HOL_utopianism_party:0 "CPN"
+HOL_utopianism_party_long:0 "Communistische Partij Nederland"
+HOL_council_communist_party:0 "CAPN"
+HOL_council_communist_party_long:0 "Communistische Arbeiders-Partij Nederland"
+HOL_socialist_party:0 "RSAP"
+HOL_socialist_party_long:0 "Revolutionair Socialistische Arbeiderspartij"
+HOL_social_democrat_party:0 "SDAP"
+HOL_social_democrat_party_long:0 "Sociaal-Democratische Arbeiderspartij"
+HOL_liberal_party:0 "LSP"
+HOL_liberal_party_long:0 "Liberale Staatspartij"
+HOL_conservative_party:0 "RSKP"
+HOL_conservative_party_long:0 "Rooms-Katholieke Staatspartij"
+HOL_authoritarian_democrat_party:0 "Democrats"
+HOL_authoritarian_democrat_party_long:0 "Democratic Faction"
+HOL_paternal_autocrat_party:0 "Autocrats"
+HOL_paternal_autocrat_party_long:0 "Autocratic Faction"
+HOL_national_populist_party:0 "VNNB"
+HOL_national_populist_party_long:0 "Verenigde Nederlandse Nationalistische Beweging"
+HOL_antiquarian_nationalist_party:0 "Restorationists"
+HOL_antiquarian_nationalist_party_long:0 "Restorationist Faction"
