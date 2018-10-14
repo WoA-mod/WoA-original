@@ -18,61 +18,82 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		social_democrat = {
-			popularity = 0
+		utopianism = { 
+			popularity = 1
 		}
-		conservative = {
-			popularity = 18
+		council_communist = { 
+			popularity = 3
 		}
-		authoritarian_democrat = {
-			popularity = 10
+		socialist = { 
+			popularity = 2
+		}
+		social_democrat = { 
+			popularity = 9
+		}
+		liberal = { 
+			popularity = 15
+		}
+		conservative = { 
+			popularity = 15
+		}
+		authoritarian_democrat = { 
+			popularity = 32
 		}
 		paternal_autocrat = {
-			popularity = 56
+			popularity = 17
+		}
+		national_populist = {
+			popularity = 3
+		}
+		antiquarian_nationalist = {
+			popularity = 3
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 add_ideas = {
-	#
+	Stable_Rule
+	Treaty_of_Windhoek
 }
 
-set_convoys = 100
+set_convoys = 50
 set_stability = 0.29
-set_war_support = 0.88
+set_war_support = 0.47
 
 
 create_country_leader = {
-	name = "Manuel II"
-	desc = "POLITICS_MANUEL_II_DESC"
-	picture = "Portrait_Manuel_II.tga"
+	name = "Sidónio Pais"
+	desc = "POLITICS_SIDONIO_PAIS_DESC"
+	picture = "Sidonio_Pais.tga"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
 }
 
-#create_country_leader = {
-#	name = "Bento Gonçalves"
-#	desc = "POLITICS_BENTO_GONCALVES_DESC"
-#	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-#	expire = "1965.1.1"
-#	ideology = collectivist_subtype
-#	traits = {
-#		#
-#	}
-#}
+
 
 create_country_leader = {
-	name = "Francisco de Barcelos Rolão Preto"
-	desc = "POLITICS_FRANSISCO_BARCELOS_ROLAO_PRETO_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	name = "Francisco Rolão Preto"
+	desc = "POLITICS_FRANSISCO_ROLAO_PRETO_DESC"
+	picture = "Francisco_Rolão_Preto.tga"
+	expire = "1965.1.1"
+	ideology = antiquarian_nationalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "SMF Duarte II"
+	desc = "POLITICS_FRANSISCO_ROLAO_PRETO_DESC"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {
@@ -80,12 +101,23 @@ create_country_leader = {
 	}
 }
 
-
-create_corps_commander = {
-	name = "Manuel II"
-	picture = "Portrait_Manuel_II_general.tga"
-	traits = {  }
-	skill = 3
-
+create_country_leader = {
+	name = "SMF Duarte II"
+	desc = "POLITICS_FRANSISCO_ROLAO_PRETO_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
 }
+
+
+#create_corps_commander = {
+#	name = "Manuel II"
+#	picture = "Portrait_Manuel_II_general.tga"
+#	traits = {  }
+#	skill = 3
+#
+#}
 
