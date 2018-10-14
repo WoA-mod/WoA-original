@@ -1,0 +1,33 @@
+################
+#Netherlands IDEAS#
+################
+
+##############################################################
+#Coded by Silverscorpion, Designed by Lord Apple, do not touch without their permission#
+##############################################################	
+ideas = {
+		
+	country = {	
+
+
+	Legacy_Of_Red_Week = {
+			picture = uncompetitive_eco
+			modifier = {
+				production_factory_max_efficiency_factor = -0.05
+				industrial_capacity_factory = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+			}
+
+		}
+		
+		Young_Junta  = {
+			#on_add = {log = "[GetDateText]: [Root.GetName]: add idea BUL_high_military_buget"}
+			picture = generic_intel_bonus
+			modifier = {
+				stability_weekly = 0.01
+				political_power_gain = 0.5
+			}
+		}
+		
+		}
+	}

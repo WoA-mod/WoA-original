@@ -79,6 +79,8 @@ set_politics = {
 
 add_ideas = {
 	extensive_conscription
+	Legacy_Of_Red_Week
+	Young_Junta
 }
 
 
