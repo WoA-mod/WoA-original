@@ -923,3 +923,8 @@ GMY = {
 	color = rgb { 98 98 98 }
 	color_ui = rgb { 134 134 134 }
 }
+
+CCR = {
+	color = rgb { 130 0 20 }
+	color_ui = rgb { 130 0 20 }
+}

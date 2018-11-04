@@ -167,7 +167,6 @@ HSR = "countries/Hungarian Soviet Republic.txt"
 
 #Spanish Countries
 SPM = "countries/Kingdom of Spain.txt"
-
 INC = "countries/Indian Communist Government.txt"
 TRV = "countries/Travancore.txt"
 MAD = "countries/Madras.txt"
@@ -200,11 +199,9 @@ NFQ = "countries/NFQ.txt"
 #Kept here to not cause errors.
 WGR = "countries/West Germany.txt"
 SPR = "countries/Spain.txt"
-
 RUS = "countries/Russia.txt"
 
 #New Whispers of Antiquity tags
-
 CRI = "countries/Crimea.txt"
 DAN = "countries/Danubia.txt"
 MOL = "countries/Moldovia.txt"
@@ -217,3 +214,4 @@ BUR = "countries/Burma.txt"
 GMY = "countries/German Malaya.txt"
 CRE = "countries/Crete.txt"
 KCH = "countries/Kamchatka.txt"
+CCR = "countries/Communist Croatia.txt"
