@@ -9,15 +9,15 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 50 y = 2000	}
+	continuous_focus_position = { x = 50 y = 5000 }
 
 	#Elections!
 	focus = {
 		id = CRO_elections_1936
 		icon = GFX_goal_support_democracy
 		x = 13
-		#y = 0
-		y = 40
+		y = 0
+		#y = 40
 		cost = 1
 		ai_will_do = {
 			factor = 1
@@ -1789,16 +1789,19 @@ focus_tree = {
 #	Whispers of Antiquity - AntNat Path
 #	AKA "What if I don't purge? It's obviously the smartest choice!"
 #	"No debuffs, right?"
+#	"Right?"
 ######################################################################
+
 	#THE MOVEMENT TAKES OVER
+	#Get national spirit "Jaksa Racic" which grants +10% stability and +10% war support
 	focus = {
 		id = CRO_illyrian_takeover
-		icon = PLACEHOLDER
+		icon = PLACEHOLDER #Custom
 		available = {
 			always = no
 		}
-		x = 6
-		y = 0
+		x = 8
+		y = 10
 		cost = 5
 	}
 	#OUR LEADERSHIP
@@ -1815,6 +1818,9 @@ focus_tree = {
 		y = 1
 		cost = 5
 	}
+######################################################################
+#	Jaksa Racic, the senile 70-years-old dictator
+######################################################################
 	#ROMAN ALLEGIANCE
 	#Italy gets an event about Croatia offering an alliance. They can either:
 	# - "We welcome them as our equals in our nationalistic struggle"
@@ -1822,62 +1828,371 @@ focus_tree = {
 	# - "They'll have to recognize Rome's supremacy."
 	#	Forces Croatia to become a puppet of Italy. Croatia gets back an event about accepting or not. If they don't accept, Racic retires and Bartulovic becomes leader. If they accept, they become a puppet, and short after they get an event chain about negotiating the fate of Dalmatia. Three outcomes: only Fiume, Fiume and Southern Dalmatia, all of the coast. The last one is the least likely.
 	# - "Rome has no friends, but rome itself."
-	#	Rome refuses. In Croatia, an event fires about Racic resigning and Bartulovic takes over.
+	#	Rome refuses. In Croatia, an event fires about Racic resigning and Bartulovic takes over
 	focus = {
 		id = CRO_roman_allegiance
-		icon = PLACEHOLDER
+		icon = PLACEHOLDER #Custom Jaksa racic icon
 		available = {
 			always = no
 		}
 		prerequisite = { focus = CRO_illyrian_leadership }
 		relative_position_id = CRO_illyrian_leadership
+		x = -2
+		y = 1
+		cost = 1
+	}
+	#THE AUTONOMOUS PROVINCE OF ILLYRIA
+	#An event fires explaining the status of Croatia. Only lore, gains 20 PP and sets racic's title to that of "Proconsul"
+	focus = {
+		id = CRO_province_illyria
+		icon = PLACEHOLDER #Custom icon
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_roman_allegiance }
+		mutually_exclusive = { focus = CRO_vodas_rule }
+		relative_position_id = CRO_roman_allegiance
 		x = -1
 		y = 1
-		cost = 1
+		cost = 5
 	}
-	#SLAVIC IDENTITY
-	#Bartulovic takes over. Gets an event about the new political line of the party. Will be bypassed if Bartulovic takes over in the other way.
+	#THE VODA'S RULE
+	#An event fires explaining Croatia's new regime. Gain 20PP and set racic's title to Vođa.
 	focus = {
-		id = CRO_slavic_allegiance
+		id = CRO_vodas_rule #Custom icon
 		icon = PLACEHOLDER
 		available = {
 			always = no
 		}
-		prerequisite = { focus = CRO_illyrian_leadership }
-		relative_position_id = CRO_illyrian_leadership
-		x = 1
-		y = 1
-		cost = 1
-	}
-	#RETAKE BOSNIA
-	#Bosnia gets an event about getting annexed by Croatia. Will refuse only with foreign backing, far left government, or nationalist government. Sarkotic becomes available as a general if he is still alive.
-	focus = {
-		id = CRO_retake_bosnia
-		icon = PLACEHOLDER
-		available = {
-			always = no
-		}
-		prerequisite = {
-			focus = CRO_roman_allegiance
-			focus = CRO_slavic_allegiance
-		}
+		prerequisite = { focus = CRO_roman_allegiance }
+		mutually_exclusive = { focus = CRO_province_illyria }
 		relative_position_id = CRO_roman_allegiance
 		x = 1
 		y = 1
 		cost = 5
 	}
-	#THE TRADITION OF SOMETHING
+	#PROVE OUR WORTH
+	#Declare war on Bosnia, gain national spirit "For Rome!" which grants war support +15% recovery speed +5% and entrenchment speed +5%
 	focus = {
-		id = CRO_test
-		icon = PLACEHOLDER
+		id = CRO_prove_worth
+		icon = GFX_focus_generic_support_the_left_right
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_province_illyria }
+		relative_position_id = CRO_province_illyria
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#TRIUMPH FOR BOSNIA
+	#Core bosnia.
+	#Add some ridiculous bonuses to "For Rome!"
+	focus = {
+		id = CRO_triumph_for_bosnia
+		icon = PLACEHOLDER #custom icon
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_prove_worth }
+		relative_position_id = CRO_prove_worth
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#MOESIA SUPERIOR
+	#Asks through event Rome about a war on Serbia. If they accept, Italy and Croatia attack Serbia and probably rape it. Otherwise, Rome has two buttons: 1, allow them to do it on their own, and 2, forbid them (AI will never pick this). In case they pick 2, they'll get a decision that when enacted will declare war on serbia.
+	focus = {
+		id = CRO_moesia_superior
+		icon = GFX_goal_generic_military_deal
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_triumph_for_bosnia }
+		relative_position_id = CRO_triumph_for_bosnia
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#When serbia is conquered successfully, fire event about having to put the region under military control and another law about giving the militarymen in charge a hella lot of autonomy. Add national spirit "Autonomous occupational governments" which grants -10% stability and -0.50 PP gain. Occasionally, an event will fire about these generals minding their own business a little bit too much, and the player will be forced to pick between two malii.
+
+	#When albania is successfully conquered, double all maluses from Autonomous occupational governments.
+	
+	#SOUTHERN BORDER
+	#Demand bosnian annexation. The only one who will accept it is Sarkotic, who has a mere 10% chance anyway.
+	focus = {
+		id = CRO_southern_border
+		icon = GFX_goal_demand_sudetenland
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_vodas_rule }
+		relative_position_id = CRO_vodas_rule
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#INTEGRATE BOSNIA
+	#Core bosnia
+	focus = {
+		id = CRO_integrate_bosnia
+		icon = GFX_goal_generic_national_unity
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_southern_border }
+		relative_position_id = CRO_southern_border
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#THE MOESIAN WAR
+	#Declare war on serbia. All that crap about the warlords still applies, only no proconsul pretender will spawn.
+	focus = {
+		id = CRO_moesian_war
+		icon = GFX_goal_generic_position_armies-
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_integrate_bosnia }
+		relative_position_id = CRO_integrate_bosnia
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#DOWN WITH THE BLACK EAGLE
+	#Declare war on serbia. All that crap about the warlords still applies, only no proconsul pretender will spawn.
+	focus = {
+		id = CRO_down_with_the_black_eagle
+		icon = PLACEHOLDER #custom icon
 		available = {
 			always = no
 		}
 		prerequisite = {
-			focus = CRO_retake_bosnia
+			focus = CRO_moesian_war
+			focus = CRO_moesia_superior
 		}
-		relative_position_id = CRO_retake_bosnia
+		relative_position_id = CRO_moesian_war
 		x = -1
+		y = 1
+		cost = 5
+	}
+	#DEALING WITH THE WARLORDS
+	#Unlock the decision tree about curtailing the warlord power. If the player fucks up too much the warlords can riot and establish the "Federal State of Yugoslavia" under a military dictatorship. Some paths will also seem them rise up as individual states, though much weaker and easier to kill, as they will have no cores at the beginning. Might even make them "playable", although with minimal focus trees. Some of them aim to become independent local rulers, others want the title of proconsul for themselves. 
+	focus = {
+		id = CRO_crush_warlords
+		icon = GFX_focus_generic_self_management
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRO_albanoi
+			focus = CRO_down_with_the_black_eagle
+		}
+		relative_position_id = CRO_albanoi
+		x = 1
+		y = 1
+		cost = 20
+	}
+	#Once Illyria is a properly functioning state, a decision pops up with no warning, a decision about rioting against rome. The proconsul becomes Emperor of Illyria. However, Illyria loses all rome buffs and gets a major stability debuff. Plus, you know, rome gets an event about declaring war on them immediately and if they win they can split the province.
+######################################################################
+#	Niko Bartulovic, the unpopular figurehead who isn't senile yet
+######################################################################
+	#SLAVIC IDENTITY
+	#Bartulovic takes over. Get national spirit "Unpopular rule" which gives -25% stability and -1.5 PP gain.
+	focus = {
+		id = CRO_slavic_allegiance
+		icon = PLACEHOLDER #custom niko bartulovic icon
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_illyrian_leadership }
+		relative_position_id = CRO_illyrian_leadership
+		x = 2
+		y = 1
+		cost = 1
+	}
+	#BARTULOVIC'S SPEECH
+	#Get event "Bartulovic addresses the Revolutionary Council", in which he does a speech concerning his differences with Racic and explaining that he is completely loyal to the revolution.
+	#After a few days, another event pops up, asking whether or not try to have Racic assassinated. Doing so has a 50% chance of being discovered (if it is discovered, the illyrian movement will collapse, get national spirit "Government in shambles" which gives -50% stability and -50% war support. If that happens, nationalists are doomed, after a month a bloodless communist coup will happen). If Bartulovic opts for "No! The Father of the Revolution is sacred!" he will have a harder time adapting the line of the party to his own view. However, at the same time, Racic chose him as his successor, therefore a living Jaksa racic will help him with his amazing buff.
+	focus = {
+		id = CRO_bartulovic_speech
+		icon = GFX_goal_new_treaty
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_slavic_allegiance }
+		relative_position_id = CRO_slavic_allegiance
+		x = -1
+		y = 1
+		cost = 5
+	}
+	#THE NEW LINE OF THE MOVEMENT
+	#Gets the event "Who are the Illyrians?" in which says pretty much this.
+	focus = {
+		id = CRO_new_party_policy
+		icon = GFX_goal_generic_attack_allies
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_bartulovic_speech }
+		relative_position_id = CRO_bartulovic_speech
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#Životni Prostor
+	#Gain PP, get event explaining what that is
+	focus = {
+		id = CRO_lebensraum
+		icon = PLACEHOLDER #custom icon
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_new_party_policy }
+		relative_position_id = CRO_new_party_policy
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#A LOYAL COUNTRY
+	#Remove unpopular rule spirit, gain pp
+	focus = {
+		id = CRO_loyal_country
+		icon = GFX_goal_generic_improve_relations
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_lebensraum }
+		relative_position_id = CRO_lebensraum
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#FORMALIZE ILLYRIAN RULE
+	#Adds the title, and 5% stability and war support.
+	focus = {
+		id = CRO_formalize_rule
+		icon = GFX_goal_generic_forceful_treaty
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_loyal_country }
+		relative_position_id = CRO_loyal_country
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#TAKE BOSNIA
+	#Gain cores on all of Bosnia, and a CB on them.
+	focus = {
+		id = CRO_take_bosnia
+		icon = GFX_goal_generic_major_war
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_slavic_allegiance }
+		relative_position_id = CRO_slavic_allegiance
+		x = 1
+		y = 1
+		cost = 5
+	}
+	#SUBJUGATE THE SERBIANS
+	#Gain CB on serbia, once done you get an event about coring it (and about serb resistance).
+	focus = {
+		id = CRO_subjugate_serbians
+		icon = GFX_goal_generic_more_territorial_claims
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_take_bosnia }
+		relative_position_id = CRO_take_bosnia
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#DEMAND KOSOVO
+	#Albania will accept almost always, unless nationalistic or much stronger (unlikely). Core Kosovo.
+	focus = {
+		id = CRO_demand_kosovo
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_subjugate_serbians }
+		relative_position_id = CRO_subjugate_serbians
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#ATTACK THE BULGARIANS
+	#Gain CB on Bulgaria. Bulgaria gets some nice buff. When won, Illyria gets an event to core Bulgaria and gets an event about bulgarian resistance (much stronger than the serbian one).
+	focus = {
+		id = CRO_tsarfall
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_demand_kosovo }
+		relative_position_id = CRO_demand_kosovo
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#MASS INDOCTRINATION
+	#Unlock a series of decisions quite expensive in PP whose ultimate goal is removal of resistance.
+	focus = {
+		id = CRO_indoctrination
+		icon = GFX_goal_generic_major_war
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_tsarfall }
+		relative_position_id = CRO_tsarfall
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#LOOK NORTH
+	#Claim most of today's Romania
+	focus = {
+		id = CRO_look_north
+		icon = PLACEHOLDER #custom icon
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_indoctrination }
+		prerequisite = { focus = CRO_formalize_rule }
+		relative_position_id = CRO_indoctrination
+		x = -1
+		y = 1
+		cost = 5
+	}
+	#THE FATE OF GREECE
+	#Claim Epirus and Peloponnese, and Southern and Western Macedonia. Claim albania. Demand subjugation of Greece, they'll accept if much weaker.
+	focus = {
+		id = CRO_fate_of_greece
+		icon = PLACEHOLDER #custom icon
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_look_north }
+		relative_position_id = CRO_look_north
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#CARIGRAD
+	#Claim remaining Thrace and Constantinople.
+	focus = {
+		id = CRO_carigrad #custom icon
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_fate_of_greece }
+		relative_position_id = CRO_fate_of_greece
+		x = 0
 		y = 1
 		cost = 5
 	}
