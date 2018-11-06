@@ -25,47 +25,58 @@ set_technology = {
 
 set_politics = {
 
-parties = {
-		social_democrat = {
+	parties = {
+		utopianism = { 
+			popularity = 2
+		}
+		council_communist = { 
+			popularity = 10
+		}
+		socialist = { 
+			popularity = 10
+		}
+		social_democrat = { 
+			popularity = 3
+		}
+		liberal = { 
 			popularity = 0
 		}
-		conservative = {
-			popularity = 12
+		conservative = { 
+			popularity = 4
 		}
-		authoritarian_democrat = {
-			popularity = 35
+		authoritarian_democrat = { 
+			popularity = 42
 		}
 		paternal_autocrat = {
-			popularity = 47
+			popularity = 14
+		}
+		national_populist = {
+			popularity = 12
+		}
+		antiquarian_nationalist = {
+			popularity = 3
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_convoys = 150
+add_ideas = {
+	Treaty_of_Madrid
+	Upcoming_March_on_Madrid
+}
+
+set_convoys = 100
 set_stability = 0.55
 set_war_support = 0.75
 
-
 create_country_leader = {
-	name = "HM Jaime Leopoldo y Battenberg"
-	desc = "POLITICS_JAIME_LEOPOLDO_BATTENBERG_DESC"
-	picture = "Portrait_SPM_Infante_Jaime.tga"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "HM Jaime Leopoldo y Battenberg"
-	desc = "POLITICS_JAIME_LEOPOLDO_BATTENBERG_DESC"
-	picture = "Portrait_SPM_Infante_Jaime.tga"
+	name = "Alfonso XIII "
+	desc = "POLITICS_Alfonso_XIII_DESC"
+	picture = "Alfonso_Bourbon.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -74,11 +85,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "HM Jaime Leopoldo y Battenberg"
-	desc = "POLITICS_JAIME_LEOPOLDO_BATTENBERG_DESC"
-	picture = "Portrait_SPM_Infante_Jaime.tga"
+	name = "Alfonso XIII "
+	desc = "POLITICS_Alfonso_XIII_DESC"
+	picture = "Alfonso_Bourbon.tga"
 	expire = "1965.1.1"
-	ideology = social_democrat_subtype
+	ideology = paternal_autocrat_subtype
 	traits = {
 		#
 	}

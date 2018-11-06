@@ -32,28 +32,28 @@ set_politics = {
 			popularity = 2
 		}
 		socialist = { 
-			popularity = 15
+			popularity = 14
 		}
 		social_democrat = { 
 			popularity = 11
 		}
 		liberal = { 
-			popularity = 25
+			popularity = 18
 		}
 		conservative = { 
-			popularity = 32
+			popularity = 28
 		}
 		authoritarian_democrat = { 
 			popularity = 5
 		}
 		paternal_autocrat = {
-			popularity = 1
+			popularity = 7
 		}
 		national_populist = {
-			popularity = 8
+			popularity = 12
 		}
 		antiquarian_nationalist = {
-			popularity = 0
+			popularity = 1
 		}
 	}
 	
@@ -94,7 +94,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Paul Van Zeeland"
 	desc = "POLITICS_ALBERT_I_DESC"
-	picture = ""
+	picture = "Portrait_Belgium_Paul_van_Zeeland.tga"
 	expire = "1965.1.1"
 	ideology = conservative_subtype
 	traits = {

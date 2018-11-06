@@ -56,7 +56,42 @@ spriteTypes = {
 		name = "GFX_goal_generic_press_censorship"
 		texturefile = "gfx/interface/goals/goal_generic_press_censorship.dds"
 	}
+		###Argentina 
+	SpriteType = {
+		name = "GFX_ARG_focus_autonomous_region_of_uruguay"
+		texturefile= "gfx/interface/goals/ARG_focus_autonomous_region_of_uruguay.dds"
+	}
+	SpriteType = {
+		name = "GFX_ARG_focus_confederation_of_the_river_plate"
+		texturefile= "gfx/interface/goals/ARG_focus_confederation_of_the_river_plate.dds"
+	}
 	
+			###Greece
+	SpriteType = {
+		name = "GFX_goal_metaxas_greece"
+		texturefile = "gfx/interface/goals/GFX_goal_metaxas_greece.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_George_Coup"
+		texturefile = "gfx/interface/goals/GFX_goal_George_Coup_.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_EON"
+		texturefile = "gfx/interface/goals/GFX_goal_EON.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_Hellenic_Republic"
+		texturefile = "gfx/interface/goals/GFX_goal_Hellenic_Republic.dds"
+	}
+	
+		###Russia
+	SpriteType = {
+		name = "GFX_goal_RUS_belarus_question"
+		texturefile = "gfx/interface/goals/RUS_belarus_question.tga"
+	}
 	###Switzerland
 	
 	SpriteType = {
@@ -69,19 +104,5 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SWI_restore_the_old_confederacy.dds"
 	}
 	
-	###Russia
-	SpriteType = {
-		name = "GFX_goal_RUS_belarus_question"
-		texturefile = "gfx/interface/goals/RUS_belarus_question.tga"
-	}
-	
-	###Argentina 
-	SpriteType = {
-		name = "GFX_ARG_focus_autonomous_region_of_uruguay"
-		texturefile= "gfx/interface/goals/ARG_focus_autonomous_region_of_uruguay.dds"
-	}
-	SpriteType = {
-		name = "GFX_ARG_focus_confederation_of_the_river_plate"
-		texturefile= "gfx/interface/goals/ARG_focus_confederation_of_the_river_plate.dds"
-	}
+
 }

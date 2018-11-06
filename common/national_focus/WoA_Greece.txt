@@ -22,7 +22,7 @@ focus_tree = {
 		
 		focus = {
 		id = GRE_The_Mextaxas_Regime 
-		icon = GFX_goal_WIP
+		icon = GFX_goal_metaxas_greece
 		prerequisite = {
 			#focus = GRE_The_Spring_crisis
 		}
@@ -129,7 +129,7 @@ focus_tree = {
 	
 					focus = {
 		id = GRE_Establish_EON 
-		icon = GFX_goal_WIP
+		icon = GFX_goal_EON
 		prerequisite = {
 			focus = GRE_Eradicate_Opposition
 		}
@@ -501,7 +501,7 @@ focus_tree = {
 	
 			focus = {
 		id = GRE_Declare_The_Third_republic
-		icon = GFX_goal_WIP
+		icon = GFX_goal_Hellenic_Republic
 		prerequisite = {
 			focus = GRE_Expand_Universities
 		}
@@ -534,7 +534,7 @@ focus_tree = {
 		
 		focus = {
 		id = GRE_George_Coup
-		icon = GFX_goal_WIP
+		icon = GFX_goal_George_Coup
 		prerequisite = {
 			#focus = GRE_The_Spring_crisis
 		}

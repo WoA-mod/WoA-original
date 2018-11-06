@@ -34,13 +34,13 @@ set_politics = {
 
 	parties = {
 		utopianism = { 
-			popularity = 10
+			popularity = 6
 		}
 		council_communist = { 
 			popularity = 6
 		}
 		socialist = { 
-			popularity = 7
+			popularity = 4
 		}
 		social_democrat = { 
 			popularity = 15
@@ -49,13 +49,13 @@ set_politics = {
 			popularity = 13
 		}
 		conservative = { 
-			popularity = 32
+			popularity = 13
 		}
 		authoritarian_democrat = { 
-			popularity = 5
+			popularity = 25
 		}
 		paternal_autocrat = {
-			popularity = 11
+			popularity = 17
 		}
 		national_populist = {
 			popularity = 1
@@ -65,7 +65,7 @@ set_politics = {
 		}
 	}
 
-    ruling_party = conservative
+    ruling_party = authoritarian_democrat
     last_election = "1935.9.8"
     election_frequency = 36
     elections_allowed = no
@@ -83,9 +83,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alexander II"
-	desc = "POLITICS_ALEXANDER_II_DESC"
-	picture = "WOA_Alexander_II_Serbia.tga"
+	name = "Prince Paul"
+	desc = "POLITICS_Prince_Paul_DESC"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -94,9 +94,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-        name = "Alexander II"
-	desc = "POLITICS_ALEXANDER_II_DESC"
-	picture = "WOA_Alexander_II_Serbia.tga"
+        name = "Prince Paul"
+	desc = "POLITICS_Prince_Paul_DESC"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -105,9 +105,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-        name = "Alexander II"
-	desc = "POLITICS_ALEXANDER_II_DESC"
-	picture = "WOA_Alexander_II_Serbia.tga"
+        name = "Prince Paul"
+	desc = "POLITICS_Prince_Paul_DESC"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = conservative_subtype
 	traits = {

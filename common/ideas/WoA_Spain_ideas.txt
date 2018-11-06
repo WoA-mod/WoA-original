@@ -1,0 +1,31 @@
+################
+#Portugal IDEAS#
+################
+
+##############################################################
+#Coded by Silverscorpion, do not touch without his permission#
+##############################################################	
+ideas = {
+		
+	country = {	
+
+
+	Treaty_of_Madrid = {
+			picture = generic_constitutional_guarantees
+			modifier = {
+				stability_factor = 0.10
+				war_support_factor = -0.10
+			}
+
+		}
+		
+		Upcoming_March_on_Madrid  = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea Treaty_of_Windhoek"}
+			picture = country_focus_army
+			modifier = {
+			}
+		}
+		
+		
+		}
+	}
