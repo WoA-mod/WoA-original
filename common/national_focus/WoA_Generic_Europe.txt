@@ -25,7 +25,7 @@ focus_tree = {
 # The Future Of Our Country
 focus = {
 	id = generic_eu_politics
-	icon = generic_pp_unity_bonus
+	icon = GFX_goal_tripartite_pact
 	x = 48
 	y = 6
 	cost = 6
@@ -565,6 +565,7 @@ focus = {
 		prerequisite = {
 		focus = generic_eu_worker_struggle
 		}
+		mutually_exclusive = { focus = generic_eu_people_know_best }
 		relative_position_id = generic_eu_worker_struggle
 		x = -10
 		y = 1
@@ -671,9 +672,7 @@ focus = {
 	prerequisite = {
 	focus = generic_eu_nationalist_economy
 	}
-	mutually_exculsive = {
-	focus = generic_eu_worker_no_help
-	}
+	mutually_exculsive = { focus = generic_eu_worker_no_help }
 	relative_position_id = generic_eu_nationalist_economy
 	x = -5
 	y = 1
@@ -779,6 +778,7 @@ focus = {
 	prerequisite = {
 	focus =  generic_eu_nationalist_economy
 	}
+	mutually_exclusive = { focus = generic_eu_mechanization }
 	relative_position_id = generic_eu_nationalist_economy
 	x = 5
 	y = 1
@@ -1137,6 +1137,7 @@ focus = {
 		prerequisite = {
 		focus = generic_eu_worker_struggle
 		}
+		mutually_exclusive = { focus = generic_eu_nationalist_economy }
 		relative_position_id = generic_eu_worker_struggle
 		x = 10
 		y = 1
@@ -1242,12 +1243,13 @@ focus = {
 	icon = GFX_goal_support_democracy
 	prerequisite = {
 	focus = generic_eu_people_know_best
+	focus = generic_eu_collectivize
 	}
 	mutually_exculsive = {
 	focus = generic_eu_local_commune_authority
 	}
 	relative_position_id = generic_eu_people_know_best
-	x = -5
+	x = 5
 	y = 1
 	cost = 6
 	ai_will_do = {
@@ -1263,8 +1265,9 @@ focus = {
 	prerequisite = {
 	focus = generic_eu_further_individual_freedoms
 	}
+	mutually_exclusive = { focus = generic_eu_further_individual_freedoms }
 	relative_position_id = generic_eu_further_individual_freedoms
-	x = 1
+	x = -1
 	y = 1
 	cost = 6
 	ai_will_do = {
@@ -1298,7 +1301,7 @@ focus = {
 	focus = generic_eu_further_individual_freedoms
 	}
 	relative_position_id = generic_eu_further_individual_freedoms
-	x = -1
+	x = 1
 	y = 1
 	cost = 6
 	ai_will_do = {
@@ -1335,7 +1338,7 @@ focus = {
 	focus = generic_eu_basic_income
 	}
 	relative_position_id = generic_eu_basic_income
-	x = 1
+	x = -1
 	y = 1
 	cost = 6
 	ai_will_do = {
@@ -1351,8 +1354,9 @@ focus = {
 	prerequisite = {
 	focus =  generic_eu_people_know_best
 	}
+	mutually_exclusive = { focus = generic_eu_further_individual_freedoms }
 	relative_position_id = generic_eu_people_know_best
-	x = 5
+	x = -5
 	y = 1
 	cost = 6
 	ai_will_do = {
@@ -1369,7 +1373,7 @@ focus = {
 	focus =  generic_eu_local_commune_authority
 	}
 	relative_position_id = generic_eu_local_commune_authority
-	x = 1
+	x = -1
 	y = 1
 	cost = 6
 	ai_will_do = {
@@ -1403,7 +1407,7 @@ focus = {
 	focus =  generic_eu_local_commune_authority
 	}
 	relative_position_id = generic_eu_local_commune_authority
-	x = -1
+	x = 1
 	y = 1
 	cost = 6
 	ai_will_do = {
@@ -1440,7 +1444,7 @@ focus = {
 	focus = generic_eu_eliminate_squabbles
 	}
 	relative_position_id = generic_eu_maximise_efficiency
-	x = -1
+	x = 1
 	y = 1
 	cost = 6
 	ai_will_do = {
@@ -1460,7 +1464,7 @@ focus = {
 	focus = the_chains_are_broken
 	}
 	relative_position_id = generic_eu_stability_achieved
-	x = -2
+	x = 2
 	y = 1
 	cost = 6
 	ai_will_do = {
@@ -1585,7 +1589,7 @@ focus = {
 	focus = generic_eu_autonomous_regions
 	}
 	relative_position_id = generic_eu_stability_achieved
-	x = 2
+	x = -2
 	y = 1
 	cost = 6
 	ai_will_do = {
@@ -1726,6 +1730,7 @@ focus = {
 		prerequisite = {
 		focus = generic_eu_nationalist
 		}
+		mutually_exclusive = { focus = generic_eu_turn_to_our_past }
 		relative_position_id = generic_eu_nationalist
 		x = -10
 		y = 1
@@ -1742,7 +1747,11 @@ focus = {
 	icon = GFX_goal_generic_demand_territory
 	prerequisite = {
 	focus = generic_eu_turn_to_our_people
+	focus = generic_eu_nationalize
 	}
+	mutually_exclusive = {
+        focus = generic_eu_popular_mandate
+    }
 	relative_position_id = generic_eu_turn_to_our_people
 	x = -5
 	y = 1
@@ -2247,6 +2256,7 @@ focus = {
 		prerequisite = {
 		focus = generic_eu_nationalist
 		}
+		mutually_exclusive = { focus = generic_eu_turn_to_our_people }
 		relative_position_id = generic_eu_nationalist
 		x = 10
 		y = 1
@@ -2264,6 +2274,7 @@ focus = {
 		prerequisite = {
 		focus = generic_eu_turn_to_our_past
 		}
+		mutually_exclusive = { focus = generic_eu_restore_our_glory }
 		relative_position_id = generic_eu_turn_to_our_past
 		x = -5
 		y = 1
@@ -2281,6 +2292,7 @@ focus = {
 		prerequisite = {
 		focus = generic_eu_crown_a_king
 		}
+		mutually_exclusive = { focus = generic_eu_a_foreigner }
 		relative_position_id = generic_eu_crown_a_king
 		x = -1
 		y = 1
@@ -2315,6 +2327,7 @@ focus = {
 	prerequisite = {
 	focus = generic_eu_crown_a_king
 	}
+	mutually_exclusive = { focus = generic_eu_one_of_our_own }
 	relative_position_id = generic_eu_crown_a_king
 	x = 1
 	y = 1
@@ -2473,9 +2486,7 @@ focus = {
 	prerequisite = {
 	focus =  generic_eu_turn_to_our_past
 	}
-	mutually_exclusive = {
-        focus = generic_eu_crown_a_king
-    }
+	mutually_exclusive = { focus = generic_eu_crown_a_king }
 	relative_position_id = generic_eu_turn_to_our_past
 	x = 5
 	y = 1
