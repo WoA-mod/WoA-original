@@ -15,9 +15,8 @@ set_technology = {
 }
 
 add_ideas = {
-King_Albert_In_Exile
+The_Belgian_Lion
 German_Influence
-Flemish_Wallonian_Divide_Start
 Left_and_Right_Ideals_Rising
 }
 
@@ -26,34 +25,34 @@ set_politics = {
 
 	parties = {
 		utopianism = { 
-			popularity = 2
+			popularity = 4
 		}
 		council_communist = { 
-			popularity = 2
+			popularity = 3
 		}
 		socialist = { 
-			popularity = 14
+			popularity = 3
 		}
 		social_democrat = { 
-			popularity = 11
+			popularity = 21
 		}
 		liberal = { 
-			popularity = 18
+			popularity = 19
 		}
 		conservative = { 
-			popularity = 28
+			popularity = 26
 		}
 		authoritarian_democrat = { 
-			popularity = 5
+			popularity = 4  
 		}
 		paternal_autocrat = {
-			popularity = 7
+			popularity = 5
 		}
 		national_populist = {
-			popularity = 12
+			popularity = 14
 		}
 		antiquarian_nationalist = {
-			popularity = 1
+			popularity = 0
 		}
 	}
 	
@@ -66,13 +65,13 @@ set_politics = {
 
 
 set_convoys = 80
-set_stability = 0.70
+set_stability = 0.50
 set_war_support = 0.40
 
 create_country_leader = {
-	name = "Victor De Laveleye"
-	desc = "POLITICS_ALBERT_I_DESC"
-	picture = ""
+	name = "Leopold III"
+	desc = "POLITICS_LEOPOLD_III_DESC"
+	picture = "Leopold III.tga"
 	expire = "1965.1.1"
 	ideology = liberal_subtype
 	traits = {
@@ -81,9 +80,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Henri De Man"
-	desc = "POLITICS_ALBERT_I_DESC"
-	picture = ""
+	name = "Leopold III"
+	desc = "POLITICS_LEOPOLD_III_DESC"
+	picture = "Leopold III.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -92,9 +91,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Paul Van Zeeland"
-	desc = "POLITICS_ALBERT_I_DESC"
-	picture = "Portrait_Belgium_Paul_van_Zeeland.tga"
+	name = "Leopold III"
+	desc = "POLITICS_LEOPOLD_III_DESC"
+	picture = "Leopold III.tga"
 	expire = "1965.1.1"
 	ideology = conservative_subtype
 	traits = {
@@ -103,9 +102,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "King Albert I"
-	desc = "POLITICS_ALBERT_I_DESC"
-	picture = "Portrait_Belgium_Albert_I.dds"
+	name = "Leopold III"
+	desc = "POLITICS_LEOPOLD_III_DESC"
+	picture = "Leopold III.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -114,11 +113,33 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Léon Degrelle"
-	desc = "POLITICS_LEON_DEGRELLE_DESC"
-	picture = "Portrait_Belgium_Leon_Degrelle.dds"
+	name = "Leopold III"
+	desc = "POLITICS_LEOPOLD_III_DESC"
+	picture = "Leopold III.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Leopold III"
+	desc = "POLITICS_LEOPOLD_III_DESC"
+	picture = "Leopold III.tga"
+	expire = "1965.1.1"
+	ideology = antiquarian_nationalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Leopold III"
+	desc = "POLITICS_LEOPOLD_III_DESC"
+	picture = "Leopold III.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
 	traits = {
 		#
 	}

@@ -1,0 +1,457 @@
+##############################
+# Belgian Focus Tree
+##############################
+# Coded by Silverscorpion
+##############################
+#Note: Please don't touch this file without contacting me, Silverscorpion.
+focus_tree = {
+
+	id = WoA_bel
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = bel
+		}
+	}
+
+	continuous_focus_position = { x = -10 y = 2000 }	
+	
+### Belgian 1936 elections
+	focus = {
+		id = Begin_Elections
+		icon = GFX_BEL_support_democracy
+		x = 17
+		y = 0
+		cost = 0
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		#available = {
+		#	has_idea = BEL_Elections_Done
+		#}
+
+		completion_reward = {
+			#country_event = { id =  }
+		}
+	}
+	focus = {
+		id = BEL_Catholic_Domination
+		icon = GFX_goal_ideology_social_conservative
+		prerequisite = { focus = Begin_Elections }
+		available = {
+			always = no
+		}
+		#bypass = {
+		#	has_country_flag = BEL_Catholic_Domination
+		#}
+		relative_position_id = Begin_Elections
+		x = 0
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+		focus = {
+		id = BEL_Labour_Domination
+		icon = GFX_goal_ideology_social_democrat
+		prerequisite = { focus = Begin_Elections }
+		available = {
+			always = no
+		}
+		#bypass = {
+		#	has_country_flag = BEL_Catholic_Domination
+		#}
+		relative_position_id = Begin_Elections
+		x = -6
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+			focus = {
+		id = BEL_Liberal_Domination
+		icon = GFX_goal_ideology_social_liberal
+		prerequisite = { focus = Begin_Elections }
+		available = {
+			always = no
+		}
+		#bypass = {
+		#	has_country_flag = BEL_Catholic_Domination
+		#}
+		relative_position_id = Begin_Elections
+		x = 6
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	#### CATHOLIC PATH
+	
+	focus = {
+		id = BEL_Catholic_Schools
+		icon = GFX_BEL_Catholic_Education
+		prerequisite = { focus = BEL_Catholic_Domination }
+		available = {
+		#	has_country_flag = BEL_Catholic_Domination
+		}
+
+		relative_position_id = BEL_Catholic_Domination
+		x = -2
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		completion_reward = {
+
+		}
+	} 
+	
+	
+		focus = {
+		id = BEL_expand_industries
+		icon = GFX_goal_factory_complex
+		prerequisite = { focus = BEL_Catholic_Schools }
+		available = {
+		#	has_country_flag = BEL_Catholic_Domination
+		}
+
+		relative_position_id = BEL_Catholic_Schools
+		x = 0
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		completion_reward = {
+
+		}
+		
+		}
+		
+					focus = {
+		id = BEL_Unemployment_Subsidies
+		icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = BEL_expand_industries }
+		available = {
+			always = no
+		}
+		#bypass = {
+		#	has_country_flag = BEL_Catholic_Domination
+		#}
+		relative_position_id = BEL_expand_industries
+		x = 1
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+						focus = {
+		id = BEL_Support_Boerenbond
+		icon = GFX_goal_agricultural_aid
+		prerequisite = { focus = BEL_Catholic_Domination }
+		available = {
+			always = no
+		}
+		#bypass = {
+		#	has_country_flag = BEL_Catholic_Domination
+		#}
+		relative_position_id = BEL_Catholic_Domination
+		x = 0
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = BEL_advocate_for_woman's_suffrage
+		icon = GFX_IRE_women_industry
+		prerequisite = { focus = BEL_Support_Boerenbond }
+		available = {
+			always = no
+		}
+		#bypass = {
+		#	has_country_flag = BEL_Catholic_Domination
+		#}
+		relative_position_id = BEL_Support_Boerenbond
+		x = 0
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+		focus = {
+		id = BEL_better_working_rights
+		icon = GFX_goal_workers_rights
+		prerequisite = { focus = BEL_Catholic_Domination }
+		available = {
+			always = no
+		}
+		#bypass = {
+		#	has_country_flag = BEL_Catholic_Domination
+		#}
+		relative_position_id = BEL_Catholic_Domination
+		x = 2
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+			focus = {
+		id = BEL_exporting_goods
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = BEL_better_working_rights }
+		available = {
+			always = no
+		}
+		#bypass = {
+		#	has_country_flag = BEL_Catholic_Domination
+		#}
+		relative_position_id = BEL_better_working_rights
+		x = 0
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+				focus = {
+		id = BEL_infrastructure_projects
+		icon = GFX_goal_socialist_infrastructure
+		prerequisite = { focus = BEL_exporting_goods }
+		available = {
+			always = no
+		}
+		#bypass = {
+		#	has_country_flag = BEL_Catholic_Domination
+		#}
+		relative_position_id = BEL_exporting_goods
+		x = -1
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+					focus = {
+		id = BEL_Introduce_The_40_Hour_Work_Week
+		icon = GFX_goal_workers_rights
+		prerequisite = { focus = BEL_advocate_for_woman's_suffrage } prerequisite = { focus = BEL_infrastructure_projects } prerequisite = { focus = BEL_Unemployment_Subsidies }
+		available = {
+			always = no
+		}
+		#bypass = {
+		#	has_country_flag = BEL_Catholic_Domination
+		#}
+		relative_position_id = BEL_advocate_for_woman's_suffrage
+		x = 0
+		y = 2
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	#### LABOUR PATH
+	
+	
+	
+	#### LIBERAL PATH
+	
+	#### FATE OF THE MONARCHY 
+	focus = {
+		id = BEL_Monarchy_Question
+		icon = GFX_generic_home_defense_bel
+		prerequisite = { focus = Begin_Elections }
+		available = {
+			always = no
+		}
+		#bypass = {
+		#	has_country_flag = BEL_Catholic_Domination
+		#}
+		relative_position_id = Begin_Elections
+		x = -14
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	#### FOREIGN RELATIONS
+
+		focus = {
+		id = BEL_Belgium_Foreign_relations
+		icon = GFX_goal_HOL_policy_belgium
+		prerequisite = { focus = Begin_Elections }
+		available = {
+			always = no
+		}
+		#bypass = {
+		#	has_country_flag = BEL_Catholic_Domination
+		#}
+		relative_position_id = Begin_Elections
+		x = 14
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+			focus = {
+		id = BEL_Distance_From_Germany
+		icon = GFX_goal_renewed_militarism
+		prerequisite = { focus = BEL_Belgium_Foreign_relations }
+		available = {
+			always = no
+		}
+		#bypass = {
+		#	has_country_flag = BEL_Catholic_Domination
+		#}
+		relative_position_id = BEL_Belgium_Foreign_relations
+		x = -2
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+				focus = {
+		id = BEL_reaffirm_the_alliance
+		icon = GFX_goal_COS_German_Bailout
+		prerequisite = { focus = BEL_Belgium_Foreign_relations }
+		available = {
+			always = no
+		}
+		#bypass = {
+		#	has_country_flag = BEL_Catholic_Domination
+		#}
+		relative_position_id = BEL_Belgium_Foreign_relations
+		x = 2
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+#	focus = {
+#		id = GER_cut_civilian_funding
+#		icon = GFX_goal_generic_construct_civ_factory
+#		relative_position_id = GER_austerity
+#		mutually_exclusive = { focus = GER_cut_military_funding }
+#		prerequisite = { focus = GER_austerity }
+#		x = -1
+#		y = 1
+#		cost = 5
+#		
+#		ai_will_do = {
+#			factor = 100
+#		}
+#		
+#		completion_reward = {
+#			add_stability = -0.05
+#			random_state = {
+#				limit = {
+#					industrial_complex > 2
+#					is_owned_by = GER
+#				}
+#				remove_building ={
+#					type = industrial_complex
+#   				level = 2
+#				}
+#			}
+#			random_state = {
+#				limit = {
+#					industrial_complex > 2
+#					is_owned_by = GER
+#				}
+#				remove_building ={
+#					type = industrial_complex
+#   				level = 2
+#				}
+#			}
+#		}
+#	}
+
+}
