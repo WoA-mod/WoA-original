@@ -1,0 +1,15 @@
+#Greece Ideas, done by SilverScorpion,
+
+ideas = {
+
+	country = {
+		national_divide = {
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+			stability_factor = -0.20
+			war_support_factor = -0.15
+			}
+		}
+		
+			}
+}
