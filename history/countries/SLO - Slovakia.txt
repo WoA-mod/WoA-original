@@ -1,4 +1,4 @@
-﻿capital = 70
+﻿capital = 796
 
 set_stability = 0.50
 set_war_support = 0.50
@@ -103,8 +103,6 @@ create_country_leader = {
 	traits = {
 	}
 }
-	
-}
 
 create_country_leader = {
 	name = "Milan Hodza"
@@ -114,8 +112,6 @@ create_country_leader = {
 	ideology = liberal_subtype
 	traits = {
 	}
-}
-
 }
 
 create_country_leader = {
@@ -135,7 +131,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
-		#
 	}
 }
 

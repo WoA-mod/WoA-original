@@ -1,5 +1,19 @@
 spriteTypes = {
-
+	
+	############
+	# Baltic Ideas
+	############
+	
+	SpriteType = {
+		name = "GFX_idea_UBD_the_two_state_solution"
+		texturefile = "gfx/interface/ideas/ideas/UBD_the_two_state_solution.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_UBD_stability_at_last"
+		texturefile = "gfx/interface/ideas/ideas/UBD_stability_at_last.dds"
+	}
+	
 	############
 	# Switzerland Ideas
 	############
@@ -18,7 +32,16 @@ spriteTypes = {
 		name = "GFX_idea_SWI_army_upkeep"
 		texturefile = "gfx/interface/ideas/ideas/SWI_army_upkeep.dds"
 	}
+	
+	############
+	# German Ideas
+	############
 
+	SpriteType = {
+		name = "GFX_idea_GER_OHL_shadow_government"
+		texturefile = "gfx/interface/ideas/ideas/GER_OHL_shadow_government.dds"
+	}
+	
 	############
 	# England Ideas
 	############

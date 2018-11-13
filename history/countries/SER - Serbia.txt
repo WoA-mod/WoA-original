@@ -83,9 +83,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Prince Paul"
-	desc = "POLITICS_Prince_Paul_DESC"
-	picture = ""
+	name = "Alexander II"
+	desc = "POLITICS_ALEXANDER_II_DESC"
+	picture = "WOA_Alexander_II_Serbia.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -94,9 +94,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-        name = "Prince Paul"
-	desc = "POLITICS_Prince_Paul_DESC"
-	picture = ""
+        name = "Alexander II"
+	desc = "POLITICS_ALEXANDER_II_DESC"
+	picture = "WOA_Alexander_II_Serbia.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -105,9 +105,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-        name = "Prince Paul"
-	desc = "POLITICS_Prince_Paul_DESC"
-	picture = ""
+        name = "Alexander II"
+	desc = "POLITICS_ALEXANDER_II_DESC"
+	picture = "WOA_Alexander_II_Serbia.tga"
 	expire = "1965.1.1"
 	ideology = conservative_subtype
 	traits = {

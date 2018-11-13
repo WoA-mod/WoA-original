@@ -34,4 +34,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_generic_move_industry_offshore.dds"
 	}
 	
+	###Switzerland
+	spriteType = {
+		name = "GFX_decision_SWI_choose_a_general"
+		texturefile = "gfx/interface/decisions/decision_SWI_choose_a_general.dds"
+	}
+	
 }

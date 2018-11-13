@@ -1,7 +1,10 @@
 ﻿capital = 757
 
 add_ideas = {
-	limited_conscription
+	civilian_economy
+	disarmed_nation
+	UBD_stability_at_last
+	UBD_the_two_state_solution
 }
 
 set_technology = {
@@ -11,9 +14,9 @@ set_technology = {
 	early_submarine = 1
 }
 
-set_research_slots = 3
-set_stability = 0.50
-set_war_support = 0.50
+set_research_slots = 2
+set_stability = 0.20
+set_war_support = 0.10
 set_convoys = 25
 
 set_politics = {
@@ -26,49 +29,27 @@ set_politics = {
 			popularity = 19
 		}
 		conservative = {
-			popularity = 44
+			popularity = 6
 		}
 		authoritarian_democrat = {
-			popularity = 6
+			popularity = 44
 		}
 		paternal_autocrat = {
 			popularity = 2
 		}
 	}
 	
-	ruling_party = conservative
+	ruling_party = authoritarian_democrat
 	last_election = "1931.10.3"
 	election_frequency = 108
 	elections_allowed = no
 }
 create_country_leader = {
 	name = "Regency Council"
-	desc = "POLITICS_LAT_REGENCY_COUNCIL_DESC"
-	picture = "Portrait_Regency_Council.dds"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Regency Council"
-	desc = "POLITICS_LAT_REGENCY_COUNCIL_DESC"
-	picture = "Portrait_Regency_Council.dds"
+	#desc = "POLITICS_LAT_REGENCY_COUNCIL_DESC"
+	picture = "Portrait_UBD_Regency_Council.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Regency Council"
-	desc = "POLITICS_LAT_REGENCY_COUNCIL_DESC"
-	picture = "Portrait_Regency_Council.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
 	traits = {
 		#
 	}
