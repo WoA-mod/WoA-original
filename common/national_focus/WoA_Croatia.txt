@@ -53,7 +53,7 @@ focus_tree = {
 	#Popular Party victory!
 	focus = {
 		id = CRO_popular_party_victory
-		icon = PLACEHOLDER
+		icon = GFX_CRO_conservative_victory
 		available = {
 			always = no
 		}
@@ -84,25 +84,10 @@ focus_tree = {
 		 focus = CRO_popular_party_victory
 		}
 	}
-#	ask germany for guarantee
-#	focus = {
-#		id = CRO_seek_german_protection
-#		icon = PLACEHOLDER
-#		available = {
-#			always = no
-#		}
-#		relative_position_id = CRO_popular_party_victory
-#		x = 0
-#		y = 2
-#		cost = 1
-#		prerequisite = {
-#			focus = CRO_industrial_subsidies
-#		}
-#	}
 	#partition bosnia
 	focus = {
 		id = CRO_settle_bosnian_question
-		icon = PLACEHOLDER
+		icon = GFX_CRO_settle_bosnian_question
 		available = {
 			always = no
 		}
@@ -117,7 +102,7 @@ focus_tree = {
 	#stability and recruitable population boost, gain defense and attack on core buff
 	focus = {
 		id = CRO_republic_for_all_croats
-		icon = PLACEHOLDER
+		icon = GFX_republic_for_all_croats
 		available = {
 			always = no
 		}
@@ -135,7 +120,7 @@ focus_tree = {
 	#Peasant party victory!
 	focus = {
 		id = CRO_peasant_party_victory
-		icon = PLACEHOLDER
+		icon = GFX_CRO_liberal_victory
 		available = {
 			always = no
 		}
@@ -184,7 +169,7 @@ focus_tree = {
 	#change in popularity, 5% 
 	focus = {
 		id = CRO_monument_to_radic
-		icon = PLACEHOLDER
+		icon = GFX_CRO_monument_to_radic
 		available = {
 			always = no
 		}
@@ -217,7 +202,7 @@ focus_tree = {
 ##############################################
 	focus = {
 		id = CRO_socdem_victory
-		icon = PLACEHOLDER
+		icon = GFX_CRO_socdem_victory
 		available = {
 			always = no
 		}
@@ -266,7 +251,7 @@ focus_tree = {
 	#Seek danubian protection
 	focus = {
 		id = CRO_ties_to_danubia
-		icon = PLACEHOLDER
+		icon = GFX_CRO_danubian_cooperation
 		available = {
 			always = no
 		}
@@ -330,7 +315,7 @@ focus_tree = {
 	#A nationalist king!
 	focus = {
 		id = CRO_king_sandor
-		icon = PLACEHOLDER
+		icon = GFX_CRO_sandor_festetic
 		available = {
 			always = no
 		}
@@ -394,7 +379,7 @@ focus_tree = {
 	#Claims on Slovenia, Istria, Friuli. Political power +150. Opinion lowered with Roma and Danubia. World Tension rises by 3.
 	focus = {
 		id = CRO_slovenian_brothers
-		icon = PLACEHOLDER
+		icon = GFX_CRO_our_slovenian_brothers
 		available = {
 			always = no
 		}
@@ -442,7 +427,7 @@ focus_tree = {
 	#Core Istria and Slovenia, boost italian opposition debuff, gain buff +15% atk and def on core territory, 10% division org, 5% recruitable pop, political power gain +20%
 	focus = {
 		id = CRO_greater_croatia_sandor
-		icon = PLACEHOLDER
+		icon = GFX_CRO_greater_croatia
 		available = {
 			always = no
 		}
@@ -463,7 +448,7 @@ focus_tree = {
 	#A democratic king!
 	focus = {
 		id = CRO_king_karoly
-		icon = PLACEHOLDER
+		icon = GFX_CRO_karoly_odescalchi
 		available = {
 			always = no
 		}
@@ -615,7 +600,7 @@ focus_tree = {
 	#A Yugoslavist king!
 	focus = {
 		id = CRO_king_antun
-		icon = PLACEHOLDER
+		icon = GFX_CRO_antun_mihalovic
 		available = {
 			always = no
 		}
@@ -631,7 +616,7 @@ focus_tree = {
 	#Claim all South Slavic land, gives an extra 3% recruitable population and political power gain +0.50. Gives negative opinion against all other South Slavic countries.
 	focus = {
 		id = CRO_yugoslavia_dream
-		icon = PLACEHOLDER
+		icon = GFX_CRO_dream_yugoslavia
 		available = {
 			always = no
 		}
@@ -691,11 +676,11 @@ focus_tree = {
 		 focus = CRO_a_step_towards_unity
 		}
 	}
-	#ULTIMATUM TO MONTENEGRO
-	#Demand annexation of Montenegro. They'll likely give in to the request, given that nobody is guaranteeing them or that they are not in a faction.
+	#DOWN WITH THE FAKE TSAR
+	#Gain CB against Bulgaria.
 	focus = {
-		id = CRO_ultimatum_montenegro
-		icon = GFX_goal_generic_territory_or_war
+		id = CRO_down_with_fake_tsar
+		icon = GFX_goal_generic_major_war
 		available = {
 			always = no
 		}
@@ -707,33 +692,17 @@ focus_tree = {
 		 focus = CRO_strike_serbia
 		}
 	}
-	#DOWN WITH THE FAKE TSAR
-	#Gain CB against Bulgaria.
+	#YUGOSLAVIA IS UNITED!
+	#Gain core on all conquered lands. Gain 5% atk and def on core territory, remove serbian resistance debuff.
 	focus = {
-		id = CRO_down_with_fake_tsar
-		icon = GFX_goal_generic_major_war
+		id = CRO_united_yugoslavia
+		icon = GFX_CRO_proclaim_yugoslavia
 		available = {
 			always = no
 		}
 		relative_position_id = CRO_king_antun
 		x = 0
 		y = 6
-		cost = 1
-		prerequisite = {
-		 focus = CRO_ultimatum_montenegro
-		}
-	}
-	#YUGOSLAVIA IS UNITED!
-	#Gain core on all conquered lands. Gain 5% atk and def on core territory, remove serbian resistance debuff.
-	focus = {
-		id = CRO_united_yugoslavia
-		icon = PLACEHOLDER
-		available = {
-			always = no
-		}
-		relative_position_id = CRO_king_antun
-		x = 0
-		y = 7
 		cost = 1
 		prerequisite = {
 		 focus = CRO_down_with_fake_tsar
@@ -749,7 +718,7 @@ focus_tree = {
 		}
 		relative_position_id = CRO_king_antun
 		x = 0
-		y = 9
+		y = 8
 		cost = 1
 		prerequisite = {
 		 focus = CRO_united_yugoslavia
@@ -765,7 +734,7 @@ focus_tree = {
 		}
 		relative_position_id = CRO_king_antun
 		x = 1
-		y = 8
+		y = 7
 		cost = 1
 		prerequisite = {
 		 focus = CRO_united_yugoslavia
@@ -781,7 +750,7 @@ focus_tree = {
 		}
 		relative_position_id = CRO_king_antun
 		x = -1
-		y = 8
+		y = 7
 		cost = 1
 		prerequisite = {
 		 focus = CRO_united_yugoslavia
@@ -793,7 +762,7 @@ focus_tree = {
 	#A German prince!
 	focus = {
 		id = CRO_king_willy
-		icon = PLACEHOLDER
+		icon = GFX_CRO_august_wilhelm
 		available = {
 			always = no
 		}
@@ -809,7 +778,7 @@ focus_tree = {
 	#Germany guarantees Croatia, gain 100 PP and opinion modifier with Germany +50
 	focus = {
 		id = CRO_ties_with_germany
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_CRO_german_cooperation
 		available = {
 			always = no
 		}
@@ -889,7 +858,7 @@ focus_tree = {
 	#Ustasha coup
 	focus = {
 		id = CRO_ustasa_coup
-		icon = PLACEHOLDER
+		icon = GFX_CRO_ustasa_coup
 		available = {
 			always = no
 		}
@@ -1085,11 +1054,11 @@ focus_tree = {
 	}
 
 
-##############################################
+#####################################################
 #	Economic tree
 #	pls end my miserable life
-#	if Crusader didn't make this for me...
-##############################################
+#	i swear if Crusader didn't make this for me...
+#####################################################
 	#THE CROATIAN ECONOMY
 	#x3 +15% research for Industry 
 	focus = {
@@ -1659,8 +1628,8 @@ focus_tree = {
 ##########################################################
 	#THE RETURN OF THE KAISER
 	focus = {
-		id = CRO_kaiser_karl
-		icon = PLACEHOLDER
+		id = CRO_kaiser_otto
+		icon = GFX_CRO_return_of_the_kaiser #xd lol
 		available = {
 			always = no
 		}
@@ -1678,8 +1647,8 @@ focus_tree = {
 		available = {
 			always = no
 		}
-		prerequisite = { focus = CRO_kaiser_karl }
-		relative_position_id = CRO_kaiser_karl
+		prerequisite = { focus = CRO_kaiser_otto }
+		relative_position_id = CRO_kaiser_otto
 		x = 0
 		y = 1
 		cost = 5
@@ -1716,7 +1685,7 @@ focus_tree = {
 	#Offer Germany an anti-Danubian defensive pact: we'll start guaranteeing each other.
 	focus = {
 		id = CRO_german_help
-		icon = PLACEHOLDER
+		icon = GFX_CRO_german_cooperation
 		available = {
 			always = no
 		}
@@ -1796,7 +1765,7 @@ focus_tree = {
 	#Get national spirit "Jaksa Racic" which grants +10% stability and +10% war support
 	focus = {
 		id = CRO_illyrian_takeover
-		icon = PLACEHOLDER #Custom
+		icon = GFX_CRO_illyrian_takeover #Custom
 		available = {
 			always = no
 		}
@@ -1808,7 +1777,7 @@ focus_tree = {
 	#Gets the event to choose whether replace Racic with Bartulovic or not.
 	focus = {
 		id = CRO_illyrian_leadership
-		icon = PLACEHOLDER
+		icon = GFX_CRO_our_leadership
 		available = {
 			always = no
 		}
@@ -1821,7 +1790,7 @@ focus_tree = {
 ######################################################################
 #	Jaksa Racic, the senile 70-years-old dictator
 ######################################################################
-	#ROMAN ALLEGIANCE
+	#JAKSA RACIC
 	#Italy gets an event about Croatia offering an alliance. They can either:
 	# - "We welcome them as our equals in our nationalistic struggle"
 	#	If this path is chosen, Croatia will become Italy's ally. However, Italy will immediately after get an event to demand Dalmatia.
@@ -1831,7 +1800,7 @@ focus_tree = {
 	#	Rome refuses. In Croatia, an event fires about Racic resigning and Bartulovic takes over
 	focus = {
 		id = CRO_roman_allegiance
-		icon = PLACEHOLDER #Custom Jaksa racic icon
+		icon = GFX_CRO_jaksa_racic
 		available = {
 			always = no
 		}
@@ -1845,7 +1814,7 @@ focus_tree = {
 	#An event fires explaining the status of Croatia. Only lore, gains 20 PP and sets racic's title to that of "Proconsul"
 	focus = {
 		id = CRO_province_illyria
-		icon = PLACEHOLDER #Custom icon
+		icon = GFX_CRO_autonomous_province #Custom icon
 		available = {
 			always = no
 		}
@@ -1890,7 +1859,7 @@ focus_tree = {
 	#Add some ridiculous bonuses to "For Rome!"
 	focus = {
 		id = CRO_triumph_for_bosnia
-		icon = PLACEHOLDER #custom icon
+		icon = GFX_CRO_triumph_for_bosnia
 		available = {
 			always = no
 		}
@@ -1904,7 +1873,7 @@ focus_tree = {
 	#Asks through event Rome about a war on Serbia. If they accept, Italy and Croatia attack Serbia and probably rape it. Otherwise, Rome has two buttons: 1, allow them to do it on their own, and 2, forbid them (AI will never pick this). In case they pick 2, they'll get a decision that when enacted will declare war on serbia.
 	focus = {
 		id = CRO_moesia_superior
-		icon = GFX_goal_generic_military_deal
+		icon = PLACEHOLDER
 		available = {
 			always = no
 		}
@@ -1989,8 +1958,8 @@ focus_tree = {
 			focus = CRO_albanoi
 			focus = CRO_down_with_the_black_eagle
 		}
-		relative_position_id = CRO_albanoi
-		x = 1
+		relative_position_id = CRO_down_with_the_black_eagle
+		x = 0
 		y = 1
 		cost = 20
 	}
@@ -2002,7 +1971,7 @@ focus_tree = {
 	#Bartulovic takes over. Get national spirit "Unpopular rule" which gives -25% stability and -1.5 PP gain.
 	focus = {
 		id = CRO_slavic_allegiance
-		icon = PLACEHOLDER #custom niko bartulovic icon
+		icon = GFX_CRO_niko_bartulovic
 		available = {
 			always = no
 		}
@@ -2045,7 +2014,7 @@ focus_tree = {
 	#Gain PP, get event explaining what that is
 	focus = {
 		id = CRO_lebensraum
-		icon = PLACEHOLDER #custom icon
+		icon = GFX_CRO_zivotni_prostor
 		available = {
 			always = no
 		}
@@ -2196,4 +2165,21 @@ focus_tree = {
 		y = 1
 		cost = 5
 	}
+}
+######################################################################
+#	COMMUNIST PATH
+#	Technically, it's another nation's focus tree...
+######################################################################
+focus_tree = {
+	id = communist_croatia_focus
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 20
+			tag = CCR
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 5000 }
 }

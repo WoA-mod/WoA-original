@@ -77,11 +77,121 @@ spriteTypes = {
 	
 	###Argentina 
 	SpriteType = {
-		name = "GFX_ARG_focus_autonomous_region_of_uruguay"
-		texturefile= "gfx/interface/goals/ARG_focus_autonomous_region_of_uruguay.dds"
+		name = "GFX_CRO_antun_mihalovic"
+		texturefile= "gfx/interface/goals/CRO_antun_mihalovic.dds"
 	}
 	SpriteType = {
-		name = "GFX_ARG_focus_confederation_of_the_river_plate"
-		texturefile= "gfx/interface/goals/ARG_focus_confederation_of_the_river_plate.dds"
+		name = "GFX_CRO_august_wilhelm"
+		texturefile= "gfx/interface/goals/CRO_august_wilhelm.dds"
 	}
+	###Croatia
+	SpriteType = {
+		name = "GFX_CRO_autonomous_province"
+		texturefile= "gfx/interface/goals/CRO_autonomous_province.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_conservative_victory"
+		texturefile= "gfx/interface/goals/CRO_conservative_victory.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_danubian_cooperation"
+		texturefile= "gfx/interface/goals/CRO_danubian_cooperation.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_dream_yugoslavia"
+		texturefile= "gfx/interface/goals/CRO_dream_yugoslavia.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_german_cooperation"
+		texturefile= "gfx/interface/goals/CRO_german_cooperation.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_illyrian_takeover"
+		texturefile= "gfx/interface/goals/CRO_illyrian_takeover.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_jaksa_racic"
+		texturefile= "gfx/interface/goals/CRO_jaksa_racic.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_karoly_odescalchi"
+		texturefile= "gfx/interface/goals/CRO_karoly_odescalchi.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_liberal_victory"
+		texturefile= "gfx/interface/goals/CRO_liberal_victory.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_loyal_bosnia"
+		texturefile= "gfx/interface/goals/CRO_loyal_bosnia.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_loyal_country"
+		texturefile= "gfx/interface/goals/CRO_loyal_country.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_monument_to_radic"
+		texturefile= "gfx/interface/goals/CRO_monument_to_radic.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_niko_bartulovic"
+		texturefile= "gfx/interface/goals/CRO_niko_bartulovic.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_our_leadership"
+		texturefile= "gfx/interface/goals/CRO_our_leadership.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_our_slovenian_brothers"
+		texturefile= "gfx/interface/goals/CRO_our_slovenian_brothers.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_proclaim_yugoslavia"
+		texturefile= "gfx/interface/goals/CRO_proclaim_yugoslavia.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_return_of_the_kaiser"
+		texturefile= "gfx/interface/goals/CRO_return_of_the_kaiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_sandor_festetic"
+		texturefile= "gfx/interface/goals/CRO_sandor_festetic.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_socdem_victory"
+		texturefile= "gfx/interface/goals/CRO_socdem_victory.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_triple_monarchy"
+		texturefile= "gfx/interface/goals/CRO_triple_monarchy.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_triumph_for_bosnia"
+		texturefile= "gfx/interface/goals/CRO_triumph_for_bosnia.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_vodas_rule"
+		texturefile= "gfx/interface/goals/CRO_vodas_rule.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_zivotni_prostor"
+		texturefile= "gfx/interface/goals/CRO_zivotni_prostor.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_settle_bosnian_question"
+		texturefile= "gfx/interface/goals/CRO_settle_bosnian_question.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_ustasa_coup"
+		texturefile= "gfx/interface/goals/CRO_ustasa_coup.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_republic_for_all_croats"
+		texturefile= "gfx/interface/goals/CRO_republic_for_all_croats.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_greater_croatia"
+		texturefile= "gfx/interface/goals/CRO_greater_croatia.dds"
+	}
+
 }
