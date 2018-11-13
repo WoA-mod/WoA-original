@@ -94,7 +94,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelm I zu Vied"
+	name = "Vidi I"
 	desc = "POLITICS_Wilhelm_I_zu_DESC"
 	picture = "Wilhelm_I_zu_Vied.tga"
 	expire = "1965.1.1"
@@ -105,7 +105,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelm I zu Vied"
+	name = "Vidi I"
 	desc = "POLITICS_Wilhelm_I_zu_DESC"
 	picture = "Wilhelm_I_zu_Vied.tga"
 	expire = "1965.1.1"
