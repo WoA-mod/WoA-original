@@ -1,15 +1,12 @@
 ﻿capital = 47
 
 set_research_slots = 3
-set_stability = 0.67
-set_war_support = 0.42
+set_stability = 0.40
+set_war_support = 0.60
 
 add_ideas = {
 	limited_conscription
-	GEN_Francesco_Esposito_hog_mli
-	GEN_Antonello_D_Angelo_for_mli
-	GEN_Eros_Berna_eco_mli
-	GEN_Fleano_Carideo_sec_mli
+	national_divide
 }
 
 set_technology = {
@@ -33,10 +30,10 @@ set_politics = {
 
 	parties = {
 		utopianism = { 
-			popularity = 5
+			popularity = 4
 		}
 		council_communist = { 
-			popularity = 15
+			popularity = 10
 		}
 		socialist = { 
 			popularity = 4
@@ -45,26 +42,26 @@ set_politics = {
 			popularity = 10
 		}
 		liberal = { 
-			popularity = 27
+			popularity = 17
 		}
 		conservative = { 
 			popularity = 14
 		}
 		authoritarian_democrat = { 
-			popularity = 5
+			popularity = 28
 		}
 		paternal_autocrat = {
-			popularity = 8
+			popularity = 11
 		}
 		national_populist = {
-			popularity = 12
+			popularity = 1
 		}
 		antiquarian_nationalist = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = liberal
+	ruling_party = authoritarian_democrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -74,9 +71,9 @@ set_politics = {
 set_stability = 0.9
 
 create_country_leader = {
-	name = "Ioannis Metaxas"
-	desc = "POLITICS_IOANNIS_METAXAS_DESC"
-	picture = "Portrait_Greece_Ioannis_Metaxas.dds"
+	name = "Aléxandros I"
+	desc = "POLITICS_Aléxandros_I_DESC"
+	picture = "Alexander_Portrait.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -85,15 +82,38 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Eleftherios Venizelos"
-	desc = "POLITICS_KONSTANTINOS_TSALDARIS_DESC"
-	picture = "Portrait_Eleftherios_Venizelos.tga"
+	name = "Aléxandros I"
+	desc = "POLITICS_IOANNIS_METAXAS_DESC"
+	picture = "Alexander_Portrait.tga"
 	expire = "1965.1.1"
-	ideology = liberal_subtype
+	ideology = paternal_autocrat_subtype
 	traits = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Aléxandros I"
+	desc = "POLITICS_IOANNIS_METAXAS_DESC"
+	picture = "Alexander_Portrait.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Aris Velouchiotis"
+	desc = ""
+	picture = "Aris.tga"
+	expire = "1965.1.1"
+	ideology = utopianism_subtype
+	traits = {
+		#
+	}
+}
+
 
 create_corps_commander = {
 	name = "Markos Drakos"

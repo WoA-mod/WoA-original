@@ -1,0 +1,32 @@
+################
+#Portugal IDEAS#
+################
+
+##############################################################
+#Coded by Silverscorpion, do not touch without his permission#
+##############################################################	
+ideas = {
+		
+	country = {	
+
+
+	Stable_Rule = {
+			picture = generic_volunteer_expedition_bonus
+			modifier = {
+				stability_factor = 0.15
+			}
+
+		}
+		
+		Treaty_of_Windhoek  = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea Treaty_of_Windhoek"}
+			picture = generic_constitutional_guarantees
+			modifier = {
+				antiquarian_nationalist_drift = 0.05
+				war_support_weekly = -0.01
+			}
+		}
+		
+		
+		}
+	}

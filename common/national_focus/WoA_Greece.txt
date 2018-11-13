@@ -1,0 +1,994 @@
+##############################
+# Greece Focus Tree
+##############################
+# Coded by Silverscorpion
+##############################
+#Note: Please don't touch this file without contacting me, Silverscorpion.
+focus_tree = {
+
+	id = WoA_gre
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GRE
+		}
+	}
+
+	continuous_focus_position = { x = 10 y = 2000 }	
+
+	#### MEXTAXAS REGIME START
+		
+		focus = {
+		id = GRE_The_Mextaxas_Regime 
+		icon = GFX_goal_metaxas_greece
+		prerequisite = {
+			#focus = GRE_The_Spring_crisis
+		}
+		
+		x = 5
+		y = 0
+		
+		cost = 0
+		
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+			focus = {
+		id = GRE_Declare_Martial_Law
+		icon = GFX_goal_authoritarian
+		prerequisite = {
+			focus = GRE_The_Mextaxas_Regime
+		}
+		
+		x = 0
+		y = 3
+		
+		cost = 20
+		
+		relative_position_id = GRE_The_Mextaxas_Regime
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+			focus = {
+		id = GRE_Purge_disloyal_Officers
+		icon = GFX_goal_HOL_ban_paramilitary_left
+		prerequisite = {
+			focus = GRE_The_Mextaxas_Regime
+		}
+		
+		x = -3
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_The_Mextaxas_Regime
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		available = {
+			has_completed_focus = GRE_Declare_Martial_Law
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+				focus = {
+		id = GRE_Eradicate_Opposition
+		icon = GFX_goal_backstab
+		prerequisite = {
+			focus = GRE_The_Mextaxas_Regime
+		}
+		
+		x = 3
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_The_Mextaxas_Regime
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		available = {
+			has_completed_focus = GRE_Declare_Martial_Law
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+					focus = {
+		id = GRE_Establish_EON 
+		icon = GFX_goal_EON
+		prerequisite = {
+			focus = GRE_Eradicate_Opposition
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_Eradicate_Opposition
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_government = authoritarian_democrat
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+				focus = {
+		id = GRE_Establish_Gendarmerie
+		icon = GFX_goal_army_guy_2
+		prerequisite = {
+			focus = GRE_Purge_disloyal_Officers
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_Purge_disloyal_Officers
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+					focus = {
+		id = GRE_State_Orthodoxy 
+		icon = GFX_goal_orthodox_state
+		prerequisite = {
+			focus = GRE_Declare_Martial_Law
+		}
+		
+				prerequisite = {
+			focus = GRE_Establish_Gendarmerie
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_Declare_Martial_Law
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+		focus = {
+		id = GRE_Crisis_Cabinet
+		icon = GFX_goal_Centralised_Government
+		prerequisite = {
+			focus = GRE_Declare_Martial_Law
+		}
+		
+				prerequisite = {
+			focus = GRE_Establish_EON
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_Declare_Martial_Law
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+			focus = {
+		id = GRE_suspend_the_government
+		icon = GFX_goal_Lockdown_the_Government
+		prerequisite = {
+			focus = GRE_Crisis_Cabinet
+		}
+		
+				prerequisite = {
+			focus = GRE_State_Orthodoxy
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 5
+		
+		relative_position_id = GRE_Declare_Martial_Law
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+		#### LIBERAL REGIME START
+		
+		focus = {
+		id = GRE_Liberal_Coup
+		icon = GFX_goal_liberty
+		prerequisite = {
+			#focus = GRE_The_Spring_crisis
+		}
+		
+		x = 15
+		y = 0
+		
+		cost = 0
+		
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+				focus = {
+		id = GRE_End_Monarchism
+		icon = Imprison_the_King
+		prerequisite = {
+			focus = GRE_Liberal_Coup
+		}
+		
+		x = 0
+		y = 3
+		
+		cost = 20
+		
+		relative_position_id = GRE_Liberal_Coup
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+			focus = {
+		id = GRE_A_New_Consitution
+		icon = GFX_goal_constitutional_guarantees
+		prerequisite = {
+			focus = GRE_Liberal_Coup
+		}
+		
+		x = -3
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_Liberal_Coup
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		available = {
+			has_completed_focus = GRE_End_Monarchism
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+				focus = {
+		id = GRE_Unite_The_People
+		icon = GFX_focus_generic_diplomatic_treaty
+		prerequisite = {
+			focus = GRE_Liberal_Coup
+		}
+		
+		x = 3
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_Liberal_Coup
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		available = {
+			has_completed_focus = GRE_End_Monarchism
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+					focus = {
+		id = GRE_Get_Rid_Of_Arisocrats
+		icon = GFX_focus_rom_parties_end
+		prerequisite = {
+			focus = GRE_Unite_The_People
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_Unite_The_People
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+				focus = {
+		id = GRE_Free_Press
+		icon = GFX_goal_big_news
+		prerequisite = {
+			focus = GRE_A_New_Consitution
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_A_New_Consitution
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+					focus = {
+		id = GRE_Encourage_Republicanism
+		icon = GFX_goal_ideology_social_liberal
+		prerequisite = {
+			focus = GRE_End_Monarchism
+		}
+		
+				prerequisite = {
+			focus = GRE_Free_Press
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_End_Monarchism
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+		focus = {
+		id = GRE_Expand_Universities
+		icon = GFX_goal_great_science
+		prerequisite = {
+			focus = GRE_End_Monarchism
+		}
+		
+				prerequisite = {
+			focus = GRE_Get_Rid_Of_Arisocrats
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_End_Monarchism
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+			focus = {
+		id = GRE_Declare_The_Third_republic
+		icon = GFX_goal_Hellenic_Republic
+		prerequisite = {
+			focus = GRE_Expand_Universities
+		}
+		
+				prerequisite = {
+			focus = GRE_Encourage_Republicanism
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 5
+		
+		relative_position_id = GRE_End_Monarchism
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+		#### GEORGE's COUP START
+		
+		focus = {
+		id = GRE_George_Coup
+		icon = GFX_goal_George_Coup
+		prerequisite = {
+			#focus = GRE_The_Spring_crisis
+		}
+		
+		x = 5
+		y = 7
+		
+		cost = 0
+		
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+			focus = {
+		id = GRE_Keep_The_Junta
+		icon = GFX_goal_ideology_authoritarian_democrat
+		prerequisite = {
+			focus = GRE_George_Coup
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_George_Coup
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+
+	
+					focus = {
+		id = GRE_End_republicanism
+		icon = GFX_goal_end_republicanism
+		prerequisite = { focus = GRE_Keep_The_Junta }
+		
+		x = -3
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_Keep_The_Junta
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+						focus = {
+		id = GRE_A_Strong_Will
+		icon = GFX_goal_authoritarian
+		prerequisite = { focus = GRE_Strengthen_Police }
+		mutually_exclusive = { focus = GRE_The_Benevolent_King }
+
+		x = 1
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_Strengthen_Police
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		available = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GRE_Strengthen_Police
+		icon = GFX_goal_secret_agents
+		prerequisite = { focus = GRE_End_republicanism }
+		prerequisite = { focus = GRE_reform_consitution }
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_End_republicanism
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		available = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+		focus = {
+		id = GRE_reform_consitution
+		icon = GFX_goal_POR_royal_edicts
+		prerequisite = { focus = GRE_Keep_The_Junta }
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_Keep_The_Junta
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+		focus = {
+		id = GRE_state_religion
+		icon = GFX_goal_orthodox_state
+		prerequisite = { focus = GRE_Keep_The_Junta	}
+		
+		x = 3
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_Keep_The_Junta
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+							focus = {
+		id = GRE_expand_propoganda
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = GRE_state_religion }
+		prerequisite = {focus = GRE_reform_consitution }
+		
+		x = 2
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_reform_consitution
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		available = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+								focus = {
+		id = GRE_The_Benevolent_King
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = GRE_expand_propoganda }
+		mutually_exclusive = { focus = GRE_A_Strong_Will }
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_expand_propoganda
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		available = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+		focus = {
+		id = GRE_Greece_Reborn
+		icon = GFX_GRE_monarchy
+		prerequisite = { focus = GRE_A_Strong_Will focus = GRE_The_Benevolent_King  }
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_A_Strong_Will
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		available = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+			#### EAM TAKE OVER START
+		
+		focus = {
+		id = EAM_Takeover
+		icon = GFX_goal_HOL_fires_of_revolution
+		prerequisite = {
+			#focus = GRE_The_Spring_crisis
+		}
+		
+		x = 15
+		y = 7
+		
+		cost = 0
+		
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		#available = {
+		#	has_ = GRE_Spring_Crisis_Metaxas
+		#}
+
+		completion_reward = {
+			
+		}
+	}
+	
+			focus = {
+		id = GRE_Crush_Monarchists
+		icon = GFX_goal_crush_monarchy
+		prerequisite = { focus = EAM_Takeover }
+		
+		x = -2
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = EAM_Takeover
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		available = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+				focus = {
+		id = GRE_Arrest_Dissidents
+		icon = GFX_goal_HOL_amend_wapenwet
+		prerequisite = { focus = EAM_Takeover }
+		
+		x = 2
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = EAM_Takeover
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		available = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+			focus = {
+		id = GRE_Destroy_Aristocracy
+		icon = GFX_focus_rom_parties_end
+		prerequisite = { focus = GRE_Crush_Monarchists focus = GRE_Arrest_Dissidents  }
+		
+		x = 2
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_Crush_Monarchists
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		available = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+				focus = {
+		id = GRE_Woman_Rights
+		icon = GFX_goal_women_industry
+		prerequisite = { focus = GRE_Crush_Monarchists } prerequisite = {  focus = GRE_Destroy_Aristocracy  }
+		
+		x = -2
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_Destroy_Aristocracy
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		available = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+					focus = {
+		id = GRE_Means_of_production
+		icon = GFX_goal_state_economy
+		prerequisite = { focus = GRE_Arrest_Dissidents } prerequisite = {  focus = GRE_Destroy_Aristocracy  }
+		
+		x = 2
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_Destroy_Aristocracy
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		available = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+						focus = {
+		id = GRE_The_Revolution_Complete
+		icon = GFX_goal_revolution
+		prerequisite = { focus = GRE_Woman_Rights } prerequisite = {  focus = GRE_Destroy_Aristocracy } prerequisite = {  focus = GRE_Means_of_production  }
+		
+		x = -2
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_Means_of_production
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		available = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+							focus = {
+		id = GRE_EAM_Collapse
+		icon = GFX_goal_shadow_government
+		prerequisite = { focus = GRE_The_Revolution_Complete }
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_The_Revolution_Complete
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		available = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
