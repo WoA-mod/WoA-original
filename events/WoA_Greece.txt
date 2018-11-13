@@ -1,0 +1,55 @@
+﻿#########################################################
+#Coded by SilverScorpion, do not touch without his permission#
+#########################################################
+add_namespace = gre
+
+#### Introduction event
+
+country_event = {
+	id = gre.1
+	title = gre.1.t
+	desc = gre.1.d
+	#picture = 
+	
+	is_triggered_only = no
+	fire_only_once = yes
+
+	trigger = {
+		tag = GRE
+		AND = {
+			date >1936.1.1
+		}
+	}
+	
+	option = { 
+		name = gre.1.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = gre.2
+	title = gre.2.t
+	desc = gre.2.d
+	#picture = 
+	
+	is_triggered_only = no
+	fire_only_once = yes
+
+	trigger = {
+		tag = GRE
+		AND = {
+			date >1936.1.20
+		}
+	}
+	
+		mean_time_to_happen = {
+		days = 31	# Died in February of 1936
+	}
+	
+	option = { 
+		name = gre.2.a
+		ai_chance = { factor = 100 }
+	}
+}
+

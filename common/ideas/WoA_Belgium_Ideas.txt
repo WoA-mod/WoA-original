@@ -1,0 +1,31 @@
+#Belgian Ideas, done by Haruhi,
+
+ideas = {
+
+	country = {
+		
+		The_Belgian_Lion = {
+			picture = BEL_Lion_Roars
+			modifier = {
+			stability_factor = 0.10
+			}
+		}
+		
+		German_Influence = {
+			picture = ger_revive_the_kaiserreich
+			modifier = {
+			war_support_factor = -0.05
+			}
+		}
+		
+		Left_and_Right_Ideals_Rising = {
+			picture = generic_neutrality_drift_bonus
+			modifier = {
+			war_support_factor = -0.1
+				utopianism_drift = 0.01
+				national_populist_drift = 0.05
+			}
+		}
+		
+			}
+}

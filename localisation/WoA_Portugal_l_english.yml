@@ -1,0 +1,42 @@
+﻿l_english:
+
+#TOOLTIPS
+
+#PARTIES
+POR_utopianism_party:0 "PRST"
+POR_utopianism_party_long:0 "Partido Revolucionário Socialista dos Trabalhadores or Workers' Revolutionary Socialist Party"
+POR_council_communist_party:0 "PCP"
+POR_council_communist_party_long:0 "Partido Comunista Português or Portuguese Communist Party"
+POR_socialist_party:0 "MUNAF"
+POR_socialist_party_long:0 "Movimento de Unidade Nacional Antifascista or Movement of National Antifascist Unity"
+POR_social_democrat_party:0 "ARS"
+POR_social_democrat_party_long:0 "Aliança Republicana e Socialista or Socialist Republican Alliance"
+POR_liberal_party:0 "PRP"
+POR_liberal_party_long:0 "Partido Republicano Português or Portuguese Republican Party"
+POR_conservative_party:0 "PRN"
+POR_conservative_party_long:0 "Partido Republicano Nacionalista or Nationalist Republican Party"
+POR_authoritarian_democrat_party:0 "República Nova"
+POR_authoritarian_democrat_party_long:0 "República Nova or New Republic \n§gRepública Nova is the self-titled President-King Sidónio Pais' Government, named by him and his cabinet as "New Republic" has led Portugal since the end of the Great War to the present days of 1936. Based on authoritarianism, anti-socialist policies and a lack of proper international views be them aggressive or passive has led to a growing discontent within the Army and State branches. The New Republic engulfs former Republican members as well as leftists and monarchists, despite giving none of them a true vote on what the President-King decides.§!"
+POR_paternal_autocrat_party:0 "CM"
+POR_paternal_autocrat_party_long:0 "Causa Monarquista or Monarchist Cause \n§gCreated in 1914, the Monarchist Cause is a Portuguese political party dedicated to the restoration of the Kingdom. Their dream is to restore prince Duarte to the throne, and re-establish the long since abolished Kingdom.§!"
+POR_national_populist_party:0 "IL"
+POR_national_populist_party_long:0 "Integralismo Lusitano or Lusitanian Integralism \n§gA Portuguese integralist political movement, founded in Coimbra in 1914, that advocated traditionalism but not conservatism. It was against parliamentarism; instead, it favored decentralization, national syndicalism, the Roman Catholic Church, and the monarchy. It was especially active during the Portuguese First Republic. Lusitanian Integralism is a variant of Integralism that evolved in Portugal; the term Lusitania is derived from the Latin term for Portugal.§!"
+POR_antiquarian_nationalist_party:0 "MNS"
+POR_antiquarian_nationalist_party_long:0 "Movimento Nacional Sindicalista or National Syndicalist Movement \n§gThe MNS emerged amongst a group of students who were associated with the Liga Nacional 28 de Maio but had grown disillusioned with its right-wing economic platform. Under the leadership of Francisco Rolão Preto, the National Syndicalists emerged in 1932 from a tradition of Monarchism and Integralismo Lusitano to offer a platform that they hoped would lead to full corporatism of association or unionism in opposition to capitalism and communism. They called for a totalitarian state to rule Portugal, although they placed central importance on the Catholic Church and made Catholic identity an important part of their appeal.§!"
+
+#\n§g
+
+
+#THREATS
+
+
+
+#EVENTS
+
+
+#### Ideas ####
+Stable_Rule:0 "Stable Rule"
+Stable_Rule_desc:0 "The República Nova, Led by Sidónio Pais has ruled over Portugal since 1918, and has managed to keep the nation stable, ending elections, cracking down on socialism and nationalism, as well as keeping a strong neutrallity approach to Foreign affairs has made the regime more stable then any other regime since the fall of the Portugese Kingdom."
+Treaty_of_Windhoek:0 "Treaty of Windhoek"
+Treaty_of_Windhoek_desc:0 "The Treaty of Windhoek was signed almost immediately after the collapse of the German Puppet state, MittelAfrika. The treaty entails that Portugal will gain all land lost in Africa during the Great War, and cannot invade or influence any of the current MittelAfrika lands. President-King Sidónio Pais accepted this deal to ensure that portugal gain some lands that it lost, however the effect has called the MNS to become more popular, and many unpleased with the government for not seeking to take land from MittelAfrika."
+
