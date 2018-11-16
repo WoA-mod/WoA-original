@@ -1709,10 +1709,10 @@ focus_tree = {
 		y = 1
 		cost = 5
 	}
-	#CONTACT HABSBURG RESTAURATIONISTS
+	#CONTACT HABSBURG restorationISTS
 	#Unlock decision to give debuff to Danubia, can only be activated if at war with danubia.
 	focus = {
-		id = CRO_contact_restaurationists
+		id = CRO_contact_restorationists
 		icon = PLACEHOLDER
 		available = {
 			always = no
@@ -1730,12 +1730,12 @@ focus_tree = {
 	#Starts an event chain. Croatia will attempt to provoke Danubia into open warfare by doing military exercises next to the border. AI Danubia will fall for it always if they are Utopianists and only if stable if they are CounCom. If the player fails, They'll still have a decision to attack Danubia, though they'll do it alone. Danubia gets serious stability and Political Power losses for not attacking Croatia if they aren't RadSoc.
 	focus = {
 		id = CRO_drava_incident
-		icon = PLACEHOLDER
+		icon = GFX_focus_generic_provoke_border_clashes
 		available = {
 			always = no
 		}
-		prerequisite = { focus = CRO_contact_restaurationists }
-		relative_position_id = CRO_contact_restaurationists
+		prerequisite = { focus = CRO_contact_restorationists }
+		relative_position_id = CRO_contact_restorationists
 		x = 0
 		y = 1
 		cost = 5
@@ -2161,6 +2161,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = CRO_fate_of_greece }
 		relative_position_id = CRO_fate_of_greece
+		x = 0
+		y = 1
+		cost = 5
+	}
+######################################################################
+#	TEMP COMMIES
+#	Technically, it's another nation's focus tree...
+######################################################################
+	#Victory in the Civil War
+	#Locked by default, will be bypassed when the war is over. (CCR does nto exist)
+	focus = {
+		id = CCR_victory_civil_war
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
 		x = 0
 		y = 1
 		cost = 5
