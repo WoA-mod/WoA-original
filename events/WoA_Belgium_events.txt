@@ -1,0 +1,49 @@
+﻿#########################################################
+#Coded by Silverscorpiom, do not touch without his permission#
+#########################################################
+add_namespace = bel
+
+#### Introduction event
+
+	country_event = { 
+		id = bel.1
+		title = bel.1.t
+		desc = bel.1.d
+		picture = GFX_flawa_29
+
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = bel.1.a
+		}
+	}
+
+#### Governemnt events 
+
+	country_event = { ### The Coalition breaks
+		id = bel.2
+		title = bel.2.t
+		desc = bel.2.d
+		picture = GFX_flawa_21
+
+		is_triggered_only = yes
+
+		option = {
+			name = bel.2.a
+		}
+	}
+
+	country_event = { ### Leopold III's coup
+		id = bel.3
+		title = bel.3.t
+		desc = bel.3.d
+		picture = GFX_flawa_23
+
+		is_triggered_only = yes
+
+		option = {
+			name = bel.3.a
+		}
+	}
+

@@ -22,8 +22,7 @@ ideas = {
 			picture = generic_neutrality_drift_bonus
 			modifier = {
 			war_support_factor = -0.1
-				utopianism_drift = 0.01
-				national_populist_drift = 0.05
+				national_populist_drift = 0.02
 			}
 		}
 		

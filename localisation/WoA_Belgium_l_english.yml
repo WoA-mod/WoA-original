@@ -7,9 +7,9 @@ BEL_utopianism_party:0 "PCB/KPB Extremists"
 BEL_utopianism_party_long:0 "Parti Communiste de Belgique/Kommunistische Partij van België \n§g A wide coalition of communists and utopianists. The party was formed in 1921 as a small utopianist movement, breaking off from the labour party. However in 1931 when the Belgian Labour Party joined the Catholic party coalition, many communists amongst the labour party felt betrayed, forming the Belgian Communist Party coalition with the utopianists. Now the party, divided into two ideologies: Extremists and Moderates, they seek to destroy the Republic, and replace it with a socialist republic, the look of this socialist republic changes between the faction."
 BEL_council_communist_party:0 "PCB/KPB Moderates"
 BEL_council_communist_party_long:0 "Parti Communiste de Belgique/Kommunistische Partij van België \n§g A wide coalition of communists and utopianists. The party was formed in 1921 as a small utopianist movement, breaking off from the labour party. However in 1931 when the Belgian Labour Party joined the Catholic party coalition, many communists amongst the labour party felt betrayed, forming the Belgian Communist Party coalition with the utopianists. Now the party, divided into two ideologies: Extremists and Moderates, they seek to destroy the Republic, and replace it with a socialist republic, the look of this socialist republic changes between the faction."
-BEL_socialist_party:0 "POB/BW Progressives"
+BEL_socialist_party:0 "POB/BWP Progressives"
 BEL_socialist_party_long:0 "Parti Ouvrier Belge/Belgische Werkliedenpartij, or Belgian Labor Party \n§g A Socialistic party in Belgium, The party survived the formation of Flanders-Wallonia, and with the establishment of the republic joined Paul Van Zeeland's Coalition goverment. Making 1 of the three parties in the coalition."
-BEL_social_democrat_party:0 "POB/BW"
+BEL_social_democrat_party:0 "POB/BWP"
 BEL_social_democrat_party_long:0 "Parti Ouvrier Belge/Belgische Werkliedenpartij, or Belgian Labor Party \n§g A Socialistic party in Belgium, The party survived the formation of Flanders-Wallonia, and with the establishment of the republic joined Paul Van Zeeland's Coalition goverment. Making 1 of the three parties in the coalition."
 BEL_liberal_party:0 "LP/PL"
 BEL_liberal_party_long:0 "Parti libéral/Liberale Partij or Liberal Party \n§g A Liberalist party, founded in 1846 the party has been one of the most major parties, being only bested by the Catholic party. This party managed to survive the formation of Flanders-Wallonia, and with the formation of the Belgian Republic joined Paul Van Zeeland's Coalition government. Making 1 of the three parties in the Coalition."
@@ -36,5 +36,17 @@ Left_and_Right_Ideals_Rising_desc:0 "The Republican government is very unpopular
 #####Tooltips#####
 
 #####Focus#####
+BEL_rexist_question:0 "The Rexist Question"
+BEL_rexist_question_desc:0 "Ever since the recent elections Rexist Agitation, as well as other right wing movements have grown drastically, its time we take a stance against these actions."
 
 #####Events#####
+bel.1.t:0 "The Belgian Situation"
+bel.1.d:0 "Belgium has been a struggling nation for much of the 20th century. With the end of the Guerra Mondiale, Belgium found itself ruled by a German King and going by the name of Flanders-Wallonia, with the royal family in exile and the nation a mere shadow of its former glory. However with the second declaration of independence in 1931, Belgium finally found itself turning the downturn upside down. With the wide coalition of Liberals, Catholics and Socialists, Belgium was finally recovering from economic downfall and years of inefficient rule. But many do threaten the status quo. In the nation many still see Albert as the True king, as opposed to his son, Leopold III. Many rumors also has gone around saying Leopold seeks to take power for himself. Nationalist elements have risen, with the leading figure Leon Degrelle at the helm. However for now, the Belgian situation remains peaceful, with upcoming elections later this year."
+bel.1.a:0 "The Belgian Lion Roars!"
+bel.2.t:0 "The Coalition Breaks"
+bel.2.d:0 "After months of arguing amongst the Belgian Labour party, Catholic Party, and the Liberal Party, the coalition has split today. Hundreds of thousands across the country now worry for the future of stability in Belgium, with many fleeing to more radical left and right wing parties. Rumors of the BWP forming a new coalition with the Belgian Communist party, as well as a far right coalition potentially making a move in the next elections spread across the nation, bringing fear for the many thousands of citizens. However for now we must wait and see what folds in these daring times. "
+bel.2.a:0 "Belgium is on a tightrope"
+bel.3.t:0 "The King’s Coup"
+bel.3.d:0 "What started as a bright and sunny day, has become a very controversial day for Belgium. Today, King Leopold, after meeting with the Army and with the National Royalist Movement, marched onto the Belgian Federal Parliament. The goals of the King and the other members coup originates from the recently formed socialist coalition, between the Belgian Labour Party and the Belgian Communist Party. King Leopold has given out a speech, stating that the suspension of the parliament is only temporary for when the government transitions from the socialist government to a more stable government, and that in the following days stability will be restored to Belgium. Many criticize this move as to be a play by the king to strengthen his governmental powers, while many see it as the end of a growing socialist threat and the start of a better and brighter Belgium. We must only wait and see how things play out."
+bel.3.a:0 "So this is how liberty dies"
+

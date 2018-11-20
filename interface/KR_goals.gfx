@@ -4,6 +4,11 @@ spriteTypes = {
 		name = "GFX_goal_continuous_political"
 		texturefile = "gfx/interface/goals/goal_continuous_political.dds"
 	}
+	
+		SpriteType = {
+		name = "GFX_goal_REX"
+		texturefile = "gfx/interface/goals/goal_REX.tga"
+	}
 
 	SpriteType = {
 		name = "GFX_goal_AUS_tanks"

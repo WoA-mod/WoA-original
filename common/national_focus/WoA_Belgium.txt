@@ -63,7 +63,7 @@ focus_tree = {
 	
 		focus = {
 		id = BEL_Labour_Domination
-		icon = GFX_goal_ideology_social_democrat
+		icon = GFX_BEL_Choose_BWP
 		prerequisite = { focus = Begin_Elections }
 		available = {
 			always = no
@@ -320,10 +320,10 @@ focus_tree = {
 	
 	#### LIBERAL PATH
 	
-	#### FATE OF THE MONARCHY 
+	#### REXIST QUESTION
 	focus = {
-		id = BEL_Monarchy_Question
-		icon = GFX_generic_home_defense_bel
+		id = BEL_rexist_question
+		icon = GFX_goal_REX
 		prerequisite = { focus = Begin_Elections }
 		available = {
 			always = no

@@ -1,0 +1,36 @@
+﻿l_english:
+
+#PARTIES
+SER_utopianism_party:0 ""
+SER_utopianism_party_long:0 ""
+SER_council_communist_party:0 ""
+SER_council_communist_party_long:0 ""
+SER_socialist_party:0 ""
+SER_socialist_party_long:0 ""
+SER_social_democrat_party:0 ""
+SER_social_democrat_party_long:0 ""
+SER_liberal_party:0 ""
+SER_liberal_party_long:0 ""
+SER_conservative_party:0 ""
+SER_conservative_party_long:0 ""
+SER_authoritarian_democrat_party:0 "Карађорђевић"
+SER_authoritarian_democrat_party_long:0 "Карађорђевић or Karađorđević dynasty \n§g The Royal Family house of the rulers of Serbia. In recent times the house has seem huge changes. From the forced Abdication of Peter I to the now Regency led by Prince Paul, the house has seen its troubles. Paring up with the military Prince Paul has managed to bring back Stabillity to the nation following the death of Alexander II. However many parties and the black hand seek to undermine Prince Paul, and if the military is convinced enough, they will abandon hope in the Regency."
+SER_paternal_autocrat_party:0 "Narodna Odbrana"
+SER_paternal_autocrat_party_long:0 "Narodna Odbrana or National Defence \n§g The now political front of the Black hand, the two organizations have sought to undermine the Kingdom for their own personal gains. After the near collapse of the organization due to King Alexander's tight rule and the Austrian trial, the organization has emerged stronger than ever. Many rumor that the organization worked to kill Alexander II, and to take over, however there is little evidence to back this up. It is know however, that the Narodna Odbrana is planning something, and that soon Serbia will find itself in trouble once more."
+SER_national_populist_party:0 ""
+SER_national_populist_party_long:0 ""
+SER_antiquarian_nationalist_party:0 ""
+SER_antiquarian_nationalist_party_long:0 ""
+
+#\n§g
+
+### EVENTS ###
+
+
+### IDEAS ###
+
+###
+
+###
+
+### MISC ###
