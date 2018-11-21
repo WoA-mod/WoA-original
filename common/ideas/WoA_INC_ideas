@@ -5,7 +5,7 @@ ideas = {
 			
 	
 		INC_utopianopposition = {
-		
+			picture = chi_war_of_resistance2
 			
 			
 			modifier = {
@@ -19,8 +19,8 @@ ideas = {
 			}
 			}
 			INC_incompletelandreform = {
-			
-			
+				picture = raj_risk_of_famine
+				
 				modifier = {
 					conscription_factor = -0.1
 					stability_factor = -0.1
@@ -28,8 +28,8 @@ ideas = {
 				}
 			}
 			INC_fiercepatriotism = {
-			
-			
+				picture = raj_all_india_forward_bloc_communism
+				
 				modifier = {
 					army_org_factor = 0.2
 					conscription_factor = 0.15
@@ -38,8 +38,8 @@ ideas = {
 				}
 			}
 			INC_adventuristarmy = {
-			
-			
+				picture = tfv_can_conscription_crisis
+				
 				modifier = {
 					encryption_factor = -0.1
 					army_org_factor = -0.1
@@ -48,8 +48,8 @@ ideas = {
 			}
 			
 			INC_decentralisedplanning = {
-			
-			
+				picture = Illegitimate_Economy
+				
 				modifier = {
 					production_factory_efficiency_gain_factor = -0.2
 					consumer_goods_factor = -0.15

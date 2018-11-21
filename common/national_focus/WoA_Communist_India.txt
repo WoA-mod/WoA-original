@@ -1,0 +1,212 @@
+focus_tree = {
+    id = communistindia_focus
+    
+    country = {
+        factor = 0
+            modifier = {
+            add = 20
+            tag = INC
+            }
+    }
+    default = no
+    
+    ##POLITICALFOCUS
+        focus = {
+            id = INC_the_glorious_coup
+            icon = GFX_goal_peoples_state
+            x = 2
+            y = 0
+            cost = 5
+            ai_will_do = {
+                factor = 100
+            }
+        avaliable = {
+            has_country_flag = INC_utopian_flag
+        }
+        completion_reward = {
+        #TBA
+        }
+        }
+        focus = {
+            id = INC_down_with_the_old
+            icon = GFX_slaughter_the_weak
+            prerequisite = { 
+				focus = INC_the_glorious_coup 
+				}
+            x = 1
+            y = 1
+            cost = 5
+            ai_will_do = {
+                factor = 100
+                }
+        completion_reward = {
+            #TBA
+        }
+        }
+        focus = {
+        id = INC_up_with_the_new
+        icon = GFX_goal_red_eagle
+        prerequisite = {
+        focus = INC_the_glorious_coup
+        }
+        x = 3
+        y = 1
+        cost = 5
+        ai_will_do = {
+            factor = 
+        }
+        completion_reward = {
+        }
+        }
+        focus = {
+        id = INC_what_is_to_be_done
+        icon = goal_unknown 
+        prerequisite = { 
+        focus = INC_up_with_the_new
+        }
+		prerequisite = {
+		focus = INC_down_with_the_old
+		}
+        x = 2
+        y = 2
+        cost = 5
+        ai_will_do = {
+            factor = 
+        }
+        completion_reward = {
+        }
+        
+        }
+		
+        focus = {
+		id = INC_begin_5_year_planning
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {
+		focus = INC_what_is_to_be_done
+		}
+		x = 1
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 
+		}
+		completion_reward = {
+		}
+		}
+		focus = {
+			id = INC_guns_not_sticks
+			icon = GFX_focus_RAJ_indianisation_of_army
+			prerequisite = {
+				focus = INC_begin_5_year_planning
+			}
+			x = 1
+			y = 4
+			cost = 5
+			ai_will_do = {
+				factor = 
+			}
+			completion_reward = {
+			}
+		}
+		       
+		focus = {
+			id = INC_bright_young_commanders
+			icon = GFX_goal_rev_militia
+			prerequisite = {
+				focus = INC_guns_not_sticks
+			}
+			x = 1
+			y = 5
+			cost = 5
+			ai_will_do = {
+				factor = 
+			}
+			completion_reward = {
+			}
+		}
+		focus = {
+			id = INC_the_indian_ideology
+			icon = GFX_goal_unknown
+			prerequisite = {
+				focus = INC_what_is_to_be_done
+			}
+			x = 3
+			y = 3
+			cost = 5
+			ai_will_do = {
+				factor = 
+			}
+			completion_reward = {
+			}
+		}
+		focus = {
+			id = INC_fulfill_the_5_year_plan_in_4
+			icon = GFX_goal_generic_construction
+			prerequisite = {
+				focus = INC_the_indian_ideology
+			}
+			x = 3
+			y = 4
+			cost = 5
+			ai_will_do = {
+				factor = 
+			}
+			completion_reward = {
+			}
+		}
+		focus = {
+			id = INC_opiate_of_the_masses
+			icon = GFX_goal_atheism
+			prerequisite = {
+				focus = INC_fulfill_the_5_year_plan_in_4
+			}
+			x = 3
+			y = 5
+			cost = 5
+			ai_will_do = {
+				factor = 
+			}
+			completion_reward = {
+			}
+		}
+		focus = {
+			id = INC_united_front_of_workers_and_peasants
+			icon = goal_unknown
+			prerequisite = {
+				focus = INC_opiate_of_the_masses
+			}
+			prerequisite = {
+				focus = INC_bright_young_commanders
+			}
+			x = 2
+			y = 6
+			cost = 5
+			ai_will_do = {
+				factor = 
+			}
+			completion_reward = {
+			}
+		}
+		focus = {
+			id = INC_finish_the_indian_struggle
+			icon = goal_unknown
+			prerequisite = {
+				focus =  INC_united_front_of_workers_and_peasants
+			}
+			x = 2
+			y = 7
+			cost = 5
+			ai_will_do = {
+				factor = 
+			}
+			completion_reward = {
+			}
+		}
+		
+		
+		
+		
+		
+		
+        }
+

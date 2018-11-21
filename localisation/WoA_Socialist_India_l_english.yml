@@ -22,3 +22,38 @@ INC_national_populist_party:0 "National Patriotic Organisation"
 INC_national_populist_party_long:0 "National Patriotic Organisation"
 INC_antiquarian_nationalist_party:0 "All-India Dharmic League"
 INC_antiquarian_nationalist_party_long:0 "All-India Dharmic League"
+
+###Focus Localisation####
+INC_the_glorious_coup:0 "The Glorious Coup"
+INC_down_with_the_old:0 "Down with the Old"
+INC_up_with_the_new:0 "Up With Our New Mother!"
+INC_what_is_to_be_done:0 "What is to Be Done?"
+INC_begin_5_year_planning:0 "First 5 Year Plan" 
+INC_guns_not_sticks:0 "Guns not Sticks"
+INC_bright_young_commanders:0 "Bright New Commanders"
+INC_the_indian_ideology:0 "The Indian Ideology"
+INC_fulfill_the_5_year_plan_in_4:0 "5 Year Plan in 4"
+INC_opiate_of_the_masses:0 "Opiate of the Masses"
+INC_united_front_of_workers_and_peasants:0 "United Front of Workers and Peasants"
+
+###Idea Localisation####
+INC_utopianopposition:0 "Opposition by the Utopians!"
+INC_fiercepatriotism:0 "A Fiercly Patriotic Commune"
+INC_adventuristarmy:0 "An Adventurist Army"
+INC_decentralisedplanning:0 "Decentralised Economic Planning"
+INC_a_utopian_commune:0 "A Utopian Commune"
+INC_councilcomcrackdown:0 "Crackdown!"
+INC_incompletelandreform:0 "Incomplete Land Reform"
+
+##Event Localisation####
+
+indcom.001.t:0 "State of the Indian Communist Republic"
+indcom.002.t:0 "Utopian General Strike"
+indcom.002.d:0 "As the sun rose up through the dark Bengali night, there came only another upheaval. Weakness, the inability of the so called “revolutionary” government to do anything, infighting and stealing from the common man. For many enough was enough. Netaji had organized one of the most fierce paramilitaries in India, for another Sorelian general strike. Workers left what scarce industry existed, farmers marched, calling for land reform, and finally the development of India. Yet the crooked legislature could do nothing but argue and steal. Netaji was gaining power by the day, his Utopians moving through the poor dusty alleyways, bringing what was needed most, change."
+indcom.utopiangenstrikeOP:0 "God Help Us"
+indcom.003.t:0 "Utopian Coup Attempt Begins"
+indcom.003.d:0 "22:00 Calcutta INC Utopian mobs after particularly fierce riots near the Red People's Fort broke into the fort! The mobs have put the current government under lockdown, calling for the Presidency of the Indian Communist Republic to be transferred to Netaji Bose, and for Bose to be given EMERGENCY POWERS over the state and for immediate suspension of the legislature and new elections, monitored by the Utopians. Bose has promised safety to the current leaders if they accept these demands." 
+indcom.utopiancoupstartA:0 "Accept!"
+indcom.004.t:0 "Utopians take Power!"
+indcom.004.d:0 "The current president has accepted Bose's demands faced with immediate death, making Bose de facto dictator of the Indian Communist Republic. Bose has promised far reaching reforms, including a completion of land reform, rural education, and industrialization. With Council Communist opposition let's see where he goes.."
+indcom.utopiancoupOP:0 "What will Netaji do now!"
