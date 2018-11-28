@@ -1449,7 +1449,7 @@ focus_tree = {
 	#Replace the Illitaracy national spirit with "Fighting illiteracy" which reduces its effects by 1/4
 	focus = {
 		id = CRO_rural_schools
-		icon = PLACEHOLDER
+		icon = GFX_CRO_build_rural_schools
 		available = {
 			always = no
 		}
@@ -1465,7 +1465,7 @@ focus_tree = {
 	#Remove national spirit fighting illiteracy, add "Literacy programs" which lasts for 3 years and halvens the original debuff
 	focus = {
 		id = CRO_literacy_program
-		icon = PLACEHOLDER
+		icon = GFX_goal_KTG_Bookstack
 		available = {
 			always = no
 		}
@@ -1478,10 +1478,9 @@ focus_tree = {
 		cost = 5
 	}
 	#LOAN FROM THE ITALIANS
-	#PLACEHOLDER
 	focus = {
 		id = CRO_loan_italians
-		icon = PLACEHOLDER
+		icon = GFX_CRO_italian_loan
 		available = {
 			always = no
 		}
@@ -1503,10 +1502,9 @@ focus_tree = {
 		cost = 5
 	}
 	#LOAN FROM THE GERMANS
-	#PLACEHOLDER
 	focus = {
 		id = CRO_loan_germans
-		icon = PLACEHOLDER
+		icon = GFX_CRO_german_loan
 		available = {
 			always = no
 		}
@@ -1604,7 +1602,7 @@ focus_tree = {
 	#Add national spirit "Economic Boom" which grants consumer goods -5%, factory output +10%, dockyard output +10%
 	focus = {
 		id = CRO_laughingstock_no_longer
-		icon = PLACEHOLDER
+		icon = GFX_CRO_laughingstock_no_longer
 		available = {
 			always = no
 		}
@@ -1643,7 +1641,7 @@ focus_tree = {
 	#PP + 100, claim all of Danubia, core austria
 	focus = {
 		id = CRO_we_should_have_stuck_together
-		icon = PLACEHOLDER
+		icon = GFX_CRO_we_should_have_stuck_together
 		available = {
 			always = no
 		}
@@ -1657,7 +1655,7 @@ focus_tree = {
 	#Add national spirit Kaiser's Army, which grants 5.00% recruitable pop, division attack +5, division defense +5%
 	focus = {
 		id = CRO_kaisers_army
-		icon = PLACEHOLDER
+		icon = GFX_CRO_the_kaisers_army
 		available = {
 			always = no
 		}
@@ -1699,7 +1697,7 @@ focus_tree = {
 	#If Bosnia is led by Sarkotic or a pro-habsburg candidate, immediately annex and core. Otherwise, core all and gain CB.
 	focus = {
 		id = CRO_loyal_bosnia
-		icon = PLACEHOLDER
+		icon = GFX_CRO_loyal_bosnia
 		available = {
 			always = no
 		}
@@ -1709,11 +1707,11 @@ focus_tree = {
 		y = 1
 		cost = 5
 	}
-	#CONTACT HABSBURG restorationISTS
+	#CONTACT HABSBURG LOYALISTS
 	#Unlock decision to give debuff to Danubia, can only be activated if at war with danubia.
 	focus = {
-		id = CRO_contact_restorationists
-		icon = PLACEHOLDER
+		id = CRO_contact_loyalists
+		icon = GFX_CRO_contact_habsburg_loyalists
 		available = {
 			always = no
 		}
@@ -1734,8 +1732,8 @@ focus_tree = {
 		available = {
 			always = no
 		}
-		prerequisite = { focus = CRO_contact_restorationists }
-		relative_position_id = CRO_contact_restorationists
+		prerequisite = { focus = CRO_contact_loyalists }
+		relative_position_id = CRO_contact_loyalists
 		x = 0
 		y = 1
 		cost = 5
@@ -1744,7 +1742,7 @@ focus_tree = {
 	#Core all the Danubian provinces, tagswitch to AHC. AHC annexes and cores all of Croatia's cores.
 	focus = {
 		id = CRO_triple_monarchy
-		icon = PLACEHOLDER
+		icon = GFX_CRO_triple_monarchy
 		available = {
 			always = no
 		}
@@ -1760,7 +1758,6 @@ focus_tree = {
 #	"No debuffs, right?"
 #	"Right?"
 ######################################################################
-
 	#THE MOVEMENT TAKES OVER
 	#Get national spirit "Jaksa Racic" which grants +10% stability and +10% war support
 	focus = {
@@ -1828,8 +1825,8 @@ focus_tree = {
 	#THE VODA'S RULE
 	#An event fires explaining Croatia's new regime. Gain 20PP and set racic's title to Vođa.
 	focus = {
-		id = CRO_vodas_rule #Custom icon
-		icon = PLACEHOLDER
+		id = CRO_vodas_rule
+		icon = GFX_CRO_vodas_rule
 		available = {
 			always = no
 		}
@@ -1871,15 +1868,20 @@ focus_tree = {
 	}
 	#MOESIA SUPERIOR
 	#Asks through event Rome about a war on Serbia. If they accept, Italy and Croatia attack Serbia and probably rape it. Otherwise, Rome has two buttons: 1, allow them to do it on their own, and 2, forbid them (AI will never pick this). In case they pick 2, they'll get a decision that when enacted will declare war on serbia.
+	#THE MOESIAN WAR
+	#Declare war on serbia. All that crap about the warlords still applies, only no proconsul pretender will spawn.
 	focus = {
 		id = CRO_moesia_superior
 		icon = PLACEHOLDER
 		available = {
 			always = no
 		}
-		prerequisite = { focus = CRO_triumph_for_bosnia }
+		prerequisite = {
+			focus = CRO_triumph_for_bosnia
+			focus = CRO_integrate_bosnia
+		}
 		relative_position_id = CRO_triumph_for_bosnia
-		x = 0
+		x = 1
 		y = 1
 		cost = 5
 	}
@@ -1915,34 +1917,32 @@ focus_tree = {
 		y = 1
 		cost = 5
 	}
-	#THE MOESIAN WAR
-	#Declare war on serbia. All that crap about the warlords still applies, only no proconsul pretender will spawn.
-	focus = {
-		id = CRO_moesian_war
-		icon = GFX_goal_generic_position_armies-
-		available = {
-			always = no
-		}
-		prerequisite = { focus = CRO_integrate_bosnia }
-		relative_position_id = CRO_integrate_bosnia
-		x = 0
-		y = 1
-		cost = 5
-	}
+
+#	focus = {
+#		id = CRO_moesian_war
+#		icon = GFX_goal_generic_position_armies-
+#		available = {
+# 			always = no
+#		}
+#		prerequisite = { focus = CRO_integrate_bosnia }
+#		relative_position_id = CRO_integrate_bosnia
+#		x = 0
+#		y = 1
+#		cost = 5
+#	}
 	#DOWN WITH THE BLACK EAGLE
 	#Declare war on serbia. All that crap about the warlords still applies, only no proconsul pretender will spawn.
 	focus = {
 		id = CRO_down_with_the_black_eagle
-		icon = PLACEHOLDER #custom icon
+		icon = GFX_CRO_down_with_the_black_eagle
 		available = {
 			always = no
 		}
 		prerequisite = {
-			focus = CRO_moesian_war
 			focus = CRO_moesia_superior
 		}
-		relative_position_id = CRO_moesian_war
-		x = -1
+		relative_position_id = CRO_moesia_superior
+		x = 0
 		y = 1
 		cost = 5
 	}
@@ -1955,7 +1955,6 @@ focus_tree = {
 			always = no
 		}
 		prerequisite = {
-			focus = CRO_albanoi
 			focus = CRO_down_with_the_black_eagle
 		}
 		relative_position_id = CRO_down_with_the_black_eagle
@@ -1965,7 +1964,7 @@ focus_tree = {
 	}
 	#Once Illyria is a properly functioning state, a decision pops up with no warning, a decision about rioting against rome. The proconsul becomes Emperor of Illyria. However, Illyria loses all rome buffs and gets a major stability debuff. Plus, you know, rome gets an event about declaring war on them immediately and if they win they can split the province.
 ######################################################################
-#	Niko Bartulovic, the unpopular figurehead who isn't senile yet
+#	Niko Bartulovic, the (un)popular figurehead who isn't senile yet
 ######################################################################
 	#SLAVIC IDENTITY
 	#Bartulovic takes over. Get national spirit "Unpopular rule" which gives -25% stability and -1.5 PP gain.
@@ -2098,7 +2097,7 @@ focus_tree = {
 	#Gain CB on Bulgaria. Bulgaria gets some nice buff. When won, Illyria gets an event to core Bulgaria and gets an event about bulgarian resistance (much stronger than the serbian one).
 	focus = {
 		id = CRO_tsarfall
-		icon = PLACEHOLDER
+		icon = GFX_CRO_attack_bulgaria
 		available = {
 			always = no
 		}
@@ -2126,7 +2125,7 @@ focus_tree = {
 	#Claim most of today's Romania
 	focus = {
 		id = CRO_look_north
-		icon = PLACEHOLDER #custom icon
+		icon = GFX_CRO_look_north
 		available = {
 			always = no
 		}
@@ -2141,7 +2140,7 @@ focus_tree = {
 	#Claim Epirus and Peloponnese, and Southern and Western Macedonia. Claim albania. Demand subjugation of Greece, they'll accept if much weaker.
 	focus = {
 		id = CRO_fate_of_greece
-		icon = PLACEHOLDER #custom icon
+		icon = GFX_CRO_fate_of_greece
 		available = {
 			always = no
 		}
@@ -2171,16 +2170,17 @@ focus_tree = {
 ######################################################################
 	#Victory in the Civil War
 	#Locked by default, will be bypassed when the war is over. (CCR does nto exist)
-	focus = {
-		id = CCR_victory_civil_war
-		icon = PLACEHOLDER
-		available = {
-			always = no
-		}
-		x = 0
-		y = 1
-		cost = 5
-	}
+#	focus = {
+#		id = CCR_victory_civil_war
+#		icon = PLACEHOLDER
+#		available = {
+#			always = no
+#		}
+#		x = 0
+#		y = 1
+#		cost = 5
+#	}
+#}
 }
 ######################################################################
 #	COMMUNIST PATH

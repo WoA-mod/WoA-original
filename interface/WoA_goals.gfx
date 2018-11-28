@@ -193,5 +193,58 @@ spriteTypes = {
 		name = "GFX_CRO_greater_croatia"
 		texturefile= "gfx/interface/goals/CRO_greater_croatia.dds"
 	}
+	SpriteType = {
+		name = "GFX_CRO_down_with_the_black_eagle"
+		texturefile= "gfx/interface/goals/CRO_down_with_the_black_eagle.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_fate_of_greece"
+		texturefile= "gfx/interface/goals/CRO_fate_of_greece.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_italian_loan"
+		texturefile= "gfx/interface/goals/CRO_italian_loan.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_german_loan"
+		texturefile= "gfx/interface/goals/CRO_german_loan.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_look_north"
+		texturefile= "gfx/interface/goals/CRO_look_north.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_the_kaisers_army"
+		texturefile= "gfx/interface/goals/CRO_the_kaisers_army.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KTG_Bookstack"
+		texturefile= "gfx/interface/goals/goal_KTG_Bookstack.dds"
+	}
+#efuhewfiopheuwfiuhwapefiuh
+	SpriteType = {
+		name = "GFX_CRO_attack_bulgaria"
+		texturefile= "gfx/interface/goals/CRO_attack_bulgaria.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_build_rural_schools"
+		texturefile= "gfx/interface/goals/CRO_build_rural_schools.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_carigrad"
+		texturefile= "gfx/interface/goals/CRO_carigrad.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_contact_habsburg_loyalists"
+		texturefile= "gfx/interface/goals/CRO_contact_habsburg_loyalists.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_laughingstock_no_longer"
+		texturefile= "gfx/interface/goals/CRO_laughingstock_no_longer.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_we_should_have_stuck_together"
+		texturefile= "gfx/interface/goals/CRO_we_should_have_stuck_together.dds"
+	}
 
 }
