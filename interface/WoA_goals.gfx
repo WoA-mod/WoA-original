@@ -221,7 +221,6 @@ spriteTypes = {
 		name = "GFX_goal_KTG_Bookstack"
 		texturefile= "gfx/interface/goals/goal_KTG_Bookstack.dds"
 	}
-#efuhewfiopheuwfiuhwapefiuh
 	SpriteType = {
 		name = "GFX_CRO_attack_bulgaria"
 		texturefile= "gfx/interface/goals/CRO_attack_bulgaria.dds"
@@ -245,6 +244,19 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_CRO_we_should_have_stuck_together"
 		texturefile= "gfx/interface/goals/CRO_we_should_have_stuck_together.dds"
+	}
+#testtweetgfeiuryhfgoeurihfgop8eri
+	SpriteType = {
+		name = "GFX_CRO_a_good_start"
+		texturefile= "gfx/interface/goals/CRO_a_good_start.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_into_the_modern_world"
+		texturefile= "gfx/interface/goals/CRO_into_the_modern_world.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRO_moesian_war"
+		texturefile= "gfx/interface/goals/CRO_moesian_war.dds"
 	}
 
 }

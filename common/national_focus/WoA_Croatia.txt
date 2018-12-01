@@ -16,8 +16,8 @@ focus_tree = {
 		id = CRO_elections_1936
 		icon = GFX_goal_support_democracy
 		x = 13
-		y = 0
-		#y = 40
+		#y = 0
+		y = 40
 		cost = 1
 		ai_will_do = {
 			factor = 1
@@ -1369,7 +1369,7 @@ focus_tree = {
 	#x1 +25% research bonus for industry
 	focus = {
 		id = CRO_into_modern_world
-		icon = PLACEHOLDER
+		icon = GFX_CRO_into_the_modern_world
 		available = {
 			always = no
 		}
@@ -1580,7 +1580,7 @@ focus_tree = {
 	#Remove national spirit backwards economy
 	focus = {
 		id = CRO_a_good_start
-		icon = PLACEHOLDER
+		icon = GFX_CRO_a_good_start
 		available = {
 			always = no
 		}
@@ -1872,7 +1872,7 @@ focus_tree = {
 	#Declare war on serbia. All that crap about the warlords still applies, only no proconsul pretender will spawn.
 	focus = {
 		id = CRO_moesia_superior
-		icon = PLACEHOLDER
+		icon = GFX_CRO_moesian_war
 		available = {
 			always = no
 		}
@@ -2169,18 +2169,31 @@ focus_tree = {
 #	Technically, it's another nation's focus tree...
 ######################################################################
 	#Victory in the Civil War
-	#Locked by default, will be bypassed when the war is over. (CCR does nto exist)
-#	focus = {
-#		id = CCR_victory_civil_war
-#		icon = PLACEHOLDER
-#		available = {
-#			always = no
-#		}
-#		x = 0
-#		y = 1
-#		cost = 5
-#	}
-#}
+	#Locked by default, will be bypassed when the war is over (CRO does not exist)
+	focus = {
+		id = CCR_victory_civil_war
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#The Party Congress
+	#The reactionary government was crushed by the Revolution. Now it's time to choose who will lead us into the revolution. Vladimir Ćopić, believes that
+	focus = {
+		id = CCR_victory_civil_war
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CRO_victory_civil_war }
+		relative_position_id = CRO_victory_civil_war
+		x = 0
+		y = 1
+		cost = 1
+	}
 }
 ######################################################################
 #	COMMUNIST PATH
