@@ -21,8 +21,28 @@ ideas = {
 		Left_and_Right_Ideals_Rising = {
 			picture = generic_neutrality_drift_bonus
 			modifier = {
-			war_support_factor = -0.1
+			stability_factor = -0.1
 				national_populist_drift = 0.02
+				paternal_autocrat_drift = 0.01
+			}
+		}
+		
+		economic_downturn = {
+			picture = ROM_king_carol_emptied_accounts
+			modifier = {
+				production_factory_max_efficiency_factor = -0.15
+				industrial_capacity_factory = -0.3
+				production_speed_buildings_factor = -0.3
+			}
+		}
+		
+		division_amongst_the_army = {
+			picture = belgian_general_staff
+			modifier = {
+				war_support_factor = -0.10
+				political_power_gain = -0.10
+				max_planning = -0.1
+				planning_speed = -0.2
 			}
 		}
 		

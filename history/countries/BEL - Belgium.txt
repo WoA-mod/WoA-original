@@ -18,6 +18,8 @@ add_ideas = {
 The_Belgian_Lion
 German_Influence
 Left_and_Right_Ideals_Rising
+economic_downturn
+division_amongst_the_army
 }
 
 
