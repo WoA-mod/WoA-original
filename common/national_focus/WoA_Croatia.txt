@@ -2176,21 +2176,151 @@ focus_tree = {
 		available = {
 			always = no
 		}
-		x = 0
-		y = 1
+		x = 8
+		y = 0
 		cost = 5
 	}
 	#The Party Congress
 	#The reactionary government was crushed by the Revolution. Now it's time to choose who will lead us into the revolution. Vladimir Ćopić, believes that
 	focus = {
-		id = CCR_victory_civil_war
+		id = CCR_party_congress
 		icon = PLACEHOLDER
 		available = {
 			always = no
 		}
-		prerequisite = { focus = CRO_victory_civil_war }
-		relative_position_id = CRO_victory_civil_war
+		prerequisite = { focus = CCR_victory_civil_war }
+		relative_position_id = CCR_victory_civil_war
 		x = 0
+		y = 1
+		cost = 1
+	}
+######################################################################
+#	Antun Mavrak, "why can't we all just be friends?"
+######################################################################
+	#ANTUN MAVRAK
+	#Antun Mavrak advocates the unification of all the Balkans under a single socialist federation. But to achieve this, he'd rather fund local movements to smash capitalists, than intervene directly. Mavrak has repeatedly criticised Kun's approach to the nationalism issue, and believes that pacifism is a fundamental part of socialism. He believes that, if given the chance, workers of various countries will unite voluntarily, forming a true communist utopia. Many in the Internationale fear that he might form his own.
+	focus = {
+		id = CCR_mavrak
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CCR_party_congress }
+		relative_position_id =  CCR_party_congress
+		mutually_exclusive  = {
+			focus = CCR_tito
+			focus = CCR_copic
+		}
+		x = -6
+		y = 1
+		cost = 1
+	}
+	#RIGAS FERAIOS' DREAM
+	#Rigas Feraios, a Greek revolutionary who fought against the Ottomans, is by many recognized as a symbol of the struggle against imperialism and tyranny. Among his proposals, he theorized a Balkan Federation, meant to be strong enough to stand up against foreign powers. Feraios died before Karl Marx was born, but the application of socialism to the Federation is the natural evolution of his idea.
+	#Lower opinion of all non-communist countries in the balkans. Gain 150 PP.
+	focus = {
+		id = CCR_feraios_dream
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CCR_mavrak }
+		relative_position_id =  CCR_mavrak
+		x = 0
+		y = 1
+		cost = 5
+	}
+	#RED BOSNIA
+	#Bosnia is immediately beyond our border, and yet they are oppressed by an authoritarian regime. Many within the country are already fighting their war against capitalism, but they simply can't win alone. We must send them support.
+	#Start an event chain that will lead to the Bosnian government being overthrown if the player makes the right choiced. When it is overthrown, Bosnia will become a puppet of Croatia.
+	#Will bypass if Croatia already owns Bosnia.
+	#May only be done if not already supporting another revolution.
+	focus = {
+		id = CCR_red_bosnia
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CCR_feraios_dream }
+		relative_position_id =  CCR_feraios_dream
+		x = -1
+		y = 1
+		cost = 7
+	}
+	#REVOLUTION IN SERBIA
+	#Serbia is the ultimate degeneration of Revolution. The Serbians, when they achieved their independence as a kingdom, only traded a tyrant from another. Not everyone within the country supports the King, though. Many are just waiting for the right occasion to overthrow the tyrant and install a socialist regime.
+	#Starts an event chain that will eventually lead to Montenegro declaring independence as a Socialist republic. Montengro will then declare war on Serbia, and Mavrak can either intervene or just send volunteers. Many parts of the Serbian army will defect to the revolutionaries.
+	#May only be done if not already supporting another revolution.
+	focus = {
+		id = CCR_revolution_in_serbia
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CCR_feraios_dream }
+		relative_position_id =  CCR_feraios_dream
+		x = 1
+		y = 1
+		cost = 1
+	}
+	#FIRES IN KOSOVO
+	#Kosovo has a notable ethnic Serb part, among which many are communists. We, together with our new ally Serbia, could use this as a starting spark to ignite the revolution.
+	#Starts an event chain that will eventually lead to a communist uprising based in Kosovo, which will then proceed to take over the rest of Albania. Kosovo will then join Serbia, and Albania will become a puppet of Croatia.
+	#May only be done if not already supporting another revolution.
+	focus = {
+		id = CCR_fires_in_kosovo
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CCR_revolution_in_serbia
+			focus = CCR_red_bosnia
+		}
+		relative_position_id =  CCR_revolution_in_serbia
+		x = -1
+		y = 1
+		cost = 1
+	}
+###############################################################################
+#	Josip Broz, the strongman who just doesn't give a shit about anyone else
+###############################################################################
+	#JOSIP BROZ
+	#Josip Broz, the current party leader, advocates the unification of all South Slavic peoples in a single socialist federation. Danubian leadership believe to control him and are pushing for his elections, but he might prove a less controllable character than expected...
+	focus = {
+		id = CCR_tito
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CCR_party_congress }
+		relative_position_id =  CCR_party_congress
+		mutually_exclusive  = {
+			focus = CCR_mavrak
+			focus = CCR_copic
+		}
+		x = 0
+		y = 1
+		cost = 1
+	}
+########################################################################
+#	Vladimir Ćopić, someone about as subtle as Patrick from Spongebob
+########################################################################
+	#VLADIMIR ĆOPIĆ
+	#Vladimir Ćopić is a simple man. He was in charge of training the communist militias and is very popular in the Popular Army. He believes that nationalities are a fraud invented by the elites to control the proletariat, and that for this reason they must be abolished. He's more than once said that he would start by taking down the monarchies of the Balkans. The Danubian leadership is puzzled by this guy. They believe that he would be a great ally, but at the same time fear that he would be too hard to control.
+	focus = {
+		id = CCR_copic
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CCR_party_congress }
+		relative_position_id =  CCR_party_congress
+		mutually_exclusive  = {
+			focus = CCR_mavrak
+			focus = CCR_tito
+		}
+		x = 6
 		y = 1
 		cost = 1
 	}

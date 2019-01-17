@@ -245,7 +245,6 @@ spriteTypes = {
 		name = "GFX_CRO_we_should_have_stuck_together"
 		texturefile= "gfx/interface/goals/CRO_we_should_have_stuck_together.dds"
 	}
-#testtweetgfeiuryhfgoeurihfgop8eri
 	SpriteType = {
 		name = "GFX_CRO_a_good_start"
 		texturefile= "gfx/interface/goals/CRO_a_good_start.dds"
