@@ -2233,6 +2233,7 @@ focus_tree = {
 	#RED BOSNIA
 	#Bosnia is immediately beyond our border, and yet they are oppressed by an authoritarian regime. Many within the country are already fighting their war against capitalism, but they simply can't win alone. We must send them support.
 	#Start an event chain that will lead to the Bosnian government being overthrown if the player makes the right choiced. When it is overthrown, Bosnia will become a puppet of Croatia.
+	#If the civil war fails, Croatia gains a core on the croat parts and a claim on the rest and a cb on Bosnia.
 	#Will bypass if Croatia already owns Bosnia.
 	#May only be done if not already supporting another revolution.
 	focus = {
@@ -2248,8 +2249,10 @@ focus_tree = {
 		cost = 7
 	}
 	#REVOLUTION IN SERBIA
-	#Serbia is the ultimate degeneration of Revolution. The Serbians, when they achieved their independence as a kingdom, only traded a tyrant from another. Not everyone within the country supports the King, though. Many are just waiting for the right occasion to overthrow the tyrant and install a socialist regime.
-	#Starts an event chain that will eventually lead to Montenegro declaring independence as a Socialist republic. Montengro will then declare war on Serbia, and Mavrak can either intervene or just send volunteers. Many parts of the Serbian army will defect to the revolutionaries.
+	#Serbia is the ultimate degeneration of Revolution. The Serbians, when they achieved their independence as a kingdom, only traded a tyrant for another. Not everyone within the country supports the King, though. Many are just waiting for the right occasion to overthrow the tyrant and install a socialist regime.
+	#Starts an event chain that will eventually lead to Belgrade erupting in a revolt. When the war is over, Serbia gets a guarantee from Croatia.
+	#If the civil war fails, Croatia gets claims on all of Serbia and a cb, but no cores.
+	#Once the Serbian Civil War is over, a new decision will be unlocked, that triggers a war between Serbia and Montenegro. Something something serbs mustn't be divided by despots.
 	#May only be done if not already supporting another revolution.
 	focus = {
 		id = CCR_revolution_in_serbia
@@ -2263,25 +2266,114 @@ focus_tree = {
 		y = 1
 		cost = 1
 	}
-	#FIRES IN KOSOVO
-	#Kosovo has a notable ethnic Serb part, among which many are communists. We, together with our new ally Serbia, could use this as a starting spark to ignite the revolution.
-	#Starts an event chain that will eventually lead to a communist uprising based in Kosovo, which will then proceed to take over the rest of Albania. Kosovo will then join Serbia, and Albania will become a puppet of Croatia.
-	#May only be done if not already supporting another revolution.
+	#THE KOSOVO CRISIS
+	#Serbia, Bosnia and Montenegro must be owned either by Croatia or by a puppet to proceed.
+	#Albania's despot is of the worst kind: a foreign-imposed one. The Wied monarchy survived mostly due to their ties to the Habsburgs. The Revolution, however, overthrew them, and now the Wied tyrant stands alone. The Serbians of Kosovo are the most oppressed by this system: they'll gladly rise up against this despot.
+	#Starts an event chain that will lead to Kosovo seceding, proclaiming the People's republic of Kosovo, and becoming a puppet of Serbia.
+	#After all this has played out, an event chain for Albania will start about the crisis (Croatia will get all the news too). The Albanians can either forfeit their claims to the area (though they'll be able to regain cores once they own it through a decision), press them with force (declaring war on Serbia and therefore on Croatia too), or try settle the thing diplomatically (Mavrak wants war, it's unlikely that this will succeed).
+	#If the Albanians try to buy time with negotiations, start an event chain for Croatia that will eventually lead to a communist coup in Albania if done successfully.
+	#If war isn't triggered and Mavrak fails to agitate Albanians against their king, Croatia gets a decision that allows them to conquer (and puppet) Albania with force.
 	focus = {
-		id = CCR_fires_in_kosovo
+		id = CCR_kosovo_crisis
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CCR_revolution_in_serbia }
+		prerequisite = { focus = CCR_red_bosnia }
+		relative_position_id =  CCR_red_bosnia
+		x = 1
+		y = 1
+		cost = 1
+	}
+	#THE SKOPJE UPRISING
+	#The next stop is Bulgaria. Here, the Tsar rules with an iron fist. He is no more than a slave to the Capital, and this can not be allowed to continue. Luckily, there's an already powerful and well-established socialist base in Macedonia.
+	#Starts an event chain that will result in Macedonia seceding (but, unless the player is really lucky, it will be nationalist, and not socialist). Shortly after, Sofia will declare a Socialist Republic and some parts of Thrace will secede (usually socialist).
+	#The war is resolved by an event, rather than by a peace deal. Thrace is assigned to the Worker's Republic of Thace. The Principality of Macedonia will be established under a regency council (unless they are socialist) and Socialist Bulgaria gets the rest.
+	#All radsoc governments become Croatia's puppet.
+	focus = {
+		id = CCR_skopje_uprising
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CCR_kosovo_crisis }
+		relative_position_id =  CCR_kosovo_crisis
+		x = 0
+		y = 1
+		cost = 1
+	}
+	#LOYAL MEN IN CHARGE
+	#Not everywhere things went as planned. Reactionaries, false communists and usurpers have used our help to gain important positions, and now are trying to betray the Revolution. We must ensure that they step down and are replaced by more trustworthy people. However, this is in apparent contrast with some things that we have said in the past, and some might not like this course of action...
+	#Will unlock decisions to demand immediate subjugation to all countries that received Croatian "help". Most will accept, unless they are not any kind of communist.
+	#If they accept, they become puppets of Croatia. Though, each decision costs 25 PP and a 5% stability. For each country that refuses, Croatia gets that hit double.
+	#Croatia gets a CB on countries that refuse, but those countries will get a flag that will prevent Croatia from coring their land.
+	focus = {
+		id = CCR_loyal_men_in_charge
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CCR_skopje_uprising }
+		relative_position_id =  CCR_skopje_uprising
+		mutually_exclusive = { focus = CCR_to_each_their_own }
+		x = -1
+		y = 1
+		cost = 1
+	}
+	#TO EACH THEIR OWN
+	#Everything went as planned. The peoples of the Northern Balkans were freed, and they democratically chose a leader of their liking. Even if, in some places, they rejected our ideology, the people have spoken. We will not force it on them. 
+	#Gains the spirit "Defenders of the Revolution", which grants 20% stability and several military boosts
+	#Gains 150PP and 10 stability
+	focus = {
+		id = CCR_to_each_their_own
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CCR_skopje_uprising }
+		relative_position_id =  CCR_skopje_uprising
+		mutually_exclusive = { focus = CCR_loyal_men_in_charge }
+		x = 1
+		y = 1
+		cost = 1
+	}
+	#FERAIOS' HOMELAND
+	#The last Balkan country that still oppresses the workers is Greece, Rigas Feraios' very homeland. We will help local revolutionaries, and luckily they have a big enough powerbase to start with.
+	#Starts an event chain that ends with revolutionaries proclaiming a People's Republic in Athens. They will start VERY weak. It's basically the boss level of Mavrak's adventure. Greece itself is weak, but the revolutionaries will be even weaker. They will need volunteers and land leases if they want to have a hope of victory.
+	#Once the war is over, Greece becomes a puppet of Croatia.
+	#Unlocks a decision that can be enacted if all the countries that guarantee Thessaloniki are busy in a war. Basically, annexes the country and creates a tiny international crisis (that will likely not lead to war, unless Danubia wants to flex).
+	focus = {
+		id = CCR_feraios_homeland
 		icon = PLACEHOLDER
 		available = {
 			always = no
 		}
 		prerequisite = {
-			focus = CCR_revolution_in_serbia
-			focus = CCR_red_bosnia
+			focus = CCR_to_each_their_own
+			focus = CCR_loyal_men_in_charge
 		}
-		relative_position_id =  CCR_revolution_in_serbia
+		relative_position_id =  CCR_to_each_their_own
 		x = -1
 		y = 1
 		cost = 1
 	}
+	#CREATE THE FEDERATION
+	#It's the time. We'll see if Mavrak's ideas are correct. We'll create the federation and invite all the Balkan countries we helped liberate into it. This is the dawn of a new era for Europe.
+	#Sends an event to all countries that Croatia "helped". They'll always accept if RadSoc. Croatia becomes the Balkan federation, annexes and cores those that agree. Claims and gets cb on those that don't.
+	focus = {
+		id = CCR_create_the_federation
+		icon = PLACEHOLDER
+		available = {
+			always = no
+		}
+		prerequisite = { focus = CCR_feraios_homeland }
+		relative_position_id =  CCR_feraios_homeland
+		x = 0
+		y = 1
+		cost = 1
+	}
+	
 ###############################################################################
 #	Josip Broz, the strongman who just doesn't give a shit about anyone else
 ###############################################################################
