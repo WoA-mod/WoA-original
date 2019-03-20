@@ -168,8 +168,6 @@ SEN = "countries/Senegal.txt"
 GAM = "countries/Gambia.txt"
 WLS = "countries/Wales.txt"
 NGR = "countries/Niger.txt"
-CSA = "countries/CSA.txt"
-USB = "countries/USB.txt" #neutral US bloc during civil war in MTG
 MRT = "countries/Mauritania.txt"
 NMB = "countries/Namibia.txt"
 WES = "countries/Western Sahara.txt"
@@ -182,6 +180,13 @@ BOS = "countries/Bosnia.txt"
 MAC = "countries/Macedonia.txt"
 NIR = "countries/Northern Ireland.txt"
 
+#Stuff kept just so Paradox does not cry
+WGR = "countries/West Germany.txt"
+DDR = "countries/East Germany.txt"
+SPR = "countries/Spain.txt"
+CSA = "countries/CSA.txt"
+USB = "countries/USB.txt" #neutral US bloc during civil war in MTG
+
 #FR tags
 KUR = "countries/Kurdistan.txt"
 RHO = "countries/Rhodesia.txt"
@@ -190,35 +195,21 @@ CRU = "countries/Cruzoob.txt"
 BRI = "countries/Brittany.txt"
 OCC = "countries/Occitania.txt"
 NRM = "countries/Normandy.txt"
-LMK = "countries/Lemko.txt"
-SPM = "countries/Kingdom of Spain.txt"
 NFL = "countries/Newfoundland.txt"
 QUE = "countries/Quebec.txt"
 DEI = "countries/Dutch East Indies.txt"
 RUS = "countries/Russia.txt"
-ARB = "countries/Hashemite Arabia.txt"
+ARB = "countries/Arabia.txt"
 DAG = "countries/Dagestan.txt"
 CHE = "countries/Chechnya.txt"
 UBD = "countries/United Baltic Duchy.txt"
 
-#FR German Tags
-BAY = "countries/Bayern.txt"
-ALR = "countries/Alsace-Lorraine.txt"
-
 #FR Indian Tags
 IND = "countries/India.txt"
-INC = "countries/Indian Communist Government.txt"
-TRV = "countries/Travancore.txt"
-MDR = "countries/Madras.txt"
 HYD = "countries/Hyderabad.txt"
-ORI = "countries/Orissa.txt"
-RJH = "countries/Rajahstan.txt"
-BAL = "countries/Baluchistan.txt"
-PUN = "countries/Punjab.txt"
-KAS = "countries/Kashmir.txt"
-BIH = "countries/Bihar.txt"
-MYS = "countries/Mysore.txt"
 BOM = "countries/Bombay.txt"
+PUN = "countries/Punjab.txt"
+#We need Hindu Bengal, Muzzie Bengal and Tamil state tags, Hindustan
 
 #FR Italian Tags
 NAP = "countries/Naples.txt"
@@ -228,23 +219,17 @@ LOM = "countries/Lombardy.txt"
 PIE = "countries/Piedmont.txt"
 COR = "countries/Corsica.txt"
 SAR = "countries/Sardinia.txt"
+#I need the pope and a non-theocracy for their lands
+#Also where in the actual fuck is venice
 
-#FR Chinese Tags
-ANH = "countries/Anhui.txt"
-SCH = "countries/Sichuan.txt"
-GUO = "countries/Guominjun.txt"
-KMT = "countries/Kuomintang.txt"
+#FR German Breakaways
+BAY = "countries/Bayern.txt"
+ALR = "countries/Alsace-Lorraine.txt"
 
 #FR English Breakaways
 EGL = "countries/England.txt"
 SCO = "countries/Scotland.txt"
 WAL = "countries/Wales.txt"
-
-
-#Stuff kept just so Paradox does not cry
-WGR = "countries/West Germany.txt"
-DDR = "countries/East Germany.txt"
-SPR = "countries/Spain.txt"
 
 #WoA Tags
 CRI = "countries/Crimea.txt"
@@ -254,6 +239,5 @@ WLC = "countries/Wallachia.txt"
 DML = "countries/Mittelafrika.txt"
 WIF = "countries/West Indies Federation.txt"
 BUR = "countries/Burma.txt"
-GMY = "countries/German Malaya.txt"
 CRE = "countries/Crete.txt"
 KCH = "countries/Kamchatka.txt"
