@@ -1,0 +1,30 @@
+
+state={
+	id=788
+	name="STATE_788"
+	resources={
+		aluminium=14.000
+	}
+
+	history={
+		owner = BOS
+		victory_points = {
+			11872 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = BOS
+
+	}
+
+	provinces={
+		3985 6942 6957 9894 11845 11872 
+	}
+	manpower=281925
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,25 @@
+state={
+	id = 917
+	name = "STATE_917"
+
+	history={
+		owner = CRO
+		buildings = {
+			infrastructure = 5
+			11735 = {
+				naval_base = 5
+			}
+		}
+		victory_points = {
+			11564 5 
+		}
+		add_core_of = CRO
+	}
+
+	provinces={
+		11564 11735 
+	} 
+	manpower=328897 #Added one state from Istria, which I guess had about 254386 people in it.
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

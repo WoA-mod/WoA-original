@@ -1,0 +1,21 @@
+state={
+	id=944
+	name="STATE_944"
+	manpower = 24475
+	
+	state_category = pastoral
+
+	history={
+		owner = VIN
+		add_core_of = LAO
+		add_core_of = VIN
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		12392 12433 
+	}
+}

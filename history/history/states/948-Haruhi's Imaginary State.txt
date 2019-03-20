@@ -1,0 +1,17 @@
+state={
+	id=948
+	name="STATE_948"
+	history = {
+		owner = RAJ
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 5	
+		}
+	}
+	provinces={
+		4291 7250 10799 12105 
+	}
+	manpower=3 #Haruhi add this later, 3 currently stands for you, Hellbat and Crusaderking
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=608
+	name="STATE_608"
+	manpower = 9648400
+	
+	state_category = metropolis
+
+	history={
+		owner = SHX
+		add_core_of = SHX
+		add_core_of = KMT
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 9
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 3
+			4137 = {
+				naval_base = 4
+			}
+		}
+		victory_points = {
+			9843 20
+		}
+
+	}
+
+	provinces={
+		1134 4137 4140 6828 9843 9969 11761 12026 
+	}
+}

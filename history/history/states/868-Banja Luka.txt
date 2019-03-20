@@ -1,0 +1,25 @@
+
+state={
+	id=868
+	name="STATE_868"
+
+	history={
+		owner = BOS
+		victory_points = {
+			9588 15
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = BOS
+
+	}
+
+	provinces={
+		6614 6619 6983 9586 9588 
+	}
+	manpower=437876
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,27 @@
+state={
+	id=634
+	name="STATE_634"
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 2
+			4226 = {
+				naval_base = 1
+
+			}
+			10234 = {
+				naval_base = 1
+
+			}
+		}
+		victory_points = {
+			4226 1 
+		}
+
+	}
+	provinces={ 1358 4226 4252 4378 10234 12265 }
+	manpower=51500
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

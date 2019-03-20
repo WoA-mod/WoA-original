@@ -1,0 +1,14 @@
+state={
+	id=937
+	name="STATE_937"
+	provinces={
+		12857 
+	}
+	history = {
+		owner = SPM
+		add_core_of = SPM
+	}
+	state_category=city
+	manpower=2 #add manpower here later, detracting from 462
+	buildings_max_level_factor=1.000
+}

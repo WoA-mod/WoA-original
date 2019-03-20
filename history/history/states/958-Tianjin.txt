@@ -1,0 +1,31 @@
+state={
+	id=958
+	name="STATE_958"
+	manpower = 9648400
+	
+	state_category = megalopolis
+
+	history={
+		owner = ANH
+		add_core_of = SHX
+		add_core_of = KMT
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 9
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 3
+			10068 = {
+				naval_base = 4
+			}
+		}
+		victory_points = {
+			10068 1 
+		}
+
+	}
+
+	provinces={
+		10068
+	}
+}

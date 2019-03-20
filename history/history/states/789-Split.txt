@@ -1,0 +1,40 @@
+
+state={
+	id=789
+	name="STATE_789"
+
+	history={
+		owner = CRO
+		victory_points = {
+			3924 5 
+		}
+		victory_points = {
+			3943 5 
+		}
+		victory_points = {
+			6889 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			3924 = {
+				naval_base = 2
+			}
+			3943 = {
+				naval_base = 1
+			}
+			6889 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = CRO
+
+	}
+
+	provinces={
+		3868 3924 3943 3974 6889 11816 
+	}
+	manpower=737600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

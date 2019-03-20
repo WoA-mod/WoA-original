@@ -1,0 +1,26 @@
+
+state={
+	id=442
+	name="STATE_442"
+	manpower = 4684400
+	
+	state_category = rural
+
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+		}
+		add_core_of = AFG
+		add_claim_by = IND
+		add_claim_by = RAJ
+		add_claim_by = INC
+		add_claim_by = HYD
+		add_claim_by = PUN
+	}
+
+	provinces={
+		1978 2084 4558 4998 12717 12763 
+	}
+}

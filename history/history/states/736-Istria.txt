@@ -1,0 +1,21 @@
+state={
+	id=736
+	name="STATE_736"
+	
+	state_category = city
+
+	history={
+		owner = DAN
+		add_core_of = DAN
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={
+		599 11595 #Removed 11735 to give it to Flume.
+	}
+	manpower=508773 #Removed 254386 people to account for the province change.
+	buildings_max_level_factor=1.000
+}
