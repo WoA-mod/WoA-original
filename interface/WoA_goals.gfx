@@ -80,15 +80,6 @@ spriteTypes = {
 		name = "GFX_goal_generic_press_censorship"
 		texturefile = "gfx/interface/goals/goal_generic_press_censorship.dds"
 	}
-		###Argentina 
-	SpriteType = {
-		name = "GFX_ARG_focus_autonomous_region_of_uruguay"
-		texturefile= "gfx/interface/goals/ARG_focus_autonomous_region_of_uruguay.dds"
-	}
-	SpriteType = {
-		name = "GFX_ARG_focus_confederation_of_the_river_plate"
-		texturefile= "gfx/interface/goals/ARG_focus_confederation_of_the_river_plate.dds"
-	}
 	
 	SpriteType = {
 		name = "GFX_goal_generic_cooperate_with_danubia"
@@ -233,13 +224,13 @@ spriteTypes = {
 	###Switzerland
 	
 	SpriteType = {
-		name = "GFX_goal_EON"
-		texturefile = "gfx/interface/goals/GFX_goal_EON.tga"
+		name = "GFX_goal_SWI_armed_neutrality"
+		texturefile = "gfx/interface/goals/SWI_armed_neutrality.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_Hellenic_Republic"
-		texturefile = "gfx/interface/goals/GFX_goal_Hellenic_Republic.dds"
+		name = "GFX_goal_SWI_restore_the_old_confederacy"
+		texturefile = "gfx/interface/goals/SWI_restore_the_old_confederacy.dds"
 	}
 	
 	SpriteType = {
@@ -295,61 +286,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GER_continuation_of_weltpolitik.dds"
 	}
 	
-	SpriteType = {
-		name = "GFX_goal_GER_return_of_the_supreme_command"
-		texturefile = "gfx/interface/goals/GER_return_of_the_supreme_command.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_goal_GER_ensure_crown_loyalty"
-		texturefile = "gfx/interface/goals/GER_ensure_crown_loyalty.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_goal_GER_section_IIIb"
-		texturefile = "gfx/interface/goals/GER_section_IIIb.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_goal_GER_ensure_military_discipline"
-		texturefile = "gfx/interface/goals/GER_ensure_military_discipline.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_goal_GER_war_doctrines"
-		texturefile = "gfx/interface/goals/GER_war_doctrines.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_goal_GER_reestablish_the_SKL"
-		texturefile = "gfx/interface/goals/GER_reestablish_the_SKL.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_goal_GER_guarantee_supplies"
-		texturefile = "gfx/interface/goals/GER_guarantee_supplies.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_goal_GER_convert_our_economy"
-		texturefile = "gfx/interface/goals/GER_convert_our_economy.dds"
-	}
 	###Russia
-	
 	SpriteType = {
 		name = "GFX_goal_RUS_belarus_question"
 		texturefile = "gfx/interface/goals/RUS_belarus_question.tga"
 	}
-	###Switzerland
 	
+	###Argentina 
 	SpriteType = {
-		name = "GFX_goal_SWI_armed_neutrality"
-		texturefile = "gfx/interface/goals/SWI_armed_neutrality.dds"
+		name = "GFX_ARG_focus_autonomous_region_of_uruguay"
+		texturefile= "gfx/interface/goals/ARG_focus_autonomous_region_of_uruguay.dds"
 	}
-	
 	SpriteType = {
-		name = "GFX_goal_SWI_restore_the_old_confederacy"
-		texturefile = "gfx/interface/goals/SWI_restore_the_old_confederacy.dds"
+		name = "GFX_ARG_focus_confederation_of_the_river_plate"
+		texturefile= "gfx/interface/goals/ARG_focus_confederation_of_the_river_plate.dds"
 	}
 	
 	### Middle East
@@ -364,4 +314,95 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/Promote_Islam.tga"
 	}
 	
+	
+	### Czechia
+	SpriteType = {
+		name = "GFX_goal_Dove_of_peace"
+		texturefile = "gfx/interface/goals/dove_of_peace.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_CZE_Champagne_Agreement"
+		texturefile= "gfx/interface/goals/CZE_Champagne_Agreement.dds"
+	}
+	SpriteType = {
+		name = "GFX_Cze_Czech_Miracle"
+		texturefile= "gfx/interface/goals/Cze_Czech_Miracle.dds"
+	}
+     SpriteType = {
+		name = "GFX_GUA_wheat"
+		texturefile= "gfx/interface/goals/GUA_wheat.dds"
+	}
+	SpriteType = {
+		name = "GFX_Pile_of_Money"
+		texturefile= "gfx/interface/goals/Pile_of_Money.dds"
+	}
+	SpriteType = {
+		name = "GFX_Cze_Fierlinger_Plan"
+		texturefile= "gfx/interface/goals/Cze_Fierlinger_Plan.dds"
+	}
+	SpriteType = {
+		name = "GFX_Cze_Sramek_plan"
+		texturefile= "gfx/interface/goals/Cze_Sramek_plan.dds"
+	}
+	SpriteType = {
+		name = "GFX_OTT_constitution"
+		texturefile= "gfx/interface/goals/OTT_constitution.dds"
+	}
+	SpriteType = {
+		name = "GFX_National_Security_Act"
+		texturefile= "gfx/interface/goals/National_Security_Act.dds"
+	}
+	SpriteType = {
+		name = "GFX_Pile_of_Money"
+		texturefile= "gfx/interface/goals/Pile_of_Money.dds"
+	}
+	SpriteType = {
+		name = "GFX_BEL_socialist_infrastructure2"
+		texturefile= "gfx/interface/goals/BEL_socialist_infrastructure2.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_USA_1940_US_supportentrepeneurs"
+		texturefile= "gfx/interface/goals/goal_USA_1940_US_supportentrepeneurs.dds"
+	}
+	SpriteType = {
+		name = "GFX_Cze_NS_Party"
+		texturefile= "gfx/interface/goals/Cze_NS_Party.dds"
+	}
+	SpriteType = {
+		name = "GFX_empty_coffers"
+		texturefile= "gfx/interface/goals/empty_coffers.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_flag_usa"
+		texturefile= "gfx/interface/goals/goal_flag_usa.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_flag_germany"
+		texturefile= "gfx/interface/goals/goal_flag_germany.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_USA_1940_US_publicsector"
+		texturefile= "gfx/interface/goals/goal_USA_1940_US_publicsector.dds"
+	}
+	SpriteType = {
+		name = "GFX_Cze_All-Czech"
+		texturefile= "gfx/interface/goals/Cze_All-Czech.dds"
+	}
+	SpriteType = {
+		name = "GFX_Ideology_Council_communist"
+		texturefile= "gfx/interface/goals/Ideology_Council_communist.dds"
+	}
+	SpriteType = {
+		name = "GFX_Peaceful_Revolution"
+		texturefile= "gfx/interface/goals/Peaceful_Revolution.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_USA_1940_US_privatesector"
+		texturefile= "gfx/interface/goals/goal_USA_1940_US_privatesector.dds"
+	}
+	
+	
+	
 }
+
+

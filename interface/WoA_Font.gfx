@@ -1,0 +1,7 @@
+bitmapfonts = { 
+    bitmapfont = {
+        name = "Woa_font_event"
+        path = "gfx/fonts/Woa_font_event.fnt"   
+        color = 0xffffffff
+    }
+}

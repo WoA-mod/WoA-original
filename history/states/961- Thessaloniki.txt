@@ -1,0 +1,30 @@
+
+state={
+	id=961
+	name="STATE_961"
+	manpower = 198644
+
+	state_category = city
+
+	history={
+		owner = THS
+		victory_points = {
+			11818 1 
+		}
+		buildings = {
+			infrastructure = 5
+			11818 ={
+				naval_base = 1
+				industrial_complex = 1
+				air_base = 1
+			}
+		}
+		add_core_of = THS
+		add_claim_by = GRE
+		add_claim_by = BUL
+	}
+
+	provinces={
+		11818 
+	}
+}

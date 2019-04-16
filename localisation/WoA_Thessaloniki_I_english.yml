@@ -1,0 +1,56 @@
+﻿l_english:
+
+##### Bookmark Description #####
+
+THS_WHISPERS_OF_ANTIQUITY_DESC:0 "jews but a country wow"
+
+##### Political Parties #####
+
+THS_utopianism_party:0 "RUP"
+THS_utopianism_party_long:0 "THSdesian Utopianist Party" 
+THS_council_communist_party:0 "Tribal Communes"
+THS_council_communist_party_long:0 "Tribal Communes"
+THS_socialist_party:0 "LCOR"
+THS_socialist_party_long:0 "Left-Communists Of THSdesia"
+THS_social_democrat_party:0 "Labour"
+THS_social_democrat_party_long:0 "Labour Party"
+THS_liberal_party:0 "Reform"
+THS_liberal_party_long:0 "THSdesia Reform Party"
+THS_conservative_party:0 "United"
+THS_conservative_party_long:0 "United Party"
+THS_authoritarian_democrat_party:0 "Harris' Junta"
+THS_authoritarian_democrat_party_long:0 "Harris' Junta"
+THS_paternal_autocrat_party:0 "Republican Movement"
+THS_paternal_autocrat_party_long:0 "Republican Movement"
+THS_national_populist_party:0 "Republican Movement"
+THS_national_populist_party_long:0 "Republican Movement"
+THS_antiquarian_nationalist_party:0 "AOM"
+THS_antiquarian_nationalist_party_long:0 "Antiquists of Monomotapa" 
+
+
+##### Ideas #####
+THS_breadbasket_of_africa:0 "Breadbasket of Africa"
+THS_breadbasket_of_africa_desc:0 "Our exports of wheat, tobacco and corn are renowned and have earned us the title of ‘Breadbasket of Africa’, as well as substantial amounts of cash for our fertile crops."
+THS_royal_THSdesia_flying_corps:0 "Royal THSdesia Flying Corps"
+THS_royal_THSdesia_flying_corps_desc:0 "Led by Arthur Harris, our military has adapted with gusto to the new battleground of war – the skies. Furthermore, with our isolated position we have had to invest heavily in aviation infrastructure in order to maintain imports and exports. Thus, the nation is well prepared for a battle in the sky."
+THS_THSdesians_never_die:0 "THSdesians Never Die"
+THS_THSdesians_never_die_desc:0 "’Cause we're all THSdesians and we'll fight through thick and thin, \nWe'll keep our land a free land, stop the enemy coming in. \nWe'll keep them north of the Zambezi till that river's running dry, \nThis mighty land will prosper for THSdesians never die!"
+THS_poor_higher_education:0 "Poor Higher Education"
+THS_poor_higher_education_desc:0 "Before the Afrikaner take over in South Africa, the best and brightest of THSdesia went to THSdes University in the Eastern Cape. With a hostile government to the south, THSdesia lacks its own higher education facilities – which must rectified to stay at the forefront of technological progress in the world."
+THS_tribal_divisions:0 "Tribal Divisions"
+THS_tribal_divisions_desc:0 "The internal tribal divisions in our country, chiefly into the large Shona and Matabele tribes, mean that many potential recruits are lost to propaganda and misunderstandings. If we can create a truly multicultural army then we can change this image, and reap the rewards"
+
+##### Traits #####
+
+
+##### Tech Sharing Groups #####
+
+##### Relations Modifiers #####
+
+
+##### OTHER IDEAS #####
+
+##### Tooltips #####
+
+unlocked_later:0 "Your path remains closed until an opportunity presents itself."
+ENG_annex:0 "§RThis will result in your annexation!§"
