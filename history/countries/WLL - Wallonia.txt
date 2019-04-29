@@ -1,0 +1,124 @@
+﻿capital = 34
+
+oob = "BEL_1936"
+
+set_research_slots = 3
+
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	early_fighter = 1
+	trench_warfare = 1
+	gwtank = 1
+	gw_artillery = 1
+	interwar_antitank = 1
+	interwar_antitank = 1
+	motorised_infantry = 1
+	fuel_silos = 1
+}
+
+add_ideas = {
+	GEN_HOG_Sde
+	GEN_FOR_Sde
+	GEN_ECO_Sde
+	GEN_SEC_Sde
+}
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 0
+		}
+		collectivist = {
+			popularity = 7
+		}
+		libertarian_socialist = {
+			popularity = 1
+		}
+		social_democrat = {
+			popularity = 36
+		}
+		social_liberal = {
+			popularity = 0
+		}
+		market_liberal = {
+			popularity = 12
+		}
+		social_conservative = {
+			popularity = 40
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+		national_populist = {
+			popularity = 4
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = social_democrat
+	last_election = "1932.11.27"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+add_ideas = {
+	limited_conscription
+}
+set_convoys = 0
+set_stability = 0.75
+set_war_support = 0.5
+
+create_country_leader = {
+	name = "Joseph Jacquemotte"
+	desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
+	picture = "Portrait_Belgium_Joseph_Jacquemotte.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Julien Lahaut"
+	desc = "POLITICS_JULIEN_LAHAUT_DESC"
+	picture = "Portrait_Belgium_Julien_Lahaut.tga"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Léon Degrelle"
+	desc = "POLITICS_LEON_DEGRELLE_DESC"
+	picture = "Portrait_Belgium_Leon_Degrelle.tga"
+	expire = "1965.1.1"
+	ideology = valkist_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "M.C.L. Keyaerts"
+	picture = "Portrait_M_C_L_Keyaerts.dds"
+	traits = { trait_mountaineer hill_fighter }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 4
+}
