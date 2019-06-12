@@ -129,7 +129,7 @@ ideas = {
 		generic_idea_research_funding = {
 			picture = jap_supremacy_of_technology
 			modifier = {
-				research_time_factor = -0.03
+				research_speed_factor = -0.03
 			}
 		}
 		
@@ -255,7 +255,7 @@ ideas = {
 		generic_idea_academic_sponsoring = {
 			picture = jap_supremacy_of_technology
 			modifier = {
-				research_time_factor = -0.05
+				research_speed_factor = -0.05
 			}
 		}
 		

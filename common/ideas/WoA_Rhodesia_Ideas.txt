@@ -36,7 +36,7 @@ ideas = {
 	RHO_poor_higher_education = {
 	picture = RHO_chi_incompetent_officers
 	modifier = {
-	research_time_factor = 0.02
+	research_speed_factor = 0.02
 		}
 	}
 
