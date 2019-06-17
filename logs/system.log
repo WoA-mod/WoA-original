@@ -1,0 +1,159 @@
+[13:04:53][gfx_dx9.cpp:4023]: Loading settings for adapter -1, fullscreen=0, multisample=15
+[13:04:53][gfx_dx9.cpp:4045]: Graphic Adapters: 
+[13:04:53][gfx_dx9.cpp:4053]: 	0: NVIDIA GeForce GTX 960
+[13:04:53][gfx_dx9.cpp:4072]: Using Adapter [0] to check for multi-sampling support:
+[13:04:53][gfx_dx9.cpp:4090]: Using Adapter [0]:
+[13:04:53][gfx_dx9.cpp:4096]: Succeeded to create a device [D3DCREATE_HARDWARE_VERTEXPROCESSING].
+[13:04:53][gfx_dx9.cpp:4135]: Graphics device: NVIDIA GeForce GTX 960
+[13:04:53][gfx_dx9.cpp:4136]: Graphics driver: nvldumd.dll
+[13:04:53][gfx_dx9.cpp:4137]: Driver version: 8813
+[13:04:53][gfx_dx9.cpp:4152]: 
+
+
+Dumping all gfx info:
+DeviceIdentifier:	{D7B71E3E-5741-11CF-8555-DF161BC2DA35}
+VendorId:	4318
+DeviceId:	5121
+SubSysId:	919737432
+Revision:	161
+DriverVersion.HighPart:	1507349
+DriverVersion.LowPart:	860781
+
+
+[13:04:53][gfx_dx9.cpp:4172]: Instancing supported.
+[13:04:53][gfx_dx9.cpp:4221]: Video memory amount: 4095MB
+[13:04:53][gfx_dx9.cpp:4222]: MaxSimultaneousTextures: 8
+[13:04:53][gfx_dx9.cpp:4223]: MaxVertexBlendMatrices: 4
+[13:04:53][gfx_dx9.cpp:4224]: MaxVertexBlendMatrixIndex: 8
+[13:04:53][gfx_dx9.cpp:4225]: MaxSimultaneousTextures: 8
+[13:04:53][gfx_dx9.cpp:4226]: MaxTextureBlendStages: 8
+[13:04:53][gfx_dx9.cpp:4227]: MaxTextureWidth: 16384
+[13:04:53][gfx_dx9.cpp:4228]: MaxTextureHeight: 16384
+[13:04:53][gfx_dx9.cpp:4231]: Vertex Shader version: 3.0
+[13:04:53][gfx_dx9.cpp:4236]: Pixel Shader version: 3.0
+[13:04:53][graphicssettings.cpp:184]: 	2 samples supported.
+[13:04:53][graphicssettings.cpp:184]: 	4 samples supported.
+[13:04:53][graphicssettings.cpp:184]: 	8 samples supported.
+[13:04:53][graphicssettings.cpp:216]: Support for Anisotropic filtering found.
+[13:04:53][graphicssettings.cpp:219]: 	Max Anisotropic filtering supported: 16
+[13:04:53][graphicssettings.cpp:220]: 	Anisotropic filtering set to: 4
+[13:04:53][graphicssettings.cpp:756]: Not using multisampling.
+[13:04:53][graphics.cpp:899]: Creating device with: HARDWARE_VERTEXPROCESSING
+	Fullscreen=no
+	Resolution=1000x600
+[13:04:53][graphicssettings.cpp:715]: Usable res: 640 480 59
+[13:04:53][graphicssettings.cpp:715]: Usable res: 640 480 72
+[13:04:53][graphicssettings.cpp:715]: Usable res: 640 480 75
+[13:04:53][graphicssettings.cpp:715]: Usable res: 720 480 60
+[13:04:53][graphicssettings.cpp:715]: Usable res: 720 576 50
+[13:04:53][graphicssettings.cpp:715]: Usable res: 800 600 56
+[13:04:53][graphicssettings.cpp:715]: Usable res: 800 600 60
+[13:04:53][graphicssettings.cpp:715]: Usable res: 800 600 72
+[13:04:53][graphicssettings.cpp:715]: Usable res: 800 600 75
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1024 768 60
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1024 768 70
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1024 768 75
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1152 864 75
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1176 664 50
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1176 664 60
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1280 720 60
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1280 720 50
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1280 768 60
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1280 800 60
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1280 960 60
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1280 1024 60
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1280 1024 75
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1360 768 60
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1366 768 60
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1600 900 59
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1600 1024 59
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1600 1200 60
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1680 1050 59
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1768 992 25
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1768 992 30
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1920 1080 60
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1920 1080 30
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1920 1080 25
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1920 1080 50
+[13:04:53][graphicssettings.cpp:715]: Usable res: 1440 900 60
+[13:04:53][graphics.cpp:933]: Done creating device.
+[13:04:59][graphicssettings.cpp:715]: Usable res: 640 480 59
+[13:04:59][graphicssettings.cpp:715]: Usable res: 640 480 72
+[13:04:59][graphicssettings.cpp:715]: Usable res: 640 480 75
+[13:04:59][graphicssettings.cpp:715]: Usable res: 720 480 60
+[13:04:59][graphicssettings.cpp:715]: Usable res: 720 576 50
+[13:04:59][graphicssettings.cpp:715]: Usable res: 800 600 56
+[13:04:59][graphicssettings.cpp:715]: Usable res: 800 600 60
+[13:04:59][graphicssettings.cpp:715]: Usable res: 800 600 72
+[13:04:59][graphicssettings.cpp:715]: Usable res: 800 600 75
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1024 768 60
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1024 768 70
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1024 768 75
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1152 864 75
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1176 664 50
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1176 664 60
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1280 720 60
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1280 720 50
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1280 768 60
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1280 800 60
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1280 960 60
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1280 1024 60
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1280 1024 75
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1360 768 60
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1366 768 60
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1600 900 59
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1600 1024 59
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1600 1200 60
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1680 1050 59
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1768 992 25
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1768 992 30
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1920 1080 60
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1920 1080 30
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1920 1080 25
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1920 1080 50
+[13:04:59][graphicssettings.cpp:715]: Usable res: 1440 900 60
+[13:05:35][main.cpp:1295]: Creating application...
+[13:05:36][gameapplication.cpp:844]: Initializing application...
+[13:05:41][gameapplication.cpp:849]: Done initializing application
+[13:05:41][gameapplication.cpp:852]: Loading cursor...
+[13:05:42][graphicssettings.cpp:746]: Using multisampling: 8
+[13:05:42][graphics.cpp:899]: Creating device with: HARDWARE_VERTEXPROCESSING
+	Fullscreen=yes
+	RefreshRate=60
+	Resolution=1920x1080
+[13:05:42][graphicssettings.cpp:715]: Usable res: 640 480 59
+[13:05:42][graphicssettings.cpp:715]: Usable res: 640 480 72
+[13:05:42][graphicssettings.cpp:715]: Usable res: 640 480 75
+[13:05:42][graphicssettings.cpp:715]: Usable res: 720 480 60
+[13:05:42][graphicssettings.cpp:715]: Usable res: 720 576 50
+[13:05:42][graphicssettings.cpp:715]: Usable res: 800 600 56
+[13:05:42][graphicssettings.cpp:715]: Usable res: 800 600 60
+[13:05:42][graphicssettings.cpp:715]: Usable res: 800 600 72
+[13:05:42][graphicssettings.cpp:715]: Usable res: 800 600 75
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1024 768 60
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1024 768 70
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1024 768 75
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1152 864 75
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1176 664 50
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1176 664 60
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1280 720 60
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1280 720 50
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1280 768 60
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1280 800 60
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1280 960 60
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1280 1024 60
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1280 1024 75
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1360 768 60
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1366 768 60
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1600 900 59
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1600 1024 59
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1600 1200 60
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1680 1050 59
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1768 992 25
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1768 992 30
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1920 1080 60
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1920 1080 30
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1920 1080 25
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1920 1080 50
+[13:05:42][graphicssettings.cpp:715]: Usable res: 1440 900 60
+[13:05:42][graphics.cpp:933]: Done creating device.
