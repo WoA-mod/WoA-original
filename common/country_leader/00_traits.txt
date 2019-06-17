@@ -42,12 +42,14 @@ leader_traits = {		###PUTTING THIS HERE PLS NO UPSET####
 		}
 	}
 
-	coalition_leader = {  ##fix later
+	coalition_leader = {
 		random = no
-		
+		mobilization_laws_cost_factor = -0.15
+		economy_cost_factor = -0.15 
+		trade_laws_cost_factor = -0.15
 		
 		ai_will_do = {
-			factor = 0
+			factor = 1
 		}
 	}
 

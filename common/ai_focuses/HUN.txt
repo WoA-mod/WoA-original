@@ -1,6 +1,24 @@
 ai_historical_focus_list_HUN = {
 	ai_national_focuses = {
 		# grab as fast as you can if available
+
+		hun_bw_initial
+		hun_bw_high_tax
+		hun_bw_austerity
+		hun_bw_intervention
+		hun_bw_subsidize
+		hun_bw_nationalizing
+		hun_nep
+		hun_national_crisis
+		hun_demand_truce
+		hun_root_out_commies
+		hun_hunt_blackshirts
+		hun_national_unification
+		hun_concessions_for_peace
+		hun_social_autonomy_towns
+		hun_blackshirt_amnesty
+		hun_budapest_conference
+		hun_a_nation_reborn
 	}
 }
 

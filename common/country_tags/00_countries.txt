@@ -183,6 +183,7 @@ NIR = "countries/Northern Ireland.txt"
 #Stuff kept just so Paradox does not cry
 WGR = "countries/West Germany.txt"
 DDR = "countries/East Germany.txt"
+SPR = "countries/Spain.txt"
 CSA = "countries/CSA.txt"
 USB = "countries/USB.txt" #neutral US bloc during civil war in MTG
 
@@ -227,11 +228,13 @@ ALR = "countries/Alsace-Lorraine.txt"
 
 #FR English Breakaways
 EGL = "countries/England.txt"
+SCO = "countries/Scotland.txt"
 WAL = "countries/Wales.txt"
 
 #WoA Tags
 CRI = "countries/Crimea.txt"
 DAN = "countries/Danubia.txt"
+MOL = "countries/Moldovia.txt"
 WLC = "countries/Wallachia.txt"
 DML = "countries/Mittelafrika.txt"
 WIF = "countries/West Indies Federation.txt"
