@@ -1,9 +1,6 @@
 ﻿capital = 322
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
+
 
 add_ideas = {
 	GEN_Szymon_Kowalski_hog_ade

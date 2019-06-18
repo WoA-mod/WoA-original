@@ -1,11 +1,5 @@
 ﻿capital = 323
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	tech_mountaineers = 1
-}
-
 add_ideas = {
 	GEN_Oscar_Jensen_hog_pau
 	GEN_Lucas_Friberg_for_pau

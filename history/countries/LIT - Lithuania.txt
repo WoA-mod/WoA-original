@@ -11,12 +11,6 @@ add_ideas = {
 	GEN_Mats_Holmgren_sec_pau
 }
 
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	early_fighter = 1
-}
-
 set_convoys = 20
 set_stability = 0.1
 set_war_support = 0.1

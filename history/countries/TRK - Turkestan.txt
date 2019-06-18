@@ -4,15 +4,6 @@ set_research_slots = 3
 set_stability = 0.40
 set_war_support = 0.66
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	motorised_infantry = 1
-	gw_artillery = 1
-	gwtank = 1
-	transport = 1
-}
-
 add_ideas = {
 	GEN_Szymon_Kowalski_hog_ade
 	GEN_Jozef_Korczak_eco_ade

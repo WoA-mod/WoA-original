@@ -3,12 +3,6 @@
 set_stability = 0.50
 set_war_support = 0.50
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	mass_assault = 1
-}
-
 add_ideas = {
 	GEN_Oscar_Jensen_hog_pau
 	GEN_Lucas_Friberg_for_pau

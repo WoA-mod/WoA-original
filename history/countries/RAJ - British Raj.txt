@@ -1,20 +1,6 @@
 ﻿capital = 425
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_recon = 1
-	trench_warfare = 1
 
-	fleet_in_being = 1
-	transport = 1
-
-	early_fighter = 1
-	CAS1 = 1
-}
 
 add_ideas = {
 	GEN_Szymon_Kowalski_hog_ade

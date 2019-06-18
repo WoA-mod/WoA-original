@@ -7,12 +7,6 @@ add_ideas = {
 	UBD_the_two_state_solution
 }
 
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	early_fighter = 1
-	early_submarine = 1
-}
 
 set_research_slots = 2
 set_stability = 0.20
