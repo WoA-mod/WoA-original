@@ -708,11 +708,6 @@ DML = {
 	color_ui = rgb { 0 49 100 }
 }
 
-MDG = {
-	color = rgb { 200 0 0 }
-	color_ui = rgb { 200 0 0 }
-}
-
 WIF = {
 	color = rgb { 66 66 150 } #Temporary, originally 66 134 244 but that was too similar to USA.
 	color_ui = rgb { 66 66 150 }
