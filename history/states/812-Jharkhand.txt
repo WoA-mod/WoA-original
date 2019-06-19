@@ -4,18 +4,18 @@ state={
 	name="STATE_812"
 
 	history={
-		owner = INC
+		owner = IND
 		buildings = {
 			infrastructure = 4
 
 		}
-		add_core_of = INC
+		add_core_of = IND
 		add_claim_by = RAJ
 		add_claim_by = IND
 		add_claim_by = HYD
 	}
 
-	provinces={
+	provINDes={
 		1059 1101 1538 4104 10358 12063 
 	}
 	manpower=12683700

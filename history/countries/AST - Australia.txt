@@ -12,23 +12,23 @@ add_ideas = {
 #	AST_Earle_Page_sec_sco
 }
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = { 
-			popularity = 32
+
+		social_democrat =  
+			  32
 		}
-		conservative = {
-			popularity = 0
+		conservative =
+			  0
 		}
-		authoritarian_democrat = {
-			popularity = 0
+		authoritarian_democrat =
+			  0
 		}
-		liberal = {
-			popularity = 56
+		liberal =
+			  56
 		}
-		paternal_autocrat = {
-			popularity = 0
+		paternal_autocrat =
+			  0
 		}
 	}
 	

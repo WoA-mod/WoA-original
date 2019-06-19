@@ -14,20 +14,20 @@ add_ideas = {
 	GEN_Boian_Petrescu_sec_npo
 }
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = { 
-			popularity = 10
+
+		social_democrat =  
+			  10
 		}
-		conservative = {
-			popularity = 10
+		conservative =
+			  10
 		}
-		liberal = {
-			popularity = 10
+		liberal =
+			  10
 		}
-		paternal_autocrat = {
-			popularity = 20
+		paternal_autocrat =
+			  20
 		}
 
 	}

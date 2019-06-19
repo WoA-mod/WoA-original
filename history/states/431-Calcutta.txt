@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = INC
+		owner = IND
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -23,14 +23,14 @@ state={
 		victory_points = {
 			4245 5 
 		}
-		add_core_of = INC
+		add_core_of = IND
 		add_claim_by = RAJ
 		add_claim_by = IND
 		add_claim_by = HYD
 
 	}
 
-	provinces={
+	provINDes={
 		1159 1609 4062 4204 4245 4644 7220 7537 7565 7593 7662 10077 10389 12050 12338 
 	}
 	manpower=18778100

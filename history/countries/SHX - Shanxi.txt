@@ -11,26 +11,26 @@ add_ideas = {
 	GEN_Ludwik_Czaplinski_for_ade
 }
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		conservative = { 
-			popularity = 5
+	 
+		conservative = 
+			  5
 		}		
-		authoritarian_democrat = { 
-			popularity = 60
+		authoritarian_democrat = 
+			  60
 		}
-		utopianism = {
-			popularity = 10
+		utopianism =
+			  10
 		}
-		council_communist = {
-			popularity = 0
+		council_communist =
+			  0
 		}
-		socialist = {
-			popularity = 5
+		socialist =
+			  5
 		}
-		paternal_autocrat = {
-			popularity = 20
+		paternal_autocrat =
+			  20
 		}
 	}
 	ruling_party = authoritarian_democrat

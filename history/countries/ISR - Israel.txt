@@ -14,23 +14,23 @@ add_ideas = {
 	GEN_Fleano_Carideo_sec_mli
 }
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = {
-			popularity = 21
+
+		social_democrat = 
+			  21
 		}
-		liberal = {
-			popularity = 23
+		liberal =
+			  23
 		}
-		conservative = {
-			popularity = 18
+		conservative =
+			  18
 		}
-		authoritarian_democrat = {
-			popularity = 7
+		authoritarian_democrat =
+			  7
 		}
-		paternal_autocrat = {
-			popularity = 5
+		paternal_autocrat =
+			  5
 		}
 	}
 	ruling_party = liberal

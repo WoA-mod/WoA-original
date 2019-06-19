@@ -15,26 +15,26 @@ add_ideas = {
 
 create_faction = "Third International"
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		council_communist = {
-		    popularity = 50
+
+		council_communist =
+		      50
 		}
-		social_democrat = {
-			popularity = 0
+		social_democrat = 
+			  0
 		}
-		liberal = {
-			popularity = 6
+		liberal =
+			  6
 		}
-		conservative = {
-			popularity = 20
+		conservative =
+			  20
 		}
-		authoritarian_democrat = {
-			popularity = 0
+		authoritarian_democrat =
+			  0
 		}
-		paternal_autocrat = {
-			popularity = 5
+		paternal_autocrat =
+			  5
 		}
 	}
 	

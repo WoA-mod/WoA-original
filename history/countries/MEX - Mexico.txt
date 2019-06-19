@@ -9,17 +9,17 @@ set_stability = 0.44
 set_war_support = 0.84
 set_research_slots = 3
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-	socialist = {
-		popularity = 20
+	 
+	socialist =
+		  20
 	}
-		authoritarian_democrat = {
-			popularity = 50
+		authoritarian_democrat =
+			  50
 		}
 		national_populist = {
-			popularity = 30
+			  30
 		}
 
 	}

@@ -717,6 +717,7 @@ KCH = {
 	color = rgb { 146 182 239 }
 	color_ui = rgb { 97 143 216 }
 }
+
 BUR = {
   color = rgb { 54 104 9 }
   color_ui = rgb { 90 140 47}

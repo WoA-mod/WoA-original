@@ -15,26 +15,26 @@ add_ideas = {
 
 set_stability = 0.45
 set_war_support = 0.6
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = { 
-			popularity = 20
+
+		social_democrat =  
+			  20
 		}
 		
-		conservative = { 
-			popularity = 5
+		conservative = 
+			  5
 		}
 
-		council_communist = { 
-			popularity = 45
+		council_communist = 
+			  45
 		}		
-		utopianism = { 
-			popularity = 15
+		utopianism = 
+			  15
 		}
 		
-		socialist = {
-		    popularity = 15
+		socialist =
+		      15
 	}
 	}
 	ruling_party = council_communist

@@ -13,23 +13,23 @@ add_ideas = {
 
 
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = {
-			popularity = 24
+	 
+		social_democrat = 
+			  24
 		}
-		liberal = {
-			popularity = 8
+		liberal =
+			  8
 		}
-		conservative = {
-			popularity = 24
+		conservative =
+			  24
 		}
-		authoritarian_democrat = {
-			popularity = 10
+		authoritarian_democrat =
+			  10
 		}
-		paternal_autocrat = {
-			popularity = 10
+		paternal_autocrat =
+			  10
 		}
 	}
 	

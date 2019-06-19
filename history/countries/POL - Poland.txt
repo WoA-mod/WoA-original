@@ -5,38 +5,38 @@ set_research_slots = 3
 set_stability = 0.40
 set_war_support = 0.45
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		antiquarian_nationalist = {
-			popularity = 0
+	 
+		antiquarian_nationalist =
+			  0
 		}
-		paternal_autocrat = {
-			popularity = 0
+		paternal_autocrat =
+			  0
 		}
-		authoritarian_democrat = {
-			popularity = 0
+		authoritarian_democrat =
+			  0
 		}
-		socialist = {
-			popularity = 9
+		socialist =
+			  9
 		}
-		utopianism = {
-			popularity = 12
+		utopianism =
+			  12
 		}
-		council_communist = {
-			popularity = 9
+		council_communist =
+			  9
 		}
-		social_democrat = {
-			popularity = 10
+		social_democrat = 
+			  10
 		}
-		liberal = {
-			popularity = 35
+		liberal =
+			  35
 		}
-		conservative = {
-			popularity = 25
+		conservative =
+			  25
 		}
 		national_populist = {
-			popularity = 0
+			  0
 		}
 	}
 	

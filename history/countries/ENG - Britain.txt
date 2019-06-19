@@ -21,42 +21,42 @@ set_convoys = 800
 
 # DIPLOMACY
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		utopianism = {
-			popularity = 5
+
+		utopianism =
+			  5
 		}
-		council_communist = {
-			popularity = 0
+		council_communist =
+			  11
 		}
-		social_democrat = {
-			popularity = 10
+		social_democrat = 
+			  10
 		}
-		socialist = {
-			popularity = 0
+		socialist =
+			  5
 		}
-		liberal = {
-			popularity = 10
+		liberal =
+			  10
 		}
-		conservative = {
-			popularity = 10
+		conservative =
+			  10
 		}
-		authoritarian_democrat = {
-			popularity = 5
+		authoritarian_democrat =
+			  5
 		}
-		paternal_autocrat = {
-			popularity = 20
+		paternal_autocrat =
+			  40
 		}
 		national_populist = {
-			popularity = 0
+			  0
 		}
-		antiquarian_nationalist = {
-			popularity = 40
+		antiquarian_nationalist =
+			  4
 		}
 	}
 	
-	ruling_party = antiquarian_nationalist
+	ruling_party = paternal_autocrat
 	last_election = "1918.9.8"
 	election_frequency = 48
 	elections_allowed = no

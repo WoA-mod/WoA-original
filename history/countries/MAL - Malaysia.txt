@@ -13,14 +13,14 @@ set_war_support = 0.50
 #	add_to_tech_sharing_group = commonwealth_research
 #}
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		conservative = { 
-			popularity = 33
+	 
+		conservative = 
+			  33
 		}
-		authoritarian_democrat = {
-			popularity = 34
+		authoritarian_democrat =
+			  34
 		}
 	}
 	

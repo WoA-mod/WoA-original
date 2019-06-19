@@ -12,23 +12,23 @@ add_ideas = {
 	GEN_Mats_Holmgren_sec_pau
 }
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = {
-			popularity = 3
+	 
+		social_democrat = 
+			  3
 		}
-		liberal = {
-			popularity = 17
+		liberal =
+			  17
 		}
-		conservative = {
-			popularity = 19
+		conservative =
+			  19
 		}
-		authoritarian_democrat = {
-			popularity = 11
+		authoritarian_democrat =
+			  11
 		}
-		paternal_autocrat = {
-			popularity = 27
+		paternal_autocrat =
+			  27
 		}
 	}
 	

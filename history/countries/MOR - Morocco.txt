@@ -14,38 +14,38 @@ add_ideas = {
 	GEN_Fleano_Carideo_sec_mli
 }
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		utopianism = { 
-			popularity = 0
+	 
+		utopianism = 
+			  0
 		}
-		council_communist = { 
-			popularity = 0
+		council_communist = 
+			  0
 		}
-		socialist = { 
-			popularity = 0
+		socialist = 
+			  0
 		}
-		social_democrat = {
-			popularity = 6
+		social_democrat = 
+			  6
 		}
-		liberal = {
-			popularity = 49
+		liberal =
+			  49
 		}
-		conservative = {
-			popularity = 30
+		conservative =
+			  30
 		}
-		authoritarian_democrat = {
-			popularity = 1
+		authoritarian_democrat =
+			  1
 		}
-		paternal_autocrat = {
-			popularity = 1
+		paternal_autocrat =
+			  1
 		}
 		national_populist = {
-			popularity = 0
+			  0
 		}
-		antiquarian_nationalist = {
-			popularity = 0
+		antiquarian_nationalist =
+			  0
 		}
 	}
 	

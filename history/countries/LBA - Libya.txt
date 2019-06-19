@@ -14,38 +14,38 @@ set_convoys = 20
 set_stability = 0.60
 set_war_support = 0.80
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		utopianism = {
-		   popularity = 0
+	 
+		utopianism =
+		     0
 		}
-		council_communist = {
-		    popularity = 0
+		council_communist =
+		      0
 		}
-		socialist = {
-		    popularity = 1
+		socialist =
+		      1
 		}
-		social_democrat = {
-			popularity = 12
+		social_democrat = 
+			  12
 		}
-		liberal = {
-			popularity = 17
+		liberal =
+			  17
 		}
-		conservative = {
-			popularity = 20
+		conservative =
+			  20
 		}
-		authoritarian_democrat = {
-			popularity = 41
+		authoritarian_democrat =
+			  41
 		}
-		paternal_autocrat = {
-			popularity = 9
+		paternal_autocrat =
+			  9
 		}
 		national_populist = {
-			popularity = 0
+			  0
 		}
-		antiquarian_nationalist = {
-			popularity = 0
+		antiquarian_nationalist =
+			  0
 		}
 	}
 	

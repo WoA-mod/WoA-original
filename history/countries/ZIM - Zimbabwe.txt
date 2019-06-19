@@ -4,11 +4,11 @@ set_war_support = 0.45
 
 
 set_convoys = 5
-set_politics = {
+set_popularities = {
 
-	parties = {
-		paternal_autocrat = {
-			popularity = 100
+
+		paternal_autocrat =
+			  100
 		}
 	}
 	

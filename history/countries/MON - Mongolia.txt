@@ -16,23 +16,23 @@ add_ideas = {
 set_stability = 0.55
 set_war_support = 0.53
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = {
-			popularity = 0
+	 
+		social_democrat = 
+			  0
 		}
-		liberal = {
-			popularity = 0
+		liberal =
+			  0
 		}
-		conservative = {
-			popularity = 14
+		conservative =
+			  14
 		}
-		authoritarian_democrat = {
-			popularity = 34
+		authoritarian_democrat =
+			  34
 		}
-		paternal_autocrat = {
-			popularity = 48
+		paternal_autocrat =
+			  48
 		}
 	}
 

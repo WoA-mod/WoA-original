@@ -7,23 +7,23 @@ set_stability = 0.6
 set_convoys = 5
 set_stability = 0.30
 set_war_support = 0.30
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = {
-			popularity = 10
+
+		social_democrat = 
+			  10
 		}
-		liberal = {
-			popularity = 17
+		liberal =
+			  17
 		}
-		conservative = {
-			popularity = 10
+		conservative =
+			  10
 		}
-		authoritarian_democrat = {
-			popularity = 3
+		authoritarian_democrat =
+			  3
 		}
-		paternal_autocrat = {
-			popularity = 30
+		paternal_autocrat =
+			  30
 		}
 	}
 	

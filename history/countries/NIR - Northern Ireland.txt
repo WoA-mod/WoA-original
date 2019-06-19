@@ -5,11 +5,11 @@ set_research_slots = 3
 
 
 set_convoys = 10
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = { 
-			popularity = 100
+	 
+		social_democrat =  
+			  100
 		}
 	}
 	

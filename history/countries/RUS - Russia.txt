@@ -13,38 +13,38 @@ add_ideas = {
 
 set_convoys = 50
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		utopianism = {
-			popularity = 4
+	 
+		utopianism =
+			  4
 		}
-		council_communist = {
-			popularity = 6
+		council_communist =
+			  6
 		}
-		socialist = {
-			popularity = 8
+		socialist =
+			  8
 		}
-		social_democrat = {
-			popularity = 23
+		social_democrat = 
+			  23
 		}
-		liberal = {
-			popularity = 22
+		liberal =
+			  22
 		}
-		conservative = {
-			popularity = 19
+		conservative =
+			  19
 		}
-		authoritarian_democrat = {
-			popularity = 0
+		authoritarian_democrat =
+			  0
 		}
 		national_populist = {
-			popularity = 18
+			  18
 		}
-		paternal_autocrat = {
-			popularity = 0
+		paternal_autocrat =
+			  0
 		}
-		antiquarian_nationalist = {
-			popularity = 0
+		antiquarian_nationalist =
+			  0
 		}
 	}
 	

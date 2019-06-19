@@ -11,17 +11,17 @@ state={
 	}
 
 	history={
-		owner = INC
+		owner = IND
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = INC
+		add_core_of = IND
 		add_claim_by = RAJ
 		add_claim_by = IND
 		add_claim_by = HYD
 	}
 
-	provinces={
+	provINDes={
 		1497 1525 1553 1581 7455 10090 10349 10514 12366 12395 
 	}
 }

@@ -10,38 +10,38 @@ add_ideas = {
 #	GEN_Mats_Holmgren_sec_pau
 }
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		utopianism = { 
-			popularity = 5
+
+		utopianism = 
+			  5
 		}
-		council_communist = { 
-			popularity = 11
+		council_communist = 
+			  11
 		}
-		socialist = { 
-			popularity = 5
+		socialist = 
+			  5
 		}
-		social_democrat = { 
-			popularity = 17
+		social_democrat =  
+			  17
 		}
-		liberal = { 
-			popularity = 3
+		liberal = 
+			  3
 		}
-		conservative = { 
-			popularity = 15
+		conservative = 
+			  15
 		}
-		authoritarian_democrat = { 
-			popularity = 37
+		authoritarian_democrat = 
+			  37
 		}
-		paternal_autocrat = {
-			popularity = 6
+		paternal_autocrat =
+			  6
 		}
 		national_populist = {
-			popularity = 1
+			  1
 		}
-		antiquarian_nationalist = {
-			popularity = 0
+		antiquarian_nationalist =
+			  0
 		}
 	}
 	

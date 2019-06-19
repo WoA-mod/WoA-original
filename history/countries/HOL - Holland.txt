@@ -20,23 +20,23 @@ set_research_slots = 3
 #}
 
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = {
-			popularity = 8
+
+		social_democrat = 
+			  8
 		}
-		liberal = {
-			popularity = 9
+		liberal =
+			  9
 		}
-		conservative = {
-			popularity = 40
+		conservative =
+			  40
 		}
-		authoritarian_democrat = {
-			popularity = 34
+		authoritarian_democrat =
+			  34
 		}
-		paternal_autocrat = {
-			popularity = 3
+		paternal_autocrat =
+			  3
 		}
 	}
 		

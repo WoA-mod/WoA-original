@@ -6,12 +6,12 @@ set_convoys = 20
 set_stability = 0.50
 set_war_support = 0.50
 
-set_politics = {
+set_popularities = {
 
-	parties = {
+	 
 
-		conservative = {
-			popularity = 80
+		conservative =
+			  80
 		}
 	}
 	

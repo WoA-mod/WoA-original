@@ -11,19 +11,19 @@ add_ideas = {
 	GEN_Mats_Holmgren_sec_pau
 }
 
-set_politics = {
-	parties = {
-		social_democrat = {
-			popularity = 4
+set_popularities = {
+	 
+		social_democrat = 
+			  4
 		}
-		conservative = {
-			popularity = 8
+		conservative =
+			  8
 		}
-		authoritarian_democrat = {
-			popularity = 4
+		authoritarian_democrat =
+			  4
 		}
-		paternal_autocrat = {
-			popularity = 60
+		paternal_autocrat =
+			  60
 		}
 	}
 	ruling_party = paternal_autocrat

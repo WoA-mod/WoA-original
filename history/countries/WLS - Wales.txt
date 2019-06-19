@@ -9,11 +9,11 @@ set_war_support = 0.60
 
 
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = { 
-			popularity = 100
+
+		social_democrat =  
+			  100
 		}
 	}
 	

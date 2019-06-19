@@ -10,23 +10,23 @@ set_technology = {
 set_stability = 0.50
 set_war_support = 0.50
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = {
-			popularity = 23
+	
+		social_democrat = 
+			  23
 		}
-		liberal = {
-			popularity = 12
+		liberal =
+			  12
 		}
-		conservative = {
-			popularity = 16
+		conservative =
+			  16
 		}
-		authoritarian_democrat = {
-			popularity = 12
+		authoritarian_democrat =
+			  12
 		}
-		paternal_autocrat = {
-			popularity = 4
+		paternal_autocrat =
+			  4
 		}
 	}
 	

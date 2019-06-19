@@ -12,26 +12,26 @@ add_ideas = {
 	GEN_Ludwik_Czaplinski_for_ade
 }
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = {
-			popularity = 4
-		}
-		liberal = {
-			popularity = 21
-		}
 
-		conservative = {
-			popularity = 5
+		social_democrat = 
+			  4
+		}
+		liberal =
+			  21
 		}
 
-		authoritarian_democrat = {
-			popularity = 53
+		conservative =
+			  5
 		}
 
-		paternal_autocrat = {
-			popularity = 0
+		authoritarian_democrat =
+			  53
+		}
+
+		paternal_autocrat =
+			  0
 		}
 	}
 

@@ -13,19 +13,19 @@ add_ideas = {
 	GEN_Oscar_Morgan_sec_sco
 }
 
-set_politics = {
-	parties = {
-		social_democrat = {
-			popularity = 31
+set_popularities = {
+	 
+		social_democrat = 
+			  31
 		}
-		conservative = {
-			popularity = 45
+		conservative =
+			  45
 		}
-		authoritarian_democrat = {
-			popularity = 0
+		authoritarian_democrat =
+			  0
 		}
-		paternal_autocrat = {
-			popularity = 2
+		paternal_autocrat =
+			  2
 		}
 	}
 	ruling_party = conservative

@@ -21,38 +21,38 @@ Left_and_Right_Ideals_Rising
 }
 
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		utopianism = { 
-			popularity = 4
+
+		utopianism = 
+			  4
 		}
-		council_communist = { 
-			popularity = 3
+		council_communist = 
+			  3
 		}
-		socialist = { 
-			popularity = 3
+		socialist = 
+			  3
 		}
-		social_democrat = { 
-			popularity = 21
+		social_democrat =  
+			  21
 		}
-		liberal = { 
-			popularity = 19
+		liberal = 
+			  19
 		}
-		conservative = { 
-			popularity = 26
+		conservative = 
+			  26
 		}
-		authoritarian_democrat = { 
-			popularity = 4  
+		authoritarian_democrat = 
+			  4  
 		}
-		paternal_autocrat = {
-			popularity = 5
+		paternal_autocrat =
+			  5
 		}
 		national_populist = {
-			popularity = 14
+			  14
 		}
-		antiquarian_nationalist = {
-			popularity = 0
+		antiquarian_nationalist =
+			  0
 		}
 	}
 	

@@ -16,38 +16,38 @@ add_ideas = {
 #	CAN_hugh_guthrie_sec
 	}
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-	utopianism = {
-		popularity = 3
+
+	utopianism =
+		  3
 	}
-	council_communist = {
-		popularity = 3
+	council_communist =
+		  3
 	}
-	socialist = {
-		popularity = 4
+	socialist =
+		  4
 	}
-	social_democrat = {
-		popularity = 9
+	social_democrat = 
+		  9
 	}
-	liberal = {
-		popularity = 31
+	liberal =
+		  31
 	}
-	conservative = {
-		popularity = 17
+	conservative =
+		  17
 	}
-	antiquarian_nationalist = {
-		popularity = 0
+	antiquarian_nationalist =
+		  0
 	}
-	authoritarian_democrat = {
-		popularity = 20
+	authoritarian_democrat =
+		  20
 		}
-	paternal_autocrat = {
-		popularity = 2
+	paternal_autocrat =
+		  2
 	}
 	national_populist = {
-		popularity = 11
+		  11
 	}
 
 	}

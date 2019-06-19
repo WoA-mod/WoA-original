@@ -3,32 +3,32 @@
 set_research_slots = 3
 
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = {
-			popularity = 30
+	 
+		social_democrat = 
+			  30
 		}
-		liberal = {
-			popularity = 24
+		liberal =
+			  24
 		}
-		conservative = {
-			popularity = 20
+		conservative =
+			  20
 		}
-		authoritarian_democrat = {
-			popularity = 2
+		authoritarian_democrat =
+			  2
 		}
-		paternal_autocrat = {
-			popularity = 6
+		paternal_autocrat =
+			  6
 		}
-		socialist = {
-			popularity = 8
+		socialist =
+			  8
 		}
 		national_populist = {
-			popularity = 6
+			  6
 		}
-		antiquarian_nationalist = {
-			popularity = 4
+		antiquarian_nationalist =
+			  4
 		}
 	}
 	

@@ -8,17 +8,17 @@ set_technology = {
 set_stability = 0.50
 set_war_support = 0.50
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		conservative = { 
-			popularity = 0
+	 
+		conservative = 
+			  0
 			banned = yes
 		}
 
 
-		authoritarian_democrat = {
-			popularity = 80
+		authoritarian_democrat =
+			  80
 		}
 	}
 	

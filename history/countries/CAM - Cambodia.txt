@@ -5,15 +5,15 @@ set_stability = 0.50
 set_war_support = 0.50
 
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		liberal = { 
-			popularity = 40
+
+		liberal = 
+			  40
 		}
 		
-		conservative = {
-			popularity = 35
+		conservative =
+			  35
 		}
 	}
 

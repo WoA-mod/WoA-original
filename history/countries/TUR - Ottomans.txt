@@ -20,38 +20,38 @@ add_ideas = {
 
 puppet = EGY
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		utopianism = {
-		   popularity = 1
+	 
+		utopianism =
+		     1
 		}
-		council_communist = {
-		    popularity = 2
+		council_communist =
+		      2
 		}
-		socialist = {
-		    popularity = 2
+		socialist =
+		      2
 		}
-		social_democrat = {
-			popularity = 2
+		social_democrat = 
+			  2
 		}
-		liberal = {
-			popularity = 31
+		liberal =
+			  31
 		}
-		conservative = {
-			popularity = 20
+		conservative =
+			  20
 		}
-		authoritarian_democrat = {
-			popularity = 33
+		authoritarian_democrat =
+			  33
 		}
-		paternal_autocrat = {
-			popularity = 6
+		paternal_autocrat =
+			  6
 		}
 		national_populist = {
-			popularity = 3
+			  3
 		}
-		antiquarian_nationalist = {
-			popularity = 0
+		antiquarian_nationalist =
+			  0
 		}
 	}
 	

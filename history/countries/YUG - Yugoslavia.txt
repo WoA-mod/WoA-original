@@ -5,11 +5,11 @@ set_research_slots = 3
 
 
 set_convoys = 0
-set_politics = {
+set_popularities = {
 
-	parties = {
-		paternal_autocrat = {
-		    popularity = 60
+
+		paternal_autocrat =
+		      60
 		}
 	}
 	

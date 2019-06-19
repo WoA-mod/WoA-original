@@ -90,8 +90,8 @@ HOL = {	color = rgb { 214 121 18 }
 DEI = {	color = rgb { 174 121 48 }
 		color_ui = rgb { 154 101 48 }
 }
-CZE = {	color = rgb { 54 167 156 }
-		color_ui = rgb { 70 217 203 }
+CZE = {	color = rgb { 181 116 14 }
+		color_ui = rgb { 181 116 14 }
 }
 BPS = {	color = rgb { 10 167 125 }
 		color_ui = rgb { 10 167 125 }
@@ -277,8 +277,8 @@ JAP = {
 	color_ui = rgb { 231 200 200 }
 }
 KMT = {
-	color = rgb { 205 92 92 }
-	color_ui = rgb { 205 92 92 }
+	color = rgb { 216 216 58 }
+	color_ui = rgb { 216 216 58 }
 }
 LIB = {
 	color = rgb { 152 130 191 }
@@ -847,8 +847,8 @@ GUO = {
 }
 
 SPM = {
-	color = rgb { 222 205 94 } #222 205 94 is much more tame. 242 205 94 
-	color_ui = rgb { 239 220 44 }
+	color = rgb { 225 215 17 } #222 205 94 is much more tame. 242 205 94 
+	color_ui = rgb { 225 215 17 }
 }
 
 GRP = {
@@ -868,7 +868,7 @@ SPR = {
 	color_ui = rgb { 80 90 100 } 
 }
 
-#New Whispers of Antiquity Tags tags
+#New Whispers of Antiquity tags
 
 CRI = {
 	color = rgb { 120 120 120 }
@@ -909,12 +909,13 @@ KCH = {
 	color = rgb { 146 182 239 }
 	color_ui = rgb { 97 143 216 }
 }
+
 BUR = {
   color = rgb { 54 104 9 }
   color_ui = rgb { 90 140 47}
 }
 
-GMY = {
-	color = rgb { 98 98 98 }
-	color_ui = rgb { 134 134 134 }
-}
+#GMY = {
+#	color = rgb { 98 98 98 }
+#	color_ui = rgb { 134 134 134 }
+#}

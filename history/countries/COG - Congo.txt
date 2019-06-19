@@ -10,19 +10,19 @@ set_convoys = 5
 set_stability = 0.50
 set_war_support = 0.50
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		conservative = { 
-			popularity = 0
+
+		conservative = 
+			  0
 		}
 
 		national_populist = {
-			popularity = 0
+			  0
 		}
 		
-		authoritarian_democrat = { 
-			popularity = 100
+		authoritarian_democrat = 
+			  100
 		}
 	}
 	

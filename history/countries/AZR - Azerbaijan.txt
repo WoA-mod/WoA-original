@@ -12,23 +12,23 @@ add_ideas = {
 #	GEN_Baptiste_Sartre_sec_sli
 }
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = {
-			popularity = 16
+
+		social_democrat = 
+			  16
 		}
-		liberal = {
-			popularity = 30
+		liberal =
+			  30
 		}
-		conservative = {
-			popularity = 16
+		conservative =
+			  16
 		}
-		authoritarian_democrat = {
-			popularity = 4
+		authoritarian_democrat =
+			  4
 		}
-		paternal_autocrat = {
-			popularity = 2
+		paternal_autocrat =
+			  2
 		}
 	}
 	

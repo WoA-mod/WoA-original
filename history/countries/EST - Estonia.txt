@@ -18,35 +18,35 @@ add_ideas = {
 	GEN_Lars_Egner_sec_lis
 }
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		antiquarian_nationalist = {
-			popularity = 40
+
+		antiquarian_nationalist =
+			  40
 		}
-		paternal_autocrat = {
-			popularity = 25
+		paternal_autocrat =
+			  25
 		}
-		authoritarian_democrat = {
-			popularity = 25
+		authoritarian_democrat =
+			  25
 		}
-		socialist = {
-			popularity = 10
+		socialist =
+			  10
 		}
-		utopianism = {
-			popularity = 0
+		utopianism =
+			  0
 		}
-		council_communist = {
-			popularity = 0
+		council_communist =
+			  0
 		}
-		social_democrat = {
-			popularity = 0
+		social_democrat = 
+			  0
 		}
-		liberal = {
-			popularity = 0
+		liberal =
+			  0
 		}
-		conservative = {
-			popularity = 0
+		conservative =
+			  0
 		}
 		
 	}

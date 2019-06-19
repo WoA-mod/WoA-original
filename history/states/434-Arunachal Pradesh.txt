@@ -7,19 +7,19 @@ state={
 	}
 
 	history={
-		owner = INC
+		owner = IND
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = INC
+		add_core_of = IND
 		add_core_of = IND
 		add_core_of = RAJ
 		add_core_of = TIB
 
 	}
 
-	provinces={
+	provINDes={
 		1116 1996 12322 
 	}
 	manpower=200000

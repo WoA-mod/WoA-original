@@ -17,38 +17,38 @@ add_ideas = {
 set_research_slots = 3
 
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		utopianism = { 
-			popularity = 9
+
+		utopianism = 
+			  9
 		}
-		council_communist = { 
-			popularity = 10
+		council_communist = 
+			  10
 		}
-		socialist = { 
-			popularity = 7
+		socialist = 
+			  7
 		}
-		social_democrat = { 
-			popularity = 37
+		social_democrat =  
+			  37
 		}
-		liberal = { 
-			popularity = 11
+		liberal = 
+			  11
 		}
-		conservative = { 
-			popularity = 15
+		conservative = 
+			  15
 		}
-		authoritarian_democrat = { 
-			popularity = 6
+		authoritarian_democrat = 
+			  6
 		}
-		paternal_autocrat = {
-			popularity = 4
+		paternal_autocrat =
+			  4
 		}
 		national_populist = {
-			popularity = 1
+			  1
 		}
-		antiquarian_nationalist = {
-			popularity = 0
+		antiquarian_nationalist =
+			  0
 		}
 	}
 	

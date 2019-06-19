@@ -15,38 +15,38 @@ set_war_support = 0.22
 
 #set_cosmetic_tag = RAJ_UK # British Raj
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		utopianism = { 
-			popularity = 2
+	 
+		utopianism = 
+			  2
 		}
-		council_communist = { 
-			popularity = 4
+		council_communist = 
+			  4
 		}
-		socialist = { 
-			popularity = 3
+		socialist = 
+			  3
 		}
-		social_democrat = { 
-			popularity = 7
+		social_democrat =  
+			  7
 		}
-		liberal = { 
-			popularity = 15
+		liberal = 
+			  15
 		}
-		conservative = { 
-			popularity = 16
+		conservative = 
+			  16
 		}
-		authoritarian_democrat = { 
-			popularity = 46
+		authoritarian_democrat = 
+			  46
 		}
-		paternal_autocrat = {
-			popularity = 7
+		paternal_autocrat =
+			  7
 		}
 		national_populist = {
-			popularity = 0
+			  0
 		}
-		antiquarian_nationalist = {
-			popularity = 0
+		antiquarian_nationalist =
+			  0
 		}
 	}
 	

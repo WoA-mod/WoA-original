@@ -14,11 +14,11 @@ add_ideas = {
 	GEN_Baptiste_Sartre_sec_sli
 }
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		liberal = { 
-			popularity = 97
+	 
+		liberal = 
+			  97
 		}
 
 	}

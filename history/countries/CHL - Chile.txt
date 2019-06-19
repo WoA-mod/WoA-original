@@ -22,23 +22,23 @@ add_ideas = {
 
 set_convoys = 20
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = {
-			popularity = 13
+
+		social_democrat = 
+			  13
 		}
-		liberal = {
-			popularity = 23
+		liberal =
+			  23
 		}
-		conservative = {
-			popularity = 3
+		conservative =
+			  3
 		}
-		authoritarian_democrat = {
-			popularity = 6
+		authoritarian_democrat =
+			  6
 		}
-		paternal_autocrat = {
-			popularity = 16
+		paternal_autocrat =
+			  16
 		}
 	}
 	

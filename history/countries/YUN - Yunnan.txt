@@ -10,11 +10,11 @@ add_ideas = {
 	GEN_Mats_Holmgren_sec_pau
 }
 
-set_politics = {
+set_popularities = {
 
-	parties = {		
-		paternal_autocrat = {
-			popularity = 80
+	
+		paternal_autocrat =
+			  80
 		}
 	}
 	

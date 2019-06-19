@@ -20,12 +20,12 @@ add_ideas = {
 	GEN_FOR_Ade
 }
 
-set_politics = {
+set_popularities = {
 
-	parties = {
+
 		
-		paternal_autocrat = {
-			popularity = 100
+		paternal_autocrat =
+			  100
 		}
 	}
 

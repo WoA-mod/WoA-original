@@ -17,23 +17,23 @@ set_convoys = 125		# biggest merchant marine in the world
 set_stability = 0.57
 set_war_support = 0.52
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = {
-			popularity = 7
+	 
+		social_democrat = 
+			  7
 		}
-		liberal = {
-			popularity = 50
+		liberal =
+			  50
 		}
-		conservative = {
-			popularity = 5
+		conservative =
+			  5
 		}
-		authoritarian_democrat = {
-			popularity = 4
+		authoritarian_democrat =
+			  4
 		}
-		paternal_autocrat = {
-			popularity = 3
+		paternal_autocrat =
+			  3
 		}
 	}
 	

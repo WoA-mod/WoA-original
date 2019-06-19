@@ -25,16 +25,16 @@ add_ideas = {
 #}
 
 SIK = {
-	set_politics = {
-		parties = {
-			social_democrat = {
-				popularity = 4
+	set_popularities = {
+
+			social_democrat = 
+				  4
 			}
-			authoritarian_democrat = {
-				popularity = 4
+			authoritarian_democrat =
+				  4
 			}
-			paternal_autocrat = {
-				popularity = 60
+			paternal_autocrat =
+				  60
 			}
 		}
 		ruling_party = paternal_autocrat
@@ -44,16 +44,16 @@ SIK = {
 	}
 }
 
-set_politics = {
-	parties = {
-		social_democrat = {
-			popularity = 4
+set_popularities = {
+	 
+		social_democrat = 
+			  4
 		}
-		authoritarian_democrat = {
-			popularity = 14
+		authoritarian_democrat =
+			  14
 		}
-		paternal_autocrat = {
-			popularity = 60
+		paternal_autocrat =
+			  60
 		}
 	}
 	ruling_party = paternal_autocrat

@@ -14,20 +14,20 @@ add_ideas = {
 	GEN_Lars_Egner_sec_lis
 }
 
-set_politics = {
+set_popularities = {
 
-	parties = {
-		social_democrat = {
-			popularity = 10
+	 
+		social_democrat = 
+			  10
 		}
-		conservative = {
-			popularity = 0
+		conservative =
+			  0
 		}
-		authoritarian_democrat = {
-			popularity = 0
+		authoritarian_democrat =
+			  0
 		}
-		paternal_autocrat = {
-			popularity = 50
+		paternal_autocrat =
+			  50
 		}
 	}
 	
