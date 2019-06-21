@@ -28,25 +28,25 @@ set_popularities = {
 
 		social_democrat = 
 			  7
-		}
+		
 		liberal =
 			  0
-		}
+		
 		conservative =
 			  13
-		}
+		
 		authoritarian_democrat =
 			  5
-		}
+		
 		paternal_autocrat =
 			  0
-		}
+		
 		antiquarian_nationalist =
 			  63
-		}
+		
 	}
 	
-	ruling_party = antiquarian_nationalist
+	set_politics = { ruling_party = antiquarian_nationalist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

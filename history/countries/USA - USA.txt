@@ -16,19 +16,19 @@ set_popularities = {
 	 
 		liberal =
 			  45
-		}
+		
 		conservative =
 			  45
-		}
-		national_populist = {
+		
+		national_populist = 
 			  5
-		}
+		
 		socialist =
 			  5
-		}
+		
 	}
 
-	ruling_party = conservative
+	set_politics = { ruling_party = conservative
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -95,7 +95,7 @@ CAN = {
 												paternal_autocrat =
 													  2
 												}
-												national_populist = {
+												national_populist = 
 													  11
 												}
 
@@ -104,7 +104,7 @@ CAN = {
 
 
 
-	ruling_party = liberal
+	set_politics = { ruling_party = liberal
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = no

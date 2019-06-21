@@ -18,13 +18,13 @@ set_popularities = {
 	 
 		conservative = 
 			  33
-		}
+		
 		authoritarian_democrat =
 			  34
-		}
+		
 	}
 	
-	ruling_party = conservative
+	set_politics = { ruling_party = conservative
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no

@@ -20,22 +20,22 @@ set_popularities = {
 
         social_democrat = 
               0
-        }
+        
         antiquarian_nationalist =
               80
-        }
+        
         conservative =
               1
-        }
+        
         authoritarian_democrat =
               4
-        }
+        
         paternal_autocrat =
               15
-        }
+        
     }
 	
-	ruling_party = antiquarian_nationalist
+	set_politics = { ruling_party = antiquarian_nationalist
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no

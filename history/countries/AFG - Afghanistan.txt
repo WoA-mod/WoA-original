@@ -13,22 +13,22 @@ add_ideas = {
 set_popularities = {
 		social_democrat = 
 			  5
-		}
+		
 		liberal =
 			  0
-		}
+		
 		conservative =
 			  13
-		}
+		
 		authoritarian_democrat =
 			  2
-		}
+		
 		paternal_autocrat =
 			  43
-		}
 	}
 	
-	ruling_party = paternal_autocrat
+set_politics = {
+	set_politics = { ruling_party = paternal_autocrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -44,11 +44,12 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
+	}
+
 
 create_corps_commander = {
 	name = "Sardar Shah Wali Khan"
 	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-	traits = { desert_fox }
+	traits = { desert_fox 
 	skill = 4
 }

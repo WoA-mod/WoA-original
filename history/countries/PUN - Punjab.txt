@@ -9,37 +9,37 @@ set_popularities = {
 	 
 		utopianism = 
 			  1
-		}
+		
 		council_communist = 
 			  2
-		}
+		
 		socialist = 
 			  1
-		}
+		
 		social_democrat =  
 			  2
-		}
+		
 		liberal = 
 			  8 
-		}
+		
 		conservative = 
 			  65
-		}
+		
 		authoritarian_democrat = 
 			  10
-		}
+		
 		paternal_autocrat =
 			  5
-		}
-		national_populist = {
+		
+		national_populist = 
 			  6
-		}
+		
 		antiquarian_nationalist =
 			  0
-		}
+		
 	}
 	
-	ruling_party = conservative
+	set_politics = { ruling_party = conservative
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no

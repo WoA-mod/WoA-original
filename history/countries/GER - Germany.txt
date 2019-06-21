@@ -93,34 +93,34 @@ set_popularities = {
 
 		utopianism =
 		     3
-		}
+		
 		council_communist =
 		      19
-		}
+		
 		socialist =
 		      5
-		}
+		
 		social_democrat = 
 			  7
-		}
+		
 		liberal =
 			  21
-		}
+		
 		conservative =
 			  4
-		}
+		
 		authoritarian_democrat =
 			  25
-		}
+		
 		paternal_autocrat =
 			  9
-		}
-		national_populist = {
+		
+		national_populist = 
 			  7
-		}
+		
 	}
 	
-	ruling_party = authoritarian_democrat
+	set_politics = { ruling_party = authoritarian_democrat
 	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no

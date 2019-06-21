@@ -16,24 +16,24 @@ set_popularities = {
 	 
 		conservative = 
 			  5
-		}		
+				
 		authoritarian_democrat = 
 			  60
-		}
+		
 		utopianism =
 			  10
-		}
+		
 		council_communist =
 			  0
-		}
+		
 		socialist =
 			  5
-		}
+		
 		paternal_autocrat =
 			  20
-		}
+		
 	}
-	ruling_party = authoritarian_democrat
+	set_politics = { ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

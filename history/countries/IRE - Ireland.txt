@@ -12,23 +12,23 @@ set_popularities = {
 
 		social_democrat = 
 			  0
-		}
+		
 		liberal =
 			  26
-		}
+		
 		conservative =
 			  56
-		}
+		
 		authoritarian_democrat =
 			  0
-		}
+		
 		paternal_autocrat =
 			  5
-		}
+		
 	}
 
 
-	ruling_party = conservative
+	set_politics = { ruling_party = conservative
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = no

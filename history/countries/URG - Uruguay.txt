@@ -18,12 +18,12 @@ set_popularities = {
 
 	 
 		liberal = 
-			  97
-		}
+			  100
+		
 
 	}
 	
-	ruling_party = liberal
+	set_politics = { ruling_party = liberal
 	last_election = "1934.4.19"
 	election_frequency = 48
 	elections_allowed = no

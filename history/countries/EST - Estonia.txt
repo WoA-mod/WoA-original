@@ -23,35 +23,35 @@ set_popularities = {
 
 		antiquarian_nationalist =
 			  40
-		}
+		
 		paternal_autocrat =
 			  25
-		}
+		
 		authoritarian_democrat =
 			  25
-		}
+		
 		socialist =
 			  10
-		}
+		
 		utopianism =
 			  0
-		}
+		
 		council_communist =
 			  0
-		}
+		
 		social_democrat = 
 			  0
-		}
+		
 		liberal =
 			  0
-		}
+		
 		conservative =
 			  0
-		}
+		
 		
 	}
 	
-	ruling_party = antiquarian_nationalist
+	set_politics = { ruling_party = antiquarian_nationalist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no

@@ -20,24 +20,24 @@ set_popularities = {
 
 		social_democrat =  
 			  20
-		}
+		
 		
 		conservative = 
 			  5
-		}
+		
 
 		council_communist = 
 			  45
-		}		
+				
 		utopianism = 
 			  15
-		}
+		
 		
 		socialist =
 		      15
 	}
 	}
-	ruling_party = council_communist
+	set_politics = { ruling_party = council_communist
 	last_election = "1934.11.11"
 	election_frequency = 72
 	elections_allowed = no

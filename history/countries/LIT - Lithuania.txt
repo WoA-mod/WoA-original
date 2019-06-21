@@ -20,34 +20,34 @@ set_popularities = {
 	 
 		antiquarian_nationalist =
 			  11
-		}
+		
 		paternal_autocrat =
 			  52
-		}
+		
 		authoritarian_democrat =
 			  28
-		}
+		
 		socialist =
 			  4
-		}
+		
 		utopianism =
 			  3
-		}
+		
 		council_communist =
 			  1
-		}
+		
 		social_democrat = 
 			  0
-		}
+		
 		liberal =
 			  0
-		}
+		
 		conservative =
 			  1
-		}
+		
 	}
 
-	ruling_party = paternal_autocrat
+	set_politics = { ruling_party = paternal_autocrat
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no

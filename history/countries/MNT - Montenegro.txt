@@ -17,22 +17,22 @@ set_popularities = {
 	 
 		social_democrat = 
 			  3
-		}
+		
 		liberal =
 			  17
-		}
+		
 		conservative =
 			  19
-		}
+		
 		authoritarian_democrat =
 			  11
-		}
+		
 		paternal_autocrat =
 			  27
-		}
+		
 	}
 	
-	ruling_party = paternal_autocrat
+	set_politics = { ruling_party = paternal_autocrat
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no

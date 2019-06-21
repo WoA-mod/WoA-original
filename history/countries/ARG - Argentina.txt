@@ -22,37 +22,37 @@ set_popularities = {
 
 		utopianism = 
 			  3.2
-		}
+		
 		council_communist = 
 			  6.4
-		}
+		
 		socialist = 
 			  11.2
-		}
+		
 		social_democrat =  
 			  19.5
-		}
+		
 		liberal = 
 			  23.3
-		}
+		
 		conservative = 
 			  7.2
-		}
+		
 		authoritarian_democrat = 
 			  6.4
-		}
+		
 		paternal_autocrat =
 			  4.7
-		}
-		national_populist = {
+		
+		national_populist = 
 			  2.0
-		}
+		
 		antiquarian_nationalist =
 			  16.1
-		}
+		
 	}
 	
-	ruling_party = liberal
+	set_politics = { ruling_party = liberal
 	last_election = "1931.4.10"
 	election_frequency = 72
 	elections_allowed = no

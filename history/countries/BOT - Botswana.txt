@@ -11,14 +11,14 @@ set_popularities = {
 
 		liberal = 
 			  0
-		}
+		
 		
 		conservative = 
 			  100
-		}
+		
 	}
 	
-	ruling_party = conservative
+	set_politics = { ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

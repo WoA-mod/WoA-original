@@ -19,37 +19,37 @@ set_popularities = {
 
 		utopianism =
 			  0
-		}
+		
 		council_communist =
 			  0
-		}
+		
 		socialist =
 			  2
-		}
+		
 		social_democrat = 
 			  4
-		}
+		
         liberal =
               13 
-                }
+                
 		conservative =
 			  12
-		}
+		
 		authoritarian_democrat =
 			  36
-		}
+		
 		paternal_autocrat =
 			  24
-		}
-		national_populist = {
+		
+		national_populist = 
 			  8
-		}
+		
         antiquarian_nationalist =
               1
-		}
+		
 	}
 
-	ruling_party = authoritarian_democrat
+	set_politics = { ruling_party = authoritarian_democrat
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no

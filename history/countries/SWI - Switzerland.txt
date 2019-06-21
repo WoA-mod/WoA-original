@@ -8,31 +8,31 @@ set_popularities = {
 	 
 		social_democrat = 
 			  30
-		}
+		
 		liberal =
 			  24
-		}
+		
 		conservative =
 			  20
-		}
+		
 		authoritarian_democrat =
 			  2
-		}
+		
 		paternal_autocrat =
 			  6
-		}
+		
 		socialist =
 			  8
-		}
-		national_populist = {
+		
+		national_populist = 
 			  6
-		}
+		
 		antiquarian_nationalist =
 			  4
-		}
+		
 	}
 	
-	ruling_party = liberal
+	set_politics = { ruling_party = liberal
 	last_election = "1934.10.27"
 	election_frequency = 36
 	elections_allowed = yes

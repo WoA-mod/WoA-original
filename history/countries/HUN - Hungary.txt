@@ -11,22 +11,22 @@ set_popularities = {
 
 		social_democrat = 
 			  0
-		}
+		
 		liberal =
 			  36
-		}
+		
 		conservative =
 			  6
-		}
+		
 		authoritarian_democrat =
 			  6
-		}
+		
 		paternal_autocrat =
 			  20
-		}
+		
 	}
 	
-	ruling_party = liberal
+	set_politics = { ruling_party = liberal
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

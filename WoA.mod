@@ -32,4 +32,4 @@ replace_path="gfx/flags"
 tags={
 	"Alternative History"
 }
-supported_version="1.6.2"
+supported_version="1.7.*"

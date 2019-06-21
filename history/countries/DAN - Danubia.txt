@@ -20,25 +20,25 @@ set_popularities = {
 
 		council_communist =
 		      50
-		}
+		
 		social_democrat = 
 			  0
-		}
+		
 		liberal =
 			  6
-		}
+		
 		conservative =
 			  20
-		}
+		
 		authoritarian_democrat =
 			  0
-		}
+		
 		paternal_autocrat =
 			  5
-		}
+		
 	}
 	
-	ruling_party = council_communist
+	set_politics = { ruling_party = council_communist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

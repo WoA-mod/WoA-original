@@ -14,11 +14,11 @@ set_popularities = {
 
 	
 		paternal_autocrat =
-			  80
-		}
+			  100
+		
 	}
 	
-	ruling_party = paternal_autocrat
+	set_politics = { ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
