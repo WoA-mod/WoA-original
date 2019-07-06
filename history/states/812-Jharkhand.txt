@@ -15,7 +15,7 @@ state={
 		add_claim_by = HYD
 	}
 
-	provINDes={
+	provinces={
 		1059 1101 1538 4104 10358 12063 
 	}
 	manpower=12683700

@@ -19,7 +19,7 @@ state={
 
 	}
 
-	provINDes={
+	provinces={
 		1116 1996 12322 
 	}
 	manpower=200000

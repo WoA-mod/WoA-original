@@ -1,8 +1,6 @@
 ﻿capital = 757
 
 add_ideas = {
-	civilian_economy
-	disarmed_nation
 	UBD_stability_at_last
 	UBD_the_two_state_solution
 }
