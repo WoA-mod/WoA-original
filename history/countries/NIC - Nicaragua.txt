@@ -30,7 +30,7 @@ set_popularities = {
 			  48
 		
 		paternal_autocrat =
-			  0
+			  28
 		
 	}
 	set_politics = { ruling_party = authoritarian_democrat

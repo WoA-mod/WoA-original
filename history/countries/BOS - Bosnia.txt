@@ -17,7 +17,7 @@ set_popularities = {
 			  17
 		
 		conservative =
-			  10
+			  40
 		
 		authoritarian_democrat =
 			  3

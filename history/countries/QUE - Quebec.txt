@@ -23,7 +23,7 @@ set_popularities = {
 		  10
 	
 	socialist =
-		  5
+		  3
 	
 	utopianism =
 		  2

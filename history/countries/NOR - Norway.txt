@@ -20,14 +20,17 @@ set_war_support = 0.52
 set_popularities = {
 
 	 
-		social_democrat = 
+		socialist = 
 			  7
+		
+		social_democrat = 
+			  11
 		
 		liberal =
 			  50
 		
 		conservative =
-			  5
+			  25
 		
 		authoritarian_democrat =
 			  4

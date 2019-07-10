@@ -17,24 +17,30 @@ create_faction = "Third International"
 
 set_popularities = {
 
-
+		socialist = 
+			  36
+			
 		council_communist =
-		      50
-		
+		      41
+	
+		utopianist =
+			  19
+			  
+	
 		social_democrat = 
-			  0
+			  3
 		
 		liberal =
-			  6
+			  1
 		
 		conservative =
-			  20
+			  0
 		
 		authoritarian_democrat =
 			  0
 		
 		paternal_autocrat =
-			  5
+			  0
 		
 	}
 	

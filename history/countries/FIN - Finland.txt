@@ -21,7 +21,9 @@ add_ideas = {
 
 set_popularities = {
 
-
+		socialist = 
+			  7
+			  
 		social_democrat = 
 			  5
 		

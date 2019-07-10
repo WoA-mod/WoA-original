@@ -17,7 +17,7 @@ set_popularities = {
 
 
 		social_democrat = 
-			  16
+			  30
 		
 		liberal =
 			  48

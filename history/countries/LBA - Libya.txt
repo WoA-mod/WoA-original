@@ -24,7 +24,7 @@ set_popularities = {
 		      0
 		
 		socialist =
-		      1
+		      2
 		
 		social_democrat = 
 			  12

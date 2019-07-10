@@ -19,10 +19,10 @@ set_popularities = {
 			  1
 		
 		liberal =
-			  10
+			  2
 		
 		conservative =
-			  14
+			  37
 		
 		authoritarian_democrat =
 			  52

@@ -19,10 +19,10 @@ set_popularities = {
 			  25
 		
 		conservative =
-			  0
+			  10
 		
 		authoritarian_democrat =
-			  0
+			  24
 		
 		paternal_autocrat =
 			  1

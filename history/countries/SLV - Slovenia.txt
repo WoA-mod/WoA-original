@@ -9,7 +9,7 @@ set_popularities = {
 
 	 
 		social_democrat = 
-			  0
+			  18
 		
 		conservative =
 			  45

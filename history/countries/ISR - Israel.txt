@@ -16,7 +16,9 @@ add_ideas = {
 
 set_popularities = {
 
-
+		socialist = 
+			  6
+			  
 		social_democrat = 
 			  21
 		
@@ -30,7 +32,7 @@ set_popularities = {
 			  7
 		
 		paternal_autocrat =
-			  5
+			  25
 		
 	}
 	set_politics = { ruling_party = liberal

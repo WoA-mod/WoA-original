@@ -52,7 +52,7 @@ set_popularities = {
 			  14
 		
 		antiquarian_nationalist =
-			  0
+			  1
 		
 	}
 	

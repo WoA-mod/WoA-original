@@ -7,7 +7,6 @@ set_convoys = 400
 set_stability = 0.66
 set_war_support = 0.54
 
-# set_country_flag = party_popularity_system_disabled #Party popularity system will not be active for this nation. Ideas will need to be set manually.
 
 set_popularities = {
 
@@ -37,10 +36,10 @@ set_popularities = {
 			  13
 		
 		national_populist = 
-			  5
+			  0
 		
 		antiquarian_nationalist =
-			  8
+			  13
 		
 	}
 	

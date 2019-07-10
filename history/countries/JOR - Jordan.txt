@@ -9,7 +9,7 @@ set_popularities = {
 
 
 		conservative = 
-			  25
+			  30
 		
 
 		national_populist = 

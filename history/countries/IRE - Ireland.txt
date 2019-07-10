@@ -9,9 +9,11 @@ set_stability = 0.42
 set_war_support = 0.50
 set_popularities = {
 
-
+		socialist = 
+			  2
+		
 		social_democrat = 
-			  0
+			  11
 		
 		liberal =
 			  26

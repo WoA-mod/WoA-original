@@ -1,4 +1,4 @@
-﻿capital = 292
+﻿capital = 678
 
 # Starting tech
 set_technology = {
@@ -24,7 +24,7 @@ set_popularities = {
 			  8
 		
 		liberal =
-			  2
+			  28
 		
 		conservative =
 			  12

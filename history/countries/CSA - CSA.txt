@@ -1,1 +1,16 @@
-﻿
+﻿set_popularities = {
+		social_democrat = 
+			  5
+		
+		liberal =
+			  37
+		
+		conservative =
+			  13
+		
+		authoritarian_democrat =
+			  2
+		
+		paternal_autocrat =
+			  43
+	}

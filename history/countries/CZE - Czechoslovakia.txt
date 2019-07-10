@@ -9,21 +9,35 @@ set_war_support = 0.50
 set_popularities = {
 
 
+		utopianism =
+		     2
+		
+		council_communist =
+		      18
+		
+		socialist =
+		      5
+		
 		social_democrat = 
-			  12
+			  15
 		
 		liberal =
-			  24
+			  11
 		
 		conservative =
-			  46
+			  20
 		
 		authoritarian_democrat =
-			  8
+			  6
 		
 		paternal_autocrat =
-			  0
+			  5
 		
+		national_populist = 
+			  9
+		
+		antiquarian_nationalist =
+			  9
 	}
 	
 	set_politics = { ruling_party = conservative

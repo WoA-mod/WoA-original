@@ -18,13 +18,13 @@ set_popularities = {
 			  6
 		
 		liberal =
-			  49
-		
-		conservative =
 			  30
 		
+		conservative =
+			  48
+		
 		authoritarian_democrat =
-			  1
+			  15
 		
 		paternal_autocrat =
 			  1

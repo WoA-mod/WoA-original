@@ -25,7 +25,7 @@ set_popularities = {
 			  0
 		
 		paternal_autocrat =
-			  2
+			  24
 		
 	}
 	set_politics = { ruling_party = conservative

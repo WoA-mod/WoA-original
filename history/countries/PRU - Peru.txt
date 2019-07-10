@@ -20,17 +20,20 @@ set_war_support = 0.31
 
 set_popularities = {
 
-	 
+		socialist = 
+			  19
+			  
 		conservative = 
 			  12
 		
-
 		social_democrat =  
-			  4
-			  
+			  8
+		
+		liberal =
+			  16
 		
 		authoritarian_democrat = 
-			  30
+			  34
 		
 
 		paternal_autocrat = 

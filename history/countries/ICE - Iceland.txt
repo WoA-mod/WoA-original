@@ -19,7 +19,7 @@ set_popularities = {
 		
 			
 		conservative =
-			  0
+			  4
 		
 	}
 	

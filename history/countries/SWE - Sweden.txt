@@ -20,7 +20,7 @@ set_popularities = {
 			  24
 		
 		liberal =
-			  8
+			  32
 		
 		conservative =
 			  24

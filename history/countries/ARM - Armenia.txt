@@ -32,7 +32,7 @@ set_popularities = {
 			  2
 		
 		national_populist = 
-			  0
+			  20
 		
 	}
 	

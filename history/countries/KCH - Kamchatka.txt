@@ -9,11 +9,13 @@ set_popularities = {
 
 
 		liberal = 
-			  50
+			  12
 		
 		authoritarian_democrat = 
-			  30
+			  29
 		
+		paternal_autocrat = 
+			  59
 	}
 	
 	set_politics = { ruling_party = liberal

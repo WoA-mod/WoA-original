@@ -15,28 +15,28 @@ set_popularities = {
 
 	 
 		utopianism =
-			  3
+			  18
 		
 		council_communist =
-			  4
+			  27
 		
 		socialist =
-			  8
+			  33
 		
 		social_democrat = 
-			  28
+			  19
 		
 		liberal =
-			  26
+			  3
 		
 		conservative =
-			  17
+			  0
 		
 		authoritarian_democrat =
 			  0
 		
 		national_populist = 
-			  14
+			  0
 		
 		paternal_autocrat =
 			  0

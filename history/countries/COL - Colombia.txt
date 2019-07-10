@@ -36,7 +36,7 @@ set_popularities = {
 			  2
 		
 		paternal_autocrat = 
-			  28
+			  60
 		
 		social_democrat =  
 			  6

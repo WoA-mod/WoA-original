@@ -12,14 +12,15 @@ add_ideas = {
 
 set_popularities = {
      
+		
         social_democrat = 
               12
         
         conservative =
-              33
+              45
         
         authoritarian_democrat =
-              21
+              32
         
         paternal_autocrat =
               11

@@ -26,8 +26,11 @@ set_popularities = {
 		liberal =
 			  10
 		
+		authoritarian_democrat =
+			  48
+		
 		paternal_autocrat =
-			  20
+			  22
 		
 
 	}
