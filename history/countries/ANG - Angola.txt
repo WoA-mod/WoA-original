@@ -16,18 +16,16 @@ set_popularities = {
 
 		liberal = 
 			  0
-		}
 
-		national_populist = {
+		national_populist =
 			  0
-		}
 		
 		authoritarian_democrat = 
 			  100
-		}
-	}
+}
 	
-	set_politics = { ruling_party = authoritarian_democrat
+set_politics = {
+	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

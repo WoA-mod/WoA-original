@@ -37,15 +37,16 @@ set_popularities = {
 		paternal_autocrat =
 			  6
 		
-		national_populist = {
+		national_populist =
 			  1
 		
 		antiquarian_nationalist =
 			  0
 		
-	}
+}
 	
-	set_politics = { ruling_party = authoritarian_democrat
+	set_politics = {
+	ruling_party = authoritarian_democrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

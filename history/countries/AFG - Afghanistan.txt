@@ -10,6 +10,13 @@ add_ideas = {
 	GEN_Mats_Holmgren_sec_pau
 }
 
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
 set_popularities = {
 		social_democrat = 
 			  5
@@ -44,12 +51,14 @@ create_country_leader = {
 	traits = {
 		#
 	}
-	}
+}
 
 
 create_corps_commander = {
 	name = "Sardar Shah Wali Khan"
 	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-	traits = { desert_fox 
+	traits = {
+	desert_fox 
 	skill = 4
+	}
 }

@@ -1,23 +1,57 @@
-﻿capital = 288
+﻿# Clone of Vietnam
 
-#oob = ""
+capital = 288
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
+set_research_slots = 3
+set_stability = 0.88
+set_war_support = 0.90
+
+
+
+add_ideas = {
+#	VIN_rural_nation
+#	VIN_socialist_revolutionaries
+	GEN_Hugo_Bernard_hog_sli
+	GEN_Felix_Menard_for_sli
+	GEN_Francis_Morel_eco_sli
+	GEN_Baptiste_Sartre_sec_sli
 }
 
-set_convoys = 5
 set_popularities = {
 
 
-		social_democrat =  
-			  100
+		social_democrat = 
+			  5
+		
+		liberal =
+			  43
+		
+		conservative =
+			  17
+		
+		authoritarian_democrat =
+			  33
+		
+		paternal_autocrat =
+			  2
 		
 	}
-	
-	set_politics = { ruling_party = social_democrat
-	last_election = "1931.11.8"
-	election_frequency = 72
+
+	set_politics = { ruling_party = liberal
+	last_election = "1933.2.16"
+	election_frequency = 36
 	elections_allowed = no
+}
+
+#NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
+
+create_country_leader = {
+	name = "Jules Brévié"
+	desc = ""
+	picture = "Portrait_Jules_Brevie.tga"
+	expire = "1953.3.1"
+	ideology = liberal_subtype
+	traits = {
+	
+	}
 }

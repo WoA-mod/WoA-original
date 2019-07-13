@@ -13,7 +13,7 @@ set_war_support = 0.34
 
 set_popularities = {
 
-		utopianist = 
+		utopianism = 
 			  2
 		
 		socialist = 
@@ -36,9 +36,7 @@ set_popularities = {
 		
 		paternal_autocrat =
 			  13
-		
-
-	}
+}
 
 	set_politics = { ruling_party = conservative
 	last_election = "1935.9.8"
@@ -77,49 +75,23 @@ puppet = QUE
 puppet = CAN
 
 CAN = {
-				set_popularities = {
-
-												 
-												utopianism =
-													  3
-												}
-												council_communist =
-													  3
-												}
-												socialist =
-													  4
-												}
-												social_democrat = 
-													  9
-												}
-												liberal =
-													  31
-												}
-												conservative =
-													  17
-												}
-												antiquarian_nationalist =
-													  0
-												}
-												authoritarian_democrat =
-													  20
-													}
-												paternal_autocrat =
-													  2
-												}
-												national_populist = 
-													  11
-												}
-
-
-																		}
-
-
-
-	set_politics = { ruling_party = liberal
-	last_election = "1935.10.14"
-	election_frequency = 60
-	elections_allowed = no
+	set_popularities = {									 
+		utopianism = 3
+		council_communist = 3
+		socialist =	4
+		social_democrat = 9
+		liberal = 31
+		conservative = 17
+		antiquarian_nationalist = 0
+		authoritarian_democrat = 20
+		paternal_autocrat = 2
+		national_populist =  11
+	}
+	set_politics = {
+		ruling_party = liberal
+		last_election = "1935.10.14"
+		election_frequency = 60
+		elections_allowed = no
 	}
 }
 
