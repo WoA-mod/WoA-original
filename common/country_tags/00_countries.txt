@@ -183,7 +183,7 @@ NIR = "countries/Northern Ireland.txt"
 #Stuff kept just so Paradox does not cry
 WGR = "countries/West Germany.txt"
 DDR = "countries/East Germany.txt"
-CSA = "countries/CSA.txt"
+CSA = "countries/CSA.txt" #The South will rise again
 USB = "countries/USB.txt" #neutral US bloc during civil war in MTG
 
 #FR tags
@@ -220,7 +220,7 @@ PIE = "countries/Piedmont.txt"
 COR = "countries/Corsica.txt"
 SAR = "countries/Sardinia.txt"
 #I need the pope and a non-theocracy for their lands
-#Also where in the actual fuck is venice
+#And venice, too
 
 #FR German Breakaways
 BAY = "countries/Bayern.txt"
@@ -236,7 +236,6 @@ DAN = "countries/Danubia.txt"
 WLC = "countries/Wallachia.txt"
 DML = "countries/Mittelafrika.txt"
 WIF = "countries/West Indies Federation.txt"
-BUR = "countries/Burma.txt"
 CRE = "countries/Crete.txt"
 KCH = "countries/Kamchatka.txt"
 KMT = "countries/Republic of China.txt"
