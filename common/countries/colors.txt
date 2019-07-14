@@ -718,11 +718,6 @@ KCH = {
 	color_ui = rgb { 97 143 216 }
 }
 
-GMY = {
-	color = rgb { 98 98 98 }
-	color_ui = rgb { 134 134 134 }
-}
-
 DEI = {
 	color = rgb { 174 121 48 }
 	color_ui = rgb { 154 101 48 }

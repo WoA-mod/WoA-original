@@ -10,12 +10,6 @@ set_technology = {
 set_stability = 0.50
 set_war_support = 0.50
 
-set_politics = {
-	ruling_party = paternal_autocrat
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
 
 set_popularities = {
 
@@ -34,10 +28,11 @@ set_popularities = {
 		
 		paternal_autocrat =
 			  37
-		
+}
 	
 	
-	set_politics = { ruling_party = paternal_autocrat
+set_politics = {
+	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
