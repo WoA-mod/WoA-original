@@ -47,10 +47,12 @@ continent = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
+		}
 		socialist = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 			}
+		}
 		utopianism = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
