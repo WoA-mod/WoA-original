@@ -15,15 +15,15 @@ set_popularities = {
 
 
 		social_democrat =  
-			  96
+			  4
 		
 			
 		conservative =
-			  4
+			  96
 		
 	}
 	
-	set_politics = { ruling_party = social_democrat
+	set_politics = { ruling_party = conservative
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes

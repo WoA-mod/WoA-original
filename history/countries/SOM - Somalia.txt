@@ -27,3 +27,14 @@ set_popularities = {
 	elections_allowed = no
 
 }
+
+create_country_leader = {
+	name = "AirHunter, the Great Placeholder"
+	desc = ""
+	picture = "Portrait_MOR_Edgard_de_Larminat.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+		#
+	}
+}

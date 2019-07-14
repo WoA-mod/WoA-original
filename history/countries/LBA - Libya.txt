@@ -39,7 +39,7 @@ set_popularities = {
 			  41
 		
 		paternal_autocrat =
-			  9
+			  8
 		
 		national_populist = 
 			  0

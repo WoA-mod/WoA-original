@@ -37,7 +37,7 @@ set_popularities = {
 	}
 
 	
-	set_politics = { ruling_party = liberal
+	set_politics = { ruling_party = authoritarian_democrat
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = no

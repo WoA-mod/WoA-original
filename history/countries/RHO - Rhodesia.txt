@@ -35,7 +35,7 @@ set_popularities = {
 			  55
 		
 		authoritarian_democrat =
-		  20
+			  20
 		
 		paternal_autocrat =
 			  0
@@ -68,7 +68,7 @@ create_country_leader = {
 	name = "Tribal Communes"
 	picture = "Portrait_RHO_Communists.tga"
 	expire = "1965.1.1"
-	ideology = counciL_communist_subtype
+	ideology = council_communist_subtype
 	traits = {
 		
 	}

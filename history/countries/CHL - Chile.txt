@@ -38,7 +38,7 @@ set_popularities = {
 			  32
 		
 		paternal_autocrat =
-			  16
+			  19
 			  
 		
 	}

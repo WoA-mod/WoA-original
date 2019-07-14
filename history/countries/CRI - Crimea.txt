@@ -14,10 +14,10 @@ set_popularities = {
 		     5
 		
 		council_communist =
-		      10
+		      5
 		
 		socialist =
-		      15
+		      5
 		
 		social_democrat = 
 			  0
