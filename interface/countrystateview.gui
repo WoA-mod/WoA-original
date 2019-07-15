@@ -47,7 +47,7 @@ guiTypes = {
 				name = "state_name"
 				position = { x = 60 y = 5 }
 				textureFile = ""
-				font = "hoi_33"
+				font = "hoi_36header"
 				text = "STATE_NAME_TEST"
 				maxWidth = 320
 				maxHeight = 30
@@ -284,6 +284,19 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"			
 			}
 			###
+
+			containerWindowType = {
+				name = "custom_icon_container"
+				size = { width=100% height=100% }
+				position = { x = 0 y= 0 }
+
+				iconType = {
+					name = "flooded_icon"
+					spriteType = "GFX_modifiers_flooded_icon"
+					position = { x = 0 y = 0 }
+					Orientation = "UPPER_LEFT"			
+				}	
+			}
 			
 			gridBoxType = {
 				name = "province_building_entries"

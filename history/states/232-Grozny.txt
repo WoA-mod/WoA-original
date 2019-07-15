@@ -11,14 +11,13 @@ state={
 	}
 
 	history={
-		owner = DAG
+		owner = RUS
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			arms_factory = 1
 		}
 		add_core_of = SOV
-		add_core_of = DAG
 		add_core_of = RUS
 	}
 
