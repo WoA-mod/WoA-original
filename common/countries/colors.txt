@@ -739,3 +739,8 @@ PON = {
 	color = rgb { 18 96 165 }
 	color_ui = rgb { 18 96 165 }
 }
+
+RIF = {
+	color = rgb { 209 81 42 }
+	color_ui = rgb { 209 81 42 }
+}

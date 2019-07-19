@@ -10,7 +10,7 @@ state={
 		owner = ULS
 		add_core_of = ULS
 		add_core_of = IRE
-		add_claim_of: IRE
+		add_claim_by = IRE
 		}
 		
 		buildings = {

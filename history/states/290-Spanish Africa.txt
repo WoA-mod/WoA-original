@@ -3,11 +3,11 @@ state={
 	id=290
 	name="STATE_290"
 	resources={
-		steel=15.0
+		steel=15.000
 	}
 
 	history={
-		owner = SPM
+		owner = RIF
 		buildings = {
 			infrastructure = 3
 			air_base = 3
@@ -18,12 +18,12 @@ state={
 
 		}
 		add_core_of = MOR
-		add_claim_by = SPM
+		add_claim_by = RIF
 
 	}
 
 	provinces={
-		4199 7215 12087 12100 
+		4199 7215 10113 12087 12100 
 	}
 	manpower=202300
 	buildings_max_level_factor=1.000
