@@ -5,12 +5,12 @@ GER = {
 	color_ui = rgb { 80 90 100 } #Formerly 77 88 99. Rounded it up.
 }
 ENG = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
+	color = rgb { 209 0 19 }
+	color_ui = rgb { 209 0 19 }
 }
 FRA = {
-	color = rgb { 0 60 180 } #0 0 200 is the former variant. Too purple though. #0 40 190?
-	color_ui = rgb { 35 60 200 } #Consider use of 0 50 160. 10 50 170 is okay but it's TOO FUCKING PURPLE FUCK WHY IS EVERYTHING FUCKING PURPLE
+	color = rgb { 25 0 162 } #0 0 200 is the former variant. Too purple though. #0 40 190?
+	color_ui = rgb { 25 0 162 } #Consider use of 0 50 160. 10 50 170 is okay but it's TOO FUCKING PURPLE FUCK WHY IS EVERYTHING FUCKING PURPLE
 }
 KAZ = {
 	color = rgb { 107 220 224 }
@@ -32,23 +32,19 @@ SWE = {
 	color = rgb { 36 132 247 }
 	color_ui = rgb { 47 172 255 }
 }
-FRA = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
-}
 LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 }
 BEL = { 
-	color = rgb { 43 35 123 } #193 171 8
-	color_ui = rgb { 43 35 123 }
+	color = rgb { 224 214 17 } #193 171 8
+	color_ui = rgb { 224 214 17 }
 }
 HOL = {	color = rgb { 203 138 74 }
 		color_ui = rgb { 255 179 96 }
 }
-CZE = {	color = rgb { 54 167 156 }
-		color_ui = rgb { 70 217 203 }
+CZE = {	color = rgb { 181 116 14 }
+		color_ui = rgb { 181 116 14 }
 }
 POL = {
 	color = rgb { 197 92 106 }
@@ -63,12 +59,12 @@ LIT = {
 	color_ui = rgb { 120 120 90 } 
 }
 EST = {
-	color = rgb { 120 120 120 }
-	color_ui = rgb { 120 120 120 }
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
 }
 LAT = {
-	color = rgb { 75 77 146 }
-	color_ui = rgb { 10 40 170 }
+	color = rgb { 178 40 20 }
+	color_ui = rgb { 178 40 20 }
 }
 SPR = {
 	color = rgb { 242 205 94 }
@@ -83,8 +79,8 @@ ROM = {
 	color_ui = rgb { 242 205 94 } #KR uses 208 184 73, should we do the same?
 }
 BOS = {
-	color = rgb { 190 190 120 } #May be a bit too similar to other pale yellow colours
-	color_ui = rgb { 190 190 120 }
+	color = rgb { 205 183 73 } 
+	color_ui = rgb { 205 183 73 }
 }
 SWI = {
 	color = rgb { 200 200 220 }
@@ -99,8 +95,8 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 122 25 32 }
+	color_ui = rgb { 122 25 32 }
 }
 GRE = {
 	color = rgb { 93 181 227 }
@@ -386,13 +382,13 @@ JOR = {
 }
 
 SYR = {
-	color = rgb { 100  100  150 }
-	color_ui = rgb { 100  100  150 }
+	color = rgb { 0 127 14 }
+	color_ui = rgb { 0 127 14 }
 }
 
 SER = {
-	color = rgb { 160 110 110 }
-	color_ui = rgb { 160 110 110 }
+	color = rgb { 25 0 70 }
+	color_ui = rgb { 25 0 70 }
 }
 
 ICE = {
@@ -456,8 +452,8 @@ MNT = {
 }
 
 BLR = {
-	color = rgb { 70 0 190 } #Maybe a bit more blue?
-	color_ui = rgb { 70 0 190 }
+	color = rgb { 43 35 122 } #Maybe a bit more blue?
+	color_ui = rgb { 43 35 122 }
 }
 MAN = {
 	color = rgb { 190 170 25 } #Formerly 235 187 0
@@ -690,13 +686,13 @@ DAN = {
 }
 
 MOL = {
-	color = rgb { 225  180  0 }
-	color_ui = rgb { 225  180  0 }
+	color = rgb { 249 165 19 }
+	color_ui = rgb { 249 165 19 }
 }
 
 WLC = {
-	color = rgb { 250 220 120 }
-	color_ui = rgb { 250 220 120 }
+	color = rgb { 183 95 7 }
+	color_ui = rgb { 183 95 7 }
 }
 
 DML = {
@@ -722,4 +718,24 @@ DEI = {
 UBD = {
 	color = rgb { 122 142 138 }
 	color_ui = rgb { 142 142 128 }
+}
+
+VIL = {
+	color = rgb { 137 114 0 }
+	color_ui = rgb {137 114 0 }
+}
+	
+ULS = {
+	color = rgb { 213 191 0 }
+	color_ui = rgb { 213 191 0 }
+}
+
+THS = {
+	color = rgb { 214 169 96 }
+	color_ui = { 214 169 96 }
+}
+
+PON = {
+	color = rgb { 18 96 165 }
+	color_ui = rgb { 18 96 165 }
 }

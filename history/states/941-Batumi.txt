@@ -2,7 +2,7 @@ state={
 	id=941
 	name="STATE_941"
 	history={
-		owner = TUR
+		owner = GEO
 		victory_points = {
 			3653 3 
 		}
@@ -16,6 +16,7 @@ state={
 		}
 		add_core_of = GEO
 		add_core_of = TUR
+		
 	}
 	provinces={ 3653 }
 	manpower=66000

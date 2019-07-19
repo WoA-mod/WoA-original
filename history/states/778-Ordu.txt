@@ -4,7 +4,7 @@ state={
 	name="STATE_778"
 
 	history={
-		owner = TUR
+		owner = PON
 		victory_points = {
 			9932 1 
 		}
@@ -12,13 +12,15 @@ state={
 			infrastructure = 3
 
 			}
+		add_core_of = PON
 		add_core_of = TUR
+		add_claim_by = TUR
 
 		}
 
 
 	provinces={
-		960 975 3965 3979 9932 11894 
+		960 975 3965 3979 9932 11894 13224
 	}
 	manpower=909055
 	buildings_max_level_factor=1.000

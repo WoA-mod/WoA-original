@@ -1,0 +1,22 @@
+
+state={
+	id=970
+	name="STATE_970"
+
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SYR
+		add_core_of = TUR
+
+	}
+
+	provinces={
+		1631 10383 12316 12442 13228 13229 13232 13233 
+	}
+	manpower=279173
+	buildings_max_level_factor=1.000
+}

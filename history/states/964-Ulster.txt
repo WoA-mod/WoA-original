@@ -1,0 +1,19 @@
+state={
+	id=964
+	name="STATE_964"
+	provinces={
+		3242 3329 3379 
+	}
+	manpower=593711
+	
+	history={
+		owner = ULS
+		add_core_of = ULS
+		add_core_of = IRE
+		add_claim_of: IRE
+		}
+		
+		buildings = {
+			infrastructure = 4
+	buildings_max_level_factor=1.000
+}

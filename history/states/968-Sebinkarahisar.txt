@@ -1,0 +1,23 @@
+state={
+	id=968
+	name="STATE_968"
+	provinces={
+		933 3935 6919 6950 9868 
+	}
+	history={
+		owner = PON
+		victory_points = {
+			1005 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = TUR
+		add_core_of = PON
+		add_claim_by = TUR
+	}
+	
+	manpower= 69270
+	buildings_max_level_factor=1.000
+}

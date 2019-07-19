@@ -1,0 +1,17 @@
+state={
+	id=967
+	name="STATE_967"
+	provinces={
+		3714 11753 
+	}
+	history={
+		owner = PON
+	
+		add_core_of = TUR
+		add_core_of = PON
+		add_claim_by = TUR
+		
+	}
+	manpower=42820
+	buildings_max_level_factor=1.000
+}

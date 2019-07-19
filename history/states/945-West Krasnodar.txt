@@ -2,9 +2,9 @@ state={
 	id=945
 	name="STATE_945"
 	history={
-		owner = CRI
+		owner = UKR
 		add_core_of = CRI
-		add_claim_by = SOV
+		add_core_of = UKR
 		victory_points = {
 			719 1
 		}

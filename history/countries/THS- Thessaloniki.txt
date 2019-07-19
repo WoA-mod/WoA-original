@@ -1,0 +1,46 @@
+﻿capital = 964
+
+set_research_slots = 3
+
+set_stability = 0.88
+
+set_convoys = 19
+set_stability = 0.79
+set_war_support = 0.34
+set_popularities = {
+
+
+		social_democrat = 
+			  10
+		
+		liberal =
+			  17
+		
+		conservative =
+			  40
+		
+		authoritarian_democrat =
+			  30
+		
+		paternal_autocrat =
+			  3
+		
+	}
+	
+	set_politics = { ruling_party = authoritarian_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+create_country_leader = {
+	name = "Kurwa, The Second Great Placeholder"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1953.3.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}

@@ -10,7 +10,7 @@ state= {
 
 	history=
 	{
-		owner = TUR
+		owner = GRE
 		buildings = {
 			infrastructure = 4
 			air_base = 1
@@ -19,6 +19,8 @@ state= {
 			}
 		}
 		add_core_of = TUR
+		add_core_of = GRE
+		add_claim_by = TUR
 
 	}
 	provinces= { 7193 11984 }

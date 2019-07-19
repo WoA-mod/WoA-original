@@ -1,0 +1,24 @@
+
+state={
+	id=963
+	name="STATE_963"
+
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = BEL
+		add_core_of = FLA
+		add_core_of = FRA
+		add_claim_of = FRA
+
+	}
+
+	provinces={
+		575 
+	}
+	manpower=58294
+	buildings_max_level_factor=1.000
+}
