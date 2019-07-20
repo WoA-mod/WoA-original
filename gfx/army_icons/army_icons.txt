@@ -420,7 +420,6 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-#			has_government = neutrality
 		}
 	}
 	icon = {

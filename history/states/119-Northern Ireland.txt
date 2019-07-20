@@ -20,7 +20,7 @@ state={
 		}
 		add_core_of = IRE
 		add_core_of = ULS
-		add_claim_of = ULS
+		add_claim_by = ULS
 	}
 
 	provinces={

@@ -12,7 +12,10 @@ sub_unit_categories = {
 	category_heavy_fighter
 	category_cas
 	category_special_forces
-	category_spart
-	category_spaa
-	category_sptd
+	category_nav_bomber
+	category_tac_bomber
+	category_strat_bomber
+	category_spart # the fuck are these three
+	category_spaa # the fuck are these three
+	category_sptd # the fuck are these three
 }
