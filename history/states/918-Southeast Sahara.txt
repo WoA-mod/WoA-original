@@ -3,9 +3,8 @@ state={
 	name="STATE_918"
 
 	history={
-		owner = DML
-		add_core_of = DML
-		add_core_of = NFQ
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
 			infrastructure = 2
 

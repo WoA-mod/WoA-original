@@ -9,13 +9,14 @@ state={
 		rubber=1.0
 	}
 	history={
-		owner = POR
+		owner = LIB
 		buildings = {
 			infrastructure = 2
 			12891 ={
 				naval_base = 1
 			}
 		}
+		add_core_of = LIB
 	}
 
 	provinces={

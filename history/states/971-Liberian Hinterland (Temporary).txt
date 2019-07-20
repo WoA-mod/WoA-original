@@ -1,0 +1,19 @@
+state={
+	id=971
+	name="STATE_971"
+	provinces={
+		1909 4957 5013 5039 5070 8008 8065 8122 10762 10803 12802 12858 
+	}
+	history={
+		owner = LIB
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = LIB
+
+
+	}
+	manpower=1928300
+	buildings_max_level_factor=1.000
+}

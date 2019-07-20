@@ -4,9 +4,9 @@ state={
 	name="STATE_515"
 
 	history={
-		owner = DML
-		add_core_of = DML
-		add_core_of = NFA
+		owner = FRA
+		add_core_of = FRA
+
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
