@@ -1,18 +1,23 @@
+
 state={
 	id=936
 	name="STATE_936"
-	history = {
-	 owner = DML
-	 add_core_of = DML
-	 buildings = {
+
+	history={
+		owner = DML
+		add_core_of = DML
+		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
+
 		}
+
 	}
+
 	provinces={
-		1951 1975 2001 2056 5101 10919 12707 12762 12843 12874 
+		1951 2001 10919 12762 12843 12874 
 	}
-	state_category=city
-	manpower=844500 #Change in accordance to 556 later.
+	manpower=844500
 	buildings_max_level_factor=1.000
+	state_category=city
 }

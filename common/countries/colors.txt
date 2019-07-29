@@ -21,8 +21,8 @@ TRK = {
 	color_ui = rgb { 100 150 105 }
 }
 EGY = {
-	color = rgb { 80 0 20 } #Might be a bit too similar to TUR.
-	color_ui = rgb { 80 0 20 }
+	color = rgb { 183 40 44 } #Might be a bit too similar to TUR.
+	color_ui = rgb { 183 40 44 }
 }
 SOV = {
 	color = rgb { 125 13 24 }
@@ -287,8 +287,8 @@ YUN = {
 	color_ui = rgb { 222 247 198 }
 }
 USA = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 0 121 142 }
+	color_ui = rgb { 0 121 142 }
 }
 MON = {
 	#color = HSV { 0.1 0.15 0.4 }

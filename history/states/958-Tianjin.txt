@@ -6,7 +6,7 @@ state={
 	state_category = megalopolis
 
 	history={
-		owner = ANH
+		owner = KMT
 		add_core_of = SHX
 		add_core_of = KMT
 		add_core_of = MAN
