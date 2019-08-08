@@ -1,0 +1,14 @@
+state={
+	id=974
+	name="STATE_974"
+	history= {
+		owner = GLD
+		add_core_of = GLD
+	}
+		state_category = rural
+	provinces={
+		2063 8164 10928 12991 
+	}
+	manpower=371000
+	buildings_max_level_factor=1.000
+}

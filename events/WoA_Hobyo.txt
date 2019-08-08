@@ -1,0 +1,18 @@
+﻿add_namespace = hby
+
+country_event = { # Hawiye Event
+	id = hby.1
+	title = hby.1.t
+	desc = hby.1.d
+	picture = GFX_HBY_Hawiye_People
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = hby.1.a
+	}
+	option = {
+		name = hby.1.b
+	}
+}

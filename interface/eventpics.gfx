@@ -3101,6 +3101,22 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/Caucasia/Georgia/stalins_mug_shot.dds"
 	}
 	spriteType = {
+		name = "GFX_ETH_Army_Horses"
+		texturefile = "gfx/event_pictures/Africa/ETH_army_horses.dds"
+	}
+	spriteType = {
+		name = "GFX_HBY_Hawiye_People"
+		texturefile = "gfx/event_pictures/Africa/HBY_Hawiye_People.dds"
+	}
+	spriteType = {
+		name = "GFX_MAJ_majerteen_army"
+		texturefile = "gfx/event_pictures/Africa/MAJ_majerteen_army.dds"
+	}
+	spriteType = {
+		name = "GFX_WAR_Ethiopian_Threat"
+		texturefile = "gfx/event_pictures/Africa/WAR_Ethiopian_Threat.dds"
+	}
+	spriteType = {
 		name = "GFX_1918_tbilisi_university"
 		texturefile = "gfx/event_pictures/Caucasia/Georgia/1918_tbilisi_university.dds"
 	}

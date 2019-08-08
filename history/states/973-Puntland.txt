@@ -1,0 +1,21 @@
+state={
+	id=973
+	name="STATE_973"
+	state_category = rural
+	
+	history= {
+		owner = MAJ
+		buildings = {
+			infrastructure = 3
+			12759 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = MAJ
+	}
+	provinces={
+		 1966 4909 10818 10891 12814 13235 
+	}
+	manpower=17299
+	buildings_max_level_factor=1.000
+}

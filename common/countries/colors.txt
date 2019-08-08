@@ -661,6 +661,10 @@ CHE = {
 	color = rgb { 155 17 65 }
 	color_ui = rgb { 150 17 59 }
 }
+DJI = {
+	color = rgb { 93 207 161 }
+	color_ui = rgb { 93 207 161 }
+}
 
 
 #Kept here to not cause errors.
@@ -706,8 +710,8 @@ WIF = {
 }
 
 KCH = {
-	color = rgb { 146 182 239 }
-	color_ui = rgb { 97 143 216 }
+	color = rgb { 0 54 63 }
+	color_ui = rgb { 0 54 63 }
 }
 
 DEI = {
@@ -743,4 +747,29 @@ PON = {
 RIF = {
 	color = rgb { 209 81 42 }
 	color_ui = rgb { 209 81 42 }
+}
+
+DER = {
+	color = rgb { 150 112 0 }
+	color_ui = rgb { 150 112 0 }
+}
+
+WAR = {
+	color = rgb ( 177 61 172 }
+	color_ui = rgb ( 177 61 172 }
+}
+
+MAJ = {
+	color = rgb ( 196 49 83 }
+	color_ui = rgb ( 196 49 83 }
+}
+
+HBY = {
+	color = rgb ( 0 213 215 }
+	color_ui = rgb ( 0 213 215 }
+}
+
+GLD = {
+	color = rgb ( 0 153 32 }
+	color_ui = rgb ( 0 153 32 }
 }

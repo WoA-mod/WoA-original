@@ -1,0 +1,21 @@
+
+state={
+	id=975
+	name="STATE_975"
+	provinces={
+		8133 10761 10976 12927 
+	}
+		state_category = rural
+	history={
+		owner = GLD
+		victory_points = {
+			12991 3 
+		}
+		buildings = {
+			##
+		}
+		add_core_of = GLD
+	}
+	manpower=82000
+	buildings_max_level_factor=1.000
+}
