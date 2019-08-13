@@ -1,0 +1,21 @@
+state={
+	id=977
+	name="STATE_977"
+	provinces={
+		7541 10395 10435 12233 12324 12454 
+	}
+	history={
+		owner = KHV
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = KHV
+		add_core_of = BKH
+		add_claim_by = RUS
+
+	}
+
+	manpower=98172
+	buildings_max_level_factor=1.000
+}

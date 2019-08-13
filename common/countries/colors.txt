@@ -13,8 +13,8 @@ FRA = {
 	color_ui = rgb { 25 0 162 } #Consider use of 0 50 160. 10 50 170 is okay but it's TOO FUCKING PURPLE FUCK WHY IS EVERYTHING FUCKING PURPLE
 }
 KAZ = {
-	color = rgb { 107 220 224 }
-	color_ui = rgb { 172 225 226 }
+	color = rgb { 52 102 142 }
+	color_ui = rgb { 52 102 142 }
 }
 TRK = {
 	color = rgb { 100 150 105 }
@@ -243,8 +243,8 @@ PAN = {
 	color_ui = rgb { 198 169 248 }
 }
 PER = {
-	color = rgb { 71 113 97 }
-	color_ui = rgb { 92 147 126 }
+	color = rgb { 64 73 36 }
+	color_ui = rgb { 64 73 36 }
 }
 PHI = {
 	color = rgb { 152 130 191 }
@@ -267,8 +267,8 @@ SIA = {
 	color_ui = rgb { 222 247 198 }
 }
 SIK = {
-	color = rgb { 71 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 58 206 109 }
+	color_ui = rgb { 58 206 109 }
 }
 TIB = {
 	color = rgb { 80 115 45}
@@ -627,8 +627,8 @@ HYD = {
 }
 
 PUN = {
-	color = rgb { 103 150 122 }
-	color_ui = rgb { 93 140 92 }
+	color = rgb { 177 247 0 }
+	color_ui = rgb { 177 247 0 }
 }
 
 BOM = {
@@ -772,4 +772,24 @@ HBY = {
 GLD = {
 	color = rgb ( 0 153 32 }
 	color_ui = rgb ( 0 153 32 }
+}
+
+KOK = {
+	color = rgb ( 255 0 110 }
+	color_ui = rgb ( 255 0 110 }
+}
+
+KHV = {
+	color = rgb ( 139 226 19 }
+	color_ui = rgb ( 139 226 19 }
+}
+
+BKH = {
+	color = rgb ( 91 127 0 }
+	color_ui = rgb ( 91 127 0 }
+}
+
+ETK = {
+	color = rgb ( 102 190 255 }
+	color_ui = rgb ( 102 190 255 }
 }

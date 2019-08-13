@@ -3120,4 +3120,8 @@ spriteTypes = {
 		name = "GFX_1918_tbilisi_university"
 		texturefile = "gfx/event_pictures/Caucasia/Georgia/1918_tbilisi_university.dds"
 	}
+	spriteType = {
+		name = "GFX_Khiva_army"
+		texturefile = "gfx/event_pictures/Central_Asia/Khiva_army.dds"
+	}
 }
