@@ -18,8 +18,8 @@ SWI_market_liberal_party:0 "LdU"
 SWI_market_liberal_party_long:0 "Liberaldemokratische Union"
 SWI_social_conservative_party:0 "BCDA"
 SWI_social_conservative_party_long:0 "Bundes Christlich-Demokratische Allianz"
-SWI_authoritarian_democrat_party:0 "SDVp"
-SWI_authoritarian_democrat_party_long:0 "Schweizer Demokratisch Volkspartei"
+SWI_authoritarian_democrat_party:0 "SVV"
+SWI_authoritarian_democrat_party_long:0 "Schweizerischer Vaterländischer Verband \n\n\n\n£SWI_authdem \n\n\n\n§g§!"
 SWI_paternal_autocrat_party:0 "SNR"
 SWI_paternal_autocrat_party_long:0 "Schweizer National Republikaner"
 SWI_national_populist_party:0 "VL"
@@ -31,10 +31,14 @@ SWI_valkist_party_long:0 "Deutsch-schweizerische Valkistenpartei"
 
 SWI_bank_act:0 "Swiss Banking Act"
 #SWI_bank_act_desc:0 "Signed on December 1st 1933, the Swiss Banking Act was created in an effort to secure the assets of account holders within Switzerland. The act was a reactionary measure against the French intervention in the Rhineland, which saw many foreign assets in the region shut down and their profits siezed. The Banking Act has made it a criminal offense for a bank to reveal the name of an account holder, and proved very effective when both the French and German governments pressed the Swiss to reveal the names of certain accounts which had ties to the industrial Rhine region."
-###
+
 SWI_armed_neutrality:0 "Armed Neutrality"
 SWI_armed_neutrality_desc:0 "Ever since the Treaty of Paris in 1815, Switzerland has had the policy of neutrality, which meant not partaking part in any military alliances unless they themselves are attacked and to not allow foreign armies movement through it's land. Despite this, Switzerland is highly militarized and almost every citizen is trained and ready to rise up and defend the nation, in order to make invading it a really unattractive option to most aggressors and maintain Swiss independence."
-###
+SWI_armed_neutrality1:0 "Armed Neutrality"
+SWI_armed_neutrality1_desc:0 "Ever since the Treaty of Paris in 1815, Switzerland has had the policy of neutrality, which meant not partaking part in any military alliances unless they themselves are attacked and to not allow foreign armies movement through it's land. Despite this, Switzerland is highly militarized and almost every citizen is trained and ready to rise up and defend the nation, in order to make invading it a really unattractive option to most aggressors and maintain Swiss independence."
+SWI_armed_neutrality2:0 "Armed Neutrality"
+SWI_armed_neutrality2_desc:0 "Ever since the Treaty of Paris in 1815, Switzerland has had the policy of neutrality, which meant not partaking part in any military alliances unless they themselves are attacked and to not allow foreign armies movement through it's land. Despite this, Switzerland is highly militarized and almost every citizen is trained and ready to rise up and defend the nation, in order to make invading it a really unattractive option to most aggressors and maintain Swiss independence."
+
 SWI_german_french_tensions:0 "Swiss German-French Tensions"
 SWI_german_french_tensions_desc:0 "The continued Swiss Germanization has caused a rift between our German-speaking population and French-speaking population: we must be careful on how to manage this issue."
 
@@ -44,6 +48,98 @@ SWI_army_upkeep_desc:0 "Our highly trained and huge military for a nation our si
 
 #### Focuses #### #Revisit Descriptions.
 
+SWI_1937_federal_elections:0 "1937 Federal Elections"
+
+###
+SWI_1937_social_conservatives_dominance:0 "Social Conservative Dominance"
+
+###
+SWI_1937_liberalist_dominance:0 "Centre-Coalition Victory"
+
+###
+SWI_denounce_communism:0 "Denounce Far-left Parties"
+
+###
+SWI_referendum_transport_goods:0 "Referendum: Transport Goods"
+
+###
+SWI_denounce_birchers_authoritarians:0 "Denounce Nationalist Parties"
+
+###
+SWI_combat_unemployment:0 "Combat Unemployment"
+
+###
+SWI_combat_militarist_sentiment:0 "Combat Militarist Sentiment"
+
+###
+SWI_nail_in_the_coffin:0 "The Confederation Shall Live On"
+
+###
+SWI_support_from_other_governments:0 "Gather Support from Other Countries"
+
+###
+SWI_emphasize_federalist_ideals:0 "Emphasize Federalist Ideals"
+
+###
+SWI_the_question_of_socialism:0 "The Question of Communism"
+
+###
+SWI_referendum_ban_far_left_parties:0 "Referendum: Ban Far-Left Parties"
+
+###
+SWI_referendum_ban_far_left_parties_success:0 "The Referendum Succeeds!"
+
+###
+SWI_referendum_ban_far_left_parties_failure:0 "The Referendum Fails..."
+
+###
+SWI_socialist_deradicalization:0 "Deradicalization"
+
+###
+SWI_compromise_with_the_socdems:0 "Compromise with the Social Democrats"
+
+###
+SWI_more_workers_less_warriors:0 "More Workers, Less Soldiers"
+
+###
+SWI_bring_them_into_our_coalition:0 "Bring Them Into the Coalition"
+
+###
+SWI_the_question_of_authoritarianism:0 "The Question of Authoritarianism"
+
+###
+SWI_appealing_to_the_nationalists:0 "Appealing to the Nationalists"
+
+###
+SWI_bircher_is_not_your_man:0 "Bircher is Not Your Man"
+
+###
+SWI_strength_in_neutrality:0 "Strength in Neutrality"
+
+###
+SWI_patriotism_not_nationalism:0 "Patriotism, not Nationalism"
+
+###
+SWI_referendum_ban_far_right_parties:0 "Referendum: Ban Far-Right Parties"
+
+###
+SWI_referendum_ban_far_right_parties_failure:0 "The Referendum Fails..."
+
+###
+SWI_referendum_ban_far_right_parties_success:0 "The Referendum Succeeds!"
+
+SWI_1937_social_democrat_dominance:0 "Social Democrat Dominance"
+
+###
+SWI_1937_bircher_coup:0 "Bircher's Coup"
+
+###
+SWI_restore_the_old_confederacy:0 "Restore the Old Confederacy"
+
+###
+SWI_1937_communist_coup:0 "Council Communist Coup"
+
+###
 SWI_focus_armed_neutrality:0 "Continuation of Armed Neutrality"
 SWI_focus_armed_neutrality_desc:0 "Our nation firmly believes in the policy of Armed Neutrality: not getting involved in other country affairs and ensuring that our neutrality is respected with strong military and defence policies."
 ###
@@ -122,7 +218,7 @@ SWI_mass_recruitment:0 "Mass Recruitment"
 SWI_wartime_preparations:0 "Wartime Preparations"
 
 ###
-SWI_focus_on_the_alps:0 "Focus on the Alps"
+SWI_focus_on_the_alps:0 "We Shall Fight in the Mountains"
 
 ###
 SWI_focus_on_the_outskirts:0 "Focus on the Outskirts"
@@ -164,4 +260,107 @@ SWI_economic_question:0 "The Economic Question"
 SWI_railroads:0 "Expand our Railroad System"
 
 ###
+SWI_development_plans:0 "Development Plans"
+
+###
+SWI_expand_civ_factories:0 "Swiss Commerce"
+
+###
+SWI_expand_our_horizons:0 "Expand our Horizons"
+
+###
+SWI_arms_industry:0 "Swiss Arms Industry"
+
+###
+SWI_mass_production:0 "Mass Production"
+
+###
 SWI_expand_steel_works:0 "Expand Steel Works"
+
+###
+SWI_preparations_for_the_darkest_hour:0 "Preparations for the Darkest Hour"
+
+###
+SWI_arms_exports: "Swiss Arms Exports"
+
+###
+SWI_economic_mobilization:0 "Economic Mobilization"
+
+###
+SWI_military_factories:0 "Factories of War"
+
+###
+SWI_air_production:0 "Air Production"
+
+###
+SWI_investures_abroad:0 "Investures Abroad"
+
+###
+SWI_focus_on_oil: "Basic Oil Refineries"
+
+###
+SWI_economic_focus_plans:0 "Economic Planning"
+
+###
+SWI_equipment_research:0 "R&D Department"
+
+###
+SWI_war_economy:0 "War Economy"
+
+###
+SWI_total_mobilization:0 "Total Mobilization"
+
+###
+SWI_massive_industrial_project:0 "Massive Industrial Projects"
+
+###
+SWI_industrial_miracle:0 "A Swiss Miracle"
+
+###
+SWI_clearance_projects:0 "Clearance Projects"
+
+###
+SWI_industrial_centres:0 "The Centers of Industry"
+
+###
+SWI_research_centres:0 "Research Centres"
+
+###
+SWI_electronics_innovation:0 "Electronics Innovations"
+
+###
+SWI_industrial_innovations:0 "Industrial Innovations"
+
+###
+SWI_economic_boom:0 "Economic Boom"
+
+#### Events ####
+swi.1.t:0 "State of the Swiss Confederation"
+swi.1.d:0 "The modern Swiss state was born in 1891, where our constitution was revised with strong democracy as the most important element. Our foreign policy was born in 1815, where we were officially declared as a neutral state, pinned down in a very strategic geopolitical situation. This has formed our national Swiss identity- independent of culture, it has stood strong. Until now. \n\nWe managed to avoid war and revolution when it was all around us. But was that the right decision? That is the current problem of the modern Swiss society- we put down the French socialists, fearing a Danubian style revolt in 1919 and kept Romandy occupied until the Germans dealt with France- and now, those French socialists are more popular than ever, and as a counter-weight, a new nationalist, far-right, pro-German party has been formed by Eugen Bircher- advocating for a more authoritarian democracy to keep our nation stable and proud. \n\nOur federal and democratic ideals are under threat in home, but outside, it is our sovereignty that we have to be worried about- the new Italian nation, lead by Marco Fassa, has laid a keen eye on our Italian-speaking territory, France seems like it will fall again and their troubles may spread to our borders and the German Empire is in disarray- the situation has never looked so dire for our Confederation. With the 1937 federal elections coming up, our future remains uncertain."
+swi.1.a:0 "Troubling."
+
+swi.2.t:0 "The Question of Modernization"
+swi.2.d:0 "W.I.P Event, nice flavour will be here later but do you like Infantry Weapons or Artillery Weapons more? CHOOSE!
+swi.2.a:0 "We should focus more on our infantry weapons."
+swi.2.b:0 "Having modern artillery is more important."
+#### Decisions ####
+SWI_militias:0 "Swiss Armed Forces"
+SWI_militias_desc:0 "Switzerland, unlike many countries, does not rely on a large standing army- instead, it relies on a militia-style army with conscripted man ready to answer the call to arms to defend their homeland."
+SWI_mobilize_militia: "Mobilize the Militia"
+SWI_demobilize_militia:0 "Demobilize the Militia"
+
+SWI_choose_general:0 "Choose a General"
+
+
+#### Flags ####
+SWI_1937_federal_elections_finished:0 "The 1937 Federal Elections have finished"
+SWI_council_approves_electing_a_general:0 "§YThe Council§! has agreed to appoint a §YGeneral§!"
+
+
+### Ministers ####
+SWI_albert_meyer_hog:0 "Albert Meyer"
+SWI_rudolf_minger_soc_con:0 "Rudolf Minger"
+
+#### Tooltips ####
+SWI_army_modernization_event_tt:0 "Receive a §G50%§! §YResearch Bonus§! to either §YInfantry Weapons§! or §YArtillery§!."
+SWI_abolish_militias_tt:0 "This will abolish our current §YMilitia§! system.\n"
