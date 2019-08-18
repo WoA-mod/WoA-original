@@ -610,6 +610,31 @@ focus_tree = {
 			
 		}
 	}
+	focus = {
+		id = GRE_Strengthen_Police
+		icon = GFX_goal_secret_agents
+		prerequisite = { focus = GRE_End_republicanism }
+		prerequisite = { focus = GRE_reform_consitution }
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		
+		relative_position_id = GRE_End_republicanism
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+		available = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
 	
 						focus = {
 		id = GRE_A_Strong_Will
@@ -637,31 +662,6 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = GRE_Strengthen_Police
-		icon = GFX_goal_secret_agents
-		prerequisite = { focus = GRE_End_republicanism }
-		prerequisite = { focus = GRE_reform_consitution }
-		
-		x = 1
-		y = 1
-		
-		cost = 5
-		
-		relative_position_id = GRE_End_republicanism
-		
-		ai_will_do = {
-			factor = 1000
-		}
-
-		available = {
-		
-		}
-
-		completion_reward = {
-			
-		}
-	}
 	
 		focus = {
 		id = GRE_reform_consitution
@@ -739,31 +739,31 @@ focus_tree = {
 		}
 	}
 	
-								focus = {
-		id = GRE_The_Benevolent_King
-		icon = GFX_focus_rom_royal_dictatorship
-		prerequisite = { focus = GRE_expand_propoganda }
-		mutually_exclusive = { focus = GRE_A_Strong_Will }
+		focus = {
+			id = GRE_The_Benevolent_King
+			icon = GFX_focus_rom_royal_dictatorship
+			prerequisite = { focus = GRE_expand_propoganda }
+			mutually_exclusive = { focus = GRE_A_Strong_Will }
 		
-		x = -1
-		y = 1
+			x = -1
+			y = 1
 		
-		cost = 5
-		
-		relative_position_id = GRE_expand_propoganda
-		
-		ai_will_do = {
-			factor = 1000
-		}
-
-		available = {
-		
-		}
-
-		completion_reward = {
+			cost = 5
 			
+			relative_position_id = GRE_expand_propoganda
+		
+			ai_will_do = {
+				factor = 1000
+			}
+
+			available = {
+		
+			}
+
+			completion_reward = {
+			
+			}
 		}
-	}
 	
 		focus = {
 		id = GRE_Greece_Reborn

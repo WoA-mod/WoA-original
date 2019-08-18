@@ -374,20 +374,6 @@ focus_tree = {
 							cost = 6
 						}
 
-	#Focus for The Winged Hussar's Arrive
-		focus = {
-							id = POL_the_winged_hussars_arrive
-						 	icon = GFX_goal_generic_CAS
-			 				ai_will_do = { factor = 0 }
-			 				relative_position_id = POL_protectors_of_the_proletariat
- 			 				x = 3
- 			 				y = 3
-			 				prerequisite = { focus = POL_the_best_defense}
- 			 				prerequisite = { focus = POL_the_men_in_the_machines}
- 			 				prerequisite = { focus = POL_pro_fide_lege_et_rege}
-			 				cost = 6
-						}
-
 	#Focus for Legacy Of Lublin
 		focus = {
 							id = POL_legacy_of_lublin
@@ -424,6 +410,19 @@ focus_tree = {
 							prerequisite = { focus = POL_legacy_of_lublin }
 							cost = 6
 						}
+	#Focus for The Winged Hussar's Arrive
+		focus = {
+			id = POL_the_winged_hussars_arrive
+			icon = GFX_goal_generic_CAS
+			ai_will_do = { factor = 0 }
+			relative_position_id = POL_protectors_of_the_proletariat
+ 			x = 3
+ 			y = 3
+			prerequisite = { focus = POL_the_best_defense}
+ 			prerequisite = { focus = POL_the_men_in_the_machines}
+ 			prerequisite = { focus = POL_pro_fide_lege_et_rege}
+			cost = 6
+		}
 
 	#Focus for A Truly Polish Future
 		focus = {
