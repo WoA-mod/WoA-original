@@ -2,8 +2,8 @@ state={
 	id=949
 	name="STATE_949"
 	history = {
-		owner = HYD
-		add_core_of = HYD
+		owner = HIN
+		add_core_of = HIN
 		buildings = {
 			infrastructure = 5	
 		}
@@ -11,7 +11,7 @@ state={
 	provinces={
 		1228 7297 7340 
 	}
-	manpower=3 #Haruhi add this later, 3 currently stands for you, Hellbat and Crusaderking
+	manpower= 740200
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

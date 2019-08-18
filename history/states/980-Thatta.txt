@@ -1,0 +1,19 @@
+state={
+	id=980
+	name="STATE_980"
+	history={
+		owner = SND
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SND
+
+	}
+	provinces={
+		1061 1190 4003 7020 
+	}
+	manpower=100100
+	buildings_max_level_factor=1.000
+	state_category=town
+}

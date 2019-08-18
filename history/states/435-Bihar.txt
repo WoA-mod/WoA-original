@@ -4,7 +4,7 @@ state={
 	name="STATE_435"
 
 	history={
-		owner = IND
+		owner = HIN
 		victory_points = {
 			4516 1 
 		}
@@ -12,15 +12,15 @@ state={
 			infrastructure = 5
 
 		}
-		add_core_of = IND
-		add_claim_by = RAJ
-		add_claim_by = IND
-		add_claim_by = HYD
+		add_core_of = HIN
+		#add_claim_by = RAJ
+		#add_claim_by = IND
+		#add_claim_by = HYD
 
 	}
 
 	provinces={
-		1444 1637 4516 4544 4571 10471 12035 12307 12452 
+		1444 1637 4516 4544 4571 7537 10471 12035 12307 12452 
 	}
 	manpower=36574500
 	buildings_max_level_factor=1.000

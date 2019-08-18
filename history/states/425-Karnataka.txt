@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = IND
 		victory_points = {
 			8011 1 
 		}
@@ -17,10 +17,10 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = RAJ
-		add_claim_by = INC
-		add_claim_by = IND
-		add_claim_by = HYD
+		add_core_of = IND
+		#add_claim_by = INC
+		#add_claim_by = IND
+		#add_claim_by = HYD
 	}
 
 	provinces={

@@ -209,7 +209,6 @@ IND = "countries/India.txt"
 HYD = "countries/Hyderabad.txt"
 BOM = "countries/Bombay.txt"
 PUN = "countries/Punjab.txt"
-#We need Hindu Bengal, Muzzie Bengal and Tamil state tags, Hindustan
 
 #FR Italian Tags
 NAP = "countries/Naples.txt"
@@ -254,3 +253,7 @@ KOK = "countries/Kokand.txt"
 KHV = "countries/Khiva.txt"
 BKH = "countries/Bukhara.txt"
 ETK = "countries/East Turkestan.txt"
+CEY = "countries/Ceylon.txt"
+SND = "countries/Sindh.txt"
+GUJ = "countries/Gujarat.txt"
+HIN = "countries/Hindustan.txt"

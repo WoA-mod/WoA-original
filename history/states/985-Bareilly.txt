@@ -1,0 +1,21 @@
+state={
+	id=985
+	name="STATE_985"
+	history={
+		owner = IND
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = IND
+		add_core_of = HIN
+		add_claim_by = HIN
+
+	}
+	provinces={
+		8114 9951 13265 
+	}
+	manpower=1300400
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

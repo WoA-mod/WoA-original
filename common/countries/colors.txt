@@ -274,6 +274,12 @@ TIB = {
 	color = rgb { 80 115 45}
 	color_ui = rgb { 222 247 198 }
 }
+
+BUR = {
+	color = rgb { 55 104 10 }
+	color_ui = rgb { 55 104 10 } 
+}
+
 URG = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 222 247 198 }
@@ -286,19 +292,23 @@ YUN = {
 	color = rgb { 114 148 80 }
 	color_ui = rgb { 222 247 198 }
 }
+
 USA = {
 	color = rgb { 0 121 142 }
 	color_ui = rgb { 0 121 142 }
 }
+
 MON = {
 	#color = HSV { 0.1 0.15 0.4 }
 	color = rgb { 108 140 42 }
 	color_ui = rgb { 209 247 133 }
 }
+
 MEN = {
 	color = rgb { 185  255  152 }
 	color_ui = rgb { 165  230  132 }
 }
+
 TAN = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
@@ -622,8 +632,8 @@ PIE = {
 }
 
 HYD = {
-	color = rgb { 185 150 3 } ## Old color 170 85 107
-	color_ui = rgb { 185 150 3 }
+	color = rgb { 86 96 127 } ## Old color 170 85 107
+	color_ui = rgb { 86 96 127 }
 }
 
 PUN = {
@@ -632,8 +642,8 @@ PUN = {
 }
 
 BOM = {
-	color = rgb { 76 79 104 }
-	color_ui = rgb { 76 79 104 }
+	color = rgb { 255 136 127 }
+	color_ui = rgb { 255 136 127 }
 }
 
 EGL = {
@@ -641,8 +651,8 @@ EGL = {
 	color_ui = rgb { 145 13 24 } 
 }
 IND = {
-	color = rgb { 159 44 82 } #original is 255 72 0
-	color_ui = rgb { 159 44 82} #Old one is 255 103 48
+	color = rgb { 35 176 77 } #original is 255 72 0
+	color_ui = rgb { 35 176 77} #Old one is 255 103 48
 }
 
 SCO = {
@@ -792,4 +802,29 @@ BKH = {
 ETK = {
 	color = rgb ( 102 190 255 }
 	color_ui = rgb ( 102 190 255 }
+}
+
+BAN = {
+	color = rgb ( 64 64 64 }
+	color_ui = rgb ( 64 64 64 }
+}
+
+CEY = {
+	color = rgb ( 0 127 15 }
+	color_ui = rgb ( 0 127 15 }
+}
+
+SND = {
+	color = rgb ( 68 57 0 }
+	color_ui = rgb ( 68 57 0 }
+}
+
+GUJ = {
+	color = rgb ( 177 206 103 }
+	color_ui = rgb ( 177 206 103 }
+}
+
+HIN = {
+	color = rgb ( 255 0 111 }
+	color_ui = rgb ( 255 0 111 }
 }

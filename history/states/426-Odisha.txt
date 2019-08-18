@@ -9,16 +9,16 @@ state={
 	}
 
 	history={
-		owner = HYD
+		owner = HIN
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
 
 		}
-		add_core_of = HYD
-		add_claim_by = RAJ
-		add_claim_by = INC
-		add_claim_by = IND
+		add_core_of = HIN
+		#add_claim_by = RAJ
+		#add_claim_by = INC
+		#add_claim_by = IND
 
 	}
 

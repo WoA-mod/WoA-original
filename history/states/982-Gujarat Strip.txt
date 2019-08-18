@@ -1,0 +1,20 @@
+
+state={
+	id=982
+	name="STATE_982"
+	history={
+		owner = GUJ
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = GUJ
+
+	}
+	provinces={
+		12743 13255 13258  
+	}
+	manpower=98000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -11,14 +11,14 @@ state={
 
 		}
 		add_core_of = IND
-		add_claim_by = RAJ
-		add_claim_by = INC
-		add_claim_by = HYD
+		#add_claim_by = RAJ
+		#add_claim_by = INC
+		#add_claim_by = HYD
 
 	}
 
 	provinces={
-		2105 8076 11952 11995 12080 
+		2105 11995 12080 13269 
 	}
 	manpower=8402500
 	buildings_max_level_factor=1.000

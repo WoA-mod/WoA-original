@@ -1,3 +1,4 @@
+
 state={
 	id=884
 	name="STATE_884"
@@ -9,13 +10,14 @@ state={
 
 		}
 		add_core_of = IND
-		add_claim_by = RAJ
-		add_claim_by = INC
-		add_claim_by = HYD
+		#add_claim_by = RAJ
+		#add_claim_by = INC
+		#add_claim_by = HYD
+
 	}
 
 	provinces={
-		1949 2036 2054 4915 7080 7905 7998 10807 12041 12718 12844 12876 
+		1949 2054 4915 7080 7905 7998 12041 12718 12844 12876 13257 13266 13267 13268 
 	}
 	manpower=8665000
 	buildings_max_level_factor=1.000

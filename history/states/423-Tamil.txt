@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = IND
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -16,10 +16,10 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = RAJ
-		add_claim_by = INC
-		add_claim_by = IND
-		add_claim_by = HYD
+		add_core_of = IND
+		#add_claim_by = INC
+		#add_claim_by = IND
+		#add_claim_by = HYD
 	}
 
 	provinces={

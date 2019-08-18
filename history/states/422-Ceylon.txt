@@ -11,7 +11,7 @@ state=
 	}
 
 	history={
-		owner = RAJ
+		owner = CEY
 		victory_points = {
 			10201 3 
 		}
@@ -27,7 +27,7 @@ state=
 				coastal_bunker = 3
 			}
 		}
-
+		add_core_of = CEY
 	}
 	
 	provinces={

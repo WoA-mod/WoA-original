@@ -4,7 +4,7 @@ state={
 	name="STATE_424"
 
 	history={
-		owner = RAJ
+		owner = IND
 		victory_points = {
 			10278 1 
 		}
@@ -17,10 +17,10 @@ state={
 			}
 
 		}
-		add_core_of = RAJ
-		add_claim_by = INC
-		add_claim_by = IND
-		add_claim_by = HYD
+		add_core_of = IND
+		#add_claim_by = INC
+		#add_claim_by = IND
+		#add_claim_by = HYD
 
 	}
 

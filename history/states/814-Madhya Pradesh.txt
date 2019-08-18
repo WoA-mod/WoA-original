@@ -4,20 +4,17 @@ state={
 	name="STATE_814"
 
 	history={
-		owner = HYD
+		owner = IND
 		buildings = {
 			infrastructure = 4
 
 		}
-		add_core_of = HYD
-		add_claim_by = RAJ
-		add_claim_by = INC
-		add_claim_by = IND
+		add_core_of = IND
 
 	}
 
 	provinces={
-		4557 4883 4950 7619 10030 12781 12799 12854 
+		4950 7619 10030 12781 13270 13271 13272 
 	}
 	manpower=4000310
 	buildings_max_level_factor=1.000

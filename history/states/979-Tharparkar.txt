@@ -1,0 +1,19 @@
+state={
+	id=979
+	name="STATE_979"
+	history={
+		owner = SND
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SND
+
+	}
+	provinces={
+		1147 1980 10847 12886 13254 13256  
+	}
+	manpower=809000
+	buildings_max_level_factor=1.000
+		state_category=rural
+}

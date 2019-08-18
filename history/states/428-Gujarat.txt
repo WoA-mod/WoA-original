@@ -3,11 +3,11 @@ state={
 	id=428
 	name="STATE_428"
 	resources={
-		oil=7.0
+		oil=7.000
 	}
 
 	history={
-		owner = IND
+		owner = GUJ
 		victory_points = {
 			9975 1 
 		}
@@ -20,14 +20,11 @@ state={
 			}
 
 		}
-		add_core_of = IND
-		add_claim_by = RAJ
-		add_claim_by = INC
-		add_claim_by = HYD
+		add_core_of = GUJ
 	}
 
 	provinces={
-		1061 1103 1144 1147 1190 1971 1980 4003 4064 4090 4110 4132 4382 7020 7084 7207 9975 10118 10847 10866 12037 12886 
+		1103 1144 4064 4090 4132 7165 7207 9975 10118 12037 12092 13253 
 	}
 	manpower=10590200
 	buildings_max_level_factor=1.000
