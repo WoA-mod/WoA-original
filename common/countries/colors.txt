@@ -765,66 +765,66 @@ DER = {
 }
 
 WAR = {
-	color = rgb ( 177 61 172 }
-	color_ui = rgb ( 177 61 172 }
+	color = rgb { 177 61 172 }
+	color_ui = rgb { 177 61 172 }
 }
 
 MAJ = {
-	color = rgb ( 196 49 83 }
-	color_ui = rgb ( 196 49 83 }
+	color = rgb { 196 49 83 }
+	color_ui = rgb { 196 49 83 }
 }
 
 HBY = {
-	color = rgb ( 0 213 215 }
-	color_ui = rgb ( 0 213 215 }
+	color = rgb { 0 213 215 }
+	color_ui = rgb { 0 213 215 }
 }
 
 GLD = {
-	color = rgb ( 0 153 32 }
-	color_ui = rgb ( 0 153 32 }
+	color = rgb { 0 153 32 }
+	color_ui = rgb { 0 153 32 }
 }
 
 KOK = {
-	color = rgb ( 255 0 110 }
-	color_ui = rgb ( 255 0 110 }
+	color = rgb { 255 0 110 }
+	color_ui = rgb { 255 0 110 }
 }
 
 KHV = {
-	color = rgb ( 139 226 19 }
-	color_ui = rgb ( 139 226 19 }
+	color = rgb { 139 226 19 }
+	color_ui = rgb { 139 226 19 }
 }
 
 BKH = {
-	color = rgb ( 91 127 0 }
-	color_ui = rgb ( 91 127 0 }
+	color = rgb { 91 127 0 }
+	color_ui = rgb { 91 127 0 }
 }
 
 ETK = {
-	color = rgb ( 102 190 255 }
-	color_ui = rgb ( 102 190 255 }
+	color = rgb { 102 190 255 }
+	color_ui = rgb { 102 190 255 }
 }
 
 BAN = {
-	color = rgb ( 64 64 64 }
-	color_ui = rgb ( 64 64 64 }
+	color = rgb { 64 64 64 }
+	color_ui = rgb { 64 64 64 }
 }
 
 CEY = {
-	color = rgb ( 0 127 15 }
-	color_ui = rgb ( 0 127 15 }
+	color = rgb { 0 127 15 }
+	color_ui = rgb { 0 127 15 }
 }
 
 SND = {
-	color = rgb ( 68 57 0 }
-	color_ui = rgb ( 68 57 0 }
+	color = rgb { 68 57 0 }
+	color_ui = rgb { 68 57 0 }
 }
 
 GUJ = {
-	color = rgb ( 177 206 103 }
-	color_ui = rgb ( 177 206 103 }
+	color = rgb { 177 206 103 }
+	color_ui = rgb { 177 206 103 }
 }
 
 HIN = {
-	color = rgb ( 255 0 111 }
-	color_ui = rgb ( 255 0 111 }
+	color = rgb { 255 0 111 }
+	color_ui = rgb { 255 0 111 }
 }
