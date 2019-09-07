@@ -4,38 +4,41 @@
 
 l_english:
 
-GER_CAESARREICH_DESC:0 "The German Empire came out as a victor from the Guerra Mondiale, but domestically, it was more of a loss. The war and the following year of 1919, which would be known as the "The Year of Hell", would see Germany rise as a world power, but at a great cost. The strain of maintaining the status quo has allowed the rise of liberals, communists and separatists, which have lead to an unstable political situation in the empire. The Great Depression would also hit Germany hard, and while in 1936 it looks that it is coming to an end, with another war looming over the horizon, the question remains: Will the German Empire live?"
+GER_CAESARREICH_DESC:0 "The German Empire came out as a victor from the Guerra Mondiale, but domestically, they were defeated in victory. The war and the following year of 1919, which would be known as the "The Year of Hell", would see Germany rise as a world power, but at a great cost. The strain of maintaining the status quo has allowed the rise of liberals, communists and separatists, which have lead to an unstable political situation in the empire. The Great Depression would also hit Germany hard, and while in 1936 it looks that it is coming to an end, with another war looming over the horizon, the question remains: Will the German Empire remain the premier superpower?"
 
+#### Leader Descriptions ####
+POLITICS_WILHELM_II_DESC:0 "Friedrich Wilhelm Viktor Albert von Hohenzollern or simply Wilhelm II, born on 27 January 1859 and ruling ever since 15 June 1888, is considered to be the Father of Modern Germany: in his rule, the empire established itself as a world power to be feared, and his policy of Weltpolitik has earned Germany a place under the sun. The Kaiser also made the German navy into the greatness it is today. He is also popular for restoring the power of the civilian government after the French intervention in 1919, and today he stands as a symbol of German dominance and unity in part thanks to the establishment of Mitteleuropa. His rule has and will affect the world for decades to come."
+POLITICS_WILHELM_III_DESC:0 "Friedrich Wilhelm Victor August Ernst, born on 6 May 1882, is now the new Kaiser of the Empire. During the Guerra Mondiale, he commanded the 5th Army from 1914-1916 and was the commander of his own army group for the rest of the war. Now as a Kaiser, he has a strong legacy to follow up on- his father's reign was very influental accross the world. This has given the German Empire strong stability, but as to what happens in the future is a mystery- as Wilhelm III's political policies are a educated guess at best and a mystery at worst. It will be interesting years ahead for the Empire indeed."
 #### Parties ####
 GER_utopianism_party:0 "UPD"
-GER_utopianism_party_long:0 "Utopie Partei Deutschlands" #also overlook this.
+GER_utopianism_party_long:0 "Utopie Partei Deutschlands \n\n\n\n£GER_UPD \n\n\n\n§gFormed in late 1932 by Otto Strasser and Gregor Strasser, is an ultranationalist socialist party seeking to completely overthrow the capitalist system and institute a worker's utopia. The party's ideals are in full opposition against capitalism, specifically jewish capitalism, they seek to break up the state into smaller estates akin to a guild system. Due to this party's populist and antisemitic aspects, this strand of Utopianism is often referred to as Strasserism.§!" #also overlook this.
 
 GER_council_communist_party:0 "SKPD"
-GER_council_communist_party_long:0 "Spartacist Kommunistiche Partei Deutchslands"
+GER_council_communist_party_long:0 "Spartacist Kommunistiche Partei Deutchslands \n§gThe Spartacist Communist Party is considered to be the Menace of the Empire. Too dangerous to outlaw, but also too dangerous to keep operating. Founded in May 1919, it grew very popular during the year with it's anti-war rallies, bringing over many from the SPD party and alike. With it's growing popularity, in 1931 it would begin the first Spartacist uprising, an event that would destablize Germany's economy further, and would result in the Empire calling for a public arrest of it's most prominent leaders, however some, like Rosa, would avoid arrest and remain underground. The party intends to replicate the communist Danubian system in Germany, and it also serves to others as an internal manifestation of the threat beyond Germany's borders.§!"
 
 GER_socialist_party:0 "SAPD"
-GER_socialist_party_long:0 "Sozialistische Arbeiterpartei Deutschlands"
+GER_socialist_party_long:0 "Sozialistische Arbeiterpartei Deutschlands \n\n\n\n£GER_SAPD \n\n\n\n§gFounded in 1923, the SAPD is a party advocating for strong social reforms and an end to the authoritarianism present in Germany. Unlike their more radical bretheren however, they are willing to negotiate and attempt to reform peacefully, seeing the revolution as a valuable, but preferably avoided option. While their party is working together with the Spartacists, a right political situation could sway them more towards their SocDem counterparts.§!"
 
 GER_social_democrat_party:0 "SPD"
-GER_social_democrat_party_long:0 "Sozialdemokratische Partei Deutschlands"
+GER_social_democrat_party_long:0 "Sozialdemokratische Partei Deutschlands \n\n\n\n£GER_SPD \n\n\n\n§gFounded on May 23, 1863 it was one of the most influential and biggest parties pre-war. From 1914-1919 the party fully supported the war effort, which would lead to not only other socialists despising them, but also the people. After the Year of Hell, their popularity plummeted, and people flocked to other parties, like the SKPD. What was once a proud and strong party now is but a shell of it's former self.§!\n"
 
 GER_liberal_party:0 "FVP"
-GER_liberal_party_long:0 "Fortschrittliche Volkspartei" #Change to just liberal
+GER_liberal_party_long:0 "Fortschrittliche Volkspartei \n\n\n\n£GER_FVP \n\n\n\n§gThe Progressive People's Party was formed on March 6, 1910 as a merger of the Freeminded People's Party, Freeminded Union and German People's party in order to unify the various fragmented liberals in the parliament. Advocating for full equal voting rights for everyone, the abolition of the Prussian three-class franchise system and amendments to the Imperial Constitution transforming the Empire into a parliamentary democratic monarchy. It saw a huge rise in popularity during the first World War and in the French intervention. The party is dominated by the moderate, pacifist forces of Ludwig Quidde, however there are many radical liberals believing a violent revolution is needed for change.§!" #Change to just liberal
 
 GER_conservative_party:0 "DZS"
-GER_conservative_party_long:0 "Zentrumspartei"
+GER_conservative_party_long:0 "Zentrumspartei \n\n\n\n£GER_DZS \n\n\n\n§gGerman Centre Party, or also known in English as the Catholic Centre Party, was founded in December 13, 1870. It had successfully battled the Kulturkampf which Otto von Bismarck launched to reduce the power of the catholic church. Though it would remain in opposition against Bismarck, after his resignation it would frequently support the administration's policies in the Reichstag. Today, it's a minor party in the Reichstag, though it's significance is still huge in areas like Bavaria.§!"
 
 GER_authoritarian_democrat_party:0 "DKP"
-GER_authoritarian_democrat_party_long:0 "Deutschkonservative Partei"
+GER_authoritarian_democrat_party_long:0 "Deutschkonservative Partei \n\n\n\n£GER_DKP \n\n\n\n§gThe German Conservative party, founded in 1876, represents largely wealthy landowning elite Prussian junkers and nobility. They are the main base of support for the government, and for some a sign of Prussian dominance. The party supported the Weltpolitik policy of Wilhelm II, strongly supports the current state of affairs, maintains strong conservative ideals and is largely protestant.§!"
 
 GER_paternal_autocrat_party:0 "DNVP"
-GER_paternal_autocrat_party_long:0 "Deutschnational Vaterlandspartei"
+GER_paternal_autocrat_party_long:0 "Deutschnationale Volkspartei \n\n\n\n£GER_DNVP \n\n\n\n§gFormed in 1920 by veterans of the war as a response to the rising liberal and socialist parties, the German Fatherland Party is a far-right group, seeking to increase the importance of the military in everyday German life, as well as providing benefits and supporting those who have served in the military. The party itself cites the efficiency of the High Command at the end of the Guerra Mondiale as to what they could potentially achieve. A highly militarist party, it nonetheless has strong monarchist sympathies, and most non-serving war veterans either actively participate or are a part of this party.§!"
 
 GER_national_populist_party:0 "DNF"
-GER_national_populist_party_long:0 "Deutsche Nationale Front"
+GER_national_populist_party_long:0 "Deutsche Nationale Front \n\n\n\n£GER_DNF \n\n\n\n§gThe German National Front, originally a part of DNVP, broke away in 1930 due to internal conflict between it's members. While in theory it's ideals are very similar to the DNVP party, the Front's party ideals seem to not be set in stone at all- it is a populist party who's definition of nationalism changes every day. As such, one day they may be pro-government, the other they may be anti-government. The party's goal is a "nationalist, militarist and a German state" though what exactly this entails and means is a complete mystery.§!"
 
 GER_antiquarian_nationalist_party:0 "NTP"
-GER_antiquarian_nationalist_party_long:0 "Nordische Thule Partei" #Probably one of the more... interesting things in our mod.
+GER_antiquarian_nationalist_party_long:0 "Nordische Thule Partei \n\n\n\n£GER_NTP \n\n\n\n§gOriginally known as the Thule Society, it evolved into a small party of antiquarians. It is a German occultist, populist group heavily invested in the history of civilization, and citing antiquarian beliefs of creating a Roman-like Nordic nation, a country to unify all Nords, including Germans. They support a Ariosophic state, which is a religion based on runic symbols, swastika and occultism.§!" #Probably one of the more... interesting things in our mod.
 
 
 
@@ -48,33 +51,45 @@ GER_cost_of_1919:0 "The Cost of 1919"
 GER_cost_of_1919_desc:0 "The multiple interventions in 1919 directly after the war strained our economy severely, and caused a war-exhausted population to lose a lot of support for the government, as well as demoralizing the army. As it stands, an offensive war or intervention is out of the question."
 GER_bulwark_of_the_status_quo:0 "Bulwark of the Status Quo"
 GER_the_borsencrash:0 "Die Weltwirtschaftskrise"
+GER_the_borsencrash2:0 "Die Weltwirtschaftskrise"
 
+GER_OHL_shadow_government:0 "Shadow Government"
 #### Focuses ####
-GER_the_collapse:0 "Die Weltwirtschaftskrise"
-GER_the_collapse_desc:0 "Die Weltwirtschaftskrise is used to refer to the effect of the Great Depression in 1929 on Germany in 1931. While our economic reforms have gotten us through the worst of the crisis, we still need one final push to deal with this problem for once and for all."
+GER_PT_the_collapse:0 "Die Weltwirtschaftskrise"
+GER_PT_the_collapse_desc:0 "Die Weltwirtschaftskrise is used to refer to the effect of the Great Depression in 1929 on Germany in 1931. While our economic reforms have gotten us through the worst of the crisis, we still need one final push to deal with this problem for once and for all."
 
-GER_austerity:0 "Austerity"
-GER_cut_military_funding:0 "Cut Military Funding"
-GER_cut_civilian_funding:0 "Close Down Unprofitable Factories"
-GER_draw_funds_from_mitteleuropa:0 "Funding from Mitteleuropa"
-GER_draw_funds_from_internal:0 "Internal Funding"
+GER_PT_meme:0 "I am something of an artist myself"
 
-GER_continue_reforms:0 "Continue Reforms"
-GER_free_markets:0 "Open up the Market"
-GER_tax_reform:0 "Tax Reform"
-GER_banking_act:0 "Banking Act"
-GER_inflation_controls:0 "Controlled Inflation Policies"
+GER_PT_austerity:0 "Austerity"
 
-GER_draw_public_support:0 ""The Empire has not failed you!""
-GER_the_dust_settles:0 "The Dust settles..."
+GER_PT_reforms:0 "Continue Reforms"
 
-#GER_domestic_cleanup:0 "Domestic Cleanup"
-#GER_put_down_liberals:0 "Put down Liberals"
-#GER_put_down_socialists:0 "Put down Socialists"
-#GER_put_down_separatists:0 "Put down Separatism"
+GER_PT_the_empire_has_not_failed_you:0 ""The Empire has not failed you!""
+GER_PT_the_dust_settles:0 "The Dust settles..."
 
+GER_PT_powderkeg_of_germany:0 "Powderkeg of Germany"
+GER_PT_put_down_liberals:0 "Put down Liberals"
+GER_PT_cooperate_with_liberals:0 "Cooperate with Liberals"
+GER_PT_put_down_socialists:0 "Put down Socialists"
+GER_PT_cooperate_with_socialists:0 "Cooperate with Socialists"
+GER_PT_deal_with_separatists:0 "Deal with Separatists"
+GER_PT_continuation_of_weltpolitik:0 "Continuation of Weltpolitik"
 
+GER_PT_return_of_ohl:0 "Return of the Supreme Army Command"
 
+GER_PT_war_doctrines:0 "Military Doctrines"
+
+GER_PT_section_IIIb:0 "Section IIIb"
+
+GER_PT_converting_to_war_economy:0 "Converting our Economic Power"
+
+GER_PT_guarantee_supplies:0 "Guaranteed Supplies"
+
+GER_PT_ensure_military_discipline:0 "Ensure Military Discipline"
+
+GER_PT_ensure_crown_loyalty:0 "Ensure Crown Loyalty"
+
+GER_PT_reestablish_the_SKL:0 "Reestablish the SKL"
 
 ### Events ###
 
@@ -84,19 +99,40 @@ ger.3.d:0 "---"
 ger.3.a:0 "We will begin our Austerity programs."
 ger.3.b:0 "Continued reforms will serve us better."
 
-### Decisions ###
+ger.20.t:0 "The Reestablishment of the Supreme Army Command"
+ger.20.d:0 "With the beginning of another major war, it has been made clear that the Oberste Heeresleitung is required again, and so both the government and military have come to a decision to reestablish it.\n\nThe Oberste Heeresleitung, or shortly OHL, is the Supreme Army Command of the empire, and is the highest echelon of the army. Made to coordinate the efforts of the Prussian Army, Royal Saxon Army, Army of Württemberg and the Bavarian army, the Kaiser would hold the highest position as the Oberster Kriegsherr (Supreme Warlord), a Commander-in-Chief of all the armies.\n\nThe role itself was more ceremonial however, and the real authority laid with the Chief of the General Staff. Later in the war, Paul von Hindenburg and Erich von Lundendorff would take power in the OHL during 1916, and they turned the empire into a military dictatorship, rendering the Reichstag and the Kaiser useless. This would end in 1919, where after the French intervention, the support for the government was low and the Kaiser would be able to sucessfully disband the Supreme Army Command and end the dictatorship.\n\nEveryone remembers this event, and now with the new OHL head Erich von Manstein, the government is keeping a tight eye on ensuring a situation like that doesn't happen again."
+ger.20.a:0 "We must be careful..."
 
-GER_police_reports:0 "Police Reports"
-  GER_police_report_utopianism:0 "UPD Report"
-  GER_police_report_council_communist:0 "SKPD Report"
-  GER_police_report_socialist:0 "SAPD Report"
-  GER_police_report_social_democrat:0 "SPD Report"
-  GER_police_report_liberal:0 "FVP Report"
-  GER_police_report_conservative:0 "DZS Report"
-  GER_police_report_authoritarian_democrat:0 "DKP Report"
-  GER_police_report_paternal_autocrat:0 "NDVP Report"
-  GER_police_report_national_populist:0 "National Populist Report"
-  GER_police_report_antiquarian_nationalist:0 "GRP Report"
+ger.21.t:0 "OHL Requests Control over an Industry Sector"
+ger.21.d:0 "In order to finance the soldiers, as well as produce military equipment, the OHL has requested us to authorize a direct takeover over a civilian industrial sector in Germany, with a promise that the holders would be rewarded for their compliance in this effort."
+ger.21.a:0 "Request Accepted."
+ger.21.b:0 "Request Denied."
+ger.24.t:0 "OHL Requests a New Protocol"
+ger.24.d:0 "OHL has requested to institute a new emergency protocol, giving the military the power to ignore a political order in case of unexpected emergency circumstances, to ensure a quick response can be mounted in a crisis if needed without awaiting for the government to get through it's processes and approve it."
+ger.24.a:0 "Request Accepted."
+ger.24.b:0 "What?! No way! Are they crazy?"
+ger.30.t:0 "The Question of OHL Jurisdiction"
+ger.30.d:0 "Ever since the start of the war and reestablishment of the German High Command, the civilian government has heavily attempted to keep it in check to prevent a similar situation to what was essentially an OHL dictatorship in the first World War and 1919. \n\nNonetheless, the efficiency of the High Command is admired by many war veterans and what some believe was one of the main factors for Germany's victory. It has also not been exactly a state secret that the current heads of the High Command are trying to increase their power over the Empire. \n\nWhile a civilian government shutdown would lead to a boost in military efficiency, it would make standard diplomatic and political efforts a lot harder to accomplish, and weaken our the influence of the Kaiser and give the DNVP exactly what they want. \n\nThe decision must be made here and now: do we stop them?"
+ger.30.a:0 "It is a necessary sacrifice, for the defence of Germany."
+ger.30.b:0 "They need to know their limits. Fire the current head and replace it with a loyalist."
+### Decisions ###
+GER_military_doctrines:0 "Military Doctrines"
+GER_military_doctrines_desc:0 "One of the benefits of a shadow military government is that with the state and military essentially becoming one, it allows the state power to drive the military effort better. With this, we can do mass coordination of all our armies and supplies to push a certain doctrine for our troops, and to concentrate on accomplishing a focused task: as a unified country."
+
+GER_md_blitzkrieg_tank_offensive:0 "§GBlitzkrieg§!: Tank Offensive"
+GER_md_blitzkrieg_infantry_offensive:0 "§GBlitzkrieg§!: Infantry Offensive"
+
+GER_md_offensive_infantry_offense:0 "§ROffensive§!: Infantry Attack"
+GER_md_offensive_infantry_rush_through:0 "§ROffensive§!: Infantry Rush"
+GER_md_offensive_air_offense:0 "§ROffensive§!: Air Offensive"
+
+GER_md_defense_dig_in:0 "§MDefensive§!: Infantry Defense"
+GER_md_defense_infantry_defense:0 "§MDefensive§!: Dig In the Trenches"
+
+GER_md_trench_warfare_dig_in:0 "§HTrench Warfare§!: Dig In"
+GER_md_trench_warfare_artillery_barrage:0 "§HTrench Warfare§!: Artillery Barrage"
+
+GER_md_adapt_to_another_country_strategy:0 "§gAdaptation§!: Counter The [From.GetName]"
 ### Flags ###
 ger_chosen_austerity:0 "Chosen Austerity"
 ger_chosen_continued_reforms:0 "Chosen Reforms"
@@ -104,7 +140,13 @@ ger_chosen_continued_reforms:0 "Chosen Reforms"
 ### Opinion Modifiers ###
 
 ### Tool Tips ###
+command_power_more_than_100:0 "§H100§!£command_power"
+command_power_more_than_100_blocked:0 "§R100§!£command_power"
+command_power_more_than_100_tooltip:0 "It costs §Y100§!£command_power to select this."
 
+command_power_more_than_150:0 "§H150§!£command_power"
+command_power_more_than_150_blocked:0 "§R150§!£command_power"
+command_power_more_than_150_tooltip:0 "It costs §Y150§!£command_power to select this."
 ### Ministers ###
 GER_Anton_Arco_Valley_val:0 "Anton von Arco auf Valley"
 Anton_Arco_Valley_dead:0 " is incapable of holding any posts."
@@ -521,6 +563,7 @@ Braun_company:0 "Braun"
 Wesser:0 "Weser Werften"
 konrad_zuse:0 "Konrad Zuse"
 hanomag:0 "Hanomag"
+
 ### Theorists##
 GER_Gotthard_Heinrici:0"Gotthard Heinrici"
 GER_Hans_Georg_von_Friedeburg:0"Hans Georg von Friedeburg"
@@ -531,6 +574,7 @@ GER_Gustav_Krupp:0"Gustav Krupp"
 GER_Alfred_Jodl:0"Alfred Jodl"
 GER_Erich_von_Manstein:0"Erich von Manstein" 
 ### Generals ###
+
 GER_Erwin_Rommel_desc:0 "§GMilitary Dossier\n§GBorn:§W15 November 1891 Heidenheim an der Brenz, Germany\n§GMilitary Career:§WRommel began his military career at the Officer Cadet School in Danzig in 1910 and quickly became a lieutenant by 1912. During the Great War he found great success using innovative infiltration tactics. Forces under his command would quickly advance with heavy covering fire and attack the enemy on their flanks causing heavy casualties and confusion. In 1915 Rommel was assigned to Mountaineer 'Alpenkorps' with whom he achieved some of his most impressive victories. During the Battle of Caporetto in 1917, Rommel lead his battalion in a mission to capture an Italian position in the mountains of northern Friuli. Within 2 days he and his men completed their objective, capturing 9,000 men in the process. By the end of the war in 1919 Rommel had become a popular war hero to the German people. Rommel is mostly uninterested in politics and when Dressler's Valkist party took power 1933 he continued to focus on his career and duty to the German People. \n-Awarded the Iron Cross Second Class in 1915.\n-Awarded the Pour le Mérite in 1917.\n§GNotes:§W\n-Advocate for Infiltration tactics\n-Apathetic towards politics\n-'Logistical Wizard' - One moment his supply lines are there, the next they're gone!"
 GER_Mazimilian_von_Weichs: "§GMilitary Dossier\n§GBorn:§W12 November 1881 Dessau, Germany\n§GMilitary Career:§WVon Weichs joined the Armed Forces of Germany in 1900 after graduating school. He was quickly found to be fit for duty in the German General Staff. During the Great War he served in many different roles, the highest being Staff Officer of the II. Bavarian Army Corps. After the Great War he continued to serve in the armed Forces, now reduced to a shadow of its former self. Being the Director of an Officer School in Thuringia and an early supporter of Dressler and Valkism he managed to indoctrinate many of his students into this new and extreme ideology.\n-Awarded the Iron Cross in 1915.\n-Awarded Royal Order of the House of Hohenzollern in 1918.\n§GNotes:§W\n-Skilled and Experienced in Staff Duty\n-Ardent Supporter of Valkism"
 GER_Paul_Hausser_desc:0 "§GMilitary Dossier\n§GBorn:§W7 Oktober 1880 Brandenburg, Germany\n§GMilitary Career:§WHausser joined the Army in 1899 and was quickly promoted to the Rank of Lieutenant. He was admitted into the German General Staff in 1912. In the Great War he served on various Staff Positions. After the Great War he was one of the few to be admitted into the new Reichswehr. In the Reichswehr he served as Commanding Officer of the 4. Prussian Infantry Regiment but was forced to leave the Army in 1923 due to his close ties to the Paramilitary Arm of the Valkist Party and their attempted Coup in the same year. Before Dressler’s eventual rise to power in 1933 Hausser was one of the most capable individuals the future ‘Fuhrer’ had to build up the Thuleschutztruppe whose core cadre was recruited from Sebottendorfs Thule Gesellschaft. Hausser was responsible for tactical and strategic training at the secret TST Officer School in Bad Tölz which was disguised as Theatre School. After Dressler took power Hausser was honorably readmitted into the new Wehrmacht, where he is now a General.\n-Awarded Iron Cross in 1914.\n-Awarded Order of the Iron Crown in 1918.\n§GNotes:§W\n-Very down to earth\n-Charismatic\n-Loved by his troops"

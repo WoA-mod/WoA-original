@@ -720,8 +720,8 @@ WIF = {
 }
 
 KCH = {
-	color = rgb { 0 54 63 }
-	color_ui = rgb { 0 54 63 }
+	color = rgb { 0 0 128 }
+	color_ui = rgb { 0 0 128 }
 }
 
 DEI = {

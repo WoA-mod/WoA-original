@@ -35,9 +35,8 @@ set_popularities = {
 			  5
 		
 		antiquarian_nationalist =
-              10
-		
-	}
+              10		
+}
 	
 	set_politics = { ruling_party = conservative
 	last_election = "1935.10.14"
