@@ -95,27 +95,6 @@ CAN = {
 	}
 }
 
-KCH = {
-	set_popularities = {									 
-		utopianism = 0
-		council_communist = 0
-		socialist =	2
-		social_democrat = 10
-		liberal = 25
-		conservative = 30
-		authoritarian_democrat = 16
-		paternal_autocrat = 16
-		national_populist = 1
-		antiquarian_nationalist = 0
-	}
-	set_politics = {
-		ruling_party = paternal_autocrat
-		last_election = "1935.10.14"
-		election_frequency = 60
-		elections_allowed = no
-	}
-}
-
 
 
 create_country_leader = {

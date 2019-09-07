@@ -35,6 +35,7 @@ ideas = {
 				OR = {
 					has_war_support > 0.5
 					has_war = yes
+					has_completed_focus = USA_limited_intervention
 				}
 			}
 			
@@ -68,6 +69,7 @@ ideas = {
 				OR = {
 					has_war_support > 0.75
 					has_war = yes
+					has_completed_focus = USA_limited_intervention					
 				}
 			}
 			
@@ -99,8 +101,31 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.15
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					NOT = { has_idea = HUN_treaty_of_triannon }
+				}
+				if = {
+					limit = {
+						has_completed_focus = USA_limited_intervention
+						has_defensive_war = no
+					}
+					has_war_support > 0.3
+				}	
 			}
-
+			on_add = {
+				if = {
+					limit = {
+						tag = USA
+						has_completed_focus = USA_limited_intervention
+						has_defensive_war = no
+					}
+				}
+			}
+			
 			cost = 150
 			removal_cost = -1
 			
@@ -139,6 +164,22 @@ ideas = {
 			available = {
 				has_war_support > 0.25
 
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					OR = {
+						has_completed_focus = HUN_secret_rearmament
+						NOT = { has_idea = HUN_treaty_of_triannon }
+					}
+				}
+				if = {
+					limit = {
+						has_completed_focus = USA_limited_intervention
+						has_defensive_war = no
+					}
+					has_war_support > 0.5
 				}
 			}
 
@@ -154,6 +195,15 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+			on_add = {
+				if = {
+					limit = {
+						tag = USA
+						has_completed_focus = USA_limited_intervention
+						has_defensive_war = no
+					}
+				}
+			}
 			ai_will_do = {
    				factor = 2
 
@@ -182,6 +232,21 @@ ideas = {
 						}
 					}
 				}
+
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					NOT = { has_idea = HUN_treaty_of_triannon }
+				}
+				if = {
+					limit = {
+						has_completed_focus = USA_limited_intervention
+						has_defensive_war = no
+					}
+					has_war_support > 0.75
+				}		
 			}
 		
 			cost = 150
@@ -195,6 +260,15 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+			on_add = {
+				if = {
+					limit = {
+						tag = USA
+						has_completed_focus = USA_limited_intervention
+						has_defensive_war = no
+					}
+				}
+			}
 			ai_will_do = {
    				factor = 5
 
@@ -216,6 +290,30 @@ ideas = {
 					ic_ratio = { 
 						tag = ROOT 
 						ratio > 0.5
+					}
+				}
+
+				if = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+					}
+					NOT = { has_idea = HUN_treaty_of_triannon }
+				}
+				if = {
+					limit = {
+						has_completed_focus = USA_limited_intervention
+						has_defensive_war = no
+					}
+					has_war_support > 0.9
+				}
+			}
+			on_add = {
+				if = {
+					limit = {
+						tag = USA
+						has_completed_focus = USA_limited_intervention
+						has_defensive_war = no
 					}
 				}
 			}
@@ -336,6 +434,13 @@ ideas = {
 			
 			available = {
 
+				if = {
+					limit = {
+						original_tag = CHI
+						has_dlc = "Waking the Tiger"
+					}
+					NOT = { has_idea = CHI_nine_power_treaty }
+				}
 			}
 			
 			
@@ -398,6 +503,15 @@ ideas = {
 						}
 					}
 				}
+
+
+				if = {
+					limit = {
+						original_tag = CHI
+						has_dlc = "Waking the Tiger"
+					}
+					NOT = { has_idea = CHI_nine_power_treaty }
+				}
 			}
 		
 			cost = 150
@@ -442,6 +556,18 @@ ideas = {
 				OR = {
 					has_idea = war_economy
 					has_idea = tot_economic_mobilisation
+				}
+				OR = {
+					NOT = {	tag = SOV }
+					NOT = { has_opinion_modifier = MR_pact }
+				}
+
+				if = {
+					limit = {
+						original_tag = CHI
+						has_dlc = "Waking the Tiger"
+					}
+					NOT = { has_idea = CHI_nine_power_treaty }
 				}
 			}
 			

@@ -1,55 +1,35 @@
 ﻿capital = 637
 
-set_research_slots = 3
 
-set_convoys = 50
-set_stability = 0.40
-set_war_support = 0.40
+set_convoys = 5
+set_stability = 0.50
+set_war_support = 0.50
 
 set_popularities = {
 
-		utopianism = 
-			  0
+
+		liberal = 
+			  12
 		
-		council_communist = 
-			  0
-			  
-		socialist = 
-			  2
+		authoritarian_democrat = 
+			  29
 		
-		social_democrat =
-			  10
-			  
-		liberal =
-			  25
-		
-		conservative =
-			  30
-		
-		authoritarian_democrat =
-			  16
-		
-		paternal_autocrat =
-			  16
-		
-		national_populist = 
-			  1
-		
-		antiquarian_nationalist =
-              0
-}
+		paternal_autocrat = 
+			  59
+	}
 	
-	set_politics = { ruling_party = paternal_autocrat
+	set_politics = { ruling_party = liberal
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Douglas MacArthur"
+	name = "Kamchatka Dude"
 	desc = ""
-	picture = "Portrait_USA_Douglas_MacArthur.dds"
-	ideology = paternal_autocrat_subtype
+	picture = "Portrait_USA_Charles_M_Cooke.dds"
+	ideology = liberal_subtype
 	traits = {
+		#
 	}
 }

@@ -3,7 +3,7 @@ state={
 	name="STATE_792"
 
 	history={
-		owner = KCH
+		owner = USA
 		buildings = {
 			infrastructure = 2
 			12207 = {
@@ -14,7 +14,6 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = RUS
-		add_core_of = KCH
 	}
 
 	provinces={
