@@ -20,7 +20,7 @@ Contributing
 ------------
 We've got [a discord](https://discordapp.com/invite/NUCbmhn) to communicate. We're more than happy to accept your pull requests, so long as they follow the lore explained in the Master Doc and they don't break the mod even more. Right now, you might want to focus on fixing the unbelievable amount of bugs and crashes. [This](https://github.com/WoA-mod/WoA/tree/TryinToUpdate) is the branch we are/were working on to make the mod up-to-date.
 
-You can contribute to the lore too, through the Google Docs comment feature. We don't mind anonymous submissions, but don't obviously in that case you won't be credited.
+You can contribute to the lore too, through the Google Docs comment feature. We don't mind anonymous submissions, but obviously in that case you won't be credited.
 
 Credits
 -------
@@ -31,18 +31,25 @@ I'll try to make a list (in no particular order) with some of the members of the
 * AirHunter (Lead coder throughout most if not all of the mod's existance, project "overseer")
 * Kurwa (Developer, project "overseer")
 * Fraaz (Developer, project "overseer")
-* SomeRandomEU4Fan (Developer)
+* SomeRandomEU4Fan (Developer, former "Caesar", AKA those-who-preceded-overseers)
 * Swoozle (Lead artist throughout most of the mod's existance)
 * Hellbat (Artist)
 * Loken (Developer)
 * PhoenixDefender (Developer)
 * Haruhi (Developer)
 * Toby (Developer)
+* Trained Gamer (Developer)
+* Bytestorm (Developer)
+* SMBlade (Developer)
 * TheCrusaderKing (Developer)
-* TheCaptain157 (Developer)
+* Bouncyknight (Developer)
+* Rosalind (Developer)
+* TheCaptain157 (Developer, map developer)
+* Himmler's fuckbuddy (Developer)
 * Tehrozer (wrote a part of Eastern Europe lore)
 * Essexia (Developer, maybe was there from the start?)
 * Roniius (Developer, original creator?)
-* Fede (Developer, former "caesar", AKA those-who-preceded-overseers)
-* kabajec (chinese translator)
+* Sample Text (Developer)
+* Fede (Developer, former "Caesar")
+* kabajec (Chinese translator)
 * Obviously Fuhrerreich devs since those who started this took their code.
