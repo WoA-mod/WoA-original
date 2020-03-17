@@ -1,6 +1,6 @@
 Whispers of Antiquity
 =====================
-Whispers of Antiquity was (is?) a mod for Hearts of Iron IV started during early 2016.
+Whispers of Antiquity was (is?) a mod for Hearts of Iron IV started during early 2018.
 The mod originally started as a meme, following the "-reich" trend (in fact, the original name was "Caesarreich", and was meant as spin-off of Fuhrerreich), but it eventually became its own thing, as the mod got more and more original.
 It aimed at building an alt-history world following a Great War where Germany won after the USA intervened _on the Central Powers' side_.
 
