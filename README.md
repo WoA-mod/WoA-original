@@ -18,7 +18,7 @@ Currently (and don't ask me whose idea was it) the "code" of this thing is an ab
 
 Contributing
 ------------
-We've got [a discord](https://discordapp.com/invite/NUCbmhn) to communicate. We're more than happy to accept your pull requests, so long as they follow the lore explained in the Master Doc and they don't break the mod even more. Right now, you might want to focus on fixing unbelievable amount of bugs and crashes. [This](https://github.com/WoA-mod/WoA/tree/TryinToUpdate) is the branch we are/were working on to make the mod up-to-date.
+We've got [a discord](https://discordapp.com/invite/NUCbmhn) to communicate. We're more than happy to accept your pull requests, so long as they follow the lore explained in the Master Doc and they don't break the mod even more. Right now, you might want to focus on fixing the unbelievable amount of bugs and crashes. [This](https://github.com/WoA-mod/WoA/tree/TryinToUpdate) is the branch we are/were working on to make the mod up-to-date.
 
 You can contribute to the lore too, through the Google Docs comment feature. We don't mind anonymous submissions, but don't obviously in that case you won't be credited.
 
