@@ -28,10 +28,10 @@ Eh... who knows? Countless people have left their mark on this thing, both artis
 
 I'll try to make a list (in no particular order) with some of the members of the original team I remember, but it might be inaccurate. Let us know on discord if you participated and are uncredited.
 
-* AirHunter (Lead coder throughout most if not all of the mod's existance, project "overseer")
+* AirHunter (Lead coder throughout most if not all of the mod's existance, former "Caesar", AKA those-who-preceded-overseers, project "overseer")
 * Kurwa (Developer, project "overseer")
 * Fraaz (Developer, project "overseer")
-* SomeRandomEU4Fan (Developer, former "Caesar", AKA those-who-preceded-overseers)
+* SomeRandomEU4Fan (Developer, former "Caesar")
 * Swoozle (Lead artist throughout most of the mod's existance)
 * Hellbat (Artist)
 * Loken (Developer)
@@ -47,9 +47,17 @@ I'll try to make a list (in no particular order) with some of the members of the
 * TheCaptain157 (Developer, map developer)
 * Himmler's fuckbuddy (Developer)
 * Tehrozer (wrote a part of Eastern Europe lore)
-* Essexia (Developer, maybe was there from the start?)
-* Roniius (Developer, original creator?)
+* Essexia (Developer, was there from the start)
+* Roniius (Developer, original creator)
 * Sample Text (Developer)
+* Youmu Konpaku (Developer)
+* Bolshevikboy (Developer)
+* Kirorankin (Developer)
+* JohnnyBL (Artist)
+* Techpenguin (Artist)
+* a toothbrush (Developer)
+* Arser (Developer)
+* Pim Misidjan (Developer)
 * Fede (Developer, former "Caesar")
 * kabajec (Chinese translator)
 * Obviously Fuhrerreich devs since those who started this took their code.
